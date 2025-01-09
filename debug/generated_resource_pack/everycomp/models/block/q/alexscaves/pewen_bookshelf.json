@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/cube_column",
-    "textures": {
-        "end": "alexscaves:block/pewen/pewen_planks",
-        "side": "everycomp:block/q/alexscaves/pewen_bookshelf"
-    }
-}

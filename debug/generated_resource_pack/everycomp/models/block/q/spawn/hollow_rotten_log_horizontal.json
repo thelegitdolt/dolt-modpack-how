@@ -1,8 +1,0 @@
-{
-	"parent": "quark:block/hollow_log_horizontal",
-	"textures": {
-		"end": "spawn:block/rotten_log_top",
-		"side": "spawn:block/rotten_log",
-		"inside": "spawn:block/stripped_rotten_log"
-	}
-}

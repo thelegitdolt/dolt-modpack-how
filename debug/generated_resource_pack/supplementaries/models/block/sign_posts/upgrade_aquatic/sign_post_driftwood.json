@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "supplementaries:block/sign_posts/template",
-	"textures": {
-		"particle": "supplementaries:block/sign_posts/upgrade_aquatic/sign_post_driftwood",
-		"east": "supplementaries:block/sign_posts/upgrade_aquatic/sign_post_driftwood"
-	}
-}

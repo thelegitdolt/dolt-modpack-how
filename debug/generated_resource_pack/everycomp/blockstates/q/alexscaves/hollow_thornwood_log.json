@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "axis=y":  { "model": "everycomp:block/q/alexscaves/hollow_thornwood_log" },
-        "axis=z":   { "model": "everycomp:block/q/alexscaves/hollow_thornwood_log_horizontal", "x": 90 },
-        "axis=x":   { "model": "everycomp:block/q/alexscaves/hollow_thornwood_log_horizontal", "x": 90, "y": 90 }
-    }
-}

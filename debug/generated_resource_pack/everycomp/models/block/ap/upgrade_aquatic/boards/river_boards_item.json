@@ -1,7 +1,0 @@
-{
-  "parent": "architects_palette:block/boards/parent",
-  "textures": {
-    "even": "everycomp:block/ap/upgrade_aquatic/river_boards",
-    "odd": "everycomp:block/ap/upgrade_aquatic/river_boards_odd"
-  }
-}

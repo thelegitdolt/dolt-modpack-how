@@ -1,6 +1,0 @@
-{
-  "parent": "quark:block/post",
-  "textures": {
-    "texture": "alexscaves:block/pewen/stripped_pewen_log"
-  }
-}

@@ -1,8 +1,0 @@
-{
-	"parent": "quark:block/hollow_log",
-	"textures": {
-		"end": "netherexp:block/claret_stem_top",
-		"side": "netherexp:block/claret_stem",
-		"inside": "netherexp:block/stripped_claret_stem"
-	}
-}

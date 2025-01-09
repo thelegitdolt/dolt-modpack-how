@@ -1,6 +1,0 @@
-{
-  "parent": "blueprint:block/template_boards_horizontal",
-  "textures": {
-    "all": "everycomp:block/abnww/quark/blossom_boards"
-  }
-}

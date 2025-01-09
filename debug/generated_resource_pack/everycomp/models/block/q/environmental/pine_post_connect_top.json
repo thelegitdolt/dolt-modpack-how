@@ -1,6 +1,0 @@
-{
-  "parent": "quark:block/post_connect_top",
-  "textures": {
-    "texture": "environmental:block/pine_log"
-  }
-}

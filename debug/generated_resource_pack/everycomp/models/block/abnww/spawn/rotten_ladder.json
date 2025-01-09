@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/ladder",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "particle": "everycomp:block/abnww/spawn/rotten_ladder",
-    "texture": "everycomp:block/abnww/spawn/rotten_ladder"
-  }
-}

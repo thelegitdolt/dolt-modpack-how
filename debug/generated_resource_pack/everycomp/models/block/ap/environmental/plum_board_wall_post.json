@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_wall_post",
-  "textures": {
-    "wall": "everycomp:block/ap/environmental/plum_boards"
-  }
-}

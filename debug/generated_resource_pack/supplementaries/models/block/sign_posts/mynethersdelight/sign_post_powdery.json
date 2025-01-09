@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "supplementaries:block/sign_posts/template",
-	"textures": {
-		"particle": "supplementaries:block/sign_posts/mynethersdelight/sign_post_powdery",
-		"east": "supplementaries:block/sign_posts/mynethersdelight/sign_post_powdery"
-	}
-}

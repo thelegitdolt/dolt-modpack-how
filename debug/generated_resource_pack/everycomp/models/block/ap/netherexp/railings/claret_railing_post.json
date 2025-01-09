@@ -1,6 +1,0 @@
-{
-  "parent": "architects_palette:block/railings/post",
-  "textures": {
-    "texture": "netherexp:block/claret_planks"
-  }
-}

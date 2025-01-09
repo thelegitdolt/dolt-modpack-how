@@ -1,8 +1,0 @@
-{
-	"parent": "quark:block/hollow_log",
-	"textures": {
-		"end": "atmospheric:block/kousa_log_top",
-		"side": "atmospheric:block/kousa_log",
-		"inside": "atmospheric:block/stripped_kousa_log"
-	}
-}

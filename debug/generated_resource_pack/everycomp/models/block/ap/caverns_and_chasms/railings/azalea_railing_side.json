@@ -1,6 +1,0 @@
-{
-  "parent": "architects_palette:block/railings/side",
-  "textures": {
-    "texture": "caverns_and_chasms:block/azalea_planks"
-  }
-}

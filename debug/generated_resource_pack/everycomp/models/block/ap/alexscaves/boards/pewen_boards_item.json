@@ -1,7 +1,0 @@
-{
-  "parent": "architects_palette:block/boards/parent",
-  "textures": {
-    "even": "everycomp:block/ap/alexscaves/pewen_boards",
-    "odd": "everycomp:block/ap/alexscaves/pewen_boards_odd"
-  }
-}

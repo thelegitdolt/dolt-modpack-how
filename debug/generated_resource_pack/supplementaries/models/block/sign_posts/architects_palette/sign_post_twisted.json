@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "supplementaries:block/sign_posts/template",
-	"textures": {
-		"particle": "supplementaries:block/sign_posts/architects_palette/sign_post_twisted",
-		"east": "supplementaries:block/sign_posts/architects_palette/sign_post_twisted"
-	}
-}

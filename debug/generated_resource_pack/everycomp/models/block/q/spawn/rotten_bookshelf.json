@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/cube_column",
-    "textures": {
-        "end": "spawn:block/rotten_planks",
-        "side": "everycomp:block/q/spawn/rotten_bookshelf"
-    }
-}

@@ -1,8 +1,0 @@
-{
-	"parent": "quark:block/hollow_log_horizontal",
-	"textures": {
-		"end": "environmental:block/wisteria_log_top",
-		"side": "environmental:block/wisteria_log",
-		"inside": "environmental:block/stripped_wisteria_log"
-	}
-}

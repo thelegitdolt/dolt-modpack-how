@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "everycomp:block/q/spawn/rotten_ladder" },
-        "facing=east":  { "model": "everycomp:block/q/spawn/rotten_ladder", "y": 90 },
-        "facing=south": { "model": "everycomp:block/q/spawn/rotten_ladder", "y": 180 },
-        "facing=west":  { "model": "everycomp:block/q/spawn/rotten_ladder", "y": 270 }
-    }
-}

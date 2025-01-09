@@ -1,8 +1,0 @@
-{
-	"parent": "quark:block/hollow_log",
-	"textures": {
-		"end": "environmental:block/plum_log_top",
-		"side": "environmental:block/plum_log",
-		"inside": "environmental:block/stripped_plum_log"
-	}
-}

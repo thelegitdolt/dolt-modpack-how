@@ -1,6 +1,0 @@
-{
-  "parent": "architects_palette:block/railings/inventory",
-  "textures": {
-    "texture": "atmospheric:block/rosewood_planks"
-  }
-}

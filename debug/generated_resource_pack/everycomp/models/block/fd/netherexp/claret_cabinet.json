@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "front": "everycomp:block/fd/netherexp/claret_cabinet_front",
-    "side": "everycomp:block/fd/netherexp/claret_cabinet_side",
-    "top": "everycomp:block/fd/netherexp/claret_cabinet_top"
-  }
-}

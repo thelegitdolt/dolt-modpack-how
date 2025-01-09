@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/chiseled_bookshelf",
-  "textures": {
-    "side": "everycomp:block/abnww/architects_palette/chiseled_twisted_bookshelf_side",
-    "top": "everycomp:block/abnww/architects_palette/chiseled_twisted_bookshelf_top"
-  }
-}

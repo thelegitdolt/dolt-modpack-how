@@ -1,7 +1,0 @@
-{
-  "parent": "quark:block/hedge_post",
-  "textures": {
-    "log": "minecraft:block/oak_log",
-    "leaf": "atmospheric:block/dry_laurel_leaves"
-  }
-}

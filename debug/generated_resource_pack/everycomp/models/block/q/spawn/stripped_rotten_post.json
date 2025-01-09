@@ -1,6 +1,0 @@
-{
-  "parent": "quark:block/post",
-  "textures": {
-    "texture": "spawn:block/stripped_rotten_log"
-  }
-}
