@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post",
+  "textures": {
+    "texture": "spawn:block/rotten_log"
+  }
+}

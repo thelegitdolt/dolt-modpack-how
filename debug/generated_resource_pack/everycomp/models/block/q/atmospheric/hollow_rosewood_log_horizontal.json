@@ -1,0 +1,8 @@
+{
+	"parent": "quark:block/hollow_log_horizontal",
+	"textures": {
+		"end": "atmospheric:block/rosewood_log_top",
+		"side": "atmospheric:block/rosewood_log",
+		"inside": "atmospheric:block/stripped_rosewood_log"
+	}
+}

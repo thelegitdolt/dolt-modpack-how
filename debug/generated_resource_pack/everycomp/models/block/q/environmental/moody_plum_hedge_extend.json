@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/hedge_extend",
+  "textures": {
+    "leaf": "environmental:block/moody_plum_leaves"
+  }
+}

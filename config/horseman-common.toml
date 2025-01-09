@@ -1,0 +1,39 @@
+
+[movement]
+	#When mounting a horse, rotate it to match player looking direction, instead of rotating the player. Default: true
+	rotate_horse_instead_of_player = true
+	#Fix horse jitter and reset back when riding up blocks (especially stairs) Mojang bug: MC-100830. Default: true
+	fix_horse_moved_wrongly = true
+	#Make horse step down one block faster by adding downwards velocity.
+	#Reduces slowdown when riding off a block, making riding much smoother. Default: true
+	horse_fast_step_down = true
+	#Makes 'horse_fast_step_down' work when stepping down two blocks.
+	#Makes fast step down work properly for steep staircases. Default: false
+	horse_fast_step_down_two_blocks = false
+	#Make horse airborne speed faster. Improves jumping distance (horizontal) and speed walking off heights. Default: true
+	increase_horse_airborne_speed = true
+	#Controls how much 'increase_horse_airborne_speed' increases over vanilla.
+	#0 - vanilla speed
+	#1 - full speed (same as running on the ground)
+	#Note: there is still small initial slowdown when running off a block (start falling), after which speed increases to proper value.
+	#Default: 0.5
+	#Range: 0.0 ~ 1.0
+	increase_horse_airborne_speed_amount = 0.5
+
+[hitching]
+	#Right clicking a fence while riding will leash the horse to it. Default: true
+	horse_hitch = true
+	#Slot for a lead will be added to horse inventory menu. If disabled, horses can be hitched while riding without a lead. Default: true
+	horse_hitch_lead_slot = true
+
+[misc]
+	#Right clicking a Mule, Donkey or Llama that has chest with shears will remove the chest and drop its items. Default: true
+	shears_remove_chest = true
+
+[free_camera]
+	#While horse is stationary - allow moving camera freely, without rotating the horse. Default: true
+	horse_stationary_free_camera = true
+	#Threshold in degrees after which horse will follow player rotation. Default: 65
+	#Range: 0.0 ~ 180.0
+	horse_stationary_free_camera_angle_threshold = 65.0
+

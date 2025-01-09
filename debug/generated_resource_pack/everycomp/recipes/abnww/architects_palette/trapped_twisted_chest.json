@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "wooden_chests",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "redstone",
+        "group": "wooden_trapped_chest",
+        "ingredients": [
+          {
+            "item": "everycomp:abnww/architects_palette/twisted_chest"
+          },
+          {
+            "item": "minecraft:tripwire_hook"
+          }
+        ],
+        "result": {
+          "item": "everycomp:abnww/architects_palette/trapped_twisted_chest"
+        }
+      }
+    }
+  ]
+}

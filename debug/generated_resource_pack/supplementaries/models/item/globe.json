@@ -1,0 +1,122 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "supplementaries:item/globe"
+  },
+  "overrides": [
+    {
+      "model": "supplementaries:item/globe_agrona",
+      "predicate": {
+        "supplementaries:type": 0.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_artkek",
+      "predicate": {
+        "supplementaries:type": 1.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_caketaco",
+      "predicate": {
+        "supplementaries:type": 2.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_chu",
+      "predicate": {
+        "supplementaries:type": 3.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_dausora",
+      "predicate": {
+        "supplementaries:type": 4.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_e_y_e_",
+      "predicate": {
+        "supplementaries:type": 5.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_fishsupreme",
+      "predicate": {
+        "supplementaries:type": 6.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_flat",
+      "predicate": {
+        "supplementaries:type": 7.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_little_pianist",
+      "predicate": {
+        "supplementaries:type": 8.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_moon",
+      "predicate": {
+        "supplementaries:type": 9.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_plantkillable",
+      "predicate": {
+        "supplementaries:type": 10.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_sun",
+      "predicate": {
+        "supplementaries:type": 11.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_sylvetichearts",
+      "predicate": {
+        "supplementaries:type": 12.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_the_world",
+      "predicate": {
+        "supplementaries:type": 13.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_thugpug43",
+      "predicate": {
+        "supplementaries:type": 14.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_toffanelly",
+      "predicate": {
+        "supplementaries:type": 15.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_torchthedragon",
+      "predicate": {
+        "supplementaries:type": 16.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_wais",
+      "predicate": {
+        "supplementaries:type": 17.0
+      }
+    },
+    {
+      "model": "supplementaries:item/globe_zam",
+      "predicate": {
+        "supplementaries:type": 18.0
+      }
+    }
+  ]
+}

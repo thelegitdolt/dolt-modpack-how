@@ -1,0 +1,6 @@
+{   
+    "parent": "quark:block/leaf_carpet",
+    "textures": {
+        "all": "environmental:block/plum_leaves"
+    }
+}

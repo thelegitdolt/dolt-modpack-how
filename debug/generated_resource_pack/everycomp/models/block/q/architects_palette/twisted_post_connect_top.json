@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post_connect_top",
+  "textures": {
+    "texture": "architects_palette:block/twisted_log"
+  }
+}

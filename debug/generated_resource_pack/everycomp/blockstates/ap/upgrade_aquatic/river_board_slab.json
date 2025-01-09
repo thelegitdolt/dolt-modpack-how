@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "everycomp:block/ap/upgrade_aquatic/river_board_slab"
+    },
+    "type=double": {
+      "model": "everycomp:block/ap/upgrade_aquatic/river_boards"
+    },
+    "type=top": {
+      "model": "everycomp:block/ap/upgrade_aquatic/river_board_slab_top"
+    }
+  }
+}

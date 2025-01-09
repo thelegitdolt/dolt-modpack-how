@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "flag": "hollow_logs",
+          "type": "quark:flag"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "pattern": [
+          " L ",
+          "L L",
+          " L "
+        ],
+        "key": {
+          "L": {
+            "item": "spawn:rotten_log"
+          }
+        },
+        "result": {
+          "item": "everycomp:q/spawn/hollow_rotten_log",
+          "count": 4
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

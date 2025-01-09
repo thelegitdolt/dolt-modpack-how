@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "wooden_ladders",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "group": "wooden_ladder",
+        "pattern": [
+          "S S",
+          "S#S",
+          "S S"
+        ],
+        "key": {
+          "#": {
+            "item": "alexscaves:thornwood_planks"
+          },
+          "S": {
+            "item": "minecraft:stick"
+          }
+        },
+        "result": {
+          "item": "everycomp:abnww/alexscaves/thornwood_ladder",
+          "count": 4
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "D": {
+      "item": "alexscaves:thornwood_trapdoor"
+    },
+    "_": {
+      "item": "alexscaves:thornwood_slab"
+    }
+  },
+  "result": {
+    "item": "everycomp:fd/alexscaves/thornwood_cabinet"
+  },
+  "show_notification": true
+}

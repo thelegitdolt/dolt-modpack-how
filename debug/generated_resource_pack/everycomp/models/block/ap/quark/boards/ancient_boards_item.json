@@ -1,0 +1,7 @@
+{
+  "parent": "architects_palette:block/boards/parent",
+  "textures": {
+    "even": "everycomp:block/ap/quark/ancient_boards",
+    "odd": "everycomp:block/ap/quark/ancient_boards_odd"
+  }
+}

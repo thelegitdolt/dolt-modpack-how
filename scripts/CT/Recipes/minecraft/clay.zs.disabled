@@ -1,0 +1,14 @@
+DebugUtil.startScript("/Recipes/minecraft/clay.zs.disabled/"); 
+    
+
+val star = <item:minecraft:nether_star>;
+craftingTable.addShaped("clay", <item:minecraft:clay_ball>, [
+    [star, star, star],
+    [star, star.transformReplace(<item:anchor:music_disc_star>), star],
+    [star, star, star]
+]);
+
+
+
+
+DebugUtil.endScript("/Recipes/minecraft/clay.zs.disabled"); 

@@ -1,0 +1,6 @@
+{
+  "parent": "architects_palette:block/railings/post",
+  "textures": {
+    "texture": "atmospheric:block/morado_planks"
+  }
+}

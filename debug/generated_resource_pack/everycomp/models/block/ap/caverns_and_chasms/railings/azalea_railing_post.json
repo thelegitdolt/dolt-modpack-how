@@ -1,0 +1,6 @@
+{
+  "parent": "architects_palette:block/railings/post",
+  "textures": {
+    "texture": "caverns_and_chasms:block/azalea_planks"
+  }
+}

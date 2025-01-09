@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "mynethersdelight:block/powdery_planks",
+        "side": "everycomp:block/q/mynethersdelight/powdery_bookshelf"
+    }
+}

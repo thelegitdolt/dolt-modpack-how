@@ -1,0 +1,29 @@
+{
+  "modifiers": [
+    {
+      "type": "entries",
+      "config": {
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "caverns_and_chasms:barometer"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "map_atlases:atlas"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:spyglass"
+          }
+        ],
+        "index": 1,
+        "replace": false
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": "minecraft:chests/shipwreck_map"
+}

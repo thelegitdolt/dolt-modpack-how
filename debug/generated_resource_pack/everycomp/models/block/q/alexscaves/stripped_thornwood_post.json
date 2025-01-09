@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post",
+  "textures": {
+    "texture": "alexscaves:block/thornwood/stripped_thornwood_log"
+  }
+}

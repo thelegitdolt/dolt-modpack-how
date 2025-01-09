@@ -1,0 +1,12 @@
+{
+  "loader": "architects_palette:wrapped",
+  "wrapped_model": {
+    "parent": "minecraft:block/stairs",
+    "textures": {
+      "bottom": "everycomp:block/ap/netherexp/claret_boards",
+      "side": "everycomp:block/ap/netherexp/claret_boards",
+      "top": "everycomp:block/ap/netherexp/claret_boards"
+    }
+  },
+  "wrapper_type": "boards"
+}

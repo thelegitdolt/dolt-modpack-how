@@ -1,0 +1,14 @@
+{
+	"parent": "amendments:block/double_cake/slice3_template",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"side_up": "neapolitan:block/mint_cake_side",
+		"top_up": "neapolitan:block/mint_cake_top",
+		"inner": "neapolitan:block/mint_cake_inner",
+		"bottom": "neapolitan:block/mint_cake_bottom",
+		"top": "neapolitan:block/mint_cake_top",
+		"particle": "neapolitan:block/mint_cake_side",
+		"side": "neapolitan:block/mint_cake_side"
+	}
+
+}

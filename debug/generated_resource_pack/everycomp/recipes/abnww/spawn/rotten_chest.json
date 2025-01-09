@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "wooden_chests",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "group": "wooden_chest",
+        "pattern": [
+          "###",
+          "# #",
+          "###"
+        ],
+        "key": {
+          "#": {
+            "item": "spawn:rotten_planks"
+          }
+        },
+        "result": {
+          "item": "everycomp:abnww/spawn/rotten_chest"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

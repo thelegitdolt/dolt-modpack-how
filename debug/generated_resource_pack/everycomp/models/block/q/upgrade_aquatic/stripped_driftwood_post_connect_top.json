@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post_connect_top",
+  "textures": {
+    "texture": "upgrade_aquatic:block/stripped_driftwood_log"
+  }
+}

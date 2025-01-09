@@ -1,0 +1,27 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "leaf_piles",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "group": "leaf_pile",
+        "ingredients": [
+          {
+            "item": "alexscaves:ancient_leaves"
+          }
+        ],
+        "result": {
+          "item": "everycomp:abnww/alexscaves/ancient_leaf_pile",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

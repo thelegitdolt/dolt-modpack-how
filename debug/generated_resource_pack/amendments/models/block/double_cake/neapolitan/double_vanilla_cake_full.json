@@ -1,0 +1,13 @@
+{
+	"parent": "amendments:block/double_cake/full_template",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"side_up": "neapolitan:block/vanilla_cake_side",
+		"top_up": "neapolitan:block/vanilla_cake_top",
+		"bottom": "neapolitan:block/vanilla_cake_bottom",
+		"top": "neapolitan:block/vanilla_cake_top",
+		"particle": "neapolitan:block/vanilla_cake_side",
+		"side": "neapolitan:block/vanilla_cake_side"
+	}
+
+}

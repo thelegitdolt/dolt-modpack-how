@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post_connect_top",
+  "textures": {
+    "texture": "environmental:block/stripped_plum_log"
+  }
+}

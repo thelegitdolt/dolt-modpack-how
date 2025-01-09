@@ -1,0 +1,7 @@
+#Offset to horse model head pitch while riding. Lowers the head so it's not blocking the view. Default: 20
+#Range: 0 ~ 45
+HorseModelHeadOffset = 20
+#Offset to horse model head y position while riding. Lowers the head so it's not blocking the view. Default: true
+#Range: 0 ~ 4
+HorseModelYOffset = 2
+

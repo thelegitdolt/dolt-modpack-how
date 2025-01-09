@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "netherexp:block/claret_planks",
+    "side": "everycomp:block/abnww/netherexp/claret_bookshelf"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "quark:block/hedge_post",
+  "textures": {
+    "log": "architects_palette:block/twisted_log",
+    "leaf": "architects_palette:block/twisted_leaves"
+  }
+}

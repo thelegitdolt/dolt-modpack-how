@@ -1,0 +1,14 @@
+{
+	"parent": "amendments:block/double_cake/slice1_template",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"side_up": "farmersrespite:block/coffee_cake_side",
+		"top_up": "farmersrespite:block/coffee_cake_top",
+		"inner": "farmersrespite:block/coffee_cake_inner",
+		"bottom": "farmersrespite:block/coffee_cake_bottom",
+		"top": "farmersrespite:block/coffee_cake_top",
+		"particle": "farmersrespite:block/coffee_cake_side",
+		"side": "farmersrespite:block/coffee_cake_side"
+	}
+
+}

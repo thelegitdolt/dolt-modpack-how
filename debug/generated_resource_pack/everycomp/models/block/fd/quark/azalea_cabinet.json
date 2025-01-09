@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "everycomp:block/fd/quark/azalea_cabinet_front",
+    "side": "everycomp:block/fd/quark/azalea_cabinet_side",
+    "top": "everycomp:block/fd/quark/azalea_cabinet_top"
+  }
+}

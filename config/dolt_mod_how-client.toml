@@ -1,0 +1,7 @@
+
+["Sully's Mod"]
+
+	["Sully's Mod"."Grindstone Tooltip"]
+		#If the tooltips appended to grindable items in Sully's Mod should be removed
+		"No Grindstone Tooltip" = true
+

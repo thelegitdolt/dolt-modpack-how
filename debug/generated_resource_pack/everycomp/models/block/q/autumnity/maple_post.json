@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post",
+  "textures": {
+    "texture": "autumnity:block/maple_log"
+  }
+}

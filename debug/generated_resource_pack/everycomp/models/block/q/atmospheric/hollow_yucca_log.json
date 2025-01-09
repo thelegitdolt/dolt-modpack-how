@@ -1,0 +1,8 @@
+{
+	"parent": "quark:block/hollow_log",
+	"textures": {
+		"end": "atmospheric:block/yucca_log_top",
+		"side": "atmospheric:block/yucca_log",
+		"inside": "atmospheric:block/stripped_yucca_log"
+	}
+}

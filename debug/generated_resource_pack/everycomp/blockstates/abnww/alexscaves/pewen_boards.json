@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "everycomp:block/abnww/alexscaves/pewen_boards_horizontal",
+      "y": 270
+    },
+    "axis=y": {
+      "model": "everycomp:block/abnww/alexscaves/pewen_boards"
+    },
+    "axis=z": {
+      "model": "everycomp:block/abnww/alexscaves/pewen_boards_horizontal"
+    }
+  }
+}

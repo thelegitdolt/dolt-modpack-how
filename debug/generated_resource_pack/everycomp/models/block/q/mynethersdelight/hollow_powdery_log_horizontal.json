@@ -1,0 +1,8 @@
+{
+	"parent": "quark:block/hollow_log_horizontal",
+	"textures": {
+		"end": "mynethersdelight:block/powdery_block_top",
+		"side": "mynethersdelight:block/powdery_block",
+		"inside": "mynethersdelight:block/stripped_powdery_block"
+	}
+}

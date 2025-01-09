@@ -1,0 +1,12 @@
+{
+  "loader": "architects_palette:wrapped",
+  "wrapped_model": {
+    "parent": "minecraft:block/slab",
+    "textures": {
+      "bottom": "everycomp:block/ap/atmospheric/aspen_boards",
+      "side": "everycomp:block/ap/atmospheric/aspen_boards",
+      "top": "everycomp:block/ap/atmospheric/aspen_boards"
+    }
+  },
+  "wrapper_type": "boards"
+}

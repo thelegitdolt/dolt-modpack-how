@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post",
+  "textures": {
+    "texture": "mynethersdelight:block/stripped_powdery_block"
+  }
+}

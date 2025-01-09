@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post",
+  "textures": {
+    "texture": "atmospheric:block/kousa_log"
+  }
+}

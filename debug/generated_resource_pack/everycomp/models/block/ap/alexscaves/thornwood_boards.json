@@ -1,0 +1,10 @@
+{
+  "loader": "architects_palette:wrapped",
+  "wrapped_model": {
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+      "all": "everycomp:block/ap/alexscaves/thornwood_boards"
+    }
+  },
+  "wrapper_type": "boards"
+}

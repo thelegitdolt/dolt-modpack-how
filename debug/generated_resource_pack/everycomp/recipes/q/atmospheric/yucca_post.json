@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "flag": "wooden_posts",
+          "type": "quark:flag"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "pattern": [
+          "F",
+          "F",
+          "F"
+        ],
+        "key": {
+          "F": {
+            "item": "atmospheric:yucca_wood"
+          }
+        },
+        "result": {
+          "item": "everycomp:q/atmospheric/yucca_post",
+          "count": 8
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "architects_palette:block/railings/post",
+  "textures": {
+    "texture": "quark:block/ancient_planks"
+  }
+}

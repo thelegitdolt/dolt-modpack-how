@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "wooden_bookshelves",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "pattern": [
+          "###",
+          "XXX",
+          "###"
+        ],
+        "key": {
+          "#": {
+            "item": "alexscaves:thornwood_planks"
+          },
+          "X": {
+            "item": "alexscaves:thornwood_slab"
+          }
+        },
+        "result": {
+          "item": "everycomp:abnww/alexscaves/chiseled_thornwood_bookshelf"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

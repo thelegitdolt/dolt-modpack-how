@@ -1,0 +1,12 @@
+{
+  "loader": "architects_palette:wrapped",
+  "wrapped_model": {
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+      "bottom": "everycomp:block/ap/spawn/rotten_boards",
+      "side": "everycomp:block/ap/spawn/rotten_boards",
+      "top": "everycomp:block/ap/spawn/rotten_boards"
+    }
+  },
+  "wrapper_type": "boards"
+}

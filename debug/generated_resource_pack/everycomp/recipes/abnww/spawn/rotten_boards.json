@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "wooden_boards",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "group": "wooden_boards",
+        "pattern": [
+          "#",
+          "#"
+        ],
+        "key": {
+          "#": {
+            "item": "spawn:rotten_slab"
+          }
+        },
+        "result": {
+          "item": "everycomp:abnww/spawn/rotten_boards"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

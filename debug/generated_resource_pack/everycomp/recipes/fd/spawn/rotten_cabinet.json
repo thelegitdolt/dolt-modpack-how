@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "D": {
+      "item": "spawn:rotten_trapdoor"
+    },
+    "_": {
+      "item": "spawn:rotten_slab"
+    }
+  },
+  "result": {
+    "item": "everycomp:fd/spawn/rotten_cabinet"
+  },
+  "show_notification": true
+}

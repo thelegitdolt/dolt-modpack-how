@@ -1,0 +1,59 @@
+
+[Vanilla]
+
+	[Vanilla.metal_ores]
+		#If mining ores that normally drop raw ores should grant XP
+		"Experienced metal" = true
+
+	[Vanilla.farmland]
+		#Whether farmland can be untilled by sneak-right clicking them with a hoe
+		"Untillable Farmland" = true
+
+	[Vanilla.crops]
+		#If all blocks that are crops should drop experience.
+		"Experienced Crops" = true
+		#Minimum XP a crop block will drop when broken.
+		"Minimum Crop XP" = 0
+		#Maximum XP a crop block will drop when broken.
+		"Maximum Crop XP" = 1
+
+	[Vanilla.dispensers]
+		#If dispensers should be able to dispense into cauldrons
+		"Dispenser Cauldrons" = true
+
+	[Vanilla.disc]
+		#The disc that should be spawned when a jukebox is struck with lightning. Disables if string is "no"
+		"Lightning Disc" = "minecraft:music_disc_ward"
+
+[atmospheric]
+
+	[atmospheric.Oranges]
+		#If oranges can no longer be jumped on to be broken and to create a vapor cloud
+		"Normal Oranges" = true
+
+[farmersdelight]
+
+	[farmersdelight."Knife Enchantments"]
+		#If knives should no longer receive the silk touch and efficiency from the enchanting table
+		"Unbloated Knife Enchantments" = true
+
+[nethersdelight]
+
+	[nethersdelight.fungus_colonies]
+		#If fungus colonies should grow on normal rich soil instead of soul rich soil
+		"Rich Fungus" = true
+
+	[nethersdelight.bullet_peppers]
+		#If bullet peppers should become unplaceable, thus killing letios plants forever
+		"Kill letios plants" = true
+
+	[nethersdelight.magma_cakes]
+		#If frogs should become unable to consume magma cakes
+		"Magma Cakes Good" = true
+
+	[nethersdelight.supplementaries]
+
+		[nethersdelight.supplementaries.quivers]
+			#If processing a quiver in a cutting board will eject all the arrows in that quiver
+			"Realistic Quivers" = true
+

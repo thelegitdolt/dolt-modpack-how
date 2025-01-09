@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "everycomp:block/ap/atmospheric/aspen_board_slab"
+    },
+    "type=double": {
+      "model": "everycomp:block/ap/atmospheric/aspen_boards"
+    },
+    "type=top": {
+      "model": "everycomp:block/ap/atmospheric/aspen_board_slab_top"
+    }
+  }
+}

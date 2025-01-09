@@ -1,0 +1,6 @@
+{   
+    "parent": "quark:block/vertical_planks",
+    "textures": {
+        "all": "mynethersdelight:block/powdery_planks"
+    }
+}

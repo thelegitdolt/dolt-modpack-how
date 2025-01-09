@@ -1,0 +1,12 @@
+{
+  "loader": "architects_palette:wrapped",
+  "wrapped_model": {
+    "parent": "minecraft:block/slab",
+    "textures": {
+      "bottom": "everycomp:block/ap/quark/ancient_boards",
+      "side": "everycomp:block/ap/quark/ancient_boards",
+      "top": "everycomp:block/ap/quark/ancient_boards"
+    }
+  },
+  "wrapper_type": "boards"
+}

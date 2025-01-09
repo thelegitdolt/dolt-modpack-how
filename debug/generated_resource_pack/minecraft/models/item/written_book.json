@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/written_book"
+  },
+  "overrides": [
+    {
+      "model": "minecraft:item/written_book_tattered",
+      "predicate": {
+        "supplementaries:antique_ink": 1.0
+      }
+    }
+  ]
+}

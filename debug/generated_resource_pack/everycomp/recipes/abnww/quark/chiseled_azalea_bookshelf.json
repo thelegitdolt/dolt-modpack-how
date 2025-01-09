@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "wooden_bookshelves",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "pattern": [
+          "###",
+          "XXX",
+          "###"
+        ],
+        "key": {
+          "#": {
+            "item": "quark:azalea_planks"
+          },
+          "X": {
+            "item": "quark:azalea_planks_slab"
+          }
+        },
+        "result": {
+          "item": "everycomp:abnww/quark/chiseled_azalea_bookshelf"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

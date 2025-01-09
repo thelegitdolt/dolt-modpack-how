@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "supplementaries:block/sign_posts/template",
+	"textures": {
+		"particle": "supplementaries:block/sign_posts/atmospheric/sign_post_yucca",
+		"east": "supplementaries:block/sign_posts/atmospheric/sign_post_yucca"
+	}
+}

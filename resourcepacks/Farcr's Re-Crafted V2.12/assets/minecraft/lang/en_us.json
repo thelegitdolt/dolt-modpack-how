@@ -1,0 +1,16 @@
+{
+	"item.minecraft.enchanted_golden_apple": "Unalloyed Gold Apple",
+	
+	"entity.minecraft.zombified_piglin": "Zombie Piglin",
+	"item.minecraft.zombified_piglin_spawn_egg": "Zombie Piglin Spawn Egg",
+	"entity.minecraft.zoglin": "Zombie Hoglin",
+	"item.minecraft.zoglin_spawn_egg": "Zombie Hoglin Spawn Egg",
+	
+	"subtitles.entity.hoglin.converted_to_zombified": "Hoglin converts to Zombie Hoglin",
+	"subtitles.entity.piglin_brute.converted_to_zombified": "Piglin Brute converts to Zombie Piglin",
+	"subtitles.entity.piglin.converted_to_zombified": "Piglin converts to Zombie Piglin",
+	"subtitles.entity.zombified_piglin.ambient": "Zombie Piglin grunts",
+    "subtitles.entity.zombified_piglin.angry": "Zombie Piglin grunts angrily",
+    "subtitles.entity.zombified_piglin.death": "Zombie Piglin dies",
+    "subtitles.entity.zombified_piglin.hurt": "Zombie Piglin hurts"
+}

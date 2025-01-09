@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "everycomp:block/abnww/alexscaves/thornwood_ladder"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "blueprint:block/template_boards_horizontal",
+  "textures": {
+    "all": "everycomp:block/abnww/mynethersdelight/powdery_boards"
+  }
+}

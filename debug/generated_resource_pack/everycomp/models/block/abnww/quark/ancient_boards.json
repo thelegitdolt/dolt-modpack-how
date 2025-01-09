@@ -1,0 +1,6 @@
+{
+  "parent": "blueprint:block/template_boards",
+  "textures": {
+    "all": "everycomp:block/abnww/quark/ancient_boards"
+  }
+}

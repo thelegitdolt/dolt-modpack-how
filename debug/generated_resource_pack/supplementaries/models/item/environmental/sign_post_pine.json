@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "supplementaries:item/sign_posts/environmental/sign_post_pine"
+  }
+}

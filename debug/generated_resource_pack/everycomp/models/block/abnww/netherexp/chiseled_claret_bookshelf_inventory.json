@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/chiseled_bookshelf_inventory",
+  "textures": {
+    "front": "everycomp:block/abnww/netherexp/chiseled_claret_bookshelf_empty",
+    "side": "everycomp:block/abnww/netherexp/chiseled_claret_bookshelf_side",
+    "top": "everycomp:block/abnww/netherexp/chiseled_claret_bookshelf_top"
+  }
+}

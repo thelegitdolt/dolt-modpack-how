@@ -1,0 +1,27 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "leaf_piles",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "group": "leaf_pile",
+        "ingredients": [
+          {
+            "item": "architects_palette:twisted_leaves"
+          }
+        ],
+        "result": {
+          "item": "everycomp:abnww/architects_palette/twisted_leaf_pile",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

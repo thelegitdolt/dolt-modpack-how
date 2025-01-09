@@ -1,0 +1,6 @@
+{
+  "parent": "blueprint:block/template_boards",
+  "textures": {
+    "all": "everycomp:block/abnww/architects_palette/twisted_boards"
+  }
+}

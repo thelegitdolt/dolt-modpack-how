@@ -1,0 +1,11 @@
+{
+  "molding": "json",
+  "remolder": {
+    "type": "add",
+    "target": "elements[]",
+    "value": {
+      
+    }
+  },
+  "selector": "quark:attribute_tooltips"
+}

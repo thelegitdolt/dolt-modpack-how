@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "everycomp:item/abnbl/alexscaves/large_pewen_boat"
+  }
+}

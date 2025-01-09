@@ -1,0 +1,10 @@
+
+["goat horn"]
+	#The maximum amount of sounds able to be played the goat horn is defined here.
+	#Range: > -2147483648
+	"Maximum amount" = 5
+	#Range: > -2147483648
+	"Defines how far a goat horn block from the other end of redstone can be in order to get sounds to transfer" = 90
+	#Range: > -2147483648
+	"Range for the sounds heard by a goat horn block" = 5
+

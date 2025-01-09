@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "everycomp:block/ap/upgrade_aquatic/river_boards"
+  }
+}

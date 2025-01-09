@@ -1,0 +1,7 @@
+{
+  "parent": "architects_palette:block/boards/parent",
+  "textures": {
+    "even": "everycomp:block/ap/netherexp/claret_boards",
+    "odd": "everycomp:block/ap/netherexp/claret_boards_odd"
+  }
+}

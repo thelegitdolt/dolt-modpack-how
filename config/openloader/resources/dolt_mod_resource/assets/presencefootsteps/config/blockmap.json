@@ -1,0 +1,557 @@
+{
+	"#comment_presence_footsteps_vanillamap": "https://github.com/Sollace/Presence-Footsteps/blob/1.20.5/src/main/resources/resourcepacks/default_sound_pack/assets/presencefootsteps/config/blockmap.json",
+	"minecraft:hay_block": "leaves,grass",
+	"minecraft:smithing_table": "hardmetal",
+
+	"caverns_and_chasms:stripped_azalea_log": "wood,stone",
+	"caverns_and_chasms:stripped_azalea_wood": "wood,stone",
+	"atmospheric:stripped_morado_wood": "wood,stone",
+	"atmospheric:stripped_morado_log": "wood,stone",
+	"environmental:stripped_wisteria_wood": "wood,stone",
+	"environmental:stripped_cherry_wood": "wood,stone",
+	"environmental:stripped_willow_wood": "wood,stone",
+	"environmental:stripped_willow_log": "wood,stone",
+	"environmental:stripped_cherry_log": "wood,stone",
+	"environmental:stripped_wisteria_log": "wood,stone",
+	"atmospheric:stripped_rosewood": "wood,stone",
+	"atmospheric:stripped_rosewood_log": "wood,stone",
+	"atmospheric:stripped_yucca_wood": "wood,stone",
+	"atmospheric:stripped_kousa_wood": "wood,stone",
+	"atmospheric:stripped_aspen_wood": "wood,stone",
+	"atmospheric:stripped_grimwood_log": "wood,stone",
+	"atmospheric:stripped_laurel_log": "wood,stone",
+	"atmospheric:stripped_laurel_wood": "wood,stone",
+	"upgrade_aquatic:stripped_driftwood_log": "wood,stone",
+	"upgrade_aquatic:stripped_river_log": "wood,stone",
+	"upgrade_aquatic:stripped_driftwood": "wood,stone",
+	"atmospheric:stripped_grimwood": "wood,stone",
+	"autumnity:stripped_maple_log": "wood,stone",
+	"autumnity:stripped_maple_wood": "wood,stone",
+
+
+	"atmospheric:stripped_yucca_log": "wood,stone",
+	"atmospheric:stripped_kousa_log": "wood,stone",
+	"atmospheric:stripped_aspen_log": "wood,stone",
+
+
+	"mowziesmobs:clawed_log": "wood,stone",
+
+
+
+	
+
+	
+
+	"atmospheric:passion_fruit_crate[facing=up]": "wood,organic",
+	"atmospheric:shimmering_passion_fruit_crate[facing=up]": "wood,organic",
+
+	"atmospheric:currant_basket[facing=up]": "wood,organic",
+	"atmospheric:orange_crate[facing=up]": "wood,organic",
+	"atmospheric:blood_orange_crate[facing=up]": "wood,organic",
+	"atmospheric:golden_dragon_fruit_crate[facing=up]": "wood,organic",
+	"atmospheric:dragon_fruit_crate[facing=up]": "wood,organic",
+
+
+	"atmospheric:yucca_bundle": "wood,organic",
+	"atmospheric:roasted_yucca_bundle": "wood,organic",
+
+	"atmospheric:passion_vine": "leaves",
+	"atmospheric:passion_vine.foliage": "leaves",
+
+	"atmospheric:yucca_gateau": "organic",
+	"atmospheric:barrel_cactus": "grass",
+	"atmospheric:barrel_cactus_batch": "grass",
+
+	"atmospheric:yucca_branch": "NOT_EMITTER",
+	"atmospheric:yucca_branch.messy": "straw",
+	"atmospheric:yucca_branch.foliage": "brush",
+
+	"atmospheric:aloe_gel_block": "honey",
+	"atmospheric:aloe_bundle": "leaves",
+
+	"atmospheric:arid_sprouts": "NOT_EMITTER",
+	"atmospheric:arid_sprouts.foliage": "organic,mushroom",
+
+	"atmospheric:tall_aloe_vera": "NOT_EMITTER",
+	"atmospheric:tall_aloe_vera.messy": "straw",
+	"atmospheric:tall_aloe_vera.foliage": "brush",
+
+	"atmospheric:aloe_vera": "NOT_EMITTER",
+	"atmospheric:aloe_vera.messy": "straw",
+	"atmospheric:aloe_vera.foliage": "brush",
+
+	"atmospheric:crustose": "dirt,straw",
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+	"environmental:cattail": "NOT_EMITTER",
+	"environmental:cattail.messy": "MESSY_GROUND",
+	"environmental:cattail.foliage": "brush",
+
+	"environmental:dwarf_spruce": "NOT_EMITTER",
+	"environmental:dwarf_spruce.messy": "straw",
+	"environmental:dwarf_spruce.foliage": "straw",
+
+	"environmental:dwarf_spruce_plant": "NOT_EMITTER",
+	"environmental:dwarf_spruce_plant.messy": "straw",
+	"environmental:dwarf_spruce_plant.foliage": "straw",
+
+	"environmental:cattail_sprout": "NOT_EMITTER",
+	"environmental:cattail_sprout.messy": "MESSY_GROUND",
+	"environmental:cattail_sprout.foliage": "brush",
+
+	"environmental:tall_cattail": "NOT_EMITTER",
+	"environmental:tall_cattail.messy": "MESSY_GROUND",
+	"environmental:tall_cattail.foliage": "brush",
+
+	"#minecraft:tall_flowers": "NOT_EMITTER",
+	"#minecraft:tall_flowers.messy": "MESSY_GROUND",
+	"#minecraft:tall_flowers.foliage": "brush",
+
+	"environmental:cattail_thatch_stairs": "leaves",
+	"environmental:cattail_thatch_slab": "leaves",
+	"environmental:cattail_thatch": "leaves",
+	"environmental:duckweed_thatch": "leaves",
+	"environmental:duckweed_thatch_slab": "leaves",
+	"environmental:duckweed_thatch_stairs": "leaves",
+	"environmental:grass_thatch": "leaves",
+	"environmental:grass_thatch_slab": "leaves",
+	"environmental:grass_thatch_stairs": "leaves",
+	
+	"environmental:yak_hair_rug.carpet": "rug",
+
+	"environmental:tall_dead_bush": "NOT_EMITTER",
+	"environmental:tall_dead_bush.messy": "MESSY_GROUND",
+	"environmental:tall_dead_bush.foliage": "straw",
+
+	"environmental:mycelium_sprouts": "NOT_EMITTER",
+	"environmental:mycelium_sprouts.foliage": "organic,mushroom",
+
+	"environmental:giant_tall_grass": "NOT_EMITTER",
+	"environmental:giant_tall_grass.messy": "MESSY_GROUND",
+	"environmental:giant_tall_grass.foliage": "brush_straw_transition",
+
+	"environmental:cherry_crate": "wood,organic",
+	"environmental:duck_egg_crate": "wood,slate",
+	"environmental:cattail_seed_sack": "rug,sand",
+
+	"environmental:duckweed.foliage": "brush",
+
+
+
+	
+
+	"neapolitan:strawberry_cake": "organic",
+	"neapolitan:chocolate_cake": "organic",
+	"neapolitan:adzuki_cake": "organic",
+	"neapolitan:banana_cake": "organic",
+	"neapolitan:mint_cake": "organic",
+	"neapolitan:vanilla_cake": "organic",
+
+	"neapolitan:frond_thatch_slab": "leaves",
+	"neapolitan:frond_thatch_stairs": "leaves",
+	"neapolitan:frond_thatch": "leaves",
+	
+	"neapolitan:chocolate_block": "wood,mud",
+	"neapolitan:chiseled_chocolate_bricks": "wood,mud",
+	"neapolitan:chocolate_tiles": "wood,mud",
+	"neapolitan:chocolate_tile_slab": "wood,mud",
+	"neapolitan:chocolate_brick_slab": "wood,mud",
+	"neapolitan:chocolate_tile_stairs": "wood,mud",
+	"neapolitan:chocolate_bricks": "wood,mud",
+	"neapolitan:chocolate_brick_stairs": "wood,mud",
+
+	"neapolitan:strawberry_basket[facing=up]": "wood,organic",
+	"neapolitan:white_strawberry_basket[facing=up]": "wood,organic",
+	"neapolitan:mint_basket[facing=up]": "wood,organic",
+	"neapolitan:banana_crate[facing=up]": "wood,organic",
+	"neapolitan:banana_bundle": "wood,organic",
+
+	"neapolitan:vanilla_pod_block": "organic_dry",
+	"neapolitan:dried_vanilla_pod_block": "organic_dry",
+
+	"neapolitan:milk_cauldron": "metalbar,waterfine",
+
+	"neapolitan:vanilla_milkshake_cauldron": "metalbar,waterfine",
+	"neapolitan:strawberry_milkshake_cauldron": "metalbar,waterfine",
+	"neapolitan:chocolate_milkshake_cauldron": "metalbar,waterfine",
+	"neapolitan:mint_milkshake_cauldron": "metalbar,waterfine",
+	"neapolitan:adzuki_milkshake_cauldron": "metalbar,waterfine",
+	"neapolitan:banana_milkshake_cauldron": "metalbar,waterfine",
+
+	"neapolitan:strawberry_bush": "NOT_EMITTER",
+	"neapolitan:strawberry_bush.messy": "straw",
+	"neapolitan:strawberry_bush.foliage": "brush",
+
+	"neapolitan:adzuki_sprouts": "NOT_EMITTER",
+	"neapolitan:adzuki_sprouts.messy": "MESSY_GROUND",
+	"neapolitan:adzuki_sprouts.foliage": "brush",
+
+	"neapolitan:vanilla_vine": "NOT_EMITTER",
+	"neapolitan:vanilla_vine.messy": "MESSY_GROUND",
+	"neapolitan:vanilla_vine.foliage": "straw",
+
+	"neapolitan:mint": "NOT_EMITTER",
+	"neapolitan:mint.messy": "MESSY_GROUND",
+	"neapolitan:mint.foliage": "straw",
+
+
+	
+	"quark:polished_limestone": "composite",
+	"quark:polished_jasper": "composite",
+	"quark:polished_shale": "composite",
+	"quark:polished_jasper_slab": "composite",
+	"quark:polished_limestone_slab": "composite",
+	"quark:polished_shale_slab": "composite",
+	"quark:polished_jasper_stairs": "composite",
+	"quark:polished_limestone_stairs": "composite",
+	"quark:polished_shale_stairs": "composite",
+
+	"#quark:hedges": "wood,leaves",
+	"#quark:hedges[extend=true]": "leaves",
+
+	"#quark:stools": "rug",
+
+	"#quark:framed_glasses": "hardmetal,glass",
+
+	"quark:redstone_randomizer": "stoneutility",
+
+	"quark:cactus_block": "grass",
+	"quark:chorus_fruit_block": "organic_solid",
+	"quark:glow_mushroom_ring.foliage": "brush",
+	
+
+
+
+	"upgrade_aquatic:mulberry_punnet[facing=up]": "squeakywood,organic",
+
+	"upgrade_aquatic:scute_block": "stone,composite",
+	"upgrade_aquatic:scute_shingles": "stone,composite",
+	"upgrade_aquatic:scute_shingle_slab": "stone,composite",
+	"upgrade_aquatic:scute_shingle_stairs": "stone,composite",
+	"upgrade_aquatic:chiseled_scute_shingles": "stone,composite",
+	"upgrade_aquatic:scute_pavement": "stone,composite",
+	"upgrade_aquatic:scute_pavement_stairs": "stone,composite",
+	"upgrade_aquatic:scute_pavement_slab": "stone,composite",
+
+
+
+	"#woodworks:leaf_piles.foliage": "NOT_EMITTER",
+	"#woodworks:leaf_piles.foliage[down=true]": "leaves",
+
+	"#forge:chests/wooden": "squeakywood",
+	"#quark:ladders": "ladder_default",	
+	
+
+
+	
+
+	"caverns_and_chasms:spinel_ore": "ore",
+	"caverns_and_chasms:deepslate_spinel_ore": "slate_ore",
+	"caverns_and_chasms:silver_ore": "ore",
+	"caverns_and_chasms:deepslate_silver_ore": "slate_ore",
+	"caverns_and_chasms:soul_silver_ore": "souls,ore",
+	"caverns_and_chasms:silver_block": "hardmetal",
+
+	"caverns_and_chasms:sanguine_plate_stairs": "hardmetal",
+	"caverns_and_chasms:sanguine_plate_slab": "hardmetal",
+	"caverns_and_chasms:sanguine_plates": "hardmetal",
+
+	"caverns_and_chasms:medium_weighted_pressure_plate": "hardmetal",
+	"caverns_and_chasms:medium_weighted_pressure_plate.carpet": "hardmetal",
+
+	"caverns_and_chasms:tmt": "equipment",
+
+	"#caverns_and_chasms:braziers": "hardmetal,magma",
+	"#caverns_and_chasms:braziers[lit=false]": "hardmetal",
+	"caverns_and_chasms:silver_bars": "hardmetal",
+	"caverns_and_chasms:golden_bars": "hardmetal",
+	"caverns_and_chasms:lava_lamp": "hardmetal",
+
+	"caverns_and_chasms:spinel_bricks": "composite",
+	"caverns_and_chasms:spinel_brick_stairs": "composite",
+	"caverns_and_chasms:spinel_brick_slab": "composite",
+	"caverns_and_chasms:spinel_brick_wall": "composite",
+	"caverns_and_chasms:spinel_pillar": "composite",
+	"caverns_and_chasms:spinel_block": "composite",
+	"caverns_and_chasms:lapis_bricks": "composite",
+	"caverns_and_chasms:lapis_brick_stairs": "composite",
+	"caverns_and_chasms:lapis_brick_slab": "composite",
+	"caverns_and_chasms:lapis_brick_wall": "composite",
+	"caverns_and_chasms:lapis_pillar": "composite",
+
+	"caverns_and_chasms:polished_tuff_stairs": "composite",
+	"caverns_and_chasms:polished_tuff_slab": "composite",
+	"caverns_and_chasms:polished_calcite_slab": "composite",
+	"caverns_and_chasms:polished_calcite_stairs": "composite",
+
+	"caverns_and_chasms:rocky_dirt": "dirt,stone",
+	"caverns_and_chasms:fragile_stone": "stone,ore",
+	"caverns_and_chasms:fragile_deepslate": "rough_slate,ore",
+
+	"#minecraft:campfires[lit=false]": "wood",
+	"#minecraft:campfires": "wood,magma",
+
+	"caverns_and_chasms:copper_button": "NOT_EMITTER",
+	"caverns_and_chasms:copper_button[face=floor].foliage": "copper",
+	"caverns_and_chasms:exposed_copper_button": "NOT_EMITTER",
+	"caverns_and_chasms:exposed_copper_button[face=floor].foliage": "copper",
+	"caverns_and_chasms:weathered_copper_button": "NOT_EMITTER",
+	"caverns_and_chasms:weathered_copper_button[face=floor].foliage": "copper",
+	"caverns_and_chasms:oxidized_copper_button": "NOT_EMITTER",
+	"caverns_and_chasms:oxidized_copper_button[face=floor].foliage": "copper",
+	"caverns_and_chasms:waxed_copper_button": "NOT_EMITTER",
+	"caverns_and_chasms:waxed_copper_button[face=floor].foliage": "copper",
+	"caverns_and_chasms:waxed_exposed_copper_button": "NOT_EMITTER",
+	"caverns_and_chasms:waxed_exposed_copper_button[face=floor].foliage": "copper",
+	"caverns_and_chasms:waxed_weathered_copper_button": "NOT_EMITTER",
+	"caverns_and_chasms:waxed_weathered_copper_button[face=floor].foliage": "copper",
+	"caverns_and_chasms:waxed_oxidized_copper_button": "NOT_EMITTER",
+	"caverns_and_chasms:waxed_oxidized_copper_button[face=floor].foliage": "copper",
+
+	"caverns_and_chasms:floodlight": "copper",
+	"caverns_and_chasms:floodlight[facing=up]": "glass",
+	"caverns_and_chasms:waxed_floodlight": "copper",
+	"caverns_and_chasms:waxed_floodlight[facing=up]": "glass",
+	"caverns_and_chasms:exposed_floodlight": "copper",
+	"caverns_and_chasms:exposed_floodlight[facing=up]": "glass",
+	"caverns_and_chasms:waxed_exposed_floodlight": "copper",
+	"caverns_and_chasms:waxed_exposed_floodlight[facing=up]": "glass",
+	"caverns_and_chasms:oxidized_floodlight": "copper",
+	"caverns_and_chasms:oxidized_floodlight[facing=up]": "glass",
+	"caverns_and_chasms:waxed_oxidized_floodlight": "copper",
+	"caverns_and_chasms:waxed_oxidized_floodlight[facing=up]": "glass",
+	"caverns_and_chasms:weathered_floodlight": "copper",
+	"caverns_and_chasms:weathered_floodlight[facing=up]": "glass",
+	"caverns_and_chasms:waxed_weathered_floodlight": "copper",
+	"caverns_and_chasms:waxed_weathered_floodlight[facing=up]": "glass",
+
+	"caverns_and_chasms:mime_head": "skull",
+	"caverns_and_chasms:mime_wall_head": "skull",
+	"caverns_and_chasms:deeper_head": "stone",
+	"caverns_and_chasms:deeper_wall_head": "stone",
+
+	
+
+
+	"abnormals_delight:river_cabinet": "squeakywood",
+	"abnormals_delight:wisteria_cabinet": "squeakywood",
+	"abnormals_delight:willow_cabinet": "squeakywood",
+	"abnormals_delight:azalea_cabinet": "squeakywood",
+	"abnormals_delight:driftwood_cabinet": "squeakywood",
+	"abnormals_delight:cherry_cabinet": "squeakywood",
+	"abnormals_delight:maple_cabinet": "squeakywood",
+	"abnormals_delight:kousa_cabinet": "squeakywood",
+	"abnormals_delight:aspen_cabinet": "squeakywood",
+	"farmersdelight:warped_cabinet": "squeakywood",
+	"abnormals_delight:rosewood_cabinet": "squeakywood",
+	"farmersdelight:dark_oak_cabinet": "squeakywood",
+	"farmersdelight:acacia_cabinet": "squeakywood",
+	"farmersdelight:oak_cabinet": "squeakywood",
+	"farmersdelight:spruce_cabinet": "squeakywood",
+	"farmersdelight:birch_cabinet": "squeakywood",
+	"farmersdelight:mangrove_cabinet": "squeakywood",
+	"abnormals_delight:morado_cabinet": "squeakywood",
+	"abnormals_delight:laurel_cabinet": "squeakywood",
+	"abnormals_delight:yucca_cabinet": "squeakywood",
+	"abnormals_delight:grimwood_cabinet": "squeakywood",
+	"farmersdelight:crimson_cabinet": "squeakywood",
+	"farmersdelight:jungle_cabinet": "squeakywood",
+	
+	"farmersdelight:organic_compost": "grass,organic",
+	"farmersdelight:organic_compost[composting=4]": "dirt,organic",
+	"farmersdelight:organic_compost[composting=5]": "dirt,organic",
+	"farmersdelight:organic_compost[composting=6]": "dirt",
+	"farmersdelight:rich_soil": "dirt",
+
+	"farmersdelight:cutting_board.carpet": "wood",
+
+	"farmersdelight:basket": "scaffold,wood",
+
+	"farmersdelight:carrot_crate": "wood,organic",
+	"farmersdelight:tomato_crate": "wood,organic",
+	"farmersdelight:onion_crate": "wood,organic",
+	"farmersdelight:potato_crate": "wood,organic",
+	"farmersdelight:beetroot_crate": "wood,organic",
+	"farmersdelight:cabbage_crate": "wood,organic",
+
+	"farmersdelight:apple_pie": "organic",
+	"farmersdelight:sweet_berry_cheesecake": "organic",
+	"farmersdelight:chocolate_pie": "organic",
+
+
+	"farmersdelight:rice_bag": "rug,dirt",
+
+	"farmersdelight:rice_bale": "leaves,grass",
+	"farmersdelight:straw_bale": "straw,grass",
+	"farmersdelight:canvas_rug.carpet": "rug,straw",
+
+	"farmersdelight:rope": "rug",
+
+	"#farmersdelight:wild_crops.messy": "MESSY_GROUND",
+	"#farmersdelight:wild_crops.foliage": "straw",
+
+	"farmersdelight:stove[lit=true]": "brickstone,magma",
+
+	"farmersdelight:shepherds_pie_block": "organic",
+	"farmersdelight:stuffed_pumpkin_block": "organic_solid",
+	"farmersdelight:honey_glazed_ham_block": "organic",
+	"farmersdelight:roast_chicken_block": "organic",
+	"farmersdelight:rice_roll_medley_block": "organic,wood",
+	"farmersdelight:rice_roll_medley_block[servings=0]": "wood",
+
+	"quark:chorus_weeds": "NOT_EMITTER",
+	"quark:chorus_weeds.messy": "MESSY_GROUND",
+	"quark:chorus_weeds.foliage": "brush",
+	"quark:chorus_twist": "NOT_EMITTER",
+	"quark:chorus_twist.messy": "MESSY_GROUND",
+	"quark:chorus_twist.foliage": "brush",
+
+	"quark:iron_ladder": "hardmetal",
+	"quark:crate": "squeakywood,hardmetal",
+
+	"quark:golden_apple_crate": "wood,organic",
+	"quark:apple_crate": "wood,organic",
+	"quark:cocoa_beans_sack": "rug,organic",
+	"quark:nether_wart_sack": "rug,organic_block",
+	"quark:gunpowder_sack": "rug,sand",
+	"quark:glowberry_sack": "rug,organic",
+	"quark:berry_sack": "rug,organic",
+
+
+	"quark:obsidian_pressure_plate.carpet": "obsidian",
+	"quark:pipe": "copper",
+
+
+
+
+	
+
+
+	"supplementaries:daub_frame":  "dirt,wood",
+	"supplementaries:daub_brace":  "dirt,wood",
+	"supplementaries:daub_cross_brace":  "dirt,wood",
+	"supplementaries:timber_frame":  "wood",
+	"supplementaries:timber_brace":  "wood",
+	"supplementaries:timber_cross_brace":  "wood",
+
+	"#supplementaries:presents": "equipment",
+
+	"#supplementaries:candle_holders.foliage": "metalbar",
+
+    "supplementaries:enderman_head": "skull",
+    "supplementaries:enderman_wall_head": "skull",
+    "supplementaries:skull_pile": "skull",
+    "#supplementaries:skull_candles": "skull,organic_solid",
+    "supplementaries:skull_candle_wall": "skull,organic_solid",
+	"supplementaries:skull_candle_soul_wall": "skull,organic_solid",
+
+	"supplementaries:pulley_block[axis=z,winding=chain]": "wood,chain",
+	"supplementaries:pulley_block[axis=z,winding=rope]": "wood,rug",
+
+	"supplementaries:turn_table[facing=up]": "wood",
+	"supplementaries:turn_table": "stonemachine",
+
+	"supplementaries:pancake": "organic",
+
+
+
+
+
+	"sullysmod:polished_small_jade_brick_slab": "composite",
+	"sullysmod:polished_jade_shingle_slab": "composite",
+	"sullysmod:polished_jade_tile_slab": "composite",
+	"sullysmod:jade_flinger_totem": "composite",
+	"sullysmod:polished_jade_tile_stairs": "composite",
+	"sullysmod:polished_jade_brick_slab": "composite",
+	"sullysmod:polished_jade_shingle_stairs": "composite",
+	"sullysmod:polished_small_jade_brick_stairs": "composite",
+	"sullysmod:polished_jade_brick_stairs": "composite",
+	"sullysmod:polished_chiseled_jade": "composite",
+	"sullysmod:jade_totem": "composite",
+	"sullysmod:polished_jade_pillar": "composite",
+	"sullysmod:polished_jade_tiles": "composite",
+	"sullysmod:polished_jade_shingles": "composite",
+	"sullysmod:polished_small_jade_bricks": "composite",
+	"sullysmod:polished_jade_block": "composite",
+	"sullysmod:polished_jade_bricks": "composite",
+
+
+
+
+	"autumnity:sappy_maple_log": "wood,sticky_wood,stone",
+	"autumnity:sappy_maple_wood": "wood,sticky_wood,stone",
+
+	"autumnity:foul_berry_basket[facing=up]": "squeakywood,organic",
+
+    "autumnity:soul_jack_o_lantern": "organic_solid",
+    "autumnity:ender_jack_o_lantern": "organic_solid",
+    "autumnity:large_ender_jack_o_lantern_slice": "organic_solid",
+    "autumnity:large_cupric_jack_o_lantern_slice": "organic_solid",
+    "autumnity:redstone_jack_o_lantern": "organic_solid",
+    "autumnity:cupric_jack_o_lantern": "organic_solid",
+    "autumnity:large_pumpkin_slice": "organic_solid",
+    "autumnity:large_jack_o_lantern_slice": "organic_solid",
+    "autumnity:carved_large_pumpkin_slice": "organic_solid",
+    "autumnity:large_redstone_jack_o_lantern_slice": "organic_solid",
+    "autumnity:large_soul_jack_o_lantern_slice": "organic_solid",
+	"autumnity:turkey_egg_crate": "wood,slate",
+
+
+	"berry_good:sweet_berry_basket[facing=up]": "squeakywood,organic",
+	"berry_good:glow_berry_basket[facing=up]": "squeakywood,organic",
+
+
+	"incubation:hay_nest": "leaves,grass",
+	"incubation:twig_nest": "leaves,wood",
+	"incubation:chicken_egg_crate": "wood,slate",
+
+	"clayworks:glazed_terracotta": "composite",
+
+	"locksmith:locksmithing_table": "wood,chain",
+
+
+
+	"farmersrespite:kettle": "copper",
+
+	"farmersrespite:coffee_beans_sack": "rug,leaves",
+	"farmersrespite:black_tea_leaves_sack": "rug,leaves",
+	"farmersrespite:yellow_tea_leaves_sack": "rug,leaves",
+	"farmersrespite:green_tea_leaves_sack": "rug,leaves",
+
+	"farmersrespite:coffee_cake": "organic",
+	"farmersrespite:small_tea_bush": "leaves",
+	"farmersrespite:coffee_bush": "leaves",
+	"farmersrespite:tea_bush": "leaves",
+
+
+
+	"etched:etching_table": "stone,woodutility",
+	"etched:radio": "woodutility,copper",
+
+
+	"brewinandchewin:pizza": "organic",
+	"brewinandchewin:quiche": "organic",
+	"brewinandchewin:fiery_fondue_pot": "metalbar,waterfine",
+
+
+
+	"savage_and_ravage:spore_bomb": "equipment",
+	"savage_and_ravage:creeper_spore_sack": "rug,sand",
+	
+	"savage_and_ravage:blast_proof_slab": "hardmetal",
+	"savage_and_ravage:blast_proof_stairs": "hardmetal",
+	"savage_and_ravage:blast_proof_plates": "hardmetal"
+
+}	

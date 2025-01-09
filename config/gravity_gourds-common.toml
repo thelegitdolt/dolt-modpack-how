@@ -1,0 +1,9 @@
+
+[pumpkins]
+	#If FD is installed, how many pumpkin slices should drop
+	"Slice count" = 4
+	#Odds of extra slices dropping
+	"Bonus slice chance" = 0.0
+	#Extra pumpkin slices dropped
+	"Bonus slice count" = 0
+

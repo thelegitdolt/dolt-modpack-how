@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post",
+  "textures": {
+    "texture": "netherexp:block/stripped_claret_stem"
+  }
+}

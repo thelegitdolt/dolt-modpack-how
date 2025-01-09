@@ -1,0 +1,6 @@
+{
+  "parent": "architects_palette:block/railings/post",
+  "textures": {
+    "texture": "environmental:block/willow_planks"
+  }
+}

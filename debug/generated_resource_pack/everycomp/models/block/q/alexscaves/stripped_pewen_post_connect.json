@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post_connect",
+  "textures": {
+    "texture": "alexscaves:block/pewen/stripped_pewen_log"
+  }
+}

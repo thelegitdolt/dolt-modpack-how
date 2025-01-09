@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "everycomp:item/abnbl/quark/large_azalea_boat"
+  }
+}

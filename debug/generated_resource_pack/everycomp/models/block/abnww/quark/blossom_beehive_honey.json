@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "everycomp:block/abnww/quark/blossom_beehive_end",
+    "front": "everycomp:block/abnww/quark/blossom_beehive_front_honey",
+    "particle": "everycomp:block/abnww/quark/blossom_beehive_side",
+    "side": "everycomp:block/abnww/quark/blossom_beehive_side",
+    "top": "everycomp:block/abnww/quark/blossom_beehive_end"
+  }
+}

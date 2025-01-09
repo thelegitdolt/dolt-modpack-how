@@ -1,0 +1,6 @@
+#Horizontal radius for copper pots granting without fume inhibitors involved. 0 block distance min, 5 max
+#Range: 0.0 ~ 5.0
+copperFumeRadius = 2.0
+#Do copper pots automatically register cooking pot recipes with less than 4 slots
+recipeRegistration = false
+

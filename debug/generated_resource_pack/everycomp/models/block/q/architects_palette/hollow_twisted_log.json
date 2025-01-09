@@ -1,0 +1,8 @@
+{
+	"parent": "quark:block/hollow_log",
+	"textures": {
+		"end": "architects_palette:block/twisted_log_top",
+		"side": "architects_palette:block/twisted_log",
+		"inside": "architects_palette:block/stripped_twisted_log"
+	}
+}

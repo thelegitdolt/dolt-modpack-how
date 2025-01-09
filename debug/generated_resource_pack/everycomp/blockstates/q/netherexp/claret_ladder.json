@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "everycomp:block/q/netherexp/claret_ladder" },
+        "facing=east":  { "model": "everycomp:block/q/netherexp/claret_ladder", "y": 90 },
+        "facing=south": { "model": "everycomp:block/q/netherexp/claret_ladder", "y": 180 },
+        "facing=west":  { "model": "everycomp:block/q/netherexp/claret_ladder", "y": 270 }
+    }
+}

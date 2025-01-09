@@ -1,0 +1,6 @@
+{
+  "parent": "architects_palette:block/railings/side",
+  "textures": {
+    "texture": "atmospheric:block/aspen_planks"
+  }
+}

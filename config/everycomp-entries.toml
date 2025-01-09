@@ -1,0 +1,177 @@
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+	[types.leaves_type]
+
+		[types.leaves_type.architects_palette]
+			twisted = true
+
+		[types.leaves_type.environmental]
+			hibiscus = true
+			willow = true
+			pine = true
+			plum = true
+			cheerful_plum = true
+			moody_plum = true
+			wisteria = true
+			pink_wisteria = true
+			blue_wisteria = true
+			purple_wisteria = true
+			white_wisteria = true
+
+		[types.leaves_type.alexscaves]
+			ancient = true
+
+		[types.leaves_type.atmospheric]
+			rosewood = true
+			morado = true
+			flowering_morado = true
+			yucca = true
+			aspen = true
+			green_aspen = true
+			laurel = true
+			dry_laurel = true
+			kousa = true
+			currant = true
+			grimwood = true
+
+		[types.leaves_type.autumnity]
+			maple = true
+			yellow_maple = true
+			orange_maple = true
+			red_maple = true
+
+		[types.leaves_type.upgrade_aquatic]
+			river = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+	[types.wood_type]
+
+		[types.wood_type.architects_palette]
+			twisted = true
+
+		[types.wood_type.environmental]
+			willow = true
+			pine = true
+			plum = true
+			wisteria = true
+
+		[types.wood_type.caverns_and_chasms]
+			azalea = true
+
+		[types.wood_type.alexscaves]
+			pewen = true
+			thornwood = true
+
+		[types.wood_type.atmospheric]
+			rosewood = true
+			morado = true
+			yucca = true
+			aspen = true
+			laurel = true
+			kousa = true
+			grimwood = true
+
+		[types.wood_type.autumnity]
+			maple = true
+
+		[types.wood_type.netherexp]
+			claret = true
+
+		[types.wood_type.quark]
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.sullysmod]
+			petrified = true
+
+		[types.wood_type.enhanced_mushrooms]
+			mushroom = true
+
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
+		[types.wood_type.spawn]
+			rotten = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
+	[types.cake]
+
+		[types.cake.neapolitan]
+			vanilla_cake = true
+			chocolate_cake = true
+			strawberry_cake = true
+			banana_cake = true
+			mint_cake = true
+			adzuki_cake = true
+
+		[types.cake.farmersrespite]
+			coffee_cake = true
+
+		[types.cake.mynethersdelight]
+			magma_cake = true
+
+#Disables specific entries
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.architects_palette]
+			boards = false
+			board_stairs = false
+			railing = true
+			board_wall = false
+			board_slab = false
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.create]
+			window = false
+			window_pane = false
+
+		[entries.wood_type.boatload]
+			large_boat = true
+			furnace_boat = true
+
+		[entries.wood_type.quark]
+			hollow_log = true
+			vertical_planks = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			vertical_slab = true
+
+		[entries.wood_type.woodworks]
+			trapped_chest = true
+			boards = true
+			chest = true
+			beehive = true
+			bookshelf = true
+			chiseled_bookshelf = true
+			ladder = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = true
+

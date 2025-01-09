@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "everycomp:block/fd/caverns_and_chasms/azalea_cabinet_front_open",
+    "side": "everycomp:block/fd/caverns_and_chasms/azalea_cabinet_side",
+    "top": "everycomp:block/fd/caverns_and_chasms/azalea_cabinet_top"
+  }
+}

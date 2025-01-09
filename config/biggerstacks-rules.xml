@@ -1,0 +1,17 @@
+<ruleset>
+	<rule stacksize="99">
+		<or>
+			<condition>stacksize gt 1</condition>
+			<condition>tag includes dolt_modpack_how:stack_whitelist</condition>
+		</or>
+		<condition> tag excludes dolt_modpack_how:stack_blacklist</condition>
+	</rule>
+	<rule stacksize="99">
+        <or>
+            <condition>id minecraft:potion</condition>
+            <condition>id minecraft:splash_potion</condition>
+			<condition>id minecraft:lingering_potion</condition>
+			<condition>is_food</condition>
+        </or>
+    </rule>
+</ruleset>

@@ -1,0 +1,8 @@
+{
+	"parent": "quark:block/hollow_log",
+	"textures": {
+		"end": "alexscaves:block/thornwood/thornwood_log_top",
+		"side": "alexscaves:block/thornwood/thornwood_log",
+		"inside": "alexscaves:block/thornwood/stripped_thornwood_log"
+	}
+}

@@ -1,0 +1,9 @@
+
+[changes]
+	#Should all blocks drop items without scattering
+	"Make all blocks static" = false
+	#Should all blocks mined with silk touch drop items without scattering
+	"Silk touch drizzleproof" = true
+	#If a player has Nausea, all of their block drops scatter
+	"Nauseous drizzle" = false
+

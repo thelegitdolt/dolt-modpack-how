@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "alexscaves:block/thornwood/thornwood_planks",
+    "side": "everycomp:block/abnww/alexscaves/thornwood_bookshelf"
+  }
+}

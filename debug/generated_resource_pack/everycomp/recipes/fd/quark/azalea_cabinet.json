@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "D": {
+      "item": "quark:azalea_trapdoor"
+    },
+    "_": {
+      "item": "quark:azalea_planks_slab"
+    }
+  },
+  "result": {
+    "item": "everycomp:fd/quark/azalea_cabinet"
+  },
+  "show_notification": true
+}

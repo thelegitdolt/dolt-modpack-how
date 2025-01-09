@@ -1,0 +1,7 @@
+{
+  "parent": "architects_palette:block/boards/parent",
+  "textures": {
+    "even": "everycomp:block/ap/mynethersdelight/powdery_boards",
+    "odd": "everycomp:block/ap/mynethersdelight/powdery_boards_odd"
+  }
+}

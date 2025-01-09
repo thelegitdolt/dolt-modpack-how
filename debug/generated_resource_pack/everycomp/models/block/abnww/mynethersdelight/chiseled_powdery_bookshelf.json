@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/chiseled_bookshelf",
+  "textures": {
+    "side": "everycomp:block/abnww/mynethersdelight/chiseled_powdery_bookshelf_side",
+    "top": "everycomp:block/abnww/mynethersdelight/chiseled_powdery_bookshelf_top"
+  }
+}
