@@ -1,2 +1,10 @@
-/amogus
+/DiscordIntegration-Data
+/logs
+/saves
+/options.txt
+/.mixin.out
+/.qmenu_opened.marker
+/.gitignore
+/resourcepacks
+/schematics
 **/.DS_Store
