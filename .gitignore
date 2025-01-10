@@ -1,5 +1,8 @@
 /DiscordIntegration-Data
 /logs
+/screenshots
+/hotbar.nbt
+/modernfix
 /saves
 /options.txt
 /usercache.json
