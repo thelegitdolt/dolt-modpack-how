@@ -635,6 +635,11 @@
 			powdery = true
 			powdery_mosaic = true
 
+		[types.cut_block_type.blasted_barrens]
+			ashen_sandstone = true
+			smooth_ashen_sandstone = true
+			cut_ashen_sandstone = true
+
 	[types.cake]
 
 		[types.cake.neapolitan]
