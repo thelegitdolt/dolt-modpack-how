@@ -2,6 +2,8 @@
 /logs
 /saves
 /options.txt
+/usercache.json
+/usernamecache.json
 /.mixin.out
 /.qmenu_opened.marker
 /.gitignore
