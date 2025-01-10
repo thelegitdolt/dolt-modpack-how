@@ -51,19 +51,9 @@
 		#If frogs should become unable to consume magma cakes
 		"Magma Cakes Good" = true
 
-[supplementaries]
+	[nethersdelight.supplementaries]
 
-	[supplementaries.quivers]
-		#If processing a quiver in a cutting board will eject all the arrows in that quiver
-		"Realistic Quivers" = true
-
-["Alexander Caverns"]
-
-	["Alexander Caverns".Acid]
-		#If acid should not corrode copper
-		"Good Acid" = true
-
-	["Alexander Caverns"."Biome Treats"]
-		#If biome treats should work regardless of hunger
-		"Okay Treats" = true
+		[nethersdelight.supplementaries.quivers]
+			#If processing a quiver in a cutting board will eject all the arrows in that quiver
+			"Realistic Quivers" = true
 
