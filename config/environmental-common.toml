@@ -45,6 +45,10 @@
 			"Muddy Pigs dry over time" = true
 			#If Muddy Pigs only naturally dry when in the Nether
 			"Muddy Pigs only dry in the Nether" = true
+			#If dry Muddy Pigs should become wet again when in water
+			"Muddy Pigs get wet in water" = true
+			#If dry Muddy Pigs should become wet again when in rain
+			"Muddy Pigs get wet in rain" = true
 
 	[mobs.hoglin]
 		#If Hoglins should spawn more babies upon breeding
