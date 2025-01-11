@@ -1,0 +1,17 @@
+
+[changes]
+
+	[changes.candles]
+		#Do scented candles affect living entities
+		"Scent FX" = true
+		#Ticks per day for daily scented candles
+		"Daily special duration" = 24000
+
+	[changes.trades]
+		#Do expert butchers trade red redemption candles
+		"Red redemption trade" = true
+		#Do expert butchers trade soft blanket candles
+		"Soft blanket trade" = true
+		#Do wandering traders trade caravan spice candles
+		"Caravan spice trade" = true
+
