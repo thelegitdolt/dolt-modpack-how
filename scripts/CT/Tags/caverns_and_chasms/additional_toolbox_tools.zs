@@ -16,5 +16,7 @@ DebugUtil.startScript("Tags/caverns_and_chasms/additional_toolbox_tools");
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:alexscaves:raygun>);
 
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:mowziesmobs:wrought_axe>);
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:mowziesmobs:wrought_helmet>);
 
 DebugUtil.endScript("Tags/caverns_and_chasms/additional_toolbox_tools"); 

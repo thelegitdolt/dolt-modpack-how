@@ -3,9 +3,9 @@
 
 	[changes.experimental]
 		#Egg layers no longer drop egg item entities periodically
-		"No more egg spam" = false
+		"No more egg spam" = true
 		#Egg layers that enter love mode try to lay eggs or incubate instead of producing live young
-		"Breeding for eggs" = false
+		"Breeding for eggs" = true
 		#Crows from Alex's Mobs occasionally watch bird nests for stray egg item entities
 		"Crow side eye" = false
 
