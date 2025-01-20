@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Tags/brewinandchewin/freeze_sources.zs/"); 
+DebugUtil.startScript("tags/brewinandchewin/freeze_sources"); 
     
 
 var creams = [
@@ -14,4 +14,4 @@ for ice in creams{
 }
 
 
-DebugUtil.endScript("/Tags/brewinandchewin/freeze_sources.zs"); 
+DebugUtil.endScript("tags/brewinandchewin/freeze_sources"); 

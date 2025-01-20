@@ -36,10 +36,10 @@ for col in RUtil.dyeDepotColors {
 <item:neapolitan:mint_cake>.setMaxStackSize(64);
 <item:farmersrespite:coffee_cake>.setMaxStackSize(64);
 
-# <item:brewinandchewin:scarlet_cheese_wheel>.setMaxStackSize(64);
-# <item:brewinandchewin:unripe_scarlet_cheese_wheel>.setMaxStackSize(64);
-# <item:brewinandchewin:flaxen_cheese_wheel>.setMaxStackSize(64);
-# <item:brewinandchewin:unripe_flaxen_cheese_wheel>.setMaxStackSize(64);
+<item:brewinandchewin:scarlet_cheese_wheel>.setMaxStackSize(64);
+<item:brewinandchewin:unripe_scarlet_cheese_wheel>.setMaxStackSize(64);
+<item:brewinandchewin:flaxen_cheese_wheel>.setMaxStackSize(64);
+<item:brewinandchewin:unripe_flaxen_cheese_wheel>.setMaxStackSize(64);
 
 
 # for col in RUtil.colors {

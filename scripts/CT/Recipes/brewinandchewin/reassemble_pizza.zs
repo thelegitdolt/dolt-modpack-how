@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/brewinandchewin/reassemble_pizza.zs.disabled/"); 
+DebugUtil.startScript("recipes/brewinandchewin/reassemble_pizza"); 
     
 
 val pizza = <item:brewinandchewin:pizza_slice>;
@@ -6,4 +6,4 @@ val pizza = <item:brewinandchewin:pizza_slice>;
 craftingTable.addShapeless("pizza_from_slices", <item:brewinandchewin:pizza>, [pizza, pizza, pizza, pizza]);
 
 
-DebugUtil.endScript("/Recipes/brewinandchewin/reassemble_pizza.zs.disabled"); 
+DebugUtil.endScript("recipes/brewinandchewin/reassemble_pizza"); 
