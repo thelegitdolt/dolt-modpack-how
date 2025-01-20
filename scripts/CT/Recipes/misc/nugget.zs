@@ -62,10 +62,29 @@ function lanterns_okay(modid as string, lantern as string, torch as IIngredient)
         ]
     ]);
 }
+
+function cheapen_gold_food(food as string, gold as string) as void {
+    craftingTable.removeByName(gold); 
+
+    var x as usize = gold.indexOf(":") + 1;
+    var y = gold.length;
+
+    craftingTable.addShaped("cheap_" + gold[x .. y] + "_lol", <item:${gold}>, [
+        [RUtil.air, <item:minecraft:gold_nugget>, RUtil.air],
+        [<item:minecraft:gold_nugget>, <item:${food}>, <item:minecraft:gold_nugget>],
+        [RUtil.air, <item:minecraft:gold_nugget>, RUtil.air],
+    ]); 
+}
+
+
 lanterns_okay("minecraft", "", <item:minecraft:torch>);
 lanterns_okay("minecraft", "soul_", <item:minecraft:soul_torch>);
 # lanterns_okay("endergetic", "ender_", <item:endergetic:ender_torch>);
 lanterns_okay("caverns_and_chasms", "cupric_", <item:caverns_and_chasms:cupric_torch>);
 
+
+cheapen_gold_food("minecraft:carrot", "minecraft:golden_carrot"); 
+cheapen_gold_food("minecraft:melon_slice", "minecraft:glistering_melon_slice"); 
+cheapen_gold_food("atmospheric:passion_fruit", "atmospheric:shimmering_passion_fruit"); 
 
 DebugUtil.endScript("recipes/misc/nugget"); 
