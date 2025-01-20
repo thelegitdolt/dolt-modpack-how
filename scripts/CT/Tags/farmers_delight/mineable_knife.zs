@@ -12,7 +12,41 @@ val fleshies = [
     "architects_palette:cod_scales",
 
     "species:frozen_meat",
-    "species:frozen_hair"
+    "species:frozen_hair",
+
+
+    "alexscaves:licoroot_sprout",
+    "alexscaves:block_of_chocolate",
+    "alexscaves:frosted_gingerbread_block",
+    "alexscaves:gingerbread_brick_wall",
+    "alexscaves:frosted_gingerbread_brick_wall",
+    "alexscaves:frosted_gingerbread_brick_stairs",
+    "alexscaves:gingerbread_stairs",
+    "alexscaves:frosted_gingerbread_door",
+    "alexscaves:gingerbread_wall",
+    "alexscaves:frosted_gingerbread_brick_slab",
+    "alexscaves:block_of_frosting",
+    "alexscaves:dough_block",
+    "alexscaves:frosted_gingerbread_bricks",
+    "alexscaves:block_of_chocolate_frosting",
+    "alexscaves:wafer_cookie_wall",
+    "alexscaves:block_of_chiseled_chocolate",
+    "alexscaves:block_of_vanilla_frosting",
+    "alexscaves:gingerbread_slab",
+    "alexscaves:gingerbarrel",
+    "alexscaves:sweet_puff",
+    "alexscaves:frosted_gingerbread_slab",
+    "alexscaves:cake_layer",
+    "alexscaves:gingerbread_block",
+    "alexscaves:gingerbread_brick_stairs",
+    "alexscaves:gingerbread_door",
+    "alexscaves:licoroot_vine",
+    "alexscaves:gingerbread_brick_slab",
+    "alexscaves:block_of_polished_chocolate",
+    "alexscaves:gingerbread_bricks",
+    "alexscaves:frosted_gingerbread_stairs",
+    "alexscaves:block_of_frosted_chocolate",
+    "alexscaves:frosted_gingerbread_wall"
 ]; 
 
 for i in fleshies {
