@@ -178,10 +178,7 @@
 		"minecraft:elytra" = 2048
 		"minecraft:flint_and_steel" = 192
 		"environmental:yak_pants" = 256
-		"environmental:thief_hood" = 256
-		"environmental:healer_pouch" = 256
-		"environmental:architect_belt" = 256
-		"environmental:wanderer_boots" = 256
+		"quark:forgotten_hat" = 512
 		"savage_and_ravage:mask_of_dishonesty" = 320
 		# alexander cavenrs 
 		"alexscaves:primitive_club" = 256
