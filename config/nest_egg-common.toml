@@ -1,0 +1,50 @@
+
+[changes]
+
+	[changes.experimental]
+		#Egg layers no longer drop egg item entities periodically
+		"No more egg spam" = false
+		#Egg layers that enter love mode try to lay eggs or incubate instead of producing live young
+		"Breeding for eggs" = false
+		#Crows from Alex's Mobs occasionally watch bird nests for stray egg item entities
+		"Crow side eye" = false
+
+	[changes.incubation_behavior]
+		#Birds occasionally incubate their nests
+		"Nest incubator" = true
+		#Birds don't hatch eggs, only sitting on them ambiently
+		"Ambient incubator" = false
+		#Time spent incubating a nest
+		#Range: 150 ~ 1000
+		"Incubation timer" = 200
+		#Cooldown between successful hatchings
+		"Incubation cooldown" = 12000
+		#Time spent incubating an emu nest
+		"Emu incubation timer" = 300
+		#Cooldown in-between successful emu hatchings
+		"Emu incubation cooldown" = 24000
+
+		[changes.incubation_behavior.bird_feed]
+			#Birds must be fed something special in order to attempt incubation
+			"Incubation requires special food" = true
+			#There are two tiers of feed, which enable incubation for different durations.
+			#Setting this to false will have all feed default to long feed duration
+			"Incubation feed tiers" = true
+			#Duration for items in nest_egg:short_feed
+			"Short feed duration" = 24000
+			#Duration for items in nest_egg:long_feed.
+			#Setting to -1 makes it infinite
+			"Long feed duration" = 48000
+
+	[changes.egg_stealing_behavior]
+		#Turkeys target entities that try raiding turkey egg nests
+		"Turkey aggro" = true
+		#Emus target players who try raiding emu egg nests
+		"Emu aggro" = true
+		#Raccoons from Alex's Mobs occasionally raid bird nests
+		"Nest wrecker" = true
+		#How many ticks between attempts at stealing eggs, minimum
+		"Thievery timer" = 1200
+		#Extra maximum ticks to add for variation
+		"Thievery timer addition" = 1200
+
