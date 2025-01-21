@@ -1,0 +1,29 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "basefluid": {
+    "count": 999,
+    "fluid": "brewinandchewin:bloody_mary"
+  },
+  "experience": 1.0,
+  "fermentingtime": 4800,
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:shroomlight"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "count": 999,
+    "fluid": "brewinandchewin:red_rum"
+  },
+  "temperature": 5
+}

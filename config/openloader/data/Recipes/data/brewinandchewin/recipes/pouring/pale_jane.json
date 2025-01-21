@@ -1,0 +1,13 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "amount": 333,
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "filling": true,
+  "fluid": "brewinandchewin:pale_jane",
+  "output": {
+    "item": "brewinandchewin:pale_jane"
+  },
+  "strict": false
+}

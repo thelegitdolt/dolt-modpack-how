@@ -1,0 +1,13 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "amount": 999,
+  "container": {
+    "item": "minecraft:honeycomb"
+  },
+  "filling": false,
+  "fluid": "brewinandchewin:scarlet_cheese",
+  "output": {
+    "item": "brewinandchewin:unripe_scarlet_cheese_wheel"
+  },
+  "strict": false
+}

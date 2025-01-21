@@ -1,0 +1,7 @@
+{
+  "parent": "brewinandchewin:block/coaster_tankard",
+  "textures": {
+    "particle": "brewinandchewin:block/glittering_grenadine",
+    "tankard": "brewinandchewin:block/glittering_grenadine"
+  }
+}

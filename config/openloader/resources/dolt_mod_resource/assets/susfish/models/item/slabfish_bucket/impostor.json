@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "susfish:item/slabfish_bucket/impostor"
-  }
-}

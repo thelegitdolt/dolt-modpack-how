@@ -5,6 +5,7 @@
 /hotbar.nbt
 /modernfix
 /saves
+/config/sound_physics_remastered
 /options.txt
 /usercache.json
 /usernamecache.json
@@ -13,4 +14,4 @@
 /.gitignore
 /resourcepacks
 /schematics
-**/.DS_Store
+**.DS_Store

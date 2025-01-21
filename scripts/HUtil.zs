@@ -18,6 +18,12 @@ public class HUtil {
         }
     }
 
+    public static hideAllFluids(alls as string[]) as void {
+        for i in alls {
+            Jei.hideIngredient(<fluid:${i}>); 
+        }
+    }
+
     #Precondition: NONE
     # Hides ONE item
     public static hide(thing as IItemStack) as void {

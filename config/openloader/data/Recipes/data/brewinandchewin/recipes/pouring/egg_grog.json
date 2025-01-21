@@ -1,0 +1,13 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "amount": 333,
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "filling": true,
+  "fluid": "brewinandchewin:egg_grog",
+  "output": {
+    "item": "brewinandchewin:egg_grog"
+  },
+  "strict": false
+}

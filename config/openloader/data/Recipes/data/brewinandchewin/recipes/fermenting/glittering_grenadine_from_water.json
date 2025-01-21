@@ -1,0 +1,26 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "basefluid": {
+    "count": 999,
+    "fluid": "minecraft:water"
+  },
+  "experience": 1.0,
+  "fermentingtime": 9600,
+  "ingredients": [
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "count": 999,
+    "fluid": "brewinandchewin:glittering_grenadine"
+  },
+  "temperature": 2
+}

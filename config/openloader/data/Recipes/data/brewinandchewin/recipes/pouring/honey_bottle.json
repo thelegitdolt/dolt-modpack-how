@@ -1,0 +1,13 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "amount": 333,
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "filling": true,
+  "fluid": "brewinandchewin:honey",
+  "output": {
+    "item": "minecraft:honey_bottle"
+  },
+  "strict": false
+}
