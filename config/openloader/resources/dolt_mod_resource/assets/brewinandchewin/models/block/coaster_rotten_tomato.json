@@ -1,6 +1,0 @@
-{
-  "parent": "brewinandchewin:block/coaster_tomato",
-  "textures": {
-    "tomato": "brewinandchewin:block/rotten_tomato"
-  }
-}

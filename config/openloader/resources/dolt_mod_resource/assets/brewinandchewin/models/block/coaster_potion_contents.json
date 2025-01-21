@@ -1,6 +1,0 @@
-{
-  "parent": "brewinandchewin:block/coaster_potion_bottle",
-  "textures": {
-    "bottle": "brewinandchewin:block/potion_contents"
-  }
-}
