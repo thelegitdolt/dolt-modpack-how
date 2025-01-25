@@ -5,8 +5,9 @@
 /hotbar.nbt
 /modernfix
 /saves
-/config/sound_physics_remastered
+/config/sound_physics_remastered/
 /options.txt
+/config/Discord-Integration.toml
 /usercache.json
 /usernamecache.json
 /.mixin.out
