@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "upgrade_aquatic:thrasher_tooth"
+  },
+  "result": {
+    "id": "upgrade_aquatic:thrasher"
+  }
+}

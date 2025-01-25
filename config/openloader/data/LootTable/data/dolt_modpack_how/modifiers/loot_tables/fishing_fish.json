@@ -1,0 +1,20 @@
+{
+  "modifiers": [
+    {
+      "type": "entries",
+      "config": {
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "upgrade_aquatic:thrasher_tooth",
+            "weight": 1
+          }
+        ],
+        "index": 0,
+        "replace": false
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": "minecraft:gameplay/fishing/fish"
+}

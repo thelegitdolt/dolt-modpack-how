@@ -79,7 +79,6 @@ public class WoodUtil {
         for wood in vanilla_wood_no_nether {
             var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, vanilla); 
 
-            println(rl.toString());
             if (rl.getPath() != "null") {
                 list.add(rl); 
             }
@@ -87,7 +86,6 @@ public class WoodUtil {
         }
         for wood in nether_wood {
             var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, vanilla_nether); 
-            println(rl.toString());
 
             if (rl.getPath() != "null") {
                 list.add(rl); 
