@@ -6,4 +6,7 @@
 	"Silk touch drizzleproof" = true
 	#If a player has Nausea, all of their block drops scatter
 	"Nauseous drizzle" = false
+	#Initial vertical velocity for dropped drizzleproof item entities
+	#Range: 0.0 ~ 0.2
+	"Item entity drop bounce multiplier" = 0.085
 

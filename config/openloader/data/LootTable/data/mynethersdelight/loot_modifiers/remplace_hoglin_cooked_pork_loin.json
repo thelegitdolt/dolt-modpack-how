@@ -1,7 +1,0 @@
-{
-  "type": "mynethersdelight:remplace_item",
-  "conditions": [],
-  "entity": "minecraft:hoglin",
-  "item": "netherexp:cooked_hogham",
-  "replaces": "minecraft:cooked_porkchop"
-}

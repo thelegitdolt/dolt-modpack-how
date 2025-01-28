@@ -45,5 +45,4 @@ chiseledBookshelf(new ResourceLocation("minecraft", "chiseled_bookshelf"));
 
 
 
-
 DebugUtil.endScript("/Loot/blocks/woodworks/bookshelf_become_good.zs"); 
