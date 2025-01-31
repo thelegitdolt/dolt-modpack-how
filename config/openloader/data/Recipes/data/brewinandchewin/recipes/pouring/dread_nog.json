@@ -1,0 +1,13 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "amount": 333,
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "filling": true,
+  "fluid": "brewinandchewin:dread_nog",
+  "output": {
+    "item": "brewinandchewin:dread_nog"
+  },
+  "strict": false
+}
