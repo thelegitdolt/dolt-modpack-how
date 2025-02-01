@@ -53,6 +53,9 @@
 			currant = true
 			grimwood = true
 
+		[types.leaves_type.naturesdelight]
+			bountiful_oak = true
+
 	[types.wood_type]
 
 		[types.wood_type.netherexp]

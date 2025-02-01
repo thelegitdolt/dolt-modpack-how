@@ -1,10 +1,9 @@
-DebugUtil.startScript("/Recipes/minecraft/quartz_glass.zs/"); 
+DebugUtil.startScript("recipes/minecraft/quartz_glass"); 
     
 
-import crafttweaker.api.recipe.FurnaceRecipeManager;
+
+Kiln.addFurnaceAndKiln("quartz_to_glass", 
+    <item:minecraft:quartz>, <item:minecraft:glass>, 0.1, "blocks");
 
 
-furnace.addRecipe("quartz_smelts_glass", <item:minecraft:glass>, <item:minecraft:quartz>, 0.1, 200);
-
-
-DebugUtil.endScript("/Recipes/minecraft/quartz_glass.zs"); 
+DebugUtil.endScript("recipes/minecraft/quartz_glass"); 

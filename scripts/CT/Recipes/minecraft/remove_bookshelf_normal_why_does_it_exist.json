@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/minecraft/remove_bookshelf_normal_why_does_it_exist.json/"); 
+DebugUtil.startScript("minecraft/remove_bookshelf_normal_why_does_it_exist"); 
     
 
 craftingTable.removeByName("minecraft:bookshelf");
@@ -6,4 +6,4 @@ craftingTable.removeByName("minecraft:chest");
 
 
 
-DebugUtil.endScript("/Recipes/minecraft/remove_bookshelf_normal_why_does_it_exist.json"); 
+DebugUtil.endScript("Recipes/minecraft/remove_bookshelf_normal_why_does_it_exist"); 
