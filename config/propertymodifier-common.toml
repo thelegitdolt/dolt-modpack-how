@@ -171,7 +171,8 @@
 		"caverns_and_chasms:sanguine_boots" = 768
 		#Other
 		"minecraft:turtle_helmet" = 512
-		"minecraft:fishing_rod" = 256
+		"minecraft:fishing_rod" = 384
+		"minecraft:brush" = 384
 		"autumnity:snail_shell_chestplate" = 512
 		"piglinproliferation:buckler" = 256
 		"minecraft:trident" = 1024
