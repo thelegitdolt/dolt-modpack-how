@@ -58,6 +58,7 @@ craftingTable.removeByName("minecraft:netherite_ingot");
 craftingTable.removeByName("caverns_and_chasms:necromium_ingot");
 
 craftingTable.removeByName("netherexp:netherite_plating");
+craftingTable.removeByName("netherexp:necromium_plating");
 
 
 DebugUtil.endScript("recipes/create/alloys_in_super_heated_basin"); 
