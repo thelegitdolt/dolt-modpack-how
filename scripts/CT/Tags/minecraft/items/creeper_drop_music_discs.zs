@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Tags/minecraft/items/creeper_drop_music_discs.zs/"); 
+DebugUtil.startScript("tags/minecraft/items/creeper_drop_music_discs"); 
     
 
 <tag:items:minecraft:creeper_drop_music_discs>.remove(<item:minecraft:music_disc_cat>);
@@ -8,4 +8,4 @@ DebugUtil.startScript("/Tags/minecraft/items/creeper_drop_music_discs.zs/");
 
 
 
-DebugUtil.endScript("/Tags/minecraft/items/creeper_drop_music_discs.zs"); 
+DebugUtil.endScript("tags/minecraft/items/creeper_drop_music_discs"); 

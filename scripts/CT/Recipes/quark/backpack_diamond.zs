@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/quark/backpack_diamond.zs/"); 
+DebugUtil.startScript("recipes/quark/backpack_diamond"); 
     
 
 craftingTable.removeByName("quark:oddities/crafting/backpack_no_hide");
@@ -11,4 +11,4 @@ craftingTable.addShaped("backpack", <item:quark:backpack>, [
 
 
 
-DebugUtil.endScript("/Recipes/quark/backpack_diamond.zs"); 
+DebugUtil.endScript("recipes/quark/backpack_diamond"); 

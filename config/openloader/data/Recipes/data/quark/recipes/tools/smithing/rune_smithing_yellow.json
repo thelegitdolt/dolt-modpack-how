@@ -1,0 +1,16 @@
+{
+  "type": "quark:smithing_rune",
+  "template": {
+    "item": "quark:smithing_template_rune"
+  },
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "color": "yellow",
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "color_runes"
+    }
+  ]
+}
