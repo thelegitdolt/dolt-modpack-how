@@ -3,13 +3,6 @@ DebugUtil.startScript("recipes/create/alloys_in_super_heated_basin");
 import mods.create.MixingManager;
 
 
-# <recipetype:create:mixing>.addRecipe("example_lol", 
-#                                    <constant:create:heat_condition:superheated>,
-#                                    [<item:minecraft:diamond> % 50, <item:minecraft:apple>, (<item:minecraft:dirt> * 2) % 12], 
-#                                    [<item:minecraft:glass> * 2],
-#                                    [<fluid:minecraft:water> * 250], 
-#                                    200);
-
 RUtil.mix.removeByName("oreganized:create/mixing/electrum_ingot"); 
 RUtil.mix.addRecipe("electrum_good", 
                                    <constant:create:heat_condition:superheated>,
@@ -35,6 +28,13 @@ RUtil.mix.addRecipe("netherite_plating_good",
                                    <constant:create:heat_condition:heated>,
                                    [<item:netherexp:netherite_plating> * 64], 
                                    [<item:minecraft:gold_ingot>, <item:netherexp:stridite> * 2, <item:minecraft:netherite_scrap>],
+                                   [<fluid:minecraft:lava> * 250],
+                                   500);
+
+RUtil.mix.addRecipe("necromium_plating_good", 
+                                   <constant:create:heat_condition:heated>,
+                                   [<item:netherexp:necromium_plating> * 64], 
+                                   [<item:caverns_and_chasms:silver_ingot>, <item:netherexp:stridite> * 2, <item:minecraft:netherite_scrap>],
                                    [<fluid:minecraft:lava> * 250],
                                    500);
 
