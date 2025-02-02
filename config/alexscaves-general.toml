@@ -21,7 +21,7 @@
 	cave_creature_spawn_count_modifier = 1.75
 	#The percent chance that drowned have to spawn wearing diving gear in the Abyssal Chasm. 0 = no diving gear wearing drowned will spawn
 	#Range: 0.0 ~ 1.0
-	drowned_diving_gear_spawn_chance = 0.2
+	drowned_diving_gear_spawn_chance = 0
 
 [mob-behavior]
 	#How many cpu cores big mobs(tremorzilla, atlatitan, grottoceratops etc) should utilize when pathing. Bigger number = less impact on TPS
