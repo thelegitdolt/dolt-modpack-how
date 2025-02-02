@@ -21,8 +21,7 @@ var include = [
     "create:crafting/logistics/pulse_extender",
     "create:crafting/logistics/powered_latch",
     "create:crafting/logistics/powered_toggle_latch",
-    "supplementaries:crank",
-    "quark:automation/crafting/redstone_randomizer"
+    "supplementaries:crank"
 ] as string[]; 
 
 if (RUtil.DO_REPLACER == 1) {

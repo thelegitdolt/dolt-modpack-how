@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/quark/furnace_good.zs/"); 
+DebugUtil.startScript("recipes/quark/furnace_good"); 
     
 
 import crafttweaker.api.resource.ResourceLocation;
@@ -35,4 +35,4 @@ craftingTable.addShaped("kiln_based", <item:clayworks:kiln>, [
 ]);
 
 
-DebugUtil.endScript("/Recipes/quark/furnace_good.zs"); 
+DebugUtil.endScript("recipes/quark/furnace_good.zs"); 
