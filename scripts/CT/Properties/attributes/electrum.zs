@@ -1,4 +1,4 @@
-DebugUtil.startScript("properties/attributes"); 
+DebugUtil.startScript("properties/attributes/electrum"); 
 
 import crafttweaker.api.entity.attribute.AttributeOperation;
 import crafttweaker.api.entity.equipment.EquipmentSlot;
