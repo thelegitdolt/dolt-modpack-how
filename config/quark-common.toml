@@ -1716,7 +1716,16 @@
 		"Enchantments To Register" = []
 
 	[experimental.enchantments_begone]
-		"Enchantments To Begone" = ["mynethersdelight:poaching", "alexscaves:crystallization", "alexscaves:bonking"]
+		"Enchantments To Begone" = ["mynethersdelight:poaching", 
+		"alexscaves:crystallization", "alexscaves:bonking", "alexscaves:swiftwood", "alexscaves:dazing_sweep", 
+		"alexscaves:solar", "alexscaves:energy_efficiency", "alexscaves:x_ray", "alexscaves:gamma_ray", "alexscaves:field_extension", 
+		"alexscaves:ferrous_haste", "alexscaves:shaded_respite", "alexscaves:seapairing",
+		"alexscaves:taxing_bellow", "alexscaves:charting_call", "alexscaves:lasting_morale", 
+		"alexscaves:enveloping_bubble", "alexscaves:bouncing_bolt", "alexscaves:soak_seeking", "alexscaves:triple_splash", "alexscaves:seapairing",
+		"alexscaves:humungous_hex", "alexscaves:multiple_mint", "alexscaves:spell_lasting",
+		"alexscaves:detonating_death", "alexscaves:rapid_possession", "alexscaves:sightless",
+		"alexscaves:astral_transferring"
+	]
 
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod

@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/suppies/hide_stuff.zs/"); 
+DebugUtil.startScript("/Recipes/suppies/hide_stuff"); 
     
 
 var things = [
@@ -10,4 +10,4 @@ HUtil.hideAll(things);
 
 
 
-DebugUtil.endScript("/Recipes/suppies/hide_stuff.zs"); 
+DebugUtil.endScript("recipes/suppies/hide_stuff"); 

@@ -178,6 +178,7 @@
 		"minecraft:trident" = 1024
 		"minecraft:elytra" = 2048
 		"minecraft:flint_and_steel" = 192
+		"oreganized:flint_and_pewter" = 192
 		"environmental:yak_pants" = 256
 		"quark:forgotten_hat" = 512
 		"savage_and_ravage:mask_of_dishonesty" = 320
