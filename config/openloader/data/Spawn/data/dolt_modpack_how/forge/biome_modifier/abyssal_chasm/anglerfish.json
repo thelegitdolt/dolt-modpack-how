@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "alexscaves:abyssal_chasm",
+  "spawners": {
+    "type": "spawn:angler_fish",
+    "maxCount": 5,
+    "minCount": 2,
+    "weight": 30
+  }
+}
