@@ -11,11 +11,11 @@ val netherite = <item:caverns_and_chasms:netherite_nugget>;
 
 <recipetype:create:mechanical_crafting>.addRecipe("nuke_spooky", <item:alexscaves:nuclear_bomb>, 
 [
-    [netherite, metal, metal, metal, netherite], 
+    [RUtil.air, metal, metal, metal, RUtil.air], 
     [metal, core, uranium, core, metal],
     [metal, uranium, pizza, uranium, metal],
     [metal, core, uranium, core, metal],
-    [netherite, metal, metal, metal, netherite]
+    [RUtil.air, metal, metal, metal, RUtil.air]
 ]);
 
 DebugUtil.endScript("recipes/alexscaves/NUKE"); 

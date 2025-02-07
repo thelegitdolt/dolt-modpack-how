@@ -24,6 +24,10 @@ public class HUtil {
         }
     }
 
+    public static hideFluid(i as string) as void {
+        Jei.hideIngredient(<fluid:${i}>); 
+    }
+
     #Precondition: NONE
     # Hides ONE item
     public static hide(thing as IItemStack) as void {
