@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Tags/forge/furnace/stone.zs/"); 
+DebugUtil.startScript("tags/forge/furnace/stone"); 
     
 
 #priority 11
@@ -8,4 +8,4 @@ DebugUtil.startScript("/Tags/forge/furnace/stone.zs/");
 <tag:items:forge:furnace/stone>.add(<item:quark:deepslate_furnace>);
 
 
-DebugUtil.endScript("/Tags/forge/furnace/stone.zs"); 
+DebugUtil.endScript("tags/forge/furnace/stone"); 

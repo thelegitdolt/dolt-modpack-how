@@ -681,15 +681,15 @@
 			furnace_boat = true
 
 		[entries.wood_type.quark]
-			hollow_log = true
-			vertical_planks = true
+			hollow_log = false
+			vertical_planks = false
 			post = true
-			trapped_chest = true
-			bookshelf = true
-			chest = true
+			trapped_chest = false
+			bookshelf = false
+			chest = false
 			stripped_post = true
-			ladder = true
-			vertical_slab = true
+			ladder = false
+			vertical_slab = false
 
 		[entries.wood_type.woodworks]
 			trapped_chest = true
@@ -701,20 +701,20 @@
 			ladder = true
 
 		[entries.wood_type.architects_palette]
-			board_stairs = true
-			railing = true
-			board_slab = true
-			boards = true
-			board_wall = true
+			board_stairs = false
+			railing = false
+			board_slab = false
+			boards = false
+			board_wall = false
 
 		[entries.wood_type.another_furniture]
-			flower_box = true
-			shelf = true
-			shutter = true
-			bench = true
-			table = true
-			drawer = true
-			chair = true
+			flower_box = false
+			shelf = false
+			shutter = false
+			bench = false
+			table = false
+			drawer = false
+			chair = false
 
 		[entries.wood_type.create]
 			window = true

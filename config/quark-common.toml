@@ -116,7 +116,7 @@
 	"Gold Bars" = false
 	Grate = true
 	Hedges = true
-	"Hollow Logs" = true
+	"Hollow Logs" = false
 	"Industrial Palette" = false
 	"Japanese Palette" = true
 	"Leaf Carpet" = false
