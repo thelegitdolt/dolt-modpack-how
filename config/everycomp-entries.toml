@@ -53,8 +53,8 @@
 			currant = true
 			grimwood = true
 
-		[types.leaves_type.naturesdelight]
-			bountiful_oak = true
+		[types.leaves_type.newworld]
+			fir = true
 
 	[types.wood_type]
 
@@ -109,6 +109,9 @@
 
 		[types.wood_type.autumnity]
 			maple = true
+
+		[types.wood_type.newworld]
+			fir = true
 
 	[types.cake]
 
@@ -658,6 +661,12 @@
 
 		[types.cut_block_type.goated]
 			thatch = true
+
+		[types.cut_block_type.newworld]
+			fir = true
+			loam = true
+			loam_brick = true
+			loam_tile = true
 
 #Disables specific entries
 [entries]
