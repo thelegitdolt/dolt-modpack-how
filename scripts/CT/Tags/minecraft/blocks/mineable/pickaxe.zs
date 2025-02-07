@@ -84,6 +84,8 @@ for skull in skulls {
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:minecraft:lever>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:minecraft:sea_lantern>);
 
+<tag:blocks:minecraft:mineable/pickaxe>.add(<block:alexscaves:enigmatic_engine>);
+
 
 
 
