@@ -113,6 +113,9 @@
 		[types.wood_type.newworld]
 			fir = true
 
+		[types.wood_type.endergetic]
+			poise = true
+
 	[types.cake]
 
 		[types.cake.neapolitan]
@@ -667,6 +670,10 @@
 			loam = true
 			loam_brick = true
 			loam_tile = true
+
+		[types.cut_block_type.endergetic]
+			poise = true
+			eumus_brick = true
 
 #Disables specific entries
 [entries]

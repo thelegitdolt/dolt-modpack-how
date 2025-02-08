@@ -79,7 +79,7 @@ function cheapen_gold_food(food as string, gold as string) as void {
 
 lanterns_okay("minecraft", "", <item:minecraft:torch>);
 lanterns_okay("minecraft", "soul_", <item:minecraft:soul_torch>);
-# lanterns_okay("endergetic", "ender_", <item:endergetic:ender_torch>);
+lanterns_okay("endergetic", "ender_", <item:endergetic:ender_torch>);
 lanterns_okay("caverns_and_chasms", "cupric_", <item:caverns_and_chasms:cupric_torch>);
 
 
