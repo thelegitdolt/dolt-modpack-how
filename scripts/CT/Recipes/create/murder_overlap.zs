@@ -26,5 +26,7 @@ var fruity_ahh_buckets = [
     "create:chocolate_bucket",
     "create:honey_bucket"
 ];
+HUtil.hideAll(fruity_ahh_buckets);
+
 
 DebugUtil.endScript("recipes/create/murder_overlap"); 
