@@ -1,51 +1,9 @@
-DebugUtil.startScript("/Tags/minecraft/blocks/mineable/pickaxe.zs/"); 
+DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe"); 
     
 
 <tag:blocks:minecraft:mineable/pickaxe>.remove(<block:minecraft:budding_amethyst>);
 
-var glasses = ["minecraft:light_blue_stained_glass_pane",
-"minecraft:cyan_stained_glass",
-"minecraft:purple_stained_glass_pane",
-"minecraft:gray_stained_glass_pane",
-"minecraft:magenta_stained_glass_pane",
-"upgrade_aquatic:glass_trapdoor",
-"minecraft:yellow_stained_glass",
- "minecraft:red_stained_glass_pane",
-"upgrade_aquatic:glass_door",
-"minecraft:lime_stained_glass",
-"minecraft:glass",
-"minecraft:purple_stained_glass",
-"minecraft:yellow_stained_glass_pane",
-"minecraft:cyan_stained_glass_pane",
-"minecraft:black_stained_glass_pane",
-"minecraft:white_stained_glass_pane",
-"minecraft:light_gray_stained_glass_pane",
-"minecraft:lime_stained_glass_pane",
-"minecraft:gray_stained_glass",
-"minecraft:green_stained_glass_pane",
-"minecraft:light_gray_stained_glass",
-"minecraft:black_stained_glass",
-"minecraft:blue_stained_glass_pane",
- "minecraft:brown_stained_glass",
-"minecraft:orange_stained_glass",
-"minecraft:light_blue_stained_glass",
-"minecraft:orange_stained_glass_pane",
-"minecraft:glass_pane",
-"minecraft:red_stained_glass",
-"minecraft:green_stained_glass",
-"minecraft:tinted_glass",
-"minecraft:brown_stained_glass_pane",
-"minecraft:pink_stained_glass_pane",
-"minecraft:blue_stained_glass",
-"minecraft:magenta_stained_glass",
-"minecraft:pink_stained_glass",
-"minecraft:white_stained_glass"]
- as string[];
-
-for glass in glasses {
-    <tag:blocks:minecraft:mineable/pickaxe>.add(<block:${glass}>);
-
-}
+<tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass>);
 
 var skulls = [
     "caverns_and_chasms:mime_head",
