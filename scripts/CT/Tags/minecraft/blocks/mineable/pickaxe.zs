@@ -3,6 +3,9 @@ DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe");
 
 <tag:blocks:minecraft:mineable/pickaxe>.remove(<block:minecraft:budding_amethyst>);
 
+<tag:blocks:forge:glass>.add(<tag:blocks:oreganized:crystal_glass_panes>);
+<tag:blocks:forge:glass>.add(<tag:blocks:minecraft:glass_blocks>);
+<tag:blocks:forge:glass>.add(<tag:blocks:minecraft:glass_panes>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass>);
 
 var skulls = [

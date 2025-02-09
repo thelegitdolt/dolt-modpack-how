@@ -1,5 +1,9 @@
+#priority 1000
+
 import crafttweaker.api.BracketDumpers;
 import crafttweaker.api.item.IItemStack;
+
+
 
 import crafttweaker.api.game.Game;
 
@@ -29,12 +33,23 @@ function dumpAllInTag(tag as string) as void {
             println(block.registryName);
         }
     }
-
     println("==================== BRACKET DUMPER END ====================="); 
-
 }
 
-dumpAllInTag("forge:glass");
+function dumpAllContainString(charSequence as string) as void {
+    println("==================== BRACKET DUMPER START ====================="); 
+
+    for block in game.blocks {
+        val a = block.registryName; 
+        if (charSequence in a.toString()) {
+            println(block.registryName);
+        }
+    }
+    println("==================== BRACKET DUMPER END ====================="); 
+}
+
+dumpAllInTag("oreganized:crystal_glass_panes");
 
 # link to dumper doc
-# https://docs.blamejared.com/1.19/en/vanilla/api/BracketDumpers
+# https://docs.blamejared.com/1.20.1/en/vanilla/api/BracketDumpers/
+# https://docs.blamejared.com/1.20/en/vanilla/api/game/Game/#properties
