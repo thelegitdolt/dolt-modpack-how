@@ -7,6 +7,4 @@ for item in RUtil.dyeDepotColors {
 <tag:items:alexscaves:concrete>.add(<item:clayworks:concrete>);
 
 
-
-
 DebugUtil.endScript("Tags/alexscaves/concrete"); 
