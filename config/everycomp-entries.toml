@@ -272,9 +272,6 @@
 			nebulite = true
 			polished_nebulite = true
 
-		[types.cut_block_type.ribbits]
-			mossy_oak_planks = true
-
 		[types.cut_block_type.mynethersdelight]
 			powdery = true
 			powdery_mosaic = true
