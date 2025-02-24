@@ -1,6 +1,12 @@
 DebugUtil.startScript("recipes/create/crushing_stones"); 
     
 
+<recipetype:create:milling>.removeByName("create:milling/granite");
+
+<recipetype:create:milling>.addRecipe("granite_crush_good", [
+    <item:minecraft:red_sand> % 25, <item:caverns_and_chasms:copper_nugget> % 25
+], <item:minecraft:granite>, 200);
+
 <recipetype:create:crushing>.addRecipe("shale_crush", 
 [<item:dye_depot:slate_dye> % 25, <item:caverns_and_chasms:silver_nugget> % 10], 
 <item:quark:shale>, 200);
