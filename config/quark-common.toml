@@ -622,7 +622,14 @@
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = []
+		"Baked Enchantments" = [
+		"alexscaves:magic_conch+alexscaves:taxing_bellow@1",
+		"alexscaves:sea_staff+alexscaves:soak_seeking@2",
+		"alexscaves:dreadbow+alexscaves:twilight_perfection@2",
+		"alexscaves:sugar_staff+alexscaves:seekcandy@1",
+		"alexscaves:shot_gum+alexscaves:bouncy_ball@3",
+		"alexscaves:candy_cane_hook+alexscaves:sharp_cane@1"
+		]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
@@ -1716,7 +1723,14 @@
 		"Enchantments To Register" = []
 
 	[experimental.enchantments_begone]
-		"Enchantments To Begone" = ["mynethersdelight:poaching", "alexscaves:crystallization", "alexscaves:bonking", "alexscaves:swiftwood", "alexscaves:dazing_sweep", "alexscaves:solar", "alexscaves:energy_efficiency", "alexscaves:x_ray", "alexscaves:gamma_ray", "alexscaves:field_extension", "alexscaves:ferrous_haste", "alexscaves:shaded_respite", "alexscaves:seapairing", "alexscaves:taxing_bellow", "alexscaves:charting_call", "alexscaves:lasting_morale", "alexscaves:enveloping_bubble", "alexscaves:bouncing_bolt", "alexscaves:soak_seeking", "alexscaves:triple_splash", "alexscaves:seapairing", "alexscaves:humungous_hex", "alexscaves:multiple_mint", "alexscaves:spell_lasting", "alexscaves:detonating_death", "alexscaves:rapid_possession", "alexscaves:sightless", "alexscaves:astral_transferring"]
+		"Enchantments To Begone" = ["mynethersdelight:poaching", "alexscaves:crystallization", "alexscaves:bonking", 
+		"alexscaves:swiftwood", "alexscaves:dazing_sweep", "alexscaves:solar", "alexscaves:energy_efficiency",
+		 "alexscaves:gamma_ray", "alexscaves:field_extension", "alexscaves:ferrous_haste", 
+		 "alexscaves:shaded_respite", "alexscaves:dark_nock", "alexscaves:seapairing", "alexscaves:taxing_bellow", "alexscaves:charting_call", 
+		 "alexscaves:lasting_morale", "alexscaves:enveloping_bubble", "alexscaves:bouncing_bolt", 
+		 "alexscaves:soak_seeking", "alexscaves:triple_splash", "alexscaves:seapairing", "alexscaves:humungous_hex", 
+		 "alexscaves:multiple_mint", "alexscaves:spell_lasting", "alexscaves:detonating_death", "alexscaves:rapid_possession", 
+		 "alexscaves:sightless", "alexscaves:arrow_inducting", "alexscaves:heavy_slam", "alexscaves:astral_transferring"]
 
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
