@@ -129,7 +129,7 @@
 	"Raw Metal Bricks" = true
 	Rope = false
 	"Shear Vines" = true
-	Shingles = true
+	Shingles = false
 	"Soul Sandstone" = true
 	Stools = false
 	"Sturdy Stone" = true
