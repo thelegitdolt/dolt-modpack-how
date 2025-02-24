@@ -44,6 +44,5 @@ craftingTable.addShapeless("ender_nub_good", <item:architects_palette:nub_of_end
 <tag:items:minecraft:piglins_loved>.add(<item:architects_palette:gold_nub>);
 <tag:blocks:minecraft:guarded_by_piglins>.add(<block:architects_palette:gold_nub>); 
 
-    
 
 DebugUtil.endScript("recipes/architects_palette/die_nubs"); 
