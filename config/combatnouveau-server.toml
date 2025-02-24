@@ -14,7 +14,7 @@ inflate_hitboxes = true
 #Attacking will no longer stop the player from sprinting. Very useful when swimming, so you can fight underwater without being stopped on every hit.
 sprint_attacks = true
 #Disables damage immunity when hit by a projectile. Makes it possible for entities to be hit by multiple projectiles at once (useful for the multishot enchantment).
-no_projectile_immunity = true
+no_projectile_immunity = false
 
 [shield]
 	#Shields knock back attackers (see MC-147694).

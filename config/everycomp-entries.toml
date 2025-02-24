@@ -672,6 +672,9 @@
 			poise = true
 			eumus_brick = true
 
+		[types.cut_block_type.ribbits]
+			mossy_oak_planks = true
+
 #Disables specific entries
 [entries]
 
