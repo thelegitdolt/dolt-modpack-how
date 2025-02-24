@@ -131,7 +131,7 @@
 	"Shear Vines" = true
 	Shingles = true
 	"Soul Sandstone" = true
-	Stools = true
+	Stools = false
 	"Sturdy Stone" = true
 	Thatch = false
 	"Variant Bookshelves" = false
