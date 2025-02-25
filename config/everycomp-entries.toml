@@ -53,9 +53,6 @@
 			currant = true
 			grimwood = true
 
-		[types.leaves_type.newworld]
-			fir = true
-
 	[types.wood_type]
 
 		[types.wood_type.netherexp]
@@ -109,9 +106,6 @@
 
 		[types.wood_type.autumnity]
 			maple = true
-
-		[types.wood_type.newworld]
-			fir = true
 
 		[types.wood_type.endergetic]
 			poise = true
@@ -661,12 +655,6 @@
 
 		[types.cut_block_type.goated]
 			thatch = true
-
-		[types.cut_block_type.newworld]
-			fir = true
-			loam = true
-			loam_brick = true
-			loam_tile = true
 
 		[types.cut_block_type.endergetic]
 			poise = true

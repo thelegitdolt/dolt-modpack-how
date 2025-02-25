@@ -25,6 +25,10 @@
 		#The disc that should be spawned when a jukebox is struck with lightning. Disables if string is "no"
 		"Lightning Disc" = "minecraft:music_disc_ward"
 
+	[Vanilla.enchantments]
+		#If enchantments other than protection should be buffed. Experimental!
+		"Erm what the sigma" = true
+
 [atmospheric]
 
 	[atmospheric.Oranges]
