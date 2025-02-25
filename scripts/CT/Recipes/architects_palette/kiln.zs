@@ -32,13 +32,6 @@ crackedBricks("coal_ore");
 crackedBricks("moonshale"); 
 crackedBricks("gold_ore"); 
 
-Kiln.newRecipe("kiln/ap/baking/wardstone_brick_from_wardstone_blend_baking", 
-    <item:architects_palette:wardstone_blend>, 
-    <item:architects_palette:wardstone_brick>, 0.1, "misc"); 
-    
-Kiln.newRecipe("kiln/ap/baking/algal_brick_from_algal_blend_smelting", 
-    <item:architects_palette:algal_blend>, 
-    <item:architects_palette:algal_brick>, 0.1, "misc"); 
 
 Kiln.newRecipe("kiln/ap/baking/cracked_basalt_tiles_from_basalt_tiles_baking", 
     <item:architects_palette:basalt_tiles>, 
