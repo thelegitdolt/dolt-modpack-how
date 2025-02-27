@@ -2,17 +2,17 @@
 [mobs]
 
 	[mobs.creeper]
-		"Creeper explosions drop all blocks" = true
 		#Creeper explosions have a weaker power
 		"Creeper explosion nerf" = true
 		#How much weaker Creeper explosions are
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Creeper explosion nerf factor" = 0.5
+		"Creeper explosions drop all blocks" = true
 
 	[mobs.deeper]
-		"Deeper explosions drop all blocks" = true
 		#Range: -64 ~ 320
 		"Deeper max spawn height" = 60
+		"Deeper explosions drop all blocks" = true
 
 	[mobs.peeper]
 		#Range: -64 ~ 320

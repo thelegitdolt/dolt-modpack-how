@@ -2,9 +2,9 @@
   "type": "brewinandchewin:keg_pouring",
   "amount": 1000,
   "filling": true,
-  "fluid": "minecraft:milk",
+  "fluid": "minecraft:water",
   "output": {
-    "item": "minecraft:milk_bucket"
+    "item": "caverns_and_chasms:golden_water_bucket"
   },
   "strict": false
 }

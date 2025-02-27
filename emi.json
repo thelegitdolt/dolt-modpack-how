@@ -1,0 +1,75 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:minecraft:milk_bucket",
+    "item:netherexp:jackhammer_fist{Damage:0,Pulled:0b}",
+    "item:sullysmod:miners_helmet{Damage:0,HideFlags:2}",
+    "item:create:cut_veridium_brick_slab",
+    "item:create:polished_cut_veridium",
+    "item:minecraft:cooked_beef",
+    "item:farmersdelight:beef_stew",
+    "item:brewinandchewin:quiche",
+    "item:create:cut_scorchia_bricks",
+    "item:create:cut_scorchia_wall",
+    "item:autumnity:maple_slab",
+    "item:autumnity:sappy_maple_log",
+    "item:minecraft:oak_fence",
+    "item:quark:birch_vertical_slab",
+    "item:minecraft:rotten_flesh",
+    "item:minecraft:emerald",
+    "item:rusticdelight:cooking_oil",
+    "item:farmersdelight:cooking_pot",
+    "item:farmersdelight:honey_cookie",
+    "item:alexscaves:cookie_block",
+    "item:rainbowreef:basslet_cookie",
+    "item:farmersdelight:steak_and_potatoes",
+    "item:create:wrench",
+    "item:create:mechanical_bearing",
+    "item:create:sticky_mechanical_piston",
+    "item:create:mechanical_piston",
+    "item:create:mechanical_pump",
+    "item:create:mechanical_mixer",
+    "item:create:mechanical_press",
+    "item:create:mechanical_arm",
+    "item:create:mechanical_crafter",
+    "item:create:mechanical_drill",
+    {
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "netherexp:ectoplasm",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sullysmod:molten_amber_fluid",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "alexscaves:acid",
+      "amount": 0
+    },
+    "item:brewinandchewin:salty_folly",
+    "item:minecraft:water_bucket"
+  ],
+  "craft_history": [
+    "boatload:large_birch_boat",
+    "minecraft:birch_boat",
+    "minecraft:crafting_table",
+    "quark:building/crafting/vertslabs/birch_vertical_slab_revert",
+    "minecraft:stripped_birch_wood",
+    "minecraft:birch_planks",
+    "quark:tweaks/crafting/utility/misc/easy_sticks"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
