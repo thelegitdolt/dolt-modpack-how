@@ -1,7 +1,0 @@
-{
-  "keys": [
-    "minecraft:blast_furnace",
-    "minecraft:furnace"
-  ],
-  "soundEvent": "minecraft:block.fire.ambient"
-}
