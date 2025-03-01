@@ -28,6 +28,8 @@ function make_nuggie_four(material as string, nug as IItemStack, ing as IItemSta
 }
 
 make_nuggie_four("silver", <item:caverns_and_chasms:silver_nugget>, <item:caverns_and_chasms:silver_ingot>);
+make_nuggie_four("tin", <item:caverns_and_chasms:tin_nugget>, <item:caverns_and_chasms:tin_ingot>);
+
 make_nuggie_four("necromium", <item:caverns_and_chasms:necromium_nugget>, <item:caverns_and_chasms:necromium_ingot>);
 
 make_nuggie_four("gold", <item:minecraft:gold_nugget>, <item:minecraft:gold_ingot>);
