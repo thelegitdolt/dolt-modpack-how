@@ -349,12 +349,12 @@
 	/**
 	 * Display the recipe tree for a given stack.
 	 */
-	view-stack-tree: "key.keyboard.unknown";
+	view-stack-tree: "ctrl key.keyboard.t";
 
 	/**
 	 * Display the recipe tree.
 	 */
-	view-tree: "key.keyboard.unknown";
+	view-tree: "ctrl key.keyboard.t";
 
 	/**
 	 * Return to the previous page in EMI.
