@@ -62,7 +62,7 @@
 	"Metal Buttons" = false
 	"Obsidian Plate" = true
 	"Pistons Move Tile Entities" = true
-	"Redstone Randomizer" = true
+	"Redstone Randomizer" = false
 
 	[automation.crafter]
 		#Setting this to true will change the Crafter to use Emi's original design instead of Mojang's.
