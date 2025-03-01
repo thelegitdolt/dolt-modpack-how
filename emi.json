@@ -1,6 +1,40 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:buzzier_bees:cupric_candle",
+    "item:minecraft:music_disc_11",
+    "item:caverns_and_chasms:copper_horn{bass_instrument:\"caverns_and_chasms:thought_copper_horn\",harmony_instrument:\"caverns_and_chasms:fresh_copper_horn\",melody_instrument:\"caverns_and_chasms:nest_copper_horn\"}",
+    "item:caverns_and_chasms:copper_horn{bass_instrument:\"caverns_and_chasms:resting_copper_horn\",harmony_instrument:\"caverns_and_chasms:old_copper_horn\",melody_instrument:\"caverns_and_chasms:hymn_copper_horn\"}",
+    {
+      "type": "item",
+      "id": "atmospheric:arid_glass",
+      "amount": 99
+    },
+    "item:minecraft:tnt",
+    {
+      "type": "item",
+      "id": "caverns_and_chasms:scatterer",
+      "amount": 99
+    },
+    "item:caverns_and_chasms:tether_potion{Potion:\"minecraft:long_invisibility\",Subtle:1b}",
+    "item:caverns_and_chasms:forger_armor_trim_smithing_template{}",
+    "item:create:portable_storage_interface",
+    "item:architects_palette:algal_brick",
+    "item:supplementaries:ash_brick",
+    {
+      "type": "item",
+      "id": "caverns_and_chasms:tin_ingot",
+      "amount": 9
+    },
+    "item:caverns_and_chasms:tin_block",
+    "item:caverns_and_chasms:storage_duct",
+    "#item:minecraft:beacon_payment_items",
+    "item:spawn:roasted_sunflower_seeds",
+    "item:minecraft:flower_banner_pattern",
+    "item:minecraft:flower_pot",
+    "item:sniffed_out:nightshade",
+    "item:caverns_and_chasms:cupric_campfire",
+    "item:minecraft:copper_block",
     "item:minecraft:milk_bucket",
     "item:netherexp:jackhammer_fist{Damage:0,Pulled:0b}",
     "item:sullysmod:miners_helmet{Damage:0,HideFlags:2}",

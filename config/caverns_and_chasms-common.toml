@@ -7,12 +7,10 @@
 		#How much weaker Creeper explosions are
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Creeper explosion nerf factor" = 0.5
-		"Creeper explosions drop all blocks" = true
 
 	[mobs.deeper]
 		#Range: -64 ~ 320
 		"Deeper max spawn height" = 60
-		"Deeper explosions drop all blocks" = true
 
 	[mobs.peeper]
 		#Range: -64 ~ 320
@@ -30,4 +28,15 @@
 		#The range in blocks that better rail placement can reach
 		#Range: > 0
 		"Placement range" = 7
+
+	[tweaks.trims]
+		#Prevents replacing/applying a Trim Template & Material over a previously trimmed item
+		#This is to prevent the player from wasting materials that could be returned at a Dismantling Table
+		"Prevent replacing trims" = false
+
+[blocks]
+
+	[blocks.fragile_stone]
+		#If ores next to or within Fragile Stone and Deepslate fall when the neighbor blocks crumble
+		"Fragile stone collapses ores" = true
 

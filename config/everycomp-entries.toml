@@ -362,6 +362,23 @@
 			dripstone_shingle = true
 			cut_amethyst_brick = true
 			azalea = true
+			turquoise_tile = true
+			cassiterite = true
+			smooth_cassiterite = true
+			cassiterite_brick = true
+			polished_cassiterite = true
+			iron_brick = true
+			tin_brick = true
+			gold_brick = true
+			silver_brick = true
+			copper_brick = true
+			exposed_copper_brick = true
+			weathered_copper_brick = true
+			oxidized_copper_brick = true
+			waxed_copper_brick = true
+			waxed_exposed_copper_brick = true
+			waxed_weathered_copper_brick = true
+			waxed_oxidized_copper_brick = true
 
 		[types.cut_block_type.upgrade_aquatic]
 			beachgrass_thatch = true
@@ -662,6 +679,9 @@
 
 		[types.cut_block_type.ribbits]
 			mossy_oak_planks = true
+
+		[types.cut_block_type.sniffed_out]
+			vessel = true
 
 #Disables specific entries
 [entries]
