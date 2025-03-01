@@ -9,9 +9,37 @@
     },
     {
       "stack": "item:scholar:white_written_book"
+    },
+    {
+      "stack": "item:sniffed_out:chiseled_vessel_bookshelf",
+      "recipe": "sniffed_out:chiseled_vessel_bookshelf"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:redstone",
+        "amount": 9
+      },
+      "recipe": "minecraft:redstone"
+    },
+    {
+      "stack": "item:minecraft:redstone"
     }
   ],
   "lookup_history": [
+    "item:alexscaves:pure_darkness",
+    "item:alexscaves:occult_gem",
+    "item:alexscaves:sweet_tooth",
+    "item:alexscaves:ominous_catalyst",
+    "item:minecraft:painting{EntityTag:{variant:\"portfolio:sunrise_sparse\"}}",
+    "item:dye_depot:rose_dye",
+    "item:sniffed_out:chiseled_vessel_bookshelf",
+    {
+      "type": "item",
+      "id": "caverns_and_chasms:refractor",
+      "amount": 99
+    },
+    "item:alexscaves:polarity_armor_trim_smithing_template{}",
     {
       "type": "item",
       "id": "oreganized:electrum_ingot",
@@ -122,7 +150,6 @@
     "item:caverns_and_chasms:fragile_stone",
     "item:caverns_and_chasms:mime_head",
     "item:caverns_and_chasms:deeper_head",
-    "item:caverns_and_chasms:refractor",
     "item:caverns_and_chasms:necromium_block",
     "item:species:music_disc_dial",
     "item:caverns_and_chasms:impact_potion{Potion:\"minecraft:strong_harming\",Subtle:1b}",
