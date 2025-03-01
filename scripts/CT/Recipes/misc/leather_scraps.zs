@@ -14,6 +14,7 @@ var leatherTag = <tag:items:dolt_mod_how:leather>;
 
 <tag:items:caverns_and_chasms:cupric_fire_base_blocks>.add(<item:minecraft:copper_ingot>);
 
+
 var exclude = [
     "quark:building/crafting/compressed/bonded_leather",
     "dolt_mod_how:cutting/leather_scrap"

@@ -12,6 +12,11 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "oreganized:electrum_ingot",
+      "amount": 99
+    },
     "item:sniffed_out:crude_vessel_cuticle",
     "item:sniffed_out:elegant_vessel_stem",
     "item:caverns_and_chasms:forger_armor_trim_smithing_template{}",
