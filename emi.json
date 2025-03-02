@@ -3,50 +3,31 @@
     {
       "stack": {
         "type": "item",
-        "id": "minecraft:book",
-        "amount": 3
-      }
-    },
-    {
-      "stack": "item:scholar:white_written_book"
-    },
-    {
-      "stack": "item:sniffed_out:chiseled_vessel_bookshelf"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "minecraft:redstone",
-        "amount": 9
-      },
-      "recipe": "minecraft:redstone"
-    },
-    {
-      "stack": "item:minecraft:redstone"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "environmental:podzol_path",
+        "id": "sniffed_out:crude_vessel_cuticle",
         "amount": 99
       }
     },
     {
-      "stack": "item:caverns_and_chasms:trail_potion{Potion:\"atmospheric:relief_strong\",Subtle:1b}",
-      "recipe": "jei:/create/potions"
-    },
-    {
-      "stack": "item:minecraft:glass_bottle"
-    },
-    {
       "stack": {
         "type": "item",
-        "id": "neapolitan:banana",
-        "amount": 62
+        "id": "sniffed_out:vessel_bookshelf",
+        "amount": 99
       }
     }
   ],
   "lookup_history": [
+    "item:dye_depot:verdant_concrete",
+    "item:minecraft:painting{EntityTag:{variant:\"sullysmod:caverns\"}}",
+    {
+      "type": "item",
+      "id": "alexscaves:seething_stew",
+      "amount": 61
+    },
+    {
+      "type": "item",
+      "id": "sniffed_out:vessel_bookshelf",
+      "amount": 99
+    },
     {
       "type": "item",
       "id": "sniffed_out:crude_vessel_cuticle",
@@ -138,7 +119,6 @@
     "item:alexscaves:occult_gem",
     "item:alexscaves:sweet_tooth",
     "item:alexscaves:ominous_catalyst",
-    "item:minecraft:painting{EntityTag:{variant:\"portfolio:sunrise_sparse\"}}",
     "item:dye_depot:rose_dye",
     "item:sniffed_out:chiseled_vessel_bookshelf",
     {
@@ -155,11 +135,6 @@
     "item:sniffed_out:elegant_vessel_stem",
     "item:caverns_and_chasms:forger_armor_trim_smithing_template{}",
     "item:caverns_and_chasms:boom_pottery_sherd",
-    {
-      "type": "item",
-      "id": "sniffed_out:vessel_bookshelf",
-      "amount": 98
-    },
     "item:caverns_and_chasms:tether_potion{Potion:\"minecraft:strong_strength\"}",
     "item:scholar:white_written_book",
     "item:architects_palette:nether_brass_ingot",
@@ -330,7 +305,9 @@
     "added": [],
     "tags": {},
     "resolutions": {},
-    "disabled": []
+    "disabled": [
+      "minecraft:painting"
+    ]
   },
   "hidden_stacks": []
 }
