@@ -1,9 +1,0 @@
-{
-  "asset_name": "sulfur",
-  "description": {
-    "color": "#FFF43c",
-    "translate": "trim_material.alexscaves.sulfur"
-  },
-  "ingredient": "alexscaves:sulfur_dust",
-  "item_model_index": -1
-}

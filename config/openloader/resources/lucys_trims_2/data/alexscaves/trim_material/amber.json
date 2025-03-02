@@ -1,9 +1,0 @@
-{
-  "asset_name": "amber",
-  "description": {
-    "color": "#FF8C00",
-    "translate": "trim_material.alexscaves.amber"
-  },
-  "ingredient": "alexscaves:amber_curiosity",
-  "item_model_index": -1
-}

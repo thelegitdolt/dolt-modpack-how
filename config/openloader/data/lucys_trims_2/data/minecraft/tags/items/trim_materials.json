@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:echo_shard",
+    "pigsteel:pigsteel_chunk",
+    "sullysmod:jade",
+    "create:polished_rose_quartz",
+    "create:brass_ingot", 
+    "create:zinc_ingot",
+    "alexscaves:amber_curiosity",
+    "alexscaves:scarlet_neodymium_ingot",
+    "alexscaves:azure_neodymium_ingot",
+    "alexscaves:uranium",
+    "alexscaves:sulfur_dust"
+  ]
+}

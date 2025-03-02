@@ -48,6 +48,34 @@
     }
   ],
   "lookup_history": [
+    "item:alexscaves:azure_neodymium_ingot",
+    "item:caverns_and_chasms:dismantling_table",
+    "item:caverns_and_chasms:rim_armor_trim_smithing_template{}",
+    "item:create:zinc_ingot",
+    "item:minecraft:diamond_chestplate{Damage:0}",
+    {
+      "type": "item",
+      "id": "create:brass_ingot",
+      "amount": 99
+    },
+    {
+      "type": "item",
+      "id": "caverns_and_chasms:large_arrow",
+      "amount": 98
+    },
+    {
+      "type": "item",
+      "id": "minecraft:echo_shard",
+      "amount": 99
+    },
+    "item:create:polished_rose_quartz",
+    "item:minecraft:diamond",
+    {
+      "type": "item",
+      "id": "upgrade_aquatic:thrasher_tooth",
+      "amount": 98
+    },
+    "item:alexscaves:uranium",
     "item:supplementaries:candle_holder_light_blue",
     "item:supplementaries:candle_holder_purple",
     "item:supplementaries:candle_holder_blue",
@@ -119,13 +147,11 @@
     "item:minecraft:smithing_table",
     "item:caverns_and_chasms:necromium_horse_armor",
     "item:minecraft:coast_armor_trim_smithing_template{}",
-    "item:caverns_and_chasms:dismantling_table",
     "item:caverns_and_chasms:trail_potion{Potion:\"sullysmod:resistance\"}",
     "item:caverns_and_chasms:trail_potion{Potion:\"alexscaves:deepsight\"}",
     "item:caverns_and_chasms:trail_potion{Potion:\"minecraft:long_turtle_master\"}",
     "item:caverns_and_chasms:immolate_armor_trim_smithing_template{}",
     "item:caverns_and_chasms:exile_armor_trim_smithing_template{}",
-    "item:caverns_and_chasms:rim_armor_trim_smithing_template{}",
     "item:minecraft:dripstone_block",
     {
       "type": "item",

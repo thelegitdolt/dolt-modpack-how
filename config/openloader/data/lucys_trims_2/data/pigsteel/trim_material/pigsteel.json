@@ -1,0 +1,9 @@
+{
+  "asset_name": "pigsteel_pigsteel",
+  "description": {
+    "color": "#8C637C",
+    "translate": "trim_material.pigsteel.pigsteel"
+  },
+  "ingredient": "pigsteel:pigsteel_chunk",
+  "item_model_index": -1
+}

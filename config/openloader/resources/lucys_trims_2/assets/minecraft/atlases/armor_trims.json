@@ -54,8 +54,6 @@
         "atmospheric:trims/models/armor/apostle_leggings",
         "alexscaves:trims/models/armor/polarity",
         "alexscaves:trims/models/armor/polarity_leggings"
-
-
     ],
       "palette_key": "minecraft:trims/color_palettes/trim_palette",
       "permutations": {
@@ -86,10 +84,8 @@
         "alexscaves_azure_neodymium":"alexscaves:trims/color_palettes/azure_neodymium",
         "alexscaves_uranium":"alexscaves:trims/color_palettes/uranium",
         "alexscaves_sulfur":"alexscaves:trims/color_palettes/sulfur"
-
     }
     },
-  
         {
           "type": "minecraft:directory",
           "prefix": "trims/models/armor/",

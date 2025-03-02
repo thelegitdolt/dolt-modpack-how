@@ -1,9 +1,0 @@
-{
-  "asset_name": "brass",
-  "description": {
-    "color": "#Fbcc68",
-    "translate": "trim_material.create.brass"
-  },
-  "ingredient": "create:brass_ingot",
-  "item_model_index": -1
-}
