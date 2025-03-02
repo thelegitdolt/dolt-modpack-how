@@ -48,6 +48,26 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "atmospheric:arid_glass_pane",
+      "amount": 99
+    },
+    {
+      "type": "item",
+      "id": "upgrade_aquatic:beachgrass_thatch",
+      "amount": 53
+    },
+    {
+      "type": "item",
+      "id": "caverns_and_chasms:float_glass",
+      "amount": 64
+    },
+    "item:sniffed_out:elegant_vessel_cuticle",
+    "item:sniffed_out:stripped_vessel_stem",
+    "#item:minecraft:logs_that_burn",
+    "item:sniffed_out:crude_vessel_stem",
+    "item:minecraft:stripped_crimson_stem",
     "item:alexscaves:azure_neodymium_ingot",
     "item:caverns_and_chasms:dismantling_table",
     "item:caverns_and_chasms:rim_armor_trim_smithing_template{}",
@@ -308,64 +328,5 @@
     "resolutions": {},
     "disabled": []
   },
-  "hidden_stacks": [
-    {
-      "type": "fluid",
-      "id": "supplementaries:lumisene",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "sullysmod:molten_amber_fluid",
-      "amount": 0
-    },
-    "item:nest_egg:emu_egg_crate",
-    "item:bury_me_deep:red_curious_arid_sand",
-    "item:nest_egg:duck_egg_crate",
-    "item:bury_me_deep:red_curious_sand",
-    "item:bury_me_deep:curious_soul_sand",
-    "item:nest_egg:ge_duck_egg_crate",
-    "item:scholar:tan_written_book",
-    "item:scholar:ginger_written_book",
-    "item:scholar:forest_written_book",
-    "item:bury_me_deep:curious_gravel",
-    "item:bury_me_deep:curious_coarse_dirt",
-    "item:bury_me_deep:curious_sand",
-    "item:scholar:verdant_written_book",
-    "item:bury_me_deep:curious_arid_sand",
-    "item:scholar:amber_written_book",
-    "item:scholar:beige_written_book",
-    "item:scholar:indigo_written_book",
-    "item:scholar:coral_written_book",
-    "item:scholar:navy_written_book",
-    "item:scholar:teal_written_book",
-    "item:scholar:mint_written_book",
-    "item:scholar:slate_written_book",
-    "item:scholar:olive_written_book",
-    "item:scholar:aqua_written_book",
-    "item:scholar:rose_written_book",
-    "item:scholar:maroon_written_book",
-    "item:scholar:aqua_writable_book",
-    "item:scholar:mint_writable_book",
-    "item:scholar:tan_writable_book",
-    "item:scholar:ginger_writable_book",
-    "item:scholar:teal_writable_book",
-    "item:scholar:beige_writable_book",
-    "item:scholar:forest_writable_book",
-    "item:scholar:indigo_writable_book",
-    "item:scholar:navy_writable_book",
-    "item:scholar:slate_writable_book",
-    "item:scholar:olive_writable_book",
-    "item:scholar:amber_writable_book",
-    "item:scholar:verdant_writable_book",
-    "item:scholar:maroon_writable_book",
-    "item:scholar:rose_writable_book",
-    "item:scholar:coral_writable_book",
-    "item:citadel:icon_item",
-    "item:moonlight:placeable_item",
-    "item:citadel:debug",
-    "item:citadel:citadel_book",
-    "item:citadel:effect_item",
-    "item:citadel:fancy_item"
-  ]
+  "hidden_stacks": []
 }

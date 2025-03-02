@@ -1,3 +1,5 @@
+# priority 200
+
 DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe"); 
     
 
@@ -7,6 +9,7 @@ DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe");
 <tag:blocks:forge:glass>.add(<tag:blocks:minecraft:glass_blocks>);
 <tag:blocks:forge:glass>.add(<tag:blocks:minecraft:glass_panes>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass>);
+<tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass_panes>);
 
 var skulls = [
     "caverns_and_chasms:mime_head",
@@ -29,6 +32,34 @@ var skulls = [
     "minecraft:wither_skeleton_wall_skull",
     "supplementaries:enderman_head",
     "supplementaries:enderman_wall_head",
+    "sullysmod:gigantic_ancient_skull",
+    "sullysmod:gigantic_ancient_wall_skull",
+    "sullysmod:ribbed_ancient_skull",
+    "sullysmod:ribbed_ancient_wall_skull",
+    "sullysmod:long_ancient_skull",
+    "sullysmod:long_ancient_wall_skull",
+    "sullysmod:horned_ancient_skull",
+    "sullysmod:horned_ancient_wall_skull",
+    "sullysmod:flatbilled_ancient_skull",
+    "sullysmod:flatbilled_ancient_wall_skull",
+    "sullysmod:tiny_ancient_skull",
+    "sullysmod:tiny_ancient_wall_skull",
+    "sullysmod:cracked_ancient_skull",
+    "sullysmod:cracked_ancient_wall_skull",
+    "sullysmod:wide_ancient_skull",
+    "sullysmod:wide_ancient_wall_skull",
+    "sullysmod:crested_ancient_skull",
+    "sullysmod:crested_ancient_wall_skull",
+    "piglinproliferation:zombified_piglin_head",
+    "piglinproliferation:zombified_piglin_wall_head",
+    "piglinproliferation:piglin_brute_head",
+    "piglinproliferation:piglin_brute_wall_head",
+    "minecraft:piglin_head",
+    "minecraft:piglin_wall_head",
+    "piglinproliferation:piglin_alchemist_head",
+    "piglinproliferation:piglin_alchemist_wall_head",
+    "piglinproliferation:piglin_traveler_head",
+    "piglinproliferation:piglin_traveler_wall_head",
     "amendments:skull_pile",
     "amendments:skull_candle",
     "amendments:skull_candle_soul",
