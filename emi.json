@@ -11,8 +11,7 @@
       "stack": "item:scholar:white_written_book"
     },
     {
-      "stack": "item:sniffed_out:chiseled_vessel_bookshelf",
-      "recipe": "sniffed_out:chiseled_vessel_bookshelf"
+      "stack": "item:sniffed_out:chiseled_vessel_bookshelf"
     },
     {
       "stack": {
@@ -48,6 +47,12 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "sniffed_out:crude_vessel_cuticle",
+      "amount": 99
+    },
+    "item:sullysmod:ribbed_ancient_skull{HideFlags:2}",
     {
       "type": "item",
       "id": "atmospheric:arid_glass_pane",
@@ -147,7 +152,6 @@
       "id": "oreganized:electrum_ingot",
       "amount": 99
     },
-    "item:sniffed_out:crude_vessel_cuticle",
     "item:sniffed_out:elegant_vessel_stem",
     "item:caverns_and_chasms:forger_armor_trim_smithing_template{}",
     "item:caverns_and_chasms:boom_pottery_sherd",
