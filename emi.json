@@ -24,14 +24,63 @@
     },
     {
       "stack": "item:minecraft:redstone"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "environmental:podzol_path",
+        "amount": 99
+      }
+    },
+    {
+      "stack": "item:caverns_and_chasms:trail_potion{Potion:\"atmospheric:relief_strong\",Subtle:1b}",
+      "recipe": "jei:/create/potions"
+    },
+    {
+      "stack": "item:minecraft:glass_bottle"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "neapolitan:banana",
+        "amount": 62
+      }
     }
   ],
   "lookup_history": [
+    "item:supplementaries:candle_holder_light_blue",
+    "item:supplementaries:candle_holder_purple",
+    "item:supplementaries:candle_holder_blue",
+    "item:supplementaries:candle_holder_white",
+    "item:supplementaries:candle_holder",
+    "item:oreganized:lead_ingot",
+    "item:minecraft:iron_ingot",
+    "item:minecraft:iron_block",
+    "item:minecraft:stick",
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"REGULAR\",Potion:\"atmospheric:relief_strong\"}",
+      "amount": 250
+    },
+    "item:caverns_and_chasms:trail_potion{Potion:\"atmospheric:relief_strong\",Subtle:1b}",
+    "item:caverns_and_chasms:trail_potion{Potion:\"autumnity:extension\",Subtle:1b}",
+    "item:caverns_and_chasms:turquoise_ore",
+    "item:caverns_and_chasms:cave_growths",
+    "item:caverns_and_chasms:moschatel",
+    "item:caverns_and_chasms:zesty_cave_growths",
+    "item:caverns_and_chasms:grainy_cave_growths",
+    "item:caverns_and_chasms:wispy_cave_growths",
+    "item:caverns_and_chasms:lurid_cave_growths",
+    "item:caverns_and_chasms:dimmer",
+    "item:caverns_and_chasms:mime_head",
+    "item:caverns_and_chasms:peeper_head",
+    "item:caverns_and_chasms:bejeweled_apple",
+    "item:caverns_and_chasms:trail_potion{Potion:\"atmospheric:relief_long\",Subtle:1b}",
+    "item:caverns_and_chasms:trail_potion{Potion:\"upgrade_aquatic:repellence_long\",Subtle:1b}",
     "item:alexscaves:jelly_bean{Potion:\"quark:long_resilience\"}",
     "item:caverns_and_chasms:tin_nugget",
-    "item:caverns_and_chasms:dimmer",
     "item:createdeco:blue_industrial_iron_lamp",
-    "item:minecraft:iron_ingot",
     "item:alexscaves:pure_darkness",
     "item:alexscaves:occult_gem",
     "item:alexscaves:sweet_tooth",
@@ -71,7 +120,6 @@
     "item:caverns_and_chasms:necromium_horse_armor",
     "item:minecraft:coast_armor_trim_smithing_template{}",
     "item:caverns_and_chasms:dismantling_table",
-    "item:caverns_and_chasms:trail_potion{Potion:\"autumnity:extension\",Subtle:1b}",
     "item:caverns_and_chasms:trail_potion{Potion:\"sullysmod:resistance\"}",
     "item:caverns_and_chasms:trail_potion{Potion:\"alexscaves:deepsight\"}",
     "item:caverns_and_chasms:trail_potion{Potion:\"minecraft:long_turtle_master\"}",
@@ -116,7 +164,6 @@
     "item:caverns_and_chasms:trapped_azalea_chest",
     "item:caverns_and_chasms:fragile_deepslate",
     "item:caverns_and_chasms:fragile_stone",
-    "item:caverns_and_chasms:mime_head",
     "item:caverns_and_chasms:deeper_head",
     "item:caverns_and_chasms:necromium_block",
     "item:species:music_disc_dial",
@@ -214,6 +261,7 @@
     "item:minecraft:water_bucket"
   ],
   "craft_history": [
+    "neapolitan:banana/banana_crate_uncompress",
     "caverns_and_chasms:zirconia_block",
     "minecraft:blue_dye",
     "caverns_and_chasms:spinel_bricks",
@@ -237,33 +285,61 @@
   "hidden_stacks": [
     {
       "type": "fluid",
-      "id": "minecraft:water",
+      "id": "supplementaries:lumisene",
       "amount": 0
     },
     {
       "type": "fluid",
-      "id": "alexscaves:purple_soda",
+      "id": "sullysmod:molten_amber_fluid",
       "amount": 0
     },
-    {
-      "type": "fluid",
-      "id": "alexscaves:acid",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "netherexp:ectoplasm",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "minecraft:lava",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "oreganized:molten_lead",
-      "amount": 0
-    }
+    "item:nest_egg:emu_egg_crate",
+    "item:bury_me_deep:red_curious_arid_sand",
+    "item:nest_egg:duck_egg_crate",
+    "item:bury_me_deep:red_curious_sand",
+    "item:bury_me_deep:curious_soul_sand",
+    "item:nest_egg:ge_duck_egg_crate",
+    "item:scholar:tan_written_book",
+    "item:scholar:ginger_written_book",
+    "item:scholar:forest_written_book",
+    "item:bury_me_deep:curious_gravel",
+    "item:bury_me_deep:curious_coarse_dirt",
+    "item:bury_me_deep:curious_sand",
+    "item:scholar:verdant_written_book",
+    "item:bury_me_deep:curious_arid_sand",
+    "item:scholar:amber_written_book",
+    "item:scholar:beige_written_book",
+    "item:scholar:indigo_written_book",
+    "item:scholar:coral_written_book",
+    "item:scholar:navy_written_book",
+    "item:scholar:teal_written_book",
+    "item:scholar:mint_written_book",
+    "item:scholar:slate_written_book",
+    "item:scholar:olive_written_book",
+    "item:scholar:aqua_written_book",
+    "item:scholar:rose_written_book",
+    "item:scholar:maroon_written_book",
+    "item:scholar:aqua_writable_book",
+    "item:scholar:mint_writable_book",
+    "item:scholar:tan_writable_book",
+    "item:scholar:ginger_writable_book",
+    "item:scholar:teal_writable_book",
+    "item:scholar:beige_writable_book",
+    "item:scholar:forest_writable_book",
+    "item:scholar:indigo_writable_book",
+    "item:scholar:navy_writable_book",
+    "item:scholar:slate_writable_book",
+    "item:scholar:olive_writable_book",
+    "item:scholar:amber_writable_book",
+    "item:scholar:verdant_writable_book",
+    "item:scholar:maroon_writable_book",
+    "item:scholar:rose_writable_book",
+    "item:scholar:coral_writable_book",
+    "item:citadel:icon_item",
+    "item:moonlight:placeable_item",
+    "item:citadel:debug",
+    "item:citadel:citadel_book",
+    "item:citadel:effect_item",
+    "item:citadel:fancy_item"
   ]
 }

@@ -28,12 +28,12 @@ craftingTable.addShaped("soul_candle_holder_lol", <item:supplementaries:candle_h
 
 if (RUtil.DO_REPLACER == 1) {
     Replacer.create()
-        .filter(NameFilteringRule.regex("^supplementaries:candle_holder(_[a-z]+)?$"))
+        .filter(NameFilteringRule.regex("^supplementaries:candle_holder(_[_a-z]+)?$"))
         .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:minecraft:iron_ingot>, <item:oreganized:lead_ingot>)
         .execute(); 
 
     Replacer.create()
-        .filter(NameFilteringRule.regex("^supplementaries:candle_holders/candle_holder(_[a-z]+)?$"))
+        .filter(NameFilteringRule.regex("^supplementaries:candle_holders/candle_holder(_[_a-z]+)?$"))
         .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:minecraft:iron_ingot>, <item:oreganized:lead_ingot>)
         .execute(); 
 }

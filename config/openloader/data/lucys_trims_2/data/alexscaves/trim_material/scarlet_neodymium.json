@@ -1,0 +1,9 @@
+{
+  "asset_name": "scarlet_neodymium",
+  "description": {
+    "color": "#FF002a",
+    "translate": "trim_material.alexscaves.scarlet_neodymium"
+  },
+  "ingredient": "alexscaves:scarlet_neodymium_ingot",
+  "item_model_index": -1
+}

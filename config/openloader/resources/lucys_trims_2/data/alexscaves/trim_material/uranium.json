@@ -1,0 +1,9 @@
+{
+  "asset_name": "uranium",
+  "description": {
+    "color": "#00FF00",
+    "translate": "trim_material.alexscaves.uranium"
+  },
+  "ingredient": "alexscaves:uranium",
+  "item_model_index": -1
+}

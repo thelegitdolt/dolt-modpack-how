@@ -1,0 +1,9 @@
+{
+  "asset_name": "azure_neodymium",
+  "description": {
+    "color": "#1937bb",
+    "translate": "trim_material.alexscaves.azure_neodymium"
+  },
+  "ingredient": "alexscaves:azure_neodymium_ingot",
+  "item_model_index": -1
+}

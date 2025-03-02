@@ -1,0 +1,30 @@
+{
+  "sources":[
+     {
+        "type":"blueprint:paletted_permutations",
+        "sources":[
+           {
+              "type":"minecraft:directory",
+              "prefix":"entity/decorated_pot_trim_patterns/",
+              "source":"entity/decorated_pot_trim_patterns"
+           }
+        ],
+        "palette_key":"clayworks:entity/decorated_pot_trim_palettes/trim_palette",
+        "permutations":{
+           "oreganized_lead":"oreganized:entity/decorated_pot_trim_palettes/lead",
+           "oreganized_electrum":"oreganized:entity/decorated_pot_trim_palettes/electrum",
+           "sullysmod_jade":"sullysmod:entity/decorated_pot_trim_palettes/jade",
+           "pigsteel_pigsteel":"pigsteel:entity/decorated_pot_trim_palettes/pigsteel",
+           "create_rose_quartz":"create:entity/decorated_pot_trim_palettes/rose_quartz",
+            "create_brass":"create:entity/decorated_pot_trim_palettes/brass",
+            "create_zinc":"create:entity/decorated_pot_trim_palettes/zinc",
+            "alexscaves_amber":"alexscaves:entity/decorated_pot_trim_palettes/amber",
+            "alexscaves_scarlet_neodymium":"alexscaves:entity/decorated_pot_trim_palettes/scarlet_neodymium",
+            "alexscaves_azure_neodymium":"alexscaves:entity/decorated_pot_trim_palettes/azure_neodymium",
+            "alexscaves_uranium":"alexscaves:entity/decorated_pot_trim_palettes/uranium",
+            "alexscaves_sulfur":"alexscaves:entity/decorated_pot_trim_palettes/sulfur",
+            "echo": "minecraft:entity/decorated_pot_trim_palettes/echo"
+        }
+     }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "asset_name": "sullysmod_jade",
-  "description": {
-    "color": "#74C057",
-    "translate": "trim_material.sullysmod.jade"
-  },
-  "ingredient": "sullysmod:jade",
-  "item_model_index": -1
-}
