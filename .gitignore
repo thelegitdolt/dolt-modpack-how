@@ -13,6 +13,7 @@
 /options.txt
 /config/Discord-Integration.toml
 /usercache.json
+/emi.json
 /usernamecache.json
 /.mixin.out
 /.qmenu_opened.marker
