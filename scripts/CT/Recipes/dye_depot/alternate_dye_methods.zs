@@ -19,7 +19,9 @@ RUtil.oneToOneConversion("orange_to_orange_dye_wow", <item:atmospheric:blood_ora
 
 
 # mint
+craftingTable.removeByName("caverns_and_chasms:cyan_dye_from_turquoise");
 Kiln.addFurnaceAndKiln("mint_to_mint_dye", <item:neapolitan:mint_leaves>, <item:dye_depot:mint_dye>, 0.1, "misc"); 
+RUtil.oneToOneConversion("turquoise_to_mint_dye", <item:caverns_and_chasms:turquoise>, <item:dye_depot:mint_dye>, 16); 
 
 
 # orange 
