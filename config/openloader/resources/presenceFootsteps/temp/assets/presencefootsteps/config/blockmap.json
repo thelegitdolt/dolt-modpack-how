@@ -3,76 +3,18 @@
 	"minecraft:hay_block": "leaves,grass",
 	"minecraft:smithing_table": "hardmetal",
 
-	"atmospheric:stripped_morado_wood": "wood,stone",
-	"atmospheric:stripped_morado_log": "wood,stone",
-	"atmospheric:stripped_rosewood": "wood,stone",
-	"atmospheric:stripped_rosewood_log": "wood,stone",
-	"atmospheric:stripped_yucca_wood": "wood,stone",
-	"atmospheric:stripped_kousa_wood": "wood,stone",
-	"atmospheric:stripped_aspen_wood": "wood,stone",
-	"atmospheric:stripped_grimwood_log": "wood,stone",
-	"atmospheric:stripped_laurel_log": "wood,stone",
-	"atmospheric:stripped_laurel_wood": "wood,stone",
+	
 	"upgrade_aquatic:stripped_driftwood_log": "wood,stone",
 	"upgrade_aquatic:stripped_river_log": "wood,stone",
 	"upgrade_aquatic:stripped_driftwood": "wood,stone",
-	"atmospheric:stripped_grimwood": "wood,stone",
+	
 	"autumnity:stripped_maple_log": "wood,stone",
 	"autumnity:stripped_maple_wood": "wood,stone",
 
 
-	"atmospheric:stripped_yucca_log": "wood,stone",
-	"atmospheric:stripped_kousa_log": "wood,stone",
-	"atmospheric:stripped_aspen_log": "wood,stone",
 
 
 	"mowziesmobs:clawed_log": "wood,stone",
-
-
-
-	
-
-	
-
-	"atmospheric:passion_fruit_crate[facing=up]": "wood,organic",
-	"atmospheric:shimmering_passion_fruit_crate[facing=up]": "wood,organic",
-
-	"atmospheric:currant_basket[facing=up]": "wood,organic",
-	"atmospheric:orange_crate[facing=up]": "wood,organic",
-	"atmospheric:blood_orange_crate[facing=up]": "wood,organic",
-	"atmospheric:golden_dragon_fruit_crate[facing=up]": "wood,organic",
-	"atmospheric:dragon_fruit_crate[facing=up]": "wood,organic",
-
-
-	"atmospheric:yucca_bundle": "wood,organic",
-	"atmospheric:roasted_yucca_bundle": "wood,organic",
-
-	"atmospheric:passion_vine": "leaves",
-	"atmospheric:passion_vine.foliage": "leaves",
-
-	"atmospheric:yucca_gateau": "organic",
-	"atmospheric:barrel_cactus": "grass",
-	"atmospheric:barrel_cactus_batch": "grass",
-
-	"atmospheric:yucca_branch": "NOT_EMITTER",
-	"atmospheric:yucca_branch.messy": "straw",
-	"atmospheric:yucca_branch.foliage": "brush",
-
-	"atmospheric:aloe_gel_block": "honey",
-	"atmospheric:aloe_bundle": "leaves",
-
-	"atmospheric:arid_sprouts": "NOT_EMITTER",
-	"atmospheric:arid_sprouts.foliage": "organic,mushroom",
-
-	"atmospheric:tall_aloe_vera": "NOT_EMITTER",
-	"atmospheric:tall_aloe_vera.messy": "straw",
-	"atmospheric:tall_aloe_vera.foliage": "brush",
-
-	"atmospheric:aloe_vera": "NOT_EMITTER",
-	"atmospheric:aloe_vera.messy": "straw",
-	"atmospheric:aloe_vera.foliage": "brush",
-
-	"atmospheric:crustose": "dirt,straw",
 
 
 	

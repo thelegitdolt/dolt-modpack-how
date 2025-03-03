@@ -48,4 +48,4 @@ def generateForAll(ls: list[str]) -> None:
 
 
 if __name__ == '__main__':
-    generateDropSelfLootTables("atmospheric", "arid_glass_pane")
+    generateDropSelfLootTables("etcetera", "iridescent_glass_pane")
