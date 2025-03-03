@@ -1,0 +1,78 @@
+{
+	"#comment_presence_footsteps_vanillamap": "https://github.com/Sollace/Presence-Footsteps/blob/1.20.5/src/main/resources/assets/presencefootsteps/config/blockmap.json",
+	"environmental:stripped_wisteria_wood": "wood,stone",
+	"environmental:stripped_willow_wood": "wood,stone",
+	"environmental:stripped_willow_log": "wood,stone",
+	"environmental:stripped_pine_wood": "wood,stone",
+	"environmental:stripped_pine_log": "wood,stone",
+	"environmental:stripped_plum_log": "wood,stone",
+	"environmental:stripped_plum_wood": "wood,stone",
+	"environmental:stripped_wisteria_log": "wood,stone",
+
+	"environmental:cattail": "NOT_EMITTER",
+	"environmental:cattail.messy": "MESSY_GROUND",
+	"environmental:cattail.foliage": "brush",
+
+	"environmental:dwarf_spruce": "NOT_EMITTER",
+	"environmental:dwarf_spruce.messy": "straw",
+	"environmental:dwarf_spruce.foliage": "straw",
+
+	"environmental:dwarf_spruce_plant": "NOT_EMITTER",
+	"environmental:dwarf_spruce_plant.messy": "straw",
+	"environmental:dwarf_spruce_plant.foliage": "straw",
+
+	"environmental:cattail_sprout": "NOT_EMITTER",
+	"environmental:cattail_sprout.messy": "MESSY_GROUND",
+	"environmental:cattail_sprout.foliage": "brush",
+
+	"environmental:tall_cattail": "NOT_EMITTER",
+	"environmental:tall_cattail.messy": "MESSY_GROUND",
+	"environmental:tall_cattail.foliage": "brush",
+
+	"#minecraft:flowers": "NOT_EMITTER",
+	"#minecraft:flowers.messy": "MESSY_GROUND",
+	"#minecraft:flowers.foliage": "brush",
+
+	"environmental:cattail_thatch_stairs": "leaves",
+	"environmental:cattail_thatch_slab": "leaves",
+	"environmental:cattail_thatch": "leaves",
+	"environmental:duckweed_thatch": "leaves",
+	"environmental:duckweed_thatch_slab": "leaves",
+	"environmental:duckweed_thatch_stairs": "leaves",
+	"environmental:grass_thatch": "leaves",
+	"environmental:grass_thatch_slab": "leaves",
+	"environmental:grass_thatch_stairs": "leaves",
+	
+	"environmental:yak_hair_rug.carpet": "rug",
+
+	"environmental:tall_dead_bush": "NOT_EMITTER",
+	"environmental:tall_dead_bush.messy": "MESSY_GROUND",
+	"environmental:tall_dead_bush.foliage": "straw",
+
+	"environmental:mycelium_sprouts": "NOT_EMITTER",
+	"environmental:mycelium_sprouts.foliage": "organic,mushroom",
+
+	"environmental:giant_tall_grass": "NOT_EMITTER",
+	"environmental:giant_tall_grass.messy": "MESSY_GROUND",
+	"environmental:giant_tall_grass.foliage": "brush_straw_transition",
+
+	"environmental:cherry_crate": "wood,organic",
+	"environmental:duck_egg_crate": "wood,slate",
+	"environmental:cattail_seed_sack": "rug,sand",
+
+	"environmental:duckweed.foliage": "brush",
+
+	
+	
+
+	"neapolitan:strawberry_cake": "organic",
+	"neapolitan:chocolate_cake": "organic",
+	"neapolitan:adzuki_cake": "organic",
+	"neapolitan:banana_cake": "organic",
+	"neapolitan:mint_cake": "organic",
+	"neapolitan:vanilla_cake": "organic",
+
+	"neapolitan:frond_thatch_slab": "leaves",
+	"neapolitan:frond_thatch_stairs": "leaves",
+	"neapolitan:frond_thatch": "leaves"
+}
