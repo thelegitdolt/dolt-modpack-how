@@ -18,7 +18,6 @@
 [MINOR] amendments-1.20-1.2.18.jar
 [MINOR] spawnanimations-v1.10-mc1.17x-1.21x-mod.jar
 [MINOR] portfolio-1.20.1-1.4.0-forge.jar
-.DS_Store
 [PERFORMANCE] noisium-forge-2.3.0+mc1.20-1.20.1.jar
 {LIB} MRU-1.0.4+1.20.1+forge.jar
 [MINOR] boatload-1.20.1-5.0.1.jar
@@ -78,6 +77,7 @@
 [MINOR] moyai-1.20-2.0.2.jar
 [ADDON-DAVIJ] nest_egg-1.20.1-1.0.0.jar
 [ADDON-BAD] rusticdelight-forge-1.20.1-1.3.2.jar
+{LIB} fzzy_config-0.6.4+1.20.1+forge.jar
 [TOOL] OpenLoader-Forge-1.20.1-19.0.4.jar
 [CONTENT] Species-1.20.1-2.3-forge.jar
 [PERFORMANCE] dynamic-fps-3.8.0+minecraft-1.20.0-forge.jar
