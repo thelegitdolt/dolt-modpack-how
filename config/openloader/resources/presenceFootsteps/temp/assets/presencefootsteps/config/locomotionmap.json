@@ -88,12 +88,6 @@
 	"caverns_and_chasms:mime": "BIPED",
 	"caverns_and_chasms:rat": "QUADRUPED",
 
-	"environmental:deer": "QUADRUPED",
-	"environmental:duck": "BIPED",
-	"environmental:koi": "NONE",
-	"environmental:slabfish": "BIPED",
-	"environmental:yak": "QUADRUPED",
-
 	"goated:geep": "QUADRUPED",
 
 	"neapolitan:chimpanzee": "BIPED",

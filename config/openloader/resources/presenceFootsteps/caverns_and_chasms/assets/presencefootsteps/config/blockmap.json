@@ -171,5 +171,7 @@
 	"caverns_and_chasms:peeper_head": "organic_dry",
 	"caverns_and_chasms:peeper_wall_head": "organic_dry",
 	"caverns_and_chasms:deeper_head": "stone",
-	"caverns_and_chasms:deeper_wall_head": "stone"
+	"caverns_and_chasms:deeper_wall_head": "stone",
+
+	"caverns_and_chasms:caviar": "organic"
 }	

@@ -1,7 +1,9 @@
 {
   "resourcePacks": {
     "enabled": true,
-    "additionalFolders": []
+    "additionalFolders": [
+      "./config/openloader/resources/presenceFootsteps"
+    ]
   },
   "dataPacks": {
     "enabled": true,
