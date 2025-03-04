@@ -43,7 +43,6 @@ DebugUtil.startScript("recipes/create/crushing_stones");
     [<item:minecraft:iron_nugget> % 10, <item:oreganized:lead_nugget> % 10], 
     <item:atmospheric:dolerite>, 200);
 
-# dolerite, 
 
 
 DebugUtil.endScript("recipes/create/crushing_stones"); 
