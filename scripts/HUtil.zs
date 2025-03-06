@@ -9,6 +9,14 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.entity.effect.MobEffectInstance;
 
 public class HUtil {
+    public static final val POTIONS = [
+        <item:minecraft:tipped_arrow>,
+        <item:minecraft:splash_potion>,
+        <item:minecraft:lingering_potion>,
+        <item:caverns_and_chasms:tether_potion>,
+        <item:caverns_and_chasms:impact_potion>,
+        <item:caverns_and_chasms:trail_potion>
+    ];
 
     # Precondition: NONE
     # Hides all items given in the list
@@ -39,14 +47,7 @@ public class HUtil {
     # mod_id:type potions has both a long and strong version, which are formatted as mod_id:long_type
     public static hidePotions(mod_id as string, type as string) as void {
         val modid = mod_id + ":";
-        val potions = [
-            <item:minecraft:tipped_arrow>,
-            <item:minecraft:splash_potion>,
-            <item:minecraft:potion>,
-            <item:minecraft:lingering_potion>,
-            <item:caverns_and_chasms:tether_potion>
-        ];
-        for potion in potions {
+        for potion in POTIONS {
             Jei.hideIngredient(potion.withTag({Potion: modid + "strong_" + type}));
             Jei.hideIngredient(potion.withTag({Potion: modid + "long_" + type}));
             Jei.hideIngredient(potion.withTag({Potion: modid + type}));
@@ -58,13 +59,7 @@ public class HUtil {
     # mod_id:type potions has both a long and strong version, which are formatted as mod_id:long_type
     public static hideGoodPotionFrontMark(mod_id as string, type as string) as void {
         val modid = mod_id + ":";
-        val potions = [
-            <item:minecraft:tipped_arrow>,
-            <item:minecraft:splash_potion>,
-            <item:minecraft:lingering_potion>,
-            <item:caverns_and_chasms:tether_potion>
-        ];
-        for potion in potions {
+        for potion in POTIONS {
                 Jei.hideIngredient(potion.withTag({Potion: modid + "strong_" + type}));
                 Jei.hideIngredient(potion.withTag({Potion: modid + "long_" + type}));
                 Jei.hideIngredient(potion.withTag({Potion: modid + type}));   
@@ -79,13 +74,7 @@ public class HUtil {
     # mod_id:type potions has both a long and strong version, which are formatted as mod_id:type_long
     public static hideGoodPotionBackMark(mod_id as string, type as string) as void {
         val modid = mod_id + ":";
-        val potions = [
-            <item:minecraft:tipped_arrow>,
-            <item:minecraft:splash_potion>,
-            <item:minecraft:lingering_potion>,
-            <item:caverns_and_chasms:tether_potion>
-        ];
-        for potion in potions {
+        for potion in POTIONS {
                 Jei.hideIngredient(potion.withTag({Potion: modid  + type + "_strong"}));
                 Jei.hideIngredient(potion.withTag({Potion: modid + type + "_long"}));
                 Jei.hideIngredient(potion.withTag({Potion: modid + type}));   
@@ -100,13 +89,7 @@ public class HUtil {
     # mod_id:type potions has both a long and strong version, which are formatted as mod_id:type_long
     public static hideGoodInstaPotionBackMark(mod_id as string, type as string) as void {
         val modid = mod_id + ":";
-        val potions = [
-            <item:minecraft:tipped_arrow>,
-            <item:minecraft:splash_potion>,
-            <item:minecraft:lingering_potion>,
-            <item:caverns_and_chasms:tether_potion>
-        ];
-        for potion in potions {
+        for potion in POTIONS {
                 Jei.hideIngredient(potion.withTag({Potion: modid  + type + "_strong"}));
                 Jei.hideIngredient(potion.withTag({Potion: modid + type}));   
         }

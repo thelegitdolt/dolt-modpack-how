@@ -51,7 +51,7 @@
 	#The stack size for all Potions & Antidotes 
 	#Vanilla value is "1"
 	#Range: 1 ~ 64
-	potion_stack_size = 16
+	potion_stack_size = 1
 	#Caps the Maximum Damage of the Jackhammer-Fist to this value
 	will_o_wisp_stack_size = 40.0
 	#The amount of time Black Icicle deal Freezing Damage when shot or skewered
