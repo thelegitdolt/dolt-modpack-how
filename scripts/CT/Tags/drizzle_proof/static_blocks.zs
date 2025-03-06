@@ -4,6 +4,7 @@ val eggs = [
     "alexscaves:metal_scaffolding",
     "alexscaves:rusty_scaffolding",
     "minecraft:bamboo", 
+    "neapolitan:vanilla_vine",
     "atmospheric:snowy_bamboo" 
 ];
 for egg in eggs {
