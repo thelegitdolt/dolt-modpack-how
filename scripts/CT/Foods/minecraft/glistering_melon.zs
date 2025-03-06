@@ -6,7 +6,7 @@ import crafttweaker.api.entity.effect.MobEffectInstance;
 
 
 var itemed = <item:minecraft:glistering_melon_slice>;
-itemed.food = FoodProperties.create(40, 0);
+itemed.food = FoodProperties.create(2000, 0);
 
 
 
