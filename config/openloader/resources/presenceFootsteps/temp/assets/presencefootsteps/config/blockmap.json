@@ -11,70 +11,10 @@
 	"autumnity:stripped_maple_log": "wood,stone",
 	"autumnity:stripped_maple_wood": "wood,stone",
 
-
-
-
+	
 	"mowziesmobs:clawed_log": "wood,stone",
 
 
-	
-
-	"neapolitan:strawberry_cake": "organic",
-	"neapolitan:chocolate_cake": "organic",
-	"neapolitan:adzuki_cake": "organic",
-	"neapolitan:banana_cake": "organic",
-	"neapolitan:mint_cake": "organic",
-	"neapolitan:vanilla_cake": "organic",
-
-	"neapolitan:frond_thatch_slab": "leaves",
-	"neapolitan:frond_thatch_stairs": "leaves",
-	"neapolitan:frond_thatch": "leaves",
-	
-	"neapolitan:chocolate_block": "wood,mud",
-	"neapolitan:chiseled_chocolate_bricks": "wood,mud",
-	"neapolitan:chocolate_tiles": "wood,mud",
-	"neapolitan:chocolate_tile_slab": "wood,mud",
-	"neapolitan:chocolate_brick_slab": "wood,mud",
-	"neapolitan:chocolate_tile_stairs": "wood,mud",
-	"neapolitan:chocolate_bricks": "wood,mud",
-	"neapolitan:chocolate_brick_stairs": "wood,mud",
-
-	"neapolitan:strawberry_basket[facing=up]": "wood,organic",
-	"neapolitan:white_strawberry_basket[facing=up]": "wood,organic",
-	"neapolitan:mint_basket[facing=up]": "wood,organic",
-	"neapolitan:banana_crate[facing=up]": "wood,organic",
-	"neapolitan:banana_bundle": "wood,organic",
-
-	"neapolitan:vanilla_pod_block": "organic_dry",
-	"neapolitan:dried_vanilla_pod_block": "organic_dry",
-
-	"neapolitan:milk_cauldron": "metalbar,waterfine",
-
-	"neapolitan:vanilla_milkshake_cauldron": "metalbar,waterfine",
-	"neapolitan:strawberry_milkshake_cauldron": "metalbar,waterfine",
-	"neapolitan:chocolate_milkshake_cauldron": "metalbar,waterfine",
-	"neapolitan:mint_milkshake_cauldron": "metalbar,waterfine",
-	"neapolitan:adzuki_milkshake_cauldron": "metalbar,waterfine",
-	"neapolitan:banana_milkshake_cauldron": "metalbar,waterfine",
-
-	"neapolitan:strawberry_bush": "NOT_EMITTER",
-	"neapolitan:strawberry_bush.messy": "straw",
-	"neapolitan:strawberry_bush.foliage": "brush",
-
-	"neapolitan:adzuki_sprouts": "NOT_EMITTER",
-	"neapolitan:adzuki_sprouts.messy": "MESSY_GROUND",
-	"neapolitan:adzuki_sprouts.foliage": "brush",
-
-	"neapolitan:vanilla_vine": "NOT_EMITTER",
-	"neapolitan:vanilla_vine.messy": "MESSY_GROUND",
-	"neapolitan:vanilla_vine.foliage": "straw",
-
-	"neapolitan:mint": "NOT_EMITTER",
-	"neapolitan:mint.messy": "MESSY_GROUND",
-	"neapolitan:mint.foliage": "straw",
-
-
-	
 	"quark:polished_limestone": "composite",
 	"quark:polished_jasper": "composite",
 	"quark:polished_shale": "composite",

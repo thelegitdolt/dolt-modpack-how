@@ -9,6 +9,5 @@ for enchantment in game.enchantments {
     }
 } 
 
-Jei.hideIngredient(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4, id: "minecraft:fire_protection"}]}));
 
 DebugUtil.endScript("recipes/misc/enchanted_books_hide"); 

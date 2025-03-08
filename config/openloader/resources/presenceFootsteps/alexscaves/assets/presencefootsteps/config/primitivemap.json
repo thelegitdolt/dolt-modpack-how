@@ -1,0 +1,9 @@
+{
+	"alexscaves:scrap_metal_step": "hardmetal",
+	"alexscaves:metal_swarf_step": "gravel,ore",
+	"alexscaves:neodymium_step": "composite,hardmetal",
+	"alexscaves:radrock_step": "slate",
+
+	"alexscaves:cinder_block_step": "brickstone,ore",
+	"alexscaves:sulfur_step": "slate,ore"
+}

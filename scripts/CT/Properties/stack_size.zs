@@ -2,7 +2,7 @@ DebugUtil.startScript("properties/stack_size");
     
 
 <item:minecraft:potion>.setMaxStackSize(16);
-
+<item:alexscaves:quarry_smasher>.setMaxStackSize(64);
 
 
 # MINECARTS
@@ -10,11 +10,13 @@ DebugUtil.startScript("properties/stack_size");
 <item:minecraft:hopper_minecart>.setMaxStackSize(64);
 <item:etched:jukebox_minecart>.setMaxStackSize(64);
 <item:minecraft:tnt_minecart>.setMaxStackSize(64);
+<item:caverns_and_chasms:tmt_minecart>.setMaxStackSize(64);
 <item:minecraft:command_block_minecart>.setMaxStackSize(64);
 <item:minecraft:chest_minecart>.setMaxStackSize(64);
 <item:oreganized:shrapnel_bomb_minecart>.setMaxStackSize(64);
 <item:minecraft:furnace_minecart>.setMaxStackSize(64);
 <item:minecraft:minecart>.setMaxStackSize(64);
+
 
 
 # BEDS

@@ -1,0 +1,85 @@
+{
+	"#comment_presence_footsteps_vanillamap": "https://github.com/Sollace/Presence-Footsteps/blob/1.20.5/src/main/resources/assets/presencefootsteps/config/blockmap.json",
+
+	"alexscaves:acid": "NOT_EMITTER",
+	"alexscaves:purple_soda": "NOT_EMITTER",
+
+	"alexscaves:stripped_pewen_wood": "wood,stone",
+	"alexscaves:stripped_pewen_log": "wood,stone",
+	"alexscaves:stripped_thornwood_wood": "wood,stone",
+	"alexscaves:stripped_thornwood_log": "wood,stone",
+
+	"alexscaves:tesla_bulb": "copper,glass",
+
+	"alexscaves:magnetic_levitation_rail.foliage": "composite,rail",
+	
+	"alexscaves:limestone_chiseled": "composite,ore", 
+	"alexscaves:limestone_pillar": "composite,ore", 
+	"alexscaves:smooth_limestone": "composite,ore", 
+	"alexscaves:smooth_limestone_stairs": "composite,ore", 
+	"alexscaves:smooth_limestone_slab": "composite,ore", 
+	"alexscaves:smooth_limestone_wall": "composite,ore", 
+	"#alexscaves:cave_paintings": "composite,ore", 
+
+	"alexscaves:amber": "snow", 
+	"alexscaves:ambersol": "snow", 
+	"alexscaves:amber_monolith": "snow", 
+	
+    "alexscaves:fiddlehead": "NOT_EMITTER",
+    "alexscaves:fiddlehead.messy": "MESSY_GROUND",
+    "alexscaves:fiddlehead.foliage": "brush_straw_transition",
+
+    "alexscaves:archaic_vine": "leaves",
+
+    "alexscaves:curly_fern": "NOT_EMITTER",
+    "alexscaves:curly_fern.messy": "MESSY_GROUND",
+    "alexscaves:curly_fern.foliage": "brush_straw_transition",
+
+	"#alexscaves:dinosaur_eggs": "bone",
+
+	"alexscaves:dinosaur_chop": "bone,organic_solid",
+	"alexscaves:cooked_dinosaur_chop": "bone,organic_solid",
+
+    "alexscaves:tree_star": "NOT_EMITTER",
+    "alexscaves:tree_star.foliage": "brush_straw_transition",
+
+    "alexscaves:flytrap": "NOT_EMITTER",
+    "alexscaves:flytrap.messy": "MESSY_GROUND",
+    "alexscaves:flytrap.foliage": "brush",
+
+	"alexscaves:fern_thatch": "leaves",
+
+	"alexscaves:flood_basalt": "crumblystone",
+	"alexscaves:primal_magma": "crumblystone,magma",
+	"alexscaves:volcanic_core": "crumblystone,magma",
+
+
+    "alexscaves:radrock_bricks": "marble,slate",
+    "alexscaves:radrock_chiseled": "marble,slate",
+    "alexscaves:radrock_brick_wall": "marble,slate",
+    "alexscaves:radrock_brick_slab": "marble,slate",
+    "alexscaves:radrock_brick_stairs": "marble,slate",
+    "alexscaves:radrock_uranium_ore": "ore,slate",
+
+	"alexscaves:unrefined_waste": "mud,snow",
+	"alexscaves:nuclear_bomb": "hardmetal,copper",
+	"alexscaves:block_of_uranium": "composite",
+	"alexscaves:underweed": "NOT_EMITTER",
+	"alexscaves:underweed.foliage": "straw",
+
+	"alexscaves:uranium_rod[axis=y]": "hardmetal",
+	"alexscaves:uranium_rod[axis=x]": "composite",
+	"alexscaves:uranium_rod[axis=z]": "composite",
+
+	"alexscaves:nuclear_furnace_component": "hardmetal,copper",
+
+
+	"alexscaves:waste_drum": "hardmetal",
+	"alexscaves:hazmat_block": "hardmetal",
+	"alexscaves:hazmat_warning_block": "hardmetal",
+	"alexscaves:hazmat_skull_block": "hardmetal",
+	
+
+	"alexscaves:metal_scaffolding": "hardmetal",
+	"alexscaves:rusty_scaffolding": "hardmetal"
+}	
