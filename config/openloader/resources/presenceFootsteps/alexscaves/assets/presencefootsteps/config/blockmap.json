@@ -78,6 +78,36 @@
 	"alexscaves:hazmat_block": "hardmetal",
 	"alexscaves:hazmat_warning_block": "hardmetal",
 	"alexscaves:hazmat_skull_block": "hardmetal",
+
+	"alexscaves:muck": "mud",
+	"alexscaves:tube_worm": "bone,organic_solid",
+	"alexscaves:bone_worms": "NOT_EMITTER",
+	"alexscaves:bone_worms.messy": "MESSY_GROUND",
+	"alexscaves:bone_worms.foliage": "mud",
+
+	"alexscaves:ping_pong_sponge": "NOT_EMITTER",
+	"alexscaves:ping_pong_sponge.messy": "MESSY_GROUND",
+	"alexscaves:ping_pong_sponge.foliage": "mud",
+	"alexscaves:mussel.foliage": "crumblystone",
+	"alexscaves:block_of_pearl": "amethyst,stone",
+
+	"alexscaves:gauno": "mud,slime",
+	"alexscaves:gauno_layer": "mud,slime",
+
+	"alexscaves:gaunostone_tiles": "crumblystone,marble",
+	"alexscaves:gaunostone_chiseled": "crumblystone,marble",
+	"alexscaves:guanostone_redstone_ore": "crumblystone,ore",
+
+	"alexscaves:smooth_coprolith": "crumblystone,marble",
+	"alexscaves:smooth_coprolith_stairs": "crumblystone,marble",
+	"alexscaves:smooth_coprolith_slab": "crumblystone,marble",
+	"alexscaves:smooth_coprolith_wall": "crumblystone,marble",
+	"alexscaves:coprolith_coal_ore": "crumblystone,ore",
+
+	"alexscaves:porous_coprolith": "crumblystone",
+	"alexscaves:peeking_coprolith": "crumblystone",
+
+	"alexscaves:forsaken_idol": "crumblystone,wood",
 	
 
 	"alexscaves:metal_scaffolding": "hardmetal",
