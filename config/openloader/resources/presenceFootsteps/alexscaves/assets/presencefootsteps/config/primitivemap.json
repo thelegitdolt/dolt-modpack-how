@@ -5,5 +5,10 @@
 	"alexscaves:radrock_step": "slate",
 
 	"alexscaves:cinder_block_step": "brickstone,ore",
-	"alexscaves:sulfur_step": "slate,ore"
+	"alexscaves:sulfur_step": "slate,ore",
+
+	"alexscaves:dense_candy_step": "wood,mud",
+	"alexscaves:squishy_candy_step": "honey",
+	"alexscaves:hard_candy_step": "stone,ore",
+	"alexscaves:soft_candy_step": "organic_solid"
 }

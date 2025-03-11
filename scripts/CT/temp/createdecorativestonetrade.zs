@@ -8,6 +8,5 @@ villagerTrades.addTrade(<profession:minecraft:mason>, 3, 1, <item:create:scoria>
 villagerTrades.addTrade(<profession:minecraft:mason>, 3, 1, <item:create:scorchia> * 4, 16, 20, 0.02);
 villagerTrades.addTrade(<profession:minecraft:mason>, 3, 1, <item:create:crimsite> * 4, 16, 20, 0.02);
 
-craftingTable.remove(<item:createdeco:netherite_nugget>); 
 
 DebugUtil.endScript("villager/wandering_trader");

@@ -56,6 +56,9 @@
 			driftwood = true
 			river = true
 
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
 	[types.cut_block_type]
 
 		[types.cut_block_type.enhanced_mushrooms]
@@ -518,6 +521,44 @@
 			driftwood = true
 			river = true
 
+		[types.cut_block_type.mynethersdelight]
+			powdery = true
+			powdery_mosaic = true
+
+		[types.cut_block_type.dye_the_world]
+			amber_shingles = true
+			aqua_shingles = true
+			beige_shingles = true
+			coral_shingles = true
+			forest_shingles = true
+			ginger_shingles = true
+			indigo_shingles = true
+			maroon_shingles = true
+			mint_shingles = true
+			navy_shingles = true
+			olive_shingles = true
+			rose_shingles = true
+			slate_shingles = true
+			tan_shingles = true
+			teal_shingles = true
+			verdant_shingles = true
+			amber_terracotta_brick = true
+			aqua_terracotta_brick = true
+			beige_terracotta_brick = true
+			coral_terracotta_brick = true
+			forest_terracotta_brick = true
+			ginger_terracotta_brick = true
+			indigo_terracotta_brick = true
+			maroon_terracotta_brick = true
+			mint_terracotta_brick = true
+			navy_terracotta_brick = true
+			olive_terracotta_brick = true
+			rose_terracotta_brick = true
+			slate_terracotta_brick = true
+			tan_terracotta_brick = true
+			teal_terracotta_brick = true
+			verdant_terracotta_brick = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.environmental]
@@ -578,6 +619,12 @@
 			banana_cake = true
 			mint_cake = true
 			adzuki_cake = true
+
+		[types.cake.mynethersdelight]
+			magma_cake = true
+
+		[types.cake.farmersrespite]
+			coffee_cake = true
 
 #Disables specific entries
 [entries]

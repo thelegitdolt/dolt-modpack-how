@@ -108,7 +108,12 @@
 	"alexscaves:peeking_coprolith": "crumblystone",
 
 	"alexscaves:forsaken_idol": "crumblystone,wood",
-	
+	"alexscaves:beholder.foliage": "wood,organic_solid",
+	"alexscaves:moth_ball.foliage": "organic_solid",
+	"alexscaves:thornwood_branch.foliage": "leaves",
+
+	"#alexscaves:rock_candies": "stone",
+	"alexscaves:confection_oven": "wood,organic_solid",
 
 	"alexscaves:metal_scaffolding": "hardmetal",
 	"alexscaves:rusty_scaffolding": "hardmetal"

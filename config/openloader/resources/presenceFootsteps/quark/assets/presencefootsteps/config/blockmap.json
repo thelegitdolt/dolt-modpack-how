@@ -1,0 +1,50 @@
+{
+	"#comment_presence_footsteps_vanillamap": "https://github.com/Sollace/Presence-Footsteps/blob/1.20.5/src/main/resources/assets/presencefootsteps/config/blockmap.json",
+
+	"quark:polished_limestone": "composite",
+	"quark:polished_jasper": "composite",
+	"quark:polished_shale": "composite",
+	"quark:polished_jasper_slab": "composite",
+	"quark:polished_limestone_slab": "composite",
+	"quark:polished_shale_slab": "composite",
+	"quark:polished_jasper_stairs": "composite",
+	"quark:polished_limestone_stairs": "composite",
+	"quark:polished_shale_stairs": "composite",
+
+	"#quark:hedges.bigger": "wood,leaves",
+	"#quark:hedges.bigger[extend=true]": "leaves",
+
+	"#quark:stools": "rug",
+
+	"#quark:framed_glasses": "hardmetal,glass",
+
+	"quark:redstone_randomizer": "stoneutility",
+
+	"quark:cactus_block": "grass",
+	"quark:chorus_fruit_block": "organic_solid",
+	"quark:glow_mushroom_ring.foliage": "brush",
+
+	"#quark:ladders": "ladder_default",	
+
+	"quark:chorus_weeds": "NOT_EMITTER",
+	"quark:chorus_weeds.messy": "MESSY_GROUND",
+	"quark:chorus_weeds.foliage": "brush",
+	"quark:chorus_twist": "NOT_EMITTER",
+	"quark:chorus_twist.messy": "MESSY_GROUND",
+	"quark:chorus_twist.foliage": "brush",
+
+	"quark:iron_ladder": "hardmetal",
+	"quark:crate": "squeakywood,hardmetal",
+
+	"quark:golden_apple_crate": "wood,organic",
+	"quark:apple_crate": "wood,organic",
+	"quark:cocoa_beans_sack": "rug,organic",
+	"quark:nether_wart_sack": "rug,organic_block",
+	"quark:gunpowder_sack": "rug,sand",
+	"quark:glowberry_sack": "rug,organic",
+	"quark:berry_sack": "rug,organic",
+
+
+	"quark:obsidian_pressure_plate.carpet": "obsidian",
+	"quark:pipe": "copper"
+}
