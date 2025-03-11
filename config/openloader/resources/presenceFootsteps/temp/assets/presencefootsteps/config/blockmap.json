@@ -4,124 +4,23 @@
 	"minecraft:smithing_table": "hardmetal",
 
 	
-	"upgrade_aquatic:stripped_driftwood_log": "wood,stone",
-	"upgrade_aquatic:stripped_river_log": "wood,stone",
-	"upgrade_aquatic:stripped_driftwood": "wood,stone",
-	
 	"autumnity:stripped_maple_log": "wood,stone",
 	"autumnity:stripped_maple_wood": "wood,stone",
 
 	
 	"mowziesmobs:clawed_log": "wood,stone",
 
-	"upgrade_aquatic:mulberry_punnet[facing=up]": "squeakywood,organic",
-
-	"upgrade_aquatic:scute_block": "stone,composite",
-	"upgrade_aquatic:scute_shingles": "stone,composite",
-	"upgrade_aquatic:scute_shingle_slab": "stone,composite",
-	"upgrade_aquatic:scute_shingle_stairs": "stone,composite",
-	"upgrade_aquatic:chiseled_scute_shingles": "stone,composite",
-	"upgrade_aquatic:scute_pavement": "stone,composite",
-	"upgrade_aquatic:scute_pavement_stairs": "stone,composite",
-	"upgrade_aquatic:scute_pavement_slab": "stone,composite",
-
-
-
 	"#woodworks:leaf_piles.foliage": "NOT_EMITTER",
 	"#woodworks:leaf_piles.foliage[down=true]": "leaves",
 
 	"#forge:chests/wooden": "squeakywood",
-
-
-	"abnormals_delight:river_cabinet": "squeakywood",
-	"abnormals_delight:wisteria_cabinet": "squeakywood",
-	"abnormals_delight:willow_cabinet": "squeakywood",
-	"abnormals_delight:azalea_cabinet": "squeakywood",
-	"abnormals_delight:driftwood_cabinet": "squeakywood",
-	"abnormals_delight:plum_cabinet": "squeakywood",
-	"abnormals_delight:maple_cabinet": "squeakywood",
-	"abnormals_delight:kousa_cabinet": "squeakywood",
-	"abnormals_delight:pine_cabinet": "squeakywood",
-	"abnormals_delight:aspen_cabinet": "squeakywood",
-	"farmersdelight:warped_cabinet": "squeakywood",
-	"abnormals_delight:rosewood_cabinet": "squeakywood",
-	"farmersdelight:dark_oak_cabinet": "squeakywood",
-	"farmersdelight:acacia_cabinet": "squeakywood",
-	"farmersdelight:oak_cabinet": "squeakywood",
-	"farmersdelight:spruce_cabinet": "squeakywood",
-	"farmersdelight:birch_cabinet": "squeakywood",
-	"farmersdelight:mangrove_cabinet": "squeakywood",
-	"abnormals_delight:morado_cabinet": "squeakywood",
-	"abnormals_delight:laurel_cabinet": "squeakywood",
-	"abnormals_delight:yucca_cabinet": "squeakywood",
-	"abnormals_delight:grimwood_cabinet": "squeakywood",
-	"farmersdelight:crimson_cabinet": "squeakywood",
-	"farmersdelight:jungle_cabinet": "squeakywood",
-	
-	"farmersdelight:organic_compost": "grass,organic",
-	"farmersdelight:organic_compost[composting=4]": "dirt,organic",
-	"farmersdelight:organic_compost[composting=5]": "dirt,organic",
-	"farmersdelight:organic_compost[composting=6]": "dirt",
-	"farmersdelight:rich_soil": "dirt",
-
-	"farmersdelight:cutting_board.carpet": "wood",
-
-	"farmersdelight:basket": "scaffold,wood",
-
-	"farmersdelight:carrot_crate": "wood,organic",
-	"farmersdelight:tomato_crate": "wood,organic",
-	"farmersdelight:onion_crate": "wood,organic",
-	"farmersdelight:potato_crate": "wood,organic",
-	"farmersdelight:beetroot_crate": "wood,organic",
-	"farmersdelight:cabbage_crate": "wood,organic",
-
-	"farmersdelight:apple_pie": "organic",
-	"farmersdelight:sweet_berry_cheesecake": "organic",
-	"farmersdelight:chocolate_pie": "organic",
-
-
-	"farmersdelight:rice_bag": "rug,dirt",
-
-	"farmersdelight:rice_bale": "leaves,grass",
-	"farmersdelight:straw_bale": "straw,grass",
-	"farmersdelight:canvas_rug.carpet": "rug,straw",
-
-	"farmersdelight:rope": "rug",
-
-	"#farmersdelight:wild_crops.messy": "MESSY_GROUND",
-	"#farmersdelight:wild_crops.foliage": "straw",
-
-	"farmersdelight:stove[lit=true]": "brickstone,magma",
-
-	"farmersdelight:shepherds_pie_block": "organic",
-	"farmersdelight:stuffed_pumpkin_block": "organic_solid",
-	"farmersdelight:honey_glazed_ham_block": "organic",
-	"farmersdelight:roast_chicken_block": "organic",
-	"farmersdelight:rice_roll_medley_block": "organic,wood",
-	"farmersdelight:rice_roll_medley_block[servings=0]": "wood",
-
-	"sullysmod:polished_small_jade_brick_slab": "composite",
-	"sullysmod:polished_jade_shingle_slab": "composite",
-	"sullysmod:polished_jade_tile_slab": "composite",
-	"sullysmod:jade_flinger_totem": "composite",
-	"sullysmod:polished_jade_tile_stairs": "composite",
-	"sullysmod:polished_jade_brick_slab": "composite",
-	"sullysmod:polished_jade_shingle_stairs": "composite",
-	"sullysmod:polished_small_jade_brick_stairs": "composite",
-	"sullysmod:polished_jade_brick_stairs": "composite",
-	"sullysmod:polished_chiseled_jade": "composite",
-	"sullysmod:jade_totem": "composite",
-	"sullysmod:polished_jade_pillar": "composite",
-	"sullysmod:polished_jade_tiles": "composite",
-	"sullysmod:polished_jade_shingles": "composite",
-	"sullysmod:polished_small_jade_bricks": "composite",
-	"sullysmod:polished_jade_block": "composite",
-	"sullysmod:polished_jade_bricks": "composite",
-
-
+	"#dolt_modpack_how:cabinets": "squeakywood",
 
 	"autumnity:sappy_maple_log": "wood,sticky_wood,stone",
 	"autumnity:sappy_maple_wood": "wood,sticky_wood,stone",
+
+
+
 
 	"autumnity:foul_berry_basket[facing=up]": "squeakywood,organic",
 
@@ -139,14 +38,23 @@
 	"autumnity:turkey_egg_crate": "wood,slate",
 
 
+
+
 	"berry_good:sweet_berry_basket[facing=up]": "squeakywood,organic",
 	"berry_good:glow_berry_basket[facing=up]": "squeakywood,organic",
+
+
 
 	"incubation:hay_nest": "leaves,grass",
 	"incubation:twig_nest": "leaves,wood",
 	"incubation:chicken_egg_crate": "wood,slate",
 
+
+
 	"clayworks:glazed_terracotta": "composite",
+
+
+
 
 	"farmersrespite:kettle": "copper",
 
@@ -166,9 +74,11 @@
 	"etched:radio": "woodutility,copper",
 
 
+
 	"brewinandchewin:pizza": "organic",
 	"brewinandchewin:quiche": "organic",
 	"brewinandchewin:fiery_fondue_pot": "metalbar,waterfine",
+
 
 
 	"savage_and_ravage:spore_bomb": "equipment",
@@ -176,5 +86,25 @@
 	
 	"savage_and_ravage:blast_proof_slab": "hardmetal",
 	"savage_and_ravage:blast_proof_stairs": "hardmetal",
-	"savage_and_ravage:blast_proof_plates": "hardmetal"
+	"savage_and_ravage:blast_proof_plates": "hardmetal",
+
+
+
+	"species:alphacene_moss_block": "moss,rug",
+	"species:alphacene_moss_carpet.carpet": "moss,rug",
+	"species:alphacene_mushroom_block": "mushroom,rug",
+	"species:alphacene_grass_block": "grass,rug",
+
+	"species:alphacene_tall_grass": "NOT_EMITTER",
+	"species:alphacene_tall_grass.messy": "MESSY_GROUND",
+	"species:alphacene_tall_grass.foliage": "brush_straw_transition",
+
+	"species:alphacene_grass": "NOT_EMITTER",
+	"species:alphacene_grass.messy": "MESSY_GROUND",
+	"species:alphacene_grass.foliage": "brush_straw_transition",
+
+	"species:frozen_meat": "ice,organic",
+	"species:frozen_hair": "ice,rug",
+
+	"species:ichor": "mud,splash"
 }

@@ -1,0 +1,21 @@
+{
+	"#comment_presence_footsteps_vanillamap": "https://github.com/Sollace/Presence-Footsteps/blob/1.20.5/src/main/resources/assets/presencefootsteps/config/blockmap.json",
+	
+	"sullysmod:polished_small_jade_brick_slab": "composite",
+	"sullysmod:polished_jade_shingle_slab": "composite",
+	"sullysmod:polished_jade_tile_slab": "composite",
+	"sullysmod:jade_flinger_totem": "composite",
+	"sullysmod:polished_jade_tile_stairs": "composite",
+	"sullysmod:polished_jade_brick_slab": "composite",
+	"sullysmod:polished_jade_shingle_stairs": "composite",
+	"sullysmod:polished_small_jade_brick_stairs": "composite",
+	"sullysmod:polished_jade_brick_stairs": "composite",
+	"sullysmod:polished_chiseled_jade": "composite",
+	"sullysmod:jade_totem": "composite",
+	"sullysmod:polished_jade_pillar": "composite",
+	"sullysmod:polished_jade_tiles": "composite",
+	"sullysmod:polished_jade_shingles": "composite",
+	"sullysmod:polished_small_jade_bricks": "composite",
+	"sullysmod:polished_jade_block": "composite",
+	"sullysmod:polished_jade_bricks": "composite"
+}

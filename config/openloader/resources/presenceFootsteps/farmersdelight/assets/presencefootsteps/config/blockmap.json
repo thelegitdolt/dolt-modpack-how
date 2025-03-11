@@ -1,0 +1,45 @@
+{
+	"#comment_presence_footsteps_vanillamap": "https://github.com/Sollace/Presence-Footsteps/blob/1.20.5/src/main/resources/assets/presencefootsteps/config/blockmap.json",
+
+	"farmersdelight:organic_compost": "grass,organic",
+	"farmersdelight:organic_compost[composting=4]": "dirt,organic",
+	"farmersdelight:organic_compost[composting=5]": "dirt,organic",
+	"farmersdelight:organic_compost[composting=6]": "dirt",
+	"farmersdelight:rich_soil": "dirt",
+
+	"farmersdelight:cutting_board.carpet": "wood",
+
+	"farmersdelight:basket": "scaffold,wood",
+
+	"farmersdelight:carrot_crate": "wood,organic",
+	"farmersdelight:tomato_crate": "wood,organic",
+	"farmersdelight:onion_crate": "wood,organic",
+	"farmersdelight:potato_crate": "wood,organic",
+	"farmersdelight:beetroot_crate": "wood,organic",
+	"farmersdelight:cabbage_crate": "wood,organic",
+
+	"farmersdelight:apple_pie": "organic",
+	"farmersdelight:sweet_berry_cheesecake": "organic",
+	"farmersdelight:chocolate_pie": "organic",
+
+
+	"farmersdelight:rice_bag": "rug,dirt",
+
+	"farmersdelight:rice_bale": "leaves,grass",
+	"farmersdelight:straw_bale": "straw,grass",
+	"farmersdelight:canvas_rug.carpet": "rug,straw",
+
+	"farmersdelight:rope": "rug",
+
+	"#farmersdelight:wild_crops.messy": "MESSY_GROUND",
+	"#farmersdelight:wild_crops.foliage": "straw",
+
+	"farmersdelight:stove[lit=true]": "brickstone,magma",
+
+	"farmersdelight:shepherds_pie_block": "organic",
+	"farmersdelight:stuffed_pumpkin_block": "organic_solid",
+	"farmersdelight:honey_glazed_ham_block": "organic",
+	"farmersdelight:roast_chicken_block": "organic",
+	"farmersdelight:rice_roll_medley_block": "organic,wood",
+	"farmersdelight:rice_roll_medley_block[servings=0]": "wood"
+}
