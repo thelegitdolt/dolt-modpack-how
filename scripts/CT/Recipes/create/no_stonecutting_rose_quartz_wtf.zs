@@ -21,8 +21,8 @@ craftingTable.addShapeless("rose_quartz_block_uncompress", roseq * 9, [
 stoneCutter.removeByName("create:small_rose_quartz_tiles_from_polished_rose_quartz_stonecutting"); 
 stoneCutter.removeByName("create:rose_quartz_tiles_from_polished_rose_quartz_stonecutting"); 
 
-craftingTable.removeByName("create:crafting/materials/rose_quartz_tilesfrom_conversion"); 
-craftingTable.removeByName("create:crafting/materials/small_rose_quartz_tilesfrom_conversion"); 
+craftingTable.removeByName("create:crafting/materials/rose_quartz_tiles_from_conversion"); 
+craftingTable.removeByName("create:crafting/materials/small_rose_quartz_tiles_from_conversion"); 
 
 val polished = <item:create:polished_rose_quartz>; 
 val rose_tiles = <item:create:rose_quartz_tiles>; 

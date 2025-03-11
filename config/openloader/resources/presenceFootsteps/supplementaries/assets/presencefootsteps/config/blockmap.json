@@ -1,0 +1,30 @@
+{
+	"#comment_presence_footsteps_vanillamap": "https://github.com/Sollace/Presence-Footsteps/blob/1.20.5/src/main/resources/assets/presencefootsteps/config/blockmap.json",
+	"supplementaries:daub_frame":  "dirt,wood",
+	"supplementaries:daub_brace":  "dirt,wood",
+	"supplementaries:daub_cross_brace":  "dirt,wood",
+	"supplementaries:timber_frame":  "wood",
+	"supplementaries:timber_brace":  "wood",
+	"supplementaries:timber_cross_brace":  "wood",
+
+	"#supplementaries:presents": "equipment",
+
+	"#supplementaries:candle_holders.foliage": "metalbar",
+
+    "supplementaries:enderman_head": "skull",
+    "supplementaries:enderman_wall_head": "skull",
+    "supplementaries:skull_pile": "skull",
+    "#supplementaries:skull_candles": "skull,organic_solid",
+    "supplementaries:skull_candle_wall": "skull,organic_solid",
+	"supplementaries:skull_candle_soul_wall": "skull,organic_solid",
+
+	"supplementaries:pulley_block[axis=z,winding=chain]": "wood,chain",
+	"supplementaries:pulley_block[axis=z,winding=rope]": "wood,rug",
+
+	"supplementaries:turn_table[facing=up]": "wood",
+	"supplementaries:turn_table": "stonemachine",
+
+	"supplementaries:pancake": "organic",
+	"supplementaries:book_pile_horizontal": "rug,grass",
+	"supplementaries:book_pile_vertical": "rug,grass"
+}

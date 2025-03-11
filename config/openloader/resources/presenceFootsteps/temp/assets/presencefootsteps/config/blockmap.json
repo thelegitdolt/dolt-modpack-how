@@ -38,9 +38,10 @@
 	"abnormals_delight:willow_cabinet": "squeakywood",
 	"abnormals_delight:azalea_cabinet": "squeakywood",
 	"abnormals_delight:driftwood_cabinet": "squeakywood",
-	"abnormals_delight:cherry_cabinet": "squeakywood",
+	"abnormals_delight:plum_cabinet": "squeakywood",
 	"abnormals_delight:maple_cabinet": "squeakywood",
 	"abnormals_delight:kousa_cabinet": "squeakywood",
+	"abnormals_delight:pine_cabinet": "squeakywood",
 	"abnormals_delight:aspen_cabinet": "squeakywood",
 	"farmersdelight:warped_cabinet": "squeakywood",
 	"abnormals_delight:rosewood_cabinet": "squeakywood",
@@ -99,37 +100,6 @@
 	"farmersdelight:rice_roll_medley_block": "organic,wood",
 	"farmersdelight:rice_roll_medley_block[servings=0]": "wood",
 
-
-	"supplementaries:daub_frame":  "dirt,wood",
-	"supplementaries:daub_brace":  "dirt,wood",
-	"supplementaries:daub_cross_brace":  "dirt,wood",
-	"supplementaries:timber_frame":  "wood",
-	"supplementaries:timber_brace":  "wood",
-	"supplementaries:timber_cross_brace":  "wood",
-
-	"#supplementaries:presents": "equipment",
-
-	"#supplementaries:candle_holders.foliage": "metalbar",
-
-    "supplementaries:enderman_head": "skull",
-    "supplementaries:enderman_wall_head": "skull",
-    "supplementaries:skull_pile": "skull",
-    "#supplementaries:skull_candles": "skull,organic_solid",
-    "supplementaries:skull_candle_wall": "skull,organic_solid",
-	"supplementaries:skull_candle_soul_wall": "skull,organic_solid",
-
-	"supplementaries:pulley_block[axis=z,winding=chain]": "wood,chain",
-	"supplementaries:pulley_block[axis=z,winding=rope]": "wood,rug",
-
-	"supplementaries:turn_table[facing=up]": "wood",
-	"supplementaries:turn_table": "stonemachine",
-
-	"supplementaries:pancake": "organic",
-
-
-
-
-
 	"sullysmod:polished_small_jade_brick_slab": "composite",
 	"sullysmod:polished_jade_shingle_slab": "composite",
 	"sullysmod:polished_jade_tile_slab": "composite",
@@ -147,7 +117,6 @@
 	"sullysmod:polished_small_jade_bricks": "composite",
 	"sullysmod:polished_jade_block": "composite",
 	"sullysmod:polished_jade_bricks": "composite",
-
 
 
 
@@ -173,16 +142,11 @@
 	"berry_good:sweet_berry_basket[facing=up]": "squeakywood,organic",
 	"berry_good:glow_berry_basket[facing=up]": "squeakywood,organic",
 
-
 	"incubation:hay_nest": "leaves,grass",
 	"incubation:twig_nest": "leaves,wood",
 	"incubation:chicken_egg_crate": "wood,slate",
 
 	"clayworks:glazed_terracotta": "composite",
-
-	"locksmith:locksmithing_table": "wood,chain",
-
-
 
 	"farmersrespite:kettle": "copper",
 
@@ -207,12 +171,10 @@
 	"brewinandchewin:fiery_fondue_pot": "metalbar,waterfine",
 
 
-
 	"savage_and_ravage:spore_bomb": "equipment",
 	"savage_and_ravage:creeper_spore_sack": "rug,sand",
 	
 	"savage_and_ravage:blast_proof_slab": "hardmetal",
 	"savage_and_ravage:blast_proof_stairs": "hardmetal",
 	"savage_and_ravage:blast_proof_plates": "hardmetal"
-
 }
