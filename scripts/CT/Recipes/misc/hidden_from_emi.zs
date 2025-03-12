@@ -47,6 +47,7 @@ val thing = ["nest_egg:emu_egg_crate",
 "citadel:debug",
 "citadel:citadel_book",
 "citadel:effect_item",
+"alloyed:steel_catwalk_stairs",
 "citadel:fancy_item"];
 
 HUtil.hideAll(thing);
