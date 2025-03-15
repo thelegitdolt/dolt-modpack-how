@@ -23,6 +23,10 @@
         },
         {
           "type": "minecraft:item",
+          "name": "music_disc_blocks"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {
