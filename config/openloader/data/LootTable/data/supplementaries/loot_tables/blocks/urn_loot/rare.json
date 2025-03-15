@@ -35,6 +35,10 @@
         },
         {
           "type": "minecraft:item",
+          "name": "music_disc_blocks"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 10,
           "functions": [
             {
@@ -63,7 +67,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -86,7 +90,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 8.0
+                "max": 4.0
               },
               "add": false
             }
@@ -101,8 +105,40 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "caverns_and_chasms:raw_tin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "caverns_and_chasms:raw_silver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -117,8 +153,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -133,8 +169,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 4.0
               },
               "add": false
             }
