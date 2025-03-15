@@ -7,22 +7,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 30,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:coal"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 15,
           "functions": [
             {
@@ -39,7 +23,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -55,7 +39,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -67,7 +51,23 @@
               "add": false
             }
           ],
-          "name": "rusticdelight:cotton_seeds"
+          "name": "caverns_and_chasms:zirconia"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "name": "caverns_and_chasms:raw_tin"
         }
       ]
     }
