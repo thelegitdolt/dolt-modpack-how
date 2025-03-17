@@ -5,9 +5,13 @@ val a = ["create:crushed_raw_zinc",
 "create:crushed_raw_copper",
 "create:crushed_raw_silver",
 "create:crushed_raw_lead",
-"create:crushed_raw_gold"
+"create:crushed_raw_gold",
+"create:crushed_raw_tin"
 ];
 HUtil.hideAll(a);
+
+<recipetype:create:crushing>.removeByName("create:crushing/raw_tin_block");
+<recipetype:create:crushing>.removeByName("create:crushing/raw_tin"); 
 
 
 <recipetype:create:crushing>.addRecipe("crushing/glance", [<item:oreganized:raw_lead> % 80.0, <item:oreganized:lead_nugget> % 80.0], <item:oreganized:glance>, 250);
