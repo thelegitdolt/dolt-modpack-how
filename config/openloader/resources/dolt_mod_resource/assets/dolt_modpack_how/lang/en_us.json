@@ -3,18 +3,29 @@
 
   "filled_map.ancient_city": "Ancient City Explorer Map",
 
+  "block.caverns_and_chasms.flint_block": "Flint Nodule",
 
-  "item.mowziesmobs.umvuthana_mask_fear.text.0": "",
-  "item.mowziesmobs.umvuthana_mask_fear.text.1": "",
-  "item.mowziesmobs.umvuthana_mask_rage.text.0": "",
-  "item.mowziesmobs.umvuthana_mask_rage.text.1": "",
-  "item.mowziesmobs.umvuthana_mask_misery.text.0": "",
-  "item.mowziesmobs.umvuthana_mask_misery.text.1": "",
-  "item.mowziesmobs.umvuthana_mask_bliss.text.0": "",
-  "item.mowziesmobs.umvuthana_mask_bliss.text.1": "",
-  "item.mowziesmobs.umvuthana_mask_fury.text.0": "",
-  "item.mowziesmobs.umvuthana_mask_fury.text.1": "",
-  "item.mowziesmobs.umvuthana_mask_faith.text.0": "",
-  "item.mowziesmobs.umvuthana_mask_faith.text.1": ""
-
+  "entity.sullysmod.lanternfish": "Cave Bream",
+  "item.sullysmod.cooked_lanternfish": "Cooked Cave Bream",
+  "item.sullysmod.lanternfish": "Raw Cave Bream",
+  "item.sullysmod.lanternfish_bucket": "Bucket of Cave Bream",
+  "item.sullysmod.lanternfish_spawn_egg": "Cave Bream Spawn Egg",
+  "subtitles.entity.lanternfish.death": "Cave Bream dies",
+  "subtitles.entity.lanternfish.flop": "Cave Bream flops",
+  "subtitles.entity.lanternfish.hurt": "Cave Bream hurts",
+  
+  "effect.alexscaves.sugar_rush": "Sugar Dream",
+  "item.minecraft.potion.effect.sugar_rush": "Potion of Sugar Dream",
+  "item.minecraft.potion.effect.long_sugar_rush": "Potion of Sugar Dream",
+  "item.minecraft.splash_potion.effect.sugar_rush": "Splash Potion of Sugar Dream",
+  "item.minecraft.splash_potion.effect.long_sugar_rush": "Splash Potion of Sugar Dream",
+  "item.minecraft.tipped_arrow.effect.sugar_rush": "Arrow of Sugar Dream",
+  "item.minecraft.tipped_arrow.effect.long_sugar_rush": "Arrow of Sugar Dream",
+  "item.minecraft.lingering_potion.effect.sugar_rush": "Lingering Potion of Sugar Dream",
+  "item.minecraft.lingering_potion.effect.long_sugar_rush": "Lingering Potion of Sugar Dream",
+  "advancements.alexscaves.sugar_rush.title": "Sweet Sweet Speeding Up",
+  "advancements.alexscaves.sugar_rush.desc": "Obtain the Sugar Dream effect from eating too many sweets",
+  "alexscaves.sound.subtitle.sugar_rush_enter": "Sugar Dream activates",
+  "alexscaves.sound.subtitle.sugar_rush_exit": "Sugar Dream deactivates",
+  "alexscaves.sound.subtitle.sugar_rush_loop": "Sugar Dream shimmers"
 }
