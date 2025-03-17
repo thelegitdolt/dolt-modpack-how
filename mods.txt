@@ -98,6 +98,7 @@
 [MINOR] incubation-1.20.1-4.0.4.jar
 [MINOR] jumpboat-1.20.0-1.0.5.jar
 [MINOR] libertyvillagers-2.0.0+forge+1.20.1.jar
+[MINOR] logprot-1.20.1-3.5.jar
 [MINOR] map_atlases-1.20-6.0.15.jar
 [MINOR] moyai-1.20-2.0.2.jar
 [MINOR] netherportalfix-forge-1.20-13.0.1.jar
