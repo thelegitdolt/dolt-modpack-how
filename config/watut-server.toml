@@ -23,4 +23,28 @@
 	#How close another player has to be to another player to see what they're doing in GUI, item transferring, mouse movement, etc
 	#Range: > 0
 	distanceRequiredToShowGUIInfo = 10
+	#SETTING THESE SERVER SIDE SETTINGS TO FALSE WILL OVERRIDE ANY OF THE SAME CLIENT SETTINGS THAT ARE SET TO TRUE (for all clients)
+	dummySetting = true
+	#Enables or disables idle visual in the server player list tab screen
+	showIdleStatesInPlayerList = true
+	#Enables or disables idle visual above player head
+	showIdleStatesInPlayerAboveHead = true
+	#Setting false disables all animations
+	showPlayerAnimations = true
+	#Enables or disables typing animation
+	showPlayerAnimation_Typing = true
+	#Enables or disables idle animation
+	showPlayerAnimation_Idle = true
+	#Enables or disables the non typing animations used when showing the open Gui, such as head looking, arms moving up, arms pointing and clicking
+	showPlayerAnimation_Gui = true
+	#Show any Gui they're using that isn't chat typing related in world
+	showPlayerActiveNonChatGui = true
+	#Show the chat typing Gui in world
+	showPlayerActiveChatGui = true
+	#Show 'Player is typing...' on the chat screen
+	screenTypingVisible = true
+	#Plays a sound when a player opens some Guis
+	playScreenOpenSounds = true
+	#Plays a sutble sound when a player clicks their mouse in a Gui
+	playMouseClickSounds = true
 

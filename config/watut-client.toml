@@ -25,7 +25,7 @@
 	showPlayerActiveNonChatGui = true
 	#Show the chat typing Gui in world
 	showPlayerActiveChatGui = true
-	#If there isnt an exact Gui available for what the player is using, it will show the Chest Gui. If this is false, it will show nothing, lots of modded Guis will use this for now
+	#This is for the older non dynamic GUI only. If there isnt an exact Gui available for what the player is using, it will show the Chest Gui. If this is false, it will show nothing, lots of modded Guis will use this for now
 	showPlayerActiveGuiIfNotExactMatch = true
 	#Show 'Player is typing...' on the chat screen
 	screenTypingVisible = true
@@ -56,4 +56,6 @@
 	dontSendDetailedGUIInfo = false
 	#Privacy setting, if you dont want to show the items you are transferring to and from yourself and containers, set this to true
 	dontSendItemInfo = false
+	#SETTING THESE CLIENT SIDE SETTINGS TO FALSE WILL OVERRIDE ANY OF THE SAME SERVER SETTINGS THAT ARE SET TO TRUE (for your client only)
+	dummySetting = true
 

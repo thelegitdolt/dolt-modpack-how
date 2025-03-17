@@ -15,7 +15,6 @@ val planks = [
 "quark:azalea_planks",
 "everycomp:q/alexscaves/vertical_pewen_planks",
 "everycomp:q/atmospheric/vertical_rosewood_planks",
-"everycomp:q/netherexp/vertical_claret_planks",
 "everycomp:q/atmospheric/vertical_kousa_planks",
 "everycomp:q/environmental/vertical_plum_planks",
 "everycomp:q/sullysmod/vertical_petrified_planks",
