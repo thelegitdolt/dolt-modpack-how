@@ -10,12 +10,10 @@ var stripped_posts = WoodList.create(Constants.QUARK, (str) => "stripped_" + str
  var posts_and_stripped_posts = WoodUtil.asPair(posts, stripped_posts) as ResourceLocation[ResourceLocation]; 
 
 for post, stripped in posts_and_stripped_posts {
-   if (post.getPath() != "q/atmospheric/grimwood_post" && post.getPath() != "q/upgrade_aquatic/driftwood_post" && post.getPath() != "q/atmospheric/rosewood_post") {
-      val postItem = <item:${post.toString()}>;
-      val strippedItem = <item:${stripped.toString()}>;
+   val postItem = <item:${post.toString()}>;
+   val strippedItem = <item:${stripped.toString()}>;
 
-      RUtil.cut.addRecipe("stripping_" + post.getPath(), postItem, [strippedItem, <item:farmersdelight:tree_bark>], <toolaction:axe_strip>);
-   }
+   RUtil.cut.addRecipe("stripping_" + post.getPath(), postItem, [strippedItem, <item:farmersdelight:tree_bark>], <toolaction:axe_strip>);
 }
 
 RUtil.cut.addRecipe("stripping_bamboo_post", <item:quark:bamboo_post>, [<item:quark:stripped_bamboo_post>, <item:farmersdelight:straw>], <toolaction:axe_strip>);

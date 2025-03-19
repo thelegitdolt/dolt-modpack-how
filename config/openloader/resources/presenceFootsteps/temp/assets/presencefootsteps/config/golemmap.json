@@ -1,0 +1,11 @@
+{
+	"etched:jukebox_minecart": "metalbar",
+
+	"boatload:furnace_boat": "wood",
+	"boatload:large_boat": "wood",
+
+	"blueprint:boat": "wood",
+	"blueprint:chest_boat": "wood",
+
+	"sullysmod:tortoise_shell": "stone,composite"
+}

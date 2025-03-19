@@ -1,6 +1,7 @@
 {
 	"caverns_and_chasms:copper_golem": "NONE",
 	"caverns_and_chasms:deeper": "QUADRUPED",
+	"caverns_and_chasms:peeper": "QUADRUPED",
 	"caverns_and_chasms:glare": "NONE",
 	"caverns_and_chasms:mime": "BIPED",
 	"caverns_and_chasms:rat": "QUADRUPED"
