@@ -53,6 +53,14 @@ for i in fleshies {
     <tag:blocks:farmersdelight:mineable/knife>.add(<block:${i}>); 
 }
 
+for color in RUtil.colors {
+    <tag:blocks:farmersdelight:mineable/knife>.add(<block:dye_depot:${color}_dye_basket>);
+}
+for weirdColor in RUtil.dyeDepotColors {
+    <tag:blocks:farmersdelight:mineable/knife>.add(<block:dye_depot:${weirdColor}_dye_basket>);
+}
+
+
 val fiberies = [
     "architects_palette:spool"
 ]; 

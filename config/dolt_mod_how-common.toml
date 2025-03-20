@@ -9,14 +9,6 @@
 		#Whether farmland can be untilled by sneak-right clicking them with a hoe
 		"Untillable Farmland" = true
 
-	[Vanilla.crops]
-		#If all blocks that are crops should drop experience.
-		"Experienced Crops" = true
-		#Minimum XP a crop block will drop when broken.
-		"Minimum Crop XP" = 0
-		#Maximum XP a crop block will drop when broken.
-		"Maximum Crop XP" = 1
-
 	[Vanilla.dispensers]
 		#If dispensers should be able to dispense into cauldrons
 		"Dispenser Cauldrons" = true
@@ -28,6 +20,26 @@
 	[Vanilla.enchantments]
 		#If enchantments other than protection should be buffed. Experimental!
 		"Erm what the sigma" = true
+
+	[Vanilla.xp]
+		#If placing a block should have a chance to yield experience.
+		"Experienced Building" = true
+		#Specify n here, where the chance of a block dropping xp is 1/n. Integers only!
+		"Building XP chance" = 64
+		#If all blocks that are crops should drop experience.
+		"Experienced Crops" = true
+		#Minimum XP a crop block will drop when broken.
+		"Minimum Crop XP" = 0
+		#Maximum XP a crop block will drop when broken.
+		"Maximum Crop XP" = 1
+
+	[Vanilla.anvil]
+		#Allow applying enchantment books to items with incompatible enchants. Voids incompatible enchants from the tool.
+		"MutEx Friendly Anvils" = true
+		#The percentage of durability much each material should repair on a tool, in an anvil. 0.25 in vanilla.
+		"Repair Item Amount" = 0.33
+		#For THIS MOD ONLY's operations, disable prior work enchantment penalty. 
+		"Disable Prior Work For Above Operations" = true
 
 [atmospheric]
 
@@ -67,7 +79,25 @@
 		#If acid should not corrode copper
 		"Good Acid" = true
 
-	["Alexander Caverns"."Biome Treats"]
-		#If biome treats should work regardless of hunger
-		"Okay Treats" = true
+	["Alexander Caverns"."Cave Maps"]
+		#If pathfinder quills should make a based sigma cave map instead of a cringe beta vanilla map
+		"I'm sorry I said all that" = false
+
+		["Alexander Caverns"."Cave Maps"."Biome Treats"]
+			#If biome treats should work regardless of hunger
+			"Okay Treats" = true
+
+		["Alexander Caverns"."Cave Maps"."Sack of Sating"]
+			#If sacks of sating no longer restore saturation
+			"Mid sack of sating" = true
+
+[misc]
+	#If interacting with blocks like Flower Pots and Amendment Placeable Books should put the item they contain into your inventory, thus merging with existing stacks, instead of adding it to your hand, which is EXTREMELY ANNOYING
+	"Less Annoying Item Reclaim" = true
+
+["Mowzies Mobs"]
+
+	["Mowzies Mobs".Rakes]
+		#If hoes should also be able to rake sand. Disabled by default option for my modpack
+		"Hoes Rake Sand" = true
 
