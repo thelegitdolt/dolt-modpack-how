@@ -54,7 +54,9 @@ for i in fleshies {
 }
 
 for color in RUtil.colors {
-    <tag:blocks:farmersdelight:mineable/knife>.add(<block:dye_depot:${color}_dye_basket>);
+    if (color != "black") {
+        <tag:blocks:farmersdelight:mineable/knife>.add(<block:dye_depot:${color}_dye_basket>);
+    }
 }
 for weirdColor in RUtil.dyeDepotColors {
     <tag:blocks:farmersdelight:mineable/knife>.add(<block:dye_depot:${weirdColor}_dye_basket>);
@@ -67,6 +69,7 @@ val fiberies = [
 
 
 for i in fiberies {
+    
     <tag:blocks:farmersdelight:mineable/knife>.add(<block:${i}>); 
 }
 

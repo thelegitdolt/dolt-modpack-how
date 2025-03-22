@@ -134,7 +134,7 @@
 	#Disables Optifine warn screen
 	no_optifine_warn_screen = false
 	#Disables Amendments suggestion screen
-	no_amendments_screen = false
+	no_amendments_screen = true
 	#Enable Quark style config button on main menu. Needs Configured installed to work
 	config_button = false
 	#Config button Y offset
