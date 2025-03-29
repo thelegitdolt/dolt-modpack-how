@@ -169,6 +169,19 @@
 		"caverns_and_chasms:sanguine_helmet" = 768
 		"caverns_and_chasms:sanguine_leggings" = 768
 		"caverns_and_chasms:sanguine_boots" = 768
+		#alloyed
+		"alloyed:steel_hoe" = 2048
+		"alloyed:steel_shears" = 2048
+		"alloyed:steel_fishing_rod" = 2048
+		"alloyed:steel_knife" = 2048
+		"alloyed:steel_pickaxe" = 2048
+		"alloyed:steel_sword" = 2048
+		"alloyed:steel_shovel" = 2048
+		"alloyed:steel_axe" = 2048
+		"alloyed:steel_leggings" = 1024
+		"alloyed:steel_boots" = 1024
+		"alloyed:steel_chestplate" = 1024
+		"alloyed:steel_helmet" = 1024
 		#Other
 		"minecraft:turtle_helmet" = 512
 		"minecraft:fishing_rod" = 384
@@ -274,7 +287,7 @@
 	#"minecraft:mending" = "common"
 	#Default rarities (mods may add more!): "common", "uncommon", "rare", "very_rare"
 	[enchantments.rarity]
-		test = ""
+		"minecraft:silk_touch" = "rare"
 
 #Add or remove compostables.
 [composting]
