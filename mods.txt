@@ -1,13 +1,16 @@
 [ADDON-BAD] rusticdelight-forge-1.20.1-1.4.0.jar
 [ADDON-DAVIJ] nest_egg-1.20.1-1.0.1.jar
-[ADDON-DOLT] dolt_mod_how-1.20.1-2.2.7.jar
+[ADDON-DOLT] dolt_mod_how-1.20.1-2.3.0.jar
 [ADDON-PERFORMANCE] create_lt-1.0.1-forge-mc1.20.1.jar
+[ADDON-PERFORMANCE] rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar
 [ADDON-TOOL] CreateTweaker-forge-1.20.1-4.0.15.jar
 [ADDON-TOOL] JeiTweaker-forge-1.20.1-8.0.6.jar
 [ADDON] BrewinAndChewin-1.20.1-3.2.1.jar
 [ADDON] MyNethersDelight-1.20.1-0.1.7.5.jar
+[ADDON] QuarkOddities-1.20.1.jar
 [ADDON] abnormals_delight-1.20.1-5.0.0.jar
 [ADDON] alloyed-1.20.1-c6.0.0-v2.0.jar
+[ADDON] cavedelight-1.0.2.jar
 [ADDON] dye_the_world-1.3.0.jar
 [ADDON] emi_loot-0.7.5+1.20.1+fix1+forge.jar
 [ADDON] farmersrespite-1.20.1-2.1.2.jar
@@ -38,7 +41,6 @@
 [CONTENT] Jadens-Nether-Expansion-2.2.1.jar
 [CONTENT] Oreganized 1.20.1-3.1.4.jar
 [CONTENT] Quark-4.0-461.jar
-[CONTENT] QuarkOddities-1.20.1.jar
 [CONTENT] Species-1.20.1-2.3-forge.jar
 [CONTENT] alexscaves-2.0.2.jar
 [CONTENT] atmospheric-1.20.1-6.1.0.jar
@@ -69,7 +71,7 @@
 [DAVIJ] fussy_azaleas-1.20.1-1.0.1.jar
 [DAVIJ] gravity_gourds-1.20.1-2.0.1.jar
 [DAVIJ] sneaky_link-1.20.1-2.1.0.jar
-[DOLT] easel_does_it-1.20.1-1.0.5-all.jar
+[DOLT] easel_does_it-1.20.1-1.0.5.jar
 [MINOR] AirHop-v8.0.2-1.20.1-Forge.jar
 [MINOR] CombatNouveau-v8.0.5-1.20.1-Forge.jar
 [MINOR] DeathKnell-Forge-1.20.1-10.0.4.jar
@@ -88,7 +90,7 @@
 [MINOR] clayworks-1.20.1-3.0.3.jar
 [MINOR] ditr-1.20.1-1.1.1.jar
 [MINOR] enhanced_mushrooms-5.0.0.jar
-[MINOR] everycomp-1.20-2.7.22.jar
+[MINOR] everycomp-1.20-2.7.24.jar
 [MINOR] forgery-3.5.8+1.20.jar
 [MINOR] gallery-1.20.1-1.0.2.jar
 [MINOR] goated-1.20-1.3.4.jar
@@ -111,7 +113,6 @@
 [MINOR] sniffed_out-1.20.1-1.0.0-beta1.jar
 [MINOR] snowundertrees-1.20.1-1.4.9.jar
 [MINOR] spawnanimations-v1.10-mc1.17x-1.21x-mod.jar
-[MINOR] vanilla-refresh-1.4.19h.jar
 [MINOR] villager-transportation-1.3.1.jar
 [MINOR] woodworks-1.20.1-3.0.2.jar
 [PERFORMANCE] AttributeFix-Forge-1.20.1-21.0.4.jar
@@ -123,7 +124,6 @@
 [PERFORMANCE] modernfix-forge-5.20.2+mc1.20.1.jar
 [PERFORMANCE] noisium-forge-2.3.0+mc1.20-1.20.1.jar
 [PERFORMANCE] packetfixer-forge-2.0.0-1.19-to-1.20.1.jar
-[PERFORMANCE] rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar
 [SERVER-PERFORMANCE] dimthread-FORGE-mc1.20.1-v1.2.1.jar
 [SERVER] dcintegration-forge-3.0.7.1-1.20.1.jar
 [TOOL] CraftTweaker-forge-1.20.1-14.0.57.jar
