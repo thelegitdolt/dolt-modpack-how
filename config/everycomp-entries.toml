@@ -15,7 +15,7 @@
 			thornwood = true
 
 		[types.wood_type.netherexp]
-			cerebrage_claret = true
+			claret = true
 
 		[types.wood_type.quark]
 			azalea = true

@@ -4,4 +4,6 @@ HorseModelHeadOffset = 20
 #Offset to horse model head y position while riding. Lowers the head so it's not blocking the view. Default: true
 #Range: 0 ~ 4
 HorseModelYOffset = 2
+#If Lead slot is disabled, but lead is still required for hitching, indication of whether the Lead is equipped will be rendered in Horse inventory screen. Default: true
+render_lead_indication_without_slot = true
 

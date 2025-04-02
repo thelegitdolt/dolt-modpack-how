@@ -9,8 +9,8 @@
 [ADDON] MyNethersDelight-1.20.1-0.1.7.5.jar
 [ADDON] QuarkOddities-1.20.1.jar
 [ADDON] abnormals_delight-1.20.1-5.0.0.jar
-[ADDON] alloyed-1.20.1-c6.0.0-v2.0.jar
 [ADDON] cavedelight-1.0.2.jar
+[ADDON] create_alloyed-2.0.1+1.20.1.jar
 [ADDON] dye_the_world-1.4.0.jar
 [ADDON] emi_loot-0.7.5+1.20.1+fix1+forge.jar
 [ADDON] farmersrespite-1.20.1-2.1.2.jar

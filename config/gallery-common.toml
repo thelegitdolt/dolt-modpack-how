@@ -14,6 +14,6 @@
 		"Painting selector" = false
 		#If you must be crouching to open the Painting selector
 		"Painting selector requires crouching" = false
-		#If the Painting selector can be opened when crouching while right-clicking a block
-		"Painting selector opens on blocks" = true
+		#If the Painting selector can be opened while right-clicking the top or bottom face of a block
+		"Painting selector can open on blocks" = true
 
