@@ -33,14 +33,6 @@
 		#Maximum XP a crop block will drop when broken.
 		"Maximum Crop XP" = 1
 
-	[Vanilla.anvil]
-		#Allow applying enchantment books to items with incompatible enchants. Voids incompatible enchants from the tool.
-		"MutEx Friendly Anvils" = true
-		#The percentage of durability much each material should repair on a tool, in an anvil. 0.25 in vanilla.
-		"Repair Item Amount" = 0.33
-		#For THIS MOD ONLY's operations, disable prior work enchantment penalty. 
-		"Disable Prior Work For Above Operations" = true
-
 [atmospheric]
 
 	[atmospheric.Oranges]
