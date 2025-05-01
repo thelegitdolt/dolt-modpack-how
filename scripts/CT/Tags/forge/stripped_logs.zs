@@ -31,7 +31,7 @@ val stripped_woods = [
 ];
 
 for wood in stripped_woods {
-    <tag:items:forge:stripped_wood>.add(<item:${wood}>);
+    <tag:items:forge:stripped_woode>.add(<item:${wood}>);
 }
     
 
