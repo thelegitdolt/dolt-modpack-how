@@ -68,6 +68,19 @@ var skulls = [
     "amendments:skull_candle_wall"
 ] as string[];
 
+val eggs = [
+    "sullysmod:tortoise_egg",
+    "minecraft:turtle_egg",
+    "minecraft:sniffer_egg",
+    "species:cruncher_egg",
+    "species:springling_egg",
+    "species:petrified_egg"
+];
+
+for eg in eggs {
+    <tag:blocks:minecraft:mineable/pickaxe>.add(<block:${eg}>);
+}
+
 for skull in skulls {
     <tag:blocks:minecraft:mineable/pickaxe>.add(<block:${skull}>);
 }
