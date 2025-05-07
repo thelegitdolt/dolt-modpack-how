@@ -87,16 +87,19 @@ def nextAttemptNum(folder_path):
         i += 1
     return i
 
-def find_blacklist(files: list[str], dir) -> list[str]:
-    regex = r'[\s\-_]*?'
+def get_blacklist(thing: list[str], files: list[str]) -> list[str]:
+    pattern = ''
+    for i in thing:
+        new_name = f"({i.replace("_", r"[\s\-_]*?")})"
+        if len(pattern) > 0:
+            pattern += "|"
+        pattern += new_name
+    blacklist_regex = re.compile(pattern)
+    print(blacklist_regex)
     blacklist = list()
     for file in files:
-        pattern = re.compile(reduce(lambda a, b: f'{a}{regex}{b}', 
-                                    file.split('_')), re.IGNORECASE)
-        
-        for mod in os.listdir(dir):
-            if pattern.search(mod):
-                blacklist.append(mod)
+        if blacklist_regex.search(file):
+            blacklist.append(file)
     return blacklist
 
 class BSI: 
@@ -104,7 +107,7 @@ class BSI:
         if blacklist is None:
             blacklist = []
 
-        self.blacklist = find_blacklist(blacklist, folder1path)
+        self.blacklist = get_blacklist(blacklist, os.listdir(folder1path))
         print("Created blacklist for BSI object:", self.blacklist)
         if folder1path is None:
             raise ValueError("Folder 1 can't be none")
@@ -127,8 +130,12 @@ class BSI:
         do(self.folder1path)
         do(self.folder2path)
 
+    def available_mods(self):
+        return [file for file in os.listdir(self.folder1path) 
+                if "{LIB}" not in file and file not in self.blacklist and file.endswith(".jar")]
+
     def execute(self):
-        available_mods = [file for file in os.listdir(self.folder1path) if "{LIB}" not in file and file not in self.blacklist]
+        available_mods = self.available_mods()
         removed_mods = random.sample(available_mods, len(available_mods) // 2)
         
         moveFiles(self.folder1path, removed_mods, "pass_%d" % nextAttemptNum(f"{self.folder1path}/pass_"))
@@ -137,6 +144,15 @@ class BSI:
         
         return self
     
+    def invert(self):
+        available_mods = self.available_mods()
+
+        moveFiles(self.folder1path, available_mods, "good")
+        flatten(self.folder1path + "/" + "pass_%d" % nextAttemptNum(f"{self.folder1path}/pass_") - 1)
+        if self.folder2path is not None:
+            moveFiles(self.folder2path, available_mods, "good")
+            flatten(self.folder2path + "/" + "pass_%d" % nextAttemptNum(f"{self.folder2path}/pass_") - 1)
+
     def endall(self):
         for file in os.listdir(self.folder1path):
             abs_path = f'{self.folder1path}/{file}'
@@ -154,7 +170,10 @@ class BSI:
         tree.init()
         tree.execute()
         return tree
-    
+
+
+
+import argparse
+
 if __name__ == "__main__":
-    a = re.compile(r'caverns[\s\-_]*?and[\s\-_]*?chasms', re.IGNORECASE)
-    print(a.search('[CONTENT] caverns_and_chasms-1.20.1-2.0.0.jar'))
+    pass

@@ -1,0 +1,7 @@
+#Whether to enable interacting with the caught entity
+#This usually means bucketing the fish if you are holding a water bucket
+enableCatchInteraction = false
+#Whether to limit the interaction to items in the c:buckets/water item tag.
+#Does nothing if enableCatchInteraction is disabled...
+limitInteractionToWaterBucket = true
+

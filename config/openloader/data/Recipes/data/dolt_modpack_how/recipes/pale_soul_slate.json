@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "netherexp:pale_soul_slate"
+    }
+  ],
+  "result": [
+    {
+      "item": "netherexp:soul_slate"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "pickaxe_dig"
+  }
+}

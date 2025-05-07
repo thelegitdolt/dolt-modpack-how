@@ -393,7 +393,5 @@ for wood in woods {
 }
 
 
-HUtil.hideGoodPotionFrontMark("quark", "resilience");
-
 
 DebugUtil.endScript("recipes/quark/hide/random_stuff"); 

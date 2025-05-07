@@ -81,6 +81,8 @@ for eg in eggs {
     <tag:blocks:minecraft:mineable/pickaxe>.add(<block:${eg}>);
 }
 
+<tag:blocks:minecraft:mineable/pickaxe>.add(<block:quark:monster_box>);
+
 for skull in skulls {
     <tag:blocks:minecraft:mineable/pickaxe>.add(<block:${skull}>);
 }

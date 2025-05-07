@@ -1,5 +1,16 @@
 {
   "attributes": {
+    "runiclib:generic.dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "forge:step_height_addition": {
       "enabled": false,
       "min": {
@@ -9,6 +20,17 @@
       "max": {
         "default": 512,
         "value": 512
+      }
+    },
+    "runiclib:generic.retaliation_amount": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecraft:generic.follow_range": {
@@ -22,6 +44,17 @@
         "value": 2048
       }
     },
+    "runiclib:generic.retaliation_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "forge:nametag_distance": {
       "enabled": false,
       "min": {
@@ -31,6 +64,17 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "runiclib:generic.vulnerability_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "forge:entity_gravity": {
@@ -110,6 +154,17 @@
         "value": 1024
       }
     },
+    "runiclib:generic.lifesteal_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -119,6 +174,17 @@
       "max": {
         "default": 30,
         "value": 1000000
+      }
+    },
+    "runiclib:generic.critical_strike_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "caverns_and_chasms:weakness_aura": {
@@ -132,7 +198,29 @@
         "value": 30
       }
     },
+    "runiclib:generic.burning_retaliation_length": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:entity_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "runiclib:generic.lifesteal_heal_amount": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -176,6 +264,17 @@
         "value": 1024
       }
     },
+    "runiclib:generic.critical_strike_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "oreganized:kinetic_damage": {
       "enabled": false,
       "min": {
@@ -207,6 +306,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "runiclib:generic.vulnerability_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecraft:generic.max_health": {
@@ -251,6 +361,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "runiclib:generic.burning_retaliation_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecraft:generic.attack_knockback": {
