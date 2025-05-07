@@ -32,7 +32,7 @@
 	[tweaks.trims]
 		#Prevents replacing/applying a Trim Template & Material over a previously trimmed item
 		#This is to prevent the player from wasting materials that could be returned at a Dismantling Table
-		"Prevent replacing trims" = false
+		"Prevent replacing trims" = true
 
 [blocks]
 
