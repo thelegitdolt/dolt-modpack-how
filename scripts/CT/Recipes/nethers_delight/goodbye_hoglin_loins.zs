@@ -10,6 +10,7 @@ HUtil.hide(<item:mynethersdelight:blue_tenderloin_steak>);
 
 val toRemoveCrafting = [
     "mynethersdelight:blue_tenderloin_steak",
+    "mynethersdelight:blue_tenderloin_steak",
     "mynethersdelight:hotdog",
     "mynethersdelight:burnt_roll"
 ]; 
@@ -18,6 +19,8 @@ HUtil.hideAll(toRemoveCrafting);
 
 val toRemoveCooking = [
     "mynethersdelight:sausage_and_potatoes", 
+    "mynethersdelight:spicy_hoglin_stew",
+    "mynethersdelight:fried_hoglin_chop",
     "mynethersdelight:burnt_roll"
 ];
 RUtil.removeAllOf(toRemoveCooking, RUtil.cook); 
