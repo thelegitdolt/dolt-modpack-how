@@ -126,7 +126,7 @@
 		jar_liquids = true
 
 	[functional.cage]
-		enabled = false
+		enabled = true
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Allows all baby mobs to be captured by cages

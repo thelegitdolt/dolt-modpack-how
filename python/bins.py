@@ -119,6 +119,21 @@ class BSI:
         # todo: specify mods that can't be moved 
         if folder2path is not None:
             verify_have_same_files(self.folder1path, self.folder2path)
+
+    @staticmethod
+    def local(blacklist, folder1path=mod_folder):
+        if type(blacklist) == str:
+            blacklist = [blacklist]
+
+        a = BSI(blacklist=blacklist, folder1path=folder1path, folder2path=None)
+        a.init()
+        return a
+
+    @staticmethod
+    def server(blacklist, folder1path=mod_folder, folder2path=server_mod_folder):
+        a = BSI(blacklist=blacklist, folder1path=folder1path, folder2path=folder2path)
+        a.init()
+        return a
     
     def init(self):
         """
@@ -148,10 +163,10 @@ class BSI:
         available_mods = self.available_mods()
 
         moveFiles(self.folder1path, available_mods, "good")
-        flatten(self.folder1path + "/" + "pass_%d" % nextAttemptNum(f"{self.folder1path}/pass_") - 1)
+        flatten(self.folder1path + "/" + "pass_%d" % (nextAttemptNum(f"{self.folder1path}/pass_") - 1))
         if self.folder2path is not None:
             moveFiles(self.folder2path, available_mods, "good")
-            flatten(self.folder2path + "/" + "pass_%d" % nextAttemptNum(f"{self.folder2path}/pass_") - 1)
+            flatten(self.folder2path + "/" + "pass_%d" % (nextAttemptNum(f"{self.folder2path}/pass_") - 1))
 
     def endall(self):
         for file in os.listdir(self.folder1path):
@@ -163,14 +178,6 @@ class BSI:
         flatten(self.folder1path + "/" + folder)
         if self.folder2path is not None:
             flatten(self.folder2path + "/" + folder)
-
-    @staticmethod
-    def init_execute():
-        tree = BSI.make_default()
-        tree.init()
-        tree.execute()
-        return tree
-
 
 
 import argparse
