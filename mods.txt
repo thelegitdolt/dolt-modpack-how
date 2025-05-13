@@ -1,5 +1,5 @@
 [ADDON-DAVIJ] nest_egg-1.20.1-1.0.1.jar
-[ADDON-DOLT] dolt_mod_how-1.20.1-2.3.5.jar
+[ADDON-DOLT] dolt_mod_how-1.20.1-2.3.7.jar
 [ADDON-PERFORMANCE] create_lt-1.0.1-forge-mc1.20.1.jar
 [ADDON-PERFORMANCE] rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar
 [ADDON-TOOL] CreateTweaker-forge-1.20.1-4.0.15.jar
@@ -10,6 +10,7 @@
 [ADDON] abnormals_delight-1.20.1-5.0.0.jar
 [ADDON] cavedelight-1.0.2.jar
 [ADDON] create_alloyed-2.0.1+1.20.1.jar
+[ADDON] create_central_kitchen-1.20.1-for-create-6.0.4-1.4.1.jar
 [ADDON] dye_the_world-1.4.0.jar
 [ADDON] emi_loot-0.7.6+1.20.1+forge.jar
 [ADDON] farmersrespite-1.20.1-2.1.2.jar
@@ -117,6 +118,7 @@
 [PERFORMANCE] AttributeFix-Forge-1.20.1-21.0.4.jar
 [PERFORMANCE] dynamic-fps-3.9.4+minecraft-1.20.0-forge.jar
 [PERFORMANCE] embeddium-0.3.31+mc1.20.1.jar
+[PERFORMANCE] entityculling-forge-1.7.4-mc1.20.1.jar
 [PERFORMANCE] ferritecore-6.0.1-forge.jar
 [PERFORMANCE] memoryleakfix-forge-1.17+-1.1.5.jar
 [PERFORMANCE] mobtimizations-forge-1.20.1-1.0.0.jar
