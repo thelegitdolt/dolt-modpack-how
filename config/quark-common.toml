@@ -1839,7 +1839,7 @@
 		"Allow Armor Stand Unloading" = true
 
 	[oddities.crate]
-		"Max Items" = 640
+		"Max Items" = 99
 
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
