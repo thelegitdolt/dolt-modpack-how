@@ -7,6 +7,7 @@ CHANGES
 - Made large pumpkin slices bake to ginger dye. Also added a kiln recipe for pumpkin -> ginger dye
 - Made leather armor cut to leather scraps. Added a recipe to combine leather scraps back into leather
 - Streamline horse armor crushing wheel recipes
+- Made the chain recipe only take two iron/zinc nuggets
 - Add coffee berries to bastion_other chests 
 
 FIXES

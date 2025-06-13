@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/minecraft/cobble_stuff.zs/"); 
+DebugUtil.startScript("/Reciperminecraft/cobble_stuff/"); 
     
 
 <tag:items:minecraft:stone_crafting_materials>.add(<item:minecraft:stone>);
@@ -66,4 +66,4 @@ DebugUtil.startScript("/Recipes/minecraft/cobble_stuff.zs/");
 
 
 
-DebugUtil.endScript("/Recipes/minecraft/cobble_stuff.zs"); 
+DebugUtil.endScript("recipes/minecraft/cobble_stuff"); 

@@ -1,4 +1,4 @@
-DebugUtil.startScript("recipes/minecraft/lead/"); 
+DebugUtil.startScript("recipes/minecraft/lead"); 
     
 val str = <item:minecraft:string>;
 craftingTable.removeByName("minecraft:lead");

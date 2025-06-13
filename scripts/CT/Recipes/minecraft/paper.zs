@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/minecraft/paper.zs/"); 
+DebugUtil.startScript("recipes/minecraft/paper"); 
     
 
 craftingTable.removeByName("minecraft:paper");
@@ -13,4 +13,4 @@ craftingTable.addShapeless("paper_from_bark",
                             [<item:farmersdelight:tree_bark>, <item:farmersdelight:tree_bark>]);
 
 
-DebugUtil.endScript("/Recipes/minecraft/paper.zs"); 
+DebugUtil.endScript("recipes/minecraft/paper"); 

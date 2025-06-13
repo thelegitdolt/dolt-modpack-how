@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/minecraft/minecarts_good.zs/"); 
+DebugUtil.startScript("/Recipes/minecraft/minecarts_good/"); 
     
 
 import crafttweaker.api.ingredient.IIngredient;
@@ -7,7 +7,7 @@ import crafttweaker.api.item.IItemStack;
 function hi(name as string, cart as IItemStack, thing as IIngredient) as void{
     craftingTable.remove(cart);
 
-    craftingTable.addShapeless(name, cart, [<item:minecraft:minecart>, thing]);
+    craftingTable.addShapeless(name, cart, [thing, <item:minecraft:minecart>]);
 }
 
 hi("hopper_cart_based", <item:minecraft:hopper_minecart>, <item:minecraft:hopper>);
@@ -20,4 +20,4 @@ hi("jukebox_cart_based", <item:etched:jukebox_minecart>, <item:minecraft:jukebox
 
 
 
-DebugUtil.endScript("/Recipes/minecraft/minecarts_good.zs"); 
+DebugUtil.endScript("/Recipes/minecraft/minecarts_good"); 

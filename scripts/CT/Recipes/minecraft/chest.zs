@@ -1,7 +1,7 @@
-DebugUtil.startScript("/Recipes/minecraft/chest.zs/"); 
+DebugUtil.startScript("recipes/minecraft/chest/"); 
     
 
 craftingTable.remove(<item:minecraft:chest>);
 
 
-DebugUtil.endScript("/Recipes/minecraft/chest.zs"); 
+DebugUtil.endScript("recipes/minecraft/chest"); 
