@@ -4,6 +4,7 @@ CHANGES
 - Mobs spawning from monster boxes now drop stained scraps dungeonsdelight
 - Allow foliaath mowziesmobs to spawn in primordial caves alexscaves, also they can't spawn in jungles anymore
 - Made zirconia discs unable to smelt into blank discs
+- Made large pumpkin slices bake to ginger dye. Also added a kiln recipe for pumpkin -> ginger dye
 
 FIXES
 - Fixed being unable to mine nylium with hands
