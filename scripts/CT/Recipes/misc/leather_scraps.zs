@@ -10,9 +10,19 @@ import crafttweaker.api.recipe.replacement.type.NotFilteringRule;
 DebugUtil.startScript("recipes/misc/leather_scraps"); 
 
 var leather = <item:minecraft:leather>;
+var scrap = <item:dolt_mod_how:leather_scraps>;
 var leatherTag = <tag:items:dolt_mod_how:leather>;
 
-<tag:items:caverns_and_chasms:cupric_fire_base_blocks>.add(<item:minecraft:copper_ingot>);
+
+craftingTable.addShapeless("leather_scrap_combine", leather, [scrap, scrap]);
+
+
+for i in ["helmet", "chestplate", "leggings", "boots"] {
+    RUtil.cut.removeByName("farmersdelight:cutting/leather_" + i);
+    RUtil.cut.addRecipe("leather_" + i + "_cutting_based", <item:minecraft:leather_${i}>, 
+        [scrap], <toolaction:shears_harvest>);
+
+}
 
 
 var exclude = [
