@@ -633,7 +633,7 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
-			biome_tags = ["minecraft:is_jungle"]
+			biome_tags = []
 			#Allow spawns in these biomes regardless of the biome tag settings
 			biome_whitelist = ["alexscaves:primordial_caves"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
@@ -643,7 +643,7 @@
 		[mobs.foliaath.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 35
+			spawn_rate = 60
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1

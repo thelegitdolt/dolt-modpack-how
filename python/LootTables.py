@@ -48,4 +48,4 @@ def generateForAll(ls: list[str]) -> None:
 
 
 if __name__ == '__main__':
-    generateDropSelfLootTables("etcetera", "iridescent_glass_pane")
+    generateForAll(["minecraft:glass_pane"])

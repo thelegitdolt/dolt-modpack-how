@@ -11,6 +11,10 @@ DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe");
 <tag:blocks:forge:glass>.add(<block:netherexp:soul_glass>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass_panes>);
+<tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_trapdoor>);
+<tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_door>);
+
+
 
 var skulls = [
     "caverns_and_chasms:mime_head",

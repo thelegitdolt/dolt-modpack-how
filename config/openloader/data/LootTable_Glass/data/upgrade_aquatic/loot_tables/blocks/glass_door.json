@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "upgrade_aquatic:glass_door",
+          "properties": {
+            "half": "lower"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "upgrade_aquatic:glass_door"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "upgrade_aquatic:blocks/glass_door"
+}
