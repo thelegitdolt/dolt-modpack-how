@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/minecraft/bundle.zs/"); 
+DebugUtil.startScript("/recipes/minecraft/bundle/"); 
     
 
 craftingTable.removeByName("caverns_and_chasms:bundle");
@@ -9,4 +9,4 @@ craftingTable.addShaped("bundle_vanilla", <item:minecraft:bundle>, [
 
 
 
-DebugUtil.endScript("/Recipes/minecraft/bundle.zs"); 
+DebugUtil.endScript("/recipes/minecraft/bundle"); 

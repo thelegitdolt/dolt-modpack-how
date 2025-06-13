@@ -1,5 +1,7 @@
 CHANGES
-- 
+- Added vanilla 1.21.6 lead recipe cuz I was bored
+- Made honey able to craft sticky pistons
 
 FIXES
+- 
 - Fixed tin ore outputting crushed tin instead of raw tin
