@@ -7,5 +7,5 @@ CHANGES
 
 FIXES
 - Fixed being unable to mine nylium with hands
-- Fixed glass panes and glass trapdoors not dropping themselves when mined without silk touch
+-  Fixed glass panes and glass trapdoors not dropping themselves when mined without silk touch
 - Fixed tin ore outputting crushed tin instead of raw tin
