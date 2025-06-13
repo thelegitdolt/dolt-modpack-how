@@ -635,7 +635,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = ["minecraft:is_jungle"]
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = []
+			biome_whitelist = ["alexscaves:primordial_caves"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 

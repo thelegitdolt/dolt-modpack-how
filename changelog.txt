@@ -1,6 +1,8 @@
 CHANGES
 - Added vanilla 1.21.6 lead recipe cuz I was bored
 - Made honey able to craft sticky pistons
+- Mobs spawning from monster boxes now drop stained scraps dungeonsdelight
+- Allow foliaath mowziesmobs to spawn in primordial caves alexscaves
 
 FIXES
 - Fixed being unable to mine nylium with hands
