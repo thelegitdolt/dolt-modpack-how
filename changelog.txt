@@ -6,7 +6,8 @@ CHANGES
 - Made zirconia discs unable to smelt into blank discs
 - Made large pumpkin slices bake to ginger dye. Also added a kiln recipe for pumpkin -> ginger dye
 - Made leather armor cut to leather scraps. Added a recipe to combine leather scraps back into leather
-
+- Streamline horse armor crushing wheel recipes
+- Add coffee berries to bastion_other chests 
 
 FIXES
 - Fixed being unable to mine nylium with hands
