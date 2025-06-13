@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/etched/murder_album_jukebox.zs/"); 
+DebugUtil.startScript("recipes/etched/murder_album_jukebox"); 
     
 
 var f = <item:etched:album_jukebox>;
@@ -9,4 +9,4 @@ HUtil.hide(f);
 
 
 
-DebugUtil.endScript("/Recipes/etched/murder_album_jukebox.zs"); 
+DebugUtil.endScript("recipes/etched/murder_album_jukebox"); 
