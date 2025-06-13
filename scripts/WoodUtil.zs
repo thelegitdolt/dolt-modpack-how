@@ -24,6 +24,7 @@ public class WoodUtil {
     public static val pine = new ResourceLocation("environmental", "pine") as ResourceLocation;
     public static val rosewood = new ResourceLocation("atmospheric", "rosewood") as ResourceLocation;
     public static val morado = new ResourceLocation("atmospheric", "morado") as ResourceLocation;
+    public static val poise = new ResourceLocation("endergetic", "poise") as ResourceLocation;
     public static val yucca = new ResourceLocation("atmospheric", "yucca") as ResourceLocation;
     public static val kousa = new ResourceLocation("atmospheric", "kousa") as ResourceLocation;
     public static val aspen = new ResourceLocation("atmospheric", "aspen") as ResourceLocation;
@@ -32,13 +33,17 @@ public class WoodUtil {
     public static val maple = new ResourceLocation("autumnity", "maple") as ResourceLocation;
     public static val driftwood = new ResourceLocation("upgrade_aquatic", "driftwood") as ResourceLocation;
     public static val river = new ResourceLocation("upgrade_aquatic", "river") as ResourceLocation;
-    public static val azalea = new ResourceLocation("caverns_and_chasms", "azalea") as ResourceLocation;
+    public static val azalea = new ResourceLocation("caverns_and_chasms", "azalea") as ResourceLocation;    
+    public static val vessel = new ResourceLocation("sniffed_out", "vessel") as ResourceLocation;
+
     public static val mushroom = new ResourceLocation("enhanced_mushrooms", "mushroom") as ResourceLocation;
 
     public static val pewen = new ResourceLocation("alexscaves", "pewen") as ResourceLocation;
     public static val thornwood = new ResourceLocation("alexscaves", "thornwood") as ResourceLocation;
 
     public static val rotten = new ResourceLocation("spawn", "rotten") as ResourceLocation;
+    public static val claret = new ResourceLocation("netherexp", "claret") as ResourceLocation;
+
 
 
 
@@ -48,10 +53,10 @@ public class WoodUtil {
 
     public static val nether_wood = [warped, crimson] as ResourceLocation[];
 
-    public static val abnormals_wood = [willow, plum, wisteria, pine, rosewood, morado, yucca, kousa, aspen, grimwood, laurel, maple, driftwood,
-        river, azalea, mushroom] as ResourceLocation[];
+    public static val abnormals_wood = [willow, plum, wisteria, poise, pine, rosewood, morado, yucca, kousa, aspen, grimwood, laurel, maple, driftwood,
+        river, azalea, vessel, mushroom] as ResourceLocation[];
 
-    public static val other_modded_wood = [pewen, thornwood, rotten] as ResourceLocation[];
+    public static val other_modded_wood = [pewen, thornwood, rotten, claret] as ResourceLocation[];
 
     public static asPair(val1 as stdlib.List<ResourceLocation>, val2 as stdlib.List<ResourceLocation>) as ResourceLocation[ResourceLocation] {
         var wassup  = {} as ResourceLocation[ResourceLocation];
@@ -71,53 +76,64 @@ public class WoodUtil {
         vanilla_nether as LocationType, 
         vanilla_bamboo as LocationType, 
         abnormals as LocationType, 
-        other_modded as LocationType
+        other_modded as LocationType, 
+    
+        filter as stdlib.List<string>
         
     ) as stdlib.List<ResourceLocation> {
         var list = new stdlib.List<ResourceLocation>();
 
         for wood in vanilla_wood_no_nether {
-            var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, vanilla); 
+            if (!(wood.getPath() in filter)) {
+                var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, vanilla); 
 
-            if (rl.getPath() != "null") {
-                list.add(rl); 
-            }
-            
+                if (rl.getPath() != "null") {
+                    list.add(rl); 
+                }
+            }   
         }
+
         for wood in nether_wood {
-            var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, vanilla_nether); 
+            if (!(wood.getPath() in filter)) {
+                var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, vanilla_nether); 
 
-            if (rl.getPath() != "null") {
-                list.add(rl); 
+                if (rl.getPath() != "null") {
+                    list.add(rl); 
+                }
             }
-
         }
 
         for wood in vanilla_wood_bamboo {
-            var rl = determineLoc(wood.getNamespace(), bamboo_name(wood.getPath()), native_mod, vanilla_bamboo); 
-            println(rl.toString());
+            if (!(wood.getPath() in filter)) {
+                var rl = determineLoc(wood.getNamespace(), bamboo_name(wood.getPath()), native_mod, vanilla_bamboo); 
+                println(rl.toString());
 
-            if (rl.getPath() != "null") {
-                list.add(rl); 
+                if (rl.getPath() != "null") {
+                    list.add(rl); 
+                }
             }
         }
 
         for wood in abnormals_wood {
-            var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, abnormals); 
-            println(rl.toString());
+            if (!(wood.getPath() in filter)) {
+                var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, abnormals); 
+                println(rl.toString());
 
-            if (rl.getPath() != "null") {
-                list.add(rl); 
+                if (rl.getPath() != "null") {
+                    list.add(rl); 
+                }
             }
         }
 
         for wood in other_modded_wood {
-            var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, other_modded); 
-            println(rl.toString());
+            if (!(wood.getPath() in filter)) {
+                var rl = determineLoc(wood.getNamespace(), wood_name(wood.getPath()), native_mod, other_modded); 
+                println(rl.toString());
 
-            if (rl.getPath() != "null") {
-                list.add(rl); 
-            }  
+                if (rl.getPath() != "null") {
+                    list.add(rl); 
+                } 
+            } 
         }
 
 
@@ -183,6 +199,7 @@ public class WoodList {
     private var vanillaBambooLoc as LocationType: get, set;
     private var abnormalsLoc as LocationType: get, set;
     private var otherModdedLoc as LocationType: get, set; 
+    private var filter as stdlib.List<string>: get, set;
 
     public static create(nativeMod as string, nameFunc as function(hi as string) as string) as WoodList {
         var list = new WoodList(); 
@@ -195,16 +212,24 @@ public class WoodList {
         list.vanillaBambooLoc = LocationType.NEW_MOD;
         list.abnormalsLoc = LocationType.ORIGINAL_MODID;
         list.otherModdedLoc = LocationType.EVERY_COMPAT; 
+        list.filter = new stdlib.List<string>();
         return list;
     }
 
     public build() as stdlib.List<ResourceLocation> {
         return WoodUtil.specific(nameFunc, bambooNameFunc, nativeMod, vanillaLoc, 
-                    vanillaNetherLoc, vanillaBambooLoc, abnormalsLoc, otherModdedLoc); 
+                    vanillaNetherLoc, vanillaBambooLoc, abnormalsLoc, otherModdedLoc, filter); 
     }
 
     public bambooFunc(nameFunc as function(hi as string) as string) as WoodList {
         this.bambooNameFunc = nameFunc; 
+        return this; 
+    }
+
+    public filter(things... as string[]) as WoodList {
+        for i in things {
+            this.filter.add(i);
+        }
         return this; 
     }
 
@@ -252,6 +277,12 @@ public class WoodList {
 
     public moddedNew() as WoodList {
         this.otherModdedLoc = LocationType.NEW_MOD; 
+        return this; 
+    }
+
+
+    public moddedOriginal() as WoodList {
+        this.otherModdedLoc = LocationType.ORIGINAL_MODID; 
         return this; 
     }
 

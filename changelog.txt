@@ -11,6 +11,7 @@ CHANGES
 - Add coffee berries to bastion_other chests 
 - Remove gold and netherite doors supplementaries
 - Removed twisted wood and railings
+- Made the hanging signs recipe require planks instead of logs
 
 FIXES
 - Fixed being unable to mine nylium with hands

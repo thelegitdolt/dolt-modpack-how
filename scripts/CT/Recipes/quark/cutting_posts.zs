@@ -3,9 +3,10 @@ DebugUtil.startScript("/Recipes/quark/cutting_posts.zs/");
 
 import crafttweaker.api.resource.ResourceLocation;
 
-var posts = WoodList.create(Constants.QUARK, (str) => str + "_post").abnormalsEC().bambooNP().build(); 
+var posts = WoodList.create(Constants.QUARK, (str) => str + "_post").abnormalsEC().bambooNP()
+   .filter("vessel").build(); 
 
-var stripped_posts = WoodList.create(Constants.QUARK, (str) => "stripped_" + str + "_post").abnormalsEC().bambooNP().build(); 
+var stripped_posts = WoodList.create(Constants.QUARK, (str) => "stripped_" + str + "_post").filter("vessel").abnormalsEC().bambooNP().build(); 
 
  var posts_and_stripped_posts = WoodUtil.asPair(posts, stripped_posts) as ResourceLocation[ResourceLocation]; 
 
