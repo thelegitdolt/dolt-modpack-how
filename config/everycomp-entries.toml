@@ -41,7 +41,7 @@
 			powdery = true
 
 		[types.wood_type.architects_palette]
-			twisted = true
+			twisted = false
 
 		[types.wood_type.environmental]
 			willow = true
@@ -664,14 +664,14 @@
 			ladder = true
 
 		[entries.wood_type.architects_palette]
-			board_stairs = true
-			railing = true
-			board_slab = true
-			boards = true
-			board_wall = true
+			board_stairs = false
+			railing = false
+			board_slab = false
+			boards = false
+			board_wall = false
 
 		[entries.wood_type.another_furniture]
-			flower_box = true
+			flower_box = false
 			shelf = true
 			shutter = true
 			bench = true

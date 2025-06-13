@@ -1,0 +1,99 @@
+{
+	"formatVersion": "1.0",
+	"cobbleGen": [
+		{
+			"id": "minecraft:cobblestone",
+			"weight": 100.0,
+			"minY": 0,
+		},
+		{
+			"id": "minecraft:cobbled_deepslate",
+			"weight": 100.0,
+			"maxY": 0,
+		},
+	],
+	"stoneGen": [
+		{
+			"id": "minecraft:stone",
+			"weight": 100.0,
+		},
+	],
+	"basaltGen": [
+		{
+			"id": "minecraft:basalt",
+			"weight": 100.0,
+		},
+	],
+	"customGen": {
+		"cobbleGen": {
+			"minecraft:bedrock": [
+				{
+					"id": "minecraft:emerald_ore",
+					"weight": 2.0,
+				},
+				{
+					"id": "minecraft:diamond_ore",
+					"weight": 5.0,
+				},
+				{
+					"id": "minecraft:lapis_ore",
+					"weight": 8.0,
+				},
+				{
+					"id": "minecraft:gold_ore",
+					"weight": 10.0,
+				},
+				{
+					"id": "minecraft:iron_ore",
+					"weight": 15.0,
+				},
+				{
+					"id": "minecraft:coal_ore",
+					"weight": 20.0,
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 80.0,
+				},
+			],
+		},
+		"stoneGen": {
+			"minecraft:bedrock": [
+				{
+					"id": "minecraft:stone",
+					"weight": 40.0,
+				},
+				{
+					"id": "minecraft:diorite",
+					"weight": 20.0,
+				},
+				{
+					"id": "minecraft:andesite",
+					"weight": 20.0,
+				},
+				{
+					"id": "minecraft:granite",
+					"weight": 20.0,
+				},
+			],
+		},
+		"basaltGen": {
+			"minecraft:bedrock": [
+				{
+					"id": "minecraft:end_stone",
+					"weight": 100.0,
+					"dimensions": [
+						"minecraft:the_end",
+					],
+				},
+				{
+					"id": "minecraft:blackstone",
+					"weight": 100.0,
+					"excludedDimensions": [
+						"minecraft:overworld",
+					],
+				},
+			],
+		},
+	},
+}
