@@ -3,5 +3,5 @@ CHANGES
 - Made honey able to craft sticky pistons
 
 FIXES
-- 
+- Fixed being unable to mine nylium with hands
 - Fixed tin ore outputting crushed tin instead of raw tin

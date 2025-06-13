@@ -90,6 +90,8 @@
 		"atmospheric:dolerite_stairs" = false
 		"atmospheric:dolerite_slab" = false
 		"minecraft:netherrack" = false
+		"minecraft:crimson_nylium" = false
+		"minecraft:warped_nylium" = false
 		"quark:shale" = false
 		"quark:jasper" = false
 		"quark:shale_slab" = false
