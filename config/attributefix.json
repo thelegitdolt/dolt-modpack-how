@@ -220,17 +220,6 @@
         "value": 1024
       }
     },
-    "runiclib:generic.lifesteal_heal_amount": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "caverns_and_chasms:slowness_infliction": {
       "enabled": false,
       "min": {
@@ -240,6 +229,17 @@
       "max": {
         "default": 30,
         "value": 30
+      }
+    },
+    "runiclib:generic.lifesteal_heal_amount": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "caverns_and_chasms:magic_protection": {

@@ -1,0 +1,5 @@
+CHANGES
+- 
+
+FIXES
+- Fixed tin ore outputting crushed tin instead of raw tin
