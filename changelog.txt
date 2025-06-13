@@ -5,6 +5,8 @@ CHANGES
 - Allow foliaath mowziesmobs to spawn in primordial caves alexscaves, also they can't spawn in jungles anymore
 - Made zirconia discs unable to smelt into blank discs
 - Made large pumpkin slices bake to ginger dye. Also added a kiln recipe for pumpkin -> ginger dye
+- Made leather armor cut to leather scraps. Added a recipe to combine leather scraps back into leather
+
 
 FIXES
 - Fixed being unable to mine nylium with hands

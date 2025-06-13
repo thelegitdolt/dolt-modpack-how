@@ -24,6 +24,9 @@ for i in ["helmet", "chestplate", "leggings", "boots"] {
 
 }
 
+RUtil.cut.addRecipe("leather_horse_armor_cutting_based", <item:minecraft:leather_horse_armor>, 
+        [scrap * 2], <toolaction:shears_harvest>);
+
 
 var exclude = [
     "quark:building/crafting/compressed/bonded_leather",
