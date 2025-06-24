@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/minecraft/lodestone.zs/"); 
+DebugUtil.startScript("recipes/minecraft/lodestone/"); 
     
 
 val thing = <item:minecraft:chiseled_stone_bricks>;
@@ -19,4 +19,4 @@ craftingTable.addShaped("lodestone_not_stupid", <item:minecraft:lodestone>, [
 ]);
 
 
-DebugUtil.endScript("/Recipes/minecraft/lodestone.zs"); 
+DebugUtil.endScript("recipes/minecraft/lodestone"); 
