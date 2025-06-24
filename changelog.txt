@@ -3,6 +3,7 @@ ADDITIONS
 
 CHANGES
 - Buffed rotbulb and wormroot rates. 1 monster yam = 2.5 rotbulbs = 5 gunk = 10 wormroots = 2.25 wormroot blocks = 10 wormroot planks
+- Made moss carpets only drop with silk touch or shears
 - Added vanilla 1.21.6 lead recipe cuz I was bored
 - Made crafting cut copper consistent with stonecutting it
 - Made honey able to craft sticky pistons
