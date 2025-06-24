@@ -1,0 +1,6 @@
+#Equatorial distance is the distance between the spawn point and the equator, measured in blocks.The spawn point is located in the northern hemisphere, equidistant between the north pole and the equator.Since the Minecraft world is immense, the poles are defined as the zones with the lowest possible temperature to the north and south.Beyond those zones, the temperature remains consistently low until the world border.You will find the north pole 1 equatorial distance (eqd) north, the equator 1 eqd south, and the south pole 3 eqd south.Temperate zone is between 0 and 1/3 eqd north and 2 eqd south and 7/3 eqd southDeserts will spawn around 1/3 eqd south, and jungles at 2/3 eqd.In the north, cold biomes begin around 1/3 eqd north, and very cold biomes at 2/3 eqd.Some references: Earth-like: eqd= 10000000, Mars-like: eqd= 5000000, Moon-like: eqd= 2500000, Ceres-like: eqd=750000, Default: eqd= 50000, very small: eqd= 10000, The line: eqd= 100, Frostpunk: eqd=0
+#Range: 0.0 ~ 6.0E12
+equatorial_distance = 50000.0
+#Set to true if you want the biomes' distribution pattern to loop until world border after the very cold regions
+looping_world = false
+

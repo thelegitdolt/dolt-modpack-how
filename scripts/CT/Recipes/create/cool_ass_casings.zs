@@ -9,7 +9,7 @@ for i, item in {"andesite" : "create:andesite_alloy", "copper" : "minecraft:copp
 
     <recipetype:create:item_application>.addRecipe("based_" + i + "_casing_apply_lol", 
         [<item:create:${i}_casing> % 100.0], 
-        <tag:items:minecraft:planks>, theItem, true);
+        <tag:items:minecraft:planks>, theItem);
 }
 
 
