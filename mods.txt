@@ -9,7 +9,6 @@
 [ADDON] QuarkOddities-1.20.1.jar
 [ADDON] abnormals_delight-1.20.1-5.0.0.jar
 [ADDON] cavedelight-1.0.2.jar
-[ADDON] create_alloyed-2.0.1+1.20.1.jar
 [ADDON] create_central_kitchen-1.20.1-for-create-6.0.4-1.4.1.jar
 [ADDON] dye_the_world-1.4.0.jar
 [ADDON] emi_loot-0.7.6+1.20.1+forge.jar
@@ -56,6 +55,7 @@
 [CONTENT] etched-3.0.4.jar
 [CONTENT] exposure-1.20.1-1.7.15-forge.jar
 [CONTENT] mowziesmobs-1.7.3.jar
+[CONTENT] naturaltemperature-1.0.5.1-FORGE-MC-1.20.1.jar
 [CONTENT] neapolitan-1.20.1-5.1.0.jar
 [CONTENT] pigsteel-1.20.1-5.1.0.jar
 [CONTENT] savage_and_ravage-1.20.1-6.0.0.jar
@@ -105,7 +105,7 @@
 [MINOR] map_atlases-1.20-6.0.16.jar
 [MINOR] moyai-1.20-2.0.2.jar
 [MINOR] netherportalfix-forge-1.20-13.0.1.jar
-[MINOR] nirvana-forge-0.1.5.jar
+[MINOR] nirvana-forge-1.0.0.jar
 [MINOR] pet_cemetery-1.20.1-2.0.0.jar
 [MINOR] piglinproliferation-1.20.1-1.2.6.jar
 [MINOR] portfolio-1.20.1-1.4.0-forge.jar
@@ -130,6 +130,7 @@
 [SERVER] dcintegration-forge-3.0.7.1-1.20.1.jar
 [TOOL] CraftTweaker-forge-1.20.1-14.0.57.jar
 [TOOL] OpenLoader-Forge-1.20.1-19.0.4.jar
+[TOOL] cobblegen-5.4.5+1.20.1b1206-BETA-forge.jar
 [TOOL] propertymodifier-1.20.1-0.1-all.jar
 {LIB} ElysiumAPI-1.20.1-1.1.3.jar
 {LIB} MRU-1.0.4+1.20.1+forge.jar
