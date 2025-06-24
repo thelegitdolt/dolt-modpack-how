@@ -1,5 +1,7 @@
 /DiscordIntegration-Data
 /logs
+/servers.dat
+/servers.dat_old
 /examples
 /blueprint-online-image-cache
 /crash-reports
