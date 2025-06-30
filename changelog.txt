@@ -1,5 +1,6 @@
 ADDITIONS
 - Added natural temperature modification
+- Updated species
 
 CHANGES
 - Buffed rotbulb and wormroot rates. 1 monster yam = 2.5 rotbulbs = 5 gunk = 10 wormroots = 2.25 wormroot blocks = 10 wormroot planks
@@ -7,7 +8,11 @@ CHANGES
 - Added vanilla 1.21.6 lead recipe cuz I was bored
 - Made crafting cut copper consistent with stonecutting it
 - Made honey able to craft sticky pistons
-- Removed Alloye
+- Removed Jade
+	- Jade flinger totems are still there, they use the texture of splurters
+- Made bouldering zombies have the normal zombie loot table, instead of dropping fawking normal deepslate
+- Changed the gearbox recipe
+- Made stained scrap a valid trim material (Thank you very much lucy)
 - Mobs spawning from monster boxes now drop stained scraps dungeonsdelight
 - Allow foliaath mowziesmobs to spawn in primordial caves alexscaves, also they can't spawn in jungles anymore
 - Made zirconia discs unable to smelt into blank discs
@@ -15,13 +20,14 @@ CHANGES
 - Made leather armor cut to leather scraps. Added a recipe to combine leather scraps back into leather
 - Streamline horse armor crushing wheel recipes
 - Made the chain recipe only take two iron/zinc nuggets
+- Made the hanging signs recipe require planks instead of logs
 - Add coffee berries to bastion_other chests 
 - Remove gold and netherite doors supplementaries
+- Removed Alloyed
 - Removed twisted wood and railings
-- Made the hanging signs recipe require planks instead of logs
+- Removed splurters and scatterers
 
 FIXES
 - Fixed being unable to mine nylium with hands
--  Fixed glass panes and glass trapdoors not dropping themselves when mined without silk touch
+- Fixed glass panes and glass trapdoors not dropping themselves when mined without silk touch
 - Fixed tin ore outputting crushed tin instead of raw tin
-- Fixed DD and B&C both adding a Bloody Mary item (renamed the DD one)
