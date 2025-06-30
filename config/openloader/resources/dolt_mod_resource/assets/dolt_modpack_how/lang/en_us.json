@@ -1,6 +1,7 @@
 {  
   "item.dungeonsdelight.bloody_mary": "Red Snapper",
 
+
   "item.quark.moss_paste": "Cactus Paste",
 
   "filled_map.ancient_city": "Ancient City Explorer Map",
@@ -15,6 +16,8 @@
   "subtitles.entity.lanternfish.death": "Cave Bream dies",
   "subtitles.entity.lanternfish.flop": "Cave Bream flops",
   "subtitles.entity.lanternfish.hurt": "Cave Bream hurts",
+
+  "block.sullysmod.jade_flinger_totem": "Flinger",
   
   "effect.alexscaves.sugar_rush": "Sugar Dream",
   "item.minecraft.potion.effect.sugar_rush": "Potion of Sugar Dream",

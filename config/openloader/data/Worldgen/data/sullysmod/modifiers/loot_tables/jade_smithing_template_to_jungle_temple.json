@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "type": "entries",
+      "config": {
+        "entries": [],
+        "index": 0,
+        "replace": false
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": []
+}
