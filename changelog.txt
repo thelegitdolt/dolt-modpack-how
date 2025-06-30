@@ -7,6 +7,11 @@ CHANGES
 - Made moss carpets only drop with silk touch or shears
 - Added vanilla 1.21.6 lead recipe cuz I was bored
 - Made crafting cut copper consistent with stonecutting it
+- Changed some health values around
+	- Skeletons have 5 health, sniffers have 14, chickens have 4, striders have 7, and monster yams have 10
+- made large pumpkins cut to pumpkin slices; added autumnity pumpkins to mineable knifes
+- Made new species heads mineable pickaxe; 
+- Made barrel cactus and all cactus batches mineable knife;
 - Made honey able to craft sticky pistons
 - Removed Jade
 	- Jade flinger totems are still there, they use the texture of splurters

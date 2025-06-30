@@ -1,5 +1,35 @@
 DebugUtil.startScript("tags/farmers_delight/mineable_knife"); 
     
+val pumpkins = [
+    "autumnity:large_pumpkin_slice",
+    "autumnity:carved_large_pumpkin_slice",
+    "autumnity:large_ender_jack_o_lantern_slice",
+    "autumnity:cupric_jack_o_lantern",
+    "autumnity:large_jack_o_lantern_slice",
+    "autumnity:soul_jack_o_lantern",
+    "autumnity:large_cupric_jack_o_lantern_slice",
+    "autumnity:redstone_jack_o_lantern",
+    "autumnity:large_soul_jack_o_lantern_slice",
+    "autumnity:ender_jack_o_lantern",
+    "autumnity:large_redstone_jack_o_lantern_slice"
+];
+
+for i in pumpkins {
+    <tag:blocks:farmersdelight:mineable/knife>.add(<block:${i}>); 
+}
+
+val cactus = [
+    "atmospheric:barrel_cactus",
+    "atmospheric:barrel_cactus_batch",
+    "quark:cactus_block"
+];
+
+for i in cactus {
+    <tag:blocks:farmersdelight:mineable/knife>.add(<block:${i}>); 
+}
+
+<tag:blocks:farmersdelight:mineable/knife>.add(<block:atmospheric:barrel_cactus>); 
+
 val fleshies = [
     "caverns_and_chasms:rotten_flesh_block",
     
