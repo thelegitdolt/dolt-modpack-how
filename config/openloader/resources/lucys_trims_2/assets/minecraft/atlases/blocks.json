@@ -22,7 +22,9 @@
           "alexscaves_azure_neodymium":"alexscaves:trims/color_palettes/azure_neodymium",
           "alexscaves_uranium":"alexscaves:trims/color_palettes/uranium",
           "alexscaves_sulfur":"alexscaves:trims/color_palettes/sulfur",
-          "echo": "minecraft:trims/color_palettes/echo"
+          "echo": "minecraft:trims/color_palettes/echo",
+          "dungeonsdelight_stained_scrap": "dungeonsdelight:trims/color_palettes/stained_scrap"
+
         }
        
       }

@@ -54,6 +54,8 @@
         "atmospheric:trims/models/armor/apostle_leggings",
         "alexscaves:trims/models/armor/polarity",
         "alexscaves:trims/models/armor/polarity_leggings"
+
+
     ],
       "palette_key": "minecraft:trims/color_palettes/trim_palette",
       "permutations": {
@@ -71,22 +73,11 @@
         "netherite_darker": "minecraft:trims/color_palettes/netherite_darker",
         "quartz": "minecraft:trims/color_palettes/quartz",
         "redstone": "minecraft:trims/color_palettes/redstone",
-        "echo": "minecraft:trims/color_palettes/echo",
-        "pigsteel_pigsteel": "pigsteel:trims/color_palettes/pigsteel",
-        "sullysmod_jade": "sullysmod:trims/color_palettes/jade",
-        "oreganized_lead": "oreganized:trims/color_palettes/lead",
-        "oreganized_electrum": "oreganized:trims/color_palettes/electrum",
-        "create_rose_quartz":"create:trims/color_palettes/rose_quartz",
-        "create_brass":"create:trims/color_palettes/brass",
-        "create_zinc":"create:trims/color_palettes/zinc",
-        "alexscaves_amber":"alexscaves:trims/color_palettes/amber",
-        "alexscaves_scarlet_neodymium":"alexscaves:trims/color_palettes/scarlet_neodymium",
-        "alexscaves_azure_neodymium":"alexscaves:trims/color_palettes/azure_neodymium",
-        "alexscaves_uranium":"alexscaves:trims/color_palettes/uranium",
-        "alexscaves_sulfur":"alexscaves:trims/color_palettes/sulfur",
         "dungeonsdelight_stained_scrap": "dungeonsdelight:trims/color_palettes/stained_scrap"
-      }
+
+    }
     },
+  
         {
           "type": "minecraft:directory",
           "prefix": "trims/models/armor/",
@@ -96,20 +87,8 @@
           "type": "blueprint:paletted_permutations",
           "palette_key": "minecraft:trims/color_palettes/trim_palette",
           "permutations": {
-            "pigsteel_pigsteel": "pigsteel:trims/color_palettes/pigsteel",
-            "sullysmod_jade": "sullysmod:trims/color_palettes/jade",
-            "oreganized_lead": "oreganized:trims/color_palettes/lead",
-            "oreganized_electrum": "oreganized:trims/color_palettes/electrum",
-            "create_rose_quartz":"create:trims/color_palettes/rose_quartz",
-            "create_brass":"create:trims/color_palettes/brass",
-            "create_zinc":"create:trims/color_palettes/zinc",
-            "alexscaves_amber":"alexscaves:trims/color_palettes/amber",
-            "alexscaves_scarlet_neodymium":"alexscaves:trims/color_palettes/scarlet_neodymium",
-            "alexscaves_azure_neodymium":"alexscaves:trims/color_palettes/azure_neodymium",
-            "alexscaves_uranium":"alexscaves:trims/color_palettes/uranium",
-            "alexscaves_sulfur":"alexscaves:trims/color_palettes/sulfur",
-            "echo": "minecraft:trims/color_palettes/echo",
-            "dungeonsdelight_stained_scrap": "dungeonsdelight:trims/color_palettes/stained_scrap"
+          "dungeonsdelight_stained_scrap": "dungeonsdelight:trims/color_palettes/stained_scrap"
+
           },
           "sources": [
             {

@@ -23,7 +23,9 @@
             "alexscaves_azure_neodymium":"alexscaves:entity/decorated_pot_trim_palettes/azure_neodymium",
             "alexscaves_uranium":"alexscaves:entity/decorated_pot_trim_palettes/uranium",
             "alexscaves_sulfur":"alexscaves:entity/decorated_pot_trim_palettes/sulfur",
-            "echo": "minecraft:entity/decorated_pot_trim_palettes/echo"
+            "echo": "minecraft:entity/decorated_pot_trim_palettes/echo",
+            "dungeonsdelight_stained_scrap": "dungeonsdelight:entity/decorated_pot_trim_palettes/stained_scrap"
+
         }
      }
   ]
