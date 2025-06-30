@@ -41,7 +41,6 @@
 [CONTENT] Jadens-Nether-Expansion-2.3.3.jar
 [CONTENT] Oreganized 1.20.1-4.1.0.jar
 [CONTENT] Quark-4.0-462.jar
-[CONTENT] Species-1.20.1-2.3-forge.jar
 [CONTENT] alexscaves-2.0.2.jar
 [CONTENT] atmospheric-1.20.1-6.1.1.jar
 [CONTENT] autumnity-1.20.1-5.0.2.jar
@@ -60,6 +59,7 @@
 [CONTENT] pigsteel-1.20.1-5.1.0.jar
 [CONTENT] savage_and_ravage-1.20.1-6.0.0.jar
 [CONTENT] spawn-1.0.2-forge.jar
+[CONTENT] species-3.2.jar
 [CONTENT] sullysmod-3.2.1-beta-all.jar
 [CONTENT] supplementaries-1.20-3.1.31.jar
 [CONTENT] upgrade_aquatic-1.20.1-6.0.3.jar
@@ -130,6 +130,7 @@
 [SERVER] dcintegration-forge-3.0.7.1-1.20.1.jar
 [TOOL] CraftTweaker-forge-1.20.1-14.0.57.jar
 [TOOL] OpenLoader-Forge-1.20.1-19.0.4.jar
+[TOOL] attributesetter-1.11-forge.jar
 [TOOL] cobblegen-5.4.5+1.20.1b1206-BETA-forge.jar
 [TOOL] propertymodifier-1.20.1-0.1-all.jar
 {LIB} ElysiumAPI-1.20.1-1.1.3.jar

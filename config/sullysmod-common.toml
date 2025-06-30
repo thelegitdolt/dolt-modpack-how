@@ -2,7 +2,7 @@
 #Mod Feature Selection
 [feature_selection]
 	#Enables all Jade features
-	jade = false
+	jade = true
 	#Enables all petrified wood features
 	petrified_wood = true
 	#Enables all amber features (if disabled, petrified trees will also be disabled)

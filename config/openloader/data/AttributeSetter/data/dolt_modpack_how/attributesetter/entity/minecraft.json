@@ -1,0 +1,37 @@
+{
+    "minecraft:skeleton": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 10,
+            "operation": "BASE"
+        }
+    ],
+    "minecraft:sniffer": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 28,
+            "operation": "BASE"
+        }
+    ],
+    "minecraft:chicken": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 10,
+            "operation": "BASE"
+        }
+    ],
+    "minecraft:strider": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 14,
+            "operation": "BASE"
+        }
+    ],
+    "dungeonsdelight:monster_yam": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 20,
+            "operation": "BASE"
+        }
+    ]
+}
