@@ -31,5 +31,7 @@
   "advancements.alexscaves.sugar_rush.desc": "Obtain the Sugar Dream effect from eating too many sweets",
   "alexscaves.sound.subtitle.sugar_rush_enter": "Sugar Dream activates",
   "alexscaves.sound.subtitle.sugar_rush_exit": "Sugar Dream deactivates",
-  "alexscaves.sound.subtitle.sugar_rush_loop": "Sugar Dream shimmers"
+  "alexscaves.sound.subtitle.sugar_rush_loop": "Sugar Dream shimmers",
+
+  "item.alexscaves.cave_map": "Biome Map"
 }

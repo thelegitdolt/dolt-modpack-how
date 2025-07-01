@@ -33,6 +33,14 @@
 		#Maximum XP a crop block will drop when broken.
 		"Maximum Crop XP" = 1
 
+	[Vanilla.beacons]
+		#If status effects given you by beacons should NOT give off potion particles
+		"Hidden beacon particles" = true
+
+	[Vanilla."Moss carpet"]
+		#Whether Moss Carpets should become replaceable, like tall grass or something idk.
+		"Replaceable Moss Carpet" = true
+
 [atmospheric]
 
 	[atmospheric.Oranges]
@@ -73,15 +81,21 @@
 
 	["Alexander Caverns"."Cave Maps"]
 		#If pathfinder quills should make a based sigma cave map instead of a cringe beta vanilla map
-		"I'm sorry I said all that" = false
+		"I'm sorry I said all that" = true
 
-		["Alexander Caverns"."Cave Maps"."Biome Treats"]
-			#If biome treats should work regardless of hunger
-			"Okay Treats" = true
+	["Alexander Caverns"."Biome Treats"]
+		#If biome treats should work regardless of hunger
+		"Okay Treats" = true
 
-		["Alexander Caverns"."Cave Maps"."Sack of Sating"]
-			#If sacks of sating no longer restore saturation
-			"Mid sack of sating" = true
+	["Alexander Caverns"."Sack of Sating"]
+		#If sacks of sating no longer restore saturation
+		"Mid sack of sating" = true
+
+	["Alexander Caverns"."Dungeon's Delight"]
+
+		["Alexander Caverns"."Dungeon's Delight"."Brewing and Chewing Wardenzola"]
+			#If Wardenzola Dungeons Delight Should be Brewing and Chewingified; this means that they are placeable and have a keg recipe, as well as wedges.
+			"Wardenzola Wheel" = true
 
 [misc]
 	#If interacting with blocks like Flower Pots and Amendment Placeable Books should put the item they contain into your inventory, thus merging with existing stacks, instead of adding it to your hand, which is EXTREMELY ANNOYING

@@ -615,6 +615,9 @@
 			wormwood = true
 			wormwood_mosaic = true
 
+		[types.cut_block_type.dolt_mod_how]
+			zinc_brick = true
+
 	[types.cake]
 
 		[types.cake.mynethersdelight]
