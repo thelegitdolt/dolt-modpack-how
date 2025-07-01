@@ -1,5 +1,10 @@
 DebugUtil.startScript("recipes/dye_depot/alternate_dye_methods"); 
 
+# amber
+RUtil.oneToOneConversion("amber_from_pewen_sap", <item:alexscaves:pewen_sap>, <item:dye_depot:amber_dye>);
+
+# aqua
+Kiln.addFurnaceAndKiln("sculk_to_aqua", <item:dungeonsdelight:sculk_polyp>, <item:dye_depot:aqua_dye>, 0.1, "misc");
 
 # coral 
 <tag:items:dye_depot:smelts_into_coral_dye>.add(<tag:items:create:upgrade_aquatic/coral>); 
@@ -23,11 +28,14 @@ craftingTable.removeByName("caverns_and_chasms:cyan_dye_from_turquoise");
 Kiln.addFurnaceAndKiln("mint_to_mint_dye", <item:neapolitan:mint_leaves>, <item:dye_depot:mint_dye>, 0.1, "misc"); 
 RUtil.oneToOneConversion("turquoise_to_mint_dye", <item:caverns_and_chasms:turquoise>, <item:dye_depot:mint_dye>, 16); 
 
+# navy
+RUtil.oneToOneConversion("navy_from_phasmo_shard", <item:netherexp:phasmo_shard>, <item:dye_depot:navy_dye>);
 
 # orange 
 RUtil.oneToOneConversion("blood_orange_to_orange_dye_wow", <item:atmospheric:orange>, <item:minecraft:orange_dye>);
 
 # slate_dye
+RUtil.oneToOneConversion("slate_from_marine_snow", <item:alexscaves:marine_snow>, <item:dye_depot:slate_dye>);
 
 
 # tan

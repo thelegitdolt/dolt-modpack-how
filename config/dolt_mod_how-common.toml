@@ -91,12 +91,6 @@
 		#If sacks of sating no longer restore saturation
 		"Mid sack of sating" = true
 
-	["Alexander Caverns"."Dungeon's Delight"]
-
-		["Alexander Caverns"."Dungeon's Delight"."Brewing and Chewing Wardenzola"]
-			#If Wardenzola Dungeons Delight Should be Brewing and Chewingified; this means that they are placeable and have a keg recipe, as well as wedges.
-			"Wardenzola Wheel" = true
-
 [misc]
 	#If interacting with blocks like Flower Pots and Amendment Placeable Books should put the item they contain into your inventory, thus merging with existing stacks, instead of adding it to your hand, which is EXTREMELY ANNOYING
 	"Less Annoying Item Reclaim" = true
@@ -106,4 +100,10 @@
 	["Mowzies Mobs".Rakes]
 		#If hoes should also be able to rake sand. Disabled by default option for my modpack
 		"Hoes Rake Sand" = true
+
+["Dungeon's Delight"]
+
+	["Dungeon's Delight"."Brewing and Chewing Wardenzola"]
+		#If Wardenzola Dungeons Delight Should be Brewing and Chewingified; this means that they are placeable and have a keg recipe, as well as wedges.
+		"Wardenzola Wheel" = true
 
