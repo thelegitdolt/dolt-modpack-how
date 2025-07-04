@@ -1,0 +1,9 @@
+{
+    "duck": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 8,
+            "operation": "BASE"
+        }
+    ]
+}

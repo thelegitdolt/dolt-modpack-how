@@ -91,6 +91,10 @@
 		#If sacks of sating no longer restore saturation
 		"Mid sack of sating" = true
 
+	["Alexander Caverns".Tremorzilla]
+		#If tremorzillas should no longer passively break all blocks in its hitbox. Blocks are still broken when the tremorzilla attacks, or with its beam attack.
+		"Marginally Less Griefy Tremorzillas" = false
+
 [misc]
 	#If interacting with blocks like Flower Pots and Amendment Placeable Books should put the item they contain into your inventory, thus merging with existing stacks, instead of adding it to your hand, which is EXTREMELY ANNOYING
 	"Less Annoying Item Reclaim" = true

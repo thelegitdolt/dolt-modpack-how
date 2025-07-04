@@ -1,26 +1,26 @@
 {
-    "minecraft:skeleton": [
+    "skeleton": [
         {
             "attribute": "minecraft:generic.max_health",
             "value": 10,
             "operation": "BASE"
         }
     ],
-    "minecraft:sniffer": [
+    "sniffer": [
         {
             "attribute": "minecraft:generic.max_health",
             "value": 28,
             "operation": "BASE"
         }
     ],
-    "minecraft:chicken": [
+    "chicken": [
         {
             "attribute": "minecraft:generic.max_health",
             "value": 10,
             "operation": "BASE"
         }
     ],
-    "minecraft:strider": [
+    "strider": [
         {
             "attribute": "minecraft:generic.max_health",
             "value": 14,

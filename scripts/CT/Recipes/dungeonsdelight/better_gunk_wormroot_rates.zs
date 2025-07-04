@@ -12,6 +12,8 @@ craftingTable.removeByName("dungeonsdelight:stick_from_wormroots");
 craftingTable.removeByName("dungeonsdelight:wormroots_block");
 craftingTable.removeByName("dungeonsdelight:wormwood_planks_from_wormroots");
 
+craftingTable.removeByName("dungeonsdelight:wormroots_from_wormroots_block");
+
 craftingTable.addShaped("wormwood_log_um_not_planks_thatsright_from_wormroots", <item:dungeonsdelight:wormroots_block>, [
     [<item:dungeonsdelight:wormroots>, <item:dungeonsdelight:wormroots>], 
     [<item:dungeonsdelight:wormroots>, <item:dungeonsdelight:wormroots>]]);
