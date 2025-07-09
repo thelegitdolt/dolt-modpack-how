@@ -9,12 +9,13 @@ RUtil.cut.removeByName("farmersdelight:cutting/gunk");
 
 craftingTable.removeByName("dungeonsdelight:stick_from_wormroots");
 craftingTable.removeByName("dungeonsdelight:wormroots_block");
-craftingTable.removeByName("dungeonsdelight:wormwood_planks_from_wormroots");
 
 craftingTable.removeByName("dungeonsdelight:wormroot_tendrils_from_wormroots_block");
 
 craftingTable.addShaped("wormwood_log_um_not_planks_thatsright_from_wormroots", <item:dungeonsdelight:wormroots_block>, [
     [<item:dungeonsdelight:wormroot_tendrils>, <item:dungeonsdelight:wormroot_tendrils>], 
     [<item:dungeonsdelight:wormroot_tendrils>, <item:dungeonsdelight:wormroot_tendrils>]]);
+
+RUtil.oneToOneConversion("wormroot_planks_from_blocks", <item:dungeonsdelight:wormroots_block>, <item:dungeonsdelight:wormwood_planks>, 2);
 
 DebugUtil.endScript("recipes/dungeonsdelight/better_gunk_wormroot_rates"); 

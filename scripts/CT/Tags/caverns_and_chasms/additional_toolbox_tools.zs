@@ -12,6 +12,8 @@ DebugUtil.startScript("Tags/caverns_and_chasms/additional_toolbox_tools");
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:exposure:camera>);
 
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:species:spectralibur>);
+
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:etcetera:hammer>);
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:etcetera:chisel>);
 
