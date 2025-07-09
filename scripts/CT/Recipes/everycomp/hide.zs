@@ -42,7 +42,6 @@ val clays = [
     "everycomp:q/alexscaves/pewen_ladder",
     "everycomp:q/alexscaves/thornwood_ladder",
     "everycomp:q/mynethersdelight/powdery_ladder",
-    "everycomp:fd/caverns_and_chasms/azalea_cabinet",
     "everycomp:ap/atmospheric/aspen_board_slab",
     "everycomp:ap/quark/blossom_board_slab",
     "everycomp:ap/environmental/pine_board_slab",
@@ -135,13 +134,10 @@ val clays = [
     "everycomp:abnbl/alexscaves/pewen_furnace_boat",
     "everycomp:fd/spawn/rotten_cabinet",
     "everycomp:fd/alexscaves/pewen_cabinet",
-    "everycomp:fd/caverns_and_chasms/azalea_cabinet",
     "everycomp:fd/quark/azalea_cabinet",
     "everycomp:fd/alexscaves/thornwood_cabinet",
     "everycomp:fd/quark/ancient_cabinet",
     "everycomp:fd/quark/blossom_cabinet",
-
-
     "everycomp:c/atmospheric/grimwood_window",
     "everycomp:c/spawn/rotten_window_pane",
     "everycomp:c/spawn/rotten_window",
