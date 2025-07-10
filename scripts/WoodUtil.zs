@@ -42,6 +42,7 @@ public class WoodUtil {
     public static val thornwood = new ResourceLocation("alexscaves", "thornwood") as ResourceLocation;
 
     public static val rotten = new ResourceLocation("spawn", "rotten") as ResourceLocation;
+    public static val wormwood = new ResourceLocation("dungeonsdelight", "wormwood") as ResourceLocation;
     public static val claret = new ResourceLocation("netherexp", "claret") as ResourceLocation;
 
 
