@@ -1,14 +1,14 @@
-DebugUtil.startScript("/Recipes/quark/cutting_posts.zs/"); 
+DebugUtil.startScript("Recipes/quark/cutting_posts"); 
     
 
 import crafttweaker.api.resource.ResourceLocation;
 
 var posts = WoodList.create(Constants.QUARK, (str) => str + "_post").abnormalsEC().bambooNP()
-   .filter("vessel").build(); 
+   .filter("vessel", "wormwood").build(); 
 
-var stripped_posts = WoodList.create(Constants.QUARK, (str) => "stripped_" + str + "_post").filter("vessel").abnormalsEC().bambooNP().build(); 
+var stripped_posts = WoodList.create(Constants.QUARK, (str) => "stripped_" + str + "_post").filter("vessel", "wormwood").abnormalsEC().bambooNP().build(); 
 
- var posts_and_stripped_posts = WoodUtil.asPair(posts, stripped_posts) as ResourceLocation[ResourceLocation]; 
+var posts_and_stripped_posts = WoodUtil.asPair(posts, stripped_posts) as ResourceLocation[ResourceLocation]; 
 
 for post, stripped in posts_and_stripped_posts {
    val postItem = <item:${post.toString()}>;
@@ -21,4 +21,4 @@ RUtil.cut.addRecipe("stripping_bamboo_post", <item:quark:bamboo_post>, [<item:qu
 
 
 
-DebugUtil.endScript("/Recipes/quark/cutting_posts.zs"); 
+DebugUtil.endScript("Recipes/quark/cutting_posts"); 
