@@ -18,17 +18,6 @@ for recipe in (craftingTable.getAllRecipes() as stdlib.List<Recipe<Container>>) 
     }
 }
 
-function doStuff(recipe as Recipe<Container>) as void {
-    val id = recipe.id;
-    val result = recipe.resultItem;
-    val ingredients = recipe.ingredients;
-
-    for ing in ingredients {
-        println("Hello sexers" +  ing.commandString);
-    }
-    println("erm" + recipe.canCraftInDimensions(3, 1));
-}
-
 function isSlabRecipe(recipe as Recipe<Container>) as IItemStack {
     if (!recipe.canCraftInDimensions(3, 1) || recipe.ingredients.length != 3 || !(recipe is ShapedRecipe)) {
         return <item:minecraft:air>; 
@@ -55,7 +44,6 @@ function isSlabRecipe(recipe as Recipe<Container>) as IItemStack {
     }
 
     if (!("slab" in recipe.resultItem.registryName.getPath())) {
-        println("WUP oh no we failed " + recipe.id.toString());
         return <item:minecraft:air>;
     }
 

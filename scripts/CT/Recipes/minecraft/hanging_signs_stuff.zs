@@ -2,9 +2,9 @@ DebugUtil.startScript("recipes/minecraft/hanging_signs_stuff/");
     
 
 val signs = WoodList.create("minecraft", (str) => str + "_hanging_sign")
-    .moddedOriginal().filter("rotten").build();
+    .moddedOriginal().filter("rotten", "wormwood").build();
 val planks = WoodList.create("minecraft", (str) => str + "_planks")
-    .moddedOriginal().filter("rotten").build();
+    .moddedOriginal().filter("rotten", "wormwood").build();
 
 for sign, plank in WoodUtil.asPair(signs, planks) {
     craftingTable.removeByName(sign.toString());

@@ -53,7 +53,16 @@ as string[];
 
     public static removeAll(alls as string[]) as void {
         craftingTable.remove(new IIngredientList(alls.map<IIngredient>(item => <item:${item}>)));
-    }    
+    } 
+
+    public static getSingleItemIngredient(i as IIngredient) as IItemStack {
+        if i.items.length == 1 {
+            return i.items[0];
+        }
+        else {
+            return air; 
+        }
+    }
 
     public static removeStonecutter(alls as string[]) as void {
         stoneCutter.remove(new IIngredientList(alls.map<IIngredient>(item => <item:${item}>)));

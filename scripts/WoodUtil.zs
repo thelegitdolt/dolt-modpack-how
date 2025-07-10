@@ -57,7 +57,7 @@ public class WoodUtil {
     public static val abnormals_wood = [willow, plum, wisteria, poise, pine, rosewood, morado, yucca, kousa, aspen, grimwood, laurel, maple, driftwood,
         river, azalea, vessel, mushroom] as ResourceLocation[];
 
-    public static val other_modded_wood = [pewen, thornwood, rotten, claret] as ResourceLocation[];
+    public static val other_modded_wood = [pewen, thornwood, rotten, claret, wormwood] as ResourceLocation[];
 
     public static asPair(val1 as stdlib.List<ResourceLocation>, val2 as stdlib.List<ResourceLocation>) as ResourceLocation[ResourceLocation] {
         var wassup  = {} as ResourceLocation[ResourceLocation];
