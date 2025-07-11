@@ -8,11 +8,6 @@ function crackedBricks(type as string) as void {
 }
 
 
-Kiln.newRecipe("kiln/ap/baking/cracking_end_stone_bricks_from_baking", 
-        <item:minecraft:end_stone_bricks>, 
-        <item:architects_palette:cracked_end_stone_bricks>, 
-        0.1, "blocks"); 
-
 Kiln.newRecipe("kiln/ap/baking/heavy_cracked_end_stone_bricks_from_heavy_end_stone_bricks_smelting", 
         <item:architects_palette:heavy_end_stone_bricks>, 
         <item:architects_palette:heavy_cracked_end_stone_bricks>, 
