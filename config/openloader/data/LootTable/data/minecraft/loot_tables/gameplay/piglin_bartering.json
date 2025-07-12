@@ -244,11 +244,6 @@
           "weight": 40
         },
         {
-          "type": "item",
-          "name": "netherite_upgrade_smithing_template",
-          "weight": 10
-        },
-        {
           "type": "minecraft:item",
           "functions": [
             {
