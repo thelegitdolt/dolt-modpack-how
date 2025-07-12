@@ -1,0 +1,51 @@
+
+[common]
+
+	[common.entity_interactions]
+		#Pets periodically get Regeneration when brushed
+		"Pet regen" = false
+
+		[common.entity_interactions.pandas]
+			#Pandas periodically sneeze when brushed
+			"Pandas sneeze" = true
+			#Only weak or baby pandas sneeze when brushed
+			"Weak or babies sneeze" = true
+			#Lazy and playful pandas are not provoked by being forced to sneeze
+			"Lazy and playful pandas stay docile" = true
+
+		[common.entity_interactions.feather_drops]
+			#Mobs in the feathered tag periodically drop feather items when brushed
+			"Feathered molt" = true
+			#Feather molt cooldown for worse_feathered mobs, in ticks. Defaults to ~2 feathers a day
+			"Molt timer" = 12000
+
+		[common.entity_interactions.scute_drops]
+			#Scute shedders spawn with scute timers that are still ticking down
+			"Scute timer spawn set" = true
+			#Adult turtles periodically drop scutes when brushed
+			"Turtles shed scutes" = true
+			#Scute shed cooldown, in ticks. Defaults to ~1 scute every two days.
+			"Scute timer" = 48000
+			#Number of scutes dropped by baby turtles when grown, to compensate for brushing adults
+			"Baby turtle scute drops" = 3
+			#Adult tortoises from Sully's Mod periodically drop tortoise scutes when brushed
+			"Tortoises shed scutes" = true
+			#Tortoise scute shed cooldown, in ticks. Defaults to ~1 scute every two days.
+			"Tortoise scute timer" = 48000
+			#Number of scutes dropped by baby tortoises when grown, to compensate for brushing adults
+			"Baby tortoise scute drops" = 3
+
+		[common.entity_interactions.brush_snags]
+			#Brushes occasionally provoke mobs that have no resources to shed, causing them to attack or panic
+			"Brushes snag" = false
+			#Brushes deal fake (zero) damage upon snagging
+			"Brush snag deals mock damage" = false
+			#Panda snag chance
+			"Panda snag chance" = 0.05
+			#Feathered mobs snag chance
+			"Feathered snag chance" = 0.15
+
+	[common.block_interactions]
+		#Brushes destroy blocks in the removable tag
+		Removable = true
+

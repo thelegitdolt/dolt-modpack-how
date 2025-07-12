@@ -3,7 +3,10 @@
 	"minecraft:hay_block": "leaves,grass",
 	"minecraft:smithing_table": "hardmetal",
 
-	
+	"#candles": "organic_solid",
+	"#candle_cakes": "organic",
+	"#candle_cakes.foliage": "organic_solid",
+
 	"autumnity:stripped_maple_log": "wood,stone",
 	"autumnity:stripped_maple_wood": "wood,stone",
 

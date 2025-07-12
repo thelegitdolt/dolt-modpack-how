@@ -1,0 +1,21 @@
+
+[client]
+
+	[client.entity_interactions]
+		#Pets periodically emit hearts when brushed
+		"Pet hearts" = true
+		#Feathered mobs periodically molt feathers when brushed
+		Molting = true
+		#Overbrushed animals gleam. A more domestic alternative to brush snags
+		"Gleaming mobs" = true
+
+	[client.block_interactions]
+		#Dust particle behaviors for brushes are altered at all
+		"Specialized particles" = true
+		#Certain blocks emit fewer particles when brushed
+		"Reduced dust" = true
+		#Certain blocks emit gleam particles when brushed
+		"Gleaming blocks" = true
+		#Gleaming blocks do not emit dust particles when brushed
+		"Pure polish" = false
+

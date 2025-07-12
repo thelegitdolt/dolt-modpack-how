@@ -1,0 +1,6 @@
+{
+	"netherexp:block.soul_slate.step": "slate,souls",
+	"netherexp:block.soul_slate_bricks.step": "composite,brickstone,souls",
+	"netherexp:block.netherrack_bricks.step": "stone,composite",
+	"netherexp:block.basalt_bricks.step": "marble,crumblystone"
+}

@@ -1,0 +1,8 @@
+{
+	"netherexp:apparition": "NONE",
+	"netherexp:banshee": "NONE",
+	"netherexp:carcass": "QUADRUPED",
+	"netherexp:false_carcass": "QUADRUPED",
+	"netherexp:stampede": "BIPED",
+	"netherexp:wisp": "NONE"
+}
