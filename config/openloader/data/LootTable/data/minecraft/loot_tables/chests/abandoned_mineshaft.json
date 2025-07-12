@@ -44,8 +44,27 @@
           "name": "minecraft:map"
         },
         {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "decoration": "red_x",
+              "function": "minecraft:exploration_map",
+              "skip_existing_chunks": false,
+              "destination": "species:spectralibur_chamber",
+              "zoom": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.spectralibur_chamber"
+              }
+            }
+          ],
+          "name": "map"
+        },
+        {
           "type": "minecraft:empty",
-          "weight": 5
+          "weight": 3
         }
       ],
       "rolls": 1.0

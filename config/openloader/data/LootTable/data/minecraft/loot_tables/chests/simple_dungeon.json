@@ -21,11 +21,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "oreganized:electrum_upgrade_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
           "weight": 2
         },
@@ -336,8 +331,46 @@
           "name": "map"
         },
         {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "decoration": "red_x",
+              "function": "minecraft:exploration_map",
+              "skip_existing_chunks": false,
+              "destination": "minecraft:ancient_city",
+              "zoom": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.ancient_city"
+              }
+            }
+          ],
+          "name": "map"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "decoration": "red_x",
+              "function": "minecraft:exploration_map",
+              "skip_existing_chunks": false,
+              "destination": "species:spectralibur_chamber",
+              "zoom": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.spectralibur_chamber"
+              }
+            }
+          ],
+          "name": "map"
+        },
+        {
           "type": "empty",
-          "weight": 3
+          "weight": 2
         }
       ],
       "rolls": 1.0

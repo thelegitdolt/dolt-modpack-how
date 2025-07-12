@@ -24,11 +24,6 @@
         {
           "type": "minecraft:item",
           "name": "snout_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3, 
-          "name": "netherite_upgrade_smithing_template"
         }
       ],
       "rolls": 1.0
