@@ -2,7 +2,8 @@ DebugUtil.startScript("recipes/JNE/kill_skeleton_stuff_and_soul_jackos_and_soul_
     
 val die = [
     "netherexp:skeleton_skull_candle",
-    "netherexp:soul_skeleton_skull_candle"
+    "netherexp:soul_skeleton_skull_candle",
+    "netherexp:ancient_skeleton_skull_candle"
 ];
 
 HUtil.hideAll(die);

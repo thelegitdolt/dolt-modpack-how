@@ -1,4 +1,5 @@
 {
+	"#comment_presence_footsteps_vanillamap": "https://github.com/Sollace/Presence-Footsteps/blob/1.20.5/src/main/resources/assets/presencefootsteps/config/blockmap.json",
 	"netherexp:wraithing_lesion": "organic_solid",
 
 	"netherexp:ancient_candle": "organic_solid",
@@ -32,5 +33,18 @@
 	"netherexp:magma_cream_block.foliage": "organic_solid,mud,slime",
 
 	"netherexp:cracked_quartz_bricks": "marble",
-	"netherexp:chiseled_quartz_pillar": "marble"
+	"netherexp:chiseled_quartz_pillar": "marble",
+
+	"netherexp:warped_wart_beard.foliage": "mushroom",
+	"netherexp:nether_wart_beard.foliage": "mushroom",
+
+	"netherexp:crimson_roots": "NOT_EMITTER",
+	"netherexp:crimson_roots.foliage": "mushroom",
+	"netherexp:crimson_helix": "NOT_EMITTER",
+	"netherexp:crimson_helix.foliage": "mushroom",
+	"netherexp:warped_helix": "NOT_EMITTER",
+	"netherexp:warped_helix.foliage": "mushroom",
+
+	"netherexp:polished_blackstone_fence.bigger": "brickstone,composite",
+	"netherexp:polished_blackstone_pillar": "brickstone,composite"
 }
