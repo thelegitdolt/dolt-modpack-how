@@ -5,6 +5,7 @@
 [ADDON-TOOL] CreateTweaker-forge-1.20.1-4.0.15.jar
 [ADDON-TOOL] JeiTweaker-forge-1.20.1-8.0.6.jar
 [ADDON] BrewinAndChewin-1.20.1-3.2.1.jar
+[ADDON] Doom & Gloom 1.20.1.jar
 [ADDON] MyNethersDelight-1.20.1-0.1.8.jar
 [ADDON] QuarkOddities-1.20.1.jar
 [ADDON] abnormals_delight-1.20.1-5.0.0.jar
@@ -110,12 +111,14 @@
 [MINOR] pet_cemetery-1.20.1-2.0.0.jar
 [MINOR] piglinproliferation-1.20.1-1.2.6.jar
 [MINOR] portfolio-1.20.1-1.4.0-forge.jar
+[MINOR] sage_brush-1.20.1-1.0.1-all.jar
 [MINOR] scholar-1.20.1-1.1.5.1-forge.jar
 [MINOR] secondchanceforge-1.20-1.5.1.jar
 [MINOR] separatedleaves-2.6.0-forge-1.20.4.jar
 [MINOR] smarterfarmers-1.20-2.1.2.jar
 [MINOR] sniffed_out-1.20.1-1.0.0-beta1.jar
 [MINOR] snowundertrees-1.20.1-1.4.10.jar
+[MINOR] whaleborne-1.0.0-beta.jar
 [MINOR] woodworks-1.20.1-3.0.2.jar
 [PERFORMANCE] AttributeFix-Forge-1.20.1-21.0.4.jar
 [PERFORMANCE] dynamic-fps-3.9.4+minecraft-1.20.0-forge.jar
