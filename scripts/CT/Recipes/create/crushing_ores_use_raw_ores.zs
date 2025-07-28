@@ -49,8 +49,8 @@ HUtil.hideAll(a);
 <item:minecraft:nether_gold_ore>, 350);
 
 
-<recipetype:create:crushing>.removeByName("oreganized:create/crushing/glance");
-<recipetype:create:crushing>.removeByName("oreganized:create/crushing/glance_recycling");
+<recipetype:create:crushing>.removeByName("oreganized:crushing/glance");
+<recipetype:create:crushing>.removeByName("oreganized:crushing/glance_recycling");
 <recipetype:create:crushing>.removeByName("create:crushing/lead_ore");
 <recipetype:create:crushing>.removeByName("create:crushing/raw_lead");
 <recipetype:create:crushing>.removeByName("create:crushing/raw_lead_block");

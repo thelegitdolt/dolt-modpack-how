@@ -3,7 +3,7 @@ DebugUtil.startScript("recipes/create/alloys_in_super_heated_basin");
 import mods.create.MixingManager;
 
 
-RUtil.mix.removeByName("oreganized:create/mixing/electrum_ingot"); 
+RUtil.mix.removeByName("oreganized:mixing/electrum_ingot"); 
 RUtil.mix.addRecipe("electrum_good", 
                                    <constant:create:heat_condition:superheated>,
                                    [<item:oreganized:electrum_ingot>], 
