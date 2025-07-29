@@ -10,6 +10,12 @@ RUtil.mix.addRecipe("electrum_good",
                                    [<item:minecraft:gold_ingot> * 5, <item:caverns_and_chasms:silver_ingot> * 5, <item:create:brass_ingot>, <item:etcetera:bismuth_ingot>],
                                    [<fluid:create:potion>.withTag({Bottle: "REGULAR", Potion: "minecraft:swiftness"}) * 250],
                                    500);
+RUtil.mix.addRecipe("electrum_bad", 
+                                   <constant:create:heat_condition:heated>,
+                                   [<item:oreganized:electrum_ingot>], 
+                                   [<item:minecraft:gold_ingot> * 6, <item:caverns_and_chasms:silver_ingot> * 6, <item:create:brass_ingot>, <item:etcetera:bismuth_ingot>],
+                                   [<fluid:create:potion>.withTag({Bottle: "REGULAR", Potion: "minecraft:swiftness"}) * 250],
+                                   2500);
 
 RUtil.mix.addRecipe("netherite_good", 
                                    <constant:create:heat_condition:superheated>,
@@ -17,12 +23,25 @@ RUtil.mix.addRecipe("netherite_good",
                                    [<item:minecraft:netherite_scrap> * 3, <item:minecraft:gold_ingot> * 3],
                                    [<fluid:minecraft:lava> * 1000],
                                    500);
+RUtil.mix.addRecipe("netherite_bad", 
+                                   <constant:create:heat_condition:heated>,
+                                   [<item:minecraft:netherite_ingot>], 
+                                   [<item:minecraft:netherite_scrap> * 4, <item:minecraft:gold_ingot> * 4],
+                                   [<fluid:minecraft:lava> * 1000],
+                                   2500);
+
 RUtil.mix.addRecipe("necromium_good", 
                                    <constant:create:heat_condition:superheated>,
                                    [<item:caverns_and_chasms:necromium_ingot>], 
                                    [<item:minecraft:netherite_scrap> * 3, <item:caverns_and_chasms:silver_ingot> * 3],
                                    [<fluid:minecraft:lava> * 1000],
                                    500);
+RUtil.mix.addRecipe("necromium_bad", 
+                                   <constant:create:heat_condition:heated>,
+                                   [<item:caverns_and_chasms:necromium_ingot>], 
+                                   [<item:minecraft:netherite_scrap> * 4, <item:caverns_and_chasms:silver_ingot> * 4],
+                                   [<fluid:minecraft:lava> * 1000],
+                                   2500);
 
 RUtil.mix.addRecipe("netherite_plating_good", 
                                    <constant:create:heat_condition:heated>,
