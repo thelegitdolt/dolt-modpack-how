@@ -3,6 +3,9 @@
 
   "item.quark.moss_paste": "Cactus Paste",
 
+  "block.create.speedometer": "Contraption Speedometer",
+  "block.create.stressometer": "Contraption Stressometer",
+
   "filled_map.ancient_city": "Ancient City Explorer Map",
   "filled_map.spectralibur_chamber": "Spectralibur Chamber Explorer Map",
 
