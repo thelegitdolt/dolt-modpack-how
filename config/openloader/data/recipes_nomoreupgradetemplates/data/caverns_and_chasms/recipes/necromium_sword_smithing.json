@@ -1,0 +1,14 @@
+
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "caverns_and_chasms:necromium_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "result": {
+    "item": "caverns_and_chasms:necromium_sword"
+  },
+  "template": []
+}

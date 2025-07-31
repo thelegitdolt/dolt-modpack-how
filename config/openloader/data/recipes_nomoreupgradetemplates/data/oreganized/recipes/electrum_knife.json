@@ -1,0 +1,14 @@
+
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "oreganized:electrum_ingot"
+  },
+  "base": {
+    "item": "farmersdelight:diamond_knife"
+  },
+  "result": {
+    "item": "oreganized:electrum_knife"
+  },
+  "template": []
+}

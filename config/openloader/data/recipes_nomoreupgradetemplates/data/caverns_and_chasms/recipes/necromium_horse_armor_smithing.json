@@ -1,0 +1,14 @@
+
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "caverns_and_chasms:necromium_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_horse_armor"
+  },
+  "result": {
+    "item": "caverns_and_chasms:necromium_horse_armor"
+  },
+  "template": []
+}

@@ -1,0 +1,14 @@
+
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "create:copper_diving_boots"
+  },
+  "result": {
+    "item": "create:netherite_diving_boots"
+  },
+  "template": []
+}

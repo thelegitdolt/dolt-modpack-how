@@ -1,0 +1,14 @@
+
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "oreganized:electrum_ingot"
+  },
+  "base": {
+    "item": "netherexp:shotgun_fist"
+  },
+  "result": {
+    "item": "netherexp:jackhammer_fist"
+  },
+  "template": []
+}

@@ -1,5 +1,5 @@
 [ADDON-DAVIJ] nest_egg-1.20.1-1.0.1.jar
-[ADDON-DOLT] dolt_mod_how-1.20.1-2.4.0-all.jar
+[ADDON-DOLT] dolt_mod_how-1.20.1-2.4.1-all.jar
 [ADDON-PERFORMANCE] create_lt-1.0.1-forge-mc1.20.1.jar
 [ADDON-PERFORMANCE] rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar
 [ADDON-TOOL] CreateTweaker-forge-1.20.1-4.0.15.jar
@@ -40,7 +40,7 @@
 [CONTENT] FarmersDelight-1.20.1-1.2.8.jar
 [CONTENT] Geophilic v3.4.1 f15-71.mod.jar
 [CONTENT] Jadens-Nether-Expansion-2.3.4.jar
-[CONTENT] Oreganized 1.20.1-4.2.0.jar
+[CONTENT] Oreganized 1.20.1-4.2.2.jar
 [CONTENT] Quark-4.0-462.jar
 [CONTENT] alexscaves-2.0.2.jar
 [CONTENT] atmospheric-1.20.1-6.1.1.jar
@@ -59,7 +59,7 @@
 [CONTENT] neapolitan-1.20.1-5.1.0.jar
 [CONTENT] pigsteel-1.20.1-5.1.0.jar
 [CONTENT] savage_and_ravage-1.20.1-6.0.0.jar
-[CONTENT] spawn-2.0.jar
+[CONTENT] spawn-2.2.jar
 [CONTENT] species-3.4.jar
 [CONTENT] sullysmod-3.2.1-beta-all.jar
 [CONTENT] supplementaries-1.20-3.1.36.jar
@@ -91,7 +91,7 @@
 [MINOR] clayworks-1.20.1-3.0.4.jar
 [MINOR] ditr-1.20.1-1.1.1.jar
 [MINOR] enhanced_mushrooms-5.0.0.jar
-[MINOR] everycomp-1.20-2.8.12-forge.jar
+[MINOR] everycomp-1.20-2.8.15-forge.jar
 [MINOR] fishingreal-forge-1.20.1-1.9.1-backport.jar
 [MINOR] fishnostuck-mc1.20.1-v1.0.3-forge.jar
 [MINOR] forgery-3.5.8+1.20.jar

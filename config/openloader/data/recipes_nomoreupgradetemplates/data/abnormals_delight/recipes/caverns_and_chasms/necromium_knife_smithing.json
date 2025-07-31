@@ -1,0 +1,14 @@
+
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "caverns_and_chasms:necromium_ingot"
+  },
+  "base": {
+    "item": "farmersdelight:diamond_knife"
+  },
+  "result": {
+    "item": "abnormals_delight:necromium_knife"
+  },
+  "template": []
+}
