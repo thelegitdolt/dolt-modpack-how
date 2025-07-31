@@ -14,6 +14,7 @@ DebugUtil.startScript("properties/stack_size");
 <item:minecraft:command_block_minecart>.setMaxStackSize(64);
 <item:minecraft:chest_minecart>.setMaxStackSize(64);
 <item:oreganized:shrapnel_bomb_minecart>.setMaxStackSize(64);
+<item:nirvana:thc_minecart>.setMaxStackSize(64);
 <item:minecraft:furnace_minecart>.setMaxStackSize(64);
 <item:minecraft:minecart>.setMaxStackSize(64);
 
@@ -37,11 +38,12 @@ for col in RUtil.dyeDepotColors {
 <item:neapolitan:adzuki_cake>.setMaxStackSize(64);
 <item:neapolitan:mint_cake>.setMaxStackSize(64);
 <item:farmersrespite:coffee_cake>.setMaxStackSize(64);
+<item:minecraft:cake>.setMaxStackSize(64);
 
 <item:brewinandchewin:scarlet_cheese_wheel>.setMaxStackSize(64);
 <item:brewinandchewin:unripe_scarlet_cheese_wheel>.setMaxStackSize(64);
 <item:brewinandchewin:flaxen_cheese_wheel>.setMaxStackSize(64);
-<item:brewinandchewin:unripe_flaxen_cheese_wheel>.setMaxStackSize(64);
+<item:dungeonsdelight:monster_cake>.setMaxStackSize(64);
 
 
 # for col in RUtil.colors {

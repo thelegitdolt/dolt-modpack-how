@@ -1,0 +1,23 @@
+{
+  "type": "dungeonsdelight:monster_cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "dungeonsdelight:fleshes"
+    },
+    {
+      "tag": "dungeonsdelight:fleshes"
+    },
+    {
+      "item": "dungeonsdelight:silverfish_abdomen"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "dungeonsdelight:bloody_mary"
+  }
+}

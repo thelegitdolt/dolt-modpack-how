@@ -41,6 +41,10 @@
 		#Whether Moss Carpets should become replaceable, like tall grass or something idk.
 		"Replaceable Moss Carpet" = true
 
+	[Vanilla.Stonecutter]
+		#If Woodworks is loaded, whether all sawmill recipes should becomes stonecutter recipes instead.
+		"Stonecutter more like woodcutter am I right" = false
+
 [atmospheric]
 
 	[atmospheric.Oranges]
@@ -110,4 +114,15 @@
 	["Dungeon's Delight"."Brewing and Chewing Wardenzola"]
 		#If Wardenzola Dungeons Delight Should be Brewing and Chewingified; this means that they are placeable and have a keg recipe, as well as wedges.
 		"Wardenzola Wheel" = true
+
+["John Species"]
+
+	["John Species".Crankbow]
+		#The stack size crankbows should have. The formula for the capacity of crankbows is stack size * 2 + capacity enchantment level * stack size.
+		#This is for if you use a mod like Bigger Stacks to change the stack size
+		"Crankbow stack size " = 64
+
+	["John Species"."Combustion Effect"]
+		#If explosions caused by mobs that die with the Species Combustion effect should not any blcks
+		"Less combusty combustion" = false
 
