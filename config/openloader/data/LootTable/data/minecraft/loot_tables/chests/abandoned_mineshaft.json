@@ -129,11 +129,6 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "oreganized:electrum_upgrade_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:enchanted_golden_apple"
         },
         {

@@ -1,5 +1,6 @@
 DebugUtil.startScript("recipes/sullysmod/remove_all_jade"); 
     
+smithing.removeByName("sullysmod:smithing/jade_horse_armor");
 
 val jadies = ["sullysmod:rough_jade",
 "sullysmod:rough_jade_brick_slab",
