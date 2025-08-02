@@ -27,6 +27,10 @@ DebugUtil.startScript("recipes/create/crushing_ores");
     [<item:minecraft:redstone> * 6 % 100.0, <item:minecraft:redstone> % 50.0, <item:create:experience_nugget> % 75.0, <item:alexscaves:guanostone> % 12.5], 
      <item:alexscaves:guanostone_redstone_ore>, 350);
 
+ <recipetype:create:crushing>.addRecipe("crushing/porkslag", 
+    [<item:pigsteel:pigsteel_chunk> * 6 % 100.0, <item:pigsteel:pigsteel_chunk> % 50.0, <item:create:experience_nugget> % 75.0], 
+     <item:pigsteel:porkslag>, 350);
+
 addCrushRecipe("spinel", "caverns_and_chasms", "spinel", 4, "spinel");
 addCrushRecipe("jade", "sullysmod", "jade", 5, "jade");
 
