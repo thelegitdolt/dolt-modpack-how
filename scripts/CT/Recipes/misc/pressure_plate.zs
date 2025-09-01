@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/minecraft/pressure_plate/"); 
+DebugUtil.startScript("/Recipes/misc/pressure_plate/"); 
     
 import crafttweaker.api.recipe.type.Recipe;
 import crafttweaker.api.world.Container;
@@ -18,7 +18,7 @@ for i, p in WoodUtil.asPair(
 }
 
 val a = [
-    "minecraft:stone_pressure_plate",
+    "minecraft:stone_pressure_plate", 
     "minecraft:heavy_weighted_pressure_plate",
     "minecraft:light_weighted_pressure_plate",
     "caverns_and_chasms:medium_weighted_pressure_plate",  
@@ -43,4 +43,4 @@ function changePressurePlateRecipe(things as string) as void {
 }
 
 
-DebugUtil.endScript("/Recipes/minecraft/pressure_plate"); 
+DebugUtil.endScript("/Recipes/misc/pressure_plate"); 

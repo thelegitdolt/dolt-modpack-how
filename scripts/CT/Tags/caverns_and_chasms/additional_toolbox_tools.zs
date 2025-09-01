@@ -2,7 +2,7 @@ DebugUtil.startScript("Tags/caverns_and_chasms/additional_toolbox_tools");
     
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:quark:backpack>);
-<tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:minecraft:spyglass>);
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:spawn:casting_net>);
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:quark:abacus>);
 
