@@ -17,7 +17,13 @@ public class Kiln {
         <recipetype:clayworks:baking>.remove(item); 
     }
 
-    public static newRecipe(name as string, input as IItemStack, output as IItemStack, xp as float, category as string, duration as int = 100) as void {
+    public static fromFurnaceRecipe(recipe_name as string) as void {
+        val recipe = furnace.getRecipeByName(recipe_name);
+        Kiln.newRecipe(recipe.id.toString() + "_baking_ct", 
+            recipe.ingredients[0], recipe.resultItem, recipe.experience, recipe.group, recipe.cookingTime / 2);
+    }
+
+    public static newRecipe(name as string, input as IItemStack, output as IItemStack, xp as float = 0.1, category as string = "misc", duration as int = 100) as void {
         <recipetype:clayworks:baking>.addJsonRecipe(name,
         {
             "type": "clayworks:baking",
