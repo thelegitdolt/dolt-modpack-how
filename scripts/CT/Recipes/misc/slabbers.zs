@@ -14,6 +14,9 @@ for recipe in (craftingTable.getAllRecipes() as stdlib.List<Recipe<Container>>) 
         craftingTable.addShaped(result.registryName.toString().replace(":", "_") + "_based", result * 4,[
             [baseBlock, baseBlock]
         ]);
+        craftingTable.addShapeless(baseBlock.registryName.toString().replace(":", "_") + "_from_slabs", baseBlock, [
+            result * 1, result * 1
+        ]);
         craftingTable.removeByName(recipe.id);
     }
 }

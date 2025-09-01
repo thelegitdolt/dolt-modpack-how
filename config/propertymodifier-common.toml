@@ -226,6 +226,17 @@
 		"minecraft:netherite_sword" = 4096
 		"minecraft:netherite_axe" = 4096
 		"farmersdelight:netherite_knife" = 4096
+		# Electrum
+		"oreganized:electrum_hoe" = 4096
+		"oreganized:electrum_pickaxe" = 4096
+		"oreganized:electrum_shovel" = 4096
+		"oreganized:electrum_sword" = 4096
+		"oreganized:electrum_axe" = 4096
+		"oreganized:electrum_chestplate" = 1280
+		"oreganized:electrum_helmet" = 1280
+		"oreganized:electrum_leggings" = 1280
+		"oreganized:electrum_boots" = 1280
+		"oreganized:electrum_knife" = 4096
 		#Grifer
 		"savage_and_ravage:griefer_chestplate" = 768
 		"savage_and_ravage:griefer_helmet" = 768
@@ -255,8 +266,6 @@
 		"minecraft:brush" = 384
 		"autumnity:snail_shell_chestplate" = 512
 		"piglinproliferation:buckler" = 256
-		"minecraft:trident" = 1024
-		"minecraft:elytra" = 2048
 		"minecraft:flint_and_steel" = 192
 		"oreganized:flint_and_pewter" = 192
 		"environmental:yak_pants" = 256
@@ -284,6 +293,13 @@
 		# netherexp
 		"netherexp:shotgun_fist" = 4096
 		"netherexp:pump_charge_shotgun" = 4096
+		#mowzie
+		"mowziesmobs:umvuthana_mask_misery" = 320
+		"mowziesmobs:umvuthana_mask_faith" = 320
+		"mowziesmobs:umvuthana_mask_fury" = 320
+		"mowziesmobs:umvuthana_mask_fear" = 320
+		"mowziesmobs:umvuthana_mask_rage" = 320
+		"mowziesmobs:umvuthana_mask_bliss = 320
 
 	#Set the max stack size of an item. Only values between 2 and 64 are supported. Items that have durability cannot have this value altered. Example (without the leading #):
 	#"minecraft:ender_pearl" = 64
