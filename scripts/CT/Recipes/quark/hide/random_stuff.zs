@@ -391,14 +391,7 @@ HUtil.hideAll(things);
 
 <tag:items:supplementaries:ropes>.remove(<item:quark:rope>);
 
-val woods = ["azalea", "oak", "dark_oak", "spruce", "birch", "acacia", 
-"jungle", "mangrove", "blossom", "ancient", "cherry", "bamboo"] as string[];
 
-for wood in woods {
-    <tag:items:forge:chests/wooden>.remove(<item:quark:${wood}_chest>);
-    <tag:items:forge:chests/wooden>.remove(<item:quark:${wood}_trapped_chest>);
-    <tag:items:minecraft:planks>.remove(<item:quark:vertical_${wood}_planks>);
-}
 
 
 

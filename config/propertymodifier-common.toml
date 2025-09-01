@@ -181,7 +181,6 @@
 		"farmersdelight:skillet" = 544
 		"farmersdelight:iron_knife" = 544
 		"savage_and_ravage:cleaver_of_beheading" = 544
-		"sullysmod:jade_shield" = 896
 		#Gold
 		"minecraft:golden_hoe" = 128
 		"minecraft:golden_pickaxe" = 128
@@ -237,7 +236,7 @@
 		"oreganized:electrum_leggings" = 1280
 		"oreganized:electrum_boots" = 1280
 		"oreganized:electrum_knife" = 4096
-		#Grifer
+		#Griefer
 		"savage_and_ravage:griefer_chestplate" = 768
 		"savage_and_ravage:griefer_helmet" = 768
 		"savage_and_ravage:griefer_leggings" = 768
@@ -247,22 +246,10 @@
 		"caverns_and_chasms:sanguine_helmet" = 768
 		"caverns_and_chasms:sanguine_leggings" = 768
 		"caverns_and_chasms:sanguine_boots" = 768
-		#alloyed
-		"alloyed:steel_hoe" = 2048
-		"alloyed:steel_shears" = 2048
-		"alloyed:steel_fishing_rod" = 2048
-		"alloyed:steel_knife" = 2048
-		"alloyed:steel_pickaxe" = 2048
-		"alloyed:steel_sword" = 2048
-		"alloyed:steel_shovel" = 2048
-		"alloyed:steel_axe" = 2048
-		"alloyed:steel_leggings" = 1024
-		"alloyed:steel_boots" = 1024
-		"alloyed:steel_chestplate" = 1024
-		"alloyed:steel_helmet" = 1024
 		#Other
 		"minecraft:turtle_helmet" = 512
 		"minecraft:fishing_rod" = 384
+		"minecraft:trident" = 1024
 		"minecraft:brush" = 384
 		"autumnity:snail_shell_chestplate" = 512
 		"piglinproliferation:buckler" = 256
@@ -299,7 +286,7 @@
 		"mowziesmobs:umvuthana_mask_fury" = 320
 		"mowziesmobs:umvuthana_mask_fear" = 320
 		"mowziesmobs:umvuthana_mask_rage" = 320
-		"mowziesmobs:umvuthana_mask_bliss = 320
+		"mowziesmobs:umvuthana_mask_bliss" = 320
 
 	#Set the max stack size of an item. Only values between 2 and 64 are supported. Items that have durability cannot have this value altered. Example (without the leading #):
 	#"minecraft:ender_pearl" = 64

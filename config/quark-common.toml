@@ -511,7 +511,7 @@
 		"Trowel Max Durability" = 0
 
 [tweaks]
-	"Armed Armor Stands" = true
+	"Armed Armor Stands" = false
 	"Automatic Recipe Unlock" = false
 	"Better Elytra Rocket" = true
 	"Campfires Boost Elytra" = true
@@ -1839,7 +1839,7 @@
 		"Allow Armor Stand Unloading" = true
 
 	[oddities.crate]
-		"Max Items" = 99
+		"Max Items" = 100
 
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
