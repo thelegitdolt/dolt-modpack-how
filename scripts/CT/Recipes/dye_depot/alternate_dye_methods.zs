@@ -29,21 +29,17 @@ Kiln.addFurnaceAndKiln("mint_to_mint_dye", <item:neapolitan:mint_leaves>, <item:
 RUtil.oneToOneConversion("turquoise_to_mint_dye", <item:caverns_and_chasms:turquoise>, <item:dye_depot:mint_dye>, 16); 
 
 # navy
-RUtil.oneToOneConversion("navy_from_phasmo_shard", <item:netherexp:phasmo_shard>, <item:dye_depot:navy_dye>);
 
 # orange 
 RUtil.oneToOneConversion("blood_orange_to_orange_dye_wow", <item:atmospheric:orange>, <item:minecraft:orange_dye>);
-
-# slate_dye
-RUtil.oneToOneConversion("slate_from_marine_snow", <item:alexscaves:marine_snow>, <item:dye_depot:slate_dye>);
-
 
 # tan
 craftingTable.removeByName("minecraft:orange_dye_from_torchflower"); 
 RUtil.oneToOneConversion("torchflower_to_tan_dye", <item:minecraft:torchflower>, <item:dye_depot:tan_dye>); 
 RUtil.cut.addRecipe("cut_torchflower_to_tan_dye", <item:minecraft:torchflower>, [(<item:dye_depot:tan_dye> * 2)], <tag:items:forge:tools/knives>);
 
-
+# teal
+RUtil.oneToOneConversion("teal_from_phasmo_shard", <item:netherexp:phasmo_shard>, <item:dye_depot:teal_dye>);
 
 
 

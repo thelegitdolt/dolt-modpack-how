@@ -26,6 +26,8 @@
 	light_map = false
 	#Adds a shear button to the atlas screen which allows you to cut maps
 	shear_button = true
+	#Show nearby mobs on minimap. Needs matching client config also set
+	mob_radar = false
 
 [update_logic]
 	#Update maps in simple round robin fashion instead of prioritizing the ones closer. Overrides configs below

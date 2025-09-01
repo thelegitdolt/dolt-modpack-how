@@ -372,6 +372,14 @@ val things = ["quark:netherrack_bricks_wall",
 "quark:beetroot_crate",
 "quark:potato_crate",
 "quark:carrot_crate",
+"quark:shale_wall",
+    "quark:polished_shale_stairs",
+    "quark:shale_slab",
+    "quark:shale_vertical_slab",
+    "quark:shale_stairs",
+    "quark:polished_shale_slab",
+    "quark:polished_shale",
+    "quark:shale",
 
 
 

@@ -59,6 +59,11 @@
 		[types.wood_type.spawn]
 			rotten = true
 
+		[types.wood_type.windswept]
+			holly = true
+			chestnut = true
+			pine = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.quark]
@@ -109,6 +114,12 @@
 
 		[types.leaves_type.architects_palette]
 			twisted = true
+
+		[types.leaves_type.windswept]
+			holly = true
+			chestnut = true
+			pine = true
+			flowering_acacia = true
 
 	[types.cut_block_type]
 
@@ -617,6 +628,48 @@
 
 		[types.cut_block_type.dolt_mod_how]
 			zinc_brick = true
+
+		[types.cut_block_type.windswept]
+			holly = true
+			chestnut = true
+			pine = true
+			lavender_thatch = true
+			pinecone_shingle = true
+			white_pinecone_shingle = true
+			light_gray_pinecone_shingle = true
+			gray_pinecone_shingle = true
+			black_pinecone_shingle = true
+			brown_pinecone_shingle = true
+			red_pinecone_shingle = true
+			orange_pinecone_shingle = true
+			yellow_pinecone_shingle = true
+			lime_pinecone_shingle = true
+			green_pinecone_shingle = true
+			cyan_pinecone_shingle = true
+			light_blue_pinecone_shingle = true
+			blue_pinecone_shingle = true
+			purple_pinecone_shingle = true
+			magenta_pinecone_shingle = true
+			pink_pinecone_shingle = true
+			shale = true
+			polished_shale = true
+			polished_shale_brick = true
+			packed_ice = true
+			packed_ice_brick = true
+			blue_ice = true
+			blue_ice_brick = true
+			snow = true
+			snow_brick = true
+			gingerbread_brick = true
+			glazed_gingerbread_brick = true
+			lunalite = true
+			cut_lunalite = true
+			cut_lunalite_brick = true
+			smooth_lunalite = true
+			dry_mossy_cobblestone = true
+			dry_mossy_stone_brick = true
+			dry_mossy_cobblestone_brick = true
+			dry_mossy_cobblestone_tile = true
 
 	[types.cake]
 

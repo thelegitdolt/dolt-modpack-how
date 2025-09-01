@@ -1,7 +1,0 @@
-{
-  "parent": "quark:block/hedge_post",
-  "textures": {
-    "log": "atmospheric:block/currant_stalk",
-    "leaf": "atmospheric:block/currant_leaves"
-  }
-}

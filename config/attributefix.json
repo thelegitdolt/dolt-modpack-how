@@ -55,6 +55,17 @@
         "value": 100
       }
     },
+    "windswept:fragrance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "forge:nametag_distance": {
       "enabled": false,
       "min": {
@@ -297,6 +308,17 @@
         "value": 5
       }
     },
+    "windswept:snow_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:generic.movement_speed": {
       "enabled": true,
       "min": {
@@ -383,6 +405,17 @@
       "max": {
         "default": 5,
         "value": 1000000
+      }
+    },
+    "windswept:sprint_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "savage_and_ravage:explosive_damage_reduction": {

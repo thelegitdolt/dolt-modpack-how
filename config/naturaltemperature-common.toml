@@ -2,5 +2,11 @@
 #Range: 0.0 ~ 6.0E12
 equatorial_distance = 5000.0
 #Set to true if you want the biomes' distribution pattern to loop until world border after the very cold regions
-looping_world = false
+looping_world = true
+#0: DEFAULT, 1: SIMPLIFIED, 2: LINEAR. You can see examples on the official modrinth page: https://modrinth.com/mod/natural-temperature/gallery
+#Range: 0 ~ 2
+generation_mode = 0
+#Positive values will move the equator to the north, if you want the equator to be at 0 set this value the same as your equatorial_distance
+#Range: -6.0E12 ~ 6.0E12
+equator_offset = 0.0
 

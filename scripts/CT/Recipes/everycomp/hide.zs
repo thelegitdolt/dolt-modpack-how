@@ -4,7 +4,6 @@ DebugUtil.startScript("Recipes/everycomp/hide");
 val clays = [
     "everycomp:ap/atmospheric/yucca_board_wall",
     "everycomp:q/architects_palette/twisted_ladder",
-    "everycomp:q/environmental/hibiscus_hedge",
     "everycomp:ap/mynethersdelight/powdery_board_wall",
     "everycomp:ap/atmospheric/morado_board_wall",
     "everycomp:ap/atmospheric/grimwood_board_wall",
@@ -76,7 +75,6 @@ val clays = [
     "everycomp:ap/atmospheric/laurel_board_wall",
     "everycomp:ap/upgrade_aquatic/driftwood_board_wall",
     "everycomp:ap/environmental/wisteria_board_wall",
-    "everycomp:q/mynethersdelight/hollow_powdery_log",
     "everycomp:q/spawn/rotten_chest",
     "everycomp:q/alexscaves/pewen_chest",
     "everycomp:q/alexscaves/thornwood_chest",

@@ -58,6 +58,10 @@
 	#Scale multiplier for Map Markers text on the mini-map
 	#Range: 0.0 ~ 10.0
 	map_markers_text_scale = 1.0
+	#Hides minimap when inventory is open
+	hide_when_inventory_is_open = false
+	#Shows a background texture for each map, useful to see where each map ends
+	shows_map_background = false
 
 [world_map]
 	crossair = false
@@ -106,7 +110,7 @@
 	enabled = true
 	#Allows tracking pins by pressing control, making them follow you on minimap
 	pin_tracking = true
-	#Show nearby mobs on minimap
+	#Show nearby mobs on minimap. Also requires matching server config
 	mob_radar = false
 	#Range: 0 ~ 256
 	radar_radius = 64
