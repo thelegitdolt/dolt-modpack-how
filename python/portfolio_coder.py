@@ -1,9 +1,10 @@
 import os
 from PIL import Image
 import shutil
+import paths
 
-portfolio_path = "/Users/andrewyin/Desktop/portfolio-1.21.x-1.5.0-neoforge"
-doltus_mod_path = "/Users/andrewyin/Desktop/portfolio-main-021607fe250db1e69dc7997cf37a5a52b74ba782/portfolio-forge"
+portfolio_path = f"{paths.desktop}/portfolio-1.21.x-1.5.0-neoforge"
+doltus_mod_path = f"{paths.desktop}/portfolio-main-021607fe250db1e69dc7997cf37a5a52b74ba782/portfolio-forge"
 mod_data_path = doltus_mod_path + "/src/main/resources"
 mod_java_path = doltus_mod_path + "/src/main/java"
 
