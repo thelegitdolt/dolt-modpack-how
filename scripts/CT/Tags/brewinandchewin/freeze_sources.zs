@@ -16,6 +16,17 @@ var creams = [
 "architects_palette:polished_packed_ice_slab",
 "architects_palette:packed_ice_pillar",
 "architects_palette:polished_packed_ice_stairs",
+"windswept:icicles",
+    "windswept:ice_chain",
+    "windswept:ice_lantern",
+    "windswept:blue_ice_stairs",
+    "windswept:blue_ice_brick_slab",
+    "windswept:blue_ice_brick_wall",
+    "windswept:blue_ice_slab",
+    "windswept:chiseled_blue_ice_bricks",
+    "windswept:blue_ice_bricks",
+    "windswept:blue_ice_brick_stairs",
+    "windswept:frozen_flesh_block",
 
 
 	"neapolitan:mint_ice_cream_block",
