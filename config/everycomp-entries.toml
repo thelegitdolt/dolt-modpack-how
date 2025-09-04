@@ -4,22 +4,6 @@
 
 	[types.wood_type]
 
-		[types.wood_type.endergetic]
-			poise = true
-
-		[types.wood_type.netherexp]
-			claret = true
-			smokestalk = true
-
-		[types.wood_type.quark]
-			azalea = true
-			ancient = true
-			blossom = true
-
-		[types.wood_type.upgrade_aquatic]
-			driftwood = true
-			river = true
-
 		[types.wood_type.atmospheric]
 			grimwood = true
 			rosewood = true
@@ -28,21 +12,6 @@
 			aspen = true
 			laurel = true
 			kousa = true
-
-		[types.wood_type.sullysmod]
-			petrified = true
-
-		[types.wood_type.enhanced_mushrooms]
-			mushroom = true
-
-		[types.wood_type.autumnity]
-			maple = true
-
-		[types.wood_type.mynethersdelight]
-			powdery = true
-
-		[types.wood_type.architects_palette]
-			twisted = false
 
 		[types.wood_type.environmental]
 			willow = true
@@ -53,10 +22,6 @@
 		[types.wood_type.caverns_and_chasms]
 			azalea = true
 
-		[types.wood_type.alexscaves]
-			pewen = true
-			thornwood = true
-
 		[types.wood_type.spawn]
 			rotten = true
 
@@ -65,24 +30,42 @@
 			chestnut = true
 			pine = true
 
-	[types.leaves_type]
+		[types.wood_type.architects_palette]
+			twisted = true
 
-		[types.leaves_type.quark]
+		[types.wood_type.sullysmod]
+			petrified = true
+
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
+		[types.wood_type.netherexp]
+			claret = true
+			smokestalk = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
+		[types.wood_type.quark]
+			azalea = true
 			ancient = true
-			blue_blossom = true
-			lavender_blossom = true
-			orange_blossom = true
-			yellow_blossom = true
-			red_blossom = true
+			blossom = true
 
-		[types.leaves_type.autumnity]
-			yellow_maple = true
-			orange_maple = true
-			red_maple = true
+		[types.wood_type.enhanced_mushrooms]
+			mushroom = true
+
+		[types.wood_type.endergetic]
+			poise = true
+
+		[types.wood_type.alexscaves]
+			pewen = true
+			thornwood = true
+
+		[types.wood_type.autumnity]
 			maple = true
 
-		[types.leaves_type.upgrade_aquatic]
-			river = true
+	[types.leaves_type]
 
 		[types.leaves_type.atmospheric]
 			rosewood = true
@@ -110,38 +93,36 @@
 			plum = true
 			wisteria = true
 
-		[types.leaves_type.alexscaves]
-			ancient = true
-
-		[types.leaves_type.architects_palette]
-			twisted = true
-
 		[types.leaves_type.windswept]
 			holly = true
 			chestnut = true
 			pine = true
 			flowering_acacia = true
 
-	[types.cut_block_type]
+		[types.leaves_type.architects_palette]
+			twisted = true
 
-		[types.cut_block_type.netherexp]
-			soul_slate = true
-			soul_slate_brick = true
-			soul_slate_tile = true
-			smooth_netherrack = true
-			netherrack_brick = true
-			basalt = true
-			polished_basalt = true
-			polished_basalt_brick = true
-			claret = true
-			smokestalk = true
-			silica_sandstone = true
-			cut_silica_sandstone = true
-			smooth_silica_sandstone = true
-			blue_nether_brick = true
-			stacked_bone = true
-			stacked_wither_bone = true
-			yellow_nether_brick = true
+		[types.leaves_type.upgrade_aquatic]
+			river = true
+
+		[types.leaves_type.alexscaves]
+			ancient = true
+
+		[types.leaves_type.autumnity]
+			maple = true
+			yellow_maple = true
+			orange_maple = true
+			red_maple = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+	[types.cut_block_type]
 
 		[types.cut_block_type.architects_palette]
 			abyssaline_brick = true
@@ -205,12 +186,47 @@
 			nebulite = true
 			polished_nebulite = true
 
-		[types.cut_block_type.ribbits]
-			mossy_oak_planks = true
-
-		[types.cut_block_type.mynethersdelight]
-			powdery = true
-			powdery_mosaic = true
+		[types.cut_block_type.windswept]
+			holly = true
+			chestnut = true
+			pine = true
+			lavender_thatch = true
+			pinecone_shingle = true
+			white_pinecone_shingle = true
+			light_gray_pinecone_shingle = true
+			gray_pinecone_shingle = true
+			black_pinecone_shingle = true
+			brown_pinecone_shingle = true
+			red_pinecone_shingle = true
+			orange_pinecone_shingle = true
+			yellow_pinecone_shingle = true
+			lime_pinecone_shingle = true
+			green_pinecone_shingle = true
+			cyan_pinecone_shingle = true
+			light_blue_pinecone_shingle = true
+			blue_pinecone_shingle = true
+			purple_pinecone_shingle = true
+			magenta_pinecone_shingle = true
+			pink_pinecone_shingle = true
+			shale = true
+			polished_shale = true
+			polished_shale_brick = true
+			packed_ice = true
+			packed_ice_brick = true
+			blue_ice = true
+			blue_ice_brick = true
+			snow = true
+			snow_brick = true
+			gingerbread_brick = true
+			glazed_gingerbread_brick = true
+			lunalite = true
+			cut_lunalite = true
+			cut_lunalite_brick = true
+			smooth_lunalite = true
+			dry_mossy_cobblestone = true
+			dry_mossy_stone_brick = true
+			dry_mossy_cobblestone_brick = true
+			dry_mossy_cobblestone_tile = true
 
 		[types.cut_block_type.sullysmod]
 			rough_jade_brick = true
@@ -220,9 +236,6 @@
 
 		[types.cut_block_type.mowziesmobs]
 			painted_acacia = true
-
-		[types.cut_block_type.enhanced_mushrooms]
-			mushroom = true
 
 		[types.cut_block_type.environmental]
 			dirt_brick = true
@@ -235,9 +248,6 @@
 			pine = true
 			plum = true
 			wisteria = true
-
-		[types.cut_block_type.savage_and_ravage]
-			gloomy_tile = true
 
 		[types.cut_block_type.clayworks]
 			terracotta = true
@@ -283,9 +293,6 @@
 		[types.cut_block_type.buzzier_bees]
 			honeycomb_brick = true
 			honeycomb_tile = true
-
-		[types.cut_block_type.sniffed_out]
-			vessel = true
 
 		[types.cut_block_type.caverns_and_chasms]
 			sanguine_tile = true
@@ -357,6 +364,86 @@
 			driftwood = true
 			river = true
 
+		[types.cut_block_type.atmospheric]
+			rosewood = true
+			morado = true
+			ivory_travertine = true
+			peach_travertine = true
+			persimmon_travertine = true
+			saffron_travertine = true
+			dolerite = true
+			polished_dolerite = true
+			arid_sandstone = true
+			smooth_arid_sandstone = true
+			cut_arid_sandstone = true
+			red_arid_sandstone = true
+			smooth_red_arid_sandstone = true
+			cut_red_arid_sandstone = true
+			yucca = true
+			aspen = true
+			laurel = true
+			kousa = true
+			grimwood = true
+			carmine_shingle = true
+			carmine_pavement = true
+
+		[types.cut_block_type.oreganized]
+			glance = true
+			polished_glance = true
+			glance_brick = true
+
+		[types.cut_block_type.supplementaries]
+			fine_wood = true
+			lapis_bricks = true
+			ash_bricks = true
+			stone_tile = true
+			blackstone_tile = true
+
+		[types.cut_block_type.etcetera]
+			leveled_stone = true
+
+		[types.cut_block_type.spawn]
+			snail_shell_tile = true
+			rotten = true
+
+		[types.cut_block_type.goated]
+			thatch = true
+
+		[types.cut_block_type.netherexp]
+			soul_slate = true
+			soul_slate_brick = true
+			soul_slate_tile = true
+			smooth_netherrack = true
+			netherrack_brick = true
+			basalt = true
+			polished_basalt = true
+			polished_basalt_brick = true
+			claret = true
+			smokestalk = true
+			silica_sandstone = true
+			cut_silica_sandstone = true
+			smooth_silica_sandstone = true
+			blue_nether_brick = true
+			stacked_bone = true
+			stacked_wither_bone = true
+			yellow_nether_brick = true
+
+		[types.cut_block_type.ribbits]
+			mossy_oak_planks = true
+
+		[types.cut_block_type.mynethersdelight]
+			powdery = true
+			powdery_mosaic = true
+
+		[types.cut_block_type.enhanced_mushrooms]
+			mushroom = true
+
+		[types.cut_block_type.savage_and_ravage]
+			gloomy_tile = true
+
+		[types.cut_block_type.sniffed_out]
+			vessel = true
+
 		[types.cut_block_type.endergetic]
 			poise = true
 			eumus_brick = true
@@ -395,29 +482,6 @@
 			thornwood = true
 			gingerbread_brick = true
 			frosted_gingerbread_brick = true
-
-		[types.cut_block_type.atmospheric]
-			rosewood = true
-			morado = true
-			ivory_travertine = true
-			peach_travertine = true
-			persimmon_travertine = true
-			saffron_travertine = true
-			dolerite = true
-			polished_dolerite = true
-			arid_sandstone = true
-			smooth_arid_sandstone = true
-			cut_arid_sandstone = true
-			red_arid_sandstone = true
-			smooth_red_arid_sandstone = true
-			cut_red_arid_sandstone = true
-			yucca = true
-			aspen = true
-			laurel = true
-			kousa = true
-			grimwood = true
-			carmine_shingle = true
-			carmine_pavement = true
 
 		[types.cut_block_type.create]
 			copper_shingle = true
@@ -493,11 +557,6 @@
 			cut_veridium_brick = true
 			small_veridium_brick = true
 
-		[types.cut_block_type.oreganized]
-			glance = true
-			polished_glance = true
-			glance_brick = true
-
 		[types.cut_block_type.autumnity]
 			snail_shell_brick = true
 			snail_shell_tile = true
@@ -571,13 +630,6 @@
 			shale_bricks = true
 			myalite_bricks = true
 
-		[types.cut_block_type.supplementaries]
-			fine_wood = true
-			lapis_bricks = true
-			ash_bricks = true
-			stone_tile = true
-			blackstone_tile = true
-
 		[types.cut_block_type.dye_the_world]
 			amber_shingles = true
 			aqua_shingles = true
@@ -612,16 +664,6 @@
 			teal_terracotta_brick = true
 			verdant_terracotta_brick = true
 
-		[types.cut_block_type.etcetera]
-			leveled_stone = true
-
-		[types.cut_block_type.spawn]
-			snail_shell_tile = true
-			rotten = true
-
-		[types.cut_block_type.goated]
-			thatch = true
-
 		[types.cut_block_type.dungeonsdelight]
 			cut_stained_scrap = true
 			wormwood = true
@@ -629,48 +671,6 @@
 
 		[types.cut_block_type.dolt_mod_how]
 			zinc_brick = true
-
-		[types.cut_block_type.windswept]
-			holly = true
-			chestnut = true
-			pine = true
-			lavender_thatch = true
-			pinecone_shingle = true
-			white_pinecone_shingle = true
-			light_gray_pinecone_shingle = true
-			gray_pinecone_shingle = true
-			black_pinecone_shingle = true
-			brown_pinecone_shingle = true
-			red_pinecone_shingle = true
-			orange_pinecone_shingle = true
-			yellow_pinecone_shingle = true
-			lime_pinecone_shingle = true
-			green_pinecone_shingle = true
-			cyan_pinecone_shingle = true
-			light_blue_pinecone_shingle = true
-			blue_pinecone_shingle = true
-			purple_pinecone_shingle = true
-			magenta_pinecone_shingle = true
-			pink_pinecone_shingle = true
-			shale = true
-			polished_shale = true
-			polished_shale_brick = true
-			packed_ice = true
-			packed_ice_brick = true
-			blue_ice = true
-			blue_ice_brick = true
-			snow = true
-			snow_brick = true
-			gingerbread_brick = true
-			glazed_gingerbread_brick = true
-			lunalite = true
-			cut_lunalite = true
-			cut_lunalite_brick = true
-			smooth_lunalite = true
-			dry_mossy_cobblestone = true
-			dry_mossy_stone_brick = true
-			dry_mossy_cobblestone_brick = true
-			dry_mossy_cobblestone_tile = true
 
 	[types.cake]
 
@@ -696,20 +696,32 @@
 
 	[entries.wood_type]
 
-		[entries.wood_type.quark]
-			hollow_log = true
-			vertical_planks = true
-			post = true
-			trapped_chest = true
-			bookshelf = true
-			chest = true
-			stripped_post = true
-			ladder = true
-			vertical_slab = true
+		[entries.wood_type.another_furniture]
+			flower_box = false
+			shelf = true
+			shutter = true
+			bench = true
+			table = true
+			drawer = true
+			chair = true
 
 		[entries.wood_type.boatload]
 			large_boat = true
 			furnace_boat = true
+
+		[entries.wood_type.architects_palette]
+			board_stairs = true
+			railing = true
+			board_slab = true
+			boards = true
+			board_wall = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
 
 		[entries.wood_type.woodworks]
 			trapped_chest = true
@@ -720,28 +732,16 @@
 			chiseled_bookshelf = true
 			ladder = true
 
-		[entries.wood_type.architects_palette]
-			board_stairs = false
-			railing = false
-			board_slab = false
-			boards = false
-			board_wall = false
-
-		[entries.wood_type.another_furniture]
-			flower_box = false
-			shelf = true
-			shutter = true
-			bench = true
-			table = true
-			drawer = true
-			chair = true
-
-		[entries.wood_type.create]
-			window = true
-			window_pane = true
-
-		[entries.wood_type.farmersdelight]
-			cabinet = true
+		[entries.wood_type.quark]
+			hollow_log = true
+			vertical_planks = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			vertical_slab = true
 
 	[entries.leaves_type]
 

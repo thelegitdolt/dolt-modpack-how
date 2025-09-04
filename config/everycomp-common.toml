@@ -3,7 +3,7 @@
 	#Puts all the added items into a new Every Compat tab instead of their own mod tabs. Be warned that if disabled it could cause some issue with some mods that have custom tabs
 	creative_tab = true
 	#Creates a debug folder inside your instance directory where all the dynamically generated resources will be saved
-	save_debug_resources = false
+	save_debug_resources = true
 	#Sends a packet to verify all dependencies mod versions are the same on connect. DIsable if it causes issues
 	mod_version_check_packet = true
 	#Don't touch unless you are told to

@@ -7,6 +7,7 @@ import crafttweaker.api.recipe.IRecipeManager;
 import crafttweaker.api.ingredient.type.IIngredientList;
 import crafttweaker.api.recipe.type.Recipe;
 import crafttweaker.api.world.Container;
+import crafttweaker.api.resource.ResourceLocation;
 
 public class RUtil {
     public static val cut = <recipetype:farmersdelight:cutting>;
@@ -33,6 +34,10 @@ as string[];
             [input, input], 
             [input, input]
         ]); 
+    }
+
+    public static getRecipeString(rl as ResourceLocation) as string {
+        return rl.toString().replace(":", "_");
     }
 
 

@@ -1,0 +1,3 @@
+Recovery compass textures from https://www.curseforge.com/minecraft/mc-mods/death-compass-forge, used with permission. Thanks fuzs
+
+Enchanting Table textures from MLoren0's Enchanting Revised mod, https://www.curseforge.com/minecraft/mc-mods/enchanting-revised, used with permission. Thank you Loren!

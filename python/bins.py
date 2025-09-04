@@ -104,10 +104,11 @@ def get_blacklist(thing: list[str], files: list[str]) -> list[str]:
 
 class BSI: 
     def __init__(self, folder1path=mod_folder, folder2path=server_mod_folder, blacklist=None):
-        if blacklist is None:
-            blacklist = []
+        if blacklist is None or len(blacklist) == 0:
+            self.blacklist = []
+        else:
+            self.blacklist = get_blacklist(blacklist, os.listdir(folder1path))
 
-        self.blacklist = get_blacklist(blacklist, os.listdir(folder1path))
         print("Created blacklist for BSI object:", self.blacklist)
         if folder1path is None:
             raise ValueError("Folder 1 can't be none")

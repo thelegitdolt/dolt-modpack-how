@@ -12,7 +12,10 @@ for i, p in WoodUtil.asPair(
     val pressureplate = <item:${i}>;
     val planks = <item:${p}>;
 
-    craftingTable.addShaped(pressureplate.registryName.getPath() + "_based", pressureplate, [
+    val path = p.equals(<resource:windswept:pine_planks>) ? "fir_pressure_plate" : p.getPath(); 
+
+
+    craftingTable.addShaped(path + "_based", pressureplate, [
         [planks, planks, planks]
     ]);
 }

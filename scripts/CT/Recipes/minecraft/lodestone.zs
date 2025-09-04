@@ -1,4 +1,4 @@
-DebugUtil.startScript("recipes/minecraft/lodestone/"); 
+DebugUtil.startScript("recipes/minecraft/lodestone"); 
     
 
 val thing = <item:minecraft:chiseled_stone_bricks>;

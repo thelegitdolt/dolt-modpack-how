@@ -1,4 +1,4 @@
-DebugUtil.startScript("recipes/minecraft/hanging_signs_stuff/"); 
+DebugUtil.startScript("recipes/misc/hanging_signs_stuff/"); 
     
 
 val signs = WoodList.create("minecraft", (str) => str + "_hanging_sign")
@@ -12,7 +12,9 @@ for sign, plank in WoodUtil.asPair(signs, planks) {
     val signItem = <item:${sign}>;
     val plankItem = <item:${plank}>;
 
-    craftingTable.addShaped(sign.getPath() + "_based_doltum", signItem * 3, [
+    val path = plank.equals(<resource:windswept:pine_planks>) ? "fir_hanging_sign" : sign.getPath(); 
+
+    craftingTable.addShaped(path + "_based_doltum", signItem * 3, [
         [<item:minecraft:chain>, RUtil.air, <item:minecraft:chain>],
         [plankItem, plankItem, plankItem],
         [plankItem, plankItem, plankItem]
@@ -21,4 +23,4 @@ for sign, plank in WoodUtil.asPair(signs, planks) {
 
 
 
-DebugUtil.endScript("recipes/minecraft/hanging_signs_stuff"); 
+DebugUtil.endScript("recipes/misc/hanging_signs_stuff"); 

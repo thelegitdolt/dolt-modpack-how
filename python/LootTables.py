@@ -48,4 +48,10 @@ def generateForAll(ls: list[str]) -> None:
 
 
 if __name__ == '__main__':
-    generateForAll(["minecraft:glass_pane"])
+    generateForAll(["windswept:chestnut_bookshelf",
+"windswept:holly_bookshelf",
+"windswept:pine_bookshelf",
+"dolt_mod_how:pewen_bookshelf",
+"dolt_mod_how:chiseled_pewen_bookshelf",
+"dolt_mod_how:thornwood_bookshelf",
+"dolt_mod_how:chiseled_thornwood_bookshelf"])
