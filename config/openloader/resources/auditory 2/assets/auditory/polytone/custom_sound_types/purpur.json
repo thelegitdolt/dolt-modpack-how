@@ -1,0 +1,7 @@
+{
+   "place_sound": "auditory:purpur.place",
+   "break_sound": "auditory:purpur.break",
+   "hit_sound": "auditory:purpur.hit",
+   "step_sound": "auditory:purpur.step",
+   "fall_sound": "auditory:purpur.fall"
+}

@@ -1,0 +1,7 @@
+{
+   "place_sound": "auditory:ice.place",
+   "break_sound": "auditory:ice.break",
+   "hit_sound": "auditory:ice.hit",
+   "step_sound": "auditory:ice.step",
+   "fall_sound": "auditory:ice.fall"
+}

@@ -1,0 +1,8 @@
+{
+   "place_sound": "auditory:chorus_plant.place",
+   "break_sound": "auditory:chorus_plant.break",
+   "hit_sound": "auditory:chorus_plant.hit",
+   "step_sound": "auditory:chorus_plant.step",
+   "fall_sound": "auditory:chorus_plant.fall"
+}
+

@@ -1,0 +1,8 @@
+{
+   "place_sound": "auditory:gourd.place",
+   "break_sound": "auditory:gourd.break",
+   "hit_sound": "auditory:gourd.hit",
+   "step_sound": "auditory:gourd.step",
+   "fall_sound": "auditory:gourd.fall"
+}
+

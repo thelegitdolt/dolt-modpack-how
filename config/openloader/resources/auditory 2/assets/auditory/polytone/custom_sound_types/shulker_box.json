@@ -1,0 +1,8 @@
+{
+   "place_sound": "auditory:shulker_box.place",
+   "break_sound": "auditory:shulker_box.break",
+   "hit_sound": "auditory:shulker_box.hit",
+   "step_sound": "auditory:shulker_box.step",
+   "fall_sound": "auditory:shulker_box.fall"
+}
+
