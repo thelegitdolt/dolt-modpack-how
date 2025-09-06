@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "furnace_boat",
+  "ingredients": [
+    {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "quark:ancient",
+      "ingredient": {
+        "item": "minecraft:furnace"
+      },
+      "type": "moonlight:block_type_swap"
+    },
+    {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "quark:ancient",
+      "ingredient": {
+        "item": "minecraft:oak_boat"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  ],
+  "result": {
+    "item": "everycomp:abnbl/quark/ancient_furnace_boat"
+  }
+}

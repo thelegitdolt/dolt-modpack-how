@@ -1,5 +1,6 @@
-DebugUtil.startScript("recipes/species/bone_bark_decompress/"); 
+DebugUtil.startScript("recipes/species/bye_bone_bark/"); 
     
-RUtil.oneToOneConversion("bone_bark_decompress", <item:species:bone_bark>, <item:minecraft:bone_meal>, 9);
+craftingTable.remove(<item:species:bone_bark>);
+HUtil.hide(<item:species:bone_bark>);
 
-DebugUtil.endScript("recipes/species/bone_bark_decompress"); 
+DebugUtil.endScript("recipes/species/bye_bone_bark"); 

@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "everycomp:af/caverns_and_chasms/azalea_bench"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": null,
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:azalea_planks"
+            ],
+            "count": null,
+            "durability": null,
+            "nbt": null
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": null,
+        "recipe": "everycomp:af/caverns_and_chasms/azalea_bench"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item",
+      "has_the_recipe"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

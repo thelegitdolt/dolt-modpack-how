@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "large_boat",
+  "pattern": [
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "alexscaves:pewen",
+      "ingredient": {
+        "item": "minecraft:oak_boat"
+      },
+      "type": "moonlight:block_type_swap"
+    },
+    "#": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "alexscaves:pewen",
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "result": {
+    "item": "everycomp:abnbl/alexscaves/large_pewen_boat"
+  },
+  "show_notification": true
+}

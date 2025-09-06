@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "tables",
+  "pattern": [
+    "###",
+    "/ /"
+  ],
+  "key": {
+    "#": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "enhanced_mushrooms:mushroom",
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      },
+      "type": "moonlight:block_type_swap"
+    },
+    "/": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "enhanced_mushrooms:mushroom",
+      "ingredient": {
+        "item": "minecraft:stick"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "result": {
+    "item": "everycomp:af/enhanced_mushrooms/mushroom_table",
+    "count": 3
+  },
+  "show_notification": true
+}

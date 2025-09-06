@@ -3,7 +3,7 @@ DebugUtil.startScript("recipes/quark/furnace_good");
 
 import crafttweaker.api.resource.ResourceLocation;
 
-val missingBoats = ["pewen", "thornwood", "rotten", "claret", "wormwood"];
+val missingBoats = ["pewen", "thornwood", "rotten", "claret", "wormwood", "petrified"];
 var boats = WoodList.create("minecraft", (str) => str + "_boat")
         .filter(missingBoats)
         .specialModid(["warped", "crimson"], Constants.BOATLOAD)

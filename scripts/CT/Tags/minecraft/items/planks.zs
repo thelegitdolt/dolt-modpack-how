@@ -9,7 +9,6 @@ val planks = [
 "everycomp:q/enhanced_mushrooms/vertical_mushroom_planks",
 "everycomp:q/environmental/vertical_willow_planks",
 "everycomp:q/alexscaves/vertical_thornwood_planks",
-"ribbits:mossy_oak_planks",
 "mowziesmobs:painted_acacia",
 "everycomp:q/atmospheric/vertical_yucca_planks",
 "quark:azalea_planks",

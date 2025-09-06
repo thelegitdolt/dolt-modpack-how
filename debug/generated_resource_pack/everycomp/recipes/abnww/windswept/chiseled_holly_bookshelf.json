@@ -1,0 +1,47 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "wooden_bookshelves",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "group": "chiseled_wooden_bookshelf",
+        "pattern": [
+          "###",
+          "XXX",
+          "###"
+        ],
+        "key": {
+          "#": {
+            "block_type": "wood_type",
+            "from": "minecraft:acacia",
+            "to": "windswept:holly",
+            "ingredient": {
+              "item": "minecraft:acacia_planks"
+            },
+            "type": "moonlight:block_type_swap"
+          },
+          "X": {
+            "block_type": "wood_type",
+            "from": "minecraft:acacia",
+            "to": "windswept:holly",
+            "ingredient": {
+              "item": "minecraft:acacia_slab"
+            },
+            "type": "moonlight:block_type_swap"
+          }
+        },
+        "result": {
+          "item": "everycomp:abnww/windswept/chiseled_holly_bookshelf"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

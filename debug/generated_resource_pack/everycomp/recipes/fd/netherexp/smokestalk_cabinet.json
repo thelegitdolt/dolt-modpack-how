@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fd_cabinet",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "D": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "netherexp:smokestalk",
+      "ingredient": {
+        "item": "minecraft:oak_trapdoor"
+      },
+      "type": "moonlight:block_type_swap"
+    },
+    "_": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "netherexp:smokestalk",
+      "ingredient": {
+        "item": "minecraft:oak_slab"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "result": {
+    "item": "everycomp:fd/netherexp/smokestalk_cabinet"
+  },
+  "show_notification": true
+}

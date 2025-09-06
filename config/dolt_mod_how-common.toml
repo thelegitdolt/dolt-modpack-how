@@ -1,25 +1,37 @@
 
+[misc]
+	#If interacting with blocks like Flower Pots and Amendment Placeable Books should put the item they contain into your inventory, thus merging with existing stacks, instead of adding it to your hand, which is EXTREMELY ANNOYING
+	"Less Annoying Item Reclaim" = true
+
 [Vanilla]
 
 	[Vanilla.metal_ores]
 		#If mining ores that normally drop raw ores should grant XP
 		"Experienced metal" = true
 
+	[Vanilla.bed]
+		#If having monsters next to you or being too far from bed should no longer prevent you from sleeping
+		"Good ahh sleep" = true
+
+	[Vanilla.beacons]
+		#If status effects given you by beacons should NOT give off potion particles
+		"Hidden beacon particles" = true
+
 	[Vanilla.farmland]
 		#Whether farmland can be untilled by sneak-right clicking them with a hoe
 		"Untillable Farmland" = true
 
-	[Vanilla.dispensers]
-		#If dispensers should be able to dispense into cauldrons
-		"Dispenser Cauldrons" = true
+	[Vanilla."Moss carpet"]
+		#Whether Moss Carpets should become replaceable, like tall grass or something idk.
+		"Replaceable Moss Carpet" = true
+
+	[Vanilla.Stonecutter]
+		#If Woodworks is loaded, whether all sawmill recipes should becomes stonecutter recipes instead.
+		"Stonecutter more like woodcutter am I right" = true
 
 	[Vanilla.disc]
 		#The disc that should be spawned when a jukebox is struck with lightning. Disables if string is "no"
 		"Lightning Disc" = "minecraft:music_disc_ward"
-
-	[Vanilla.enchantments]
-		#If enchantments other than protection should be buffed. Experimental!
-		"Erm what the sigma" = true
 
 	[Vanilla.xp]
 		#If placing a block should have a chance to yield experience.
@@ -33,17 +45,20 @@
 		#Maximum XP a crop block will drop when broken.
 		"Maximum Crop XP" = 1
 
-	[Vanilla.beacons]
-		#If status effects given you by beacons should NOT give off potion particles
-		"Hidden beacon particles" = true
+	[Vanilla.dispensers]
+		#If dispensers should be able to dispense into cauldrons
+		"Dispenser Cauldrons" = true
 
-	[Vanilla."Moss carpet"]
-		#Whether Moss Carpets should become replaceable, like tall grass or something idk.
-		"Replaceable Moss Carpet" = true
+	[Vanilla.enchantments]
+		#If enchantments other than protection should be buffed. Experimental!
+		"Erm what the sigma" = true
 
-	[Vanilla.Stonecutter]
-		#If Woodworks is loaded, whether all sawmill recipes should becomes stonecutter recipes instead.
-		"Stonecutter more like woodcutter am I right" = true
+["jaden nether expansion"]
+
+	["jaden nether expansion"."Bone Rods"]
+		#If bone rods should be placed by right clicking vanilla bones, instead of having a new bone rod item
+		#This will not change the loot table or recipe for bone rods. Modpack devs are expected to change those themselves
+		"Bone ahh bone" = true
 
 [atmospheric]
 
@@ -56,6 +71,12 @@
 	[farmersdelight."Knife Enchantments"]
 		#If knives should no longer receive the silk touch and efficiency from the enchanting table
 		"Unbloated Knife Enchantments" = true
+
+["Mowzies Mobs"]
+
+	["Mowzies Mobs".Rakes]
+		#If hoes should also be able to rake sand. Disabled by default option for my modpack
+		"Hoes Rake Sand" = true
 
 [nethersdelight]
 
@@ -98,16 +119,6 @@
 	["Alexander Caverns".Tremorzilla]
 		#If tremorzillas should no longer passively break all blocks in its hitbox. Blocks are still broken when the tremorzilla attacks, or with its beam attack.
 		"Marginally Less Griefy Tremorzillas" = true
-
-[misc]
-	#If interacting with blocks like Flower Pots and Amendment Placeable Books should put the item they contain into your inventory, thus merging with existing stacks, instead of adding it to your hand, which is EXTREMELY ANNOYING
-	"Less Annoying Item Reclaim" = true
-
-["Mowzies Mobs"]
-
-	["Mowzies Mobs".Rakes]
-		#If hoes should also be able to rake sand. Disabled by default option for my modpack
-		"Hoes Rake Sand" = true
 
 ["Dungeon's Delight"]
 

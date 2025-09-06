@@ -1,0 +1,10 @@
+{
+  "repaletter": {
+    "type": "blueprint:simple",
+    "replaces_block": "species:bone_bark",
+    "replaces_with": "netherexp:bone_cortical"
+  },
+  "structures": [
+    "species:paleontology_dig_site"
+  ]
+}

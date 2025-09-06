@@ -1,0 +1,21 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "woodworks:config",
+          "value": "sawmill"
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 4,
+        "ingredient": {
+          "tag": "sullysmod:petrified_logs"
+        },
+        "result": "sullysmod:petrified_planks"
+      }
+    }
+  ]
+}

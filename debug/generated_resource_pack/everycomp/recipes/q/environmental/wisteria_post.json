@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "flag": "wooden_posts",
+          "type": "quark:flag"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "pattern": [
+          "F",
+          "F",
+          "F"
+        ],
+        "key": {
+          "F": {
+            "block_type": "wood_type",
+            "from": "minecraft:oak",
+            "to": "environmental:wisteria",
+            "ingredient": {
+              "item": "minecraft:oak_wood"
+            },
+            "type": "moonlight:block_type_swap"
+          }
+        },
+        "result": {
+          "item": "everycomp:q/environmental/wisteria_post",
+          "count": 8
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

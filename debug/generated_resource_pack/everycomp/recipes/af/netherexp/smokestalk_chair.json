@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chairs",
+  "pattern": [
+    "# ",
+    "##",
+    "//"
+  ],
+  "key": {
+    "#": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "netherexp:smokestalk",
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      },
+      "type": "moonlight:block_type_swap"
+    },
+    "/": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "netherexp:smokestalk",
+      "ingredient": {
+        "item": "minecraft:stick"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "result": {
+    "item": "everycomp:af/netherexp/smokestalk_chair",
+    "count": 3
+  },
+  "show_notification": true
+}

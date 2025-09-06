@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "wooden_chests",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "redstone",
+        "group": "wooden_trapped_chest",
+        "ingredients": [
+          {
+            "block_type": "wood_type",
+            "from": "minecraft:oak",
+            "to": "mynethersdelight:powdery",
+            "ingredient": {
+              "item": "woodworks:oak_chest"
+            },
+            "type": "moonlight:block_type_swap"
+          },
+          {
+            "block_type": "wood_type",
+            "from": "minecraft:oak",
+            "to": "mynethersdelight:powdery",
+            "ingredient": {
+              "item": "minecraft:tripwire_hook"
+            },
+            "type": "moonlight:block_type_swap"
+          }
+        ],
+        "result": {
+          "item": "everycomp:abnww/mynethersdelight/trapped_powdery_chest"
+        }
+      }
+    }
+  ]
+}

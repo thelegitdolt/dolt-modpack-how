@@ -2,9 +2,13 @@ DebugUtil.startScript("recipes/misc/bookshelves_good");
     
 val stuff = WoodUtil.asPair(
     WoodList.create("woodworks", (wood) => wood + "_bookshelf")
-        .moddedEC().filter("oak", "rotten", "wormwood").specialModid(["pewen", "thornwood"], "dolt_mod_how").build(),
+        .moddedEC().filter("rotten", "wormwood")
+        .specialModid(["pewen", "thornwood"], "dolt_mod_how")
+        .specialModid(["oak"], "minecraft")
+        .specialFunc(["oak"], (wood) => "bookshelf").build(),
     WoodList.create("minecraft", (wood) => wood + "_planks")
-        .moddedOriginal().filter("oak", "rotten", "wormwood").build()
+        .moddedOriginal()
+        .filter("rotten", "wormwood").build()
 );
 
 val book = <item:minecraft:book>;
@@ -19,9 +23,6 @@ for bookshelf, planks in stuff {
     ]);
 }
 
-craftingTable.remove(<item:minecraft:bookshelf>);
-craftingTable.addShapeless("oak_bookshelf_based", <item:minecraft:bookshelf>, [
-        <item:minecraft:oak_planks>, <item:minecraft:oak_planks>, book, book
-]);
+
 
 DebugUtil.endScript("recipes/misc/bookshelves_good"); 

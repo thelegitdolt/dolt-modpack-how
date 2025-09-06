@@ -4,6 +4,8 @@
 	"boatload:furnace_boat": "wood",
 	"boatload:large_boat": "wood",
 
+	"species:treeper": "leaves",
+
 	"blueprint:boat": "wood",
 	"blueprint:chest_boat": "wood",
 

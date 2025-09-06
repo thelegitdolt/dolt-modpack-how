@@ -7,8 +7,13 @@ val planks = WoodList.create("minecraft", (str) => str + "_planks")
     .moddedOriginal().filter("rotten", "wormwood").build();
 
 for sign, plank in WoodUtil.asPair(signs, planks) {
-    craftingTable.removeByName(sign.toString());
-
+    if sign.getNamespace() == "sullysmod" {
+        craftingTable.removeByName("sullysmod:crafting/" + sign.getPath());
+    }
+    else {
+        craftingTable.removeByName(sign);
+    }
+    
     val signItem = <item:${sign}>;
     val plankItem = <item:${plank}>;
 

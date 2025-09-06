@@ -47,6 +47,7 @@ public class WoodUtil {
     public static val rotten = new ResourceLocation("spawn", "rotten") as ResourceLocation;
     public static val wormwood = new ResourceLocation("dungeonsdelight", "wormwood") as ResourceLocation;
     public static val claret = new ResourceLocation("netherexp", "claret") as ResourceLocation;
+    public static val petrified = new ResourceLocation("sullysmod", "petrified") as ResourceLocation;
 
 
     public static val vanilla_wood = [oak, spruce, birch, jungle, acacia, dark_oak, mangrove, cherry, bamboo, warped, crimson] as ResourceLocation[];
@@ -54,7 +55,7 @@ public class WoodUtil {
     public static val abnormals_wood = [willow, plum, wisteria, poise, pine, rosewood, morado, yucca, kousa, aspen, grimwood, laurel, maple, driftwood,
         river, azalea, vessel, mushroom, fir, holly, chestnut] as ResourceLocation[];
 
-    public static val other_modded_wood = [pewen, thornwood, rotten, claret, wormwood] as ResourceLocation[];
+    public static val other_modded_wood = [pewen, thornwood, rotten, claret, wormwood, petrified] as ResourceLocation[];
 
     public static val alexs_caves = [pewen, thornwood] as ResourceLocation[];
 
@@ -161,7 +162,6 @@ public class WoodUtil {
 
         for list, modid in special_modids {
             if path in list {
-                println("sex. " + list.toString() + " " +  modid);
 
                 if modid == "everycomp" {
                     var prefix = toECPrefix(new_modid); 

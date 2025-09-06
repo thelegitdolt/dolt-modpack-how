@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " # ",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "windswept:pine",
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      },
+      "type": "moonlight:block_type_swap"
+    },
+    "X": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "windswept:pine",
+      "ingredient": {
+        "tag": "forge:glass/colorless"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "result": {
+    "item": "everycomp:c/windswept/pine_window",
+    "count": 2
+  },
+  "show_notification": true
+}

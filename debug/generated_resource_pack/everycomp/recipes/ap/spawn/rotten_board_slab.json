@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "spawn:rotten",
+      "ingredient": {
+        "item": "architects_palette:oak_boards"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "result": {
+    "item": "everycomp:ap/spawn/rotten_board_slab",
+    "count": 6
+  },
+  "show_notification": true
+}

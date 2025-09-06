@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "atmospheric:yucca",
+      "ingredient": {
+        "item": "create:oak_window"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "result": {
+    "item": "everycomp:c/atmospheric/yucca_window_pane",
+    "count": 16
+  },
+  "show_notification": true
+}

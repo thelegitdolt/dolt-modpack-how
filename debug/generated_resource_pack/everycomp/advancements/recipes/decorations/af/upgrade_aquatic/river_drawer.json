@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "everycomp:af/upgrade_aquatic/river_drawer"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": null,
+        "items": [
+          {
+            "items": [
+              "upgrade_aquatic:river_planks"
+            ],
+            "count": null,
+            "durability": null,
+            "nbt": null
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": null,
+        "recipe": "everycomp:af/upgrade_aquatic/river_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item",
+      "has_the_recipe"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,47 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": "wooden_beehives",
+          "type": "woodworks:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "group": "wooden_beehive",
+        "pattern": [
+          "###",
+          "HHH",
+          "###"
+        ],
+        "key": {
+          "#": {
+            "block_type": "wood_type",
+            "from": "minecraft:spruce",
+            "to": "architects_palette:twisted",
+            "ingredient": {
+              "item": "minecraft:spruce_planks"
+            },
+            "type": "moonlight:block_type_swap"
+          },
+          "H": {
+            "block_type": "wood_type",
+            "from": "minecraft:spruce",
+            "to": "architects_palette:twisted",
+            "ingredient": {
+              "item": "minecraft:honeycomb"
+            },
+            "type": "moonlight:block_type_swap"
+          }
+        },
+        "result": {
+          "item": "everycomp:abnww/architects_palette/twisted_beehive"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

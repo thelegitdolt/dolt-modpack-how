@@ -1,3 +1,8 @@
 {
-  "block.netherexp.soul_candle": "Ecto Soul Candle"
+  "block.netherexp.soul_candle": "Ecto Soul Candle",
+
+  "block.netherexp.polished_basalt_bricks": "Smooth Basalt Bricks",
+  "block.netherexp.polished_basalt_brick_slab": "Smooth Basalt Brick Slab",
+  "block.netherexp.polished_basalt_brick_stairs": "Smooth Basalt Brick Stairs",
+  "block.netherexp.polished_basalt_brick_wall": "Smooth Basalt Brick Wall"
 }

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "shutters",
+  "pattern": [
+    "SS",
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "environmental:willow",
+      "ingredient": {
+        "item": "minecraft:oak_slab"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "result": {
+    "item": "everycomp:af/environmental/willow_shutter",
+    "count": 4
+  },
+  "show_notification": true
+}

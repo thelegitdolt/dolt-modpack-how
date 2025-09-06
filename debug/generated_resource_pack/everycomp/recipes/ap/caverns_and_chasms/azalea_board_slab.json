@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "block_type": "wood_type",
+      "from": "minecraft:oak",
+      "to": "caverns_and_chasms:azalea",
+      "ingredient": {
+        "item": "architects_palette:oak_boards"
+      },
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "result": {
+    "item": "everycomp:ap/caverns_and_chasms/azalea_board_slab",
+    "count": 6
+  },
+  "show_notification": true
+}

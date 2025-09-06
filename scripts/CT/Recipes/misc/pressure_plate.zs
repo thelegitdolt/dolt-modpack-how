@@ -8,7 +8,13 @@ import crafttweaker.api.recipe.type.CraftingRecipe;
 for i, p in WoodUtil.asPair(
     WoodList.create("minecraft", str => str + "_pressure_plate").moddedOriginal().filter("rotten").build(), 
     WoodList.create("minecraft", str => str + "_planks").moddedOriginal().filter("rotten").build()) {
-    craftingTable.removeByName(i);
+    if i.getNamespace() == "sullysmod" {
+        craftingTable.removeByName("sullysmod:crafting/" + i.getPath());
+    }
+    else {
+        craftingTable.removeByName(i);
+    }
+    
     val pressureplate = <item:${i}>;
     val planks = <item:${p}>;
 

@@ -7,6 +7,7 @@ DebugUtil.startScript("recipes/dungeonsdelight/better_gunk_wormroot_rates");
 
 RUtil.cut.removeByName("farmersdelight:cutting/gunk");
 
+craftingTable.removeByName("dungeonsdelight:wormwood_planks_from_wormroots");
 craftingTable.removeByName("dungeonsdelight:stick_from_wormroots");
 craftingTable.removeByName("dungeonsdelight:wormroots_block");
 

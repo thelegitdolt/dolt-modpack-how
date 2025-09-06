@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": {
+      "item": "alexscaves:ancient_leaves"
+    },
+    "W": {
+      "tag": "minecraft:jungle_logs"
+    }
+  },
+  "result": {
+    "item": "everycomp:q/alexscaves/ancient_hedge",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "hedges"
+    }
+  ]
+}

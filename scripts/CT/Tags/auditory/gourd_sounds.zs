@@ -1,6 +1,6 @@
 DebugUtil.startScript("/Tags/auditory/gourd_sounds.zs/"); 
     
-
+ # sorrowgourds
 var gourds = [
     "farmersdelight:stuffed_pumpkin_block",
     "autumnity:soul_jack_o_lantern",

@@ -73,6 +73,11 @@ as string[];
         stoneCutter.remove(new IIngredientList(alls.map<IIngredient>(item => <item:${item}>)));
     }
 
+    public static removeCraftingAndStonecutter(alls as string[]) as void {
+        removeStonecutter(alls);
+        removeAll(alls);
+    }
+
     public static removeAllOf(alls as string[], recipeManager as IRecipeManager<Recipe<Container>>) as void {
         recipeManager.remove(new IIngredientList(alls.map<IIngredient>(item => <item:${item}>)));
     }
