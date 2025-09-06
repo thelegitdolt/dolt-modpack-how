@@ -37,16 +37,16 @@
 	requires_lead = true
 	#Slot for a lead will be added to horse inventory menu. Default: true
 	#If disabled, Lead should be added by Sneak+Right-Clicking a Horse with an item. Default: true
-	lead_slot = true
+	lead_slot = false
 
 [misc]
 	#Right-clicking a Mule, Donkey or Llama that has chest with shears will remove the chest and drop its items. Default: true
-	shears_remove_chest = true
+	shears_remove_chest = false
 	#Additional block breaking speed added when mounted. Set to 0 for vanilla behavior. Default 5 (regular breaking speed (same as without a mount)).
 	#Range: 0.0 ~ 5.0
 	mounted_block_break_speed_modifier = 5.0
 	#Horse-type mobs are able to fit in boats. Default: true.
-	horse_fits_in_boat = true
+	horse_fits_in_boat = false
 	#Using Saddle on untamed horse-type mob while in creative mode tames it instantly. Default: true.
 	horse_creative_taming = true
 

@@ -1,7 +1,7 @@
 #If Lead slot is disabled, but lead is still required for hitching, indication of whether the Lead is equipped will be rendered in Horse inventory screen. Default: true
 render_lead_indication_without_slot = true
 #Adjusts gui to render hunger bar, xp bar and xp level. Makes horse jump bar render only when jumping. Default: true
-improved_mount_gui = true
+improved_mount_gui = false
 #Fixes small delay when moving camera horizontally while mounted - MC-259512. Default: true
 fix_mounted_camera_lag = true
 #Prevents horse jump meter from filling up when mount is in the water. Default: true
