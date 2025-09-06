@@ -406,9 +406,6 @@
 			snail_shell_tile = true
 			rotten = true
 
-		[types.cut_block_type.goated]
-			thatch = true
-
 		[types.cut_block_type.netherexp]
 			soul_slate = true
 			soul_slate_brick = true

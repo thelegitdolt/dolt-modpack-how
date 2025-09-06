@@ -32,7 +32,7 @@
 	#"minecraft:grass_block[snowy=true]" = 100
 	#"minecraft:.*_planks" = 100
 	[blocks_and_blockstates.destroy_time]
-		test = 0.0
+		"ditr:obsidian_diamond_ore" = 25
 
 	#Set the tool requirement of a block (state). Must be true or false. Examples (without the leading #):
 	#"minecraft:diamond_ore" = false
@@ -92,10 +92,11 @@
 		"minecraft:netherrack" = false
 		"minecraft:crimson_nylium" = false
 		"minecraft:warped_nylium" = false
-		"quark:shale" = false
+		"windswept:shale" = false
+		"windswept:shale_slab" = false
+		"windswept:shale_stairs" = false
+		"windswept:shale_wall" = false
 		"quark:jasper" = false
-		"quark:shale_slab" = false
-		"quark:shale_stairs" = false
 		"minecraft:tuff" = false
 		"caverns_and_chasms:tuff_stairs" = false
 		"caverns_and_chasms:tuff_slab" = false
