@@ -72,7 +72,7 @@
 	black_icicle_freeze_ticks = 500
 	#Forcefully disables stack size changes on Potions & Antidotes 
 	#Turn this on in-case you want the vanilla stack sizes for potions
-	force_disable_potion_stack_size = false
+	force_disable_potion_stack_size = true
 	#How many bullets will be shot when a Shotgun Fist is fired
 	shotgun_fist_bullets = 25
 	#How many bullets will be shot when a Pump-Charge Shotgun is fired

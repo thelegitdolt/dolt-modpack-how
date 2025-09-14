@@ -163,7 +163,7 @@
 		#Disable/enable frostmaws healing while asleep
 		heals_out_of_battle = true
 		#Allow players to steal frostmaws' ice crystals (only using specific means!)
-		stealable_ice_crystal = true
+		stealable_ice_crystal = false
 		#Disable/enable frostmaws resetting health when a player respawns nearby. (Prevents respawn cheese!)
 		reset_health_when_respawn = true
 
