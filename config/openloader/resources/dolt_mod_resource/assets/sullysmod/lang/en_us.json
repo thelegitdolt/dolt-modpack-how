@@ -1,0 +1,12 @@
+{  
+  "entity.sullysmod.lanternfish": "Cave Bream",
+  "item.sullysmod.cooked_lanternfish": "Cooked Cave Bream",
+  "item.sullysmod.lanternfish": "Raw Cave Bream",
+  "item.sullysmod.lanternfish_bucket": "Bucket of Cave Bream",
+  "item.sullysmod.lanternfish_spawn_egg": "Cave Bream Spawn Egg",
+  "subtitles.entity.lanternfish.death": "Cave Bream dies",
+  "subtitles.entity.lanternfish.flop": "Cave Bream flops",
+  "subtitles.entity.lanternfish.hurt": "Cave Bream hurts",
+
+  "block.sullysmod.jade_flinger_totem": "Flinger"
+}

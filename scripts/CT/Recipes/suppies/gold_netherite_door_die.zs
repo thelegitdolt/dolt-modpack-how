@@ -7,6 +7,6 @@ val stuff_to_die =
     "supplementaries:gold_door"];
 
 RUtil.removeAll(stuff_to_die);
-HUtil.hideAll(stuff_to_die);
+HUtil.hideAll(stuff_to_die); 
 
 DebugUtil.endScript("recipes/suppies/gold_gate_remove"); 

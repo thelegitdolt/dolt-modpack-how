@@ -1,41 +1,4 @@
-{  
-  "item.brewinandchewin.bloody_mary": "Red Snapper",
-
-  "item.quark.moss_paste": "Cactus Paste",
-
-  "block.create.speedometer": "Contraption Speedometer",
-  "block.create.stressometer": "Contraption Stressometer",
-
+{
   "filled_map.ancient_city": "Ancient City Explorer Map",
-  "filled_map.spectralibur_chamber": "Spectralibur Chamber Explorer Map",
-
-  "block.caverns_and_chasms.flint_block": "Flint Nodule",
-
-  "entity.sullysmod.lanternfish": "Cave Bream",
-  "item.sullysmod.cooked_lanternfish": "Cooked Cave Bream",
-  "item.sullysmod.lanternfish": "Raw Cave Bream",
-  "item.sullysmod.lanternfish_bucket": "Bucket of Cave Bream",
-  "item.sullysmod.lanternfish_spawn_egg": "Cave Bream Spawn Egg",
-  "subtitles.entity.lanternfish.death": "Cave Bream dies",
-  "subtitles.entity.lanternfish.flop": "Cave Bream flops",
-  "subtitles.entity.lanternfish.hurt": "Cave Bream hurts",
-
-  "block.sullysmod.jade_flinger_totem": "Flinger",
-  
-  "effect.alexscaves.sugar_rush": "Sugar Dream",
-  "item.minecraft.potion.effect.sugar_rush": "Potion of Sugar Dream",
-  "item.minecraft.potion.effect.long_sugar_rush": "Potion of Sugar Dream",
-  "item.minecraft.splash_potion.effect.sugar_rush": "Splash Potion of Sugar Dream",
-  "item.minecraft.splash_potion.effect.long_sugar_rush": "Splash Potion of Sugar Dream",
-  "item.minecraft.tipped_arrow.effect.sugar_rush": "Arrow of Sugar Dream",
-  "item.minecraft.tipped_arrow.effect.long_sugar_rush": "Arrow of Sugar Dream",
-  "item.minecraft.lingering_potion.effect.sugar_rush": "Lingering Potion of Sugar Dream",
-  "item.minecraft.lingering_potion.effect.long_sugar_rush": "Lingering Potion of Sugar Dream",
-  "advancements.alexscaves.sugar_rush.title": "Sweet Sweet Speeding Up",
-  "advancements.alexscaves.sugar_rush.desc": "Obtain the Sugar Dream effect from eating too many sweets",
-  "alexscaves.sound.subtitle.sugar_rush_enter": "Sugar Dream activates",
-  "alexscaves.sound.subtitle.sugar_rush_exit": "Sugar Dream deactivates",
-  "alexscaves.sound.subtitle.sugar_rush_loop": "Sugar Dream shimmers",
-
-  "item.alexscaves.cave_map": "Biome Map"
+  "filled_map.spectralibur_chamber": "Spectralibur Chamber Explorer Map"
 }

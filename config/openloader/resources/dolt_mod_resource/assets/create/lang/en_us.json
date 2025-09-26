@@ -1,5 +1,8 @@
 {
   "block.create.andesite_ladder": "Iron Ladder",
   
-  "item.create.wrench": "Mechanical Adjustor"
+  "item.create.wrench": "Mechanical Adjustor",
+
+  "block.create.speedometer": "Contraption Speedometer",
+  "block.create.stressometer": "Contraption Stressometer"
 }
