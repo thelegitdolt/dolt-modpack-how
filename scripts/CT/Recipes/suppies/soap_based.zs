@@ -3,7 +3,7 @@ DebugUtil.startScript("/Recipes/suppies/soap_based.zs/");
 
 craftingTable.removeByName("supplementaries:soap");
 
-craftingTable.addShapeless("soap_epic_based", <item:supplementaries:soap> * 2, [<item:minecraft:honeycomb>, <item:minecraft:charcoal>]);
+craftingTable.addShapeless("soap_epic_based", <item:supplementaries:soap> * 6, [<item:minecraft:honeycomb>, <item:minecraft:charcoal>]);
 
 
 
