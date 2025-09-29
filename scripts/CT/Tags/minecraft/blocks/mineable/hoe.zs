@@ -31,6 +31,8 @@ function add(hi as string[]) as void {
         <tag:blocks:minecraft:mineable/hoe>.add(<block:${hello}>);
     }
 }
+
+<tag:blocks:minecraft:mineable/hoe>.add(<block:minecraft:cocoa>);
  
 
 

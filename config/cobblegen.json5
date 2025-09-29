@@ -1,5 +1,23 @@
 {
 	"formatVersion": "1.0",
+	"advanced": {
+		"minecraft:lava": {
+			"minecraft:water": {
+				"b:netherexp:quartz_crystal_block": {
+					"b:minecraft:diorite": {
+						"results": {
+							"*": [ 
+								{
+									"id": "minecraft:granite",
+									"weight": 100.0,
+								}
+							]
+						}	
+					}
+				}	
+			}
+		}
+	},
 	"cobbleGen": [
 		{
 			"id": "minecraft:cobblestone",
@@ -17,81 +35,30 @@
 			"id": "minecraft:stone",
 			"weight": 100.0,
 		},
-	],
-	"basaltGen": [
 		{
-			"id": "minecraft:basalt",
+			"id": "minecraft:deepslate",
 			"weight": 100.0,
+			"maxY": 0,
 		},
 	],
 	"customGen": {
 		"cobbleGen": {
-			"minecraft:bedrock": [
-				{
-					"id": "minecraft:emerald_ore",
-					"weight": 2.0,
-				},
-				{
-					"id": "minecraft:diamond_ore",
-					"weight": 5.0,
-				},
-				{
-					"id": "minecraft:lapis_ore",
-					"weight": 8.0,
-				},
-				{
-					"id": "minecraft:gold_ore",
-					"weight": 10.0,
-				},
-				{
-					"id": "minecraft:iron_ore",
-					"weight": 15.0,
-				},
-				{
-					"id": "minecraft:coal_ore",
-					"weight": 20.0,
-				},
-				{
-					"id": "minecraft:cobblestone",
-					"weight": 80.0,
-				},
-			],
-		},
-		"stoneGen": {
-			"minecraft:bedrock": [
-				{
-					"id": "minecraft:stone",
-					"weight": 40.0,
-				},
+			"netherexp:quartz_crystal_block": [
 				{
 					"id": "minecraft:diorite",
-					"weight": 20.0,
-				},
-				{
-					"id": "minecraft:andesite",
-					"weight": 20.0,
-				},
-				{
-					"id": "minecraft:granite",
-					"weight": 20.0,
+					"weight": 100,
 				},
 			],
-		},
-		"basaltGen": {
-			"minecraft:bedrock": [
+			"oreganized:raw_lead_block": [
 				{
-					"id": "minecraft:end_stone",
-					"weight": 100.0,
-					"dimensions": [
-						"minecraft:the_end",
-					],
+					"id": "oreganized:glance",
+					"weight": 100,
 				},
+			],
+			"minecraft:diorite": [
 				{
-					"id": "minecraft:blackstone",
-					"weight": 100.0,
-					"excludedDimensions": [
-						"minecraft:overworld",
-					],
+					"id": "minecraft:andesite",
+					"weight": 100,
 				},
 			],
 		},

@@ -6,7 +6,6 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.resource.ResourceLocation;
 
 function nuggie_four_create(material as string, nug as IItemStack, ing as IItemStack, nugget_recipe as string, ingot_recipe as string) as void{
-
     craftingTable.removeByName(nugget_recipe);
     craftingTable.removeByName(ingot_recipe);
 
@@ -49,6 +48,14 @@ nuggie_four_create("brass", <item:create:brass_nugget>, <item:create:brass_ingot
     "create:crafting/materials/brass_nugget_from_decompacting", "create:crafting/materials/zinc_ingot_from_compacting");
 
 
+general("minecraft:stained_scrap_from_fragment", "dungeonsdelight:stained_scrap_from_stained_scrap", <item:dungeonsdelight:stained_scrap>, <item:dungeonsdelight:stained_scrap_fragment>, "stained_scrap");
+
+function general(a as string, b as string, ing as IItemStack, nug as IItemStack, name as string) as void {
+    craftingTable.removeByName(a);
+    craftingTable.removeByName(b);
+    RUtil.oneToOneConversion(name + "_ingot_to_nugs", ing, nug, 4);
+    RUtil.twoByTwo(name + "nugs_to_ing", nug, ing, 1);
+}
 
 function lanterns_okay(modid as string, lantern as string, torch as IIngredient) as void{
     craftingTable.removeByName(modid + ":" + lantern + "lantern");
@@ -83,6 +90,12 @@ lanterns_okay("minecraft", "", <item:minecraft:torch>);
 lanterns_okay("minecraft", "soul_", <item:minecraft:soul_torch>);
 lanterns_okay("endergetic", "ender_", <item:endergetic:ender_torch>);
 lanterns_okay("caverns_and_chasms", "cupric_", <item:caverns_and_chasms:cupric_torch>);
+
+craftingTable.removeByName("dungeonsdelight:living_lantern");
+craftingTable.addShaped("living_lantern_good", <item:dungeonsdelight:living_lantern>, [
+    [<item:dungeonsdelight:stained_scrap_fragment>], [<item:dungeonsdelight:living_torch>],[<item:dungeonsdelight:stained_scrap_fragment>]
+]);
+
 
 
 cheapen_gold_food("minecraft:carrot", "minecraft:golden_carrot"); 

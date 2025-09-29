@@ -6,7 +6,7 @@ craftingTable.removeByName("minecraft:recovery_compass");
 
 craftingTable.addShaped("recovery_compass_good", <item:minecraft:recovery_compass>, [
     [RUtil.air, bone, RUtil.air],
-    [bone, <item:minecraft:compass>, bone],
+    [bone, <item:minecraft:spider_eye>, bone],
     [RUtil.air, bone, RUtil.air]
 ]);
 
