@@ -1,0 +1,14 @@
+{
+  "textures":{
+    "texture":"#texture"
+  },
+  "elements":[
+    {
+      "from":[0,0,11],
+      "to":[0,8,16],
+      "faces":{
+        "west":{"uv":[11,8,16,16],"texture":"#texture","cullface":"west"}
+      }
+    }
+  ]
+}

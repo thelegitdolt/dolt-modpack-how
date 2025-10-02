@@ -5,6 +5,7 @@ val coppers = [
     "create:copper_scaffolding",
     "create:copper_casing",
     "supplementaries:cog_block",
+    "alexscaves:enigmatic_engine",
     "create:hose_pulley"
 ];
 

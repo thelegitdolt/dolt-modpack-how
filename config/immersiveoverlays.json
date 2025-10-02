@@ -1,38 +1,96 @@
 {
   "compass_enable": true,
-  "compass_vertical_position": 105,
-  "compass_items": [
+  "compass_vertical_position": 140,
+  "compass_horizontal_position_left": false,
+  "compass_x_colour": "Red",
+  "compass_y_colour": "Green",
+  "compass_z_colour": "Blue",
+  "compass_x_items": [
     "minecraft:compass",
     "minecraft:recovery_compass",
-    "spelunkery:magnetic_compass"
+    "spelunkery:magnetic_compass",
+    "firmaciv:nav_clock",
+    "firmaciv:firmaciv_compass"
   ],
-  "compass_depth_items": [
+  "compass_y_items": [
     "spelunkery:depth_gauge",
     "caverns_and_chasms:depth_gauge",
     "additionaladditions:depth_meter",
     "supplementaries:altimeter",
     "depthmeter:depthmeter"
   ],
-  "compass_hide_when_similar_mods_present": true,
-  "compass_x_colour": "Red",
-  "compass_y_colour": "Green",
-  "compass_z_colour": "Blue",
+  "compass_z_items": [
+    "firmaciv:sextant"
+  ],
   "clock_enable": true,
+  "clock_current_time": true,
+  "clock_day_count": false,
+  "clock_24_hour": true,
   "clock_vertical_position": 90,
+  "clock_horizontal_position_left": false,
   "clock_items": [
     "minecraft:clock"
   ],
   "clock_weather_items": [
-    "caverns_and_chasms:barometer"
+    "caverns_and_chasms:barometer",
+    "firmaciv:barometer"
   ],
-  "clock_24_hour": true,
+  "avoid_overlapping": true,
+  "moved_by_effects": true,
+  "require_item": true,
   "require_item_in_hand": false,
   "search_containers": true,
+  "search_containers_for_containers": true,
   "render_background": true,
-  "align_left": false,
-  "moved_by_effects": true,
+  "hide_from_debug": true,
   "compat_playerlocatorplus": true,
   "compat_xaeros": true,
   "compat_map_atlases": false,
-  "compat_accessorify": true
+  "compat_accessorify": true,
+  "compat_oreganized_temperature": true,
+  "compat_tough_as_nails_temperature": true,
+  "compat_cold_sweat_temperature": true,
+  "compat_seasons": true,
+  "biome_enable": true,
+  "biome_icons": true,
+  "biome_reduced_info": false,
+  "biome_text_tinted": true,
+  "biome_vertical_position": 112,
+  "biome_horizontal_position_left": false,
+  "biome_items": [
+    "minecraft:map",
+    "minecraft:empty_map",
+    "map_atlases:atlas",
+    "map_atlases:end_atlas",
+    "map_atlases:nether_atlas"
+  ],
+  "season_items": [
+    "sereneseasons:calendar",
+    "seasonsextras:season_calendar"
+  ],
+  "temperature_enable": true,
+  "temperature_icons": true,
+  "temperature_hot_colour": 16759694,
+  "temperature_cold_colour": 9371647,
+  "temperature_temperate_colour": 16777215,
+  "temperature_vertical_position": 112,
+  "temperature_horizontal_position_left": true,
+  "temperature_items": [
+    "oreganized:thermometer",
+    "toughasnails:thermometer",
+    "legendarysurvivaloverhaul:thermometer",
+    "cold_sweat:thermometer"
+  ],
+  "version": 0,
+  "compat_legendary_survival_overhaul_temperature": true,
+  "speed_enable": true,
+  "speed_vertical_position": 140,
+  "speed_horizontal_position_left": true,
+  "speed_colour": 13090689,
+  "compat_oreganized_speed": true,
+  "speed_items": [
+    "oreganized:speedometer",
+    "speedometer:speedometer"
+  ],
+  "compat_jade": false
 }

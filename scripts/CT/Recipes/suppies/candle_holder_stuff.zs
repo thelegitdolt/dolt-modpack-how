@@ -31,7 +31,6 @@ craftingTable.addShaped("ender_candle_holder_lol", <item:supplementaries:candle_
 ]); 
 
 craftingTable.removeByName("supplementaries:candle_holders/candle_holder_cupric");
-craftingTable.removeByName("supplementaries:candle_holders/candle_holder_ender");
 
 
 if (RUtil.DO_REPLACER == 1) {

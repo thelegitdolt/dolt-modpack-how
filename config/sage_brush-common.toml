@@ -45,6 +45,16 @@
 			#Feathered mobs snag chance
 			"Feathered snag chance" = 0.15
 
+		[common.entity_interactions.yak_hair_drops]
+			#Can yaks be brushed for hair instead
+			"Yaks are brushed for hair" = true
+			#Chance of yak becoming sheared when successfully brushed
+			"Yak loses fur coat from brushing chance" = 0.2
+			#Whether yaks remain unprovoked by brushing
+			"Brushing yaks always gentle" = false
+			#How many hairs drop each time when brushed
+			"Yak brush hair count" = 1
+
 	[common.block_interactions]
 		#Brushes destroy blocks in the removable tag
 		Removable = true

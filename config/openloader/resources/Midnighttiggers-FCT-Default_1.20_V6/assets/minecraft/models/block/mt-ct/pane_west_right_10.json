@@ -1,0 +1,20 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "default":{
+    "type":"is_same_block"
+  },
+  "edges":{
+    "type":"match_state",
+    "block":"minecraft:magenta_stained_glass_pane",
+    "properties":{"west":"true","north":["false","true"],"south":["false","true"],"east":["false","true"],"waterlogged":["false","true"]}
+  }
+  },
+  "parent":"minecraft:block/mt-ct/pane_west_right",
+  "textures":{
+    "pane":"minecraft:block/mt-ct/glass/10-0",
+    "edge":"minecraft:block/mt-ct/glass/10-1",
+    "edges":"minecraft:block/mt-ct/glass/10-2"
+  }
+}

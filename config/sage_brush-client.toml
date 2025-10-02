@@ -8,6 +8,8 @@
 		Molting = true
 		#Overbrushed animals gleam. A more domestic alternative to brush snags
 		"Gleaming mobs" = true
+		#Feathered mobs don't emit poof particles when brushed
+		"Just feathers" = true
 
 	[client.block_interactions]
 		#Dust particle behaviors for brushes are altered at all

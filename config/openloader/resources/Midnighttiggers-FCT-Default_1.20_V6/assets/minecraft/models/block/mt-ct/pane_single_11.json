@@ -1,0 +1,14 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "pane":{
+    "type":"is_same_state"
+  }
+  },
+  "parent":"minecraft:block/mt-ct/pane_single",
+  "textures":{
+    "pane":"minecraft:block/mt-ct/glass/11-0",
+    "edge":"minecraft:block/mt-ct/glass/11-1"
+  }
+}

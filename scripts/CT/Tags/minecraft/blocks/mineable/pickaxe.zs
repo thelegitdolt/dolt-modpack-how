@@ -6,11 +6,10 @@ DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe");
 <tag:blocks:minecraft:mineable/pickaxe>.remove(<block:minecraft:budding_amethyst>);
 
 <tag:blocks:forge:glass>.add(<tag:blocks:oreganized:crystal_glass_panes>);
-<tag:blocks:forge:glass>.add(<tag:blocks:minecraft:glass_blocks>);
-<tag:blocks:forge:glass>.add(<tag:blocks:minecraft:glass_panes>);
 <tag:blocks:forge:glass>.add(<block:netherexp:soul_glass>);
 <tag:blocks:forge:glass>.add(<block:netherexp:discernment_glass>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass>);
+<tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass_blocks>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass_panes>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_trapdoor>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_door>);

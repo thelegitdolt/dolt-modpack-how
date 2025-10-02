@@ -1,0 +1,10 @@
+{
+  "pack":{
+    "description":"Default FCT V6 1.20-1.21+",
+    "pack_format":14,
+    "supported_formats":[14,50]
+  },
+  "fusion":{
+    "min_version":"1.2.2"
+  }
+}

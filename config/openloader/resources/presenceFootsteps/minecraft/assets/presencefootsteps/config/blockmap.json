@@ -10,7 +10,8 @@
 	"autumnity:stripped_maple_log": "wood,stone",
 	"autumnity:stripped_maple_wood": "wood,stone",
 
-	
+	"nirvana:thc": "equipment",
+
 	"mowziesmobs:clawed_log": "wood,stone",
 
 	"#woodworks:leaf_piles.foliage": "NOT_EMITTER",

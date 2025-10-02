@@ -1,0 +1,11 @@
+{
+  "parent":"minecraft:block/mt-ct/pane_end_west",
+  "connections":{
+  "default":{
+    "type":"is_same_block"
+  }
+  },
+  "textures":{
+    "edge":"minecraft:block/mt-ct/glass/14-1"
+  }
+}

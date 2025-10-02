@@ -1,0 +1,13 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":[{
+    "type":"match_state",
+    "block":"minecraft:chiseled_bookshelf",
+    "properties":{"facing":"north","slot_0_occupied":["false","true"],"slot_1_occupied":["false","true"],"slot_2_occupied":["false","true"],"slot_3_occupied":["false","true"],"slot_4_occupied":["false","true"],"slot_5_occupied":["false","true"]}
+  }],
+  "parent":"minecraft:block/mt-ct/chbs_north_0",
+  "textures":{
+    "texture":"minecraft:block/mt-ct/chiseled_bookshelf/2"
+  }
+}

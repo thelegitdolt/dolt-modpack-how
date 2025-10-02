@@ -65,6 +65,9 @@
 		[types.wood_type.autumnity]
 			maple = true
 
+		[types.wood_type.sniffed_out]
+			vessel = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.atmospheric]

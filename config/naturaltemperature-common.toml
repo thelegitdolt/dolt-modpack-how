@@ -9,4 +9,14 @@ generation_mode = 0
 #Positive values will move the equator to the north, if you want the equator to be at 0 set this value the same as your equatorial_distance
 #Range: -6.0E12 ~ 6.0E12
 equator_offset = 0.0
+#Set it to true to ignore the biome distribution pattern of the surface, useful for mods that generate underground biomes like terralith
+randomize_underground = false
+#Randomize the underground below this y
+#Range: -6.0E12 ~ 6.0E12
+randomize_underground_below_y = 45.0
+#0: random (total randomness), 1: half_random (some degree of similarity with biomes on the surface)
+#Range: 0 ~ 1
+underground_randomization_type = 1
+#True will use banded world generation also in the other dimensions
+multidimensional_bands = false
 

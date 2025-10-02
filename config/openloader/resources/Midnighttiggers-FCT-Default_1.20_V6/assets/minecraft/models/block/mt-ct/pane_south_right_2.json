@@ -1,0 +1,20 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "default":{
+    "type":"is_same_block"
+  },
+  "edges":{
+    "type":"match_state",
+    "block":"minecraft:blue_stained_glass_pane",
+    "properties":{"south":"true","east":["false","true"],"north":["false","true"],"west":["false","true"],"waterlogged":["false","true"]}
+  }
+  },
+  "parent":"minecraft:block/mt-ct/pane_south_right",
+  "textures":{
+    "pane":"minecraft:block/mt-ct/glass/2-0",
+    "edge":"minecraft:block/mt-ct/glass/2-1",
+    "edges":"minecraft:block/mt-ct/glass/2-2"
+  }
+}
