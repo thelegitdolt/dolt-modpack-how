@@ -13,14 +13,14 @@ for recipe in (craftingTable.getAllRecipes() as stdlib.List<Recipe<Container>>) 
     val chiseledOrBoard = isTwoSlabsRecipe(recipe);
     if (chiseledOrBoard) {
         val path = recipe.resultItem.registryName.getPath();
-        if (!("chiseled" in path) && !("board" in path) && !isStoneCutterResult(recipe, recipe.resultItem)) {
+        if (!("chiseled" in path) && !("board" in path) && !isStoneCutterResult(recipe.resultItem)) {
         } else {
             craftingTable.removeByName(recipe.id);
         }
     }
 }
 
-function isStoneCutterResult(recipe as Recipe<Container>, item as IItemStack) as bool {
+function isStoneCutterResult(item as IItemStack) as bool {
     for recipe in (stoneCutter.getAllRecipes() as stdlib.List<Recipe<Container>>) {
         if (recipe.resultItem.asItemLike() == item.asItemLike()) {
             return true; 

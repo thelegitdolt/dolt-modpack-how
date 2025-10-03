@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:witch_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "species:wicked_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "caverns_and_chasms:mime_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "sullysmod:bouldering_zombie_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:zombie_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

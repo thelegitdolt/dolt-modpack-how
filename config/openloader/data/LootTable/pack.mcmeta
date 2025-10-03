@@ -3,5 +3,17 @@
 		"pack_format": 12,
 		"description": [{
 "text":"Dolt Loot Table Change For Entity","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
-	}
+	},
+	"filter": {
+    "block": [
+      {
+        "namespace": "windswept",
+        "path": "modifiers/loot_tables/underwater_ruin_small"            
+      },
+	  {
+        "namespace": "windswept",
+        "path": "modifiers/loot_tables/village_fisher"            
+      }
+    ]    
+  }
 }
