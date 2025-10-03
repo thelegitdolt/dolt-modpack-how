@@ -2,6 +2,7 @@ DebugUtil.startScript("recipes/suppies/bye_things");
 
 val a = [
     "supplementaries:fire_pit",
+    "supplementaries:cage",
     "supplementaries:flower_box"
 ];
 

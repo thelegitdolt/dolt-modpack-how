@@ -2,6 +2,35 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "buzzier_bees:four_leaf_clover",
+          "weight": 0,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "music_disc_13",
+          "weight": 0,
+          "quality": -1
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+
+    {
       "bonus_rolls": 1.0,
       "entries": [
         {
@@ -20,13 +49,13 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
+          "type": "item",
+          "name": "enchanted_golden_apple",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_otherside",
+          "type": "item",
+          "name": "music_disc_otherside",
           "weight": 2
         },
         {
@@ -226,6 +255,22 @@
               "function": "minecraft:set_count"
             }
           ],
+          "name": "etcetera:cotton_seeds",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:pumpkin_seeds",
           "weight": 10
         }
@@ -371,40 +416,6 @@
         {
           "type": "empty",
           "weight": 2
-        }
-      ],
-      "rolls": 1.0
-    },
-
-
-    {
-      "#comment": "clover",
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "buzzier_bees:four_leaf_clover",
-          "weight": 0,
-          "quality": 1
-        },
-        {
-          "type": "minecraft:empty"
-        }
-      ],
-      "rolls": 1.0
-    },
-
-
-    {
-      "#comment": "13",
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
-          "weight": 0,
-          "quality": -1
-        },
-        {
-          "type": "minecraft:empty"
         }
       ],
       "rolls": 1.0

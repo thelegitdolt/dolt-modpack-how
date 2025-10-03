@@ -25,7 +25,11 @@ for i in list {
 <item:minecraft:tuff>, 200);
 
 <recipetype:create:crushing>.addRecipe("warped_wart_get", 
-    [<item:netherexp:warped_wart> % 25], <item:minecraft:warped_wart_block>, 200);
+    [<item:netherexp:warped_wart> % 25], <item:minecraft:warped_wart_block>, 250);
+
+<recipetype:create:crushing>.addRecipe("cotton_to_string_and_seeds", 
+    [<item:minecraft:string>, <item:minecraft:string> * 2 % 25, <item:etcetera:cotton_seeds> % 25], <item:etcetera:cotton_flower>, 250);
+
 
 
 
