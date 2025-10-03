@@ -52,14 +52,11 @@ function isStairRecipe(recipe as Recipe<Container>) as IIngredient {
     val nine = ings[8] == firstIng;
 
     if (two && three && four && five && six && seven && eight && nine) {
-        println("DOLTENHEIM??");
         if (!("stairs" in recipe.resultItem.registryName.getPath())) {
-            println("What the fuck " + recipe.id);
             return <item:minecraft:air>;
         }
 
         if (recipe.resultItem.amount != 4) {
-            println("amogus??? " + recipe.id);
             return <item:minecraft:air>;
         }
 

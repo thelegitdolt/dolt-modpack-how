@@ -1,4 +1,4 @@
-DebugUtil.startScript("recipes/dye_depot/amber_dye_pumpkin_stuff"); 
+DebugUtil.startScript("recipes/dye_depot/ginger_dye_pumpkin_stuff"); 
 
 
 Kiln.addFurnaceAndKiln("large_pumpkin_to_ginger_dye", <item:autumnity:large_pumpkin_slice>, 
@@ -11,4 +11,4 @@ Kiln.newRecipe("pumpkin_to_ginger_dye_from_baking", <item:minecraft:pumpkin>, <i
 
 
 
-DebugUtil.endScript("recipes/dye_depot/amber_dye_pumpkin_stuff"); 
+DebugUtil.endScript("recipes/dye_depot/ginger_dye_pumpkin_stuff"); 
