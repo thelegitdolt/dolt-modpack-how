@@ -1,5 +1,5 @@
 [ADDON-DAVIJ] nest_egg-1.20.1-1.0.2.jar
-[ADDON-DOLT] dolt_mod_how-1.20.1-2.4.2-all.jar
+[ADDON-DOLT] dolt_mod_how-1.20.1-2.4.3-all.jar
 [ADDON-PERFORMANCE] create_lt-1.0.1-forge-mc1.20.1.jar
 [ADDON-PERFORMANCE] rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar
 [ADDON-TOOL] CreateTweaker-forge-1.20.1-4.0.15.jar
@@ -74,7 +74,7 @@
 [DAVIJ] gravity_gourds-1.20.1-2.0.1.jar
 [DAVIJ] sage_brush-1.20.1-1.1.1-all.jar
 [DAVIJ] sneaky_link-1.20.1-2.1.0.jar
-[DOLT] easel_does_it-1.20.1-1.0.7-all.jar
+[DOLT] easel_does_it-1.20.1-1.0.8-all.jar
 [MINOR] AirHop-v8.0.2-1.20.1-Forge.jar
 [MINOR] CombatNouveau-v8.0.5-1.20.1-Forge.jar
 [MINOR] DeathKnell-Forge-1.20.1-10.0.4.jar

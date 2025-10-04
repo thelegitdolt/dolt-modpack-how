@@ -131,9 +131,9 @@
 	["John Species".Crankbow]
 		#The stack size crankbows should have. The formula for the capacity of crankbows is stack size * 2 + capacity enchantment level * stack size.
 		#This is for if you use a mod like Bigger Stacks to change the stack size
-		"Crankbow stack size " = 100
+		"Crankbow stack size " = 64
 
 	["John Species"."Combustion Effect"]
-		#If explosions caused by mobs that die with the Species Combustion effect should not any blcks
+		#If explosions caused by mobs that die with the Species Combustion effect should not any blocks
 		"Less combusty combustion" = true
 
