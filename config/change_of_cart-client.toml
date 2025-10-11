@@ -1,0 +1,21 @@
+
+[client]
+	#Whether waxing a cart muffles it or not
+	"Waxing muffles" = true
+	#Whether carts are muffled by riding on the minecart_mufflers blocktag
+	"Blocks muffle" = true
+	#Percent reduction of muffled minecart sound. Higher the number, quieter the muffled cart
+	#Range: 0.0 ~ 1.0
+	"Muffled minecart sound reduction percentage" = 0.8
+	#How loud minecarts can be in general, ridden or not
+	#Range: 0.0 ~ 0.75
+	"Max minecart volume" = 0.75
+	#Waxed carts on minecart_mufflers are completely silent
+	"Muffling properties stack" = false
+	#In vanilla, minecarts are *much* louder for the rider. This noise multiplier counters this when the cart is muffled. Disabled by default, as a multiplier of 1 does nothing.
+	#Range: 0.0 ~ 1.0
+	"Rider quiet muffle multiplier" = 1.0
+	#Alternatively, counter loudness for riders in general; makes for smoother transitions.
+	#Range: 0.0 ~ 1.0
+	"Rider quiet multiplier" = 0.8
+

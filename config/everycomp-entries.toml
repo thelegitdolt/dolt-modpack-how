@@ -68,6 +68,9 @@
 		[types.wood_type.sniffed_out]
 			vessel = true
 
+		[types.wood_type.dungeonsdelight]
+			wormwood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.atmospheric]
@@ -668,6 +671,11 @@
 
 		[types.cut_block_type.dolt_mod_how]
 			zinc_brick = true
+
+		[types.cut_block_type.stoneveil]
+			stone_bricks_tile = true
+			cracked_stone_bricks_tile = true
+			mossy_stone_bricks_tile = true
 
 	[types.cake]
 

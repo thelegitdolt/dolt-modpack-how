@@ -1,0 +1,55 @@
+
+[nirvana]
+
+	[nirvana.smoking]
+		#number of uses after which smoking causes nausea
+		#Range: -1 ~ 256
+		nauseaAfterHits = 3
+		#number of uses after which smoking causes hunger
+		#Range: -1 ~ 256
+		hungerAfterHits = 5
+		#number of uses after which smoking causes reefers to spawn
+		#Range: -1 ~ 256
+		reeferAfterHits = 3
+		#chance of a reefer spawning
+		#Range: 0.0 ~ 1.0
+		reeferSpawnChance = 0.5
+		#whether fake players like dispensers or create's deployers are allowed to smoke joint & co.
+		allowFakePlayers = true
+
+		#Joint
+		[nirvana.smoking.joint]
+			#radius around the user within entities will also get the peace effect
+			#Range: 0.0 ~ 32.0
+			radius = 15.0
+			#number of seconds the peace effect from a joint lasts
+			#Range: 1 ~ 3600
+			peaceSeconds = 20
+
+		#Bong
+		[nirvana.smoking.bong]
+			#radius around the user within entities will also get the effect from a bong
+			#Range: 0.0 ~ 32.0
+			radius = 15.0
+			#number of seconds the peace effect from a normal bong lasts
+			#Range: 1 ~ 3600
+			peaceSeconds = 30
+			#(ADVANCED) when on, translations for potion bongs are dynamically generated, allowing support for modded potions.
+			#If disabled, falls back to the default translations as provided in the language file (for example en_us.json).
+			generateTranslations = true
+
+	[nirvana.brownies]
+		#number of seconds the peace effect from a brownie lasts
+		#Range: 1 ~ 3600
+		peaceSeconds = 40
+
+	[nirvana.herbal_salve]
+		#how much longer herbal salve effects last in comparison to the suspicious soup equivalent (3 => 3x times)
+		#Range: 1 ~ 10
+		factor = 3
+
+	[nirvana.suspicious_pipe]
+		#how much longer suspicious pipe effects last in comparison to the suspicious soup equivalent (4 => 4x times)
+		#Range: 1 ~ 10
+		factor = 4
+

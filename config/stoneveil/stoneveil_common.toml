@@ -1,0 +1,50 @@
+
+["Grumblo Settings"]
+
+	["Grumblo Settings"."General Behavior"]
+		#If true, Grumblo entities will flee from players holding pickaxes.
+		fleePickaxe = true
+		#If true, right-clicking a Grumblo with a pickaxe converts it to a Pocket Grumblo.
+		pickaxeToPocket = true
+
+	["Grumblo Settings"."Sit Behavior"]
+		#If true, Grumblo entities can sit randomly when idle.
+		canSit = true
+		#Minimum cooldown (in ticks) before a Grumblo can sit again. 20 ticks = 1 second.
+		#Range: 20 ~ 1000
+		sitCooldownMin = 200
+		#Maximum cooldown (in ticks) before a Grumblo can sit again.
+		#Range: 20 ~ 2000
+		sitCooldownMax = 400
+		#Probability per tick that a Grumblo will decide to sit when idle.
+		#Range: 0.0 ~ 0.1
+		sitProbability = 0.005
+
+	["Grumblo Settings"."Scare Behavior"]
+		#If true, Grumblo entities will attempt to scare certain targets.
+		scareTarget = true
+		#Probability per tick that a Grumblo will attempt to scare nearby mobs.
+		#Range: 0.0 ~ 0.1
+		scareFrequency = 0.01
+		#Duration (in ticks) of the Grumblo's scare behavior.
+		#Range: 20 ~ 600
+		scareDuration = 300
+		#Maximum distance (in blocks) at which a Grumblo can scare a target.
+		#Range: 2.0 ~ 16.0
+		scareMaxDistance = 8.0
+
+	["Grumblo Settings"."Water Damage"]
+		#Time (in ticks) a Grumblo can stay in water before taking damage.
+		#Range: 20 ~ 1200
+		waterDamageThreshold = 300
+		#Interval (in ticks) at which a Grumblo takes damage in water after the threshold.
+		#Range: 10 ~ 200
+		waterDamageInterval = 40
+
+	["Grumblo Settings"."Helmet Pickup"]
+		#If true, Grumblo entities can pick up helmets.
+		helmetPickup = true
+		#Cooldown (in ticks) after shearing before a Grumblo can pick up another helmet.
+		#Range: 10 ~ 200
+		helmetPickupCooldown = 20
+
