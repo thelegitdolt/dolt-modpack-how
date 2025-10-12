@@ -1,0 +1,72 @@
+{
+    "toggle": {
+      "density": {
+        "type": "minecraft:interpolated",
+        "argument": {
+          "type": "minecraft:range_choice",
+          "input": "minecraft:y",
+          "min_inclusive": -60,
+          "max_exclusive": 51,
+          "when_in_range": {
+            "type": "minecraft:noise",
+            "noise": "custom_ore_veins_example:ore_veininess_coal_redstone",
+            "xz_scale": 1.5,
+            "y_scale": 1.5
+          },
+          "when_out_of_range": 0
+        }
+      },
+      "min_value": 0.4,
+      "min_y": -64,
+      "max_y": 0
+    },
+    "ridged": {
+      "density": {
+        "type": "minecraft:add",
+        "argument1": -0.08,
+        "argument2": {
+          "type": "minecraft:max",
+          "argument1": {
+            "type": "minecraft:abs",
+            "argument": {
+              "type": "minecraft:interpolated",
+              "argument": {
+                "type": "minecraft:range_choice",
+                "input": "minecraft:y",
+                "min_inclusive": -60,
+                "max_exclusive": 51,
+                "when_in_range": {
+                  "type": "minecraft:noise",
+                  "noise": "custom_ore_veins_example:ore_vein_coal_redstone_a",
+                  "xz_scale": 4,
+                  "y_scale": 4
+                },
+                "when_out_of_range": 0
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:abs",
+            "argument": {
+              "type": "minecraft:interpolated",
+              "argument": {
+                "type": "minecraft:range_choice",
+                "input": "minecraft:y",
+                "min_inclusive": -60,
+                "max_exclusive": 51,
+                "when_in_range": {
+                  "type": "minecraft:noise",
+                  "noise": "custom_ore_veins_example:ore_vein_coal_redstone_b",
+                  "xz_scale": 4,
+                  "y_scale": 4
+                },
+                "when_out_of_range": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "ore": "deepslate_redstone_ore",
+    "stone": "smooth_basalt"
+}
