@@ -1,4 +1,5 @@
 {
 	"atmospheric:block.arid_glass.step": "glass,sand",
-	"atmospheric:block.arid_sandstone.step": "sand,stone"
+	"atmospheric:block.arid_sandstone.step": "sand,stone",
+	"atmospheric:block.carmine.step": "crumblystone"
 }

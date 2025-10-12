@@ -741,7 +741,7 @@
 		#Can you craft four chests at once using logs?
 		"Logs To Chests" = false
 		#Can Coral be crafted into dye?
-		"Coral To Dye" = true
+		"Coral To Dye" = false
 		#Can cookies, paper, and bread be crafted in a 2x2 crafting table?
 		"Bent Recipes" = false
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
