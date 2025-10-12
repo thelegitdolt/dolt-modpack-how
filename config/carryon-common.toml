@@ -59,7 +59,7 @@
 	#Entities that CAN be picked up (useWhitelistEntities must be true)
 	allowedEntities = []
 	#Blocks that CAN be picked up (useWhitelistBlocks must be true)
-	allowedBlocks = ["#forge:chests", "minecraft:barrel", "#dolt_modpack_how:cabinets", "alexscaves:metal_barrel", "minecraft:spawner"]
+	allowedBlocks = ["#forge:chests", "#dolt_modpack_how:cabinets", "minecraft:barrel",  "alexscaves:metal_barrel", "alexscaves:rusty_barrel"]
 	#Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)
 	allowedStacking = []
 
