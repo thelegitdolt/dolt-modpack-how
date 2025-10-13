@@ -249,7 +249,7 @@
 	sconce = true
 	sconce_lever = true
 	pancake = true
-	checker_block = false
+	checker_block = true
 	raked_gravel = true
 	feather_block = true
 	statue = true

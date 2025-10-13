@@ -2,6 +2,15 @@
 	"pack": {
 		"pack_format": 12,
 		"description": [{
-"text":"Just recipes ig ty","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
-	}
+				"text":"Just recipes ig ty","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}
+		]
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "supplementaies",
+				"path": "recipes/suspicious_gravel_bricks"            
+			}
+		]    
+  	}
 }
