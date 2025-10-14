@@ -5,6 +5,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.type.TagIngredient;
 import crafttweaker.api.tag.type.KnownTag;
 import crafttweaker.api.item.ItemDefinition;
+import crafttweaker.api.item.type.block.BlockItem;
 
 
 public class Kiln {

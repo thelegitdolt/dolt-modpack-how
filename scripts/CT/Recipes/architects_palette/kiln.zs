@@ -17,15 +17,9 @@ Kiln.newRecipe("kiln/ap/baking/heavy_cracked_stone_bricks_from_heavy_end_stone_b
         <item:architects_palette:heavy_cracked_stone_bricks>, 
         0.1, "blocks"); 
 
-crackedBricks("emerald_ore"); 
-crackedBricks("redstone_ore"); 
+
 crackedBricks("olivestone"); 
-crackedBricks("lapis_ore"); 
-crackedBricks("diamond_ore"); 
-crackedBricks("iron_ore"); 
-crackedBricks("coal_ore"); 
 crackedBricks("moonshale"); 
-crackedBricks("gold_ore"); 
 
 
 Kiln.newRecipe("kiln/ap/baking/cracked_basalt_tiles_from_basalt_tiles_baking", 

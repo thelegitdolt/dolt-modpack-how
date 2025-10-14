@@ -31,6 +31,7 @@ Kiln.addFurnaceAndKiln("mint_to_mint_dye", <item:neapolitan:mint_leaves>, <item:
 RUtil.oneToOneConversion("turquoise_to_mint_dye", <item:caverns_and_chasms:turquoise>, <item:dye_depot:mint_dye>, 16); 
 
 # navy
+RUtil.oneToOneConversion("wardstone_blend_to_navy", <item:architects_palette:wardstone_blend>, <item:dye_depot:navy_dye>);
 
 # orange 
 RUtil.oneToOneConversion("blood_orange_to_orange_dye_wow", <item:atmospheric:orange>, <item:minecraft:orange_dye>);
