@@ -10,6 +10,30 @@
 			{
 				"namespace": "supplementaies",
 				"path": "recipes/suspicious_gravel_bricks"            
+			},
+			{
+				"namespace": "farmersrespite",
+				"path": "recipes/brewing/melon_juice_from_water"            
+			},
+			{
+				"namespace": "farmersrespite",
+				"path": "recipes/brewing/long_melon_juice_from_melon_juice"            
+			},
+			{
+				"namespace": "farmersrespite",
+				"path": "recipes/brewing/strong_melon_juice_from_melon_juice"            
+			},
+			{
+				"namespace": "farmersrespite",
+				"path": "recipes/brewing/strong_apple_cider_from_apple_cider"            
+			},
+			{
+				"namespace": "farmersrespite",
+				"path": "recipes/brewing/apple_cider_from_water"            
+			},
+			{
+				"namespace": "farmersrespite",
+				"path": "recipes/brewing/long_apple_cider_from_apple_cider"            
 			}
 		]    
   	}

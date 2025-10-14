@@ -1,9 +1,0 @@
-{
-    "monster_yam": [
-        {
-            "attribute": "minecraft:generic.max_health",
-            "value": 20,
-            "operation": "BASE"
-        }
-    ]
-}

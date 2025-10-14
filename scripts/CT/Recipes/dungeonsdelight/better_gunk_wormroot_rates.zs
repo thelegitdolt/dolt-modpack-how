@@ -1,7 +1,7 @@
 DebugUtil.startScript("recipes/dungeonsdelight/better_gunk_wormroot_rates"); 
 
 <recipetype:farmersdelight:cutting>.addRecipe("cutting/gunk_based", <item:dungeonsdelight:gunk>, 
-[(<item:farmersdelight:straw> * 2), (<item:dungeonsdelight:wormroot_tendrils> * 2), (<item:minecraft:bone_meal> * 2 % 60), (<item:minecraft:slime_ball> * 2 % 60)], <tag:items:forge:tools/knives>);
+[(<item:dungeonsdelight:wormroot_tendrils> * 2), (<item:farmersdelight:straw> % 50), (<item:minecraft:bone_meal> * 2 % 12), (<item:minecraft:slime_ball> * 2 % 12)], <tag:items:forge:tools/knives>);
 
 RUtil.cut.removeByName("farmersdelight:cutting/gunk");
 
