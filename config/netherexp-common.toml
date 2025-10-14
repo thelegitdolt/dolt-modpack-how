@@ -165,7 +165,7 @@
 #Visuals & Sound Settings
 [visuals_and_sounds]
 	#Fireballs will leave a trail of fire and smoke behind
-	improved_fireball_particles = true
+	improved_fireball_particles = false
 	#Soul Fire will emit unique particles instead of smoke
 	improved_soul_fire_particles = true
 	#Black Ice will produce snowflake particles

@@ -71,7 +71,7 @@
 	#Use the new jukebox model
 	new_model = false
 	#Makes jukebox disc spin while playing
-	disc_spin = true
+	disc_spin = false
 
 [misc]
 	#Gives a special animation to torches when held in hand
