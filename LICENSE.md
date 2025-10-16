@@ -1,0 +1,2 @@
+- Please ask me before using any of the files in this modpack.
+- I will say yes! I just want to know the people who I'm helping out. 
