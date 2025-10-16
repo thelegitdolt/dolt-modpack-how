@@ -53,6 +53,14 @@
 		#If enchantments other than protection should be buffed. Experimental!
 		"Erm what the sigma" = true
 
+	[Vanilla.bookshelves]
+		#If bookshelves and chiseled bookshelves should drop themselves without silk touch
+		"Bookshelves Drop Themselves" = true
+
+	[Vanilla.end_poem]
+		#If the end poem should never show up.
+		"Opping End Poem" = true
+
 ["jaden nether expansion"]
 
 	["jaden nether expansion"."Bone Rods"]

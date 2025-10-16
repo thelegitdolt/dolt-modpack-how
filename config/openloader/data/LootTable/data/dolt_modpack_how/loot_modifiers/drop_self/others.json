@@ -1,0 +1,12 @@
+{
+  "type": "dolt_mod_how:drop_self",
+  "conditions": [
+    {
+      "condition": "dolt_mod_how:trichotomy",
+      "blocks": [
+        "minecraft:ender_chest",
+        "minecraft:clay"
+      ]
+    }
+  ]
+}

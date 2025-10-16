@@ -1,0 +1,16 @@
+{
+  "type": "dolt_mod_how:drop_self",
+  "conditions": [
+    {
+      "condition": "dolt_mod_how:trichotomy",
+      "blockTags": [
+        "forge:glass",
+        "forge:glass_panes"
+      ],
+      "blocks": [
+        "upgrade_aquatic:glass_door",
+        "upgrade_aquatic:glass_trapdoor"
+      ]
+    }
+  ]
+}

@@ -1,9 +1,12 @@
 {
   "replace": false,
   "entries": [
-    "dolt_modpack_how:straw_from_giant_tall_grass",
-    "dolt_modpack_how:straw_from_beachgrass",
-    "dolt_modpack_how:straw_from_tall_beachgrass",
-    "dolt_modpack_how:scavenging_large_pumpkin_slice"
+    "dolt_modpack_how:fd/straw_from_giant_tall_grass",
+    "dolt_modpack_how:fd/straw_from_beachgrass",
+    "dolt_modpack_how:fd/straw_from_tall_beachgrass",
+    "dolt_modpack_how:fd/scavenging_large_pumpkin_slice",
+    "dolt_modpack_how:drop_self/glass_drop_self",
+    "dolt_modpack_how:drop_self/coralstone_drop_self",
+    "dolt_modpack_how:drop_self/others"
   ]
 }
