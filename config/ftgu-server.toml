@@ -1,0 +1,26 @@
+
+[enderman-changes]
+	#whether Endermen can pick up and place down blocks.
+	enderman_allowed_to_pick_up_and_place_blocks = false
+	#the chance of Endermen spawning with a random block. 1 is 100% chance.
+	#Range: 0.0 ~ 1.0
+	block-spawning-chance = 0.2
+	#the chance of Endermen spawning with a random block in the Nether. 1 is 100% chance.
+	#Range: 0.0 ~ 1.0
+	block-spawning-chance-nether = 0.05
+	#the chance of Endermen spawning with a random block in the End. 1 is 100% chance.
+	#Range: 0.0 ~ 1.0
+	block-spawning-chance-end = 0.001
+	#whether Shattered Endermen release Dragon Breath upon death.
+	shattered_endermen_release_dragon_breath = true
+	#whether Dragon Breath released by Shattered Endermen can be picked up with a bottle.
+	shattered_endermen_dragon_breath_pickable = true
+	#whether Endermen can spawn as Shattered Endermen.
+	endermen_spawn_as_shattered = true
+	#the additional chance Endermen have to teleport while fighting each tick. 1 is 100% chance.
+	#Range: 0.0 ~ 1.0
+	fight-teleport-chance = 0.01
+	#the additional chance Shattered Endermen have to teleport while fighting each tick. 1 is 100% chance.
+	#Range: 0.0 ~ 1.0
+	shattered-fight-teleport-chance = 0.025
+

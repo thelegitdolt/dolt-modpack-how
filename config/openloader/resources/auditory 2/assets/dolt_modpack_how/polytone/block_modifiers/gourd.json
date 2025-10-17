@@ -1,0 +1,26 @@
+{
+   "sound_type": "auditory:gourd",
+   "targets": [
+      "minecraft:jack_o_lantern",
+      "minecraft:pumpkin",
+      "minecraft:carved_pumpkin",
+      "autumnity:ender_jack_o_lantern",
+      "autumnity:large_soul_jack_o_lantern_slice",
+      "autumnity:carved_large_pumpkin_slice",
+      "autumnity:redstone_jack_o_lantern",
+      "autumnity:cupric_jack_o_lantern",
+      "autumnity:large_pumpkin_slice",
+      "autumnity:large_cupric_jack_o_lantern_slice",
+      "autumnity:soul_jack_o_lantern",
+      "autumnity:large_jack_o_lantern_slice",
+      "autumnity:large_ender_jack_o_lantern_slice",
+      "autumnity:large_redstone_jack_o_lantern_slice",
+      "atmospheric:yucca_bundle",
+      "farmersdelight:stuffed_pumpkin_block",
+      "neapolitan:banana_bundle",
+      "netherexp:ghoul_o_lantern",
+      "netherexp:sorrowsquash",
+      "netherexp:carved_sorrowsquash",
+      "minecraft:melon"
+   ]
+}

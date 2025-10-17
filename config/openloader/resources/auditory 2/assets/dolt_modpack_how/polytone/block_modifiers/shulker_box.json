@@ -1,0 +1,6 @@
+{
+   "sound_type": "auditory:shulker_box",
+   "targets": [
+        "#minecraft:shulker_boxes"
+    ]
+}

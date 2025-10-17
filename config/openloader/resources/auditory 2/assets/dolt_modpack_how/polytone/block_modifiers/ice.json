@@ -1,0 +1,31 @@
+{
+   "sound_type": "auditory:ice",
+   "targets": [
+        "oreganized:grooved_ice",
+        "oreganized:grooved_blue_ice",
+        "oreganized:grooved_packed_ice",
+        "windswept:packed_ice_brick_slab",
+        "windswept:packed_ice_brick_stairs",
+        "windswept:blue_ice_bricks",
+        "windswept:packed_ice_bricks",
+        "windswept:ice_sheet",
+        "windswept:packed_ice_brick_wall",
+        "windswept:blue_ice_slab",
+        "windswept:chiseled_blue_ice_bricks",
+        "windswept:blue_ice_brick_slab",
+        "windswept:blue_ice_brick_wall",
+        "windswept:icicles",
+        "windswept:chiseled_packed_ice_bricks",
+        "windswept:packed_ice_stairs",
+        "windswept:blue_ice_stairs",
+        "windswept:blue_ice_brick_stairs",
+        "windswept:packed_ice_slab",
+        "architects_palette:polished_packed_ice_wall",
+        "architects_palette:polished_packed_ice_slab",
+        "architects_palette:polished_packed_ice",
+        "architects_palette:polished_packed_ice_stairs",
+        "minecraft:blue_ice",
+        "minecraft:ice",
+        "minecraft:packed_ice"
+    ]
+}

@@ -1,0 +1,23 @@
+
+[enderman-changes]
+	#whether the Enderman model is replaced.
+	enderman_remodel = true
+	#whether the Enderman spawns new particles instead of the default portal ones.
+	new_enderman_particles = true
+	#whether Enderman leave behind a new particle when teleporting.
+	enderman_teleport_particle_enabled = true
+	#whether staring at an Enderman displays an overlay.
+	enderman_stare_overlay = true
+	#whether Endermen play additional sounds when being fought.
+	enderman_fight_sounds_enabled = true
+
+[ender-pearl-changes]
+	#whether Ender Pearls play new sounds.
+	new_ender_pearl_sounds = true
+	#whether Ender Pearls spawn new particles instead of the default portal ones.
+	new_ender_pearl_particles = true
+
+[displacer]
+	#whether Displacers spawn new particles instead of the default portal ones.
+	new_displacer_particles = true
+

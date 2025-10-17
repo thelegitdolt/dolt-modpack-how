@@ -1,0 +1,20 @@
+{
+   "sound_type": "deepslate",
+   "targets": [
+        "endergetic:crystal_holder",
+        "endergetic:acidian_lantern",
+        "endergetic:mystical_obsidian_wall",
+        "endergetic:mystical_obsidian_activation_rune",
+        "endergetic:activated_mystical_obsidian_activation_rune",
+        "endergetic:mystical_obsidian_rune",
+        "endergetic:mystical_obsidian",
+        "ditr:obsidian_diamond_ore",
+        "quark:matrix_enchanter",
+        "quark:obsidian_pressure_plate",
+        "minecraft:ender_chest",
+        "minecraft:crying_obsidian",
+        "minecraft:respawn_anchor",
+        "minecraft:obsidian",
+        "minecraft:enchanting_table"
+    ]
+}

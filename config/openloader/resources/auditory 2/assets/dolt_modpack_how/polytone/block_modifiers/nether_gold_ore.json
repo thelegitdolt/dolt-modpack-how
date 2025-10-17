@@ -1,0 +1,26 @@
+{
+   "sound_type": "nether_gold_ore",
+   "targets": [
+        "oreganized:raw_lead_block",
+        "oreganized:lead_ore",
+        "caverns_and_chasms:spinel_ore",
+        "caverns_and_chasms:raw_silver_block",
+        "caverns_and_chasms:turquoise_ore",
+        "caverns_and_chasms:raw_tin_block",
+        "caverns_and_chasms:silver_ore",
+        "etcetera:raw_bismuth_block",
+        "create:zinc_ore",
+        "create:raw_zinc_block",
+        "minecraft:emerald_ore",
+        "minecraft:lapis_ore",
+        "minecraft:gold_ore",
+        "minecraft:coal_ore",
+        "minecraft:raw_iron_block",
+        "minecraft:copper_ore",
+        "minecraft:iron_ore",
+        "minecraft:redstone_ore",
+        "minecraft:diamond_ore",
+        "minecraft:raw_copper_block",
+        "minecraft:raw_gold_block"
+    ]
+}

@@ -5,7 +5,6 @@ val a = [
     "dungeonsdelight:stained_knife",
     "dungeonsdelight:golden_cleaver",
     "dungeonsdelight:netherite_cleaver",
-    "farmersdelight:netherite_knife",
     "dungeonsdelight:flint_cleaver",
     "dungeonsdelight:iron_cleaver",
     "dungeonsdelight:diamond_cleaver"

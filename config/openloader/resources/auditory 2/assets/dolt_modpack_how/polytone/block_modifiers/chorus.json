@@ -1,0 +1,7 @@
+{
+   "sound_type": "auditory:chorus_plant",
+   "targets": [
+      "minecraft:chorus_plant",
+      "minecraft:chorus_flower"
+   ]
+}

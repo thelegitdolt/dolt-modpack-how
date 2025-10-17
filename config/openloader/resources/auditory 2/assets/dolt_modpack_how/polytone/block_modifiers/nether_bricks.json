@@ -1,0 +1,12 @@
+{
+   "sound_type": "nether_bricks",
+   "targets": [
+        "supplementaries:planter",
+        "clayworks:chiseled_bricks",
+        "farmersdelight:stove",
+        "minecraft:brick_wall",
+        "minecraft:brick_slab",
+        "minecraft:brick_stairs",
+        "minecraft:bricks"
+    ]
+}
