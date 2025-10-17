@@ -80,6 +80,10 @@
 		#If knives should no longer receive the silk touch and efficiency from the enchanting table
 		"Unbloated Knife Enchantments" = true
 
+	[farmersdelight.Ballistic]
+		#If knives can receive the Ballistic enchantment, which gives them the effect of Dungeon's Delight cleavers to be thrown. REQUIRES DUNGEON's DELIGHT.
+		"Cleaverfication Enchantment" = true
+
 ["Mowzies Mobs"]
 
 	["Mowzies Mobs".Rakes]
