@@ -4,11 +4,12 @@ DebugUtil.startScript("/Reciperminecraft/cobble_stuff/");
 <tag:items:minecraft:stone_crafting_materials>.add(<item:minecraft:stone>);
 <tag:items:minecraft:stone_crafting_materials>.add(<item:minecraft:andesite>);
 <tag:items:minecraft:stone_crafting_materials>.add(<item:minecraft:tuff>);
+<tag:items:minecraft:stone_crafting_materials>.add(<item:atmospheric:dolerite>);
 <tag:items:minecraft:stone_crafting_materials>.add(<item:quark:jasper>);
 <tag:items:minecraft:stone_crafting_materials>.add(<item:minecraft:granite>);
 <tag:items:minecraft:stone_crafting_materials>.add(<item:minecraft:deepslate>);
 <tag:items:minecraft:stone_crafting_materials>.add(<item:minecraft:sandstone>);
-<tag:items:minecraft:stone_crafting_materials>.add(<item:quark:shale>);
+<tag:items:minecraft:stone_crafting_materials>.add(<item:windswept:shale>);
 <tag:items:minecraft:stone_crafting_materials>.add(<item:quark:limestone>);
 <tag:items:minecraft:stone_crafting_materials>.add(<item:minecraft:mossy_cobblestone>);
 <tag:items:minecraft:stone_crafting_materials>.add(<item:minecraft:diorite>);
@@ -16,12 +17,13 @@ DebugUtil.startScript("/Reciperminecraft/cobble_stuff/");
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:minecraft:cobblestone>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:minecraft:stone>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:minecraft:andesite>);
+<tag:items:minecraft:furnace_crafting_materials>.add(<item:atmospheric:dolerite>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:minecraft:tuff>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:caverns_and_chasms:sugilite>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:quark:jasper>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:minecraft:granite>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:minecraft:sandstone>);
-<tag:items:minecraft:furnace_crafting_materials>.add(<item:quark:shale>);
+<tag:items:minecraft:furnace_crafting_materials>.add(<item:windswept:shale>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:quark:limestone>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:minecraft:mossy_cobblestone>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:minecraft:diorite>);
@@ -63,6 +65,12 @@ DebugUtil.startScript("/Reciperminecraft/cobble_stuff/");
     [<tag:items:minecraft:furnace_crafting_materials>, <tag:items:minecraft:furnace_crafting_materials>, <tag:items:minecraft:furnace_crafting_materials>], 
     [<tag:items:minecraft:furnace_crafting_materials>, <item:minecraft:air>, <tag:items:minecraft:furnace_crafting_materials>], 
     [<tag:items:minecraft:furnace_crafting_materials>, <tag:items:minecraft:furnace_crafting_materials>, <tag:items:minecraft:furnace_crafting_materials>]]);
+
+
+craftingTable.removeByName("ftgu:displacer");
+
+craftingTable.addShaped("displacer_cool", <item:ftgu:displacer>, [
+  [<tag:items:minecraft:stone_crafting_materials>, <item:minecraft:ender_pearl>, <tag:items:minecraft:stone_crafting_materials>], [<tag:items:minecraft:stone_crafting_materials>, <item:minecraft:quartz>, <tag:items:minecraft:stone_crafting_materials>], [<tag:items:minecraft:stone_crafting_materials>, <item:minecraft:redstone>, <tag:items:minecraft:stone_crafting_materials>]]);
 
 
 
