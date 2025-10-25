@@ -1,0 +1,89 @@
+{
+  "block.grass.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "block/moss/break1",
+        "volume": 0.95
+      },
+      {
+        "name": "block/moss/break2",
+        "volume": 0.93
+      },
+      {
+        "name": "block/moss/break3",
+        "volume": 0.93
+      },
+      {
+        "name": "block/moss/break4",
+        "volume": 0.93
+      },
+      {
+        "name": "block/moss/break5",
+        "volume": 0.93
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.grass.fall": {
+    "replace": true,
+    "sounds": [
+      "block/moss/step1",
+      "block/moss/step2",
+      "block/moss/step3",
+      "block/moss/step4",
+      "block/moss/step5",
+      "block/moss/step6"
+    ]
+  },
+  "block.grass.hit": {
+    "replace": true,
+    "sounds": [
+      "block/moss/step1",
+      "block/moss/step2",
+      "block/moss/step3",
+      "block/moss/step4",
+      "block/moss/step5",
+      "block/moss/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.grass.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "block/moss/break1",
+        "volume": 0.93
+      },
+      {
+        "name": "block/moss/break2",
+        "volume": 0.93
+      },
+      {
+        "name": "block/moss/break3",
+        "volume": 0.93
+      },
+      {
+        "name": "block/moss/break4",
+        "volume": 0.93
+      },
+      {
+        "name": "block/moss/break5",
+        "volume": 0.93
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.grass.step": {
+    "replace": true,
+    "sounds": [
+      "block/moss/step1",
+      "block/moss/step2",
+      "block/moss/step3",
+      "block/moss/step4",
+      "block/moss/step5",
+      "block/moss/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  }
+}
