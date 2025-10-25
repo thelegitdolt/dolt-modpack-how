@@ -1,0 +1,134 @@
+{
+  "removed": [
+    "item:create_central_kitchen:incomplete_neapolitan_ice_cream_strawberry",
+    "item:create_central_kitchen:creative_tab_icon",
+    "item:create_central_kitchen:incomplete_apple_pie",
+    "item:create_central_kitchen:incomplete_sweet_berry_cheesecake",
+    "item:create_central_kitchen:incomplete_pumpkin_pie",
+    "item:create_central_kitchen:incomplete_mulberry_pie",
+    "item:create_central_kitchen:incomplete_neapolitan_ice_cream_chocolate",
+    "item:create_central_kitchen:incomplete_mutton_wrap",
+    "item:create_central_kitchen:incomplete_bacon_sandwich",
+    "item:create_central_kitchen:incomplete_hamburger",
+    "item:create_central_kitchen:incomplete_chicken_sandwich",
+    "item:create_central_kitchen:incomplete_egg_sandwich",
+
+    "item:create_central_kitchen:aloe_gel_bucket",
+    "item:create_central_kitchen:sap_bucket",
+    "item:create_central_kitchen:syrup_bucket",
+    "item:create_central_kitchen:mulberry_jam_bucket",
+    "item:create_central_kitchen:tomato_sauce_bucket",
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:dragon_breath",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:hot_cocoa",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:apple_cider",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:syrup",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:chocolate_ice_cream",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:strawberry_ice_cream",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:vanilla_ice_cream",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:banana_ice_cream",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:melon_juice",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:aloe_gel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:sap",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:tomato_sauce",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:mint_ice_cream",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:banana_milkshake",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:vanilla_milkshake",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:strawberry_milkshake",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:chocolate_milkshake",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:adzuki_milkshake",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:mulberry_jam",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:mint_milkshake",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:adzuki_ice_cream",
+      "amount": 0
+    },
+    "item:create_central_kitchen:honey_cake_slice",
+    "item:create_central_kitchen:chocolate_cake_slice",
+    "item:create_central_kitchen:aloe_cake_slice",
+    "item:create_central_kitchen:passion_fruit_cake_slice",
+    "item:create_central_kitchen:pumpkin_cake_slice",
+    "item:create_central_kitchen:sweet_berry_cake_slice",
+    "item:create_central_kitchen:yucca_cake_slice"
+  ]
+}

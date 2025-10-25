@@ -1,0 +1,8 @@
+{
+    "values": [
+      "neapolitan:chocolate_bar"
+    ],
+    "remove": [
+      "create:bar_of_chocolate"
+    ]
+}
