@@ -32,7 +32,14 @@ val violin = [
     "neapolitan:banana_ice_cream_block",
     "neapolitan:strawberry_ice_cream_block",
     "neapolitan:chocolate_ice_cream_block",
-    "neapolitan:vanilla_ice_cream_block"
+    "neapolitan:vanilla_ice_cream_block",
+    "windswept:snow_brick_wall",
+    "windswept:snow_stairs",
+    "windswept:snow_slab",
+    "windswept:snow_bricks",
+    "windswept:snow_brick_slab",
+    "windswept:snow_brick_stairs",
+    "windswept:suspicious_snow"
 ];
 
 for i in violin {

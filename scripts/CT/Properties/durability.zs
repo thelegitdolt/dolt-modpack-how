@@ -19,7 +19,7 @@ DebugUtil.startScript("properties/durability");
 
 <item:minecraft:diamond_chestplate>.maxDamage = 1280;
 <item:minecraft:diamond_helmet>.maxDamage = 1280;
-<item:minecraft:diamond_leggings>.maxDamage = 1280
+<item:minecraft:diamond_leggings>.maxDamage = 1280;
 <item:minecraft:diamond_boots>.maxDamage = 1280;
 
 <item:farmersdelight:diamond_knife>.maxDamage = 3072;
@@ -72,16 +72,20 @@ DebugUtil.startScript("properties/durability");
 <item:caverns_and_chasms:necromium_boots>.maxDamage = 1664;
 <item:abnormals_delight:necromium_knife>.maxDamage = 4096;
 		#Netherite
-<item:mineraft:netherite_chestplate>.maxDamage = 1664;
-<item:mineraft:netherite_helmet>.maxDamage = 1664;
-<item:mineraft:netherite_leggings>.maxDamage = 1664;
-<item:mineraft:netherite_boots>.maxDamage = 1664;
+
+
+<item:minecraft:netherite_chestplate>.maxDamage = 1664;
+<item:minecraft:netherite_helmet>.maxDamage = 1664;
+<item:minecraft:netherite_leggings>.maxDamage = 1664;
+<item:minecraft:netherite_boots>.maxDamage = 1664;
 <item:minecraft:netherite_hoe>.maxDamage = 4096;
 <item:minecraft:netherite_pickaxe>.maxDamage = 4096;
 <item:minecraft:netherite_shovel>.maxDamage = 4096;
 <item:minecraft:netherite_sword>.maxDamage = 4096;
 <item:minecraft:netherite_axe>.maxDamage = 4096;
 <item:farmersdelight:netherite_knife>.maxDamage = 4096;
+
+
 		# Electrum
 <item:oreganized:electrum_hoe>.maxDamage = 4096;
 <item:oreganized:electrum_pickaxe>.maxDamage = 4096;
