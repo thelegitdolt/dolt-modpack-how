@@ -1,0 +1,23 @@
+{
+  "type": "dungeonsdelight:monster_cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "dungeonsdelight:sniffer_shank"
+    },
+    {
+      "item": "dungeonsdelight:slime_bar"
+    },
+    {
+      "tag": "dungeonsdelight:ancient_flora"
+    },
+    {
+      "tag": "minecraft:sniffer_egg_hatch_boost"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "dungeonsdelight:snifferwurst"
+  }
+}

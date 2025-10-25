@@ -1,0 +1,32 @@
+{
+  "type": "dungeonsdelight:monster_cooking",
+  "container": {
+    "item": "minecraft:bread"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "dungeonsdelight:ancient_egg"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "species:monster_meal"
+    },
+    {
+      "item": "farmersdelight:rotten_tomato"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "dungeonsdelight:chicken_jockey_sandwich"
+  }
+}

@@ -4,10 +4,10 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "dungeonsdelight:fleshes"
+      "item": "species:monster_meal"
     },
     {
-      "tag": "dungeonsdelight:fleshes"
+      "item": "species:monster_meal"
     },
     {
       "item": "dungeonsdelight:silverfish_abdomen"
