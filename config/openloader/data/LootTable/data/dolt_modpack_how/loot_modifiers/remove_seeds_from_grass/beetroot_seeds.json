@@ -1,0 +1,25 @@
+{
+  "type": "dolt_mod_how:remove_item",
+  "items": [
+    "minecraft:beetroot_seeds"
+  ],
+  "conditions": [
+    {
+      "condition": "dolt_mod_how:trichotomy",
+      "blocks": [
+        "upgrade_aquatic:beachgrass",
+        "upgrade_aquatic:tall_beachgrass",
+        "farmersdelight:sandy_shrub"
+      ]
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "minecraft:hoes"
+        }
+      }
+    }
+  ]
+}

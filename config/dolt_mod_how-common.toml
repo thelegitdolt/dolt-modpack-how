@@ -61,6 +61,10 @@
 		#If the end poem should never show up.
 		"Opping End Poem" = true
 
+	[Vanilla.elytra]
+		#If elytras should still work when they have 0 durability. Don't turn this on unless you also use another mod to make elytras unbreakable
+		"Elytra infinite durability" = true
+
 ["jaden nether expansion"]
 
 	["jaden nether expansion"."Bone Rods"]

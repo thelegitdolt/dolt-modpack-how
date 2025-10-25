@@ -6,6 +6,11 @@ DebugUtil.startScript("Tags/caverns_and_chasms/additional_toolbox_tools");
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:quark:abacus>);
 
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:supplementaries:wrench> );
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:minecraft:elytra>);
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:savage_and_ravage:conch_of_conjuring>);
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:savage_and_ravage:wand_of_freezing>);
+
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:create:wrench>);
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:create:goggles>);
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.add(<item:supplementaries:wrench>);

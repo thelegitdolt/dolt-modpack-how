@@ -19,4 +19,10 @@ randomize_underground_below_y = 45.0
 underground_randomization_type = 1
 #True will use banded world generation also in the other dimensions
 multidimensional_bands = false
+#A percentage for heating or cooling the planet. Range (-100.0 , 100.0)
+#Range: -100.0 ~ 100.0
+global_temperature_modifier_percentage = 0.0
+#A percentage to mitigate the planet climate (this reduce extreme climatic regions). Range (0.0 , 100.0)
+#Range: 0.0 ~ 100.0
+global_temperature_mitigation_percentage = 0.0
 

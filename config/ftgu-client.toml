@@ -10,6 +10,8 @@
 	enderman_stare_overlay = true
 	#whether Endermen play additional sounds when being fought.
 	enderman_fight_sounds_enabled = true
+	#whether the Enderman plays new sounds.
+	new_enderman_sounds = true
 
 [ender-pearl-changes]
 	#whether Ender Pearls play new sounds.
@@ -20,4 +22,14 @@
 [displacer]
 	#whether Displacers spawn new particles instead of the default portal ones.
 	new_displacer_particles = true
+
+[creeper-changes]
+	#whether the Creeper model is replaced.
+	creeper_remodel = true
+	#whether the Creeper plays new sounds.
+	new_creeper_sounds = true
+	#whether the Minecraft explosion particles are replaced with a new one for Creepers.
+	new_creeper_explosion_particle = true
+	#whether the Minecraft explosion particles are replaced with a new one for Tnt explosions.
+	new_tnt_explosion_particle = true
 

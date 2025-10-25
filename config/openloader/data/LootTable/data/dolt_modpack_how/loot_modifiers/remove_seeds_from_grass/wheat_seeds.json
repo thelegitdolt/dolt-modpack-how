@@ -1,0 +1,27 @@
+{
+  "type": "dolt_mod_how:remove_item",
+  "items": [
+    "minecraft:wheat_seeds"
+  ],
+  "conditions": [
+    {
+      "condition": "dolt_mod_how:trichotomy",
+      "blocks": [
+        "minecraft:fern",
+        "minecraft:large_fern",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "environmental:giant_tall_grass"
+      ]
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "tag": "minecraft:hoes"
+        }
+      }
+    }
+  ]
+}

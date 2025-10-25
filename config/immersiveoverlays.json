@@ -1,7 +1,18 @@
 {
+  "version": 2,
+  "enabled": true,
+  "avoid_overlapping": true,
+  "moved_by_effects": true,
+  "require_item": true,
+  "require_item_in_hand": false,
+  "search_containers": true,
+  "search_containers_for_containers": true,
+  "render_background": true,
+  "hide_from_debug": true,
   "compass_enable": true,
   "compass_vertical_position": 140,
   "compass_horizontal_position_left": false,
+  "compass_text_colour": 14737632,
   "compass_x_colour": "Red",
   "compass_y_colour": "Green",
   "compass_z_colour": "Blue",
@@ -26,7 +37,9 @@
   "clock_current_time": true,
   "clock_day_count": false,
   "clock_24_hour": true,
-  "clock_vertical_position": 90,
+  "clock_seasons": true,
+  "clock_text_colour": 14737632,
+  "clock_vertical_position": 85,
   "clock_horizontal_position_left": false,
   "clock_items": [
     "minecraft:clock"
@@ -34,39 +47,6 @@
   "clock_weather_items": [
     "caverns_and_chasms:barometer",
     "firmaciv:barometer"
-  ],
-  "avoid_overlapping": true,
-  "moved_by_effects": true,
-  "require_item": true,
-  "require_item_in_hand": false,
-  "search_containers": true,
-  "search_containers_for_containers": true,
-  "render_background": true,
-  "hide_from_debug": true,
-  "compat_playerlocatorplus": true,
-  "compat_xaeros": true,
-  "compat_map_atlases": false,
-  "compat_accessorify": true,
-  "compat_oreganized_temperature": true,
-  "compat_tough_as_nails_temperature": true,
-  "compat_cold_sweat_temperature": true,
-  "compat_seasons": true,
-  "biome_enable": true,
-  "biome_icons": true,
-  "biome_reduced_info": false,
-  "biome_text_tinted": true,
-  "biome_vertical_position": 112,
-  "biome_horizontal_position_left": false,
-  "biome_items": [
-    "minecraft:map",
-    "minecraft:empty_map",
-    "map_atlases:atlas",
-    "map_atlases:end_atlas",
-    "map_atlases:nether_atlas"
-  ],
-  "season_items": [
-    "sereneseasons:calendar",
-    "seasonsextras:season_calendar"
   ],
   "temperature_enable": true,
   "temperature_icons": true,
@@ -81,16 +61,50 @@
     "legendarysurvivaloverhaul:thermometer",
     "cold_sweat:thermometer"
   ],
-  "version": 0,
+  "compat_xaeros": true,
+  "compat_antique_atlas": true,
+  "compat_accessorify": true,
+  "compat_oreganized_temperature": true,
+  "compat_tough_as_nails_temperature": true,
+  "compat_cold_sweat_temperature": true,
   "compat_legendary_survival_overhaul_temperature": true,
+  "biome_enable": true,
+  "biome_icons": true,
+  "biome_reduced_info": false,
+  "biome_text_tinted": true,
+  "biome_text_colour": 14737632,
+  "biome_vertical_position": 112,
+  "biome_horizontal_position_left": false,
+  "biome_items": [
+    "minecraft:map",
+    "minecraft:empty_map",
+    "map_atlases:atlas",
+    "map_atlases:end_atlas",
+    "map_atlases:nether_atlas",
+    "naturescompass:naturescompass",
+    "antiqueatlas:antique_atlas"
+  ],
+  "season_items": [
+    "sereneseasons:calendar",
+    "seasonsextras:season_calendar",
+    "eclipticseasons:calendar"
+  ],
   "speed_enable": true,
   "speed_vertical_position": 140,
   "speed_horizontal_position_left": true,
   "speed_colour": 13090689,
-  "compat_oreganized_speed": true,
   "speed_items": [
     "oreganized:speedometer",
     "speedometer:speedometer"
   ],
-  "compat_jade": false
+  "compat_oreganized_speed": true,
+  "compat_jade": false,
+  "compat_waila_items": [
+    "minecraft:spyglass",
+    "create:goggles"
+  ],
+  "compat_map_atlases": false,
+  "compat_serene_seasons": true,
+  "compat_tfc_seasons": true,
+  "compat_ecliptic_seasons": true
 }
