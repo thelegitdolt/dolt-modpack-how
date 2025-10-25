@@ -2,10 +2,6 @@ DebugUtil.startScript("foods/windswept/minty_cone");
     
 import crafttweaker.api.food.FoodProperties;
 import crafttweaker.api.entity.effect.MobEffectInstance;
-import crafttweaker.api.util.Pair;
-
-val pair = Pair<MobEffectInstance, float>
-    .of<MobEffectInstance, float>(new MobEffectInstance(<mobeffect:neapolitan:berserking>, 300), 1.0f);
 
 val a = FoodProperties.create(15, 0.6).addEffect(new MobEffectInstance(<mobeffect:neapolitan:berserking>, 300), 1.0f);
 
