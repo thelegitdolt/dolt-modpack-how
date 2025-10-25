@@ -31,6 +31,7 @@ for col in RUtil.dyeDepotColors {
 
 # CAKES
 <item:minecraft:cake>.setMaxStackSize(64);
+<item:species:birtday_cake>.setMaxStackSize(64);
 <item:neapolitan:chocolate_cake>.setMaxStackSize(64);
 <item:neapolitan:strawberry_cake>.setMaxStackSize(64);
 <item:neapolitan:vanilla_cake>.setMaxStackSize(64);
@@ -38,7 +39,6 @@ for col in RUtil.dyeDepotColors {
 <item:neapolitan:adzuki_cake>.setMaxStackSize(64);
 <item:neapolitan:mint_cake>.setMaxStackSize(64);
 <item:farmersrespite:coffee_cake>.setMaxStackSize(64);
-<item:minecraft:cake>.setMaxStackSize(64);
 
 <item:brewinandchewin:scarlet_cheese_wheel>.setMaxStackSize(64);
 <item:brewinandchewin:unripe_scarlet_cheese_wheel>.setMaxStackSize(64);

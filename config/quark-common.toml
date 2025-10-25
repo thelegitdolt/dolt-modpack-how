@@ -314,7 +314,7 @@
 	[management.expanded_item_interactions]
 		"Enable Armor Interaction" = true
 		"Enable Shulker Box Interaction" = false
-		"Enable Lava Interaction" = true
+		"Enable Lava Interaction" = false
 		"Allow Opening Shulker Boxes" = false
 		"Allow Rotating Bundles" = true
 
@@ -1627,7 +1627,12 @@
 		#If set to false, item attributes will show in white or red if they're negative values.
 		"Show Upgrade Status" = true
 		"Animate Up Down Arrows" = true
-		"Enchanting Stacks" = ["map_atlas:atlas", "create:potato_cannon", "piglinproliferation:buckler", "minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife", "netherexp:shotgun_fist", "iwannaskate:skateboard", "alexscaves:sea_staff", "alexscaves:ortholance", "alexscaves:magic_conch", "alexscaves:desolate_dagger", "alexscaves:dreadbow", "alexscaves:totem_of_possession", "alexscaves:raygun", "alexscaves:sugar_staff", "alexscaves:shot_gum", "alexscaves:candy_cane_hook", "alexscaves:primitive_club", "alexscaves:extinction_spear", "alexscaves:resistor_shield", "alexscaves:galena_gauntlet", "the_bumblezone:stinger_spear", "the_bumblezone:crystal_cannon", "the_bumblezone:honey_crystal_shield", "the_bumblezone:honey_bee_leggings_2"]
+		"Enchanting Stacks" = ["species:crankbow", "clash:rod_of_gales",
+"clash:spear",
+"clash:billhook",
+"clash:echoing_spear",
+"clash:swept_axe",
+"clash:greatblade", "create:potato_cannon", "piglinproliferation:buckler", "minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife", "netherexp:shotgun_fist", "iwannaskate:skateboard", "alexscaves:sea_staff", "alexscaves:ortholance", "alexscaves:magic_conch", "alexscaves:desolate_dagger", "alexscaves:dreadbow", "alexscaves:totem_of_possession", "alexscaves:raygun", "alexscaves:sugar_staff", "alexscaves:shot_gum", "alexscaves:candy_cane_hook", "alexscaves:primitive_club", "alexscaves:extinction_spear", "alexscaves:resistor_shield", "alexscaves:galena_gauntlet", "the_bumblezone:stinger_spear", "the_bumblezone:crystal_cannon", "the_bumblezone:honey_crystal_shield", "the_bumblezone:honey_bee_leggings_2"]
 		#A list of additional stacks to display on each enchantment
 		#The format is as follows:
 		#enchant_id=item1,item2,item3...
