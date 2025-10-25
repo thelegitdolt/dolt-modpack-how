@@ -1,0 +1,10 @@
+{
+  "repaletter": {
+    "type": "blueprint:simple",
+    "replaces_block": "minecraft:ladder",
+    "replaces_with": "create:copper_ladder"
+  },
+  "structures": [
+    "alexscaves:abyssal_ruins"
+  ]
+}

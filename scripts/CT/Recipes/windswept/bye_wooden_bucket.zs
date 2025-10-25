@@ -9,7 +9,6 @@ val a = [
     "windswept:wooden_honey_bucket"
 ];
 craftingTable.remove(<item:windswept:wooden_bucket>);
-HUtil.hideAll(a);
 TUtil.removeItems(a);
 
 DebugUtil.endScript("recipes/windswept/bye_wooden_bucket"); 
