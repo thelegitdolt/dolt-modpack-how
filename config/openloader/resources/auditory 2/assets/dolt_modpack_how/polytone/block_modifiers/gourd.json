@@ -2,6 +2,7 @@
    "sound_type": "auditory:gourd",
    "targets": [
       "minecraft:jack_o_lantern",
+      "minecraft:cocoa",
       "minecraft:pumpkin",
       "minecraft:carved_pumpkin",
       "autumnity:ender_jack_o_lantern",

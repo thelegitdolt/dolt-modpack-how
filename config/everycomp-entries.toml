@@ -664,11 +664,6 @@
 			teal_terracotta_brick = true
 			verdant_terracotta_brick = true
 
-		[types.cut_block_type.dungeonsdelight]
-			cut_stained_scrap = true
-			wormwood = true
-			wormwood_mosaic = true
-
 		[types.cut_block_type.dolt_mod_how]
 			zinc_brick = true
 
@@ -676,6 +671,11 @@
 			stone_bricks_tile = true
 			cracked_stone_bricks_tile = true
 			mossy_stone_bricks_tile = true
+
+		[types.cut_block_type.dungeonsdelight]
+			cut_stained_scrap = true
+			wormwood = true
+			wormwood_mosaic = true
 
 	[types.cake]
 
