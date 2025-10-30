@@ -1,0 +1,371 @@
+{
+  "molding": "json",
+  "remolder": [
+    {
+      "type": "add",
+      "target": "overrides",
+      "value": []
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/a_distant_light",
+        "predicate": {
+          "darkpaintings:a_distant_light": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/afternoon_volcano",
+        "predicate": {
+          "darkpaintings:afternoon_volcano": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/antler_maze",
+        "predicate": {
+          "darkpaintings:antler_maze": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/bubbles",
+        "predicate": {
+          "darkpaintings:bubbles": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/cottage_by_the_river",
+        "predicate": {
+          "darkpaintings:cottage_by_the_river": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/crimson_taiga",
+        "predicate": {
+          "darkpaintings:crimson_taiga": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/daybreak",
+        "predicate": {
+          "darkpaintings:daybreak": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/enderman",
+        "predicate": {
+          "darkpaintings:enderman": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/in_the_air",
+        "predicate": {
+          "darkpaintings:in_the_air": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/kerstball",
+        "predicate": {
+          "darkpaintings:kerstball": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/last_dreams_at_candyland",
+        "predicate": {
+          "darkpaintings:last_dreams_at_candyland": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/lumberjack",
+        "predicate": {
+          "darkpaintings:lumberjack": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/mr_moon",
+        "predicate": {
+          "darkpaintings:mr_moon": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/nighttime_calico",
+        "predicate": {
+          "darkpaintings:nighttime_calico": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/oceanic_view",
+        "predicate": {
+          "darkpaintings:oceanic_view": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/omens_wing",
+        "predicate": {
+          "darkpaintings:omens_wing": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/planets",
+        "predicate": {
+          "darkpaintings:planets": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/salmon_run",
+        "predicate": {
+          "darkpaintings:salmon_run": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/santa_moon",
+        "predicate": {
+          "darkpaintings:santa_moon": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/scarlet_moon",
+        "predicate": {
+          "darkpaintings:scarlet_moon": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/seavibe",
+        "predicate": {
+          "darkpaintings:seavibe": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/silent_watcher",
+        "predicate": {
+          "darkpaintings:silent_watcher": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/sir_ramfrez_yarn_paradise",
+        "predicate": {
+          "darkpaintings:sir_ramfrez_yarn_paradise": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/skyblock",
+        "predicate": {
+          "darkpaintings:skyblock": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/snail_aboard",
+        "predicate": {
+          "darkpaintings:snail_aboard": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/snowman_scenery",
+        "predicate": {
+          "darkpaintings:snowman_scenery": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/summer_heat",
+        "predicate": {
+          "darkpaintings:summer_heat": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/tetromino",
+        "predicate": {
+          "darkpaintings:tetromino": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/the_most_sweet_candy",
+        "predicate": {
+          "darkpaintings:the_most_sweet_candy": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/the_secret_neighborhood",
+        "predicate": {
+          "darkpaintings:the_secret_neighborhood": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/the_tower",
+        "predicate": {
+          "darkpaintings:the_tower": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/the_wheel",
+        "predicate": {
+          "darkpaintings:the_wheel": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/turkey",
+        "predicate": {
+          "darkpaintings:turkey": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/village",
+        "predicate": {
+          "darkpaintings:village": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/watching_the_sunset",
+        "predicate": {
+          "darkpaintings:watching_the_sunset": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "darkpaintings:item/painting/whale_dream",
+        "predicate": {
+          "darkpaintings:whale_dream": 1.0
+        }
+      }
+    }
+  ],
+  "selector": "minecraft:models/item/painting"
+}

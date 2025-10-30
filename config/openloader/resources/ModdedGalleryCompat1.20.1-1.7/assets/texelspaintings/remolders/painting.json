@@ -1,0 +1,531 @@
+{
+  "molding": "json",
+  "remolder": [
+    {
+      "type": "add",
+      "target": "overrides",
+      "value": []
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/above_the_treeline",
+        "predicate": {
+          "texelspaintings:above_the_treeline": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/archstone",
+        "predicate": {
+          "texelspaintings:archstone": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/beach_at_eternity",
+        "predicate": {
+          "texelspaintings:beach_at_eternity": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/beachwave",
+        "predicate": {
+          "texelspaintings:beachwave": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/blinding_dawn",
+        "predicate": {
+          "texelspaintings:blinding_dawn": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/built_before",
+        "predicate": {
+          "texelspaintings:built_before": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/cherry_blossom",
+        "predicate": {
+          "texelspaintings:cherry_blossom": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/christmas_star",
+        "predicate": {
+          "texelspaintings:christmas_star": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/coastal_outlook",
+        "predicate": {
+          "texelspaintings:coastal_outlook": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/dark_oak",
+        "predicate": {
+          "texelspaintings:dark_oak": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/daybreak",
+        "predicate": {
+          "texelspaintings:daybreak": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/distant_sunrise",
+        "predicate": {
+          "texelspaintings:distant_sunrise": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/door_to_nowhere",
+        "predicate": {
+          "texelspaintings:door_to_nowhere": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/familiar_moon",
+        "predicate": {
+          "texelspaintings:familiar_moon": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/farmer_sundown",
+        "predicate": {
+          "texelspaintings:farmer_sundown": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/forest_bastion",
+        "predicate": {
+          "texelspaintings:forest_bastion": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/frozen_skies",
+        "predicate": {
+          "texelspaintings:frozen_skies": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/fuji_morning",
+        "predicate": {
+          "texelspaintings:fuji_morning": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/grove",
+        "predicate": {
+          "texelspaintings:grove": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/here_comes_the_sun",
+        "predicate": {
+          "texelspaintings:here_comes_the_sun": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/hoot",
+        "predicate": {
+          "texelspaintings:hoot": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/iceberg_ashore",
+        "predicate": {
+          "texelspaintings:iceberg_ashore": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/in_ruin",
+        "predicate": {
+          "texelspaintings:in_ruin": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/ivory_empire",
+        "predicate": {
+          "texelspaintings:ivory_empire": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/moonlit_path",
+        "predicate": {
+          "texelspaintings:moonlit_path": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/moonset",
+        "predicate": {
+          "texelspaintings:moonset": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/mushroom_fields",
+        "predicate": {
+          "texelspaintings:mushroom_fields": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/ocean_obelisk",
+        "predicate": {
+          "texelspaintings:ocean_obelisk": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/of_the_pine",
+        "predicate": {
+          "texelspaintings:of_the_pine": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/overgrown_tower",
+        "predicate": {
+          "texelspaintings:overgrown_tower": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/pink_shrooms",
+        "predicate": {
+          "texelspaintings:pink_shrooms": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/prairie_storm",
+        "predicate": {
+          "texelspaintings:prairie_storm": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/private_beach",
+        "predicate": {
+          "texelspaintings:private_beach": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/rest_by_the_lakeside",
+        "predicate": {
+          "texelspaintings:rest_by_the_lakeside": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/riverside",
+        "predicate": {
+          "texelspaintings:riverside": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/rolling_sunset",
+        "predicate": {
+          "texelspaintings:rolling_sunset": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/ruins_of_old",
+        "predicate": {
+          "texelspaintings:ruins_of_old": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/seabed",
+        "predicate": {
+          "texelspaintings:seabed": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/seafoam_skies",
+        "predicate": {
+          "texelspaintings:seafoam_skies": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/shoreside",
+        "predicate": {
+          "texelspaintings:shoreside": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/shroomy",
+        "predicate": {
+          "texelspaintings:shroomy": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/splash_zone",
+        "predicate": {
+          "texelspaintings:splash_zone": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/sunset_on_the_ocean",
+        "predicate": {
+          "texelspaintings:sunset_on_the_ocean": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/taiga_view",
+        "predicate": {
+          "texelspaintings:taiga_view": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/taking_flight",
+        "predicate": {
+          "texelspaintings:taking_flight": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/temple_rift",
+        "predicate": {
+          "texelspaintings:temple_rift": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/to_the_tomb",
+        "predicate": {
+          "texelspaintings:to_the_tomb": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/tower_watch",
+        "predicate": {
+          "texelspaintings:tower_watch": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/valley_view",
+        "predicate": {
+          "texelspaintings:valley_view": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/village_nights",
+        "predicate": {
+          "texelspaintings:village_nights": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/watchtower",
+        "predicate": {
+          "texelspaintings:watchtower": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "texelspaintings:item/painting/weathered_statue",
+        "predicate": {
+          "texelspaintings:weathered_statue": 1.0
+        }
+      }
+    }
+  ],
+  "selector": "minecraft:models/item/painting"
+}

@@ -1,0 +1,31 @@
+{
+  "molding": "json",
+  "remolder": [
+    {
+      "type": "add",
+      "target": "overrides",
+      "value": []
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "supplementaries:item/painting/bombs",
+        "predicate": {
+          "supplementaries:bombs": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "supplementaries:item/painting/jar",
+        "predicate": {
+          "supplementaries:jar": 1.0
+        }
+      }
+    }
+  ],
+  "selector": "minecraft:models/item/painting"
+}

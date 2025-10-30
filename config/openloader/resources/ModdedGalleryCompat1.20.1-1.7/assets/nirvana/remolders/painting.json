@@ -1,0 +1,21 @@
+{
+  "molding": "json",
+  "remolder": [
+    {
+      "type": "add",
+      "target": "overrides",
+      "value": []
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "nirvana:item/painting/this_is_not_a_horn",
+        "predicate": {
+          "nirvana:this_is_not_a_horn": 1.0
+        }
+      }
+    }
+  ],
+  "selector": "minecraft:models/item/painting"
+}

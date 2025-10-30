@@ -1,0 +1,31 @@
+{
+  "molding": "json",
+  "remolder": [
+    {
+      "type": "add",
+      "target": "overrides",
+      "value": []
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "alexsmobs:item/painting/dog_poker",
+        "predicate": {
+          "alexsmobs:dog_poker": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "alexsmobs:item/painting/nft",
+        "predicate": {
+          "alexsmobs:nft": 1.0
+        }
+      }
+    }
+  ],
+  "selector": "minecraft:models/item/painting"
+}

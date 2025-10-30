@@ -1,8 +1,0 @@
-{
-  "removed": [
-    "item:alexscaves:diving_helmet{Damage:0}",
-    "item:alexscaves:diving_chestplate{Damage:0}",
-    "item:alexscaves:diving_leggings{Damage:0}",
-    "item:alexscaves:diving_boots{Damage:0}"
-  ]
-}

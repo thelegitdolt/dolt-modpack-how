@@ -32,11 +32,42 @@ val compat_shingles = [
     "dye_the_world:amber_shard",
     "dye_the_world:beige_shard",
     "dye_the_world:maroon_shard",
-    "dye_the_world:slate_shard"
+    "dye_the_world:slate_shard",
+
+    "dye_the_world:rose_shingles_stairs",
+    "dye_the_world:slate_shingles_stairs",
+    "dye_the_world:tan_shingles_stairs",
+    "dye_the_world:teal_shingles_stairs",
+    "dye_the_world:verdant_shingles_stairs",
+    "dye_the_world:olive_shingles_stairs",
+    "dye_the_world:maroon_shingles_stairs",
+    "dye_the_world:mint_shingles_stairs",
+    "dye_the_world:navy_shingles_stairs",
+    "dye_the_world:forest_shingles_stairs",
+    "dye_the_world:coral_shingles_stairs",
+    "dye_the_world:beige_shingles_stairs",
+    "dye_the_world:aqua_shingles_stairs",
+    "dye_the_world:indigo_shingles_stairs",
+    "dye_the_world:slate_shingles_slab",
+    "dye_the_world:tan_shingles_slab",
+    "dye_the_world:teal_shingles_slab",
+    "dye_the_world:verdant_shingles_slab",
+    "dye_the_world:amber_shingles_stairs",
+    "dye_the_world:rose_shingles_slab",
+    "dye_the_world:olive_shingles_slab",
+    "dye_the_world:navy_shingles_slab",
+    "dye_the_world:mint_shingles_slab",
+    "dye_the_world:maroon_shingles_slab",
+    "dye_the_world:beige_shingles_slab",
+    "dye_the_world:coral_shingles_slab",
+    "dye_the_world:forest_shingles_slab",
+    "dye_the_world:ginger_shingles_slab",
+    "dye_the_world:amber_shingles_slab",
+    "dye_the_world:aqua_shingles_slab",
+    "dye_the_world:indigo_shingles_slab"
+    
 ]; 
 
 HUtil.hideAll(compat_shingles);
 
-# oops indigo dye is unobtainable 
-# nor is navy
 DebugUtil.endScript("recipes/dye_depot/hide_unnecessary_colors"); 

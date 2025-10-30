@@ -1,0 +1,31 @@
+{
+  "molding": "json",
+  "remolder": [
+    {
+      "type": "add",
+      "target": "overrides",
+      "value": []
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "netherexp:item/painting/house",
+        "predicate": {
+          "netherexp:house": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "netherexp:item/painting/technoblade_never_dies",
+        "predicate": {
+          "netherexp:technoblade_never_dies": 1.0
+        }
+      }
+    }
+  ],
+  "selector": "minecraft:models/item/painting"
+}

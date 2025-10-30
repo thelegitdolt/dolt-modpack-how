@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "texelspaintings:item/painting/sunset_on_the_ocean"
+  }
+}

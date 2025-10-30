@@ -1,0 +1,141 @@
+{
+  "molding": "json",
+  "remolder": [
+    {
+      "type": "add",
+      "target": "overrides",
+      "value": []
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/a_visitor",
+        "predicate": {
+          "sullysmod:a_visitor": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/amber",
+        "predicate": {
+          "sullysmod:amber": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/beginning",
+        "predicate": {
+          "sullysmod:beginning": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/caverns",
+        "predicate": {
+          "sullysmod:caverns": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/home",
+        "predicate": {
+          "sullysmod:home": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/illager_beast",
+        "predicate": {
+          "sullysmod:illager_beast": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/infestation",
+        "predicate": {
+          "sullysmod:infestation": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/jade_dragon",
+        "predicate": {
+          "sullysmod:jade_dragon": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/lake",
+        "predicate": {
+          "sullysmod:lake": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/mesmurrizing",
+        "predicate": {
+          "sullysmod:mesmurrizing": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/river_terror",
+        "predicate": {
+          "sullysmod:river_terror": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/thank_you",
+        "predicate": {
+          "sullysmod:thank_you": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "sullysmod:item/painting/unnerving_night",
+        "predicate": {
+          "sullysmod:unnerving_night": 1.0
+        }
+      }
+    }
+  ],
+  "selector": "minecraft:models/item/painting"
+}

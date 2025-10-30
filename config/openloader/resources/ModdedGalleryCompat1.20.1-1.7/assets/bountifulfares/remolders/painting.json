@@ -1,0 +1,131 @@
+{
+  "molding": "json",
+  "remolder": [
+    {
+      "type": "add",
+      "target": "overrides",
+      "value": []
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/aquaculture",
+        "predicate": {
+          "bountifulfares:aquaculture": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/bountiful",
+        "predicate": {
+          "bountifulfares:bountiful": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/citrus_dish",
+        "predicate": {
+          "bountifulfares:citrus_dish": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/escalade",
+        "predicate": {
+          "bountifulfares:escalade": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/hazel_floret",
+        "predicate": {
+          "bountifulfares:hazel_floret": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/mulcher",
+        "predicate": {
+          "bountifulfares:mulcher": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/phylogenesis",
+        "predicate": {
+          "bountifulfares:phylogenesis": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/ruminer",
+        "predicate": {
+          "bountifulfares:ruminer": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/sponge_house",
+        "predicate": {
+          "bountifulfares:sponge_house": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/unpleasant_tiles",
+        "predicate": {
+          "bountifulfares:unpleasant_tiles": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/violet_floret",
+        "predicate": {
+          "bountifulfares:violet_floret": 1.0
+        }
+      }
+    },
+    {
+      "type": "add",
+      "target": "overrides[]",
+      "value": {
+        "model": "bountifulfares:item/painting/why_blue",
+        "predicate": {
+          "bountifulfares:why_blue": 1.0
+        }
+      }
+    }
+  ],
+  "selector": "minecraft:models/item/painting"
+}

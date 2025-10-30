@@ -14,8 +14,6 @@ DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe");
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_trapdoor>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_door>);
 
-
-
 var skulls = [
     "caverns_and_chasms:mime_head",
     "caverns_and_chasms:mime_wall_head",
