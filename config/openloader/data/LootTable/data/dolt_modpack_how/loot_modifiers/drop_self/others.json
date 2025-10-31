@@ -5,6 +5,7 @@
       "condition": "dolt_mod_how:trichotomy",
       "blocks": [
         "minecraft:ender_chest",
+        "alexscaves:enigmatic_engine",
         "minecraft:clay"
       ]
     }

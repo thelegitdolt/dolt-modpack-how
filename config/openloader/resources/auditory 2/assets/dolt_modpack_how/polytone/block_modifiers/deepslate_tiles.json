@@ -17,6 +17,15 @@
         "windswept:dry_mossy_stone_brick_wall",
         "windswept:dry_mossy_stone_brick_slab",
         "windswept:dry_mossy_stone_bricks",
+        "stoneveil:cracked_stone_bricks_tile_stairs",
+        "stoneveil:mossy_stone_bricks_tile_slab",
+        "stoneveil:mossy_stone_bricks_tiles",
+        "stoneveil:stone_bricks_tiles",
+        "stoneveil:stone_bricks_tile_stairs",
+        "stoneveil:mossy_stone_bricks_tile_stairs",
+        "stoneveil:cracked_stone_bricks_tile_slab",
+        "stoneveil:cracked_stone_bricks_tiles",
+        "stoneveil:stone_bricks_tile_slab",
         "caverns_and_chasms:cobblestone_brick_slab",
         "caverns_and_chasms:cobblestone_brick_wall",
         "caverns_and_chasms:cobblestone_bricks",
@@ -41,6 +50,12 @@
         "minecraft:mossy_stone_brick_wall",
         "minecraft:cracked_stone_bricks",
         "minecraft:stone_bricks",
-        "minecraft:mossy_stone_brick_slab"
+        "minecraft:mossy_stone_brick_slab",
+        "stoneveil:stone_pilar",
+        "minecraft:chiseled_stone_bricks",
+        "caverns_and_chasms:cobblestone_tiles",
+        "caverns_and_chasms:mossy_cobblestone_tiles",
+        "windswept:dry_mossy_cobblestone_tiles",
+        "upgrade_aquatic:kelpy_cobblestone_tiles"
     ]
 }
