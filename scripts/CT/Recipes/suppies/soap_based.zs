@@ -1,4 +1,4 @@
-DebugUtil.startScript("/Recipes/suppies/soap_based.zs/"); 
+DebugUtil.startScript("recipes/suppies/soap_based"); 
     
 
 craftingTable.removeByName("supplementaries:soap");
@@ -8,4 +8,4 @@ craftingTable.addShapeless("soap_epic_based", <item:supplementaries:soap> * 6, [
 
 
 
-DebugUtil.endScript("/Recipes/suppies/soap_based.zs"); 
+DebugUtil.endScript("recipes/suppies/soap_based"); 
