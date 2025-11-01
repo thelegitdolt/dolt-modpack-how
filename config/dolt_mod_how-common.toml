@@ -157,3 +157,7 @@
 		#If explosions caused by mobs that die with the Species Combustion effect should not any blocks
 		"Less combusty combustion" = true
 
+	["John Species".hopelight]
+		#If species hopelights should act like JNE frogmists (only interactable when holding another hopelight or a pickaxe)
+		"Frogmist Hopelights" = true
+
