@@ -8,6 +8,11 @@ import crafttweaker.api.ingredient.type.IIngredientList;
 import crafttweaker.api.recipe.type.Recipe;
 import crafttweaker.api.world.Container;
 import crafttweaker.api.resource.ResourceLocation;
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.recipe.replacement.Replacer;
+import crafttweaker.api.tag.type.KnownTag;
+import crafttweaker.api.item.ItemDefinition;
+import crafttweaker.api.recipe.replacement.type.NameFilteringRule;
 
 public class RUtil {
     public static val cut = <recipetype:farmersdelight:cutting>;
@@ -34,6 +39,15 @@ as string[];
             [input, input], 
             [input, input]
         ]); 
+    }
+
+    public static replaceAll(a as IIngredient, b as IIngredient, include... as string[]) as void {
+        if (RUtil.DO_REPLACER == 1) {
+            Replacer.create()
+                .filter(NameFilteringRule.anyOf(include))
+                .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, a as IIngredient, b as IIngredient)
+                .execute();
+        }
     }
 
     public static getRecipeString(rl as ResourceLocation) as string {

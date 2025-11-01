@@ -4,7 +4,6 @@ DebugUtil.startScript("recipes/dye_depot/alternate_dye_methods");
 RUtil.oneToOneConversion("amber_from_pewen_sap", <item:alexscaves:pewen_sap>, <item:dye_depot:amber_dye>);
 
 # aqua
-Kiln.addFurnaceAndKiln("sculk_polyp_to_aqua", <item:dungeonsdelight:sculk_polyp>, <item:dye_depot:aqua_dye>, 0.1, "misc");
 Kiln.addFurnaceAndKiln("sculk_to_aqua", <item:minecraft:sculk>, <item:dye_depot:aqua_dye>, 0.1, "misc");
 
 

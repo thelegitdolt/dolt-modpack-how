@@ -1,6 +1,0 @@
-{
-  "filters": [
-    "/night_vision/",
-    "/caverns_and_chasms:trail_potion.*Potion:\\\"(?!minecraft:water)/"
-  ]
-}
