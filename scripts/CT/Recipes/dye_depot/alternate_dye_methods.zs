@@ -22,7 +22,7 @@ RUtil.oneToOneConversion("currant_dye_its_indigo", <item:atmospheric:currant>, <
 
 # maroon
 RUtil.oneToOneConversion("orange_to_orange_dye_wow", <item:atmospheric:blood_orange>, <item:dye_depot:maroon_dye>);
-
+RUtil.oneToOneConversion("ancient_wax_to_maroon", <item:netherexp:ancient_wax>, <item:dye_depot:maroon_dye>, 2);
 
 # mint
 craftingTable.removeByName("caverns_and_chasms:cyan_dye_from_turquoise");

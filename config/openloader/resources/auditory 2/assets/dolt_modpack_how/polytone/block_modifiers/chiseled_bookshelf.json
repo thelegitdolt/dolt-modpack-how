@@ -1,0 +1,6 @@
+{
+   "sound_type": "copy(minecraft:chiseled_bookshelf)",
+   "targets": [
+      "#blueprint:wooden_bookshelves"
+   ]
+}
