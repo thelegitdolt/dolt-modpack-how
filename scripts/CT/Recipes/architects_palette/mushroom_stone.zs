@@ -8,7 +8,6 @@ val die = [
     "architects_palette:mushy_myonite_brick_slab",
     "architects_palette:myonite_brick_slab",
     "architects_palette:myonite_brick_wall",
-    "architects_palette:olivestone_bricks",
     "architects_palette:myonite_stairs",
     "architects_palette:mushy_myonite_brick_wall",
     "architects_palette:myonite_wall",

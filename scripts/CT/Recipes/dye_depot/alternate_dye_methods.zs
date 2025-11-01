@@ -10,6 +10,9 @@ Kiln.addFurnaceAndKiln("sculk_to_aqua", <item:minecraft:sculk>, <item:dye_depot:
 # coral 
 <tag:items:dye_depot:smelts_into_coral_dye>.add(<tag:items:create:upgrade_aquatic/coral>); 
 
+# forest
+RUtil.oneToOneConversion("toxic_dye_historical_accuracy", <item:alexscaves:toxic_paste>, <item:dye_depot:forest_dye>); 
+RUtil.oneToOneConversion("creeper_spore_to_forest", <item:savage_and_ravage:creeper_spores>, <item:dye_depot:forest_dye>); 
 
 # ginger
 Kiln.addFurnaceAndKiln("ginger_bread_to_ginger_dye", <item:windswept:ginger_root>, <item:dye_depot:ginger_dye>, 0.1, "misc"); 
