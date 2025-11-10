@@ -10,6 +10,8 @@ DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe");
 <tag:blocks:forge:glass>.add(<block:netherexp:discernment_glass>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass_blocks>);
+<tag:blocks:minecraft:mineable/pickaxe>.add(<block:etcetera:light_bulb>);
+<tag:blocks:minecraft:mineable/pickaxe>.add(<block:etcetera:tinted_light_bulb>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass_panes>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_trapdoor>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_door>);
