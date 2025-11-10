@@ -1,0 +1,18 @@
+{
+	"pack": {
+		"pack_format": 12,
+		"description": [
+      {
+        "text":"Dolt Worldgen","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"
+      }
+    ]
+	},    
+	"filter": {
+    "block": [
+      {
+        "namespace": "sullysmod",
+        "path": "forge/biome_modifier/jade_ore"            
+      } 
+    ]    
+  }         
+}
