@@ -86,6 +86,7 @@
 		"caverns_and_chasms:sugilite_stairs" = false
 		"caverns_and_chasms:sugilite_slab" = false
 		"caverns_and_chasms:sugilite" = false
+		"caverns_and_chasms:rocky_dirt" = false
 		"atmospheric:dolerite" = false
 		"atmospheric:dolerite_stairs" = false
 		"atmospheric:dolerite_slab" = false

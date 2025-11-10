@@ -1,0 +1,7 @@
+{
+  "disable": true,
+  "removed": [
+    "item:sullysmod:glass_vial",
+    "item:sullysmod:item_stand"
+  ]
+}
