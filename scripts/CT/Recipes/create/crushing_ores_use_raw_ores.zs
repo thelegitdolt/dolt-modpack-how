@@ -44,9 +44,7 @@ HUtil.hideAll(a);
 [<item:caverns_and_chasms:raw_silver> % 100.0, <item:caverns_and_chasms:raw_silver> % 75.0, <item:create:experience_nugget> % 75.0], <item:caverns_and_chasms:silver_ore>, 400);
 <recipetype:create:crushing>.addRecipe("crushing_with_raw_ores/silver_ore_dep", 
 [<item:caverns_and_chasms:raw_silver> % 100.0, <item:caverns_and_chasms:raw_silver> % 75.0, <item:create:experience_nugget> % 75.0], <item:caverns_and_chasms:deepslate_silver_ore>, 400);
-<recipetype:create:crushing>.addRecipe("crushing/silver_ore_good", 
-[<item:caverns_and_chasms:silver_nugget> * 4 % 100.0, <item:caverns_and_chasms:silver_nugget> % 25.0, <item:create:experience_nugget> % 75.0, <item:minecraft:soul_soil> % 12.5], 
-<item:minecraft:nether_gold_ore>, 350);
+
 
 
 <recipetype:create:crushing>.removeByName("oreganized:crushing/glance");

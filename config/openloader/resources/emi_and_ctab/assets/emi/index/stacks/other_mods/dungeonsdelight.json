@@ -1,0 +1,7 @@
+{
+  "disable": true,
+  "removed": [
+    "item:dungeonsdelight:wardenzola_crumbles",
+    "item:dungeonsdelight:sculk_polyp"
+  ]
+}

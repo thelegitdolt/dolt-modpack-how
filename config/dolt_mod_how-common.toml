@@ -161,3 +161,9 @@
 		#If species hopelights should act like JNE frogmists (only interactable when holding another hopelight or a pickaxe)
 		"Frogmist Hopelights" = true
 
+["From the Ground Up / ftgu"]
+
+	["From the Ground Up / ftgu".Creepers]
+		#Removes the Doomed effect, creates preparations to allow charged creepers to naturally spawn during thunderstorms. Spawns must still be manually added by the modpack dev.
+		"Based Charged Creepers" = false
+

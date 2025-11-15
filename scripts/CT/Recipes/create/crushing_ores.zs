@@ -9,6 +9,10 @@ DebugUtil.startScript("recipes/create/crushing_ores");
     [<item:minecraft:gold_nugget> * 4 % 100.0, <item:minecraft:gold_nugget> % 25.0, <item:create:experience_nugget> % 75.0, <item:minecraft:netherrack> % 12.5], 
      <item:minecraft:nether_gold_ore>, 350);
 
+<recipetype:create:crushing>.addRecipe("crushing/silver_ore_good", 
+   [<item:caverns_and_chasms:silver_nugget> * 4 % 100.0, <item:caverns_and_chasms:silver_nugget> % 25.0, <item:create:experience_nugget> % 75.0, <item:minecraft:soul_soil> % 12.5], 
+   <item:caverns_and_chasms:soul_silver_ore>, 350);
+
 
 
 
