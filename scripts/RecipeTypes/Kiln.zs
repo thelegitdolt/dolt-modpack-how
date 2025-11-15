@@ -38,6 +38,12 @@ public class Kiln {
         }); 
     }
 
+    public static convert(name as string, isBlocks as bool = true) as void {
+        val rec = furnace.getRecipeByName(name);
+        var category = isBlocks ? "blocks" : "misc"; 
+        Kiln.newRecipe(RUtil.getRecipeString(name) + "_but_baking_instead", rec.ingredients[0], rec.resultItem, rec.experience, category, rec.cookingTime / 2);
+    }
+
     public static newRecipeTag(name as string, input as KnownTag<ItemDefinition>, output as IItemStack, xp as float, category as string, duration as int = 100) as void {
         <recipetype:clayworks:baking>.addJsonRecipe(name,
         {

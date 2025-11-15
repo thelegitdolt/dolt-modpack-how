@@ -54,6 +54,9 @@ as string[];
         return rl.toString().replace(":", "_");
     }
 
+    public static getRecipeString(rl as string) as string {
+        return rl.replace(":", "_");
+    }
 
     public static threeByThree(name as string, input as IItemStack, output as IItemStack, count as int = 1) as void {
         craftingTable.addShapeless(name, output * count, [input, input, input, input, input, input, input, input, input]); 
