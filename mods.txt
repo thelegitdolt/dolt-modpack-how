@@ -5,14 +5,14 @@
 [ADDON-TOOL] CreateTweaker-forge-1.20.1-4.0.15.jar
 [ADDON-TOOL] JeiTweaker-forge-1.20.1-8.0.6.jar
 [ADDON] BrewinAndChewin-1.20.1-3.2.1.jar
-[ADDON] Doom & Gloom 1.20.1.jar
 [ADDON] MyNethersDelight-1.20.1-0.1.8.jar
 [ADDON] OpenLoader-Forge-1.20.1-19.0.4.jar
 [ADDON] QuarkOddities-1.20.1.jar
 [ADDON] abnormals_delight-1.20.1-5.0.0.jar
 [ADDON] cavedelight-1.0.2.jar
 [ADDON] create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar
-[ADDON] dye_the_world-1.6.0.jar
+[ADDON] doom_and_gloom-forge-2.0.0.jar
+[ADDON] dye_the_world-1.6.1.jar
 [ADDON] emi_loot-0.7.6+1.20.1+forge.jar
 [ADDON] farmersrespite-1.20.1-2.1.2.jar
 [ADDON] forge-dungeonsdelight-1.20.1-1.2.10.jar
@@ -34,7 +34,7 @@
 [CLIENT] foglooksmodernnow-1.2.1.jar
 [CLIENT] fusion-1.2.11a-forge-mc1.20.1.jar
 [CLIENT] immersiveoverlays-1.4.3+1.20.1-forge.jar
-[CLIENT] jei-1.20.1-forge-15.20.0.117.jar
+[CLIENT] jei-1.20.1-forge-15.20.0.118.jar
 [CLIENT] modelfix-1.15.jar
 [CLIENT] sound-physics-remastered-forge-1.20.1-1.5.1.jar
 [CLIENT] watut-forge-1.20.1-1.2.3.jar
@@ -42,7 +42,7 @@
 [CONTENT] FarmersDelight-1.20.1-1.2.9.jar
 [CONTENT] Geophilic v3.4.4 f15-88.mod.jar
 [CONTENT] Jadens-Nether-Expansion-2.3.5.jar
-[CONTENT] Oreganized 1.20.1-4.3.0.jar
+[CONTENT] Oreganized 1.20.1-4.3.1.jar
 [CONTENT] Quark-4.0-462.jar
 [CONTENT] alexscaves-2.0.2.jar
 [CONTENT] atmospheric-1.20.1-6.1.1.jar
@@ -50,8 +50,8 @@
 [CONTENT] blasted_barrens-1.20.1-1.0.5.jar
 [CONTENT] buzzier_bees-1.20.1-6.0.1.jar
 [CONTENT] caverns_and_chasms-1.20.1-2.1.0-beta2.jar
-[CONTENT] create-1.20.1-6.0.7.jar
-[CONTENT] dye_depot-1.2.2-forge.jar
+[CONTENT] create-1.20.1-6.0.8.jar
+[CONTENT] dye_depot-1.2.3-forge.jar
 [CONTENT] endergetic-1.20.1-5.0.1.jar
 [CONTENT] environmental-1.20.1-4.1.2.jar
 [CONTENT] etched-3.0.4.jar
@@ -93,11 +93,11 @@
 [MINOR] clayworks-1.20.1-3.0.4.jar
 [MINOR] ditr-1.20.1-1.1.1.jar
 [MINOR] enhanced_mushrooms-5.0.0.jar
-[MINOR] everycomp-1.20-2.9.9-forge.jar
+[MINOR] everycomp-1.20-2.9.11-forge.jar
 [MINOR] fishingreal-forge-1.20.1-1.9.1-backport.jar
 [MINOR] fishnostuck-mc1.20.1-v1.0.3-forge.jar
 [MINOR] forgery-3.6.5+1.20.jar
-[MINOR] ftgu-1.3.jar
+[MINOR] ftgu-1.4.jar
 [MINOR] gallery-1.20.1-1.0.3.jar
 [MINOR] horseman-1.20.1-1.3.14-forge.jar
 [MINOR] hourglass-1.20-1.2.1.1.jar
@@ -125,9 +125,9 @@
 [PERFORMANCE] ferritecore-6.0.1-forge.jar
 [PERFORMANCE] memoryleakfix-forge-1.17+-1.1.5.jar
 [PERFORMANCE] mobtimizations-forge-1.20.1-1.0.0.jar
-[PERFORMANCE] modernfix-forge-5.24.4+mc1.20.1.jar
+[PERFORMANCE] modernfix-forge-5.25.1+mc1.20.1.jar
 [PERFORMANCE] noisium-forge-2.3.0+mc1.20-1.20.1.jar
-[PERFORMANCE] packetfixer-3.3.0-1.18-1.20.4-merged.jar
+[PERFORMANCE] packetfixer-3.3.1-1.18-1.20.4-merged.jar
 [SERVER-PERFORMANCE] dimthread-FORGE-mc1.20.1-v1.2.1.jar
 [SERVER] dcintegration-forge-3.0.7.1-1.20.1.jar
 [TOOL] CraftTweaker-forge-1.20.1-14.0.59.jar
@@ -152,4 +152,4 @@
 {LIB} fzzy_config-0.7.3+1.20.1+forge.jar
 {LIB} geckolib-forge-1.20.1-4.8.2.jar
 {LIB} kotlinforforge-4.11.0-all.jar
-{LIB} moonlight-1.20-2.16.15-forge.jar
+{LIB} moonlight-1.20-2.16.16-forge.jar
