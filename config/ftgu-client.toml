@@ -25,7 +25,7 @@
 
 [creeper-changes]
 	#whether the Creeper model is replaced.
-	creeper_remodel = true
+	creeper_remodel = false
 	#whether the Creeper plays new sounds.
 	new_creeper_sounds = true
 	#whether the Minecraft explosion particles are replaced with a new one for Creepers.

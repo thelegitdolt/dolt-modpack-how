@@ -19,14 +19,14 @@
 	endermen_spawn_as_shattered = true
 	#the additional chance Endermen have to teleport while fighting each tick. 1 is 100% chance.
 	#Range: 0.0 ~ 1.0
-	fight-teleport-chance = 0.01
+	fight-teleport-chance = 0.003
 	#the additional chance Shattered Endermen have to teleport while fighting each tick. 1 is 100% chance.
 	#Range: 0.0 ~ 1.0
-	shattered-fight-teleport-chance = 0.025
+	shattered-fight-teleport-chance = 0.01
 
 [creeper-changes]
 	#whether Creeper explosions don't break blocks but make blocks fall.
-	creper_explosion_replace = true
+	creper_explosion_replace = false
 	#The radius creeper explosions can make blocks fall if `creper_explosion_replace` is enabled.
 	#Range: 0 ~ 15
 	creeper-fall-explosion-radius = 5
@@ -46,17 +46,17 @@
 	#whether Creeper sneak up quietly until discovered.
 	do_creepers_sneak_up_on_target = true
 	#whether Creeper explode when on fire.
-	creepers_explode_when_on_fire = true
+	creepers_explode_when_on_fire = false
 	#whether Charged Creepers are immune fire.
-	charged_creepers_immune_to_fire = true
+	charged_creepers_immune_to_fire = false
 	#whether Creeper explosions knockback entities.
-	creeper_explosion_knockback_entities = true
+	creeper_explosion_knockback_entities = false
 	#whether Creeper explosions set other Creepers off.
-	creeper_explosion_chain_reaction = true
+	creeper_explosion_chain_reaction = false
 	#whether Creeper hiss before running from cats and ocelots.
 	creeper_hiss_and_run_from_cats = true
 	#whether Creeper go up to pigs and oink at them.
 	creeper_oink_at_pigs = true
 	#whether Creepers struck by lightning summon a new Charged Creeper miniboss. This also enables Beheading Spores, a new crop dropped by the Charged Creeper that allows you to renewably get heads.
-	charged_creeper_miniboss = true
+	charged_creeper_miniboss = false
 

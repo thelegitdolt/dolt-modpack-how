@@ -165,5 +165,10 @@
 
 	["From the Ground Up / ftgu".Creepers]
 		#Removes the Doomed effect, creates preparations to allow charged creepers to naturally spawn during thunderstorms. Spawns must still be manually added by the modpack dev.
-		"Based Charged Creepers" = false
+		"Based Charged Creepers" = true
+		#If spore rockets explosions should create a Spore Cloud from Savage and Ravage
+		"Spore Bomb Two" = true
+		#The chance, out of 100, that a spore rocket will summon a spore cloud
+		#Range: 0 ~ 100
+		"Spore rocket possibilities" = 100
 

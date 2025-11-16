@@ -672,11 +672,6 @@
 			wormwood = true
 			wormwood_mosaic = true
 
-		[types.cut_block_type.stoneveil]
-			stone_bricks_tile = true
-			cracked_stone_bricks_tile = true
-			mossy_stone_bricks_tile = true
-
 	[types.cake]
 
 		[types.cake.mynethersdelight]

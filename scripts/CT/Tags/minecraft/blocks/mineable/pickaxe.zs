@@ -17,11 +17,6 @@ DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe");
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_door>);
 
 
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:stoneveil:ghast_gargoyle>);
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:stoneveil:grumblo_gargoyle>);
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:stoneveil:gargoyle>);
-
-
 var skulls = [
     "caverns_and_chasms:mime_head",
     "caverns_and_chasms:mime_wall_head",
