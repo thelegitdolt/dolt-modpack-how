@@ -1,0 +1,17 @@
+{
+  "removed": [
+    "item:windswept:gingerbread_block",
+    "item:windswept:glazed_gingerbread_block",
+    "item:windswept:glazed_gingerbread_brick_slab",
+    "item:windswept:glazed_gingerbread_brick_wall",
+    "item:windswept:gingerbread_brick_wall",
+    "item:windswept:glazed_gingerbread_bricks",
+    "item:windswept:gingerbread_trapdoor",
+    "item:windswept:gingerbread_door",
+    "item:windswept:gingerbread_brick_slab",
+    "item:windswept:gingerbread_brick_stairs",
+    "item:windswept:gingerbread_bricks",
+    "item:alexscaves:gingerbread_crumbs",
+    "item:windswept:glazed_gingerbread_brick_stairs"
+  ]
+}
