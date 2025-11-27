@@ -12,6 +12,8 @@
 	generate_dynamic_assets = true
 	#Allow the item_search or searchBar to be visible.
 	tab_item_search = true
+	#If set to true, then all of the generated items will not be put into the mod's tab.
+	no_mod_creative_tab = false
 
 	[general.tooltips]
 		#Enabled tooltips showing which mod an EC item is from

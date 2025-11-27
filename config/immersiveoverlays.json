@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "enabled": true,
   "avoid_overlapping": true,
   "moved_by_effects": true,
@@ -8,6 +8,7 @@
   "search_containers": true,
   "search_containers_for_containers": true,
   "render_background": true,
+  "render_endcap": true,
   "hide_from_debug": true,
   "compass_enable": true,
   "compass_vertical_position": 140,
@@ -77,6 +78,7 @@
   "biome_horizontal_position_left": false,
   "biome_items": [
     "minecraft:map",
+    "minecraft:filled_map",
     "minecraft:empty_map",
     "map_atlases:atlas",
     "map_atlases:end_atlas",
