@@ -50,6 +50,15 @@ as string[];
         }
     }
 
+    public static replace(a as IIngredient, b as IIngredient, c as string) as void {
+        if (RUtil.DO_REPLACER == 1) {
+            Replacer.create()
+                .filter(NameFilteringRule.anyOf([c]))
+                .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, a as IIngredient, b as IIngredient)
+                .execute();
+        }
+    }
+
     public static getRecipeString(rl as ResourceLocation) as string {
         return rl.toString().replace(":", "_");
     }

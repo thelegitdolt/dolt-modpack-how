@@ -142,7 +142,7 @@
 
 	["Alexander Caverns"."Gingerbread Men"]
 		#If gingerbread men should drop windswept gingerbread cookies instead of gingerbread crumps
-		"This Only Makes Sense In Dolt Modpack" = false
+		"This Only Makes Sense In Dolt Modpack" = true
 
 ["Dungeon's Delight"]
 

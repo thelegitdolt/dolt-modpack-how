@@ -8,7 +8,7 @@ Kiln.addFurnaceAndKiln("sculk_to_aqua", <item:minecraft:sculk>, <item:dye_depot:
 
 
 # coral 
-<tag:items:dye_depot:smelts_into_coral_dye>.add(<tag:items:create:upgrade_aquatic/coral>); 
+
 
 # forest
 RUtil.oneToOneConversion("toxic_dye_historical_accuracy", <item:alexscaves:toxic_paste>, <item:dye_depot:forest_dye>); 
