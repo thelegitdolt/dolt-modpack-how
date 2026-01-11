@@ -1,0 +1,9 @@
+#Allow using Bedrock Edition-like reach-around block placement, where a block can be placed directly in front of the block the player is standing on when clicking in mid-air for fast bridging.
+allow_reach_around_placement = true
+#Treat sneaking as active while placing blocks via the fast placement mechanic or reach-around. Allows block placement to work with interactable blocks such as chests and fence gates.
+bypass_use_block = false
+#Allow using Bedrock Edition-like fast block placement, with blocks being placed without leaving gaps or unwanted placements. Also enables placing blocks when clicking in mid-air while building.
+#Additionally introduces a similar mechanic for quickly breaking blocks in a row or column in creative mode.
+#Toggle in-game via the dedicated key binding.
+allow_fast_placement = true
+

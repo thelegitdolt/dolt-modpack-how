@@ -71,9 +71,6 @@
 		[types.wood_type.dungeonsdelight]
 			wormwood = true
 
-		[types.wood_type.darkerdepths]
-			petrified = true
-
 	[types.leaves_type]
 
 		[types.leaves_type.atmospheric]
@@ -677,21 +674,6 @@
 			cut_stained_scrap = true
 			wormwood = true
 			wormwood_mosaic = true
-
-		[types.cut_block_type.darkerdepths]
-			petrified = true
-			aridrock = true
-			polished_aridrock = true
-			aridrock_bricks = true
-			duskrock = true
-			polished_duskrock = true
-			duskrock_bricks = true
-			darkslate = true
-			polished_darkslate = true
-			darkslate_bricks = true
-			grimestone = true
-			polished_grimestone = true
-			grimestone_bricks = true
 
 	[types.cake]
 

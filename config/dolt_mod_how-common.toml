@@ -140,6 +140,10 @@
 		#If tremorzillas should no longer passively break all blocks in its hitbox. Blocks are still broken when the tremorzilla attacks, or with its beam attack.
 		"Marginally Less Griefy Tremorzillas" = true
 
+	["Alexander Caverns"."Gingerbread Men"]
+		#If gingerbread men should drop windswept gingerbread cookies instead of gingerbread crumps
+		"This Only Makes Sense In Dolt Modpack" = false
+
 ["Dungeon's Delight"]
 
 	["Dungeon's Delight"."Brewing and Chewing Wardenzola"]
