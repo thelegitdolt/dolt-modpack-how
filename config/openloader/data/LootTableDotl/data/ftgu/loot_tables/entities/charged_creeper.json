@@ -42,6 +42,17 @@
         }
       ],
       "rolls": 1
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand": true,
+          "name": "minecraft:creeper_drop_music_discs"
+        }
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "ftgu:entities/charged_creeper"
