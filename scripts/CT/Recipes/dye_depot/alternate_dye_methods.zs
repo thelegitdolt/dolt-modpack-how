@@ -20,6 +20,7 @@ Kiln.addFurnaceAndKiln("ginger_bread_to_ginger_dye", <item:windswept:ginger_root
 
 # indigo
 craftingTable.removeByName("atmospheric:purple_dye_from_currant");
+Kiln.addFurnaceAndKiln("licoroot_to_indigo_dye", <item:alexscaves:licoroot>, <item:dye_depot:indigo_dye>, 0.1, "misc"); 
 RUtil.oneToOneConversion("currant_dye_its_indigo", <item:atmospheric:currant>, <item:dye_depot:indigo_dye>); 
 
 
