@@ -72,6 +72,16 @@ function lanterns_okay(modid as string, lantern as string, torch as IIngredient)
     ]);
 }
 
+craftingTable.addShaped("pigsteel_lantern_based", <item:pigsteel:pigsteel_lantern>, [
+        [
+            <item:pigsteel:pigsteel_chunk>
+        ], 
+        [<item:minecraft:torch>], 
+        [
+            <item:pigsteel:pigsteel_chunk>
+        ]
+    ]);
+
 function cheapen_gold_food(food as string, gold as string) as void {
     craftingTable.removeByName(gold); 
 
