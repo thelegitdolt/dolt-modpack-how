@@ -82,6 +82,10 @@ as string[];
         brewing.addRecipe(<item:caverns_and_chasms:tether_potion>.withTag({Potion: potion}), rea, <item:caverns_and_chasms:tether_potion>.withTag({Potion: "minecraft:awkward"}));
     }
 
+    public static isAir(a as IIngredient) as bool {
+        return "IIngredientEmpty.getInstance()" in a.commandString;
+    }
+
     public static removeAll(alls as string[]) as void {
         craftingTable.remove(new IIngredientList(alls.map<IIngredient>(item => <item:${item}>)));
     } 

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "enabled": true,
   "avoid_overlapping": true,
   "moved_by_effects": true,
@@ -13,10 +13,12 @@
   "compass_enable": true,
   "compass_vertical_position": 140,
   "compass_horizontal_position_left": false,
+  "compass_direction": false,
+  "compass_direction_text_colour": 16755200,
   "compass_text_colour": 14737632,
-  "compass_x_colour": "Red",
-  "compass_y_colour": "Green",
-  "compass_z_colour": "Blue",
+  "compass_x_colour": 16733525,
+  "compass_y_colour": 5635925,
+  "compass_z_colour": 5592575,
   "compass_x_items": [
     "minecraft:compass",
     "minecraft:recovery_compass",
@@ -64,7 +66,6 @@
   ],
   "compat_xaeros": true,
   "compat_antique_atlas": true,
-  "compat_accessorify": true,
   "compat_oreganized_temperature": true,
   "compat_tough_as_nails_temperature": true,
   "compat_cold_sweat_temperature": true,
@@ -92,7 +93,7 @@
     "eclipticseasons:calendar"
   ],
   "speed_enable": true,
-  "speed_vertical_position": 140,
+  "speed_vertical_position": 137,
   "speed_horizontal_position_left": true,
   "speed_colour": 13090689,
   "speed_items": [
@@ -108,5 +109,14 @@
   "compat_map_atlases": false,
   "compat_serene_seasons": true,
   "compat_tfc_seasons": true,
-  "compat_ecliptic_seasons": true
+  "compat_ecliptic_seasons": true,
+  "wind_enable": true,
+  "wind_icons": true,
+  "wind_vertical_position": 90,
+  "wind_horizontal_position_left": true,
+  "wind_colour": 10254644,
+  "compat_breezy": true,
+  "wind_items": [
+    "breezy:gust_gauge"
+  ]
 }

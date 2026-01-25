@@ -1,0 +1,5 @@
+
+[sunflower-changes]
+	#whether Spawn replaces the vanilla sunflowers with new ones.
+	enable_spawn_sunflower_replacement = true
+
