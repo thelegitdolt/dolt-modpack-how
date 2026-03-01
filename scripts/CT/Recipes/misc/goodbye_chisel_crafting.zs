@@ -10,13 +10,6 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.recipe.type.ShapedRecipe;
 
 
-craftingTable.removeByName("vista:viewfinder");
-craftingTable.addShaped("viewfinder_temp_lol", <item:vista:viewfinder>, [
-    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
-    [<item:minecraft:iron_ingot>, <item:minecraft:spyglass>, <item:minecraft:iron_ingot>],
-    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
-]);
-
 
 
 for recipe in (craftingTable.getAllRecipes() as stdlib.List<Recipe<Container>>) {

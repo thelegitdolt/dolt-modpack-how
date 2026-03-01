@@ -4,7 +4,7 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.resource.ResourceLocation;
 
-function ladder_real(ladder as IItemStack, ingot as IItemStack, nugget as IItemStack, count as int = 6) as void  {
+function ladder_real(ladder as IItemStack, ingot as IIngredient, nugget as IIngredient, count as int = 6) as void  {
     stoneCutter.remove(ladder);
     craftingTable.remove(ladder);
 
@@ -26,7 +26,7 @@ function ladder(type as string) as void  {
 
 
 ladder("brass");
-ladder_real(<item:create:copper_ladder>, <item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, 12);
-ladder_real(<item:create:andesite_ladder>, <item:minecraft:iron_ingot>, <item:minecraft:iron_nugget>);
+ladder_real(<item:create:copper_ladder>, <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper>, 12);
+ladder_real(<item:create:andesite_ladder>, <tag:items:forge:ingots/iron>, <tag:items:forge:nuggets/iron>);
 
 DebugUtil.endScript("recipes/create/ladders_not_stonecutter"); 

@@ -2,6 +2,7 @@
 	"caverns_and_chasms:block.sugilite.step": "stone",
 	"caverns_and_chasms:block.spinel.step": "composite",
 	"caverns_and_chasms:block.silver.step": "hardmetal",
+	"caverns_and_chasms:block.necromium.step": "hollowmetal",
 
 	"caverns_and_chasms:block.tin.step": "metalsubparts",
 	"caverns_and_chasms:block.storage_duct.step": "metalsubparts",

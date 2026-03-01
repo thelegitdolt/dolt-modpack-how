@@ -1,3 +1,12 @@
 {  
-      "block.minecraft.quartz_block": "Polished Quartz"
+      "block.minecraft.quartz_block": "Polished Quartz",
+
+      "block.minecraft.exposed_copper": "Exposed Copper Plating",
+      "block.minecraft.oxidized_copper": "Oxidized Copper Plating",
+      "block.minecraft.waxed_exposed_copper": "Waxed Exposed Copper Plating",
+      "block.minecraft.waxed_oxidized_copper": "Waxed Oxidized Copper Plating",
+      "block.minecraft.waxed_weathered_copper": "Waxed Weathered Copper Plating",
+      "block.minecraft.weathered_copper": "Weathered Coppe PlatingPlating",
+      "block.minecraft.copper_block": "Copper Plating",
+      "block.minecraft.waxed_copper_block": "Waxed Copper Plating"
 }

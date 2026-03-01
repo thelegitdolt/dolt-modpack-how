@@ -248,6 +248,11 @@
 		"caverns_and_chasms:sanguine_helmet" = 768
 		"caverns_and_chasms:sanguine_leggings" = 768
 		"caverns_and_chasms:sanguine_boots" = 768
+		#copper
+		"caverns_and_chasms:copper_helmet" = 1280
+		"caverns_and_chasms:copper_chestplate" = 1280
+		"caverns_and_chasms:copper_leggings" = 1280
+		"caverns_and_chasms:copper_boots" = 1280
 		#Other
 		"minecraft:turtle_helmet" = 512
 		"minecraft:fishing_rod" = 384
@@ -260,6 +265,8 @@
 		"environmental:yak_pants" = 256
 		"quark:forgotten_hat" = 512
 		"savage_and_ravage:mask_of_dishonesty" = 320
+		"caverns_and_chasms:cowl" = 320
+		"caverns_and_chasms:toolbelt" = 320
 		# alexander cavenrs 
 		"alexscaves:primitive_club" = 256
 		"alexscaves:primordial_helmet" = 512

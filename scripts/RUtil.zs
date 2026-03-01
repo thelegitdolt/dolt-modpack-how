@@ -145,13 +145,13 @@ as string[];
         blastFurnace.addRecipe(name + "_from_smoking", output, input, xp, 100); 
     }
 
-    public static copperRecipe(recipeIDFunc as function(str as string) as string, 
+    public static copperRecipe(recipeName as string, 
                                recipe as function(name as string, i as IItemStack, j as IItemStack) as void, 
                                block as string) 
     as void {
         val rlblock = split(block);
         for ingot, result in RUtil.copperMap {
-            recipe(recipeIDFunc(result), ingot, <item:${rlblock[0] + ":" + result + rlblock[1]}>);
+            recipe(result + recipeName, ingot, <item:${rlblock[0] + ":" + result + rlblock[1]}>);
         }
     }
 
