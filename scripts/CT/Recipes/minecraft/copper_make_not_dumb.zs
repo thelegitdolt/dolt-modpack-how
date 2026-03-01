@@ -24,4 +24,17 @@ RUtil.copperRecipe(
     }, 
     "caverns_and_chasms:chiseled_copper");
 
+RUtil.copperRecipe(
+    (name) => name + "chiseled_copper_unpack_based", 
+    (name, c, result) => {
+        craftingTable.addShapeless(name, c * 9, [
+            result
+        ]);
+    }, 
+    "caverns_and_chasms:chiseled_copper");
+
+for oxi in RUtil.coppers {
+    stoneCutter.remove(<item:caverns_and_chasms:${oxi}chiseled_copper>);
+}
+
 DebugUtil.endScript("/Recipes/minecraft/copper_make_not_dumb.zs"); 

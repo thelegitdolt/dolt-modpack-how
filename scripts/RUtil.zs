@@ -44,6 +44,17 @@ as string[];
 ["rose", "maroon", "ginger", "tan", "beige", "coral", "olive", "forest", "verdant", "amber", "teal", "mint", "aqua", "slate", "navy", "indigo"] 
 as string[];
 
+    public static val coppers = [
+        "",
+        "waxed_",
+        "exposed_",
+        "waxed_exposed_",
+        "weathered_",
+        "waxed_weathered_",
+        "oxidized_",
+        "waxed_oxidized_"] 
+    as string[];
+
 
     public static twoByTwo(name as string, input as IItemStack, output as IItemStack, count as int = 1) as void {
         craftingTable.addShaped(name, output * count, [
