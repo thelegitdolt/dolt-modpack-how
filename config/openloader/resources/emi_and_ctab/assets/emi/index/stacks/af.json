@@ -1,0 +1,11 @@
+{
+  "disable": true,
+  "filters": [
+    "/another_furniture:*/",
+    "/dye_the_world:.*lamp/",
+    "/dye_the_world:.*sofa/",
+    "/dye_the_world:.*stool/",
+    "/everycomp:af/*/",
+    "/dye_the_world:.*curtain/"
+  ]
+}
