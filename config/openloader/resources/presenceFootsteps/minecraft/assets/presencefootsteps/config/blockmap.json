@@ -107,5 +107,9 @@
 	"species:frozen_meat": "ice,organic",
 	"species:frozen_hair": "ice,rug",
 
-	"species:ichor.foliage": "mud,splash"
+	"species:ichor.foliage": "mud,splash",
+
+
+	"amendments:double_cake": "organic_solid",
+	"amendments:.*double_.*_cake": "organic_solid"
 }

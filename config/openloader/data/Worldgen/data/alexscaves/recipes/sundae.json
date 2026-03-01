@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    " G "
+  ],
+  "key": {
+    "A": {
+    "item": "alexscaves:candy_cane"
+    },
+    "B": {
+      "item": "alexscaves:caramel"
+    },
+    "C": {
+      "tag": "alexscaves:sweet_berries"
+    },
+    "G": {
+      "item": "neapolitan:neapolitan_ice_cream"
+    }
+  },
+  "result": {
+    "item": "alexscaves:sundae"
+  }
+}

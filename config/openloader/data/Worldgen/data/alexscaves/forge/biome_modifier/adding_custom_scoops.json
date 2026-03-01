@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alexscaves:candy_cavity",
+  "features": [
+    "alexscaves:banana_ice_cream_scoop",
+    "alexscaves:mint_ice_cream_scoop",
+    "alexscaves:adzuki_ice_cream_scoop"
+  ],
+  "step": "surface_structures"
+}

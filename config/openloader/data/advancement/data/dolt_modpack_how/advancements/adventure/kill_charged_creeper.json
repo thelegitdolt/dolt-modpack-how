@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "sex": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "ftgu:charged_creeper"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Slay a Charged Creeper, an explosive miniboss that roams the Blasted Barrens"
+    },
+    "title": {
+      "text": "Hissy Fit"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "sex"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

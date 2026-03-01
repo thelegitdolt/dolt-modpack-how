@@ -14,5 +14,11 @@
     "alexscaves.sound.subtitle.sugar_rush_exit": "Sugar Dream deactivates",
     "alexscaves.sound.subtitle.sugar_rush_loop": "Sugar Dream shimmers",
 
-    "item.alexscaves.cave_map": "Biome Map"
+    "item.alexscaves.cave_map": "Biome Map",
+
+    "block.alexscaves.block_of_chocolate": "Fantasy Fudge",
+    "block.alexscaves.block_of_polished_chocolate": "Polished Fantasy Fudge",
+    "block.alexscaves.block_of_chiseled_chocolate": "Chiseled Fantasy Fudge",
+    "block.alexscaves.block_of_frosted_chocolate": "Frosted Fantasy Fudge",
+    "item.alexscaves.hot_chocolate_bottle": "Choc-o-Soda"
 }

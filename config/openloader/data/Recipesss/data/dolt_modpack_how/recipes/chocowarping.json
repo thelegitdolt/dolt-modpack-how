@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "neapolitan:chocolate_block"
+        }
+    ],
+    "result": {
+        "item": "alexscaves:block_of_chocolate"
+    },
+    "dimension": "minecraft:the_nether"
+}
