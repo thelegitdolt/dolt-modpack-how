@@ -45,6 +45,14 @@ for col in RUtil.dyeDepotColors {
 <item:brewinandchewin:flaxen_cheese_wheel>.setMaxStackSize(64);
 <item:dungeonsdelight:monster_cake>.setMaxStackSize(64);
 
+<item:farmersdelight:shepherds_pie_block>.setMaxStackSize(64);
+<item:farmersdelight:roast_chicken_block>.setMaxStackSize(64);
+<item:farmersdelight:honey_glazed_ham_block>.setMaxStackSize(64);
+<item:farmersdelight:stuffed_pumpkin_block>.setMaxStackSize(64);
+<item:farmersdelight:rice_roll_medley_block>.setMaxStackSize(64);
+<item:brewinandchewin:fiery_fondue_pot>.setMaxStackSize(64);
+<item:brewinandchewin:pizza>.setMaxStackSize(64);
+
 
 # for col in RUtil.colors {
 #    <item:endergetic:${col}_bolloom_balloon>.setMaxStackSize(64);
