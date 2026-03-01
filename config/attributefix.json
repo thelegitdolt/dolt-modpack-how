@@ -330,6 +330,17 @@
         "value": 1024
       }
     },
+    "caverns_and_chasms:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "runiclib:generic.vulnerability_chance": {
       "enabled": false,
       "min": {

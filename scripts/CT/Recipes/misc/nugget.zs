@@ -82,6 +82,19 @@ craftingTable.addShaped("pigsteel_lantern_based", <item:pigsteel:pigsteel_lanter
         ]
     ]);
 
+craftingTable.removeByName("pigsteel:crafting/pigsteel_lantern");
+craftingTable.removeByName("caverns_and_chasms:copper_lantern");
+craftingTable.addShaped("copper_lantern_based", <item:caverns_and_chasms:copper_lantern>, [
+        [
+            <item:caverns_and_chasms:copper_nugget>
+        ], 
+        [<item:minecraft:torch>], 
+        [
+            <item:caverns_and_chasms:copper_nugget>
+        ]
+]);
+
+
 function cheapen_gold_food(food as string, gold as string) as void {
     craftingTable.removeByName(gold); 
 
@@ -99,6 +112,7 @@ function cheapen_gold_food(food as string, gold as string) as void {
 lanterns_okay("minecraft", "", <item:minecraft:torch>);
 lanterns_okay("minecraft", "soul_", <item:minecraft:soul_torch>);
 lanterns_okay("endergetic", "ender_", <item:endergetic:ender_torch>);
+lanterns_okay("netherexp", "ancient_", <item:netherexp:ancient_torch>);
 lanterns_okay("caverns_and_chasms", "cupric_", <item:caverns_and_chasms:cupric_torch>);
 
 craftingTable.removeByName("dungeonsdelight:living_lantern");

@@ -337,6 +337,19 @@
 			waxed_weathered_copper_brick = true
 			waxed_oxidized_copper_brick = true
 			azalea = true
+			calcite_brick = true
+			smooth_calcite = true
+			tuff_brick = true
+			smooth_tuff = true
+			rhyolite = true
+			polished_rhyolite = true
+			rhyolite_brick = true
+			magmatic_rhyolite = true
+			polished_magmatic_rhyolite = true
+			magmatic_rhyolite_brick = true
+			smooth_dripstone = true
+			polished_dripstone = true
+			dripstone_brick = true
 
 		[types.cut_block_type.upgrade_aquatic]
 			beachgrass_thatch = true

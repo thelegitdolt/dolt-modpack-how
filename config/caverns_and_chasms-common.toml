@@ -16,6 +16,10 @@
 		#Range: -64 ~ 320
 		"Peeper max spawn height" = -4
 
+	[mobs.grazer]
+		#Range: -64 ~ 320
+		"Grazer max spawn height" = -4
+
 [tweaks]
 	#Chainmail armor increases the user's attack damage
 	"Chainmail armor increases damage" = true
