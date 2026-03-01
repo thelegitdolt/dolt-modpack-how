@@ -3,6 +3,8 @@
   
   "item.create.wrench": "Mechanical Adjustor",
 
+  "enchantment.create.capacity": "Iron Lung",
+
   "block.create.speedometer": "Contraption Speedometer",
   "block.create.stressometer": "Contraption Stressometer"
 }

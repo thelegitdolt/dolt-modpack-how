@@ -7047,6 +7047,9 @@
 "item:everycomp:c/quark/azalea_window_pane",
 "item:everycomp:c/quark/ancient_window",
 "item:everycomp:c/architects_palette/twisted_window_pane",
-"item:everycomp:c/environmental/pine_window"
+"item:everycomp:c/environmental/pine_window",
+
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"create:potato_recovery\",lvl:3s}]}",
+    "item:create:potato_cannon{Damage:0}"
    ]
 }
