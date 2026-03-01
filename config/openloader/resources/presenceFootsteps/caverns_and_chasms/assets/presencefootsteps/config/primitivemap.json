@@ -1,3 +1,25 @@
 {
-	"caverns_and_chasms:block.sugilite.step": "stone"
+	"caverns_and_chasms:block.sugilite.step": "stone",
+	"caverns_and_chasms:block.spinel.step": "composite",
+	"caverns_and_chasms:block.silver.step": "hardmetal",
+
+	"caverns_and_chasms:block.tin.step": "metalsubparts",
+	"caverns_and_chasms:block.storage_duct.step": "metalsubparts",
+	"caverns_and_chasms:block.float_glass.step": "glass",
+	"caverns_and_chasms:block.sanguine.step": "hardmetal,organicsolid",
+	"caverns_and_chasms:block.rotten_flesh.step": "organicsolid",
+	"caverns_and_chasms:block.ornate_glass.step": "glass,composite",
+	"caverns_and_chasms:block.rhyolite.step": "sandstone",
+	"caverns_and_chasms:block.cassiterite.step": "stone,ore",
+	"caverns_and_chasms:block.tin_bulb.step": "metalsubparts",
+	"caverns_and_chasms:block.tin_chain.step": "chain",
+	"caverns_and_chasms:block.flint_block.step": "gravel",
+
+	"caverns_and_chasms:block.polished_tuff.step": "composite",
+	"caverns_and_chasms:block.tuff_bricks.step": "composite",
+	"caverns_and_chasms:block.copper_grate.step": "copper",
+	"caverns_and_chasms:block.copper_bulb.step": "copper",
+	"caverns_and_chasms:block.copper_lantern.step": "copper",
+	"caverns_and_chasms:block.copper_chain.step": "copper,chain"
+
 }
