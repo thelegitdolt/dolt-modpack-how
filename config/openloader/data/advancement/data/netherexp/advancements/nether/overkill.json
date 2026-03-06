@@ -7,7 +7,7 @@
       "translate": "advancements.nether.overkill.title"
     },
     "description": {
-      "translate": "advancements.nether.overkill.description"
+      "text": "Deal twenty hearts of damage with a single blow"
     },
     "frame": "challenge",
     "show_toast": true,
