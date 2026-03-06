@@ -17,7 +17,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Construct a brand new pickaxe"
+      "text": "Construct your first ever pickaxe with no other possible pickaxes to make beforehand"
     },
     "frame": "task",
     "hidden": false,

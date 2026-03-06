@@ -3,6 +3,7 @@
 	"caverns_and_chasms:block.spinel.step": "composite",
 	"caverns_and_chasms:block.silver.step": "hardmetal",
 	"caverns_and_chasms:block.necromium.step": "hollowmetal",
+	"caverns_and_chasms:block.charcoal.step": "stone,ore",
 
 	"caverns_and_chasms:block.tin.step": "metalsubparts",
 	"caverns_and_chasms:block.storage_duct.step": "metalsubparts",
@@ -13,7 +14,7 @@
 	"caverns_and_chasms:block.rhyolite.step": "sandstone",
 	"caverns_and_chasms:block.cassiterite.step": "stone,ore",
 	"caverns_and_chasms:block.tin_bulb.step": "metalsubparts",
-	"caverns_and_chasms:block.tin_chain.step": "chain",
+	"caverns_and_chasms:block.tin_chain.step": "chain,metalsubparts",
 	"caverns_and_chasms:block.flint_block.step": "gravel",
 
 	"caverns_and_chasms:block.polished_tuff.step": "composite",
