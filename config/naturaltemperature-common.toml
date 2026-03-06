@@ -39,4 +39,9 @@ temperature_zone_3 = 1.0
 #(Range -1.0 , 1.0 ) These parameters are used to customize some of the modes, 1.0 are very hot zones, -1.0 are very cold zone. 8.0 will randomize the zone
 #Range: -1.0 ~ 8.0
 temperature_zone_4 = -1.0
+#This will enable a humidity (or vegetation) distribution in bands perpendicular to the temperature distribution. It works on simplified mode and linear mode
+enable_humidity_bands = false
+#This is half of the distance between two zones of maximum humidity
+#Range: -6.0E12 ~ 6.0E12
+humidity_bands_width = 1000.0
 

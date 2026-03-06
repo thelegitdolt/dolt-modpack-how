@@ -96,6 +96,8 @@
 	#Scale multiplier for Map Markers text on the world-map
 	#Range: 0.0 ~ 10.0
 	map_markers_text_scale = 1.0
+	#When enabled, the Atlas world map pins will have their coordinates displayed when hovered
+	draw_coordinates_pin = true
 
 [misc]
 	#Multiplier for all the Atlases sound float
