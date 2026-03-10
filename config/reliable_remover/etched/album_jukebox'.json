@@ -2,8 +2,7 @@
     {
         "action": "remove",
         "items": [
-            "examplemod:item1",
-            "examplemod:item2"
+            "etched:album_jukebox"
         ]
     }
 ]

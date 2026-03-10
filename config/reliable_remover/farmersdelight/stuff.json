@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "farmersdelight:milk_bottle",
+            "farmersdelight:fried_egg"
+        ]
+    }
+]

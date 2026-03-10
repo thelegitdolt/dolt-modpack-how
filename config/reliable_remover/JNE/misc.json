@@ -1,0 +1,10 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "netherexp:glowcheese",
+            "netherexp:nether_pizza",
+            "netherexp:bone_rod"
+        ]
+    }
+]

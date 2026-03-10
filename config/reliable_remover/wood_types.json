@@ -1,0 +1,23 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "everycomp:.*/quark/.*ancient.*",
+            "everycomp:abnww/.*/.*beehive",
+            "everycomp:abnww/.*/.*bookshelf",
+            "everycomp:q/.*/.*bookshelf",
+            "everycomp:q/.*/.*chest",
+            "everycomp:abnww/.*/.*chest",
+            "everycomp:fd/.*/.*cabinet",
+            "everycomp:abnbl/.*",
+            "everycomp:abnww/.*/.*boards",
+            "everycomp:abnww/.*/.*ladder",
+            "everycomp:.*/quark/.*blossom.*"
+        ],
+        "not": {
+            "patterns": [
+                "everycomp.*/spawn/.*"
+            ]
+        }
+    }
+]

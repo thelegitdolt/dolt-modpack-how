@@ -1,0 +1,21 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "netherexp:skull_block",
+            "netherexp:burning_skull_block",
+            "netherexp:soul_burning_skull_block",
+            "netherexp:burning_wither_skull_block",
+            "netherexp:soul_burning_wither_skull_block",
+            "netherexp:wither_skull_block",
+            
+            "netherexp:weeping_polished_blackstone_bricks", 
+            "netherexp:twisting_polished_blackstone_bricks",
+
+
+            "netherexp:skeleton_skull_candle",
+            "netherexp:soul_skeleton_skull_candle",     
+            "netherexp:ancient_skeleton_skull_candle"
+        ]
+    }
+]

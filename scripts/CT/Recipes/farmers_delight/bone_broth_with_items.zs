@@ -1,4 +1,4 @@
-DebugUtil.startScript("roseecipes/farmers_delight/bone_broth_with_items"); 
+DebugUtil.startScript("recipes/farmers_delight/bone_broth_with_items"); 
     
 
 RUtil.cook.removeByName("farmersdelight:cooking/bone_broth");
