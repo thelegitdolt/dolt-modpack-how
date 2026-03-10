@@ -143,6 +143,8 @@ class BSI:
         def do(folder):
             if folder is not None:
                 moveFiles(folder, [file for file in os.listdir(folder) if is_addon.match(file)], "binsearch_addons")
+                moveFiles(folder, [file for file in os.listdir(folder) if "openloader" in file], "binsearch_addons")
+                
         do(self.folder1path)
         do(self.folder2path)
 

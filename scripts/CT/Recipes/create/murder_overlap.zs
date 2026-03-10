@@ -1,18 +1,5 @@
 DebugUtil.startScript("recipes/create/murder_overlap"); 
     
-
-var list = [
-    "create:builders_tea",
-    "create:honeyed_apple",
-    "create:sweet_roll",
-    "create:chocolate_glazed_berries",
-    "create:bar_of_chocolate"
-];
-HUtil.hideAll(list);
-for i in list {
-    <recipetype:create:filling>.remove(<item:${i}>);
-}
-
 <recipetype:create:compacting>.removeByName("create:compacting/chocolate");
 
 <recipetype:create:mixing>.removeByName("create:mixing/chocolate");

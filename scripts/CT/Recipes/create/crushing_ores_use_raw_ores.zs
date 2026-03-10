@@ -1,15 +1,5 @@
 DebugUtil.startScript("recipes/create/crushing_ores_use_raw_ores"); 
 
-val a = ["create:crushed_raw_zinc",
-"create:crushed_raw_iron",
-"create:crushed_raw_copper",
-"create:crushed_raw_silver",
-"create:crushed_raw_lead",
-"create:crushed_raw_gold",
-"create:crushed_raw_tin"
-];
-HUtil.hideAll(a);
-
 <recipetype:create:crushing>.removeByName("create:crushing/raw_tin_block");
 <recipetype:create:crushing>.removeByName("create:crushing/raw_tin"); 
 
@@ -39,12 +29,10 @@ HUtil.hideAll(a);
 <recipetype:create:crushing>.addRecipe("crushing_with_raw_ores/deepslate_tin_ore", [<item:caverns_and_chasms:raw_tin> * 2 % 100.0, <item:caverns_and_chasms:raw_tin> % 25.0, <item:create:experience_nugget> % 75.0, <item:minecraft:cobbled_deepslate> % 12.5], <item:caverns_and_chasms:deepslate_tin_ore>, 350);
 
 
-
 <recipetype:create:crushing>.addRecipe("crushing_with_raw_ores/silver_ore", 
 [<item:caverns_and_chasms:raw_silver> % 100.0, <item:caverns_and_chasms:raw_silver> % 75.0, <item:create:experience_nugget> % 75.0], <item:caverns_and_chasms:silver_ore>, 400);
 <recipetype:create:crushing>.addRecipe("crushing_with_raw_ores/silver_ore_dep", 
 [<item:caverns_and_chasms:raw_silver> % 100.0, <item:caverns_and_chasms:raw_silver> % 75.0, <item:create:experience_nugget> % 75.0], <item:caverns_and_chasms:deepslate_silver_ore>, 400);
-
 
 
 <recipetype:create:crushing>.removeByName("oreganized:crushing/glance");

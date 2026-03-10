@@ -21,7 +21,7 @@ for i in list {
 }
 
 <recipetype:create:crushing>.addRecipe("tuff_cc_copper", 
-[<item:minecraft:flint> % 25, <item:minecraft:gold_nugget> % 5, <item:create:zinc_nugget> % 5, <item:caverns_and_chasms:copper_nugget> % 5, <item:minecraft:iron_nugget> % 10], 
+[<item:minecraft:flint> % 25, <item:caverns_and_chasms:tin_nugget> % 2, <item:minecraft:gold_nugget> % 5, <item:create:zinc_nugget> % 5, <item:caverns_and_chasms:copper_nugget> % 5, <item:minecraft:iron_nugget> % 10], 
 <item:minecraft:tuff>, 200);
 
 <recipetype:create:crushing>.addRecipe("warped_wart_get", 

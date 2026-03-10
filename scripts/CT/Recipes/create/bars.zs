@@ -1,17 +1,5 @@
 DebugUtil.startScript("recipes/create/bars"); 
     
-
-var list = [
-    "create:copper_bars", 
-    "create:andesite_bars"
-];
-
-HUtil.hideAll(list);
-
-for i in list {
-    stoneCutter.remove(<item:${i}>);
-}
-
 val brass = <item:create:brass_ingot>;
 
 stoneCutter.remove(<item:create:brass_bars>);

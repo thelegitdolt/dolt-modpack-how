@@ -14,8 +14,6 @@ DebugUtil.startScript("recipes/create/crushing_ores");
    <item:caverns_and_chasms:soul_silver_ore>, 350);
 
 
-
-
  <recipetype:create:crushing>.addRecipe("crushing/radrock_uranium_ore", 
     [<item:alexscaves:uranium> * 2 % 100.0, <item:alexscaves:uranium> % 25.0, <item:create:experience_nugget> % 75.0, <item:alexscaves:radrock> % 12.5], 
      <item:alexscaves:radrock_uranium_ore>, 350);
@@ -36,9 +34,7 @@ DebugUtil.startScript("recipes/create/crushing_ores");
      <item:pigsteel:porkslag>, 350);
 
 addCrushRecipe("spinel", "caverns_and_chasms", "spinel", 4, "spinel");
-addCrushRecipe("jade", "sullysmod", "jade", 5, "jade");
-
-
+addCrushRecipe("turquoise", "caverns_and_chasms", "turquoise", 6, "turquoise");
 
 
 function addCrushRecipe(name as string, modid as string, raw as string, count as int, ore as string) as void{
