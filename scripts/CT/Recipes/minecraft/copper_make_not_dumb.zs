@@ -18,31 +18,30 @@ craftingTable.removeByName("caverns_and_chasms:waxed_oxidized_copper_ingot");
 
 val cop = <item:minecraft:copper_ingot>;
 
-
 craftingTable.addShaped("copper_block_based", <item:minecraft:copper_block>, [
     [cop, cop],
     [cop, cop]
 ]);
 
-RUtil.copperRecipe(
+CUtil.copperRecipe(
     "copper_storage_based", 
-    (name, c, result) => {
+    (name, result, c) => {
         craftingTable.addShapeless(name, result, [
             c, c, c, c, c, c, c, c, c
         ]);
     }, 
-    "caverns_and_chasms:chiseled_copper");
+    "caverns_and_chasms:chiseled_copper", "copper_ingot");
 
-RUtil.copperRecipe(
+CUtil.copperRecipe(
     "chiseled_copper_unpack_based", 
     (name, c, result) => {
         craftingTable.addShapeless(name, c * 9, [
             result
         ]);
     }, 
-    "caverns_and_chasms:chiseled_copper");
+    "copper_ingot", "caverns_and_chasms:chiseled_copper");
 
-for oxi in RUtil.coppers {
+for oxi in CUtil.coppers {
     stoneCutter.remove(<item:caverns_and_chasms:${oxi}chiseled_copper>);
 }
 

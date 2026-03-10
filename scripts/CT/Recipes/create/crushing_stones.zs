@@ -16,7 +16,7 @@ DebugUtil.startScript("recipes/create/crushing_stones");
     <item:quark:jasper>, 200);
 
 <recipetype:create:crushing>.addRecipe("cassiterite_crush", 
-    [<item:caverns_and_chasms:tin_nugget> % 15, <item:minecraft:blackstone> % 10], 
+    [<item:caverns_and_chasms:tin_nugget> % 5, <item:minecraft:blackstone> % 10], 
     <item:caverns_and_chasms:cassiterite>, 200);
 
 <recipetype:create:crushing>.addRecipe("sugilite_crush", 
@@ -42,6 +42,19 @@ DebugUtil.startScript("recipes/create/crushing_stones");
 <recipetype:create:crushing>.addRecipe("dolerite_crush", 
     [<item:minecraft:iron_nugget> % 10, <item:oreganized:lead_nugget> % 10], 
     <item:atmospheric:dolerite>, 200);
+
+<recipetype:create:crushing>.addRecipe("rhyolite_crush", 
+    [<item:minecraft:magma_cream> % 2, <item:minecraft:tuff> % 5, <item:minecraft:quartz> % 20], 
+    <item:caverns_and_chasms:rhyolite>, 200);
+
+<recipetype:create:crushing>.addRecipe("magmatic_rhyolite_crush", 
+    [<item:minecraft:magma_cream> % 5, <item:minecraft:tuff> % 5, <item:minecraft:quartz> % 15], 
+    <item:caverns_and_chasms:magmatic_rhyolite>, 200);
+
+
+<recipetype:create:crushing>.addRecipe("magma_crush", 
+    [<item:minecraft:magma_cream> % 5, <item:minecraft:netherrack> % 5], 
+    <item:minecraft:magma_block>, 200);
 
 
 

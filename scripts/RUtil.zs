@@ -20,17 +20,6 @@ public class RUtil {
     public static val mix = <recipetype:create:mixing>;
 
     public static val air = <item:minecraft:air>;
-    
-    private static val copperMap as string[IItemStack] = {
-        <item:minecraft:copper_ingot>: "",
-        <item:caverns_and_chasms:waxed_copper_ingot>: "waxed_",
-        <item:caverns_and_chasms:exposed_copper_ingot>: "exposed_",
-        <item:caverns_and_chasms:waxed_exposed_copper_ingot>: "waxed_exposed_",
-        <item:caverns_and_chasms:weathered_copper_ingot>: "weathered_",
-        <item:caverns_and_chasms:waxed_weathered_copper_ingot>: "waxed_weathered_",
-        <item:caverns_and_chasms:oxidized_copper_ingot>: "oxidized_",
-        <item:caverns_and_chasms:waxed_oxidized_copper_ingot>: "waxed_oxidized_"
-    } ;
 
     # set as 1 if we are doing the replacer. set as any other number if we should disable the replacer
     public static val DO_REPLACER = 1 as int;
@@ -43,17 +32,6 @@ as string[];
     public static val dyeDepotColors = 
 ["rose", "maroon", "ginger", "tan", "beige", "coral", "olive", "forest", "verdant", "amber", "teal", "mint", "aqua", "slate", "navy", "indigo"] 
 as string[];
-
-    public static val coppers = [
-        "",
-        "waxed_",
-        "exposed_",
-        "waxed_exposed_",
-        "weathered_",
-        "waxed_weathered_",
-        "oxidized_",
-        "waxed_oxidized_"] 
-    as string[];
 
 
     public static twoByTwo(name as string, input as IItemStack, output as IItemStack, count as int = 1) as void {
@@ -145,18 +123,7 @@ as string[];
         blastFurnace.addRecipe(name + "_from_smoking", output, input, xp, 100); 
     }
 
-    public static copperRecipe(recipeName as string, 
-                               recipe as function(name as string, i as IItemStack, j as IItemStack) as void, 
-                               block as string) 
-    as void {
-        val rlblock = split(block);
-        for ingot, result in RUtil.copperMap {
-            recipe(result + recipeName, ingot, <item:${rlblock[0] + ":" + result + rlblock[1]}>);
-        }
-    }
-
     public static split(test as string) as stdlib.List<string> {
-
         var x as usize = test.indexOf(":");
         var y as usize = test.length;
 
