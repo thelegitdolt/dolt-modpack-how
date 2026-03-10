@@ -12,7 +12,10 @@
             "everycomp:abnbl/.*",
             "everycomp:abnww/.*/.*boards",
             "everycomp:abnww/.*/.*ladder",
-            "everycomp:.*/quark/.*blossom.*"
+            "everycomp:.*/quark/.*blossom.*",
+
+            "quark:vertical.*planks",
+            "everycomp:q/.*/vertical.*planks"
         ],
         "not": {
             "patterns": [

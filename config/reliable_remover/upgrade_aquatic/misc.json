@@ -1,0 +1,8 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "upgrade_aquatic:mulberry_bread", "upgrade_aquatic:mulberry_pie", "upgrade_aquatic:mulberry_jam_bottle", "upgrade_aquatic:mulberry_jam_block"
+        ]
+    }
+]

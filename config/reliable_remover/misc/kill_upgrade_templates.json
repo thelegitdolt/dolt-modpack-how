@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "minecraft:netherite_upgrade_smithing_template",
+            "oreganized:electrum_upgrade_smithing_template"
+        ]
+    }
+]

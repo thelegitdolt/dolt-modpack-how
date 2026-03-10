@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "sullysmod:item_stand",
+            "sullysmod:glass_vial"
+        ]
+    }
+]

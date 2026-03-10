@@ -1,0 +1,30 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "supplementaries:fire_pit",
+            "supplementaries:cage",
+            "supplementaries:flower_box",
+            "supplementaries:lumisene_bucket",
+            "supplementaries:lumisene_bottle",
+            "supplementaries:flax",
+            "supplementaries:flax_seeds",
+
+            "supplementaries:netherite_trapdoor",
+            "supplementaries:netherite_door",
+
+            "supplementaries:blackstone_tile_wall",
+            "supplementaries:rope",
+            "supplementaries:bunting",
+
+            "supplementaries:blackstone_tile_slab",
+            "supplementaries:blackstone_tile",
+            "supplementaries:blackstone_tile_stairs",
+
+            "supplementaries:stone_tile",
+            "supplementaries:stone_tile_stairs",
+            "supplementaries:stone_tile_slab",
+            "supplementaries:stone_tile_wall"
+        ]
+    }
+]

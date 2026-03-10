@@ -1,0 +1,36 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "quark:music_disc_drips",
+            "quark:music_disc_rain",
+            "quark:music_disc_wind",
+            "quark:music_disc_fire",
+            "quark:music_disc_clock",
+            "quark:music_disc_chatter",
+            "quark:music_disc_crickets",
+            "quark:music_disc_ocean",
+
+            "quark:dirty_glass_pane", 
+            "quark:dirty_glass",
+            "quark:trowel",
+            "quark:slime_in_a_bucket",
+            "quark:pickarang",
+            "quark:flamerang",
+            "quark:diamond_heart",
+
+            "quark:chute",
+            "quark:bottled_cloud",
+
+            "quark:tiny_potato",
+            "quark:ender_watcher",
+            "quark:iron_rod",
+            "quark:gold_button",
+            "quark:iron_button",
+            "quark:stone_brick_lamp",
+            "quark:stone_lamp"
+
+
+        ]
+    }
+]

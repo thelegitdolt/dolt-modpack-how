@@ -1,0 +1,8 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "oreganized:.*silver.*"
+        ]
+    }
+]

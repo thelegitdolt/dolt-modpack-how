@@ -1,0 +1,9 @@
+{
+  "disable": true,
+  "filters": [
+    "/citadel:.*/",
+    "item:mowziesmobs:mob_remover",
+    "item:mowziesmobs:grant_suns_blessing",
+    "quark:matrix_enchanter"
+  ]
+}

@@ -3,7 +3,9 @@
         "action": "remove",
         "patterns": [
             "dye_the_world:.*shingles",
-            "dye_the_world:.*shard"
+            "dye_the_world:.*shard",
+            "scholar:.*_written_book",
+            "scholar:.*_writable_book"
         ]
     }
 ]

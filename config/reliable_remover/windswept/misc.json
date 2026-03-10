@@ -1,0 +1,8 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "windswept:wooden.*_bucket"
+        ]
+    }
+]

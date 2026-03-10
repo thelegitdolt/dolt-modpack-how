@@ -121,11 +121,11 @@
 	"Japanese Palette" = true
 	"Leaf Carpet" = false
 	Midori = true
-	"More Brick Types" = true
+	"More Brick Types" = false
 	"More Mud Blocks" = true
 	"More Potted Plants" = true
 	"Nether Brick Fence Gate" = true
-	"Rainbow Lamps" = true
+	"Rainbow Lamps" = false
 	"Raw Metal Bricks" = true
 	Rope = false
 	"Shear Vines" = true
@@ -141,7 +141,7 @@
 	"Vertical Planks" = false
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
-	"More Stone Variants" = false
+	"More Stone Variants" = true
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -277,9 +277,9 @@
 		"Allow Side Connections" = true
 
 	[building.more_stone_variants]
-		"Enable Bricks" = false
-		"Enable Chiseled Bricks" = false
-		"Enable Pillar" = false
+		"Enable Bricks" = true
+		"Enable Chiseled Bricks" = true
+		"Enable Pillar" = true
 
 [management]
 	"Automatic Tool Restock" = true
@@ -1347,7 +1347,7 @@
 				"Is Blacklist" = false
 
 [mobs]
-	Crabs = true
+	Crabs = false
 	Forgotten = true
 	Foxhound = true
 	Shiba = true

@@ -18,8 +18,8 @@ for bookshelf, planks in stuff {
     val b = <item:${bookshelf}>;
     craftingTable.remove(b);
     
-    craftingTable.addShapeless(bookshelf.toString().replace(":", "_") + "_based", b, [
-        p, p, book, book
+    craftingTable.addShaped(bookshelf.toString().replace(":", "_") + "_based", b * 3, [
+        [p, p, p], [book, book, book], [p, p, p]
     ]);
 }
 

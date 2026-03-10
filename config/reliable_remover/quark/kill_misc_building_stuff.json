@@ -1,0 +1,35 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "quark:.*shingle.*",
+            "quark:.*shard.*",
+            "quark:.*chest",
+            "quark:.*crystal_lamp",
+            "quark:egg_parrot.*",
+
+
+            "quark:.*cobblestone_brick.*",
+            "quark:.*blackstone_brick.*",
+            "quark:.*dirt_brick.*",
+            "quark:.*blackstone_brick.*",
+            "quark:.*netherrack_brick.*",
+            "quark:.*thatch.*",
+
+            "quark:raw_iron_brick.*",
+            "quark:raw_copper_brick.*",
+            "quark:raw_gold_brick.*",
+
+            "quark:hollow_.*_log",
+            "quark:hollow_.*_stem",
+
+            "quark:blue_nether_brick.*",
+
+            "quark:.*limestone.*",
+            "quark:.*shale.*",
+            "quark:.*calcite.*",
+            "quark:.*tuff.*",
+            "quark:.*dripstone.*"
+        ]
+    }
+]

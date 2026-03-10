@@ -1,9 +1,4 @@
 DebugUtil.startScript("recipes/quark/quark_stone"); 
-    
-
-craftingTable.addShapeless("shale", <item:quark:shale>, 
-    [<tag:items:forge:cobblestone/normal>, <item:minecraft:flint>]
-);
 
 
 craftingTable.addShapeless("jasper", <item:quark:jasper>, 

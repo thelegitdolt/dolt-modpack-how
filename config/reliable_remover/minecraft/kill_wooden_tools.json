@@ -1,0 +1,11 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "minecraft:wooden_sword",
+            "minecraft:wooden_axe",
+            "minecraft:wooden_pickaxe",
+            "minecraft:wooden_shovel"
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "mowziesmobs:painted_acacia",
+            "mowziesmobs:painted_acacia_slab",
+            "mowziesmobs:spear",
+            "mowziesmobs:thatch_block",
+            "mowziesmobs:naga_fang_dagger"
+        ]
+    }
+]

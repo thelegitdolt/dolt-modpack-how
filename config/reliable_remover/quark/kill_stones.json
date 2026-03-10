@@ -1,0 +1,10 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "quark:.*permafrost.*",
+            "quark:.*myalite.*",
+            "quark:.*conundrum.*"
+        ]
+    }
+]

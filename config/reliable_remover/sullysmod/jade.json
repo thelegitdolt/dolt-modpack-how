@@ -1,0 +1,11 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "sullysmod:.*jade.*"
+        ],
+        "not": {
+            "items": ["sullysmod:jade_flinger_totem", "sullysmod:jade_amulet"]
+        }
+    }
+]
