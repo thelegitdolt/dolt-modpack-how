@@ -1,0 +1,24 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "architects_palette:dripstone_brick.*",
+            "architects_palette:calcite_brick.*",
+            "architects_palette:tuff_brick.*"
+        ],
+        "not": {
+            "patterns": [
+                "architects_palette:heavy_.*_brick"
+            ]
+        }
+    },
+    {
+        "action": "remove",
+        "items": [
+            "architects_palette:dripstone_pillar",
+            "architects_palette:cracked_end_stone_bricks",
+            "architects_palette:withered_bone_block",
+            "architects_palette:chiseled_end_stone_bricks"
+        ]
+    }
+]

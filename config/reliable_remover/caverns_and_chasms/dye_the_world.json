@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "caverns_and_chasms:splurter",
+            "caverns_and_chasms:scatterer"
+        ]
+    }
+]

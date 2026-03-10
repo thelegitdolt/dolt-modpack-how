@@ -1,0 +1,10 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "architects_palette:.*twisted.*",
+            "everycomp:.*architects_palette/.*twisted.*",
+            "supplementaries:.*architects_palette/.*twisted.*"
+        ]
+    }
+]

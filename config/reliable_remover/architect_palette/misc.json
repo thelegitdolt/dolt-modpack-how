@@ -1,0 +1,23 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "architects_palette:.*flint.*",
+            "architects_palette:.*board.*",
+            "architects_palette:.*railing.*",
+            "architects_palette:.*ore_brick.*",
+            "architects_palette:.*myonite.*",
+            "everycomp:ap/.*railing"
+        ]
+    },
+    {
+        "action": "remove",
+        "items": [
+            "architects_palette:scute_block",
+            "architects_palette:chiseled_packed_ice",
+            "architects_palette:packed_ice_pillar",
+            "architects_palette:rotten_flesh_block",
+            "architects_palette:withered_bone_block"
+        ]
+    }
+]

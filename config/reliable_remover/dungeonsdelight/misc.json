@@ -1,0 +1,13 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+        ]
+    },
+    {
+        "action": "remove",
+        "items": [
+            "dungeonsdelight:sculk_polyp"
+        ]
+    }
+]

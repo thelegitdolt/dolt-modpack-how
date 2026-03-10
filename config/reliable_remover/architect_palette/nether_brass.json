@@ -1,0 +1,14 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "architects_palette:.*nether_brass.*"
+        ]
+    },
+    {
+        "action": "remove",
+        "items": [
+            "supplementaries:sconce_nether_brass"
+        ]
+    }
+]

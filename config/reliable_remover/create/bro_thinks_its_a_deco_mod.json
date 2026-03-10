@@ -1,0 +1,19 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "create:.*glass.*",
+            "create:.*copper_shingle.*",
+            "create:.*copper_tile.*",
+            "create:.*window.*",
+
+            "everycomp:c/.*/.*_window.*"
+        ],
+        "not": {
+            "items": [
+                "create:ornate_iron_window",
+                "create:ornate_iron_window_pane"
+            ]
+        }
+    }
+]

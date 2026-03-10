@@ -1,0 +1,13 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "architects_palette:.*_nub"
+        ],
+        "not": {
+            "items": [
+                "architects_palette:gold_nub"
+            ]
+        }
+    }
+]

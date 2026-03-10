@@ -1,0 +1,24 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "create:drill",
+            "create:cart_assembler",
+            "create:tree_fertilizer",
+
+            "create:mechanical_saw", 
+            "create:mechanical_harvester",
+            "create:mechanical_roller",
+            "create:mechanical_plough",
+
+            "create:wand_of_symmetry",
+            "create:potato_cannon"
+        ]
+    },
+    {
+        "action": "remove",
+        "patterns": [
+            "create:.*schematic.*"
+        ]
+    }
+]

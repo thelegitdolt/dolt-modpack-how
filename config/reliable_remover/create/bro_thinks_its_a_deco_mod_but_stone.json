@@ -1,0 +1,43 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "create:.*granite.*",
+            "create:.*diorite.*",
+            "create:.*calcite.*",
+            "create:.*asurine.*",
+            "create:.*ochrum.*",
+            "create:.*scoria.*",
+            "create:.*limestone.*",
+            "create:.*crimsite.*",
+            "create:.*scorchia.*",
+            "create:.*tuff.*",
+            "create:.*dripstone.*",
+            "create:.*deepslate.*",
+            "create:.*veridium.*"
+        ]
+    },
+    {
+        "action": "remove",
+        "items": [
+            "create:cut_andesite_brick_stairs",
+            "create:polished_cut_andesite",
+            "create:cut_andesite_wall",
+            "create:cut_andesite_bricks",
+            "create:polished_cut_andesite_wall",
+            "create:cut_andesite_slab",
+            "create:cut_andesite_stairs",
+            "create:polished_cut_andesite_slab",
+            "create:cut_andesite_brick_wall",
+            "create:polished_cut_andesite_stairs",
+            "create:cut_andesite",
+            "create:cut_andesite_brick_slab",
+            "create:layered_andesite",
+            "create:small_andesite_brick_wall",
+            "create:andesite_pillar",
+            "create:small_andesite_bricks",
+            "create:small_andesite_brick_stairs",
+            "create:small_andesite_brick_slab"
+        ]
+    }
+]
