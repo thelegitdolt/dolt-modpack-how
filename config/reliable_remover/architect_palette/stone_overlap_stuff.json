@@ -2,13 +2,14 @@
     {
         "action": "remove",
         "patterns": [
-            "architects_palette:dripstone_brick.*",
-            "architects_palette:calcite_brick.*",
-            "architects_palette:tuff_brick.*"
+            "architects_palette:.*dripstone.*",
+            "architects_palette:.*calcite.*",
+            "architects_palette:.*tuff.*"
         ],
         "not": {
             "patterns": [
-                "architects_palette:heavy_.*_brick"
+                "architects_palette:heavy_.*_brick",
+                "architects_palette:.*lamp"
             ]
         }
     },

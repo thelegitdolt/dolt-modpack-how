@@ -7,9 +7,21 @@ import crafttweaker.api.item.Ingredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.recipe.type.ShapedRecipe;
 
+val a = [
+"quark:building/crafting/slabs/dripstone_block_slab",
+"quark:building/crafting/slabs/calcite_slab",
+"quark:building/crafting/slabs/tuff_slab"
+];
+
+for i in a {
+    craftingTable.removeByName(i);
+}
+
 for recipe in (craftingTable.getAllRecipes() as stdlib.List<Recipe<Container>>) {
     val baseBlock = isSlabRecipe(recipe);
     if (!baseBlock.matches(<item:minecraft:air>)) {
+        # i hate load order
+
         val result = recipe.resultItem;
         craftingTable.addShaped(result.registryName.toString().replace(":", "_") + "_based", result * 4,[
             [baseBlock, baseBlock]
@@ -18,6 +30,7 @@ for recipe in (craftingTable.getAllRecipes() as stdlib.List<Recipe<Container>>) 
             result * 1, result * 1
         ]);
         craftingTable.removeByName(recipe.id);
+        
     }
 }
 
