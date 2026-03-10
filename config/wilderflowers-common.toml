@@ -1,0 +1,15 @@
+
+[wilderflowers]
+
+	[wilderflowers.garland_spawns]
+		#Chance of mobs in garland_wearers spawning with flower garlands
+		"Base garland chance" = 0.05
+		#Chance of mobs in garland_wearers spawning with flower garlands in frequent_garland biomes
+		"Frequent garland chance" = 0.35
+
+	[wilderflowers.mob_flower_garland_behavior]
+		#Mobs in garland_wearers wearing flower garlands are neutral
+		"Garland wearers neutral" = false
+		#Mobs in garland_wearers wearing flower garlands are passive. If true, overrides garlandWearersNeutral
+		"Garland wearers passive" = false
+

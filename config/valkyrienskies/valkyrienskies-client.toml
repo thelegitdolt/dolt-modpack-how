@@ -1,0 +1,31 @@
+#The way ships are rendered by default
+#Allowed Values: VANILLA, FLYWHEEL
+defaultRenderer = "VANILLA"
+#Recommend ship slugs in mc commands where player names could be used ex. /tp ship-name wich could pollute user autocomplete
+recommendSlugsInMcCommands = true
+#Renders the VS2 debug HUD with TPS
+renderDebugText = false
+#Grace period before a player's camera is no longer considered to be within a sealed area
+sealedAreaCameraGracePeriod = 2
+
+["Block Tint"]
+	#Partly fixes the block tinting issue with blocks on ships
+	fixBlockTinting = false
+
+[Connectivity]
+	#Enable client connectivity; increases client load, but allows for client-sided sealed space visuals, like occluding water in a submarine.
+	enableClientConnectivity = false
+
+[SoundEffect]
+	#Doppler effect scaler. 1.0 for realistic; smaller value results in weaker doppler effect
+	dopplerEffectScale = 0.05
+	#Enable doppler effect for sounds
+	enableDopplerEffect = true
+
+[Tooltips]
+	#Set when the Mass Tooltip is Visible
+	#Allowed Values: ALWAYS, ADVANCED, DISABLED
+	massTooltipVisibility = "DISABLED"
+	#Use Imperial Units to show Mass
+	useImperialUnits = false
+
