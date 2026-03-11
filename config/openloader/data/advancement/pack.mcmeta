@@ -45,6 +45,18 @@
 			{
 				"namespace": "mowziesmobs",
 				"path": "advancements/.*grottol.*"
+			},
+			{
+				"namespace": "netherexp",
+				"path": "advancements/nether/ayo_the_pizza_here"
+			},
+			{
+				"namespace": "netherexp",
+				"path": "advancements/nether/pizza_hunt"
+			},
+			{
+				"namespace": "architects_palette",
+				"path": "advancements/main/find_twisted_sapling"
 			}
 		]    
 	}     

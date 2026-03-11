@@ -17,7 +17,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Infuse molten metal with the power of speed to obtain an electrum ingot"
+      "text": "Infuse molten metal with the power of speed to create an electrum ingot"
     },
     "frame": "task",
     "hidden": false,

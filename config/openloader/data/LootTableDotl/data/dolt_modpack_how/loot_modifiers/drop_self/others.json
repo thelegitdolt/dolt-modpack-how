@@ -6,7 +6,8 @@
       "blocks": [
         "minecraft:ender_chest",
         "alexscaves:enigmatic_engine",
-        "minecraft:clay"
+        "minecraft:clay",
+        "netherexp:magma_cream_block"
       ]
     }
   ]
