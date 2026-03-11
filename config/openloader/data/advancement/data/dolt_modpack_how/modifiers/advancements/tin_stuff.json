@@ -1,0 +1,15 @@
+{
+  "modifiers": [
+    {
+      "type": "parent",
+      "config": "dolt_modpack_how:mining/obtain_tin"
+    }
+  ],
+  "priority": "normal",
+  "selector": {
+    "type": "names",
+    "config": [
+      "caverns_and_chasms:adventure/find_monolith"
+    ]
+  }
+}

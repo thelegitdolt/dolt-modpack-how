@@ -1,0 +1,38 @@
+{
+  "parent": "dolt_modpack_how:mining/root",
+  "criteria": {
+    "stone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Infuse molten metal with the power of speed to obtain an electrum ingot"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oreganized:electrum_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "One Point Fifth Place"
+    }
+  },
+  "requirements": [
+    [
+      "stone_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

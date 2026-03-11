@@ -1,0 +1,33 @@
+{
+  "parent": "dolt_modpack_how:mining/root",
+  "criteria": {
+    "sexxx": {
+      "conditions": {
+        "block": "caverns_and_chasms:tin_ore",
+        "num_bees_inside": 0
+      },
+      "trigger": "minecraft:bee_nest_destroyed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Excavate an oddly shaped vein of tin ore. Could it be pointing to something...? "
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "caverns_and_chasms:raw_tin"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Fascinating Natural Phenomena"
+    }
+  },
+  "requirements": [
+    [
+      "sexxx"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

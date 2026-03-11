@@ -2,6 +2,50 @@
 	"pack": {
 		"pack_format": 12,
 		"description": [{
-"text":"jonathan advancement","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
-	}
+			"text":"jonathan advancement","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "sullysmod",
+				"path": "adventure/jade_grindset"            
+			},
+			{
+				"namespace": "sullysmod",
+				"path": "adventure/polish_jade"            
+			},
+			{
+				"namespace": "sullysmod",
+				"path": "adventure/item_stand_crafted"            
+			},
+			{
+				"namespace": "sullysmod",
+				"path": "adventure/glass_vial_filled_jungle_spider"            
+			},
+			{
+				"namespace": "quark",
+				"path": "apply_color_rune"
+			},
+			{
+				"namespace": "quark",
+				"path": "wear_full_rainbow"
+			},
+			{
+				"namespace": "oreganized",
+				"path": "story/obtain_silver"
+			},
+			{
+				"namespace": "oreganized",
+				"path": "adventure/mirror_mirror"
+			},
+			{
+				"namespace": "oreganized",
+				"path": "husbandry/groovy"
+			},
+			{
+				"namespace": "mowziesmobs",
+				"path": "advancements/.*grottol.*"
+			}
+		]    
+	}     
 }

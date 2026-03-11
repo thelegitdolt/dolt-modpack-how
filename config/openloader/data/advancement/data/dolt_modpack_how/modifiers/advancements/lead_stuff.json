@@ -1,0 +1,16 @@
+{
+  "modifiers": [
+    {
+      "type": "parent",
+      "config": "oreganized:story/lead_to_dust"
+    }
+  ],
+  "priority": "normal",
+  "selector": {
+    "type": "names",
+    "config": [
+      "oreganized:story/like_the_romans",
+      "oreganized:story/melting_point"
+    ]
+  }
+}

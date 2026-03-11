@@ -1,0 +1,21 @@
+{
+  "modifiers": [
+    {
+      "type": "parent",
+      "config": "dolt_modpack_how:mining/root"
+    }
+  ],
+  "priority": "normal",
+  "selector": {
+    "type": "names",
+    "config": [
+      "caverns_and_chasms:adventure/smelt_copper",
+      "oreganized:story/lead_to_dust",
+      "sullysmod:adventure/first_artifact",
+      "species:species/v1/break_limpet",
+      "minecraft:nether/obtain_ancient_debris",
+      "caverns_and_chasms:adventure/bejeweled_anvil_repair",
+      "caverns_and_chasms:adventure/atone_item"
+    ]
+  }
+}

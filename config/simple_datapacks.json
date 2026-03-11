@@ -1,0 +1,11 @@
+{
+  "copyDatapacks": false,
+  "enableFeatures": true,
+  "globalFeatures": false,
+  "sendRestartWarning": true,
+  "requiredDatapacksPaths": [],
+  "optionalDatapacksPaths": [
+    "datapacks",
+    "/Users/andrewyin\\Downloads"
+  ]
+}

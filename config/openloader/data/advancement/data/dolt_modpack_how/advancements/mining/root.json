@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "pickers": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "dolt_modpack_how:textures/gui/advancements/backgrounds/deepslate.png",
+    "description": {
+      "text": "Beneath there are caverns... and chasms"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:deepslate"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Mining"
+    }
+  },
+  "requirements": [
+    [
+      "pickers"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

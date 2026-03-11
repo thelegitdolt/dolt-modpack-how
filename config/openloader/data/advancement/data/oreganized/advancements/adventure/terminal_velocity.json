@@ -1,0 +1,30 @@
+{
+  "parent": "dolt_modpack_how:mining/obtain_electrum",
+  "criteria": {
+    "terminal_velocity": {
+      "conditions": {},
+      "trigger": "oreganized:terminal_velocity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.oreganized.terminal_velocity.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oreganized:speedometer"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.oreganized.terminal_velocity.title"
+    }
+  },
+  "requirements": [
+    [
+      "terminal_velocity"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

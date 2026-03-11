@@ -1,0 +1,15 @@
+{
+  "modifiers": [
+    {
+      "type": "parent",
+      "config": "minecraft:adventure/root"
+    }
+  ],
+  "priority": "normal",
+  "selector": {
+    "type": "names",
+    "config": [
+      "minecraft:nether/use_lodestone"
+    ]
+  }
+}
