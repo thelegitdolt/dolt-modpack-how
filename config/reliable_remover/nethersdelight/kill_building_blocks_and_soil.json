@@ -14,6 +14,7 @@
 
             "mynethersdelight:powdery_sign",
             "mynethersdelight:powdery_planks",
+            "mynethersdelight:stripped_powdery_block",
             "mynethersdelight:powdery_mosaic",
             "mynethersdelight:powdery_hanging_sign",
             "mynethersdelight:powdery_mosaic_slab",
@@ -33,7 +34,9 @@
             "mynethersdelight:zoglin_trophy",
 
             "mynethersdelight:powdery_cabinet",
-            "mynethersdelight:.*bricks_cabinet"
+            "mynethersdelight:red_nether_bricks_cabinet",
+            "mynethersdelight:nether_bricks_cabinet",
+            "mynethersdelight:blackstone_bricks_cabinet"
         ]
     }
 ]

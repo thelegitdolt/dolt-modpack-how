@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "dungeonsdelight:ghast_tentacle",
+            "dungeonsdelight:ghast_calamari"
+        ]
+    }
+]

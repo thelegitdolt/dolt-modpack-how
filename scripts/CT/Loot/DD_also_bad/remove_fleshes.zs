@@ -8,6 +8,8 @@ import crafttweaker.api.resource.ResourceLocation;
 val stupidstuff = [
     "dungeonsdelight:drops/drops_gritty_flesh",
     "dungeonsdelight:drops/drops_brined_flesh",
+    "dungeonsdelight:drops/drops_brined_flesh",
+    "dungeonsdelight:scavenging/scavenging_ghast_tentacle",
     "dungeonsdelight:misc/mining_sculk_polyp_from_calibrated_sculk_sensor",
     "dungeonsdelight:misc/mining_stained_scrap_from_spawner",
     "dungeonsdelight:misc/mining_sculk_polyp_from_sculk",

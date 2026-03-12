@@ -16,7 +16,9 @@
             "create:honeyed_apple",
             "create:sweet_roll",
             "create:chocolate_glazed_berries",
-            "create:bar_of_chocolate"
+            "create:bar_of_chocolate",
+
+            "create:dough"
         ]
     }
 ]
