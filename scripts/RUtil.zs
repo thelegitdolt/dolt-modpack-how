@@ -114,7 +114,7 @@ as string[];
 
     public static addFurnaceAndSmokerRecipe(name as string, input as IItemStack, output as IItemStack, xp as float) as void {
         furnace.addRecipe(name + "_from_smelting", output, input, xp, 200); 
-        campfire.addRecipe(name + "_from_campfire", output, input, xp, 100); 
+        campfire.addRecipe(name + "_from_campfire", output, input, xp, 600); 
         smoker.addRecipe(name + "_from_smoking", output, input, xp, 100); 
     }
 
