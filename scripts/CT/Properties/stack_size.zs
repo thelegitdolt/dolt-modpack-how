@@ -39,6 +39,7 @@ for col in RUtil.dyeDepotColors {
 <item:neapolitan:adzuki_cake>.setMaxStackSize(100);
 <item:neapolitan:mint_cake>.setMaxStackSize(100);
 <item:farmersrespite:coffee_cake>.setMaxStackSize(100);
+<item:mynethersdelight:magma_cake_block>.setMaxStackSize(100);
 
 <item:brewinandchewin:scarlet_cheese_wheel>.setMaxStackSize(100);
 <item:brewinandchewin:unripe_scarlet_cheese_wheel>.setMaxStackSize(100);
@@ -49,6 +50,8 @@ for col in RUtil.dyeDepotColors {
 <item:farmersdelight:roast_chicken_block>.setMaxStackSize(100);
 <item:farmersdelight:honey_glazed_ham_block>.setMaxStackSize(100);
 <item:mynethersdelight:roast_stuffed_hoglin>.setMaxStackSize(100);
+<item:mynethersdelight:striderloaf>.setMaxStackSize(100);
+<item:mynethersdelight:ghasta_with_cream>.setMaxStackSize(100);
 <item:farmersdelight:stuffed_pumpkin_block>.setMaxStackSize(100);
 <item:farmersdelight:rice_roll_medley_block>.setMaxStackSize(100);
 <item:brewinandchewin:fiery_fondue_pot>.setMaxStackSize(100);

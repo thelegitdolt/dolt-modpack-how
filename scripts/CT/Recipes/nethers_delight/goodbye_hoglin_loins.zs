@@ -9,38 +9,18 @@ HUtil.hide(<item:mynethersdelight:blue_tenderloin_steak>);
 
 
 val toRemoveCrafting = [
-    "mynethersdelight:blue_tenderloin_steak",
-    "mynethersdelight:blue_tenderloin_steak",
-    "mynethersdelight:hotdog",
-    "mynethersdelight:burnt_roll"
+    "mynethersdelight:blue_tenderloin_steak"
 ]; 
 RUtil.removeAll(toRemoveCrafting); 
 HUtil.hideAll(toRemoveCrafting);
 
-val toRemoveCooking = [
-    "mynethersdelight:sausage_and_potatoes", 
-    "mynethersdelight:spicy_hoglin_stew",
-    "mynethersdelight:fried_hoglin_chop",
-    "mynethersdelight:burnt_roll"
-];
-RUtil.removeAllOf(toRemoveCooking, RUtil.cook); 
-HUtil.hideAll(toRemoveCooking);
 
 
-val toRemoveCutting = [
-    "mynethersdelight:hoglin_sausage"
-];
-RUtil.removeAllOf(toRemoveCutting, RUtil.cut); 
-HUtil.hideAll(toRemoveCutting);
 
 
 val toRemoveSmoking = [
-    "mynethersdelight:roasted_sausage",
     "mynethersdelight:cooked_loin" 
 ];
-RUtil.removeAllOf(toRemoveCooking, smoker); 
-RUtil.removeAllOf(toRemoveCooking, furnace); 
-RUtil.removeAllOf(toRemoveCooking, campfire); 
 HUtil.hideAll(toRemoveSmoking);
 
 
