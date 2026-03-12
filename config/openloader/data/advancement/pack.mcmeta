@@ -57,6 +57,10 @@
 			{
 				"namespace": "architects_palette",
 				"path": "advancements/main/find_twisted_sapling"
+			},
+			{
+				"namespace": "spawn",
+				"path": "husbandry/.*mucus"
 			}
 		]    
 	}     

@@ -26,6 +26,10 @@ craftingTable.addShapeless("nether_burger_but_good", <item:mynethersdelight:neth
      <tag:items:forge:milk>, <tag:items:forge:eggs>, 
      <item:mynethersdelight:bullet_pepper>], <constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, <item:minecraft:bowl>, 1.0, 200);
 
+RUtil.cook.removeByName("mynethersdelight:cooking/spicy_hoglin_stew");
+<recipetype:farmersdelight:cooking>.addRecipe("cooking/spicy_hoglin_stew_god", <item:mynethersdelight:spicy_hoglin_stew>, [
+    <item:mynethersdelight:hoglin_sausage> | <item:mynethersdelight:roasted_sausage>, <tag:items:forge:crops/potato>, <tag:items:forge:crops/carrot>, <item:mynethersdelight:bullet_pepper>],<constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, <item:minecraft:bowl>, 1.0, 200);
+
 
 
 

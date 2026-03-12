@@ -51,6 +51,7 @@ for col in RUtil.dyeDepotColors {
 <item:farmersdelight:honey_glazed_ham_block>.setMaxStackSize(100);
 <item:mynethersdelight:roast_stuffed_hoglin>.setMaxStackSize(100);
 <item:mynethersdelight:striderloaf>.setMaxStackSize(100);
+<item:mynethersdelight:cold_striderloaf>.setMaxStackSize(100);
 <item:mynethersdelight:ghasta_with_cream>.setMaxStackSize(100);
 <item:farmersdelight:stuffed_pumpkin_block>.setMaxStackSize(100);
 <item:farmersdelight:rice_roll_medley_block>.setMaxStackSize(100);
