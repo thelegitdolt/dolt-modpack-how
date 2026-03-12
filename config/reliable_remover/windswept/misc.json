@@ -4,5 +4,16 @@
         "patterns": [
             "windswept:wooden.*_bucket"
         ]
+    },
+    {
+        "action": "remove",
+        "items": [
+            "windswept_delights:cooked_goat_shanks",
+            "windswept_delights:goat_shanks",
+            "windswept:cooked_goat",
+            "windswept:goat",
+            "windswept:goat_stew"
+
+        ]
     }
 ]

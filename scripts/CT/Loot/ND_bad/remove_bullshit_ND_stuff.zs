@@ -12,7 +12,10 @@ val stupidstuff = [
     "mynethersdelight:scavenging_onion_from_ghast",
     "mynethersdelight:add_loot_piglin_bartering",
     "mynethersdelight:add_loot_bastion_hoglin_stable",
-    "mynethersdelight:add_loot_bastion_treasure"
+    "mynethersdelight:add_loot_bastion_treasure",
+
+    "mynethersdelight:remplace_hoglin_cooked_pork_loin",
+    "mynethersdelight:remplace_hoglin_pork_loin"
 ]; 
 
 for i in stupidstuff {

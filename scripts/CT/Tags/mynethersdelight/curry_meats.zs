@@ -7,5 +7,7 @@ DebugUtil.startScript("tags/mynethersdelight/curry_meats");
 <tag:items:environmental:duck_food>.remove(<item:mynethersdelight:ghasmati>); 
 <tag:items:forge:grain>.remove(<item:mynethersdelight:ghasmati>); 
 
+<tag:items:forge:bread>.remove(<item:mynethersdelight:toasts>); 
+
 
 DebugUtil.endScript("tags/fomynethersdelightrge/curry_meats"); 

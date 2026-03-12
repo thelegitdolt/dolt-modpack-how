@@ -3,7 +3,13 @@
         "action": "remove",
         "items": [
             "mynethersdelight:hot_wings_bucket",
-            "mynethersdelight:strider_stew"
+            "mynethersdelight:strider_stew",
+            "mynethersdelight:blue_tenderloin_steak",
+            "mynethersdelight:red_loin_on_a_stick",
+            "mynethersdelight:raw_stuffed_hoglin",
+            "mynethersdelight:hoglin_loin",
+            "mynethersdelight:cooked_loin",
+            "mynethersdelight:raw_stuffed_hoglin"
         ]
     }
 ]
