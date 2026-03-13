@@ -1,0 +1,15 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "wallpapers:bricks_wallpaper_roll",
+            "wallpapers:bricks_wallpaper_block"
+        ]
+    },
+    {
+        "action": "remove",
+        "patterns": [
+            "wallpapers:.*skirting_board"
+        ]
+    }
+]
