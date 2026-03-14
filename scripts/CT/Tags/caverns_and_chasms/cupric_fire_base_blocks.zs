@@ -1,4 +1,6 @@
-DebugUtil.startScript("Tags/caverns_and_chasms/cupric_fire_base_blocks"); 
+#loader tags
+
+TLUtil.startScript("Tags/caverns_and_chasms/cupric_fire_base_blocks"); 
 
 val coppers = [
     "create:fluid_tank",
@@ -10,8 +12,8 @@ val coppers = [
 ];
 
 for i in coppers {
-    <tag:blocks:caverns_and_chasms:cupric_fire_base_blocks>.add(<block:${i}>);
+    <tag:blocks:caverns_and_chasms:cupric_fire_base_blocks>.addId(<resource:${i}>);
 }
     
 
-DebugUtil.endScript("Tags/caverns_and_chasms/cupric_fire_base_blocks"); 
+TLUtil.endScript("Tags/caverns_and_chasms/cupric_fire_base_blocks"); 

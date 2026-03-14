@@ -1,4 +1,6 @@
-DebugUtil.startScript("tags/caverns_and_chasms/bejeweled_apple_cannot_inflict"); 
+#loader tags
+
+TLUtil.startScript("tags/caverns_and_chasms/bejeweled_apple_cannot_inflict"); 
     
 
 val antidotes = [
@@ -25,11 +27,11 @@ val antidotes = [
 ]; 
 
 for i in antidotes {
-    <tag:mob_effect:caverns_and_chasms:bejeweled_apple_cannot_inflict>.add(<mobeffect:${i}>);
+    <tag:mob_effect:caverns_and_chasms:bejeweled_apple_cannot_inflict>.addId(<resource:${i}>);
 }
 
-<tag:mob_effect:caverns_and_chasms:bejeweled_apple_cannot_inflict>.add(<mobeffect:neapolitan:harmony>);
-<tag:mob_effect:caverns_and_chasms:bejeweled_apple_cannot_inflict>.add(<mobeffect:species:gut_feeling>);
+<tag:mob_effect:caverns_and_chasms:bejeweled_apple_cannot_inflict>.addId(<resource:neapolitan:harmony>);
+<tag:mob_effect:caverns_and_chasms:bejeweled_apple_cannot_inflict>.addId(<resource:species:gut_feeling>);
 
 
-DebugUtil.endScript("tags/caverns_and_chasms/bejeweled_apple_cannot_inflict"); 
+TLUtil.endScript("tags/caverns_and_chasms/bejeweled_apple_cannot_inflict"); 

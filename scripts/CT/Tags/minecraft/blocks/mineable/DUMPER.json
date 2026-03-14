@@ -1,7 +1,7 @@
-DebugUtil.startScript("/Tags/minecraft/blocks/mineable/DUMPER.json/"); 
+TLUtil.startScript("/Tags/minecraft/blocks/mineable/DUMPER.json/"); 
     
 
 
 
 
-DebugUtil.endScript("/Tags/minecraft/blocks/mineable/DUMPER.json"); 
+TLUtil.endScript("/Tags/minecraft/blocks/mineable/DUMPER.json"); 

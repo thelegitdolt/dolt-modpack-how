@@ -1,4 +1,6 @@
-DebugUtil.startScript("Tags/forge/fishes"); 
+#loader tags
+
+TLUtil.startScript("Tags/forge/fishes"); 
     
 val fishies = [
     "spawn:tuna_chunk"
@@ -6,7 +8,7 @@ val fishies = [
 
 
 for fish in fishies {
-    <tag:items:forge:raw_fishes>.add(<item:${fish}>);
+    <tag:items:forge:raw_fishes>.addId(<resource:${fish}>);
 }
     
 val baked_fishies = [
@@ -14,9 +16,9 @@ val baked_fishies = [
 ];
 
 for fishers in baked_fishies {
-    <tag:items:forge:cooked_fishes>.add(<item:${fishers}>);
+    <tag:items:forge:cooked_fishes>.addId(<resource:${fishers}>);
 }
 
 
 
-DebugUtil.endScript("Tags/forge/fishes"); 
+TLUtil.endScript("Tags/forge/fishes"); 

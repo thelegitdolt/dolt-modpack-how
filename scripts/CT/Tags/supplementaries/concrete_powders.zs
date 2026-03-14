@@ -1,11 +1,13 @@
-DebugUtil.startScript("tags/supplementaries/concrete_powders"); 
+#loader tags
+
+TLUtil.startScript("tags/supplementaries/concrete_powders"); 
     
 
-for item in RUtil.dyeDepotColors {
-    <tag:items:supplementaries:concrete_powders>.add(<item:dye_depot:${item}_concrete_powder>);
+for item in TLUtil.dyeDepotColors {
+    <tag:items:supplementaries:concrete_powders>.addId(<resource:dye_depot:${item}_concrete_powder>);
 }
 
-<tag:items:supplementaries:concrete_powders>.add(<item:clayworks:concrete_powder>);
+<tag:items:supplementaries:concrete_powders>.addId(<resource:clayworks:concrete_powder>);
 
 
-DebugUtil.endScript("tags/supplementaries/concrete_powders"); 
+TLUtil.endScript("tags/supplementaries/concrete_powders"); 

@@ -1,8 +1,10 @@
-DebugUtil.startScript("tags/minecraft/blocks/convertable_to_mud"); 
+#loader tags
+
+TLUtil.startScript("tags/minecraft/blocks/convertable_to_mud"); 
     
 
-<tag:blocks:minecraft:convertable_to_mud>.add(<block:caverns_and_chasms:rocky_dirt>);
+<tag:blocks:minecraft:convertable_to_mud>.addId(<resource:caverns_and_chasms:rocky_dirt>);
 
 
 
-DebugUtil.endScript("tags/minecraft/blocks/convertable_to_mud"); 
+TLUtil.endScript("tags/minecraft/blocks/convertable_to_mud"); 

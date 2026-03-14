@@ -1,8 +1,7 @@
-DebugUtil.startScript("tags/supplementaries/hourglass_sand"); 
-    
+#loader tags
 
+TLUtil.startScript("tags/supplementaries/hourglass_sand"); 
 
-<tag:items:supplementaries:hourglass_sands>.add(<item:blasted_barrens:ashen_sand>);
+<tag:items:supplementaries:hourglass_sands>.addId(<resource:blasted_barrens:ashen_sand>);
 
-
-DebugUtil.endScript("tags/supplementaries/hourglass_sand"); 
+TLUtil.endScript("tags/supplementaries/hourglass_sand"); 

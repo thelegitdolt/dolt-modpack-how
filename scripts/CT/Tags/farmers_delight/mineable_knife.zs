@@ -1,4 +1,6 @@
-DebugUtil.startScript("tags/farmers_delight/mineable_knife"); 
+#loader tags
+
+TLUtil.startScript("tags/farmers_delight/mineable_knife"); 
     
 val pumpkins = [
     "autumnity:large_pumpkin_slice",
@@ -15,7 +17,7 @@ val pumpkins = [
 ];
 
 for i in pumpkins {
-    <tag:blocks:farmersdelight:mineable/knife>.add(<block:${i}>); 
+    <tag:blocks:farmersdelight:mineable/knife>.addId(<resource:${i}>); 
 }
 
 val cactus = [
@@ -25,10 +27,10 @@ val cactus = [
 ];
 
 for i in cactus {
-    <tag:blocks:farmersdelight:mineable/knife>.add(<block:${i}>); 
+    <tag:blocks:farmersdelight:mineable/knife>.addId(<resource:${i}>); 
 }
 
-<tag:blocks:farmersdelight:mineable/knife>.add(<block:atmospheric:barrel_cactus>); 
+<tag:blocks:farmersdelight:mineable/knife>.addId(<resource:atmospheric:barrel_cactus>); 
 
 val fleshies = [
     "caverns_and_chasms:rotten_flesh_block",
@@ -80,16 +82,16 @@ val fleshies = [
 ]; 
 
 for i in fleshies {
-    <tag:blocks:farmersdelight:mineable/knife>.add(<block:${i}>); 
+    <tag:blocks:farmersdelight:mineable/knife>.addId(<resource:${i}>); 
 }
 
-for color in RUtil.colors {
+for color in TLUtil.colors {
     if (color != "black") {
-        <tag:blocks:farmersdelight:mineable/knife>.add(<block:dye_depot:${color}_dye_basket>);
+        <tag:blocks:farmersdelight:mineable/knife>.addId(<resource:dye_depot:${color}_dye_basket>);
     }
 }
-for weirdColor in RUtil.dyeDepotColors {
-    <tag:blocks:farmersdelight:mineable/knife>.add(<block:dye_depot:${weirdColor}_dye_basket>);
+for weirdColor in TLUtil.dyeDepotColors {
+    <tag:blocks:farmersdelight:mineable/knife>.addId(<resource:dye_depot:${weirdColor}_dye_basket>);
 }
 
 
@@ -100,7 +102,7 @@ val fiberies = [
 
 for i in fiberies {
     
-    <tag:blocks:farmersdelight:mineable/knife>.add(<block:${i}>); 
+    <tag:blocks:farmersdelight:mineable/knife>.addId(<resource:${i}>); 
 }
 
 val foodies = [
@@ -109,7 +111,20 @@ val foodies = [
 ]; 
 
 for i in foodies {
-    <tag:blocks:farmersdelight:mineable/knife>.add(<block:${i}>); 
+    <tag:blocks:farmersdelight:mineable/knife>.addId(<resource:${i}>); 
 }
 
-DebugUtil.endScript("tags/farmers_delight/mineable_knife"); 
+val sculkers = [
+    "minecraft:sculk",
+    "minecraft:sculk_catalyst",
+    "minecraft:sculk_vein",
+    "minecraft:sculk_sensor",
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:sculk_shrieker"
+];
+
+for i in sculkers {
+    <tag:blocks:farmersdelight:mineable/knife>.removeId(<resource:${i}>);
+}
+
+TLUtil.endScript("tags/farmers_delight/mineable_knife"); 

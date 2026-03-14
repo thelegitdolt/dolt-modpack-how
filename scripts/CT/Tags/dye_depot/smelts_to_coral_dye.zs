@@ -1,4 +1,6 @@
-DebugUtil.startScript("/Tags/auditory/clay_brick_sounds.zs/"); 
+#loader tags
+
+TLUtil.startScript("/Tags/auditory/clay_brick_sounds.zs/"); 
     
 
 val coral_block = [
@@ -46,10 +48,10 @@ val coral = [
 "upgrade_aquatic:chrome_coral"];
 
 for c in coral {
-    <tag:items:dolt_modpack_how:corals>.add(<item:${c}>); 
+    <tag:items:dolt_modpack_how:corals>.addId(<resource:${c}>); 
 }
 for c in coral_block {
-    <tag:items:dolt_modpack_how:coral_blocks>.add(<item:${c}>); 
+    <tag:items:dolt_modpack_how:coral_blocks>.addId(<resource:${c}>); 
 
 }
 
@@ -57,4 +59,4 @@ for c in coral_block {
 <tag:items:dye_depot:smelts_into_coral_dye>.add(<tag:items:dolt_modpack_how:coral_blocks>); 
 
 
-DebugUtil.endScript("/Tags/auditory/clay_brick_sounds.zs"); 
+TLUtil.endScript("/Tags/auditory/clay_brick_sounds.zs"); 

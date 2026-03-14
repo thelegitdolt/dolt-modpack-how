@@ -1,13 +1,16 @@
-DebugUtil.startScript("tags/mynethersdelight/curry_meats"); 
+#loader tags
+
+TLUtil.startScript("tags/mynethersdelight/curry_meats"); 
     
-<tag:items:mynethersdelight:curry_meats>.add(<item:netherexp:hogham>); 
-<tag:items:forge:pasta>.remove(<item:mynethersdelight:ghasta>); 
-<tag:items:forge:grain/rice>.remove(<item:mynethersdelight:ghasmati>); 
-<tag:items:forge:crops/rice>.remove(<item:mynethersdelight:ghasmati>);
-<tag:items:environmental:duck_food>.remove(<item:mynethersdelight:ghasmati>); 
-<tag:items:forge:grain>.remove(<item:mynethersdelight:ghasmati>); 
+<tag:items:mynethersdelight:curry_meats>.addId(<resource:netherexp:hogham>); 
+<tag:items:forge:pasta>.removeId(<resource:mynethersdelight:ghasta>); 
+<tag:items:forge:grain/rice>.removeId(<resource:mynethersdelight:ghasmati>); 
+<tag:items:forge:crops/rice>.removeId(<resource:mynethersdelight:ghasmati>);
+<tag:items:environmental:duck_food>.removeId(<resource:mynethersdelight:ghasmati>); 
+<tag:items:forge:grain>.removeId(<resource:mynethersdelight:ghasmati>); 
+<tag:items:forge:crops>.removeId(<resource:mynethersdelight:ghasmati>); 
 
-<tag:items:forge:bread>.remove(<item:mynethersdelight:toasts>); 
+<tag:items:forge:bread>.removeId(<resource:mynethersdelight:toasts>); 
 
 
-DebugUtil.endScript("tags/fomynethersdelightrge/curry_meats"); 
+TLUtil.endScript("tags/fomynethersdelightrge/curry_meats"); 

@@ -31,5 +31,5 @@ def deepFind(path: str, pred: Callable[[str], bool]):
             yield absolute_path
 
 if __name__ == '__main__':
-    print(list(deepFindWithContent("/Users/andrewyin/Desktop/Minecraft/Dolt Modpack How/scripts",
+    print(list(deepFindWithContent("/Users/andrewyin/Desktop/Minecraft/Dolt Modpack How/scripts/CT/Tags",
                         lambda path, content: "ancient_tome" in content)))

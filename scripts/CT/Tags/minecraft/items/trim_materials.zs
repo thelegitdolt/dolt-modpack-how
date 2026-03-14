@@ -1,4 +1,6 @@
-DebugUtil.startScript("tags/minecraft/items/trim_materials"); 
+#loader tags
+
+TLUtil.startScript("tags/minecraft/items/trim_materials"); 
     
 val trim_materials = [
 "windswept:icicles",
@@ -6,9 +8,9 @@ val trim_materials = [
 
 ];
 for i in trim_materials {
-    <tag:items:minecraft:trim_materials>.remove(<item:${i}>);
+    <tag:items:minecraft:trim_materials>.removeId(<resource:${i}>);
 }
 
 
 
-DebugUtil.endScript("tags/minecraft/items/trim_materials"); 
+TLUtil.endScript("tags/minecraft/items/trim_materials"); 

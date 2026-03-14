@@ -1,4 +1,6 @@
-DebugUtil.startScript("/Tags/minecraft/blocks/mineable/axe.zs/"); 
+#loader tags
+
+TLUtil.startScript("/Tags/minecraft/blocks/mineable/axe.zs/"); 
     
 
 var stuff = [
@@ -7,9 +9,9 @@ var stuff = [
 
 
 for s in stuff {
-    <tag:blocks:minecraft:mineable/axe>.add(<block:${s}>);
+    <tag:blocks:minecraft:mineable/axe>.addId(<resource:${s}>);
 }
 
 
 
-DebugUtil.endScript("/Tags/minecraft/blocks/mineable/axe.zs"); 
+TLUtil.endScript("/Tags/minecraft/blocks/mineable/axe.zs"); 

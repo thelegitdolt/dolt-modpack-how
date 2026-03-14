@@ -1,4 +1,6 @@
-DebugUtil.startScript("Tags/rosen/note_blocks"); 
+#loader tags
+
+TLUtil.startScript("Tags/rosen/note_blocks"); 
     
 import crafttweaker.api.resource.ResourceLocation;
 
@@ -19,7 +21,7 @@ val vibe = [
 ];
 
 for i in vibe {
-    <tag:blocks:rosen:vibraphone_noteblocks>.add(<block:${i}>);
+    <tag:blocks:rosen:vibraphone_noteblocks>.addId(<resource:${i}>);
 }
 
 
@@ -43,7 +45,7 @@ val violin = [
 ];
 
 for i in violin {
-    <tag:blocks:rosen:violin_noteblocks>.add(<block:${i}>);
+    <tag:blocks:rosen:violin_noteblocks>.addId(<resource:${i}>);
 }
 
 
@@ -60,7 +62,7 @@ val timpani = [
 ];
 
 for i in timpani {
-    <tag:blocks:rosen:timpani_noteblocks>.add(<block:${i}>);
+    <tag:blocks:rosen:timpani_noteblocks>.addId(<resource:${i}>);
 }
 
 val synth = [
@@ -74,7 +76,7 @@ val synth = [
 ];
 
 for i in synth {
-    <tag:blocks:rosen:synth_noteblocks>.add(<block:${i}>);
+    <tag:blocks:rosen:synth_noteblocks>.addId(<resource:${i}>);
 }
 
 val synth_bass = [
@@ -85,10 +87,10 @@ val synth_bass = [
 ];
 
 for i in synth_bass {
-    <tag:blocks:rosen:synth_bass_noteblocks>.add(<block:${i}>);
+    <tag:blocks:rosen:synth_bass_noteblocks>.addId(<resource:${i}>);
 }
 
-<tag:blocks:rosen:power_guitar_noteblocks>.add(<block:quark:charcoal_block>);
+<tag:blocks:rosen:power_guitar_noteblocks>.addId(<resource:quark:charcoal_block>);
 # add placeable C&C coal here
 
 val piano = [
@@ -97,7 +99,7 @@ val piano = [
 ];
 
 for i in piano {
-    <tag:blocks:rosen:piano_noteblocks>.add(<block:${i}>);
+    <tag:blocks:rosen:piano_noteblocks>.addId(<resource:${i}>);
 }
 
 val organ = [
@@ -129,7 +131,7 @@ val organ = [
 ];
 
 for i in organ {
-    <tag:blocks:rosen:organ_noteblocks>.add(<block:${i}>);
+    <tag:blocks:rosen:organ_noteblocks>.addId(<resource:${i}>);
 }
 
 val music_box = [
@@ -141,7 +143,7 @@ val music_box = [
 ];
 
 for i in music_box {
-    <tag:blocks:rosen:music_box_noteblocks>.add(<block:${i}>);
+    <tag:blocks:rosen:music_box_noteblocks>.addId(<resource:${i}>);
 }
 
 val log_drum = [
@@ -172,7 +174,7 @@ val log_drum = [
 ];
 
 for i in log_drum {
-    <tag:blocks:rosen:log_drum_noteblocks>.add(<block:${i}>);
+    <tag:blocks:rosen:log_drum_noteblocks>.addId(<resource:${i}>);
 }
 
 tag("kick", "architects_palette:chiseled_end_stone_bricks",
@@ -352,8 +354,8 @@ tag("accordion", "buzzier_bees:honeycomb_bricks",
 function tag(instrument as string, blocks... as string[]) as void {
     val a = <tagmanager:blocks>.tag(new ResourceLocation("rosen", instrument + "_noteblocks"));
     for i in blocks {
-        a.add(<block:${i}>);
+        a.addId(<resource:${i}>);
     }
 }
 
-DebugUtil.endScript("Tags/rosen/note_blocks"); 
+TLUtil.endScript("Tags/rosen/note_blocks"); 

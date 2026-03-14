@@ -1,4 +1,6 @@
-DebugUtil.startScript("tag/endergetic/ender_fire"); 
+#loader tags
+
+TLUtil.startScript("tag/endergetic/ender_fire"); 
 
 val a = [
     "architects_palette:choral_end_stone_bricks",
@@ -9,7 +11,7 @@ val a = [
 ];
 
 for i in a {
-    <tag:blocks:endergetic:ender_fire_base_blocks>.add(<block:${i}>);
+    <tag:blocks:endergetic:ender_fire_base_blocks>.addId(<resource:${i}>);
 }
 
-DebugUtil.endScript("tag/endergetic/ender_fire"); 
+TLUtil.endScript("tag/endergetic/ender_fire"); 

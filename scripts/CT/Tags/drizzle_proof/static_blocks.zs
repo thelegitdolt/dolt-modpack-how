@@ -1,4 +1,7 @@
-DebugUtil.startScript("tags/drizzle_proof/static_blocks"); 
+#loader tags
+
+TLUtil.startScript("tags/drizzle_proof/static_blocks"); 
+
     
 val eggs = [
     "alexscaves:metal_scaffolding",
@@ -8,9 +11,9 @@ val eggs = [
     "atmospheric:snowy_bamboo" 
 ];
 for egg in eggs {
-    <tag:blocks:drizzleproof:static_blocks>.add(<block:${egg}>);
+    <tag:blocks:drizzleproof:static_blocks>.addId(<resource:${egg}>);
 }
 
 <tag:blocks:drizzleproof:static_blocks>.add(<tag:items:forge:ladders>); 
 
-DebugUtil.endScript("tags/drizzle_proof/static_blocks"); 
+TLUtil.endScript("tags/drizzle_proof/static_blocks"); 

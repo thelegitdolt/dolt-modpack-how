@@ -1,4 +1,6 @@
-DebugUtil.startScript("tags/brewinandchewin/freeze_sources"); 
+#loader tags
+
+TLUtil.startScript("tags/brewinandchewin/freeze_sources"); 
     
 
 var creams = [
@@ -36,8 +38,8 @@ var creams = [
 ] as string[];
 
 for ice in creams{
-    <tag:blocks:brewinandchewin:freeze_sources>.add(<block:${ice}>);
+    <tag:blocks:brewinandchewin:freeze_sources>.addId(<resource:${ice}>);
 }
 
 
-DebugUtil.endScript("tags/brewinandchewin/freeze_sources"); 
+TLUtil.endScript("tags/brewinandchewin/freeze_sources"); 

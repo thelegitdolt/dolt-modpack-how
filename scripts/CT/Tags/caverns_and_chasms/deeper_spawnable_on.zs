@@ -1,4 +1,6 @@
-DebugUtil.startScript("tags/caverns_and_chasms/deeper_spawnable_on"); 
+#loader tags
+
+TLUtil.startScript("tags/caverns_and_chasms/deeper_spawnable_on"); 
     
 
 val alexscaves_stones = [
@@ -11,9 +13,9 @@ val alexscaves_stones = [
 ]; 
 
 for i in alexscaves_stones {
-    <tag:blocks:caverns_and_chasms:deeper_spawnable_on>.add(<block:${i}>);
+    <tag:blocks:caverns_and_chasms:deeper_spawnable_on>.addId(<resource:${i}>);
 }
 
 
 
-DebugUtil.endScript("tags/caverns_and_chasms/deeper_spawnable_on"); 
+TLUtil.endScript("tags/caverns_and_chasms/deeper_spawnable_on"); 

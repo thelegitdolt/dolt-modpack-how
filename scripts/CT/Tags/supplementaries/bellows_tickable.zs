@@ -1,10 +1,12 @@
-DebugUtil.startScript("tags/supplementaries/bellows_tickable"); 
+#loader tags
+TLUtil.startScript("tags/supplementaries/bellows_tickable"); 
+
     
 
 
-<tag:blocks:supplementaries:bellows_tickable>.add(<block:clayworks:kiln>);
+<tag:blocks:supplementaries:bellows_tickable>.addId(<resource:clayworks:kiln>);
 
 
 
 
-DebugUtil.endScript("tags/supplementaries/bellows_tickable"); 
+TLUtil.endScript("tags/supplementaries/bellows_tickable"); 

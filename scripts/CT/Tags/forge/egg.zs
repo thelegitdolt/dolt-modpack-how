@@ -1,4 +1,6 @@
-DebugUtil.startScript("Tags/forge/egg"); 
+#loader tags
+
+TLUtil.startScript("Tags/forge/egg"); 
     
 val eggs = [
     "alexscaves:tremorzilla_egg",
@@ -12,10 +14,7 @@ val eggs = [
 
 ];
 for egg in eggs {
-    <tag:items:forge:eggs>.remove(<item:${egg}>);
+    <tag:items:forge:eggs>.removeId(<resource:${egg}>);
 }
-    
 
-
-
-DebugUtil.endScript("Tags/forge/egg"); 
+TLUtil.endScript("Tags/forge/egg"); 

@@ -1,11 +1,14 @@
-DebugUtil.startScript("Tags/alexscaves/explodes_sack_of_sating"); 
+#loader tags
+
+
+TLUtil.startScript("Tags/alexscaves/explodes_sack_of_sating"); 
     
 
 
-<tag:items:alexscaves:explodes_sack_of_sating>.add(<item:minecraft:glistering_melon_slice>); 
+<tag:items:alexscaves:explodes_sack_of_sating>.addId(<resource:minecraft:glistering_melon_slice>); 
 
-<tag:items:alexscaves:explodes_sack_of_sating>.add(<item:atmospheric:ender_dragon_fruit>); 
+<tag:items:alexscaves:explodes_sack_of_sating>.addId(<resource:atmospheric:ender_dragon_fruit>); 
 
 
 
-DebugUtil.endScript("Tags/alexscaves/explodes_sack_of_sating"); 
+TLUtil.endScript("Tags/alexscaves/explodes_sack_of_sating"); 

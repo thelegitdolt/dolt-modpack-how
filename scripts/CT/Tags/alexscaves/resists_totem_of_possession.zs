@@ -1,6 +1,9 @@
-DebugUtil.startScript("Tags/alexscaves/resists_totem_of_possession"); 
+#loader tags
+
+
+TLUtil.startScript("Tags/alexscaves/resists_totem_of_possession"); 
     
 <tag:entity_types:alexscaves:resists_totem_of_possession>.addId(<resource:minecraft:player>);
 
 
-DebugUtil.endScript("Tags/alexscaves/resists_totem_of_possession"); 
+TLUtil.endScript("Tags/alexscaves/resists_totem_of_possession"); 

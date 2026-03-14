@@ -1,6 +1,7 @@
 #priority 50
 
 import crafttweaker.api.resource.ResourceLocation;
+import crafttweaker.api.mod.Mods;
 
 
 public class WoodUtil {
@@ -108,21 +109,27 @@ public class WoodUtil {
             val namespace = wood.getNamespace();
             val path = wood.getPath();
 
-            var wood_name = namefunc;
-            for func, strings in special_funcs {
-                if path in strings {
-                    wood_name = func;
-               }
-            }
-
-            if (!(wood.getPath() in filter)) {
-                var rl = determineLoc(namespace, path, wood_name, 
-                    native_mod, abnormals, special_modids); 
-
-                if (rl.getPath() != "null") {
-                    list.add(rl); 
+            if (loadedMods.isModLoaded(namespace)) {
+                var wood_name = namefunc;
+                for func, strings in special_funcs {
+                    if path in strings {
+                        wood_name = func;
+                    }
                 }
+
+                if (!(wood.getPath() in filter)) {
+                    var rl = determineLoc(namespace, path, wood_name, 
+                        native_mod, abnormals, special_modids); 
+
+                    if (rl.getPath() != "null") {
+                        list.add(rl); 
+                    }
+                }
+            } else {
+                println("UMMM THIS MOD " + namespace + " IS NOT LOADED BRO BAD BAD BAD");
             }
+
+            
         }
 
         for wood in other_modded_wood {

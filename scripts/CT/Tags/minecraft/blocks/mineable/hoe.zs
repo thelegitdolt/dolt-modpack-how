@@ -1,4 +1,6 @@
-DebugUtil.startScript("/Tags/minecraft/blocks/mineable/hoe.zs/"); 
+#loader tags
+
+TLUtil.startScript("/Tags/minecraft/blocks/mineable/hoe.zs/"); 
     
 
 
@@ -20,7 +22,7 @@ var froglights = [
 ]
  as string[];
 
- <tag:blocks:minecraft:mineable/axe>.remove(<block:atmospheric:barrel_cactus_batch>);
+ <tag:blocks:minecraft:mineable/axe>.removeId(<resource:atmospheric:barrel_cactus_batch>);
 
 add(cacti);
 add(froglights);
@@ -28,13 +30,13 @@ add(froglights);
 
 function add(hi as string[]) as void {
     for hello in hi {
-        <tag:blocks:minecraft:mineable/hoe>.add(<block:${hello}>);
+        <tag:blocks:minecraft:mineable/hoe>.addId(<resource:${hello}>);
     }
 }
 
-<tag:blocks:minecraft:mineable/hoe>.add(<block:minecraft:cocoa>);
+<tag:blocks:minecraft:mineable/hoe>.addId(<resource:minecraft:cocoa>);
  
 
 
 
-DebugUtil.endScript("/Tags/minecraft/blocks/mineable/hoe.zs"); 
+TLUtil.endScript("/Tags/minecraft/blocks/mineable/hoe.zs"); 

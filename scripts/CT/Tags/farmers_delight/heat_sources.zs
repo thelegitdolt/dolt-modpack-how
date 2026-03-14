@@ -1,17 +1,17 @@
-DebugUtil.startScript("tags/farmers_delight/heat_sources"); 
-    
-# priority -2
+#loader tags
 
-<tag:blocks:farmersdelight:tray_heat_sources>.add(<block:oreganized:molten_lead>);
-<tag:blocks:farmersdelight:heat_sources>.add(<block:oreganized:molten_lead>);
+TLUtil.startScript("tags/farmers_delight/heat_sources"); 
 
-<tag:blocks:farmersdelight:heat_sources>.add(<block:alexscaves:primal_magma>);
-<tag:blocks:farmersdelight:heat_sources>.add(<block:alexscaves:volcanic_core>);
+<tag:blocks:farmersdelight:tray_heat_sources>.addId(<resource:oreganized:molten_lead>);
+<tag:blocks:farmersdelight:heat_sources>.addId(<resource:oreganized:molten_lead>);
 
-<tag:blocks:farmersdelight:heat_sources>.add(<block:netherexp:soul_magma_block>);
-<tag:blocks:farmersdelight:heat_sources>.add(<block:netherexp:souled_geyser>);
-<tag:blocks:farmersdelight:heat_sources>.add(<block:netherexp:basaltic_geyser>);
+<tag:blocks:farmersdelight:heat_sources>.addId(<resource:alexscaves:primal_magma>);
+<tag:blocks:farmersdelight:heat_sources>.addId(<resource:alexscaves:volcanic_core>);
+
+<tag:blocks:farmersdelight:heat_sources>.addId(<resource:netherexp:soul_magma_block>);
+<tag:blocks:farmersdelight:heat_sources>.addId(<resource:netherexp:souled_geyser>);
+<tag:blocks:farmersdelight:heat_sources>.addId(<resource:netherexp:basaltic_geyser>);
 
 
 
-DebugUtil.endScript("tags/farmers_delight/heat_sources"); 
+TLUtil.endScript("tags/farmers_delight/heat_sources"); 

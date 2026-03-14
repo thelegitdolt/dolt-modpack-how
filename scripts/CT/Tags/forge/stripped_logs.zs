@@ -1,4 +1,6 @@
-DebugUtil.startScript("Tags/forge/stripped_logs"); 
+#loader tags
+
+TLUtil.startScript("Tags/forge/stripped_logs"); 
     
 val stripped_logs = [
     "atmospheric:stripped_laurel_log",
@@ -14,7 +16,7 @@ val stripped_logs = [
 ];
 
 for log in stripped_logs {
-    <tag:items:forge:stripped_logs>.add(<item:${log}>);
+    <tag:items:forge:stripped_logs>.addId(<resource:${log}>);
 }
 
 val stripped_woods = [
@@ -31,10 +33,10 @@ val stripped_woods = [
 ];
 
 for wood in stripped_woods {
-    <tag:items:forge:stripped_woode>.add(<item:${wood}>);
+    <tag:items:forge:stripped_woode>.addId(<resource:${wood}>);
 }
     
 
 
 
-DebugUtil.endScript("Tags/forge/stripped_logs"); 
+TLUtil.endScript("Tags/forge/stripped_logs"); 

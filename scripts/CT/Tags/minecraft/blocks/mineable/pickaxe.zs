@@ -1,20 +1,20 @@
-# priority 200
+#loader tags
 
-DebugUtil.startScript("tags/minecraft/blocks/mineable/pickaxe"); 
+TLUtil.startScript("tags/minecraft/blocks/mineable/pickaxe"); 
     
 
-<tag:blocks:minecraft:mineable/pickaxe>.remove(<block:minecraft:budding_amethyst>);
+<tag:blocks:minecraft:mineable/pickaxe>.removeId(<resource:minecraft:budding_amethyst>);
 
 <tag:blocks:forge:glass>.add(<tag:blocks:oreganized:crystal_glass_panes>);
-<tag:blocks:forge:glass>.add(<block:netherexp:soul_glass>);
-<tag:blocks:forge:glass>.add(<block:netherexp:discernment_glass>);
+<tag:blocks:forge:glass>.addId(<resource:netherexp:soul_glass>);
+<tag:blocks:forge:glass>.addId(<resource:netherexp:discernment_glass>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass_blocks>);
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:etcetera:light_bulb>);
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:etcetera:tinted_light_bulb>);
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:etcetera:light_bulb>);
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:etcetera:tinted_light_bulb>);
 <tag:blocks:minecraft:mineable/pickaxe>.add(<tag:blocks:forge:glass_panes>);
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_trapdoor>);
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:upgrade_aquatic:glass_door>);
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:upgrade_aquatic:glass_trapdoor>);
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:upgrade_aquatic:glass_door>);
 
 
 var skulls = [
@@ -91,25 +91,25 @@ val eggs = [
 ];
 
 for eg in eggs {
-    <tag:blocks:minecraft:mineable/pickaxe>.add(<block:${eg}>);
+    <tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:${eg}>);
 }
 
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:quark:monster_box>);
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:quark:monster_box>);
 
 for skull in skulls {
-    <tag:blocks:minecraft:mineable/pickaxe>.add(<block:${skull}>);
+    <tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:${skull}>);
 }
 
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:minecraft:beacon>);
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:minecraft:glowstone>);
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:minecraft:lever>);
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:minecraft:sea_lantern>);
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:minecraft:beacon>);
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:minecraft:glowstone>);
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:minecraft:lever>);
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:minecraft:sea_lantern>);
 
-<tag:blocks:minecraft:mineable/pickaxe>.add(<block:alexscaves:enigmatic_engine>);
-
-
+<tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:alexscaves:enigmatic_engine>);
 
 
 
 
-DebugUtil.endScript("/Tags/minecraft/blocks/mineable/pickaxe.zs"); 
+
+
+TLUtil.endScript("/Tags/minecraft/blocks/mineable/pickaxe.zs"); 

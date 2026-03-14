@@ -1,4 +1,6 @@
-DebugUtil.startScript("Tags/alexscaves/ferromagnetic_items"); 
+#loader tags
+
+TLUtil.startScript("Tags/alexscaves/ferromagnetic_items"); 
     
 var magnetic_items = [
 	"supplementaries:iron_gate",
@@ -38,10 +40,10 @@ var magnetic_items = [
 <tag:items:alexscaves:ferromagnetic_items>.add(<tag:items:supplementaries:candle_holders>); 
 
 for item in magnetic_items{
-    <tag:items:alexscaves:ferromagnetic_items>.add(<item:${item}>);
+    <tag:items:alexscaves:ferromagnetic_items>.addId(<resource:${item}>);
 }
 
 
 
 
-DebugUtil.endScript("Tags/alexscaves/ferromagnetic_items"); 
+TLUtil.endScript("Tags/alexscaves/ferromagnetic_items"); 

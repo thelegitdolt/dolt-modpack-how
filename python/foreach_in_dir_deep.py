@@ -33,7 +33,7 @@ def foreach_in_dir_deep(path: str, func: Callable[[str, str], str]) -> None:
             continue
 
 def identity(path, contents):
-    return contents.replace("250", "333").replace("1000", "999").replace("500", "333")
+    return contents.replace("DebugUtil.startScript", "TLUtil.startScript").replace("DebugUtil.endScript", "TLUtil.endScript")
 
 if __name__ == "__main__":
-    foreach_in_dir_deep(f"{test_modpack}/{data}/Recipes/data/brewinandchewin/recipes/fermenting", identity)
+    foreach_in_dir_deep(f"{test_modpack}/scripts/CT/Tags", identity)
