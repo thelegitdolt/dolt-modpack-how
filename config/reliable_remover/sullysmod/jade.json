@@ -5,7 +5,7 @@
             "sullysmod:.*jade.*"
         ],
         "not": {
-            "items": ["sullysmod:jade_flinger_totem", "sullysmod:jade_amulet"]
+            "items": ["sullysmod:jade_amulet"]
         }
     }
 ]

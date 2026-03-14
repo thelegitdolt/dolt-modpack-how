@@ -1,9 +1,6 @@
 #loader tags
 
 TLUtil.startScript("/Tags/minecraft/blocks/mineable/hoe.zs/"); 
-    
-
-
 
 var froglights = [
     "minecraft:pearlescent_froglight",

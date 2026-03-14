@@ -1,5 +1,6 @@
 import os
 from typing import Callable
+import paths
 
 """
     
@@ -31,5 +32,5 @@ def deepFind(path: str, pred: Callable[[str], bool]):
             yield absolute_path
 
 if __name__ == '__main__':
-    print(list(deepFindWithContent("/Users/andrewyin/Desktop/Minecraft/Dolt Modpack How/scripts/CT/Tags",
+    print(list(deepFindWithContent(f"{paths.test_modpack}/scripts/CT/Tags",
                         lambda path, content: "ancient_tome" in content)))
