@@ -46,6 +46,7 @@
         "caverns_and_chasms:cobblestone_tiles",
         "caverns_and_chasms:mossy_cobblestone_tiles",
         "windswept:dry_mossy_cobblestone_tiles",
-        "upgrade_aquatic:kelpy_cobblestone_tiles"
+        "upgrade_aquatic:kelpy_cobblestone_tiles",
+        "caverns_and_chasms:brick"
     ]
 }
