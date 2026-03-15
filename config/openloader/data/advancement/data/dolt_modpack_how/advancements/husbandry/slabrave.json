@@ -1,0 +1,48 @@
+{
+  "parent": "environmental:husbandry/backpack_slabfish",
+  "criteria": {
+    "sex": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "environmental:slabfish",
+              "flags": {
+                "is_baby": false
+              }
+            }
+          }
+        ],
+        "item": {
+          "tag": "minecraft:creeper_drop_music_discs"
+        },
+        "player": [
+        ]
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Feed a music disc to a Slabfish to start a Slabrave"
+    },
+    "title": {
+      "text": "Slabrave"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "environmental:music_disc_slabrave"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "sex"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

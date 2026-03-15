@@ -5,5 +5,11 @@
             "sullysmod:item_stand",
             "sullysmod:glass_vial"
         ]
+    },
+    {
+        "action": "remove",
+        "patterns": [
+            "sullysmod:.*copper_button.*"
+        ]
     }
 ]

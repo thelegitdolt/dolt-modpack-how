@@ -1,0 +1,15 @@
+{
+  "modifiers": [
+    {
+      "type": "parent",
+      "config": "environmental:husbandry/backpack_slabfish"
+    }
+  ],
+  "priority": "normal",
+  "selector": {
+    "type": "names",
+    "config": [
+      "environmental:husbandry/tame_all_slabfish"
+    ]
+  }
+}
