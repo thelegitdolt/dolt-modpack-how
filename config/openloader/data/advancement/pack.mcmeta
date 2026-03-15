@@ -61,6 +61,10 @@
 			{
 				"namespace": "spawn",
 				"path": "husbandry/.*mucus"
+			},
+			{
+				"namespace": "wallpapers",
+				"path": "advancements/wallpapers/.*"
 			}
 		]    
 	}     

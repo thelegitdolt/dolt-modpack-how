@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "name": "frostmaw_has_crystal",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "mowziesmobs:has_crystal"
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "mowziesmobs:ice_crystal",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "frostmaw_no_crystal",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "mowziesmobs:has_crystal"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "mowziesmobs:music_disc_petiole",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
