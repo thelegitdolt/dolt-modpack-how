@@ -20,6 +20,10 @@ DebugUtil.startScript("properties/stack_size");
 
 
 
+<item:caverns_and_chasms:impact_potion>.setMaxStackSize(100);
+<item:caverns_and_chasms:tether_potion>.setMaxStackSize(100);
+<item:caverns_and_chasms:trail_potion>.setMaxStackSize(100);
+
 # BEDS
 for col in RUtil.colors {
     <item:minecraft:${col}_bed>.setMaxStackSize(100);

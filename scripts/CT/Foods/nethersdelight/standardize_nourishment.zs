@@ -40,7 +40,7 @@ function oneMinNourishment(a as IItemStack) as void {
     a.food = a.food.removeEffect(<mobeffect:farmersdelight:nourishment>).addEffect(new MobEffectInstance(<mobeffect:farmersdelight:nourishment>, 1200), 1);
 }
 
-function fiveMinNourishment(a as IItemStack) as void {
+public function fiveMinNourishment(a as IItemStack) as void {
     a.food = a.food.removeEffect(<mobeffect:farmersdelight:nourishment>).addEffect(new MobEffectInstance(<mobeffect:farmersdelight:nourishment>, 6000), 1);
 }
 
