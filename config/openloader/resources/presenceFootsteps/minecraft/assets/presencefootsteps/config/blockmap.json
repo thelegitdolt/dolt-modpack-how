@@ -111,5 +111,19 @@
 
 
 	"amendments:double_cake": "organic_solid",
-	"amendments:.*double_.*_cake": "organic_solid"
+	"amendments:.*double_.*_cake": "organic_solid",
+
+	"spawn:short_windswept_grass": "NOT_EMITTER",
+	"spawn:short_windswept_grass.messy": "MESSY_GROUND",
+	"spawn:short_windswept_grass.foliage": "brush",
+
+	"spawn:tall_windswept_grass": "NOT_EMITTER",
+	"spawn:tall_windswept_grass.messy": "MESSY_GROUND",
+	"spawn:tall_windswept_grass.foliage": "brush_straw_transition",
+
+	"spawn:dragon_reeds": "NOT_EMITTER",
+	"spawn:dragon_reeds.messy": "MESSY_GROUND",
+	"spawn:dragon_reeds.foliage": "brush",
+
+	"spawn:fallen_leaves.foliage": "leaves"
 }

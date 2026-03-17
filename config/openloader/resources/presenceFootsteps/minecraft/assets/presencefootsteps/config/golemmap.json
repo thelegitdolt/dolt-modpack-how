@@ -9,5 +9,7 @@
 	"blueprint:boat": "wood",
 	"blueprint:chest_boat": "wood",
 
-	"sullysmod:tortoise_shell": "stone,composite"
+	"sullysmod:tortoise_shell": "stone,composite",
+
+	"spawn:clam": "sandstone,ore"
 }

@@ -1,0 +1,42 @@
+{
+  "parent": "dolt_mod_how:adventure/thunderdome",
+  "criteria": {
+    "player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:music_disc_11"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "caverns_and_chasms:mime"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill a Mime while holding a broken Music Disc"
+    },
+    "title": {
+      "text": "A Mimeful Epilogue"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "caverns_and_chasms:music_disc_epilogue"
+    },
+    "show_toast": true
+  },
+  "sends_telemetry_event": true
+}
