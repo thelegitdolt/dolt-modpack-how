@@ -1,0 +1,16 @@
+{
+  "filters": [
+    {
+      "category": "emi:info"
+    },
+    {
+      "category": "create:automatic_shaped"
+    },
+    {
+      "category": "create_central_kitchen:cutting_board_deploying"
+    },
+    {
+      "category": "create:fan_blasting"
+    }
+  ]
+}
