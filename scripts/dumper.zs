@@ -7,26 +7,33 @@ import crafttweaker.api.item.IItemStack;
 
 import crafttweaker.api.game.Game;
 
-function main() as void {
-    println("==================== BRACKET DUMPER START ====================="); 
-    
-    println("==================== BRACKET DUMPER END ====================="); 
-}
+
 
 
 function dumpAllInTag(tag as string) as void {
-    println("==================== BRACKET DUMPER START ====================="); 
+    println("==================== SEX SEX SEX 1 ====================="); 
     var tagger = <tagmanager:blocks>.tag(tag);
     for block in game.blocks {
         if (tagger.contains(block)) {
             println(block.registryName);
         }
     }
-    println("==================== BRACKET DUMPER END ====================="); 
+    println("==================== SUPER SEX LOL ====================="); 
+}
+
+function itemTag(tag as string) as void {
+    println("==================== SEX SEX SEX item tag ====================="); 
+    var tagger = <tagmanager:items>.tag(tag);
+    for item in game.items {
+        if (tagger.contains(item)) {
+            println(item.registryName);
+        }
+    }
+    println("==================== SUPER SEX LOL ====================="); 
 }
 
 function dumpAllContainString(charSequence as string) as void {
-    println("==================== BRACKET DUMPER START ====================="); 
+    println("==================== SEX SEX SEX string regex idk  ====================="); 
 
     for block in game.blocks {
         val a = block.registryName; 
@@ -34,7 +41,7 @@ function dumpAllContainString(charSequence as string) as void {
             println(block.registryName);
         }
     }
-    println("==================== BRACKET DUMPER END ====================="); 
+    println("==================== SUPER SEX LOL ====================="); 
 }
 
 
