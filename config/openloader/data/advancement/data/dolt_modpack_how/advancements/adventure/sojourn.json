@@ -22,7 +22,7 @@
   },
   "display": {
     "description": {
-      "text": "Look at an enderman through the TV and suffer the consequences"
+      "text": "Enrage an Enderman by eyeing its image through a Television screen"
     },
     "title": {
       "text": "Sojourn in Our World"
@@ -31,7 +31,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:ender_pearl"
+      "item": "vista:television"
     },
     "show_toast": true
   },

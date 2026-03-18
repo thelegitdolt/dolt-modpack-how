@@ -1,5 +1,5 @@
 {
-  "parent": "dolt_mod_how:adventure/root",
+  "parent": "adventure/kill_a_mob",
   "criteria": {
     "sex": {
       "conditions": {
