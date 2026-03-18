@@ -1,0 +1,44 @@
+{
+  "parent": "dolt_mod_how:adventure/root",
+  "criteria": {
+    "sex": {
+      "conditions": {
+        "killer": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minecraft:skeletons"
+            }
+          }
+        ],
+        "victim": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:drowned"
+            }
+          }
+        ]
+      },
+      "trigger": "dolt_mod_how:watch_mob_kill"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Have a Skeleton kill a Drowned"
+    },
+    "title": {
+      "text": "Rainy Day Dream Away"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "show_toast": true
+  },
+  "sends_telemetry_event": true
+}

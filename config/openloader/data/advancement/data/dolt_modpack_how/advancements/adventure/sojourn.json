@@ -1,0 +1,39 @@
+{
+  "parent": "adventure/root",
+  "criteria": {
+    "player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {},
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:enderman"
+            }
+          },
+          {
+            "condition": "vista:angered_from_tv"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Look at an enderman through the TV and suffer the consequences"
+    },
+    "title": {
+      "text": "Sojourn in Our World"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:ender_pearl"
+    },
+    "show_toast": true
+  },
+  "sends_telemetry_event": true
+}
