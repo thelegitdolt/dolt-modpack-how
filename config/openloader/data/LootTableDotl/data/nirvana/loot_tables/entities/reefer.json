@@ -25,7 +25,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:hemp"
+          "name": "nirvana:hemp"
         }
       ],
       "rolls": 1.0

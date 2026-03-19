@@ -1,0 +1,45 @@
+{
+  "parent": "mowziesmobs:kill_frostmaw",
+  "criteria": {
+    "player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {},
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "mowziesmobs:frostmaw"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "mowziesmobs:has_crystal"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Steal the crystal from a Frostmaw and kill it for good measure"
+    },
+    "title": {
+      "text": "Petiole"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "mowziesmobs:music_disc_petiole"
+    },
+    "show_toast": true
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "spawn:husbandry/catch_octopus_in_nautilus_shell",
+  "criteria": {
+    "sex": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "spawn:octopus"
+            }
+          }
+        ],
+        "item": {
+          "tag": "minecraft:music_discs"
+        },
+        "player": [
+        ]
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+    
+  },
+  "display": {
+    "description": {
+      "text": "Some items have no holes on them, but an Octopus will cling to it anyway"
+    },
+    "title": {
+      "text": "Jammed"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "spawn:captured_octopus"
+    },
+    "show_toast": true
+  },
+  "sends_telemetry_event": true
+}

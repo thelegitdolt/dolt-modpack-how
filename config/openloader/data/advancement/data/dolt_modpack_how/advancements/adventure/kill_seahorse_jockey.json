@@ -1,0 +1,33 @@
+{
+  "parent": "adventure/kill_a_mob",
+  "criteria": {
+    "pl": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {},
+        "entity": {
+          "type": "minecraft:drowned",
+          "vehicle": {
+            "type": "spawn:seahorse"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Slay an elusive Seahorse Jockey"
+    },
+    "title": {
+      "text": "Water Horse Adventure"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "spawn:seahorse_bucket"
+    },
+    "show_toast": true
+  },
+  "sends_telemetry_event": true
+}
