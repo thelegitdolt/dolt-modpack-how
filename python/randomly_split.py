@@ -5,7 +5,7 @@ def hi(discs: list[str], buckets: int, tags: list[str]):
 
     i = 0
     for ls, tag in zip(a, tags):
-        print(generateThing(ls, "<tag:items:{}>".format(tag), i))
+        generateThing(ls, "<tag:items:{}>".format(tag), i)
         i += 1
     
 
