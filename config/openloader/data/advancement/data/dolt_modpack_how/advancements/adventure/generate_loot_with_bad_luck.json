@@ -1,0 +1,24 @@
+{
+  "parent": "adventure/root",
+  "criteria": {
+    "player": {
+      "trigger": "dolt_mod_how:generate_loot_with_bad_luck"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Open a loot chest while afflicted with bad luck"
+    },
+    "title": {
+      "text": "Lucky Number 13"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "music_disc_13"
+    },
+    "show_toast": true
+  },
+  "sends_telemetry_event": true
+}

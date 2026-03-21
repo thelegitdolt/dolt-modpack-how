@@ -567,7 +567,7 @@
 
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
-		enabled = true
+		enabled = false
 
 	[tweaks.placeable_sticks]
 		#Allow placeable sticks
