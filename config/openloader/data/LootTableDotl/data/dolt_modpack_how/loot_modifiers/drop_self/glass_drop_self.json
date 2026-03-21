@@ -5,6 +5,7 @@
       "condition": "dolt_mod_how:trichotomy",
       "blockTags": [
         "forge:glass",
+        "forge:glass_blocks",
         "forge:glass_panes"
       ],
       "blocks": [

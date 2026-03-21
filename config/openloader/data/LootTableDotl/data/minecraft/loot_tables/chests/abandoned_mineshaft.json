@@ -1,26 +1,6 @@
 {
   "type": "minecraft:chest",
   "pools": [
-    
-    
-    
-    {
-      "#comment": "13",
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
-          "weight": 0,
-          "quality": -1
-        },
-        {
-          "type": "minecraft:empty"
-        }
-      ],
-      "rolls": 1.0
-    },
-
-
     {
       "#comment": "map",
       "entries": [

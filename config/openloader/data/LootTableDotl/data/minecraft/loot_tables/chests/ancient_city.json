@@ -2,25 +2,6 @@
   "type": "minecraft:chest",
   "pools": [
 
-  {
-      "#comment": "13",
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
-          "weight": 0,
-          "quality": 0.7
-        },
-        {
-          "type": "minecraft:empty"
-        }
-      ],
-      "rolls": 0.0,
-      "bonus_rolls": -0.6
-    },
-
-
-
     {
       "#comment": "runes",
       "entries": [

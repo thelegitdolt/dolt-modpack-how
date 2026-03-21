@@ -9,6 +9,7 @@
     "dolt_modpack_how:remove_seeds_from_grass/beetroot_seeds",
     "dolt_modpack_how:drop_self/glass_drop_self",
     "dolt_modpack_how:drop_self/coralstone_drop_self",
+    "dolt_modpack_how:other/do_luck",
     "dolt_modpack_how:drop_self/others"
   ]
 }
