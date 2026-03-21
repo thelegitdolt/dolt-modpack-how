@@ -21,3 +21,15 @@ public class DebugUtil {
         println(EQUALS_SEPARATOR);
     }
 }
+
+public expand <T> stdlib.List<T> {
+    public removeIf(pred as function(thing as T) as bool) as void {
+        val toRemove = new stdlib.List<T>();
+        for element in this {
+            if pred(element) {
+                toRemove.add(element);
+            }
+        }
+        for element in toRemove this.remove(element);
+    }
+}

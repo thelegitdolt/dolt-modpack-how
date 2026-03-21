@@ -1,33 +1,73 @@
-def hi(discs: list[str], buckets: int, tags: list[str]):
-    a = [[] for _ in range(buckets)]
-    for i, disc in enumerate(discs):
-        (a[i % buckets]).append(disc)
+imports = """
+import crafttweaker.api.loot.LootContext;
+import crafttweaker.api.loot.condition.LootConditions;
+"""
 
-    i = 0
-    for ls, tag in zip(a, tags):
-        generateThing(ls, "<tag:items:{}>".format(tag), i)
-        i += 1
+def hi(discs: list[str], tags: list[str]):
+    buckets = len(tags)
+    text = imports + '\n\n\n'
+    if len(discs) % 2 == 1:
+        text += lootMod(discs[-1])
+        discs = discs[:-1]
+    
+    aSides = discs[::2]
+    bSides = discs[1::2]
+
+    aSideBuckets = [[] for _ in range(buckets)]
+    for i, disc in enumerate(aSides):
+        (aSideBuckets[i % buckets]).append(disc)
+
+    for i, (ls, tag) in enumerate(zip(aSideBuckets, tags)):
+        if i >= 8: 
+            i += 4
+        text += putItemsInTag(ls, "<tag:items:{}>".format(tag),  chr(97 + i))
+        text += "\n"
+
+
+    for up, down in zip(aSides, bSides):
+        text += warpRecipe(up, down)
+
+    return text
     
 
-def saneForm(strings: list[str]):
+def lootMod(disc):
+    return """
+loot.modifiers.register("add_extra_disc_to_dungeon", LootConditions.none(), (stacks, ctx) => {
+    if (ctx.queriedLootTableId == <resource:minecraft:chests/simple_dungeon> && ctx.random.nextInt(8) == 0) {
+        stacks.add(<item:@@@}>); 
+    }
+    return stacks; 
+});\n\n
+""".replace('@@@', disc)
+
+def warpRecipe(up, down):
+    return "Warping.newRecipe(\"{}_flipping\", <item:{}>, <item:{}>);\n".format(down.split(":")[1], up, down)
+
+
+def toZsList(strings: list[str]):
     a = ""
     for i in strings:
         a += f"\"{i}\", "
 
     return a[:-2]
 
-def generateThing(thing: list[str], tag: str, i: int):
-    print("""
-    val $$ = [@@
-    ];
-    for i in $$ {
-        ##.addId(<resource:${i}>);
-    }
-""".replace("@@", saneForm(thing)).replace("##", tag).replace("$$", chr(97 + i)))
+def putItemsInTag(thing: list[str], tag: str, i: str):
+    return """
+val $$ = [@@];
+for i in $$ {
+    ##.addId(<resource:${i}>);
+}
+""".replace("@@", toZsList(thing)).replace("##", tag).replace("$$", i)
 
+def creeperList(a: list[str]):
+    b = []
+    for i in a:
+        b.append("dolt_modpack_how:{}_drop_music_discs".format(i))
+        b.append("dolt_modpack_how:charged_{}_drop_music_discs".format(i))
+    return b
 
 if __name__ == '__main__':
-    hi(["minecraft:music_disc_13",
+    a = [
 "minecraft:music_disc_cat",
 "minecraft:music_disc_blocks",
 "minecraft:music_disc_chirp",
@@ -147,8 +187,5 @@ if __name__ == '__main__':
 "resonance:music_disc_little_to_no_meaning",
 "resonance:music_disc_bestill",
 "resonance:music_disc_reaching_out",
-"resonance:music_disc_clairvoyance"], 5, [
-    "dolt_modpack_how:creeper_drop_music_discs", "dolt_modpack_how:deeper_drop_music_discs", 
-    "dolt_modpack_how:evendeeper_drop_music_discs", "dolt_modpack_how:reefer_drop_music_discs", 
-    "dolt_modpack_how:peeper_drop_music_discs"
-])    
+"resonance:music_disc_clairvoyance"]
+    print(hi(a, creeperList(["creeper", "deeper", "evendeeper", "reefer", "peeper"]))) 

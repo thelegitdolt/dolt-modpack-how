@@ -1,6 +1,7 @@
 #priority 100
 
 import crafttweaker.api.recipe.Brewing;
+import crafttweaker.api.util.math.RandomSource;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.recipe.IRecipeManager;
@@ -129,5 +130,10 @@ as string[];
 
 
         return [test[0 .. x], test[(x + 1) .. y]];
+    }
+
+    public static getRandomItemInTag(path as string, random as RandomSource) as ResourceLocation {
+        val b = <tagmanager:items>.tag(path).idElements;
+        return b[random.nextInt(b.length as int)];
     }
 }
