@@ -1,3 +1,6 @@
 {
-  "type": "dolt_mod_how:luck"
+  "type": "dolt_mod_how:luck",
+  "blacklist": [
+    
+  ]
 }
