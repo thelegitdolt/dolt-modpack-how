@@ -21,7 +21,7 @@ val creepers = [
 
 loot.modifiers.register("creepers_do_charged_and_stuff", 
     LootConditions.none(), (stacks, ctx) => {
-        if (ctx.thisEntity == null) return stacks; 
+        if (ctx.thisEntity == null || ctx.killerEntity == null) return stacks; 
         val name = ctx.thisEntity.type.registryName.getPath();
 
         if (!(name in creepers) || !(ctx.killerEntity.type.isIn(<tag:entity_types:minecraft:skeletons>))) {
