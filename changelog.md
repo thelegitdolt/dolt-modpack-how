@@ -1,3 +1,14 @@
+# Dolt Mod How 1.0.1
+
+TWEAKS
+- Allowed JNE shroomnights to be used in shroomlight recipes, such as Bloody Mary & stone lamps from Supp
+- Buffed C&C polished up rail recipes
+- Made Supp flutes not have durability
+
+BUGS
+- Buffed Halt Rail, Slaughter Rail and Copper Rails recipe output
+- Fixed deepslate zinc ore being disabled
+
 # Hotfix 1.0.0a
 
 - Update dolt mod to fix some unintentional miming behavior
