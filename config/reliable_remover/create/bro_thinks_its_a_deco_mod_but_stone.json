@@ -15,7 +15,12 @@
             "create:.*dripstone.*",
             "create:.*deepslate.*",
             "create:.*veridium.*"
-        ]
+        ],
+        "not": {
+            "items": [
+                "create:deepslate_zinc_ore"
+            ]
+        }
     },
     {
         "action": "remove",

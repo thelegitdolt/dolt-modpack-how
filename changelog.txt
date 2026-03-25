@@ -1,4 +1,9 @@
-Really Old Version
+# Hotfix 1.0.0a
+
+- Update dolt mod to fix some unintentional miming behavior
+- Fixed null pointer with creeper disc loot modifier
+
+# Really Old Version
 
 ADDITIONS
 - Added natural temperature modification

@@ -10,10 +10,15 @@ TLUtil.startScript("Tags/caverns_and_chasms/additional_toolbox_tools");
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:supplementaries:wrench> );
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:minecraft:elytra>);
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:minecraft:goat_horn>);
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:caverns_and_chasms:copper_horn>);
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:caverns_and_chasms:bone_flute>);
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:caverns_and_chasms:lost_goat_horn>);
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:savage_and_ravage:conch_of_conjuring>);
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:savage_and_ravage:wand_of_freezing>);
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:create:wrench>);
+<tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:supplementaries:flute>);
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:create:goggles>);
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:supplementaries:wrench>);
 

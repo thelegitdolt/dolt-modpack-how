@@ -21,18 +21,16 @@ craftingTable.addShaped("controller_rail_based", <item:create:controller_rail> *
 
 craftingTable.addShaped("rail_based", <item:minecraft:rail> * 16, [[<tag:items:forge:nuggets/iron>, <item:minecraft:air>, <tag:items:forge:nuggets/iron>], [<tag:items:forge:nuggets/iron>, <tag:items:forge:rods/wooden>, <tag:items:forge:nuggets/iron>], [<tag:items:forge:nuggets/iron>, <item:minecraft:air>, <tag:items:forge:nuggets/iron>]]);
 
-
-craftingTable.addShaped("spiked_rail_based", <item:caverns_and_chasms:spiked_rail> * 8, [[<tag:items:forge:nuggets/silver>, <item:minecraft:air>, <tag:items:forge:nuggets/silver>], [<tag:items:forge:nuggets/silver>, <item:minecraft:stick>, <tag:items:forge:nuggets/silver>], [<tag:items:forge:nuggets/silver>, <item:minecraft:redstone>, <tag:items:forge:nuggets/silver>]]);
-
-
-
-
 craftingTable.removeByName("minecraft:activator_rail");
 craftingTable.removeByName("minecraft:detector_rail");
 craftingTable.removeByName("alexscaves:magnetic_levitation_rail");
 craftingTable.removeByName("minecraft:powered_rail");
 craftingTable.removeByName("minecraft:rail");
-craftingTable.removeByName("caverns_and_chasms:spiked_rail");
 craftingTable.removeByName("create:crafting/kinetics/controller_rail");
+
+RUtil.changeCount("caverns_and_chasms:halt_rail", 8);
+RUtil.changeCount("caverns_and_chasms:copper_rail", 16);
+RUtil.changeCount("caverns_and_chasms:slaughter_rail", 8);
+RUtil.changeCount("caverns_and_chasms:spiked_rail", 8);
 
 DebugUtil.endScript("recipes/minecraft/rails"); 

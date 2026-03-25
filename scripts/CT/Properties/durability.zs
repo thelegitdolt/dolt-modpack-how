@@ -4,6 +4,7 @@ DebugUtil.startScript("properties/durability");
 <item:minecraft:elytra>.maxDamage = 0;
 <item:savage_and_ravage:conch_of_conjuring>.maxDamage = 0;
 <item:savage_and_ravage:wand_of_freezing>.maxDamage = 0;
+<item:supplementaries:flute>.maxDamage = -1;
 
 
 # ALEXSCAVES STUFF

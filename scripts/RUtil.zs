@@ -14,6 +14,8 @@ import crafttweaker.api.recipe.replacement.Replacer;
 import crafttweaker.api.tag.type.KnownTag;
 import crafttweaker.api.item.ItemDefinition;
 import crafttweaker.api.recipe.replacement.type.NameFilteringRule;
+import crafttweaker.api.recipe.type.ShapedRecipe;
+import crafttweaker.api.recipe.type.CraftingRecipe;
 
 public class RUtil {
     public static val cut = <recipetype:farmersdelight:cutting>;
@@ -122,6 +124,20 @@ as string[];
     public static addFurnaceAndBlastFurnaceRecipe(name as string, input as IItemStack, output as IItemStack, xp as float) as void {
         furnace.addRecipe(name + "_from_smelting", output, input, xp, 200); 
         blastFurnace.addRecipe(name + "_from_smoking", output, input, xp, 100); 
+    }
+
+    public static changeCount(recipe as string, count as int) as void {
+        val craftingRecipeValue = craftingTable.getRecipeByName(recipe) as CraftingRecipe;
+        val normalRecipe = craftingTable.getRecipeByName(recipe) as Recipe<Container>;
+
+        if craftingRecipeValue is ShapedRecipe {
+            val shaped = craftingRecipeValue as ShapedRecipe; 
+            craftingTable.addShaped(RUtil.getRecipeString(normalRecipe.id) + "_based", normalRecipe.resultItem * count, shaped.getIngredientArray()); 
+        } else {
+            craftingTable.addShapeless(RUtil.getRecipeString(normalRecipe.id) + "_based", normalRecipe.resultItem * count, normalRecipe.ingredients);
+        }
+
+        craftingTable.removeByName(recipe);
     }
 
     public static split(test as string) as stdlib.List<string> {
