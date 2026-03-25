@@ -1,9 +1,9 @@
-# Dolt Mod How 1.0.1
+# Dolt Modpack How 1.ω.1
 
 TWEAKS
 - Allowed JNE shroomnights to be used in shroomlight recipes, such as Bloody Mary & stone lamps from Supp
-- Buffed C&C polished up rail recipes
 - Made Supp flutes not have durability
+- Allowed all goat horns to be placed inside toolboxes
 
 BUGS
 - Buffed Halt Rail, Slaughter Rail and Copper Rails recipe output
