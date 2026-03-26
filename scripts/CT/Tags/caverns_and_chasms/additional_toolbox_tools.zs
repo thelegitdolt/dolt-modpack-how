@@ -10,7 +10,6 @@ TLUtil.startScript("Tags/caverns_and_chasms/additional_toolbox_tools");
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:supplementaries:wrench> );
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:minecraft:elytra>);
-<tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:minecraft:goat_horn>);
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:savage_and_ravage:conch_of_conjuring>);
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:savage_and_ravage:wand_of_freezing>);
 
@@ -22,9 +21,6 @@ TLUtil.startScript("Tags/caverns_and_chasms/additional_toolbox_tools");
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:exposure:camera>);
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:species:spectralibur>);
-
-<tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:etcetera:hammer>);
-<tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:etcetera:chisel>);
 
 <tag:items:caverns_and_chasms:additional_toolbox_tools>.addId(<resource:alexscaves:raygun>);
 
