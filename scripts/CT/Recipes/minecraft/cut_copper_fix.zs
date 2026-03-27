@@ -1,19 +1,11 @@
 DebugUtil.startScript("recipes/minecraft/cut_copper_fix"); 
     
 
-val thing = <item:minecraft:chiseled_stone_bricks>;
-
-for i in CUtil.coppers {
-    craftingTable.removeByName("minecraft:" + i + "cut_copper");
+for i in CUtil.coppersSansNormal {
+    RUtil.changeCountStoneCut("minecraft:" + i + "cut_copper_from_" + i + "copper_stonecutting", 1);
 }
-
-CUtil.copperRecipe(
-    "cut_copper_based", (name, block, cut) => {
-        RUtil.twoByTwo(
-            name, block, cut, 16
-        );
-    }, "minecraft:copper_block", "minecraft:cut_copper"
-);
+RUtil.changeCountStoneCut("minecraft:cut_copper_from_copper_block_stonecutting", 1);
+RUtil.changeCountStoneCut("minecraft:waxed_cut_copper_from_waxed_copper_block_stonecutting", 1);
 
 
 DebugUtil.endScript("recipes/minecraft/cut_copper_fix"); 

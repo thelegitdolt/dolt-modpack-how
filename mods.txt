@@ -1,5 +1,5 @@
 [ADDON-DAVIJ] nest_egg-1.20.1-1.0.2.jar
-[ADDON-DOLT] dolt_mod_how-1.20.1-2.6.0-all.jar
+[ADDON-DOLT] dolt_mod_how-1.20.1-2.6.2-all.jar
 [ADDON-PERFORMANCE] create_lt-1.0.1-forge-mc1.20.1.jar
 [ADDON-TOOL] CreateTweaker-forge-1.20.1-4.0.15.jar
 [ADDON-TOOL] JeiTweaker-forge-1.20.1-8.0.6.jar
@@ -37,6 +37,7 @@
 [CLIENT] Pretty Rain-1.20.1-Forge-1.1.3.jar
 [CLIENT] emi-1.1.22+1.20.1+forge.jar
 [CLIENT] jei-1.20.1-forge-15.20.0.129.jar
+[CLIENT] music_tweaks-forge-1.20.1-1.0.1.jar
 [CLIENT] watut-forge-1.20.1-1.2.3.jar
 [CONTENT] Architects-Palette-1.20.1-1.3.6.1.jar
 [CONTENT] FarmersDelight-1.20.1-1.2.10.jar

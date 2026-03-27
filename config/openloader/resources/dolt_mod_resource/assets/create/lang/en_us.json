@@ -6,5 +6,9 @@
   "enchantment.create.capacity": "Iron Lung",
 
   "block.create.speedometer": "Contraption Speedometer",
-  "block.create.stressometer": "Contraption Stressometer"
+  "block.create.stressometer": "Contraption Stressometer",
+
+  "block.create.andesite_door": "Fancy Andesite Door",
+  "block.create.brass_door": "Fancy Brass Door",
+  "block.create.copper_door": "Fancy Copper Door"
 }

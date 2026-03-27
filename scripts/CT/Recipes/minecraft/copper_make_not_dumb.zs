@@ -3,6 +3,11 @@ DebugUtil.startScript("recipes/minecraft/copper_make_not_dumb");
 import crafttweaker.api.item.IItemStack;
 
 craftingTable.removeByName("minecraft:copper_block");
+craftingTable.removeByName("caverns_and_chasms:waxed_copper_block");
+
+for i in CUtil.coppersSansNormal {
+    craftingTable.removeByName("caverns_and_chasms:" + i + "copper");
+}
 
 craftingTable.removeByName("minecraft:copper_ingot");
 craftingTable.removeByName("minecraft:copper_ingot_from_waxed_copper_block");
@@ -11,17 +16,15 @@ craftingTable.removeByName("caverns_and_chasms:exposed_copper_ingot");
 craftingTable.removeByName("caverns_and_chasms:oxidized_copper_ingot");
 craftingTable.removeByName("caverns_and_chasms:waxed_weathered_copper_ingot");
 craftingTable.removeByName("caverns_and_chasms:waxed_exposed_copper_ingot");
-craftingTable.removeByName("caverns_and_chasms:waxed_copper_block");
 craftingTable.removeByName("caverns_and_chasms:waxed_copper_ingot");
 craftingTable.removeByName("caverns_and_chasms:waxed_oxidized_copper_ingot");
 
 
 val cop = <item:minecraft:copper_ingot>;
 
-craftingTable.addShaped("copper_block_based", <item:minecraft:copper_block>, [
-    [cop, cop],
-    [cop, cop]
-]);
+CUtil.copperRecipe("copper_plating", (name, result, c) => {
+    RUtil.twoByTwo(name, c, result, 4);
+}, "minecraft:copper_block", "copper_ingot");
 
 CUtil.copperRecipe(
     "copper_storage_based", 
@@ -44,5 +47,23 @@ CUtil.copperRecipe(
 for oxi in CUtil.coppers {
     stoneCutter.remove(<item:caverns_and_chasms:${oxi}chiseled_copper>);
 }
+
+CUtil.copperRecipe(
+    "copper_door_are_good", (name, c, result) => {
+        craftingTable.addShaped(name, result * 3, [[c, c], [c, c], [c, c]]);
+    }, "minecraft:copper_block", "caverns_and_chasms:copper_door"
+);
+
+CUtil.copperRecipe(
+    "copper_trapdoors_are_good", (name, c, result) => {
+        craftingTable.addShaped(name, result * 2, [[c, c, c], [c, c, c]]);
+    }, "minecraft:copper_block", "caverns_and_chasms:copper_trapdoor"
+);
+
+for i in CUtil.coppers {
+    craftingTable.removeByName("caverns_and_chasms:" + i + "copper_door");
+    craftingTable.removeByName("caverns_and_chasms:" + i + "copper_trapdoor");
+}
+
 
 DebugUtil.endScript("recipes/minecraft/copper_make_not_dumb"); 

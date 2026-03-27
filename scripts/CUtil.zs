@@ -26,6 +26,15 @@ public class CUtil {
         "waxed_oxidized_"] 
     as string[];
 
+    public static val coppersSansNormal = [
+        "exposed_",
+        "waxed_exposed_",
+        "weathered_",
+        "waxed_weathered_",
+        "oxidized_",
+        "waxed_oxidized_"] 
+    as string[];
+
     public static copperRecipe(recipeName as string, 
                                recipe as function(name as string, i as IItemStack, j as IItemStack) as void, 
                                item1 as string, 

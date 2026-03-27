@@ -1,12 +1,22 @@
 # Dolt Modpack How 1.ω.1
 
-TWEAKS
+## NEW MODS
+- Added Evan's Music Treaks mod
+
+## TWEAKS
+- Lead ores now drop 1-3 raw lead without fortune
+- Copper plating recipe now output 4 for 2x2
+	- Cut Lead has been renamed Lead Plating and outputs 4 for 2x2 lead
 - Allowed JNE shroomnights to be used in shroomlight recipes, such as Bloody Mary & stone lamps from Supp
 - Made Supp flutes not have durability
+- Renamed the fancy create doors to Fancy Doors to avoid having two copper doors
 
-BUGS
+## BUGS
 - Buffed Halt Rail, Slaughter Rail and Copper Rails recipe output
 - Fixed deepslate zinc ore being disabled
+
+## Fixes
+- Fixed Mimeful Epilogue advancement triggering on every entity
 
 # Hotfix 1.0.0a
 

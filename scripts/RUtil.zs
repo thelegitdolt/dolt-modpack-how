@@ -8,6 +8,7 @@ import crafttweaker.api.recipe.IRecipeManager;
 import crafttweaker.api.ingredient.type.IIngredientList;
 import crafttweaker.api.recipe.type.Recipe;
 import crafttweaker.api.world.Container;
+import crafttweaker.api.recipe.type.StonecutterRecipe;
 import crafttweaker.api.resource.ResourceLocation;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.recipe.replacement.Replacer;
@@ -138,6 +139,13 @@ as string[];
         }
 
         craftingTable.removeByName(recipe);
+    }
+
+     public static changeCountStoneCut(recipeStr as string, count as int) as void {
+        val recipe = stoneCutter.getRecipeByName(recipeStr) as StonecutterRecipe;
+
+        stoneCutter.addRecipe(recipe.id.getPath() +"_based", recipe.resultItem * count, recipe.ingredients[0]);
+        stoneCutter.removeByName(recipeStr);
     }
 
     public static split(test as string) as stdlib.List<string> {
