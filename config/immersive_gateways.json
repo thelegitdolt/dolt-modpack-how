@@ -1,7 +1,7 @@
 {
   "minDistance": 1024,
   "maxDistance": 8096,
-  "onlyPlayersCanTeleport": true,
+  "onlyPlayersCanTeleport": false,
   "colors": {
     "minecraft:wooded_badlands_plateau": 12217644,
     "minecraft:windswept_forest": 3757868,

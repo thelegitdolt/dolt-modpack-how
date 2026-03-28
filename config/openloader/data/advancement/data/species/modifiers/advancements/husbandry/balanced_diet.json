@@ -1,0 +1,55 @@
+{
+  "modifiers": [
+    {
+      "type": "criteria",
+      "config": {
+        "criteria": {
+          "caverns_and_chasms:bejeweled_apple": {
+            "conditions": {
+              "item": {
+                "items": [
+                  "caverns_and_chasms:bejeweled_apple"
+                ]
+              }
+            },
+            "trigger": "minecraft:consume_item"
+          },
+          "caverns_and_chasms:cavefish": {
+            "conditions": {
+              "item": {
+                "items": [
+                  "caverns_and_chasms:cavefish"
+                ]
+              }
+            },
+            "trigger": "minecraft:consume_item"
+          },
+          "caverns_and_chasms:caviar": {
+            "conditions": {
+              "item": {
+                "items": [
+                  "caverns_and_chasms:caviar"
+                ]
+              }
+            },
+            "trigger": "minecraft:consume_item"
+          }
+        },
+        "requirements": [
+          [
+            "caverns_and_chasms:caviar"
+          ],
+          [
+            "caverns_and_chasms:bejeweled_apple"
+          ],
+          [
+            "caverns_and_chasms:cavefish"
+          ]
+        ],
+        "should_replace_requirements": false
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": "minecraft:husbandry/balanced_diet"
+}
