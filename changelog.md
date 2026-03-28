@@ -10,6 +10,7 @@
 - Allowed JNE shroomnights to be used in shroomlight recipes, such as Bloody Mary & stone lamps from Supp
 - Made Supp flutes not have durability
 - Renamed the fancy create doors to Fancy Doors to avoid having two copper doors
+- Removed My Nether Delight's strider rocks & strider eggs & boiled eggs & etc
 
 ### Bugs
 - Buffed Halt Rail, Slaughter Rail and Copper Rails recipe output

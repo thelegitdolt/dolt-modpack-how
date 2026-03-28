@@ -1,0 +1,15 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "mynethersdelight:strider_rock",
+            "mynethersdelight:strider_egg",
+            "mynethersdelight:boiled_egg",
+            "mynethersdelight:rock_soup",
+            "mynethersdelight:deviled_egg",
+
+            "mynethersdelight:enchanted_golden_egg",
+            "mynethersdelight:golden_egg"  
+        ]
+    }
+]

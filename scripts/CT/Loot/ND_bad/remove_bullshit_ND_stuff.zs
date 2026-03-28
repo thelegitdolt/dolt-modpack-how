@@ -15,7 +15,8 @@ val stupidstuff = [
     "mynethersdelight:add_loot_bastion_treasure",
 
     "mynethersdelight:remplace_hoglin_cooked_pork_loin",
-    "mynethersdelight:remplace_hoglin_pork_loin"
+    "mynethersdelight:remplace_hoglin_pork_loin",
+    "mynethersdelight:scavenging_strider_egg"
 ]; 
 
 for i in stupidstuff {

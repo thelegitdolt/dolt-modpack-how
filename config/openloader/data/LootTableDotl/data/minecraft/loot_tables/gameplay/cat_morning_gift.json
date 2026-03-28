@@ -37,7 +37,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "weight": 5
+          "weight": 3
         }
       ],
       "rolls": 1.0

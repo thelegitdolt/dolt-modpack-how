@@ -103,6 +103,10 @@ as string[];
         }
     }
 
+    public static withPattern(name as string, result as IItemStack, ing as IIngredient, pattern as function(a as IIngredient) as IIngredient[][]) as void {
+        craftingTable.addShaped(name, result, pattern(ing));
+    }
+
     public static removeStonecutter(alls as string[]) as void {
         stoneCutter.remove(new IIngredientList(alls.map<IIngredient>(item => <item:${item}>)));
     }
