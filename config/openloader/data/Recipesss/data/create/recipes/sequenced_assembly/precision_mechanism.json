@@ -6,11 +6,7 @@
   "loops": 5,
   "results": [
     {
-      "chance": 120.0,
       "item": "create:precision_mechanism"
-    },
-    {
-      "item": "minecraft:clock"
     }
   ],
   "sequence": [

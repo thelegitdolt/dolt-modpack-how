@@ -94,8 +94,7 @@ def get_blacklist(thing: list[str], files: list[str]) -> list[str]:
         if len(pattern) > 0:
             pattern += "|"
         pattern += new_name
-    blacklist_regex = re.compile(pattern)
-    print(blacklist_regex)
+    blacklist_regex = re.compile(pattern, re.IGNORECASE)
     blacklist = list()
     for file in files:
         if blacklist_regex.search(file):
@@ -116,8 +115,6 @@ class BSI:
         self.folder1path = folder1path
         self.folder2path = folder2path
 
-        # todo: auto move openloader
-        # todo: specify mods that can't be moved 
         if folder2path is not None:
             verify_have_same_files(self.folder1path, self.folder2path)
 
@@ -143,7 +140,7 @@ class BSI:
         def do(folder):
             if folder is not None:
                 moveFiles(folder, [file for file in os.listdir(folder) if is_addon.match(file)], "binsearch_addons")
-                moveFiles(folder, [file for file in os.listdir(folder) if "openloader" in file], "binsearch_addons")
+                moveFiles(folder, [file for file in os.listdir(folder) if "OpenLoader" in file], "binsearch_addons")
                 
         do(self.folder1path)
         do(self.folder2path)
