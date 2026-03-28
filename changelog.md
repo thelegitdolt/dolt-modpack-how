@@ -1,9 +1,9 @@
 # Dolt Modpack How 1.ω.1
 
-**NEW MODS**
+### New Mods
 - Added Evan's [Music Treaks](https://www.curseforge.com/minecraft/mc-mods/mini-music-tweaks) mod
 
-**TWEAKS**
+### Tweaks
 - Lead ores now drop 1-3 raw lead without fortune
 - Copper plating recipe now output 4 for 2x2
 	- Cut Lead has been renamed Lead Plating and outputs 4 for 2x2 lead
@@ -11,11 +11,11 @@
 - Made Supp flutes not have durability
 - Renamed the fancy create doors to Fancy Doors to avoid having two copper doors
 
-**BUGS**
+### Bugs
 - Buffed Halt Rail, Slaughter Rail and Copper Rails recipe output
 - Fixed deepslate zinc ore being disabled
 
-**Fixes**
+### Fixes
 - Fixed Mimeful Epilogue advancement triggering on every entity
 
 # Hotfix 1.0.0a
