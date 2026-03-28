@@ -1,16 +1,19 @@
 # Dolt Modpack How 1.ω.1
 
-### New Mods
-- Added Evan's [Music Treaks](https://www.curseforge.com/minecraft/mc-mods/mini-music-tweaks) mod
+### Mod changes
+- Added Evan's [Music Treaks](https://www.curseforge.com/minecraft/mc-mods/mini-music-tweaks) 
+- Added [Immersive Enchanting](https://modrinth.com/mod/immersive-enchanting)
 
 ### Tweaks
 - Lead ores now drop 1-3 raw lead without fortune
 - Copper plating recipe now output 4 for 2x2
 	- Cut Lead has been renamed Lead Plating and outputs 4 for 2x2 lead
+- Copper, lead doors & trapdoors are now crafted with copper & lead plating, respectively 
 - Allowed JNE shroomnights to be used in shroomlight recipes, such as Bloody Mary & stone lamps from Supp
 - Made Supp flutes not have durability
 - Renamed the fancy create doors to Fancy Doors to avoid having two copper doors
 - Removed My Nether Delight's strider rocks & strider eggs & boiled eggs & etc
+- Removed Bubblegunk from Dungeons's Delight
 
 ### Bugs
 - Buffed Halt Rail, Slaughter Rail and Copper Rails recipe output

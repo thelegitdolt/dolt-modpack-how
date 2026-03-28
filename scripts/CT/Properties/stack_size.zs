@@ -62,6 +62,16 @@ for col in RUtil.dyeDepotColors {
 <item:brewinandchewin:fiery_fondue_pot>.setMaxStackSize(100);
 <item:brewinandchewin:pizza>.setMaxStackSize(100);
 
+<item:dungeonsdelight:silverfish_and_chips_block>.setMaxStackSize(100);
+<item:dungeonsdelight:guardian_angel_block>.setMaxStackSize(100);
+<item:dungeonsdelight:ossobuco_block>.setMaxStackSize(100);
+<item:dungeonsdelight:glow_berry_gelatin_block>.setMaxStackSize(100);
+
+
+<item:delighto_flight:thunder_fruit_stew_block>.setMaxStackSize(100);
+<item:delighto_flight:mushroom_hotpot_block>.setMaxStackSize(100);
+<item:delighto_flight:cloud_berry_pancake_tower>.setMaxStackSize(100);
+<item:delighto_flight:lotus_leaf_rice_block>.setMaxStackSize(100);
 
 # for col in RUtil.colors {
 #    <item:endergetic:${col}_bolloom_balloon>.setMaxStackSize(100);

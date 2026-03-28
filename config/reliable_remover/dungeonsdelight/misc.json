@@ -7,7 +7,8 @@
     {
         "action": "remove",
         "items": [
-            "dungeonsdelight:sculk_polyp"
+            "dungeonsdelight:sculk_polyp",
+            "dungeonsdelight:bubblegunk"
         ]
     }
 ]
