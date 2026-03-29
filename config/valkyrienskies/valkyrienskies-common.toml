@@ -1,5 +1,0 @@
-
-[Advanced]
-	#Renders mob pathfinding nodes. Must be set on client and server to work. Requires the system property -Dorg.valkyrienskies.render_pathfinding=true
-	renderPathfinding = false
-

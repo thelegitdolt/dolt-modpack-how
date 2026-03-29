@@ -2,7 +2,12 @@
 
 ### Mod changes
 - Added Evan's [Music Treaks](https://www.curseforge.com/minecraft/mc-mods/mini-music-tweaks) 
+- Added [Field Guide](https://modrinth.com/mod/field-guide)
+- Added [Item Descriptions](https://modrinth.com/mod/item-descriptions/versions?g=1.20.1) (to go with Field Guide)
+- Added [Mod Descriptions](https://modrinth.com/resourcepack/mod-descriptions)
 - Added [Immersive Enchanting](https://modrinth.com/mod/immersive-enchanting)
+- Added a finagled [Smidgeon o' Bliss](https://www.curseforge.com/minecraft/mc-mods/smidgeon-o-bliss-remastered)
+- Updated [Exposure](https://modrinth.com/mod/exposure)
 
 ### Tweaks
 - Lead ores now drop 1-3 raw lead without fortune

@@ -1,5 +1,6 @@
 DebugUtil.startScript("foods/nethersdelight/standardize_nourishment"); 
-    
+
+# priority 2    
 
 import crafttweaker.api.food.FoodProperties;
 import crafttweaker.api.entity.effect.MobEffectInstance;
@@ -27,21 +28,39 @@ fiveMinNourishment(<item:mynethersdelight:breakfast_sampler>);
 fiveMinNourishment(<item:mynethersdelight:spicy_curry>);
 
 
-function noNourishment(a as IItemStack) as void {
+public function noNourishment(a as IItemStack) as void {
     a.food = a.food.removeEffect(<mobeffect:farmersdelight:nourishment>);
 }
 
-function threeMinNourishment(a as IItemStack) as void {
+public function threeMinNourishment(a as IItemStack) as void {
     a.food = a.food.removeEffect(<mobeffect:farmersdelight:nourishment>)
     .addEffect(new MobEffectInstance(<mobeffect:farmersdelight:nourishment>, 3600), 1);
 }
 
-function oneMinNourishment(a as IItemStack) as void {
+public function oneMinNourishment(a as IItemStack) as void {
     a.food = a.food.removeEffect(<mobeffect:farmersdelight:nourishment>).addEffect(new MobEffectInstance(<mobeffect:farmersdelight:nourishment>, 1200), 1);
 }
 
-public function fiveMinNourishment(a as IItemStack) as void {
+public public function fiveMinNourishment(a as IItemStack) as void {
     a.food = a.food.removeEffect(<mobeffect:farmersdelight:nourishment>).addEffect(new MobEffectInstance(<mobeffect:farmersdelight:nourishment>, 6000), 1);
+}
+
+
+public function noComfort(a as IItemStack) as void {
+    a.food = a.food.removeEffect(<mobeffect:farmersdelight:comfort>);
+}
+
+public function threeMinComfort(a as IItemStack) as void {
+    a.food = a.food.removeEffect(<mobeffect:farmersdelight:comfort>)
+    .addEffect(new MobEffectInstance(<mobeffect:farmersdelight:comfort>, 3600), 1);
+}
+
+public function oneMinComfort(a as IItemStack) as void {
+    a.food = a.food.removeEffect(<mobeffect:farmersdelight:comfort>).addEffect(new MobEffectInstance(<mobeffect:farmersdelight:comfort>, 1200), 1);
+}
+
+public public function fiveMinComfort(a as IItemStack) as void {
+    a.food = a.food.removeEffect(<mobeffect:farmersdelight:comfort>).addEffect(new MobEffectInstance(<mobeffect:farmersdelight:comfort>, 6000), 1);
 }
 
 DebugUtil.endScript("foods/nethersdelight/standardize_nourishment"); 

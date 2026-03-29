@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "caverns_and_chasms:diamond_lamp",
+            "caverns_and_chasms:emerald_lamp"
+        ]
+    }
+]

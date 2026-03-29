@@ -1,0 +1,75 @@
+{
+  "disable": false,
+  "removed": [
+    {
+      "type": "fluid",
+      "id": "sob:sunrise_seltzer",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:eumozz_cheese",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:portal_drink",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:creeper_drink",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:pale_daiquiri",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:root_beer",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:bitter_tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:aloe_tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:tequila",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:bustling_brew",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:liquid_experience",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:prickly_melomel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:death_drink",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:hard_cider",
+      "amount": 0
+    }
+  ]
+}

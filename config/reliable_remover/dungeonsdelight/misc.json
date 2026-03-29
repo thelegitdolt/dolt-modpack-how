@@ -8,6 +8,7 @@
         "action": "remove",
         "items": [
             "dungeonsdelight:sculk_polyp",
+            "dungeonsdelight:stained_knife",
             "dungeonsdelight:bubblegunk"
         ]
     }

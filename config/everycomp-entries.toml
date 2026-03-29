@@ -65,6 +65,12 @@
 		[types.wood_type.spawn]
 			rotten = true
 
+		[types.wood_type.dungeonsdelight]
+			wormwood = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.environmental]
@@ -636,6 +642,52 @@
 			algal_reefstone = true
 			reefstone_tile = true
 
+		[types.cut_block_type.mynethersdelight]
+			powdery = true
+			powdery_mosaic = true
+
+		[types.cut_block_type.dungeonsdelight]
+			cut_stained_scrap = true
+			wormwood = true
+			wormwood_mosaic = true
+
+		[types.cut_block_type.dye_the_world]
+			amber_shingles = true
+			aqua_shingles = true
+			beige_shingles = true
+			coral_shingles = true
+			forest_shingles = true
+			ginger_shingles = true
+			indigo_shingles = true
+			maroon_shingles = true
+			mint_shingles = true
+			navy_shingles = true
+			olive_shingles = true
+			rose_shingles = true
+			slate_shingles = true
+			tan_shingles = true
+			teal_shingles = true
+			verdant_shingles = true
+			amber_terracotta_brick = true
+			aqua_terracotta_brick = true
+			beige_terracotta_brick = true
+			coral_terracotta_brick = true
+			forest_terracotta_brick = true
+			ginger_terracotta_brick = true
+			indigo_terracotta_brick = true
+			maroon_terracotta_brick = true
+			mint_terracotta_brick = true
+			navy_terracotta_brick = true
+			olive_terracotta_brick = true
+			rose_terracotta_brick = true
+			slate_terracotta_brick = true
+			tan_terracotta_brick = true
+			teal_terracotta_brick = true
+			verdant_terracotta_brick = true
+
+		[types.cut_block_type.dolt_mod_how]
+			zinc_brick = true
+
 	[types.cake]
 
 		[types.cake.neapolitan]
@@ -645,6 +697,15 @@
 			banana_cake = true
 			mint_cake = true
 			adzuki_cake = true
+
+		[types.cake.mynethersdelight]
+			magma_cake = true
+
+		[types.cake.farmersrespite]
+			coffee_cake = true
+
+		[types.cake.dungeonsdelight]
+			monster_cake = true
 
 #Disables specific entries
 [entries]
@@ -697,6 +758,9 @@
 			stripped_post = true
 			ladder = true
 			vertical_slab = true
+
+		[entries.wood_type.sob]
+			counter = true
 
 	[entries.leaves_type]
 

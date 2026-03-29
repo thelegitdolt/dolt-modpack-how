@@ -73,6 +73,9 @@ for col in RUtil.dyeDepotColors {
 <item:delighto_flight:cloud_berry_pancake_tower>.setMaxStackSize(100);
 <item:delighto_flight:lotus_leaf_rice_block>.setMaxStackSize(100);
 
+<item:sob:big_soup_block>.setMaxStackSize(100);
+<item:sob:roast_turkey_block>.setMaxStackSize(100);
+
 # for col in RUtil.colors {
 #    <item:endergetic:${col}_bolloom_balloon>.setMaxStackSize(100);
 # }

@@ -1,0 +1,22 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "sob:red_rum_skull",
+            "sob:pepper_jelly",
+            "sob:currant_jam",
+            "sob:orange_marmalade",
+            "sob:mint_jelly",
+            "sob:strawberry_jam",
+            "sob:builder_smoothie",
+            "sob:tequila",
+            "sob:counter"
+        ]
+    },
+    {
+        "action": "remove",
+        "patterns": [
+            "sob:.*_counter"
+        ]
+    }
+]

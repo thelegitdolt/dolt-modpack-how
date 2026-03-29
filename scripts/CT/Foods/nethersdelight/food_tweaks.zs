@@ -17,7 +17,7 @@ change(<item:mynethersdelight:crimson_stroganoff>, 12);
 
 <item:mynethersdelight:plate_of_striderloaf>.food = <item:mynethersdelight:plate_of_striderloaf>.food.addEffect(new MobEffectInstance(<mobeffect:minecraft:fire_resistance>, 600), 1);
 
-function seven(a as IItemStack) as void {
+public function seven(a as IItemStack) as void {
     a.food = a.food.setNutrition(14);
 }
 
