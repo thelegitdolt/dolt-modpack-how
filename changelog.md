@@ -10,15 +10,23 @@
 - Updated [Exposure](https://modrinth.com/mod/exposure)
 
 ### Tweaks
+- Configured SOB
+	- Removed Sculk Tendril, changed blotted broth and tendroll recipes accordingly
+	- Echo rock candy is made in a monster cooking pot
+	- Made all foods give nourishment/comfort in increments of 1, 3, 5 minutes
+	- Removed jams, counters, and the skeleton red rum drink (john ossobuco)
 - Lead ores now drop 1-3 raw lead without fortune
 - Copper plating recipe now output 4 for 2x2
 	- Cut Lead has been renamed Lead Plating and outputs 4 for 2x2 lead
 - Copper, lead doors & trapdoors are now crafted with copper & lead plating, respectively 
 - Allowed JNE shroomnights to be used in shroomlight recipes, such as Bloody Mary & stone lamps from Supp
 - Made Supp flutes not have durability
+- FD Cooking Pots are now crafted with a stick instead of a stone shovel
 - Renamed the fancy create doors to Fancy Doors to avoid having two copper doors
 - Removed My Nether Delight's strider rocks & strider eggs & boiled eggs & etc
 - Removed Bubblegunk from Dungeons's Delight
+- Removed Diamond and Emerald Lamps from C&C as they are NOT MEANT TO HAVE BUILDING MATERIALS
+- Removed dungeon's delight stained knives
 
 ### Bugs
 - Buffed Halt Rail, Slaughter Rail and Copper Rails recipe output
