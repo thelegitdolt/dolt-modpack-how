@@ -32,6 +32,6 @@ for i in antidotes {
 
 <tag:mob_effect:caverns_and_chasms:bejeweled_apple_cannot_inflict>.addId(<resource:neapolitan:harmony>);
 <tag:mob_effect:caverns_and_chasms:bejeweled_apple_cannot_inflict>.addId(<resource:species:gut_feeling>);
-
+<tag:mob_effect:caverns_and_chasms:bejeweled_apple_cannot_inflict>.addId(<resource:sob:cessation>);
 
 TLUtil.endScript("tags/caverns_and_chasms/bejeweled_apple_cannot_inflict"); 
