@@ -1,3 +1,11 @@
+# Dolt Modpack How 1.ω.2
+
+### Mod Changes
+- Updated Easel Does It to allow Twilight Resonance's incredibly large paintings to show up in the easel
+
+### Tweaks
+- Removed the 7x7 paintings in Twilight Resonance. Because like wtf
+
 # Dolt Modpack How 1.ω.1
 
 ### Mod changes
