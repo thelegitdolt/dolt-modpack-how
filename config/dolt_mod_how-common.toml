@@ -114,11 +114,11 @@
 
 	[nethersdelight.ghasta]
 		#If the ghasta with cream should be stopped from regenerating itself
-		"Be normal ghasta" = false
+		"Be normal ghasta" = true
 
 	[nethersdelight."hoglin mounts"]
 		#If hoglin mounts should never zombify and whatever
-		"Abnormal Hoglins" = false
+		"Abnormal Hoglins" = true
 
 [supplementaries]
 
