@@ -1,11 +1,23 @@
 # Dolt Modpack How 1.ω.2
 
 ### Mod Changes
+- Updated [Caverns and Chasms](https://modrinth.com/mod/caverns-and-chasms), polished up YAY!
 - Updated [Easel Does It](https://modrinth.com/mod/easel-does-it) to allow Twilight Resonance's incredibly large paintings to show up in the easel
+- Updated Dolt Mod
 
 ### Tweaks
+- Configured Polished Up
+	- Packing containers can now contain 800 items
+	- Made Packing Containers cheaper 
+	- Rats can now eat Monster Meals and Rotten Tripe
+ 	
+- `forge:berries` emi tag icon now uses sweet berries
+- Removed Quark Gunpowder Sacks
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf
 - Fixed being able to get Cessation from bejeweled apples
+
+### Bugfixes
+- Fixed Medium Weighted Pressure Plate missing recipe
 
 # Dolt Modpack How 1.ω.1
 
