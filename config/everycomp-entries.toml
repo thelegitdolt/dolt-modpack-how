@@ -293,7 +293,6 @@
 			calcite = true
 			polished_calcite = true
 			calcite_brick = true
-			smooth_calcite = true
 			tuff = true
 			polished_tuff = true
 			tuff_brick = true
@@ -328,6 +327,16 @@
 			waxed_weathered_copper_brick = true
 			waxed_oxidized_copper_brick = true
 			azalea = true
+			granite_brick = true
+			granite_tile = true
+			diorite_brick = true
+			diorite_tile = true
+			andesite_brick = true
+			andesite_tile = true
+			sugilite_brick = true
+			smooth_cylindrite = true
+			cylindrite_brick = true
+			polished_cylindrite = true
 
 		[types.cut_block_type.pigsteel]
 			cut_pigsteel = true

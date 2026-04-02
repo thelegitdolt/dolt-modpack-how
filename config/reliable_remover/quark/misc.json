@@ -28,7 +28,9 @@
             "quark:gold_button",
             "quark:iron_button",
             "quark:stone_brick_lamp",
-            "quark:stone_lamp"
+            "quark:stone_lamp",
+
+            "quark:gunpowder_sack"
 
 
         ]

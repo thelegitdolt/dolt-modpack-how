@@ -29,8 +29,7 @@ for i, p in WoodUtil.asPair(
 val a = [
     "minecraft:stone_pressure_plate", 
     "minecraft:heavy_weighted_pressure_plate",
-    "minecraft:light_weighted_pressure_plate",
-    "caverns_and_chasms:medium_weighted_pressure_plate",  
+    "minecraft:light_weighted_pressure_plate", 
     "minecraft:polished_blackstone_pressure_plate",
     "caverns_and_chasms:hold_plate"
 ];
@@ -50,6 +49,9 @@ function changePressurePlateRecipe(things as string) as void {
         [material, material, material]
     ]);
 }
-
-
+craftingTable.removeByName("caverns_and_chasms:medium_weighted_pressure_plate");
+RUtil.withPattern("med_wei_pre_pla", 
+                <item:caverns_and_chasms:medium_weighted_pressure_plate>, 
+                <item:caverns_and_chasms:silver_ingot>, 
+                        (b) => [[b, b, b]]);
 DebugUtil.endScript("/Recipes/misc/pressure_plate"); 

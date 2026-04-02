@@ -5,6 +5,7 @@
 
 ### Tweaks
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf
+- Fixed being able to get Cessation from bejeweled apples
 
 # Dolt Modpack How 1.ω.1
 

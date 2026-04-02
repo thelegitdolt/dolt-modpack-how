@@ -112,6 +112,14 @@
 		#If frogs should become unable to consume magma cakes
 		"Magma Cakes Good" = true
 
+	[nethersdelight.ghasta]
+		#If the ghasta with cream should be stopped from regenerating itself
+		"Be normal ghasta" = false
+
+	[nethersdelight."hoglin mounts"]
+		#If hoglin mounts should never zombify and whatever
+		"Abnormal Hoglins" = false
+
 [supplementaries]
 
 	[supplementaries.quivers]

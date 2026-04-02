@@ -1,4 +1,7 @@
 <ruleset>
+	<rule stacksize="10000000">
+		<condition>id dolt_mod_how:poulpo</condition>
+    </rule>
 	<rule stacksize="100">
 		<or>
 			<condition>stacksize gt 1</condition>
