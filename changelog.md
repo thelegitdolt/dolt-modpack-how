@@ -6,12 +6,12 @@
 - Updated Dolt Mod
 
 ### Tweaks
-- Configured Polished Up
-	- Packing containers can now contain 800 items
-	- Made Packing Containers cheaper 
+- Configured Caverns and Chasms update
+	- Packing containers can now contain 800 items and have a new recipe
 	- Rats can now eat Monster Meals and Rotten Tripe
- 	
+	- Removed copper tools and armor
 - `forge:berries` emi tag icon now uses sweet berries
+- Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Removed Quark Gunpowder Sacks
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf
 - Fixed being able to get Cessation from bejeweled apples

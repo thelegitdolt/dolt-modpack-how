@@ -1,0 +1,17 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+            "caverns_and_chasms:.*copper_horse_armor",
+            "caverns_and_chasms:.*copper_shovel",
+            "caverns_and_chasms:.*copper_pickaxe",
+            "caverns_and_chasms:.*copper_axe",
+            "caverns_and_chasms:.*copper_hoe",
+            "caverns_and_chasms:.*copper_sword",
+            "caverns_and_chasms:.*copper_helmet",
+            "caverns_and_chasms:.*copper_chestplate",
+            "caverns_and_chasms:.*copper_leggings",
+            "caverns_and_chasms:.*copper_boots"
+        ]
+    }
+]
