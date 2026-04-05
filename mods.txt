@@ -1,5 +1,5 @@
 [ADDON-DAVIJ] nest_egg-1.20.1-1.0.2.jar
-[ADDON-DOLT] dolt_mod_how-1.20.1-2.6.2-all.jar
+[ADDON-DOLT] dolt_mod_how-1.20.1-2.6.4-all.jar
 [ADDON-PERFORMANCE] create_lt-1.0.1-forge-mc1.20.1.jar
 [ADDON-TOOL] CreateTweaker-forge-1.20.1-4.0.15.jar
 [ADDON-TOOL] JeiTweaker-forge-1.20.1-8.0.6.jar
@@ -27,7 +27,7 @@
 [CLIENT-RMS] MouseTweaks-forge-mc1.20.1-2.25.1.jar
 [CLIENT-RMS] MyServerIsCompatible-1.20-1.0.jar
 [CLIENT-RMS] fusion-1.2.12-forge-mc1.20.1.jar
-[CLIENT-RMS] immersiveoverlays-1.6.0+1.20.1-forge.jar
+[CLIENT-RMS] immersiveoverlays-1.6.3+1.20.1-forge.jar
 [CLIENT-RMS] sound-physics-remastered-forge-1.20.1-1.5.1.jar
 [CLIENT-RM] HeldItemTooltips-v8.0.0-1.20.1-Forge.jar
 [CLIENT-RM] PickUpNotifier-v8.0.0-1.20.1-Forge.jar
@@ -54,13 +54,13 @@
 [CONTENT] biggerstacks-1.20.1-2026.02.27-all.jar
 [CONTENT] blasted_barrens-1.20.1-1.0.8.jar
 [CONTENT] buzzier_bees-1.20.1-6.0.1.jar
-[CONTENT] caverns_and_chasms-1.20.1-2.1.0-beta2.jar
+[CONTENT] caverns_and_chasms-1.20.1-2.1.0.jar
 [CONTENT] create-1.20.1-6.0.8.jar
 [CONTENT] dye_depot-1.2.3-forge.jar
 [CONTENT] endergetic-1.20.1-5.0.1.jar
 [CONTENT] environmental-1.20.1-4.1.2.jar
 [CONTENT] etched-3.0.4.jar
-[CONTENT] fieldguide-forge-1.20.1-1.5.11.jar
+[CONTENT] fieldguide-forge-1.20.1-1.6.8.jar
 [CONTENT] immersiveenchanting-4.0.3.jar
 [CONTENT] mowziesmobs-1.7.3.jar
 [CONTENT] naturaltemperature-1.1.1-FORGE-MC-1.20.1.jar
@@ -81,7 +81,7 @@
 [DAVIJ] sage_brush-1.20.1-1.1.1-all.jar
 [DAVIJ] sneaky_link-1.20.1-2.1.0.jar
 [DAVIJ] wilderflowers-1.20.1-1.1.0.jar
-[DOLT] easel_does_it-1.20.1-1.0.8-all.jar
+[DOLT] easel_does_it-1.20.1-1.0.9-all.jar
 [MINOR] AirHop-v8.0.2-1.20.1-Forge.jar
 [MINOR] CombatNouveau-v8.0.5-1.20.1-Forge.jar
 [MINOR] DeathKnell-Forge-1.20.1-10.0.6.jar
@@ -143,10 +143,10 @@
 [SERVER] logprot-1.20.1-3.5.jar
 [TOOL] CraftTweaker-forge-1.20.1-14.0.60.jar
 [TOOL] OpenLoader-Forge-1.20.1-19.0.5.jar
-[TOOL] attributesetter-2.1-forge.jar
+[TOOL] attributesetter-2.1.1-forge.jar
 [TOOL] polytone-1.20-3.5.22.jar
 [TOOL] propertymodifier-1.20.1-0.1-all.jar
-[TOOL] reliable_remover-forge-1.20.1-1.7.5.jar
+[TOOL] reliable_remover-forge-1.20.1-1.8.1.jar
 {LIB} ElysiumAPI-1.20.1-1.1.3.jar
 {LIB} MRU-1.0.4+1.20.1+forge.jar
 {LIB} PuzzlesLib-v8.1.33-1.20.1-Forge.jar
