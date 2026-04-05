@@ -12,6 +12,7 @@
 	- Removed copper tools and armor
 - `forge:berries` emi tag icon now uses sweet berries
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
+- Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
 - Removed Quark Gunpowder Sacks
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf
 - Fixed being able to get Cessation from bejeweled apples
