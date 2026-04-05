@@ -31,6 +31,10 @@
 				"path": "wear_full_rainbow"
 			},
 			{
+				"namespace": "caverns_and_chasms",
+				"path": "advancements/adventure/thunderstruck"
+			},
+			{
 				"namespace": "oreganized",
 				"path": "story/obtain_silver"
 			},
