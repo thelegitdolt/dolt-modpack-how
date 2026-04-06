@@ -10,6 +10,7 @@
 	"caverns_and_chasms:deepslate_silver_ore": "slate_ore",
 	"caverns_and_chasms:tin_ore": "ore",
 	"caverns_and_chasms:cassiterite_tin_ore": "ore",
+	"caverns_and_chasms:cylindrite_tin_ore": "ore",
 	"caverns_and_chasms:deepslate_tin_ore": "slate_ore",
 	"caverns_and_chasms:turquoise_ore": "ore,composite",
 	"caverns_and_chasms:deepslate_turquoise_ore": "slate_ore,composite",
@@ -18,16 +19,6 @@
 
 	"caverns_and_chasms:raw_silver_block": "stone",
 	"caverns_and_chasms:raw_tin_block": "stone",
-
-	"caverns_and_chasms:fortified_sanguine_tiles": "hardmetal,organicsolid",
-	"caverns_and_chasms:fortified_sanguine_tile_stairs": "hardmetal,organicsolid",
-	"caverns_and_chasms:fortified_sanguine_tile_wall": "hardmetal,organicsolid",
-	"caverns_and_chasms:fortified_sanguine_tile_slab": "hardmetal,organicsolid",
-	"caverns_and_chasms:sanguine_tile_stairs": "stone,organicsolid",
-	"caverns_and_chasms:sanguine_tile_slab": "stone,organicsolid",
-	"caverns_and_chasms:sanguine_tile_wall": "stone,organicsolid",
-	"caverns_and_chasms:sanguine_tiles": "stone,organicsolid",
-	"caverns_and_chasms:sanguine_block": "stone,organicsolid",
 
 	"caverns_and_chasms:medium_weighted_pressure_plate": "hardmetal",
 	"caverns_and_chasms:medium_weighted_pressure_plate.carpet": "hardmetal",
@@ -52,8 +43,6 @@
 	"caverns_and_chasms:lapis_pillar": "composite",
 
 	"caverns_and_chasms:spinel_block": "composite",
-	"caverns_and_chasms:zirconia_block": "composite",
-	"caverns_and_chasms:turquoise_block": "composite",
 
 	"caverns_and_chasms:bejeweled_anvil": "metalcompressed,composite",
 	"caverns_and_chasms:atoning_table": "obsidian,composite",
@@ -81,7 +70,6 @@
 	"caverns_and_chasms:scatterer[facing=up]": "metalsubparts",
 	"caverns_and_chasms:splurter": "slate",
 	"caverns_and_chasms:splurter[facing=up]": "metalsubparts",
-	
 
     "caverns_and_chasms:copper_rail.foliage": "rail,copper",
     "caverns_and_chasms:weathered_copper_rail.foliage": "rail,copper",
@@ -93,11 +81,6 @@
     "caverns_and_chasms:oxidized_copper_rail.foliage": "rail,copper",
 
 
-	"caverns_and_chasms:turquoise_tiles": "composite",
-	"caverns_and_chasms:turquoise_tile_stairs": "composite",
-	"caverns_and_chasms:turquoise_tile_slab": "composite",
-	"caverns_and_chasms:turquoise_tile_wall": "composite",
-	"caverns_and_chasms:turquoise_pillar": "composite",
 
 	"caverns_and_chasms:polished_tuff_stairs": "composite",
 	"caverns_and_chasms:polished_tuff_slab": "composite",
@@ -131,6 +114,13 @@
 
 	"#minecraft:campfires[lit=false]": "wood",
 	"#minecraft:campfires": "wood,magma",
+
+	"#caverns_and_chasms:cave_growths": "NOT_EMITTER",
+	"#caverns_and_chasms:cave_growths.foliage": "mushroom",
+	"caverns_and_chasms:moschatel": "NOT_EMITTER",
+	"caverns_and_chasms:moschatel.foliage": "mushroom",
+	"caverns_and_chasms:false_hope": "NOT_EMITTER",
+	"caverns_and_chasms:false_hope.foliage": "mushroom",
 
 	"caverns_and_chasms:copper_button": "NOT_EMITTER",
 	"caverns_and_chasms:copper_button[face=floor].foliage": "copper",

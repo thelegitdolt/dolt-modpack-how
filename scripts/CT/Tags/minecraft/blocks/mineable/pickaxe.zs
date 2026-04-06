@@ -22,6 +22,8 @@ var skulls = [
     "caverns_and_chasms:mime_wall_head",
     "caverns_and_chasms:deeper_head",
     "caverns_and_chasms:deeper_wall_head",
+    "caverns_and_chasms:evendeeper_head",
+    "caverns_and_chasms:evendeeper_wall_head",
     "caverns_and_chasms:peeper_head",
     "caverns_and_chasms:peeper_wall_head",
     "neapolitan:chimpanzee_head",

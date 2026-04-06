@@ -1,27 +1,40 @@
 {
 	"caverns_and_chasms:block.sugilite.step": "stone",
 	"caverns_and_chasms:block.spinel.step": "composite",
+	"caverns_and_chasms:block.turquoise.step": "composite",
+	"caverns_and_chasms:block.zirconia.step": "composite",
 	"caverns_and_chasms:block.silver.step": "hardmetal",
 	"caverns_and_chasms:block.necromium.step": "hollowmetal",
 	"caverns_and_chasms:block.charcoal.step": "stone,ore",
+	"caverns_and_chasms:block.echo_block.step": "bone,organic_solid",
 
 	"caverns_and_chasms:block.tin.step": "metalsubparts",
+	"caverns_and_chasms:block.tinplate.step": "metalsubparts",
+	"caverns_and_chasms:block.tin_bulb.step": "metalsubparts",
+	"caverns_and_chasms:block.tin_chain.step": "chain,metalsubparts",
+	"caverns_and_chasms:block.roller_door.step": "metalsubparts",
 	"caverns_and_chasms:block.storage_duct.step": "metalsubparts",
+
 	"caverns_and_chasms:block.float_glass.step": "glass",
-	"caverns_and_chasms:block.sanguine.step": "hardmetal,organic_solid",
 	"caverns_and_chasms:block.rotten_flesh.step": "organic_solid",
 	"caverns_and_chasms:block.ornate_glass.step": "glass,composite",
 	"caverns_and_chasms:block.rhyolite.step": "sandstone",
+	"caverns_and_chasms:block.magmatic_rhyolite.step": "sandstone,magma",
 	"caverns_and_chasms:block.cassiterite.step": "stone,ore",
-	"caverns_and_chasms:block.tin_bulb.step": "metalsubparts",
-	"caverns_and_chasms:block.tin_chain.step": "chain,metalsubparts",
+	"caverns_and_chasms:block.cylindrite.step": "slate,ore",
 	"caverns_and_chasms:block.flint_block.step": "gravel",
+	"caverns_and_chasms:block.gunpowder.step": "sand",
+
+	"caverns_and_chasms:block.saddled_egg.step": "bone,ore",
+	"caverns_and_chasms:block.polished_dripstone.step": "sandstone",
 
 	"caverns_and_chasms:block.polished_tuff.step": "composite",
 	"caverns_and_chasms:block.tuff_bricks.step": "composite",
 	"caverns_and_chasms:block.copper_grate.step": "copper",
 	"caverns_and_chasms:block.copper_bulb.step": "copper",
 	"caverns_and_chasms:block.copper_lantern.step": "copper",
-	"caverns_and_chasms:block.copper_chain.step": "copper,chain"
+	"caverns_and_chasms:block.copper_chain.step": "copper,chain",
 
+	"caverns_and_chasms:block.sanguine.step": "stone,organic_solid",
+	"caverns_and_chasms:block.fortified_sanguine.step": "hardmetal,organic_solid"
 }
