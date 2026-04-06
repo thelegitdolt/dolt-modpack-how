@@ -1,6 +1,14 @@
 {  
       "block.caverns_and_chasms.evendeeper_head": "Deeper Head",
 
+      "block.caverns_and_chasms.evendeeper_wall_head": "Deeper Wall Head",
+      "entity.caverns_and_chasms.evendeeper": "Deeper",
+      "item.caverns_and_chasms.evendeeper_spawn_egg": "Evendeeper Spawn Egg",
+      "subtitles.caverns_and_chasms.entity.evendeeper.death": "Deeper dies",
+      "subtitles.caverns_and_chasms.entity.evendeeper.explode": "Deeper explodes",
+      "subtitles.caverns_and_chasms.entity.evendeeper.hurt": "Deeper hurts",
+      "subtitles.caverns_and_chasms.entity.evendeeper.primed": "Deeper hisses",
+
       "block.caverns_and_chasms.flint_block": "Flint Nodule",
       "block.caverns_and_chasms.chiseled_copper": "Block of Copper",
       "block.caverns_and_chasms.exposed_chiseled_copper": "Exposed Copper",

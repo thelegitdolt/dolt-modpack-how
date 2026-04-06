@@ -10,7 +10,12 @@
 	- Packing containers can now contain 800 items and have a new recipe
 	- Rats can now eat Monster Meals and Rotten Tripe
 	- Removed copper tools and armor
+	- Pretend that evendeepers are a deeper variant
+	- Updated presence footsteps stuff
+	- Made storage ducts easier to craft
+	- Removed Quark's bricks and stuff because they suck (polished up sweep)
 - `forge:berries` emi tag icon now uses sweet berries
+- Made every tnt variant cheaper in line with polished up new TNT recipe
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
 - Removed Quark Gunpowder Sacks
