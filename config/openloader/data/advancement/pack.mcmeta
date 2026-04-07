@@ -2,7 +2,7 @@
 	"pack": {
 		"pack_format": 12,
 		"description": [{
-			"text":"jonathan advancement","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
+			"text":"jonathan advancement","color":"gold"}]
 	},
 	"filter": {
 		"block": [
@@ -29,6 +29,14 @@
 			{
 				"namespace": "quark",
 				"path": "wear_full_rainbow"
+			},
+			{
+				"namespace": "caverns_and_chasms",
+				"path": "advancements/adventure/break_item_atoning"
+			},
+			{
+				"namespace": "caverns_and_chasms",
+				"path": "advancements/adventure/atone_item"
 			},
 			{
 				"namespace": "caverns_and_chasms",

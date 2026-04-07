@@ -13,6 +13,7 @@
 	- Pretend that evendeepers are a deeper variant
 	- Updated presence footsteps stuff
 	- Made storage ducts easier to craft
+	- Removed atoning tables!!!
 	- Removed Quark's bricks and stuff because they suck (polished up sweep)
 - `forge:berries` emi tag icon now uses sweet berries
 - Made every tnt variant cheaper in line with polished up new TNT recipe

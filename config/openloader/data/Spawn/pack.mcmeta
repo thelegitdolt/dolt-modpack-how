@@ -1,7 +1,15 @@
 {
-	"pack": {
-		"pack_format": 12,
-		"description": [{
-"text":"Dolt Worldgen","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
-	}
+  "pack": {
+    "description": [
+      {
+        "color": "gold",
+        "text": "Dolt spawn (not the mod)"
+      }
+    ],
+"filter": {
+		"block": [
+		]    
+	}     
+    "pack_format": 12
+  }
 }

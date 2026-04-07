@@ -1,0 +1,9 @@
+{
+  "type": "forge:remove_spawns", 
+  "biomes": "alexscaves:abyssal_chasms",
+  "entity_types": [
+    "alexscaves:deep_one",
+    "alexscaves:deep_one_knight",
+    "alexscaves:deep_one_mage"
+  ]
+}
