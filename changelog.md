@@ -27,6 +27,7 @@
 ### Bugfixes
 - Fixed Medium Weighted Pressure Plate missing recipe
 - Fixed being able to get Cessation from bejeweled apples
+- Fixed Weathed Copper Plating being called Weathered Coppe PlatingPlating
 
 # Dolt Modpack How 1.ω.1
 
