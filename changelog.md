@@ -20,7 +20,7 @@
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
 - Removed Quark Gunpowder Sacks
-- Deep ones no longer spawn
+- Removed deep ones 
 - Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns.
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf
 
