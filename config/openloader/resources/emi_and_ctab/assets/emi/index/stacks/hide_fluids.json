@@ -70,6 +70,71 @@
       "type": "fluid",
       "id": "sob:hard_cider",
       "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "dolt_mod_how:wardenzola",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "dolt_mod_how:tequila",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "netherexp:ectoplasm",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "delighto_flight:charged_rose_tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sullysmod:molten_amber_fluid",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create:tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "alexscaves:acid",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "alexscaves:purple_soda",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "supplementaries:lumisene",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "oreganized:molten_lead",
+      "amount": 0
     }
   ]
 }

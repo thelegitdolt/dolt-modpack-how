@@ -1,9 +1,12 @@
 {
   "disable": true,
   "filters": [
-    "/citadel:.*/",
+    "/citadel:.*/"
+  ],
+  "removed": [
     "item:mowziesmobs:mob_remover",
     "item:mowziesmobs:grant_suns_blessing",
-    "quark:matrix_enchanter"
+    "item:immersiveenchanting:creative_bookshelf",
+    "item:quark:matrix_enchanter"
   ]
 }

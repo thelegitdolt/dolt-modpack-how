@@ -77,6 +77,7 @@
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
 - Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
+- Fixed some mowzies mobs creative-only and removed items not being hidden from emi
 - Removed Quark Gunpowder Sacks
 - Removed deep ones 
 - Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns.
