@@ -3,6 +3,7 @@
 ### Mod Changes
 - Updated [Caverns and Chasms](https://modrinth.com/mod/caverns-and-chasms), polished up YAY!
 - Updated [Easel Does It](https://modrinth.com/mod/easel-does-it) to allow Twilight Resonance's incredibly large paintings to show up in the easel
+- Added [Heart Crystals](https://modrinth.com/mod/heart_crystals)
 - Updated Dolt Mod
 
 ### Tweaks
@@ -15,10 +16,10 @@
 	- Made storage ducts easier to craft
 	- Removed atoning tables!!!
 	- Removed Quark's bricks and stuff because they suck (polished up sweep)
-- `forge:berries` emi tag icon now uses sweet berries
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
+- Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
 - Removed Quark Gunpowder Sacks
 - Removed deep ones 
 - Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns.
@@ -39,6 +40,61 @@
 - Added [Immersive Enchanting](https://modrinth.com/mod/immersive-enchanting)
 - Added a finagled [Smidgeon o' Bliss](https://www.curseforge.com/minecraft/mc-mods/smidgeon-o-bliss-remastered)
 - Updated [Exposure](https://modrinth.com/mod/exposure)
+
+### Enchantment Overhaul! 
+- Immersive Enchantments have been completely reconfigured to fit Dolt Modpack's style!
+- Ancient Books of arbitrary enchantments now be **crafted** in the crafting table using 1 book, 7 diamonds, and 1 reagent which dffers bepending on the enchantment. Below is a table of enchantments and their particular reagents:
+| Enchant | Reagent |
+|--------|--------|
+| Sharpness | Silver Ingot |
+| Looting | Four Leaf Clover |
+| Sweeping | _DNE, unlocked by default_ |
+| Bane of Arthropods | Spider Meat |
+| Smite | Buttercup |
+| Fire Aspect | Blaze Powder |
+| Knockback | Hoglin Hide |
+| Backstabbing | _Drops from Ferrous Wroughtnauts_ |
+| Projectile Protection | Bone |
+| Fire Protection | lead ingot |
+| Blast Protection | Gunpowder |
+| Unbreaking | Powdered Obsidian |
+| Mending | _Uncraftable, only from loot chests_  |
+| Thorns | Yucca Flower |
+| Launch | Saplings |
+| Vengeance | Soul Bead |
+| Reforming | Ghast Tear |
+| Alleviating | Living Flesh |
+| Aqua Affinity | Pickerelweed |
+| Respiration | Corals |
+| Depth Strider | Fish |
+| Feather Falling | Phantom Membrane |
+| Soul Speed | _Uncraftable, Bastion/Piglin exclusive_ |
+| Frost Walker | Frozen Branch |
+| Swift Sneak | _Uncraftable, Ancient city  exclusive_ |
+| Air Hop | _Uncraftable, end city exclusive_ |
+| Efficiency | _DNE, Unlocked by default_ |
+| Fortune | Gold Ingot |
+| Silk Touch | _DNE, Unlocked by default_ |
+| Power | _DNE, Unlocked by default_ |
+| Punch | MERGE WITH KNOCKBACK |
+| Flame | MERGE THIS WITH FIRE ASPECT |
+| Infinity | Zirconia |
+| Piercing | Phasmo Shard |
+| Spread of Ailments | Gunk (dungeon's delight) |
+| Quick Charge | Redstone Dust |
+| Multishot | Wildflowers |
+| Impaling | _DNE, unlocked by default_ |
+| Loyalty | Thrasher Tooth |
+| Shockwave | Kinetic Core |
+| Channeling | Oxidized Copper Ingot |
+| Riptide | Nautilus Shell |
+| Obedience | Broken Links (species) |
+| Lure | _DNE, unlocked by default_ |
+| Luck of the Sea | MERGE WITH FORTUNE |
+| Curse of Binding | Slime Ball |
+| Curse of Vanishing | Spinel |
+| Curse of Slipping | Banana Bunch |
+
 
 ### Tweaks
 - Configured SOB

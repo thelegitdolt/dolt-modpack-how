@@ -128,7 +128,7 @@
 			#Range: > 0
 			"Experience per level" = 35
 			#If the level scaling should only be modified after it reaches the 'Experience per level' value (experimental)
-			"Remove level scaling after cap" = true
+			"Remove level scaling after cap" = false
 
 		[tweaks.experience.ender_dragon]
 			#If Ender Dragon experience dropping should be adjusted (to account for level scaling)
