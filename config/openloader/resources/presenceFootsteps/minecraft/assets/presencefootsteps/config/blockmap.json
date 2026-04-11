@@ -125,5 +125,8 @@
 	"spawn:dragon_reeds.messy": "MESSY_GROUND",
 	"spawn:dragon_reeds.foliage": "brush",
 
+	"spawn:clam_launcher.foliage": "sandstone,ore",
+	"spawn:clam_launcher": "sandstone,ore",
+
 	"spawn:fallen_leaves.foliage": "leaves"
 }

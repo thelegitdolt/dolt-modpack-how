@@ -10,6 +10,9 @@
       "category": "create_central_kitchen:cutting_board_deploying"
     },
     {
+      "category": "create:sawing"
+    },
+    {
       "category": "create:fan_blasting"
     }
   ]

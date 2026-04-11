@@ -16,8 +16,12 @@ DebugUtil.startScript("recipes/create/crushing_stones");
     <item:quark:jasper>, 200);
 
 <recipetype:create:crushing>.addRecipe("cassiterite_crush", 
-    [<item:caverns_and_chasms:tin_nugget> % 5, <item:minecraft:blackstone> % 10], 
+    [<item:caverns_and_chasms:tin_nugget> % 5, <item:minecraft:granite> % 10], 
     <item:caverns_and_chasms:cassiterite>, 200);
+
+<recipetype:create:crushing>.addRecipe("cylindrite_crush", 
+    [<item:caverns_and_chasms:tin_nugget> % 5, <item:minecraft:deepslate> % 10], 
+    <item:caverns_and_chasms:cylindrite>, 200);
 
 <recipetype:create:crushing>.addRecipe("sugilite_crush", 
     [<item:caverns_and_chasms:spinel> % 10, <item:minecraft:quartz> % 10], 

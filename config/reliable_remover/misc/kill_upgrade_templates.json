@@ -2,8 +2,12 @@
     {
         "action": "remove",
         "items": [
-            "minecraft:netherite_upgrade_smithing_template",
-            "oreganized:electrum_upgrade_smithing_template"
+            "piglinproliferation:stone_fire_ring",
+            "piglinproliferation:stone_soul_fire_ring",
+            "piglinproliferation:deepslate_soul_fire_ring",
+            "piglinproliferation:deepslate_fire_ring",
+            "piglinproliferation:netherrack_soul_fire_ring",
+            "piglinproliferation:netherrack_fire_ring"
         ]
     }
 ]

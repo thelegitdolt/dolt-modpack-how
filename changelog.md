@@ -12,19 +12,27 @@
 
 | Enchant | Reagent |
 |--------|--------|
+| Sweeping | _DNE, unlocked by default_ |
+| Efficiency | _DNE, Unlocked by default_ |
+| Silk Touch | _DNE, Unlocked by default_ |
+| Power | _DNE, Unlocked by default_ |
+| Impaling | _DNE, unlocked by default_ |
+| Lure | _DNE, unlocked by default_ |
+| Mending | _Uncraftable, only from loot chests_  |
+| Soul Speed | _Uncraftable, Bastion/Piglin exclusive_ |
+| Swift Sneak | _Uncraftable, Ancient city  exclusive_ |
+| Air Hop | _Uncraftable, end city exclusive_ |
+| Backstabbing | _Drops from Ferrous Wroughtnauts_ |
 | Sharpness | Silver Ingot |
 | Looting | Four Leaf Clover |
-| Sweeping | _DNE, unlocked by default_ |
 | Bane of Arthropods | Spider Meat |
 | Smite | Buttercup |
 | Fire Aspect | Blaze Powder |
 | Knockback | Hoglin Hide |
-| Backstabbing | _Drops from Ferrous Wroughtnauts_ |
 | Projectile Protection | Bone |
 | Fire Protection | lead ingot |
 | Blast Protection | Gunpowder |
 | Unbreaking | Powdered Obsidian |
-| Mending | _Uncraftable, only from loot chests_  |
 | Thorns | Yucca Flower |
 | Launch | Saplings |
 | Vengeance | Soul Bead |
@@ -34,14 +42,8 @@
 | Respiration | Corals |
 | Depth Strider | Fish |
 | Feather Falling | Phantom Membrane |
-| Soul Speed | _Uncraftable, Bastion/Piglin exclusive_ |
 | Frost Walker | Frozen Branch |
-| Swift Sneak | _Uncraftable, Ancient city  exclusive_ |
-| Air Hop | _Uncraftable, end city exclusive_ |
-| Efficiency | _DNE, Unlocked by default_ |
 | Fortune | Gold Ingot |
-| Silk Touch | _DNE, Unlocked by default_ |
-| Power | _DNE, Unlocked by default_ |
 | Punch | MERGE WITH KNOCKBACK |
 | Flame | MERGE THIS WITH FIRE ASPECT |
 | Infinity | Zirconia |
@@ -49,13 +51,11 @@
 | Spread of Ailments | Gunk (dungeon's delight) |
 | Quick Charge | Redstone Dust |
 | Multishot | Wildflowers |
-| Impaling | _DNE, unlocked by default_ |
 | Loyalty | Thrasher Tooth |
 | Shockwave | Kinetic Core |
 | Channeling | Oxidized Copper Ingot |
 | Riptide | Nautilus Shell |
 | Obedience | Broken Links (species) |
-| Lure | _DNE, unlocked by default_ |
 | Luck of the Sea | MERGE WITH FORTUNE |
 | Curse of Binding | Slime Ball |
 | Curse of Vanishing | Spinel |
@@ -71,6 +71,7 @@
 	- Pretend that evendeepers are a deeper variant
 	- Updated presence footsteps stuff
 	- Made storage ducts easier to craft
+	- Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now)
 	- Removed atoning tables!!!
 	- Removed Quark's bricks and stuff because they suck (polished up sweep)
 - Made every tnt variant cheaper in line with polished up new TNT recipe
@@ -78,6 +79,8 @@
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
 - Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
 - Fixed some mowzies mobs creative-only and removed items not being hidden from emi
+- Fixed black ice glaciers not spawning soul camps from piglin proliferation
+- Removed the soul, cupric, ender variants of: Jack-o-lanterns, Fairy Lights, Fire Rings, and Pigsteel Lanterns
 - Removed Quark Gunpowder Sacks
 - Removed deep ones 
 - Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns.
