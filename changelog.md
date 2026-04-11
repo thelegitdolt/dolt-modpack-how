@@ -6,41 +6,6 @@
 - Added [Heart Crystals](https://modrinth.com/mod/heart_crystals)
 - Updated Dolt Mod
 
-### Tweaks
-- Configured Caverns and Chasms update
-	- Packing containers can now contain 800 items and have a new recipe
-	- Rats can now eat Monster Meals and Rotten Tripe
-	- Removed copper tools and armor
-	- Pretend that evendeepers are a deeper variant
-	- Updated presence footsteps stuff
-	- Made storage ducts easier to craft
-	- Removed atoning tables!!!
-	- Removed Quark's bricks and stuff because they suck (polished up sweep)
-- Made every tnt variant cheaper in line with polished up new TNT recipe
-- Remove infinite pitcher pod recipe from Smidgeon o' Bliss
-- Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
-- Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
-- Removed Quark Gunpowder Sacks
-- Removed deep ones 
-- Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns.
-- Removed the 7x7 paintings in Twilight Resonance. Because like wtf
-
-### Bugfixes
-- Fixed Medium Weighted Pressure Plate missing recipe
-- Fixed being able to get Cessation from bejeweled apples
-- Fixed Weathed Copper Plating being called Weathered Coppe PlatingPlating
-
-# Dolt Modpack How 1.ω.1
-
-### Mod changes
-- Added Evan's [Music Treaks](https://www.curseforge.com/minecraft/mc-mods/mini-music-tweaks) 
-- Added [Field Guide](https://modrinth.com/mod/field-guide)
-- Added [Item Descriptions](https://modrinth.com/mod/item-descriptions/versions?g=1.20.1) (to go with Field Guide)
-- Added [Mod Descriptions](https://modrinth.com/resourcepack/mod-descriptions)
-- Added [Immersive Enchanting](https://modrinth.com/mod/immersive-enchanting)
-- Added a finagled [Smidgeon o' Bliss](https://www.curseforge.com/minecraft/mc-mods/smidgeon-o-bliss-remastered)
-- Updated [Exposure](https://modrinth.com/mod/exposure)
-
 ### Enchantment Overhaul! 
 - Immersive Enchantments have been completely reconfigured to fit Dolt Modpack's style!
 - Ancient Books of arbitrary enchantments now be **crafted** in the crafting table using 1 book, 7 diamonds, and 1 reagent which dffers bepending on the enchantment. Below is a table of enchantments and their particular reagents:
@@ -95,6 +60,41 @@
 | Curse of Vanishing | Spinel |
 | Curse of Slipping | Banana Bunch |
 - Allurement level scaling is always constant, instead of rising up to 35 xp per level
+
+### Tweaks
+- Configured Caverns and Chasms update
+	- Packing containers can now contain 800 items and have a new recipe
+	- Rats can now eat Monster Meals and Rotten Tripe
+	- Removed copper tools and armor
+	- Pretend that evendeepers are a deeper variant
+	- Updated presence footsteps stuff
+	- Made storage ducts easier to craft
+	- Removed atoning tables!!!
+	- Removed Quark's bricks and stuff because they suck (polished up sweep)
+- Made every tnt variant cheaper in line with polished up new TNT recipe
+- Remove infinite pitcher pod recipe from Smidgeon o' Bliss
+- Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
+- Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
+- Removed Quark Gunpowder Sacks
+- Removed deep ones 
+- Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns.
+- Removed the 7x7 paintings in Twilight Resonance. Because like wtf
+
+### Bugfixes
+- Fixed Medium Weighted Pressure Plate missing recipe
+- Fixed being able to get Cessation from bejeweled apples
+- Fixed Weathed Copper Plating being called Weathered Coppe PlatingPlating
+
+# Dolt Modpack How 1.ω.1
+
+### Mod changes
+- Added Evan's [Music Treaks](https://www.curseforge.com/minecraft/mc-mods/mini-music-tweaks) 
+- Added [Field Guide](https://modrinth.com/mod/field-guide)
+- Added [Item Descriptions](https://modrinth.com/mod/item-descriptions/versions?g=1.20.1) (to go with Field Guide)
+- Added [Mod Descriptions](https://modrinth.com/resourcepack/mod-descriptions)
+- Added [Immersive Enchanting](https://modrinth.com/mod/immersive-enchanting)
+- Added a finagled [Smidgeon o' Bliss](https://www.curseforge.com/minecraft/mc-mods/smidgeon-o-bliss-remastered)
+- Updated [Exposure](https://modrinth.com/mod/exposure)
 
 ### Tweaks
 - Configured SOB
