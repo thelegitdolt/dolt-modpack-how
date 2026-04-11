@@ -1,0 +1,15 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "piglinproliferation:stone_fire_ring",
+            "piglinproliferation:stone_soul_fire_ring",
+            "piglinproliferation:deepslate_soul_fire_ring",
+            "piglinproliferation:deepslate_fire_ring",
+            "piglinproliferation:netherrack_soul_fire_ring",
+            "piglinproliferation:netherrack_fire_ring",
+            "piglinproliferation:end_stone_soul_fire_ring",
+            "piglinproliferation:end_stone_fire_ring"
+        ]
+    }
+]

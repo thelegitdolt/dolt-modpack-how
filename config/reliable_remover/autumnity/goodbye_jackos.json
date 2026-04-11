@@ -1,0 +1,15 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "autumnity:soul_jack_o_lantern",
+            "autumnity:large_soul_jack_o_lantern_slice",
+            "autumnity:ender_jack_o_lantern",
+            "autumnity:large_ender_jack_o_lantern_slice",
+            "autumnity:cupric_jack_o_lantern",
+            "autumnity:large_cupric_jack_o_lantern_slice",
+            "autumnity:redstone_jack_o_lantern",
+            "autumnity:large_redstone_jack_o_lantern_slice"
+        ]
+    }
+]
