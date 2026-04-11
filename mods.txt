@@ -54,7 +54,7 @@
 [CONTENT] biggerstacks-1.20.1-2026.02.27-all.jar
 [CONTENT] blasted_barrens-1.20.1-1.0.8.jar
 [CONTENT] buzzier_bees-1.20.1-6.0.1.jar
-[CONTENT] caverns_and_chasms-1.20.1-2.1.0.jar
+[CONTENT] caverns_and_chasms-1.20.1-2.1.1.jar
 [CONTENT] create-1.20.1-6.0.8.jar
 [CONTENT] dye_depot-1.2.3-forge.jar
 [CONTENT] endergetic-1.20.1-5.0.1.jar
@@ -69,7 +69,7 @@
 [CONTENT] spawn-3.3.jar
 [CONTENT] species-3.5.jar
 [CONTENT] sullysmod-3.2.1-beta-all.jar
-[CONTENT] supplementaries-1.20-3.1.42-forge.jar
+[CONTENT] supplementaries-1.20-3.1.43-forge.jar
 [CONTENT] upgrade_aquatic-1.20.1-6.0.3.jar
 [CONTENT] windswept-1.20.1-3.0.4.jar
 [D&T] dungeons-and-taverns-stronghold-rework-1.jar
@@ -108,6 +108,7 @@
 [MINOR] forgery-3.6.5+1.20.jar
 [MINOR] ftgu-1.4.jar
 [MINOR] gallery-1.20.1-1.0.3.jar
+[MINOR] heart_crystals-1.20.1-2.1.1.jar
 [MINOR] horseman-1.20.1-1.3.15-forge.jar
 [MINOR] hourglass-1.20-1.2.1.1.jar
 [MINOR] immersive_gateways-forge-0.0.4+1.20.1.jar
@@ -118,7 +119,7 @@
 [MINOR] netherportalfix-forge-1.20-13.0.1.jar
 [MINOR] nirvana-forge-1.2.5.jar
 [MINOR] pet_cemetery-1.20.1-2.0.0.jar
-[MINOR] piglinproliferation-1.20.1-1.2.6.jar
+[MINOR] piglinproliferation-1.20.1-1.2.7.jar
 [MINOR] pigsteel-1.20.1-5.1.0.jar
 [MINOR] scholar-1.20.1-1.1.9-forge.jar
 [MINOR] secondchanceforge-1.20-1.5.1.jar
@@ -146,7 +147,7 @@
 [TOOL] attributesetter-2.1.1-forge.jar
 [TOOL] polytone-1.20-3.5.22.jar
 [TOOL] propertymodifier-1.20.1-0.1-all.jar
-[TOOL] reliable_remover-forge-1.20.1-1.8.1.jar
+[TOOL] reliable_remover-forge-1.20.1-2.0.0.jar
 {LIB} ElysiumAPI-1.20.1-1.1.3.jar
 {LIB} MRU-1.0.4+1.20.1+forge.jar
 {LIB} PuzzlesLib-v8.1.33-1.20.1-Forge.jar

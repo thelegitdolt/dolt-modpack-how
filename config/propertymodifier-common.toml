@@ -379,7 +379,46 @@
 		#Set the efficiency value of a tool. May not work on modded tools, please file an issue if that's the case. Also doesn't work on shears, due to internal problems with that. Example (without the leading #):
 		#"minecraft:iron_pickaxe" = 16
 		[items.tools.efficiency]
-			test = 0.0
+			"minecraft:stone_pickaxe" = 6
+			"minecraft:iron_pickaxe" = 8
+			"minecraft:gold_pickaxe" = 20
+			"caverns_and_chasms:silver_pickaxe" = 8
+			"minecraft:diamond_pickaxe" = 16
+			"minecraft:netherite_pickaxe" = 18
+			"caverns_and_chasms:necromium_pickaxe" = 18
+			"oreganized:electrum_pickaxe" = 18
+			"minecraft:stone_axe" = 6
+			"minecraft:iron_axe" = 8
+			"minecraft:gold_axe" = 20
+			"caverns_and_chasms:silver_axe" = 8
+			"minecraft:diamond_axe" = 16
+			"minecraft:netherite_axe" = 18
+			"caverns_and_chasms:necromium_axe" = 18
+			"oreganized:electrum_axe" = 18
+			"minecraft:stone_shovel" = 6
+			"minecraft:iron_shovel" = 8
+			"minecraft:gold_shovel" = 20
+			"caverns_and_chasms:silver_shovel" = 8
+			"minecraft:diamond_shovel" = 16
+			"minecraft:netherite_shovel" = 18
+			"caverns_and_chasms:necromium_shovel" = 18
+			"oreganized:electrum_shovel" = 18
+			"minecraft:stone_hoe" = 6
+			"minecraft:iron_hoe" = 8
+			"minecraft:gold_hoe" = 20
+			"caverns_and_chasms:silver_hoe" = 8
+			"minecraft:diamond_hoe" = 16
+			"minecraft:netherite_hoe" = 18
+			"caverns_and_chasms:necromium_hoe" = 18
+			"oreganized:electrum_hoe" = 18
+			"farmersdelight:stone_knife" = 6
+			"farmersdelight:iron_knife" = 8
+			"farmersdelight:gold_knife" = 20
+			"abnormals_delight:silver_knife" = 8
+			"farmersdelight:diamond_knife" = 16
+			"farmersdelight:netherite_knife" = 18
+			"abnormals_delight:necromium_knife" = 18
+			"oreganized:electrum_knife" = 18
 
 		#Set the attack damage of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_sword" = 12
