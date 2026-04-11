@@ -63,6 +63,7 @@
 
 - Changed efficiency
 	- Changed the based efficiency for each vanilla tool.
+	
 | Tool | New Efficiency | Vanilla Efficiency | 
 |--------|--------|--------| 
 | Stone | 6 | 4 | 
