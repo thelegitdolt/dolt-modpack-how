@@ -94,7 +94,7 @@
 | Curse of Binding | Slime Ball |
 | Curse of Vanishing | Spinel |
 | Curse of Slipping | Banana Bunch |
-
+- Allurement level scaling is always constant, instead of rising up to 35 xp per level
 
 ### Tweaks
 - Configured SOB
@@ -109,6 +109,7 @@
 - Allowed JNE shroomnights to be used in shroomlight recipes, such as Bloody Mary & stone lamps from Supp
 - Made Supp flutes not have durability
 - FD Cooking Pots are now crafted with a stick instead of a stone shovel
+- Immersive Enchanting creative bookshelves now correctly have the obsidian sound type
 - Renamed the fancy create doors to Fancy Doors to avoid having two copper doors
 - Removed My Nether Delight's strider rocks & strider eggs & boiled eggs & etc
 - Removed Bubblegunk from Dungeons's Delight

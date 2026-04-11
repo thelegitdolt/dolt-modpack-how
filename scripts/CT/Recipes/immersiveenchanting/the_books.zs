@@ -56,8 +56,4 @@ function enchanting(name as string, enchantment as string, reagent as IIngredien
     ]);
 } 
 
-val diamond = <item:minecraft:diamond>;
-val book = <item:minecraft:book>;
-
-
 DebugUtil.endScript("recipes/immersiveenchanting/the_books"); 
