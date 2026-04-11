@@ -9,6 +9,7 @@
 ### Enchantment Overhaul! 
 - Immersive Enchantments have been completely reconfigured to fit Dolt Modpack's style!
 - Ancient Books of arbitrary enchantments now be **crafted** in the crafting table using 1 book, 7 diamonds, and 1 reagent which dffers bepending on the enchantment. Below is a table of enchantments and their particular reagents:
+
 | Enchant | Reagent |
 |--------|--------|
 | Sharpness | Silver Ingot |
@@ -59,6 +60,7 @@
 | Curse of Binding | Slime Ball |
 | Curse of Vanishing | Spinel |
 | Curse of Slipping | Banana Bunch |
+
 - Allurement level scaling is always constant, instead of rising up to 35 xp per level
 
 ### Tweaks
