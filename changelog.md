@@ -65,14 +65,14 @@
 	- Changed the based efficiency for each vanilla tool.
 | Tool | New Efficiency | Vanilla Efficiency
 |--------|--------|--------|
-| Stone | 6 |   4
-| Iron | 8 |   6
-| Gold | 20 |   8
-| Silver | 8 | 9
-| Diamond | 16 |  9
-| Netherite | 18 |  12
-| Necromium | 18 | 9
-| Electrum | 18 | 8
+| Stone | 6 |   4 |
+| Iron | 8 |   6 |
+| Gold | 20 |   8 |
+| Silver | 8 | 9 |
+| Diamond | 16 |  9 |
+| Netherite | 18 |  12 |
+| Necromium | 18 | 9 |
+| Electrum | 18 | 8 |
 
 - Allurement level scaling is always constant, instead of rising up to 35 xp per level
 
