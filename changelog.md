@@ -4,6 +4,7 @@
 - Updated [Caverns and Chasms](https://modrinth.com/mod/caverns-and-chasms), polished up YAY!
 - Updated [Easel Does It](https://modrinth.com/mod/easel-does-it) to allow Twilight Resonance's incredibly large paintings to show up in the easel
 - Added [Heart Crystals](https://modrinth.com/mod/heart_crystals)
+- Added [Galosphere](https://modrinth.com/mod/galosphere) because I am bored
 - Updated Dolt Mod
 
 ### Enchantment Overhaul! 
@@ -68,10 +69,10 @@
 |--------|--------|--------| 
 | Stone | 6 | 4 | 
 | Iron | 8 | 6 | 
-| Gold | 20 | 8 | 
+| Gold | 20 | 12 | 
 | Silver | 8 | 9 | 
-| Diamond | 16 | 9 | 
-| Netherite | 18 | 12 | 
+| Diamond | 16 | 8 | 
+| Netherite | 18 | 9 | 
 | Necromium | 18 | 9 | 
 | Electrum | 18 | 8 |
 
@@ -89,6 +90,7 @@
 	- Removed atoning tables!!!
 	- Removed Quark's bricks and stuff because they suck (polished up sweep)
 - Made every tnt variant cheaper in line with polished up new TNT recipe
+- Capes no longer render if players are wearing a quark backpack
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
 - Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
