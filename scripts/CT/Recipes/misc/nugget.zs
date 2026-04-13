@@ -38,6 +38,7 @@ make_nuggie_four("netherite", <item:caverns_and_chasms:netherite_nugget>, <item:
 
 make_nuggie_four("lead", <item:oreganized:lead_nugget>, <item:oreganized:lead_ingot>);
 make_nuggie_four("electrum", <item:oreganized:electrum_nugget>, <item:oreganized:electrum_ingot>);
+make_nuggie_four("palladium", <item:galosphere:palladium_nugget>, <item:galosphere:palladium_ingot>);
 
 
 nuggie_four_create("uranium", <item:alexscaves:uranium_shard>, <item:alexscaves:uranium>, 

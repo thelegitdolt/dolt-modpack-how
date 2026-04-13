@@ -11,6 +11,8 @@
         "etcetera:raw_bismuth_block",
         "create:zinc_ore",
         "create:raw_zinc_block",
+        "galosphere:raw_palladium_block",
+        "galosphere:palladium_ore",
         "minecraft:emerald_ore",
         "minecraft:lapis_ore",
         "minecraft:gold_ore",
