@@ -7,7 +7,6 @@ craftingTable.addShaped("hoglin_trophy_good", <item:mynethersdelight:hoglin_trop
     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
 ]);
 
-craftingTable.removeByName("mynethersdelight:crafting/zoglin_trophy");
 craftingTable.removeByName("mynethersdelight:crafting/hoglin_trophy_cure");
 craftingTable.removeByName("mynethersdelight:crafting/skoglin_trophy");
 

@@ -13,7 +13,6 @@ import crafttweaker.api.recipe.type.ShapedRecipe;
 
 
 for recipe in (craftingTable.getAllRecipes() as stdlib.List<Recipe<Container>>) {
-    println("sex. svanvaj" + recipe.id);
     val chiseledOrBoard = isTwoSlabsRecipe(recipe);
     if (chiseledOrBoard) {
         val path = recipe.resultItem.registryName.getPath();

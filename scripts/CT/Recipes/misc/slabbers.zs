@@ -7,16 +7,6 @@ import crafttweaker.api.item.Ingredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.recipe.type.ShapedRecipe;
 
-val a = [
-"quark:building/crafting/slabs/dripstone_block_slab",
-"quark:building/crafting/slabs/calcite_slab",
-"quark:building/crafting/slabs/tuff_slab"
-];
-
-for i in a {
-    craftingTable.removeByName(i);
-}
-
 for recipe in (craftingTable.getAllRecipes() as stdlib.List<Recipe<Container>>) {
     val baseBlock = isSlabRecipe(recipe);
     if (!baseBlock.matches(<item:minecraft:air>)) {

@@ -231,6 +231,17 @@
         "value": 1024
       }
     },
+    "galosphere:illager_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "caverns_and_chasms:slowness_infliction": {
       "enabled": false,
       "min": {

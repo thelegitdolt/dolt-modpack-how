@@ -11,10 +11,6 @@ import crafttweaker.api.recipe.replacement.type.NotFilteringRule;
 
 DebugUtil.startScript("recipes/misc/egging"); 
 
-RUtil.cut.removeByName("farmersdelight:cutting/calibrated_sculk_sensor");
-RUtil.cut.removeByName("farmersdelight:cutting/sculk_mayo_block");
-RUtil.cut.removeByName("farmersdelight:cutting/sculk");
-
 RUtil.twoByTwo("sculk_from_sculk_veins", <item:minecraft:sculk_vein>, <item:minecraft:sculk>);
 RUtil.oneToOneConversion("sculk_to_sculk_veins", <item:minecraft:sculk>, <item:minecraft:sculk_vein>, 4);
 

@@ -1,8 +1,6 @@
 DebugUtil.startScript("recipes/alexscaves/mech_crafter_stuff"); 
     
 craftingTable.removeByName("alexscaves:nuclear_furnace_component");
-craftingTable.removeByName("alexscaves:raygun");
-craftingTable.removeByName("alexscaves:galena_gauntlet");
 
 val scrap_metal = <item:alexscaves:scrap_metal>;
 val remnant = <item:alexscaves:charred_remnant>;

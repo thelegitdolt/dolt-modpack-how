@@ -24,6 +24,15 @@
 		#Range: -64 ~ 320
 		"Evendeeper max spawn height" = -4
 
+	[mobs.rat]
+		#The chance a pack of Rats has to spawn with a regular Rat spawn
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Rat pack spawn chance" = 0.2
+		#Range: > 0
+		"Minimum rat pack size" = 6
+		#Range: > 0
+		"Maximum rat pack size" = 10
+
 [tweaks]
 	#Chainmail armor increases the user's attack damage
 	"Chainmail armor increases damage" = true
