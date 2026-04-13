@@ -1,0 +1,10 @@
+{
+  "repaletter": {
+    "type": "blueprint:simple",
+    "replaces_block": "galosphere:tuff_dirt",
+    "replaces_with": "caverns_and_chasms:rocky_dirt"
+  },
+  "structures": [
+    "galosphere:forgotten_ruins"
+  ]
+}

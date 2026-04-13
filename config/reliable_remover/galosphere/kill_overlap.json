@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "galosphere:amethyst_lamp",
+            "galosphere:tuff_dirt"
+        ]
+    }
+]

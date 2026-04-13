@@ -1,0 +1,26 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "galosphere:smooth_amethyst",
+            "galosphere:smooth_amethyst_stairs",
+            "galosphere:amethyst_bricks",
+            "galosphere:amethyst_brick_stairs",
+            "galosphere:smooth_amethyst_slab",
+            "galosphere:amethyst_brick_slab",
+            "galosphere:smooth_allurite",
+            "galosphere:allurite_lamp",
+            "galosphere:smooth_allurite_stairs",
+            "galosphere:smooth_allurite_slab",
+            "galosphere:allurite_bricks",
+            "galosphere:allurite_brick_stairs",
+            "galosphere:allurite_brick_slab",
+            "galosphere:smooth_lumiere",
+            "galosphere:smooth_lumiere_stairs",
+            "galosphere:smooth_lumiere_slab",
+            "galosphere:lumiere_bricks",
+            "galosphere:lumiere_brick_stairs",
+            "galosphere:lumiere_brick_slab"
+        ]
+    }
+]

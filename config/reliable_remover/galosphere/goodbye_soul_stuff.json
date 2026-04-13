@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "galosphere:soul_light_stand",
+            "galosphere:soul_chandelier"
+        ]
+    }
+]

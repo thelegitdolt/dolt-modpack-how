@@ -89,6 +89,9 @@
 	- Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now)
 	- Removed atoning tables!!!
 	- Removed Quark's bricks and stuff because they suck (polished up sweep)
+- Configured Galosphere
+	- Removed amethyst lamps (C&C better)
+	- Sterling armor gives explosion resistance instead of "ILLAGER RESISTANCE"
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Capes no longer render if players are wearing a quark backpack
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
