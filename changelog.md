@@ -96,6 +96,7 @@
 - Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
 - Fixed some mowzies mobs creative-only and removed items not being hidden from emi
 - Fixed black ice glaciers not spawning soul camps from piglin proliferation
+- Made olivestone crafted with cactus paste instead of green dye
 - Removed the soul, cupric, ender variants of: Jack-o-lanterns, Fairy Lights, Fire Rings, and Pigsteel Lanterns
 - Removed Quark Gunpowder Sacks
 - Removed deep ones 
