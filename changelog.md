@@ -5,6 +5,7 @@
 - Updated [Easel Does It](https://modrinth.com/mod/easel-does-it) to allow Twilight Resonance's incredibly large paintings to show up in the easel
 - Added [Heart Crystals](https://modrinth.com/mod/heart_crystals)
 - Added [Galosphere](https://modrinth.com/mod/galosphere) because I am bored
+- Added [Vista - All the tapes](https://modrinth.com/mod/vista-all-the-cassettes/versions)
 - Updated Dolt Mod
 
 ### Enchantment Overhaul! 
@@ -91,6 +92,7 @@
 	- Removed Quark's bricks and stuff because they suck (polished up sweep)
 - Configured Galosphere
 	- Removed amethyst lamps (C&C better)
+	- Removed tuff dirt in favor of ROCKY DIRT
 	- Sterling armor gives explosion resistance instead of "ILLAGER RESISTANCE"
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Capes no longer render if players are wearing a quark backpack
