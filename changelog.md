@@ -6,6 +6,7 @@
 - Added [Heart Crystals](https://modrinth.com/mod/heart_crystals)
 - Added [Galosphere](https://modrinth.com/mod/galosphere) because I am bored
 - Added [Vista - All the tapes](https://modrinth.com/mod/vista-all-the-cassettes/versions)
+- Added [Create: Interactive](https://modrinth.com/mod/interactive)
 - Updated Dolt Mod
 
 ### Enchantment Overhaul! 
@@ -94,9 +95,12 @@
 	- Removed amethyst lamps (C&C better)
 	- Removed tuff dirt in favor of ROCKY DIRT
 	- Sterling armor gives explosion resistance instead of "ILLAGER RESISTANCE"
+- Configured Heart Crystals
+	- Heart Crystal now, instead of giving players extra hearts, gives them Health Boost and Regeneration for awhile 
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Capes no longer render if players are wearing a quark backpack
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
+- Fixed windswept fir chiseled bookshelf still being called "pine" 
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
 - Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
 - Fixed some mowzies mobs creative-only and removed items not being hidden from emi
