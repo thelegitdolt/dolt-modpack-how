@@ -1,13 +1,22 @@
 
-[changes]
+[common]
 
-	[changes.candles]
+	[common.candles]
 		#Do scented candles affect living entities
 		"Scent FX" = true
 		#Ticks per day for daily scented candles
 		"Daily special duration" = 24000
+		#Can Distant Song Scented Candles teleport items
+		"Distant Song teleports items" = false
+		#Horizontal teleport distance for distant song candles (in blocks)
+		#Range: 1 ~ 64
+		"Distant song teleport distance" = 6
 
-	[changes.trades]
+		[common.candles.candles]
+			#Do Black Cherry Scented Candles boost nearby darkness cloak wearers
+			"Black Cherry darkness boost" = true
+
+	[common.trades]
 		#Do expert butchers trade red redemption candles
 		"Red redemption trade" = true
 		#Do expert butchers trade soft blanket candles

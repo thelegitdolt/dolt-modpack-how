@@ -7,6 +7,7 @@
 - Added [Galosphere](https://modrinth.com/mod/galosphere) because I am bored
 - Added [Vista - All the tapes](https://modrinth.com/mod/vista-all-the-cassettes/versions)
 - Added [Create: Interactive](https://modrinth.com/mod/interactive)
+- Added [Melancholic Hunger](https://modrinth.com/mod/melancholic_hunger)
 - Updated Dolt Mod
 
 ### Enchantment Overhaul! 
@@ -81,6 +82,8 @@
 - Allurement level scaling is always constant, instead of rising up to 35 xp per level
 
 ### Tweaks
+- Hunger has been removed! Food now directly heal hearts after a slow regeneration period, and sprinting is always enabled. 
+	- Looking for feedback for how food feels, since I'm not doing that thing in the mod where they made every food stack to less!
 - Configured Caverns and Chasms update
 	- Packing containers can now contain 800 items and have a new recipe
 	- Rats can now eat Monster Meals and Rotten Tripe
