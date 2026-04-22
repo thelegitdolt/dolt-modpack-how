@@ -1,0 +1,83 @@
+{
+	"pack": {
+		"pack_format": 12,
+		"description": [{
+			"text":"jonathan advancement","color":"gold"}]
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "sullysmod",
+				"path": "adventure/jade_grindset"            
+			},
+			{
+				"namespace": "sullysmod",
+				"path": "adventure/polish_jade"            
+			},
+			{
+				"namespace": "sullysmod",
+				"path": "adventure/item_stand_crafted"            
+			},
+			{
+				"namespace": "sullysmod",
+				"path": "adventure/glass_vial_filled_jungle_spider"            
+			},
+			{
+				"namespace": "quark",
+				"path": "apply_color_rune"
+			},
+			{
+				"namespace": "quark",
+				"path": "wear_full_rainbow"
+			},
+			{
+				"namespace": "caverns_and_chasms",
+				"path": "advancements/adventure/break_item_atoning"
+			},
+			{
+				"namespace": "caverns_and_chasms",
+				"path": "advancements/adventure/atone_item"
+			},
+			{
+				"namespace": "caverns_and_chasms",
+				"path": "advancements/adventure/thunderstruck"
+			},
+			{
+				"namespace": "oreganized",
+				"path": "story/obtain_silver"
+			},
+			{
+				"namespace": "oreganized",
+				"path": "adventure/mirror_mirror"
+			},
+			{
+				"namespace": "oreganized",
+				"path": "husbandry/groovy"
+			},
+			{
+				"namespace": "mowziesmobs",
+				"path": "advancements/.*grottol.*"
+			},
+			{
+				"namespace": "netherexp",
+				"path": "advancements/nether/ayo_the_pizza_here"
+			},
+			{
+				"namespace": "netherexp",
+				"path": "advancements/nether/pizza_hunt"
+			},
+			{
+				"namespace": "architects_palette",
+				"path": "advancements/main/find_twisted_sapling"
+			},
+			{
+				"namespace": "spawn",
+				"path": "husbandry/.*mucus"
+			},
+			{
+				"namespace": "wallpapers",
+				"path": "advancements/wallpapers/.*"
+			}
+		]    
+	}     
+}

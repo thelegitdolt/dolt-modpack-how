@@ -1,0 +1,26 @@
+{
+    "minecraft:aqua_affinity": "upgrade_aquatic:pickerelweed",
+    "minecraft:bane_of_arthropods": "dungeonsdelight:spider_meat",
+    "minecraft:channeling": "caverns_and_chasms:oxidized_copper_ingot",
+    "minecraft:fire_protection": "oreganized:lead_ingot",
+    "minecraft:frost_walker": "windswept:frozen_branch",
+    "minecraft:infinity": "caverns_and_chasms:zirconia",
+    "minecraft:knockback": "mynethersdelight:hoglin_hide",
+    "minecraft:looting": "buzzier_bees:four_leaf_clover",
+    "minecraft:loyalty": "upgrade_aquatic:thrasher_tooth",
+    "minecraft:multishot":  [
+        "wilderflowers:hopeful_wildflowers",
+        "wilderflowers:moody_wildflowers",
+        "wilderflowers:cheery_wildflowers"
+    ], 
+    "minecraft:sharpness": "caverns_and_chasms:silver_ingot",
+    "windswept:slipping_curse": "neapolitan:banana_bunch",
+    "minecraft:smite": [
+        "buzzier_bees:buttercup",
+        "spawn:sunflower"
+    ],
+    "minecraft:thorns": "atmospheric:yucca_flower",
+    "minecraft:unbreaking": "create:powdered_obsidian",
+    "minecraft:respiration": "#dolt_modpack_how:corals",
+    "minecraft:vanishing_curse": "caverns_and_chasms:spinel"
+}

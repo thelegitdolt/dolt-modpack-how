@@ -42,6 +42,4 @@ for fastEat in fastEats {
 }
 
 
-
-
 DebugUtil.endScript("/Foods/misc/fast_eat.zs"); 

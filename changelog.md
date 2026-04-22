@@ -2,12 +2,13 @@
 
 ### Mod Changes
 - Updated [Caverns and Chasms](https://modrinth.com/mod/caverns-and-chasms), polished up YAY!
+- Added [Melancholic Hunger](https://modrinth.com/mod/melancholic_hunger)
 - Updated [Easel Does It](https://modrinth.com/mod/easel-does-it) to allow Twilight Resonance's incredibly large paintings to show up in the easel
 - Added [Heart Crystals](https://modrinth.com/mod/heart_crystals)
 - Added [Galosphere](https://modrinth.com/mod/galosphere) because I am bored
+- Added [Darker Depths](http://modrinth.com/mod/darker-depths/)
 - Added [Vista - All the tapes](https://modrinth.com/mod/vista-all-the-cassettes/versions)
 - Added [Create: Interactive](https://modrinth.com/mod/interactive)
-- Added [Melancholic Hunger](https://modrinth.com/mod/melancholic_hunger)
 - Updated Dolt Mod
 
 ### Enchantment Overhaul! 
@@ -84,6 +85,7 @@
 ### Tweaks
 - Hunger has been removed! Food now directly heal hearts after a slow regeneration period, and sprinting is always enabled. 
 	- Looking for feedback for how food feels, since I'm not doing that thing in the mod where they made every food stack to less!
+	- Removed Nourishment and Comfort as they do nothing now
 - Configured Caverns and Chasms update
 	- Packing containers can now contain 800 items and have a new recipe
 	- Rats can now eat Monster Meals and Rotten Tripe
@@ -91,7 +93,7 @@
 	- Pretend that evendeepers are a deeper variant
 	- Updated presence footsteps stuff
 	- Made storage ducts easier to craft
-	- Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now)
+	- Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now). 
 	- Removed atoning tables!!!
 	- Removed Quark's bricks and stuff because they suck (polished up sweep)
 - Configured Galosphere

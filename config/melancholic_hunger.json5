@@ -14,9 +14,9 @@
 		disable_hunger: true,
 		hunger_effect: "REPLACED_WITH_POISON",
 		gradual_health_regeneration: true,
-		gradual_health_regeneration_speed: 1.0,
+		gradual_health_regeneration_speed: 0.7,
 		regeneration_at_full_health: "CONTINUED",
-		use_custom_food_stack_sizes: true,
+		use_custom_food_stack_sizes: false,
 		custom_food_stack_sizes: {
 			"minecraft:beetroot": 64,
 			"minecraft:dried_kelp": 64,
