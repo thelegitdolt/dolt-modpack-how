@@ -13,7 +13,6 @@ var fastEats = [
     "alexscaves:pine_nuts",
     "atmospheric:aloe_leaves",
     "farmersdelight:barbecue_stick",
-    "neapolitan:strawberry_scones",
     "neapolitan:dried_vanilla_pods",
     "neapolitan:vanilla_fudge",
     "neapolitan:banana_bread",
@@ -27,11 +26,17 @@ var fastEats = [
     "upgrade_aquatic:mulberry",
     "abnormals_delight:escargot",
     "abnormals_delight:maple_glazed_bacon",
+    "atmospheric:currant_muffin",
+
+    "neapolitan:banana",
+    "neapolitan:strawberries",
+    "minecraft:apple",
+    "atmospheric:orange",
+    "atmospheric:dragonfruit",
     "minecraft:melon_slice",
     "minecraft:glow_berries",
     "minecraft:sweet_berries",
-    "atmospheric:currant",
-    "atmospheric:currant_muffin"
+    "atmospheric:currant"
  ] as string[];
 
 
