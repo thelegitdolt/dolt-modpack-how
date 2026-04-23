@@ -60,6 +60,7 @@ for col in RUtil.dyeDepotColors {
 <item:farmersdelight:stuffed_pumpkin_block>.setMaxStackSize(100);
 <item:farmersdelight:rice_roll_medley_block>.setMaxStackSize(100);
 <item:brewinandchewin:fiery_fondue_pot>.setMaxStackSize(100);
+<item:spawn:crab_boil>.setMaxStackSize(100);
 <item:brewinandchewin:pizza>.setMaxStackSize(100);
 
 <item:dungeonsdelight:silverfish_and_chips_block>.setMaxStackSize(100);

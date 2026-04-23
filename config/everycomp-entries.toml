@@ -70,6 +70,7 @@
 
 		[types.wood_type.spawn]
 			rotten = true
+			date = true
 
 		[types.wood_type.darkerdepths]
 			petrified = true
@@ -133,6 +134,9 @@
 			yellow_maple = true
 			orange_maple = true
 			red_maple = true
+
+		[types.leaves_type.spawn]
+			date = true
 
 	[types.cut_block_type]
 
@@ -722,6 +726,11 @@
 			reefstone = true
 			algal_reefstone = true
 			reefstone_tile = true
+			date = true
+			heliostone = true
+			blasted_sandstone = true
+			cut_blasted_sandstone = true
+			smooth_blasted_sandstone = true
 
 		[types.cut_block_type.darkerdepths]
 			petrified = true

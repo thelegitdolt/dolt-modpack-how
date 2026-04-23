@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "delighto_flight:cloud_island",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 125927615,
+
+    "spacing": 35,
+
+    "separation": 28,
+
+    "type": "minecraft:random_spread"
+  }
+}

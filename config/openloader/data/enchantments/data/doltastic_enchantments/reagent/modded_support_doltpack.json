@@ -17,7 +17,8 @@
     "windswept:slipping_curse": "neapolitan:banana_bunch",
     "minecraft:smite": [
         "buzzier_bees:buttercup",
-        "spawn:sunflower"
+        "spawn:sunflower",
+        "spawn:sunstone"
     ],
     "minecraft:thorns": "atmospheric:yucca_flower",
     "minecraft:unbreaking": "create:powdered_obsidian",

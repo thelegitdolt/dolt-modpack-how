@@ -2,6 +2,7 @@ DebugUtil.startScript("/Recipes/misc/cookie.zs/");
     
 
 cookie.addCookie("minecraft:cookie", "minecraft:cocoa_beans", "");
+cookie.addCookie("spawn:date_cookie", "spawn:dates", "date_");
 cookie.addCookie("farmersrespite:green_tea_cookie", "farmersrespite:green_tea_leaves", "green_tea_");
 
 

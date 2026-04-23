@@ -2,7 +2,7 @@ DebugUtil.startScript("recipes/farmers_delight/meals_with_cooking_pots");
     
 
 RUtil.cook.addRecipe("clam_chowder_cooked", <item:spawn:clam_chowder>, [
-    <item:spawn:clam_meat>, <item:minecraft:potato>, <item:farmersdelight:onion>], 
+    <item:spawn:cooked_clam>, <item:minecraft:potato>, <item:farmersdelight:onion>], 
     <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>,
     <item:minecraft:bowl>, 1.0, 200);
 
@@ -21,7 +21,6 @@ val all_weird_things = [
     "minecraft:rabbit_stew_from_red_mushroom",
     "minecraft:mushroom_stew",
     "minecraft:beetroot_soup",
-    "spawn:clam_chowder",
     "incubation:scrambled_eggs"
 ];
 

@@ -14,7 +14,7 @@
 
 ### Enchantment Overhaul! 
 - Immersive Enchantments have been completely reconfigured to fit Dolt Modpack's style!
-- The enchanting table menu has been redone. By default weak enchantments such as efficiency an sweeping edge is available. To acquire other enchantments one must find **Ancient Books** with that associated enchantment and place them in a chiseled bookshelf next to the enchanting table. 
+- The enchanting table menu has been redone. By default weak enchantments such as efficiency and sweeping edge is available. To acquire other enchantments one must find **Ancient Books** with that associated enchantment and place them in a chiseled bookshelf next to the enchanting table. 
 - Ancient Books can be found when exploring. 
 	- "Common" enchantments (enchantments that can be applied to pickaxes axes shovels knives swords axes helmets chestplate leggings boots, and more rarely crossbows and bows) can be found in almost every dungeon chest. 
 	- Some enchantments are delegated to special structures, such as Soul Speed to bastions and Air Hop to end cities. 
@@ -38,16 +38,17 @@
 | Vengeance | Soul Bead |
 | Respiration | Corals |
 
-- Ancient book of arbitrary enchantments can also be created in the enchanting table in a process called **conjuring**. This takes 1 book (vanilla), the reagent of the enchantment you want, and 20 levels.
-- Enchantments like Mending, Soul Speed, and Air Hop do not have reagents; you must find the books in those specialized structures. Books from specialized structures could contain ancient books holding more than one enchantment; these are impossible to get from crafting. 
+- Ancient books can also be created in the enchanting table in a process called **conjuring**. This takes 1 book, the reagent of the enchantment you want, and 20 levels.
+- Enchantments like Mending, Soul Speed, and Air Hop do not have reagents; you must find the books in  specialized structures. 
+- Chests from structures has a chance to contain ancient books holding more than one enchantment; these are impossible to get otherwise. 
 - Added a new Fairy Dust material 
 	- Texture (placeholder) stolen from Vitalis from Indexed I NEED TEXTURES
 	- Are quite rare; one diamond & some other semiprecious materials are required to craft 3
-	- Once you have an ancient book for an enchantment, you can apply it to your tools using the enchanting table! 
-		- Enchantments are applied one level at a time; each level applied takes *level* lapis and *level - 1* Fairy dust
-			- Therefore applying Efficiency III on an item with Efficiency II takes 3 lapis and 2 fairy dust. (Might change)
+- Once you have an ancient book for an enchantment, you can apply it to your tools using the enchanting table! 
+	- Enchantments are applied one level at a time; each level applied takes (*level*) lapis and (*level - 1*) Fairy dust
+		- Therefore applying Efficiency III on an item with Efficiency II takes 3 lapis and 2 fairy dust. (Might change)
 - Changed efficiency
-	- Changed the based efficiency for each vanilla tool.
+	- Changed the base efficiency for each vanilla tool.
 	
 | Tool | New Efficiency | Vanilla Efficiency | 
 |--------|--------|--------| 
@@ -60,10 +61,10 @@
 | Necromium | 18 | 9 | 
 | Electrum | 18 | 8 |
 	
-	- Efficiency is now 3 levels and gives a flat 7 points of efficiency per level. 
-	- For reference, vanilla efficiency used to give level^2 + 1 points of efficiency.
-- A video showcasing the enchanting process: https://www.youtube.com/watch?v=aXoBq7fJoBI
+- Efficiency is now 3 levels and gives a flat 7 points of efficiency per level. 
+- For reference, vanilla efficiency used to give level^2 + 1 points.
 
+- A video showcasing the enchanting process: https://www.youtube.com/watch?v=aXoBq7fJoBI
 - Allurement level scaling is always constant, instead of rising up to 35 xp per level
 - Removed ancient tomes from quark
 
@@ -71,6 +72,7 @@
 - Hunger has been removed! Food now directly heal hearts after a slow regeneration period, and sprinting is always enabled. 
 	- Looking for feedback for how food feels, since I'm not doing that thing in the mod where they made every food stack to less!
 	- Removed Nourishment and Comfort as they do nothing now
+	- Nerfed strawberries slightly by 2-3 shanks each to balance that nutrition is equivalent to hunger now
 - Configured Caverns and Chasms update
 	- Packing containers can now contain 800 items and have a new recipe
 	- Rats can now eat Monster Meals and Rotten Tripe
@@ -88,7 +90,11 @@
 	- Sterling armor gives explosion resistance instead of "ILLAGER RESISTANCE"
 - Configured Heart Crystals
 	- Heart Crystal now, instead of giving players extra hearts, gives them Health Boost and Regeneration for awhile 
+- Configured Spawn
+	- 
 - Made every tnt variant cheaper in line with polished up new TNT recipe
+- Delight-o-flight cloud islands spawn more often
+- Fixed inconsistent awning and candle holder recipes
 - The gobthumper (gummy worm summing block) crafts 1 at a time
 - Capes no longer render if players are wearing a quark backpack
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
