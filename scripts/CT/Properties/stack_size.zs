@@ -4,6 +4,8 @@ DebugUtil.startScript("properties/stack_size");
 <item:minecraft:potion>.setMaxStackSize(16);
 <item:alexscaves:quarry_smasher>.setMaxStackSize(100);
 
+<item:spawn:fly_bottle>.setMaxStackSize(100);
+
 
 # MINECARTS
 <item:supplementaries:dispenser_minecart>.setMaxStackSize(100);
