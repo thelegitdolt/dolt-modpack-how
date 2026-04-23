@@ -1,8 +1,11 @@
 {
 	"pack": {
 		"pack_format": 12,
-		"description": [{
-			"text":"Enchantments lol","color":"gold"}]
+		"description": [
+			{
+				"text":"Enchantments lol"
+			}
+		]
 	},
 	"filter": {
 		"block": [

@@ -91,7 +91,7 @@
 - Configured Heart Crystals
 	- Heart Crystal now, instead of giving players extra hearts, gives them Health Boost and Regeneration for awhile 
 - Configured Spawn
-	- 
+	- Made feasts stack to 100, made date cookie recipe shapeless
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Delight-o-flight cloud islands spawn more often
 - Fixed inconsistent awning and candle holder recipes
