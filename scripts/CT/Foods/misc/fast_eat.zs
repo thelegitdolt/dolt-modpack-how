@@ -32,7 +32,7 @@ var fastEats = [
     "neapolitan:strawberries",
     "minecraft:apple",
     "atmospheric:orange",
-    "atmospheric:dragonfruit",
+    "atmospheric:dragon_fruit",
     "minecraft:melon_slice",
     "minecraft:glow_berries",
     "minecraft:sweet_berries",
