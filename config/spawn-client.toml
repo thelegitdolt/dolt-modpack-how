@@ -1,0 +1,12 @@
+
+[spawn-general]
+	#Opacity of flies when in first person, leave 0 to disable.
+	#Range: 0.0 ~ 1.0
+	first_person_fly_opacity = 1.0
+	#Whether biomes in a tag (by default only Tide Pools) display lighter water above sea level. Can be turned off for performance reasons.
+	lighter_inland_water_for_tagged_biomes = true
+
+[bucket-changes]
+	#Whether bucketed mobs display the contents in the tooltip.
+	bucket_tooltip = true
+

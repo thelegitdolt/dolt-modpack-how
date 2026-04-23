@@ -33,7 +33,8 @@
     },
     {
       "items": [
-        "minecraft:crossbow"
+        "minecraft:crossbow",
+        "minecraft:bow"
       ],
       "tables": [
         "minecraft:chests/underwater_ruin_small",
@@ -47,7 +48,7 @@
 
         "environmental:chests/log_cabin"
       ],
-      "weightedBookCount": 0.1
+      "weightedBookCount": 0.15
     }
   ]
 }

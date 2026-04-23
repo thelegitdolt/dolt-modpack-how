@@ -1,5 +1,59 @@
 
 [sunflower-changes]
-	#whether Spawn replaces the vanilla sunflowers with new ones.
-	enable_spawn_sunflower_replacement = true
+	#Whether vanilla Sunflowers are replaced by new ones that follow the sun and give Sunflower Seeds.
+	sunflower_replacement = true
+
+[spawn-general]
+	#Whether Spawn items are added to the Minecraft creative tabs.
+	add_onto_tabs = true
+	#Whether Spawn items are all found in a spawn tab.
+	creative_tab = true
+	#Whether Spawn Spawn Eggs are all found in a different tab and aren't present in the spawn tab.
+	spawn_egg_tab = false
+	#Whether Chests locked by an octopus can't be broken by non-owner players. If enabled, they can still be broken with explosives
+	unbreakable_locked_chests = true
+
+[parrot-changes]
+	#Whether you only dismount Parrots while shifting in the air.
+	parrot_dismounting_changes = true
+
+[turtle-changes]
+	#Whether Turtles have a chance of spawning with barnacles covering their shell.
+	barnacle_turtle = true
+
+[evoker-changes]
+	#Whether Evokers turn Blue Footed Boobies into Red Footed Boobies.
+	evoker_booby_transformation = true
+
+[fish-changes]
+	#Whether Fish only spawn in the pools rather than the ocean in Tide Pools.
+	fish_tide_pool_spawning_change = true
+	#Whether Fish have a chance of swimming towards Stranded.
+	fish_follow_stranded = true
+	#Whether Fish have a chance of swimming towards Sea Cows.
+	fish_follow_sea_cows = true
+
+[skeleton-changes]
+	#Whether Skeletons convert into Barbed after sitting in the water for a while.
+	skeleton_convert_into_barbed = true
+
+[drowned-changes]
+	#Whether Drowneds can spawn on land at night in biomes marked as #spawns_water_hostiles_on_land. If disabled, make sure to also remove them from the #overridden_spawns tag.
+	drowned_placement_changes = true
+	#Whether Baby Drowned killed when riding a Seahorse drop a new disc.
+	seahorse_jockeys_drop_disc = true
+
+[creeper-changes]
+	#Whether Creepers killed by a Barb drop a new Disc.
+	creeper_drops_barbaric = true
+
+[aggression-changes-and-additions]
+	#Whether Wolves hunt Dodos.
+	wolves_hunt_dodos = true
+	#Whether Cats hunt Dodos.
+	cats_hunt_dodos = true
+	#Whether Ocelots hunt Dodos.
+	ocelots_hunt_dodos = true
+	#Whether Polar Bears hunt Seals.
+	polar_bears_hunt_seals = true
 

@@ -2,6 +2,7 @@
 
 ### Mod Changes
 - Updated [Caverns and Chasms](https://modrinth.com/mod/caverns-and-chasms), polished up YAY!
+- Updated [Spawn](https://modrinth.com/mod/spawn-mod), hell yeah
 - Added [Melancholic Hunger](https://modrinth.com/mod/melancholic_hunger)
 - Updated [Easel Does It](https://modrinth.com/mod/easel-does-it) to allow Twilight Resonance's incredibly large paintings to show up in the easel
 - Added [Heart Crystals](https://modrinth.com/mod/heart_crystals)
@@ -13,21 +14,16 @@
 
 ### Enchantment Overhaul! 
 - Immersive Enchantments have been completely reconfigured to fit Dolt Modpack's style!
-- Ancient Books of arbitrary enchantments now be **crafted** in the crafting table using 1 book, 7 diamonds, and 1 reagent which dffers bepending on the enchantment. Below is a table of enchantments and their particular reagents:
+- The enchanting table menu has been redone. By default weak enchantments such as efficiency an sweeping edge is available. To acquire other enchantments one must find **Ancient Books** with that associated enchantment and place them in a chiseled bookshelf next to the enchanting table. 
+- Ancient Books can be found when exploring. 
+	- "Common" enchantments (enchantments that can be applied to pickaxes axes shovels knives swords axes helmets chestplate leggings boots, and more rarely crossbows and bows) can be found in almost every dungeon chest. 
+	- Some enchantments are delegated to special structures, such as Soul Speed to bastions and Air Hop to end cities. 
+	- If a structure contains a tool or weapon with specialized enchantments, it will also contain books for those enchantments (such as Alex caves). 
+	- A full table of loot is shown below: // write table lol
+- Can't find books no matter what you do? Ancient Books of arbitrary enchantments can be **crafted** in the crafting table using 1 book, 7 diamonds, and 1 reagent which dffers depending on the enchantment. The following is a partial table: 
 
 | Enchant | Reagent |
 |--------|--------|
-| Sweeping | _DNE, unlocked by default_ |
-| Efficiency | _DNE, Unlocked by default_ |
-| Silk Touch | _DNE, Unlocked by default_ |
-| Power | _DNE, Unlocked by default_ |
-| Impaling | _DNE, unlocked by default_ |
-| Lure | _DNE, unlocked by default_ |
-| Mending | _Uncraftable, only from loot chests_  |
-| Soul Speed | _Uncraftable, Bastion/Piglin exclusive_ |
-| Swift Sneak | _Uncraftable, Ancient city  exclusive_ |
-| Air Hop | _Uncraftable, end city exclusive_ |
-| Backstabbing | _Drops from Ferrous Wroughtnauts_ |
 | Sharpness | Silver Ingot |
 | Looting | Four Leaf Clover |
 | Bane of Arthropods | Spider Meat |
@@ -35,37 +31,21 @@
 | Fire Aspect | Blaze Powder |
 | Knockback | Hoglin Hide |
 | Projectile Protection | Bone |
-| Fire Protection | lead ingot |
-| Blast Protection | Gunpowder |
+| Fire Protection | Lead Ingot |
 | Unbreaking | Powdered Obsidian |
 | Thorns | Yucca Flower |
 | Launch | Saplings |
 | Vengeance | Soul Bead |
-| Reforming | Ghast Tear |
-| Alleviating | Living Flesh |
-| Aqua Affinity | Pickerelweed |
 | Respiration | Corals |
-| Depth Strider | Fish |
-| Feather Falling | Phantom Membrane |
-| Frost Walker | Frozen Branch |
-| Fortune | Gold Ingot |
-| Punch | MERGE WITH KNOCKBACK |
-| Flame | MERGE THIS WITH FIRE ASPECT |
-| Infinity | Zirconia |
-| Piercing | Phasmo Shard |
-| Spread of Ailments | Gunk (dungeon's delight) |
-| Quick Charge | Redstone Dust |
-| Multishot | Wildflowers |
-| Loyalty | Thrasher Tooth |
-| Shockwave | Kinetic Core |
-| Channeling | Oxidized Copper Ingot |
-| Riptide | Nautilus Shell |
-| Obedience | Broken Links (species) |
-| Luck of the Sea | MERGE WITH FORTUNE |
-| Curse of Binding | Slime Ball |
-| Curse of Vanishing | Spinel |
-| Curse of Slipping | Banana Bunch |
 
+- Ancient book of arbitrary enchantments can also be created in the enchanting table in a process called **conjuring**. This takes 1 book (vanilla), the reagent of the enchantment you want, and 20 levels.
+- Enchantments like Mending, Soul Speed, and Air Hop do not have reagents; you must find the books in those specialized structures. Books from specialized structures could contain ancient books holding more than one enchantment; these are impossible to get from crafting. 
+- Added a new Fairy Dust material 
+	- Texture (placeholder) stolen from Vitalis from Indexed I NEED TEXTURES
+	- Are quite rare; one diamond & some other semiprecious materials are required to craft 3
+	- Once you have an ancient book for an enchantment, you can apply it to your tools using the enchanting table! 
+		- Enchantments are applied one level at a time; each level applied takes *level* lapis and *level - 1* Fairy dust
+			- Therefore applying Efficiency III on an item with Efficiency II takes 3 lapis and 2 fairy dust. (Might change)
 - Changed efficiency
 	- Changed the based efficiency for each vanilla tool.
 	
@@ -79,8 +59,14 @@
 | Netherite | 18 | 9 | 
 | Necromium | 18 | 9 | 
 | Electrum | 18 | 8 |
+	
+	- Efficiency is now 3 levels and gives a flat 7 points of efficiency per level. 
+	- For reference, vanilla efficiency used to give level^2 + 1 points of efficiency.
+- A video showcasing the enchanting process: 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aXoBq7fJoBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - Allurement level scaling is always constant, instead of rising up to 35 xp per level
+- Removed ancient tomes from quark
 
 ### Tweaks
 - Hunger has been removed! Food now directly heal hearts after a slow regeneration period, and sprinting is always enabled. 
@@ -98,11 +84,13 @@
 	- Removed Quark's bricks and stuff because they suck (polished up sweep)
 - Configured Galosphere
 	- Removed amethyst lamps (C&C better)
+	- Removed the sifting enchantment because it SUCKS
 	- Removed tuff dirt in favor of ROCKY DIRT
 	- Sterling armor gives explosion resistance instead of "ILLAGER RESISTANCE"
 - Configured Heart Crystals
 	- Heart Crystal now, instead of giving players extra hearts, gives them Health Boost and Regeneration for awhile 
 - Made every tnt variant cheaper in line with polished up new TNT recipe
+- The gobthumper (gummy worm summing block) crafts 1 at a time
 - Capes no longer render if players are wearing a quark backpack
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Fixed windswept fir chiseled bookshelf still being called "pine" 
@@ -147,6 +135,8 @@
 - Made Supp flutes not have durability
 - FD Cooking Pots are now crafted with a stick instead of a stone shovel
 - Immersive Enchanting creative bookshelves now correctly have the obsidian sound type
+- Fixed Brazier Chests generating empty
+- Fixed enchantments whose items have been RRemoved not being RRemoved (Potato Recovery)
 - Renamed the fancy create doors to Fancy Doors to avoid having two copper doors
 - Removed My Nether Delight's strider rocks & strider eggs & boiled eggs & etc
 - Removed Bubblegunk from Dungeons's Delight

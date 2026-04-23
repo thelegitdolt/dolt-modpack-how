@@ -12,7 +12,7 @@
         "minecraft:chests/bastion_treasure",
         "minecraft:chests/bastion_hoglin_stable"
       ],
-      "weightedBookCount": 0.2
+      "weightedBookCount": 0.15
     },
     {
       "items": [
@@ -24,7 +24,11 @@
         "minecraft:chests/bastion_treasure",
         "minecraft:chests/bastion_hoglin_stable"
       ],
-      "weightedBookCount": 0.2
+      "weightedBookCount": 0.15,
+      "enchantCount": {
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      }
     },
     {
       "items": [
@@ -41,7 +45,7 @@
       }
     },
     {
-      "items": [
+      "enchantments": [
         "airhop:air_hop",
         "supplementaries:stasis"
       ], 

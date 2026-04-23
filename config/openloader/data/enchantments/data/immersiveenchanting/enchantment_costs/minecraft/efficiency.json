@@ -1,3 +1,4 @@
 {
-    "requiresBook": false
+    "requiresBook": false,
+    "maxLevel": 3
 }

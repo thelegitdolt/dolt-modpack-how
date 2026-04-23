@@ -33,8 +33,7 @@
     {
       "items": [
         "minecraft:crossbow",
-        "minecraft:fishing_rod",
-        "minecraft:trident"
+        "minecraft:bow"
       ],
       "tables": [
         "minecraft:chests/stronghold/jail",

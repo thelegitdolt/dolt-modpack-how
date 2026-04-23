@@ -17,6 +17,7 @@
     {
       "items": [
         "minecraft:crossbow",
+        "minecraft:bow",
         "minecraft:fishing_rod",
         "minecraft:trident"
       ],

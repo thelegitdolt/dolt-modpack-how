@@ -4,7 +4,7 @@
   "injections": [
     {
       "weightedBookCount": 0.6,
-      "enchants": [
+      "enchantments": [
         "alexscaves:triple_split",
         "alexscaves:explosive_flavor",
         "alexscaves:sharp_cane",
@@ -22,7 +22,7 @@
     },
     {
       "weightedBookCount": 1,
-      "enchants": [
+      "enchantments": [
         "alexscaves:impending_stab",
         "alexscaves:relentless_darkness",
         "alexscaves:sated_blade",
@@ -36,7 +36,7 @@
     },
     {
       "weightedBookCount": 1.0,
-      "enchants": [
+      "enchantments": [
         "alexscaves:chomping_spirit",
         "alexscaves:plummeting_flight",
         "alexscaves:herd_phalanx"

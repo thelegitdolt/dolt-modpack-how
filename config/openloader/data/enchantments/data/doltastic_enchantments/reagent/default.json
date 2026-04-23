@@ -25,5 +25,8 @@
     "minecraft:smite": "glistering_melon_slice",
     "minecraft:thorns": "cactus",
     "minecraft:unbreaking": "obsidian",
-    "minecraft:vanishing_curse": "fermented_spider_eye"
+    "minecraft:vanishing_curse": "fermented_spider_eye",
+    "minecraft:flame": "charcoal",
+    "minecraft:luck_of_the_sea": "salmon",
+    "minecraft:punch": "piston"
 }
