@@ -20,5 +20,11 @@
         "patterns": [
             "create:.*schematic.*"
         ]
+    },
+    {
+        "action": "remove_enchantment",
+        "items": [
+            "create:potato_recovery"
+        ]
     }
 ]

@@ -4,5 +4,11 @@
         "items": [
             "galosphere:sterling_horse_armor"
         ]
+    },
+    {
+        "action": "remove_enchantment",
+        "items": [
+            "galosphere:sifting"
+        ]
     }
 ]

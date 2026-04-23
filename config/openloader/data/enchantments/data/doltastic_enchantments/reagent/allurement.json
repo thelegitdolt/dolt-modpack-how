@@ -1,9 +1,13 @@
 {
-    "allurement:alleviating": "caverns_and_chasms:living_flesh",
+    "allurement:alleviating": "heart_crystals:heart_crystal_shard",
     "allurement:launch": "#minecraft:saplings",
     "allurement:obedience": "species:broken_links",
     "allurement:reforming": "minecraft:ghast_tear",
     "allurement:spread_of_ailments": "dungeonsdelight:rotbulb",
     "allurement:shockwave": "species:kinetic_core",
-    "allurement:vengeance": "quark:soul_bead"
+    "allurement:vengeance": "quark:soul_bead",
+    "allurement:reeling": "tripwire_hook",
+
+    "allurement:ascension_curse": "shulker_shell",
+    "allurement:fleeting_curse": "rabbit_foot"
 }

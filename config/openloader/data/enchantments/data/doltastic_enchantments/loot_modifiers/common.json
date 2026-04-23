@@ -1,0 +1,64 @@
+{
+  "type": "doltastic_enchantments:ancient_book",
+  "conditions": [],
+  "injections": [
+    {
+      "commonEnchants": true, 
+      "tables": [
+        "minecraft:chests/stronghold/jail",
+        "minecraft:chests/simple_dungeon",
+        "minecraft:chests/shipwreck_treasure",
+        "minecraft:chests/nether_bridge",
+        "minecraft:chests/stronghold/base",
+        "minecraft:chests/jungle_temple",
+        "minecraft:chests/ruined_portal",
+        "minecraft:chests/shipwreck_map",
+
+        "minecraft:chests/desert_pyramid",
+        "caverns_and_chasms:chests/vault",
+        "darkerdepths:chests/catacombs/standard",
+        "darkerdepths:chests/catacombs/treasure",
+        "minecraft:chests/buried_treasure",
+
+        "minecraft:chests/ancient_city",
+        "minecraft:chests/end_city_treasure",
+
+        "atmospheric:chests/arid_garden",
+        "atmospheric:chests/kousa_sanctum",
+        "windswept:chests/grove_weathered_house"
+
+      ],
+      "weightedBookCount": 0.8
+    },
+    {
+      "items": [
+        "minecraft:crossbow",
+        "minecraft:fishing_rod",
+        "minecraft:trident"
+      ],
+      "tables": [
+        "minecraft:chests/stronghold/jail",
+        "minecraft:chests/simple_dungeon",
+        "minecraft:chests/shipwreck_treasure",
+        "minecraft:chests/nether_bridge",
+        "minecraft:chests/stronghold/base",
+        "minecraft:chests/jungle_temple",
+        "minecraft:chests/ruined_portal",
+        "minecraft:chests/shipwreck_map",
+
+        "minecraft:chests/desert_pyramid",
+        "caverns_and_chasms:chests/vault",
+        "darkerdepths:chests/catacombs/standard",
+        "darkerdepths:chests/catacombs/treasure",
+
+        "minecraft:chests/ancient_city",
+        "minecraft:chests/end_city_treasure",
+
+        "atmospheric:chests/arid_garden",
+        "atmospheric:chests/kousa_sanctum",
+        "windswept:chests/grove_weathered_house"
+      ],
+      "weightedBookCount": 0.2
+    }
+  ]
+}

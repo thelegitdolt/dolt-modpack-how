@@ -13,5 +13,13 @@
         "patterns": [
             "dungeonsdelight:.*cleaver.*"
         ]
+    },
+    {
+        "action": "remove_enchantment",
+        "items": [
+            "dungeonsdelight:serrated_strike",
+            "dungeonsdelight:ricochet",
+            "dungeonsdelight:life_grasp"
+        ]
     }
 ]

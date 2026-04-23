@@ -1,0 +1,93 @@
+{
+  "type": "doltastic_enchantments:ancient_book",
+  "conditions": [],
+  "injections": [
+    {
+      "enchantments": [
+        "allurement:obedience"
+      ], 
+      "tables": [
+        "minecraft:chests/bastion_bridge",
+        "minecraft:chests/bastion_other",
+        "minecraft:chests/bastion_treasure",
+        "minecraft:chests/bastion_hoglin_stable"
+      ],
+      "weightedBookCount": 0.2
+    },
+    {
+      "items": [
+        "piglinproliferation:buckler"
+      ], 
+      "tables": [
+        "minecraft:chests/bastion_bridge",
+        "minecraft:chests/bastion_other",
+        "minecraft:chests/bastion_treasure",
+        "minecraft:chests/bastion_hoglin_stable"
+      ],
+      "weightedBookCount": 0.2
+    },
+    {
+      "items": [
+        "galosphere:saltbound_tablet"
+      ], 
+      "tables": [
+        "galosphere:chests/pink_salt_shrine",
+        "galosphere:chests/pink_salt_shrine_library"
+      ],
+      "weightedBookCount": 0.2,
+      "enchantCount": {
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      }
+    },
+    {
+      "items": [
+        "airhop:air_hop",
+        "supplementaries:stasis"
+      ], 
+      "tables": [
+        "minecraft:chests/end_city_treasure"
+      ],
+      "weightedBookCount": 0.2,
+      "enchantCount": {
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      }
+    },
+    {
+      "items": [
+        "darkerdepths:stiletto"
+      ], 
+      "tables": [
+        "darkerdepths:chests/catacombs/standard",
+        "darkerdepths:chests/catacombs/treasure"
+      ],
+      "weightedBookCount": 0.25,
+      "enchantCount": {
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      }
+    },
+    {
+      "enchantments": [
+        "netherexp:phantasm_hull"
+      ],
+      "items": [
+        "netherexp:shotgun_fist",
+        "netherexp:pump_charge_shotgun"
+      ], 
+      "tables": [
+        "netherexp:brazier_chest/exposed",
+        "netherexp:brazier_chest/hidden"
+      ],
+      "weightedBookCount": 0.25,
+      "enchantCount": {
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      }
+    }
+  ]
+}
+
+
+

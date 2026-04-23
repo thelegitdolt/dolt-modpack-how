@@ -11,5 +11,11 @@
             "mynethersdelight:cooked_loin",
             "mynethersdelight:raw_stuffed_hoglin"
         ]
+    },
+    {
+        "action": "remove_enchantment",
+        "items": [
+            "mynethersdelight:poaching"
+        ]
     }
 ]
