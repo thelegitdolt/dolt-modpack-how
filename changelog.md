@@ -62,8 +62,7 @@
 	
 	- Efficiency is now 3 levels and gives a flat 7 points of efficiency per level. 
 	- For reference, vanilla efficiency used to give level^2 + 1 points of efficiency.
-- A video showcasing the enchanting process: 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aXoBq7fJoBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- A video showcasing the enchanting process: https://www.youtube.com/watch?v=aXoBq7fJoBI
 
 - Allurement level scaling is always constant, instead of rising up to 35 xp per level
 - Removed ancient tomes from quark
