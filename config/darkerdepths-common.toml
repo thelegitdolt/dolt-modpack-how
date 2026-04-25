@@ -128,7 +128,7 @@
 [Supercharges]
 	#Duration of the supercharge buff in minutes
 	#Range: 1 ~ 3600
-	supercharge_minutes = 5
+	supercharge_minutes = 10
 	#Supercharge Multipliers - Increases in percentage:
 	#Dig speed increase:
 	#Range: 0 ~ 1000

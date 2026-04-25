@@ -1,0 +1,11 @@
+{
+  "repaletter": {
+    "type": "blueprint:simple",
+    "replaces_block": "darkerdepths:rope",
+    "replaces_with": "farmersdelight:rope"
+  },
+  "structures": [
+    "darkerdepths:rope_mine_desert",
+    "darkerdepths:rope_mine_forest"
+  ]
+}

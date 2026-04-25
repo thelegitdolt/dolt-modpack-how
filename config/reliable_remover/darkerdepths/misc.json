@@ -1,0 +1,13 @@
+[
+    {
+        "action": "remove",
+        "patterns": [
+        ]
+    },
+    {
+        "action": "remove",
+        "items": [
+            "darkerdepths:rope"
+        ]
+    }
+]
