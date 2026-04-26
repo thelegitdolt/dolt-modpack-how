@@ -1,5 +1,4 @@
 #priority 233
-
+import mods.reliableremover.ReliableRemoverAPIAccess; 
 print("TESTING TESTING WEE WOH WEE WOH");
 
-println(SUtil.charsAfterLast("sex whatsup here's a &mathmathmath", "&"));

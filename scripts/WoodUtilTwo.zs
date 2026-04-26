@@ -59,6 +59,10 @@ public class WoodTypeInstance {
     public var otherPred as function(a as ResourceLocation) as bool: get, set = (res) => true; 
     public var nameOverride as ResourceLocation: get, set = new ResourceLocation("minecraft", "air");
 
+    private static var hierarchy = ["dolt_mod_how", "woodworks", "quark"] as string[];
+    private static var everyCompHierarchy = ["abnww", "q"] as string[];
+
+
     public static create(mainPred as function(a as ResourceLocation) as bool = (res) => true, 
                     otherPred as function(a as ResourceLocation) as bool = (res) => true, 
                     nameOverride as ResourceLocation = new ResourceLocation("minecraft", "air")) as WoodTypeInstance {
@@ -91,6 +95,37 @@ public class WoodTypeInstance {
 
     public test(rl as ResourceLocation) as bool {
         return eval(mainPred, rl) && eval(otherPred, rl);
+    }
+
+    public static modHierarchyFilter(listForWood as stdlib.List<ResourceLocation>) as stdlib.List<ResourceLocation> {
+        if (listForWood.length <= 1) {
+            return listForWood; 
+        }
+        if (listForWood.allMatch((rl) => rl.getNamespace() == "everycomp")) {
+            doHierarchy(listForWood, everyCompHierarchy, (rl) => SUtil.charsBeforeFirst(rl.getPath(), "/"));
+            return listForWood;
+        }
+
+        listForWood.removeIf((rl) => {
+            return rl.getNamespace() == "everycomp";
+        });
+
+        doHierarchy(listForWood, hierarchy, (rl) => rl.getNamespace());
+        return listForWood; 
+    }
+
+    private static doHierarchy(listForWood as stdlib.List<ResourceLocation>, hierarchy as string[], representative as function(_ as ResourceLocation) as string) as void {
+        for i in 0 .. (hierarchy.length - 1) {
+            var mod = hierarchy[i];
+            if listForWood.anyMatch((rl) => representative(rl) == mod) {
+                var index as usize = i + 1; 
+                var restOfHierarchy = hierarchy[index .. hierarchy.length];
+                listForWood.removeIf((rl) => {
+                    return representative(rl) in restOfHierarchy;
+                });
+                return; 
+            }
+        }
     }
 
     private static eval(pred as function(_ as ResourceLocation) as bool, rl as ResourceLocation) as bool {return pred(rl);}
@@ -150,16 +185,30 @@ public class WoodListTwo {
         return create([nameFunc], blacklist);
     }
 
+    public static isRemoved(a as ResourceLocation) as bool {
+        if ("everycomp" == a.getNamespace()) {
+            if !("spawn" in a.getPath()) {
+                if ("abnww" in a.getPath() && ("boards" in a.getPath() || "bookshelf" in a.getPath() || "beehive" in a.getPath() || "chest" in a.getPath() || "ladder" in a.getPath())) {
+                    return true; 
+                }
+            }
+        }
+        if ("quark" in a.getNamespace() || a.getPath().startsWith("q/")) {
+            // removes all quark compat bookshelves, chests, and ladders
+            if ("bookshelf" in a.getPath()|| "chest" in a.getPath() || "ladder" in a.getPath()) {
+                return true; 
+            }
+        } return false; 
+    }
+
     public static create(nameFuncs as string[], blacklist... as string[]) as WoodListTwo {
         var newMap = {} as WoodResourcePair[string];
         for name, instance in TEMPLATE_MAP {
             if !(name in blacklist) {
                 var mainPred = (rl) => {
+
                     var path = rl.getPath(); 
-                    if ("/" in path) {
-                        if (("q/" in path || "quark" in rl.getNamespace()) && ("chest" in path || "ladder" in path || "bookshelf" in path)) {
-                            return false; 
-                        }   
+                    if ("/" in path) {   
                         path = SUtil.charsAfterLast(path, "/");
                     }
                     for nameFunc in nameFuncs {
@@ -193,14 +242,12 @@ public class WoodListTwo {
     public edgeCase(names as string[], nameFuncs as string[]) as WoodListTwo {
         for name in names {
             var pred = (rl) => {
-                var path = rl.getPath(); 
+                var path = rl.getPath();
+
                 if ("/" in path) {
-                    if (("q/" in path || "quark" in rl.getNamespace()) && ("chest" in path || "ladder" in path || "bookshelf" in path)) {
-                        return false; 
-                    }
                     path = SUtil.charsAfterLast(path, "/");
-                    
                 }
+
                 for nameFunc in nameFuncs {
                     if (path == SUtil.format(nameFunc, name)) {
                         return true; 
@@ -233,6 +280,8 @@ public class WoodListTwo {
                 listForWood.add(woodItem);
             }
         }
+        listForWood = WoodTypeInstance.modHierarchyFilter(listForWood);
+
         if (listForWood.length > 1) {
             throw new IllegalArgumentException(SUtil.format("Ambiguous predicate for WoodListTwo %s, contains items %s and %s", name, 
                 listForWood[0].toString(), listForWood[1].toString()));

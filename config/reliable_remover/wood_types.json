@@ -19,7 +19,7 @@
         ],
         "not": {
             "patterns": [
-                "everycomp.*/spawn/.*"
+                "everycomp:abnww/spawn/.*"
             ]
         }
     }

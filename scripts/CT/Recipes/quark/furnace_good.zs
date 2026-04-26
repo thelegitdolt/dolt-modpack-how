@@ -4,9 +4,9 @@ DebugUtil.startScript("recipes/quark/furnace_good");
 import crafttweaker.api.resource.ResourceLocation;
 
 
-var boats = WoodGroup.create("claret", "petrified", "thornwood", "desecrated", "pewen", "wormwood")
+var boats = WoodGroup.create("claret", "petrified", "thornwood", "desecrated", "pewen", "wormwood", "date", "rotten")
     .add("boat", "%s_boat")
-    .edgeCase("boat", ["bamboo", "date"], "%s_raft")
+    .edgeCase("boat", ["bamboo"], "%s_raft")
     .add("furnace_boat", "%s_furnace_boat")
     .edgeCase("furnace_boat", ["bamboo"], "%s_furnace_raft");
 
