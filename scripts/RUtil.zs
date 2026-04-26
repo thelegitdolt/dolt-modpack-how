@@ -1,7 +1,8 @@
-#priority 100
+#priority 340
 
 import crafttweaker.api.recipe.Brewing;
 import crafttweaker.api.util.math.RandomSource;
+import stdlib.IllegalArgumentException;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.recipe.IRecipeManager;

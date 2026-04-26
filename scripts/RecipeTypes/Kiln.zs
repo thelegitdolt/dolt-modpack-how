@@ -9,7 +9,6 @@ import crafttweaker.api.item.type.block.BlockItem;
 
 
 public class Kiln {
-    
     public static removeByName(name as string) as void {
         <recipetype:clayworks:baking>.removeByName(name); 
     }

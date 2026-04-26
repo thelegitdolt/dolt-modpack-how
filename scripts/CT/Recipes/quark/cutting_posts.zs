@@ -3,14 +3,15 @@ DebugUtil.startScript("Recipes/quark/cutting_posts");
 
 import crafttweaker.api.resource.ResourceLocation;
 
-var posts = WoodList.create(Constants.QUARK, (str) => str + "_post").abnormalsEC()
-   .filter("vessel", "wormwood", "bamboo").build(); 
-var stripped_posts = WoodList.create(Constants.QUARK, (str) => "stripped_" + str + "_post")
-   .filter("vessel", "wormwood", "bamboo").abnormalsEC().build(); 
+var posts = WoodGroup.create("wormwood", "bamboo", "date")
+   .add("post", "%s_post")
+   .add("stripped", ["stripped_%s_post", "%s_stripped_post"]);
 
-var posts_and_stripped_posts = WoodUtil.asPair(posts, stripped_posts) as ResourceLocation[ResourceLocation]; 
+var posts_real = posts.build();
 
-for post, stripped in posts_and_stripped_posts {
+for i in 0 .. posts.length() {
+   val post = posts_real["post"][i];
+   val stripped = posts_real["stripped"][i];
    val postItem = <item:${post}>;
    val strippedItem = <item:${stripped}>;
 

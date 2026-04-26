@@ -3,22 +3,20 @@ DebugUtil.startScript("recipes/quark/furnace_good");
 
 import crafttweaker.api.resource.ResourceLocation;
 
-val missingBoats = ["pewen", "thornwood", "rotten", "claret", "wormwood", "petrified"];
-var boats = WoodList.create("minecraft", (str) => str + "_boat")
-        .filter(missingBoats)
-        .specialModid(["warped", "crimson"], Constants.BOATLOAD)
-        .specialFunc(["bamboo"], (bamb) => bamb + "_raft").build(); 
-    
-var furnace_boats = WoodList.create(Constants.BOATLOAD, (str) => str + "_furnace_boat")
-        .filter(missingBoats)
-        .specialFunc(["bamboo"], (bamb) => bamb + "_furnace_raft").build(); 
 
-var boat_furnace_pair = WoodUtil.asPair(boats, furnace_boats); 
+var boats = WoodGroup.create("claret", "petrified", "thornwood", "desecrated", "pewen", "wormwood")
+    .add("boat", "%s_boat")
+    .edgeCase("boat", ["bamboo", "date"], "%s_raft")
+    .add("furnace_boat", "%s_furnace_boat")
+    .edgeCase("furnace_boat", ["bamboo"], "%s_furnace_raft");
 
-for boat, furnace in boat_furnace_pair {
-    craftingTable.removeByName(furnace.toString());
-    craftingTable.addShapeless(RUtil.getRecipeString(furnace) + "_based", 
-        <item:${furnace}>, [<item:${boat}>, <tag:items:forge:furnace/stone>]);
+var boats_real = boats.build(); 
+for i in 0 .. boats.length() {
+    var boat = boats_real["boat"][i];
+    var furnace_boat = boats_real["furnace_boat"][i];
+    craftingTable.removeByName(furnace_boat);
+    craftingTable.addShapeless(RUtil.getRecipeString(furnace_boat) + "_based", 
+        <item:${furnace_boat}>, [<item:${boat}>, <tag:items:forge:furnace/stone>]);
 }
 
 craftingTable.remove(<item:clayworks:kiln>);

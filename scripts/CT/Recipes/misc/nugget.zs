@@ -95,6 +95,16 @@ craftingTable.addShaped("copper_lantern_based", <item:caverns_and_chasms:copper_
         ]
 ]);
 
+craftingTable.addShaped("glow_shroom_dark_depth_good", <item:darkerdepths:glowshroom_lantern>, [
+        [
+            <item:minecraft:iron_nugget>
+        ], 
+        [<item:darkerdepths:glow_grime>], 
+        [
+            <item:minecraft:iron_nugget>
+        ]
+]);
+craftingTable.removeByName("darkerdepths:glowshroom_lantern");
 
 function cheapen_gold_food(food as string, gold as string) as void {
     craftingTable.removeByName(gold); 
@@ -109,6 +119,18 @@ function cheapen_gold_food(food as string, gold as string) as void {
     ]); 
 }
 
+function cheapen_cringe_gold_food(food as string, gold as string, recipe as string) as void {
+    craftingTable.removeByName(recipe); 
+
+    var x as usize = gold.indexOf(":") + 1;
+    var y = gold.length;
+
+    craftingTable.addShaped("cheap_" + gold[x .. y] + "_lol", <item:${gold}>, [
+        [RUtil.air, <item:minecraft:gold_nugget>, RUtil.air],
+        [<item:minecraft:gold_nugget>, <item:${food}>, <item:minecraft:gold_nugget>],
+        [RUtil.air, <item:minecraft:gold_nugget>, RUtil.air],
+    ]); 
+}
 
 lanterns_okay("minecraft", "", <item:minecraft:torch>);
 lanterns_okay("minecraft", "soul_", <item:minecraft:soul_torch>);
@@ -126,5 +148,8 @@ craftingTable.addShaped("living_lantern_good", <item:dungeonsdelight:living_lant
 cheapen_gold_food("minecraft:carrot", "minecraft:golden_carrot"); 
 cheapen_gold_food("minecraft:melon_slice", "minecraft:glistering_melon_slice"); 
 cheapen_gold_food("atmospheric:passion_fruit", "atmospheric:shimmering_passion_fruit"); 
+cheapen_gold_food("galosphere:lichen_cordyceps", "galosphere:golden_lichen_cordyceps"); 
+cheapen_cringe_gold_food("minecraft:potato", "sob:golden_potato", "sob:crafting/golden_potato"); 
+cheapen_cringe_gold_food("minecraft:potato", "sob:golden_prickly_pear", "sob:crafting/golden_prickly_pear"); 
 
 DebugUtil.endScript("recipes/misc/nugget"); 

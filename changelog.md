@@ -88,6 +88,12 @@
 	- Removed the sifting enchantment because it SUCKS
 	- Removed tuff dirt in favor of ROCKY DIRT
 	- Sterling armor gives explosion resistance instead of "ILLAGER RESISTANCE"
+	- Changed Golden Lichen Cordyceps recipe to be in line with vanilla ones (along with golden potatoes and prickly pears from SoB which I forgot about. Skull Emoji)
+- Configured Darker Depths
+	- Removed DD ropes and replaced them with FD rope in loot and in structures
+	- Glowshroom Cap no longer does Dynamic Lighting
+	- Changed Glowstone lantern recipe
+	- Renamed petrified log to desecrated logs (for sully's mod)
 - Configured Heart Crystals
 	- Heart Crystal now, instead of giving players extra hearts, gives them Health Boost and Regeneration for awhile 
 - Configured Spawn
