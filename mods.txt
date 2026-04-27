@@ -151,6 +151,7 @@
 [TOOL] CraftTweaker-forge-1.20.1-14.0.60.jar
 [TOOL] OpenLoader-Forge-1.20.1-19.0.5.jar
 [TOOL] attributesetter-2.1.1-forge.jar
+[TOOL] incontrol-1.20-9.4.6.jar
 [TOOL] polytone-1.20-3.5.23.jar
 [TOOL] propertymodifier-1.20.1-0.1-all.jar
 [TOOL] reliable_remover-forge-1.20.1-2.2.4.jar
