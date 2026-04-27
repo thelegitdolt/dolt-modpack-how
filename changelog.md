@@ -126,6 +126,7 @@
 - Fixed Medium Weighted Pressure Plate missing recipe
 - Fixed being able to get Cessation from bejeweled apples
 - Fixed Weathed Copper Plating being called Weathered Coppe PlatingPlating
+- Fixed vanilla sunflower spawning over Spawn sunflowers
 - Fixed black ice glaciers not spawning soul camps from piglin proliferation
 - Fixed new darker depths stones & sandstones not being mineable by hand
 - Fixed every compat SoB counters not being removed
