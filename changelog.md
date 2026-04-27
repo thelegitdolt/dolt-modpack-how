@@ -95,15 +95,19 @@
 	- Changed Glowstone lantern recipe
 	- Renamed petrified log to desecrated logs (for sully's mod)
 	- Added new crushing recipe for aridrock, darkslate, grimestone, and duskrock
+	- Added a heated mixer recipe for forsaken bronze 
 - Configured Heart Crystals
 	- Heart Crystal now, instead of giving players extra hearts, gives them Health Boost and Regeneration for awhile 
 - Configured Spawn
 	- Made feasts stack to 100, made date cookie recipe shapeless
+	- Coastal crabs and spider crabs now drop Quark's Crab Legs, which are used to craft the crab boil
+	- Booby Egg Shards crafts teal dye instead of blue dye
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Delight-o-flight cloud islands spawn more often
 - Fixed inconsistent awning and candle holder recipes
 - The gobthumper (gummy worm summing block) crafts 1 at a time
 - Capes no longer render if players are wearing a quark backpack
+- Hide removed sully's mod grindstone recipe category
 - Removed farmer's delight cutting board scavenging recipes because they ALL SUCK
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Fixed windswept fir chiseled bookshelf still being called "pine" 
@@ -114,7 +118,10 @@
 - Made olivestone crafted with cactus paste instead of green dye
 - Removed the soul, cupric, ender variants of: Jack-o-lanterns, Fairy Lights, Fire Rings, and Pigsteel Lanterns
 - Removed Quark Gunpowder Sacks
-- Removed deep ones 
+- Removed deep ones
+- Removed soul sandstones
+- Fixed new darker depths stones & sandstones not being mineable by hand
+- Fixed every compat SoB counters not being removed
 - Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns.
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf
 
@@ -177,6 +184,7 @@ ADDITIONS
 CHANGES
 - Buffed rotbulb and wormroot rates. 1 monster yam = 2.5 rotbulbs = 5 gunk = 10 wormroots = 2.25 wormroot blocks = 10 wormroot planks
 - Made red algae & dry moss carpets only drop with silk touch or shears
+- Made Wilder Flowers wildflowers only drop when mined by shears & replaceable 
 - Made tropical wildflowers and other wildflowers replaceable & only drop with shears  
 - Added vanilla 1.21.6 lead recipe cuz I was bored
 - Made crafting cut copper consistent with stonecutting it
