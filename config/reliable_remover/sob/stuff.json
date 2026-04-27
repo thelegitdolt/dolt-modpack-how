@@ -16,7 +16,8 @@
     {
         "action": "remove",
         "patterns": [
-            "sob:.*_counter"
+            "sob:.*_counter",
+            "everycomp:sob/.*_counter"
         ]
     }
 ]

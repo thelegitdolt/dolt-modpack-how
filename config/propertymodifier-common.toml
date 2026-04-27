@@ -64,6 +64,12 @@
 		"atmospheric:red_arid_sandstone" = false
 		"atmospheric:red_arid_sandstone_stairs" = false
 		"atmospheric:red_arid_sandstone_slab" = false
+		"spawn:blasted_sandstone" = false
+		"spawn:blasted_sandstone_stairs" = false
+		"spawn:blasted_sandstone_slab" = false
+		"spawn:reefstone" = false
+		"spawn:reefstone_stairs" = false
+		"spawn:reefstone_slab" = false
 		"minecraft:blackstone" = false
 		"minecraft:blackstone_stairs" = false
 		"minecraft:blackstone_slab" = false
@@ -107,6 +113,24 @@
 		"caverns_and_chasms:cassiterite" = false
 		"caverns_and_chasms:cassiterite_stairs" = false
 		"caverns_and_chasms:cassiterite_slab" = false
+		"darkerdepths:aridrock" = false
+		"darkerdepths:aridrock_stairs" = false
+		"darkerdepths:aridrock_slab" = false
+		"darkerdepths:duskrock" = false
+		"darkerdepths:duskrock_stairs" = false
+		"darkerdepths:duskrock_slab" = false
+		"darkerdepths:grimestone" = false
+		"darkerdepths:grimestone_stairs" = false
+		"darkerdepths:grimestone_slab" = false
+		"galosphere:rose_pink_salt" = false
+		"galosphere:rose_pink_salt_stairs" = false
+		"galosphere:rose_pink_salt_slab" = false
+		"galosphere:pink_salt" = false
+		"galosphere:pink_salt_stairs" = false
+		"galosphere:pink_salt_slab" = false
+		"galosphere:pastel_pink_salt" = false
+		"galosphere:pastel_pink_salt_stairs" = false
+		"galosphere:pastel_pink_salt_slab" = false
 
 	#Set the light emission of a block (state). Must be an integer between 0 and 15. Examples (without the leading #):
 	#"minecraft:redstone_torch[lit=true]" = 15

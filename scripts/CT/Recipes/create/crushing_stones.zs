@@ -60,6 +60,22 @@ DebugUtil.startScript("recipes/create/crushing_stones");
     [<item:minecraft:magma_cream> % 5, <item:minecraft:netherrack> % 5], 
     <item:minecraft:magma_block>, 200);
 
+<recipetype:create:crushing>.addRecipe("aridrock_crush", 
+    [<item:minecraft:cobblestone> % 5, <item:minecraft:sand> % 5], 
+    <item:darkerdepths:aridrock>, 200);
+
+<recipetype:create:crushing>.addRecipe("duskrock_crush", 
+    [<item:minecraft:clay_ball> % 5, <item:darkerdepths:aridrock> % 5], 
+    <item:darkerdepths:duskrock>, 200);
+
+<recipetype:create:crushing>.addRecipe("darkslate_crush", 
+    [<item:minecraft:deepslate> % 5, <item:minecraft:coal> % 5], 
+    <item:darkerdepths:darkslate>, 300);
+
+
+<recipetype:create:crushing>.addRecipe("grimestone_crush", 
+    [<item:minecraft:cobblestone> % 5, <item:minecraft:bone_meal> % 5, <item:minecraft:slime_ball> % 5], 
+    <item:darkerdepths:grimestone>, 300);
 
 
 DebugUtil.endScript("recipes/create/crushing_stones"); 

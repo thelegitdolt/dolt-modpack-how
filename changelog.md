@@ -94,6 +94,7 @@
 	- Glowshroom Cap no longer does Dynamic Lighting
 	- Changed Glowstone lantern recipe
 	- Renamed petrified log to desecrated logs (for sully's mod)
+	- Added new crushing recipe for aridrock, darkslate, grimestone, and duskrock
 - Configured Heart Crystals
 	- Heart Crystal now, instead of giving players extra hearts, gives them Health Boost and Regeneration for awhile 
 - Configured Spawn
@@ -103,6 +104,7 @@
 - Fixed inconsistent awning and candle holder recipes
 - The gobthumper (gummy worm summing block) crafts 1 at a time
 - Capes no longer render if players are wearing a quark backpack
+- Removed farmer's delight cutting board scavenging recipes because they ALL SUCK
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Fixed windswept fir chiseled bookshelf still being called "pine" 
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
@@ -174,7 +176,8 @@ ADDITIONS
 
 CHANGES
 - Buffed rotbulb and wormroot rates. 1 monster yam = 2.5 rotbulbs = 5 gunk = 10 wormroots = 2.25 wormroot blocks = 10 wormroot planks
-- Made moss carpets only drop with silk touch or shears
+- Made red algae & dry moss carpets only drop with silk touch or shears
+- Made tropical wildflowers and other wildflowers replaceable & only drop with shears  
 - Added vanilla 1.21.6 lead recipe cuz I was bored
 - Made crafting cut copper consistent with stonecutting it
 - Changed some health values around

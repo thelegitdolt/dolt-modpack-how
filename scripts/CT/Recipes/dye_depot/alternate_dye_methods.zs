@@ -46,6 +46,8 @@ RUtil.cut.addRecipe("cut_torchflower_to_tan_dye", <item:minecraft:torchflower>, 
 
 # teal
 RUtil.oneToOneConversion("teal_from_phasmo_shard", <item:netherexp:phasmo_shard>, <item:dye_depot:teal_dye>);
+craftingTable.removeByName("spawn:blue_dye_from_booby_egg_shard");
+RUtil.oneToOneConversion("teal_from_booby_egg_shard", <item:spawn:booby_egg_shard>, <item:dye_depot:teal_dye>, 4);
 
 
 

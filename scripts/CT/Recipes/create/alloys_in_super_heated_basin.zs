@@ -77,6 +77,13 @@ RUtil.mix.addRecipe("polymer_plate",
                                    [],
                                    400);
 
+RUtil.mix.addRecipe("forsaken_ingot_superheated", 
+                                   <constant:create:heat_condition:heated>,
+                                   [<item:darkerdepths:forsaken_bronze_ingot>], 
+                                   [<item:darkerdepths:forsaken_bronze_scrap>, <item:minecraft:copper_ingot> * 4],
+                                   [],
+                                   400);
+
 craftingTable.removeByName("alexscaves:azure_neodymium_ingot");
 craftingTable.removeByName("alexscaves:scarlet_neodymium_ingot"); 
 craftingTable.removeByName("alexscaves:polymer_plate"); 

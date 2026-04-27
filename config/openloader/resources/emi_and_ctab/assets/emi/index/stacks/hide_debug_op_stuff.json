@@ -7,6 +7,23 @@
     "item:mowziesmobs:mob_remover",
     "item:mowziesmobs:grant_suns_blessing",
     "item:immersiveenchanting:creative_bookshelf",
-    "item:quark:matrix_enchanter"
+    "item:quark:matrix_enchanter",
+
+    "item:moonlight:placeable_item",
+    "item:immersive_gateways:gateway",
+
+    "item:valkyrienskies:ship_assembler",
+    "item:valkyrienskies:physics_entity_creator",
+    "item:valkyrienskies:ship_remover",
+    "item:valkyrienskies:ship_creator",
+    "item:valkyrienskies:ship_creator_smaller",
+    "item:valkyrienskies:test_antigrav",
+    "item:valkyrienskies:area_assembler",
+    "item:valkyrienskies:connection_checker",
+    "item:valkyrienskies:test_hinge",
+    "item:valkyrienskies:test_chair",
+    "item:valkyrienskies:test_thruster",
+    "item:valkyrienskies:test_wing",
+    "item:valkyrienskies:test_flap"
   ]
 }
