@@ -1,7 +1,7 @@
 DebugUtil.startScript("recipes/brewinandchewin/jams_good"); 
     
 val berry = <item:minecraft:sweet_berries> | <item:minecraft:glow_berries> | <item:neapolitan:strawberries> | <item:upgrade_aquatic:mulberry> | <item:atmospheric:currant> |  <item:environmental:cherries>;
-val fruit = <item:minecraft:apple> | <item:minecraft:melon_slice> | <item:neapolitan:banana> | <item:atmospheric:passion_fruit> | <item:atmospheric:orange> | <item:atmospheric:blood_orange> | <item:environmental:plum> | <item:atmospheric:dragon_fruit>;
+val fruit = <item:minecraft:apple> | <item:minecraft:melon_slice> | <item:spawn:dates> | <item:neapolitan:banana> | <item:atmospheric:passion_fruit> | <item:atmospheric:orange> | <item:atmospheric:blood_orange> | <item:environmental:plum> | <item:atmospheric:dragon_fruit>;
 
 val badItem = <item:brewinandchewin:glow_berry_marmalade>;
 HUtil.hide(badItem);

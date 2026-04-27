@@ -32,5 +32,4 @@ def deepFind(path: str, pred: Callable[[str], bool]):
             yield absolute_path
 
 if __name__ == '__main__':
-    print(list(deepFindWithContent(f"/Users/andrewyin/Desktop/Geophilic v3.4.6.mod",
-                        lambda path, content: "minecraft:sunflower" in content)))
+    pass

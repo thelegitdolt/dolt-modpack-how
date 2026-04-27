@@ -102,6 +102,8 @@
 	- Made feasts stack to 100, made date cookie recipe shapeless
 	- Coastal crabs and spider crabs now drop Quark's Crab Legs, which are used to craft the crab boil
 	- Booby Egg Shards crafts teal dye instead of blue dye
+	- Made fruit jam craftable with dates, and made environmental deers eat dates
+	- Allowed sea cows to be milked with golden buckets
 - Made Wilder Flowers wildflowers only drop when mined by shears & replaceable 
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Delight-o-flight cloud islands spawn more often
