@@ -9,7 +9,8 @@
 
 	"farmersdelight:cutting_board.carpet": "wood",
 
-	"farmersdelight:basket": "scaffold,wood",
+	"farmersdelight:bamboo_basket": "scaffold,wood",
+	"farmersdelight:basket": "wood",
 
 	"farmersdelight:carrot_crate": "wood,organic",
 	"farmersdelight:tomato_crate": "wood,organic",
@@ -19,6 +20,7 @@
 	"farmersdelight:cabbage_crate": "wood,organic",
 
 	"farmersdelight:apple_pie": "organic",
+	"dungeonsdelight:spider_pie": "organic",
 	"farmersdelight:sweet_berry_cheesecake": "organic",
 	"farmersdelight:chocolate_pie": "organic",
 
@@ -39,7 +41,8 @@
 	"farmersdelight:shepherds_pie_block": "organic",
 	"farmersdelight:stuffed_pumpkin_block": "organic_solid",
 	"farmersdelight:honey_glazed_ham_block": "organic",
-	"farmersdelight:roast_chicken_block": "organic",
+	"farmersdelight:gleaming_salad_block": "organic,wood",
+	"farmersdelight:roast_chicken_block": "organic,wood",
 	"farmersdelight:rice_roll_medley_block": "organic,wood",
 	"farmersdelight:rice_roll_medley_block[servings=0]": "wood"
 }

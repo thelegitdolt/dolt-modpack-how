@@ -1,0 +1,42 @@
+{
+	"#comment_presence_footsteps_vanillamap": "https://github.com/Sollace/Presence-Footsteps/blob/1.20.5/src/main/resources/assets/presencefootsteps/config/blockmap.json",
+	"spawn:short_windswept_grass": "NOT_EMITTER",
+	"spawn:short_windswept_grass.messy": "MESSY_GROUND",
+	"spawn:short_windswept_grass.foliage": "brush",
+
+	"spawn:tall_windswept_grass": "NOT_EMITTER",
+	"spawn:tall_windswept_grass.messy": "MESSY_GROUND",
+	"spawn:tall_windswept_grass.foliage": "brush_straw_transition",
+
+	"spawn:dragon_reeds": "NOT_EMITTER",
+	"spawn:dragon_reeds.messy": "MESSY_GROUND",
+	"spawn:dragon_reeds.foliage": "brush",
+
+	"spawn:barnacle.foliage": "crumblystone",
+
+	"spawn:zombified_flower": "straw,organic",
+
+	"spawn:red_clam_case.foliage": "sandstone,ore",
+	"spawn:red_clam_case": "sandstone,ore",
+	"spawn:yellow_clam_case.foliage": "sandstone,ore",
+	"spawn:yellow_clam_case": "sandstone,ore",
+	"spawn:white_clam_case.foliage": "sandstone,ore",
+	"spawn:white_clam_case": "sandstone,ore",
+	"spawn:purple_clam_case.foliage": "sandstone,ore",
+	"spawn:purple_clam_case": "sandstone,ore",
+
+	"spawn:fallen_leaves.foliage": "leaves",
+	"spawn:magmtic_splatter.foliage": "organic,magma",
+	"spawn:item_in_a_bottle": "amethyst",
+
+	"spawn:blasted_sandstone": "sandstone",
+	"spawn:blasted_sandstone_stairs": "sandstone",
+	"spawn:blasted_sandstone_slab": "sandstone",
+	"spawn:smooth_blasted_sandstone_slab": "sandstone",
+	"spawn:smooth_blasted_sandstone_stairs": "sandstone",
+	"spawn:smooth_blasted_sandstone": "sandstone",
+	"spawn:chiseled_blasted_sandstone": "sandstone",
+	"spawn:cut_blasted_sandstone_slab": "sandstone",
+	"spawn:cut_blasted_sandstone": "sandstone",
+	"spawn:blasted_sandstone_wall": "sandstone"
+}

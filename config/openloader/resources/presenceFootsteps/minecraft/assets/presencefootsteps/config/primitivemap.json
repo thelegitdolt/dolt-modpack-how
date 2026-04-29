@@ -1,13 +1,3 @@
 {
-	"block.candle.step": "organic_solid",
-
-	"spawn:block.clam_block.step": "sandstone,ore",
-	"spawn:block.snail_shell.step": "sandstone,ore",
-	"spawn:block.cracked_rotten_wood.step": "squeakywood",
-	"spawn:block.rotten_wood.step": "squeakywood",
-	"spawn:block.deep_coral.step": "organic_solid",
-	"spawn:block.dried_hamster.step": "organic_solid",
-	"spawn:block.reefstone.step": "sandstone,ore",
-	"spawn:block.reefstone_tiles.step": "brickstone",
-	"spawn:block.red_algae_block.step": "organic_solid,rug"
+	"block.candle.step": "organic_solid"
 }
