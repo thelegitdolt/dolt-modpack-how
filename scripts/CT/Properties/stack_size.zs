@@ -52,24 +52,17 @@ for col in RUtil.dyeDepotColors {
 <item:brewinandchewin:flaxen_cheese_wheel>.setMaxStackSize(100);
 <item:dungeonsdelight:monster_cake>.setMaxStackSize(100);
 
-<item:farmersdelight:shepherds_pie_block>.setMaxStackSize(100);
-<item:farmersdelight:roast_chicken_block>.setMaxStackSize(100);
-<item:farmersdelight:honey_glazed_ham_block>.setMaxStackSize(100);
+for i in <tag:items:farmersdelight:feasts> {
+    i.defaultInstance.setMaxStackSize(100);
+}
+
 <item:mynethersdelight:roast_stuffed_hoglin>.setMaxStackSize(100);
 <item:mynethersdelight:striderloaf>.setMaxStackSize(100);
 <item:mynethersdelight:cold_striderloaf>.setMaxStackSize(100);
 <item:mynethersdelight:ghasta_with_cream>.setMaxStackSize(100);
-<item:farmersdelight:stuffed_pumpkin_block>.setMaxStackSize(100);
-<item:farmersdelight:rice_roll_medley_block>.setMaxStackSize(100);
 <item:brewinandchewin:fiery_fondue_pot>.setMaxStackSize(100);
 <item:spawn:crab_boil_block>.setMaxStackSize(100);
 <item:brewinandchewin:pizza>.setMaxStackSize(100);
-
-<item:dungeonsdelight:silverfish_and_chips_block>.setMaxStackSize(100);
-<item:dungeonsdelight:guardian_angel_block>.setMaxStackSize(100);
-<item:dungeonsdelight:ossobuco_block>.setMaxStackSize(100);
-<item:dungeonsdelight:glow_berry_gelatin_block>.setMaxStackSize(100);
-
 
 <item:delighto_flight:thunder_fruit_stew_block>.setMaxStackSize(100);
 <item:delighto_flight:mushroom_hotpot_block>.setMaxStackSize(100);

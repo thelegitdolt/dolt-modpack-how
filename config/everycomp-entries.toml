@@ -68,12 +68,12 @@
 		[types.wood_type.autumnity]
 			maple = true
 
+		[types.wood_type.darkerdepths]
+			petrified = true
+
 		[types.wood_type.spawn]
 			rotten = true
 			date = true
-
-		[types.wood_type.darkerdepths]
-			petrified = true
 
 	[types.leaves_type]
 
@@ -313,9 +313,6 @@
 			ashen_sandstone = true
 			smooth_ashen_sandstone = true
 			cut_ashen_sandstone = true
-
-		[types.cut_block_type.etcetera]
-			leveled_stone = true
 
 		[types.cut_block_type.sullysmod]
 			rough_jade_brick = true
@@ -717,21 +714,6 @@
 			honeycomb_brick = true
 			honeycomb_tile = true
 
-		[types.cut_block_type.dolt_mod_how]
-			zinc_brick = true
-
-		[types.cut_block_type.spawn]
-			snail_shell_tile = true
-			rotten = true
-			reefstone = true
-			algal_reefstone = true
-			reefstone_tile = true
-			date = true
-			heliostone = true
-			blasted_sandstone = true
-			cut_blasted_sandstone = true
-			smooth_blasted_sandstone = true
-
 		[types.cut_block_type.darkerdepths]
 			petrified = true
 			aridrock = true
@@ -746,6 +728,24 @@
 			grimestone = true
 			polished_grimestone = true
 			grimestone_bricks = true
+
+		[types.cut_block_type.etcetera]
+			leveled_stone = true
+
+		[types.cut_block_type.dolt_mod_how]
+			zinc_brick = true
+
+		[types.cut_block_type.spawn]
+			snail_shell_tile = true
+			rotten = true
+			reefstone = true
+			algal_reefstone = true
+			reefstone_tile = true
+			date = true
+			heliostone = true
+			blasted_sandstone = true
+			cut_blasted_sandstone = true
+			smooth_blasted_sandstone = true
 
 	[types.cake]
 

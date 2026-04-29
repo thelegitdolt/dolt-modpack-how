@@ -10,5 +10,6 @@ craftingTable.removeByName("mynethersdelight:crafting/tnt_alt");
 craftingTable.removeByName("mynethersdelight:crafting/scaffolding_alt"); 
 
 RUtil.cut.removeByName("mynethersdelight:cutting/balze_rod"); 
+RUtil.cut.removeByName("mynethersdelight:cutting/bullet_pepper");
 
 DebugUtil.endScript("recipes/nethers_delight/die_powder"); 

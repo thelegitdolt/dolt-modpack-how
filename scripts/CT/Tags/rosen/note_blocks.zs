@@ -170,7 +170,7 @@ val log_drum = [
     "woodworks:trapped_bamboo_closet",
     "farmersdelight:bamboo_cabinet",
     "minecraft:scaffolding",
-    "farmersdelight:basket"
+    "farmersdelight:bamboo_basket"
 ];
 
 for i in log_drum {

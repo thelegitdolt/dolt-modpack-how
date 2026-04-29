@@ -3,6 +3,7 @@
 ### Mod Changes
 - Updated [Caverns and Chasms](https://modrinth.com/mod/caverns-and-chasms), polished up YAY!
 - Updated [Spawn](https://modrinth.com/mod/spawn-mod), hell yeah
+- Updated [Farmer's Delight](https://modrinth.com/mod/farmers-delight) hell YEAH!!
 - Added [Melancholic Hunger](https://modrinth.com/mod/melancholic_hunger)
 - Updated [Easel Does It](https://modrinth.com/mod/easel-does-it) to allow Twilight Resonance's incredibly large paintings to show up in the easel
 - Added [Heart Crystals](https://modrinth.com/mod/heart_crystals)
@@ -104,6 +105,11 @@
 	- Booby Egg Shards crafts teal dye instead of blue dye
 	- Made fruit jam craftable with dates, and made environmental deers eat dates
 	- Allowed sea cows to be milked with golden buckets
+- Configured Farmer's Delight
+	- Removed basket cutting recipes
+	- Removed chest boat & furnace prying recipes
+	- Removed all furniture salvaging recipes
+	- Removed Creamy Onion Soup from brewin' and chewin' as FD added their own
 - Made Wilder Flowers wildflowers only drop when mined by shears & replaceable 
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Delight-o-flight cloud islands spawn more often
@@ -111,7 +117,6 @@
 - The gobthumper (gummy worm summing block) crafts 1 at a time
 - Capes no longer render if players are wearing a quark backpack
 - Hide removed sully's mod grindstone recipe category
-- Removed farmer's delight cutting board scavenging recipes because they ALL SUCK
 - Remove infinite pitcher pod recipe from Smidgeon o' Bliss
 - Fixed windswept fir chiseled bookshelf still being called "pine" 
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
