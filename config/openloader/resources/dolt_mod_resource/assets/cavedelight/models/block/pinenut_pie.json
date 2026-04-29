@@ -1,0 +1,9 @@
+{
+  "parent": "farmersdelight:block/template_pie",
+  "textures": {
+    "particle": "cavedelight:block/pinenut_pie_top",
+    "bottom": "farmersdelight:block/pie_bottom",
+    "side": "farmersdelight:block/pie_side",
+    "top": "cavedelight:block/pinenut_pie_top"
+  }
+}

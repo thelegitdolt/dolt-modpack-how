@@ -1,0 +1,9 @@
+{
+  "parent": "farmersdelight:block/template_pie",
+  "textures": {
+    "particle": "cavedelight:block/tectonic_cheesecake_top",
+    "bottom": "farmersdelight:block/pie_bottom",
+    "side": "farmersdelight:block/pie_side",
+    "top": "cavedelight:block/tectonic_cheesecake_top"
+  }
+}
