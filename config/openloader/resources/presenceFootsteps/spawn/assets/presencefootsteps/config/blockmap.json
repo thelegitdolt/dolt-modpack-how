@@ -27,7 +27,8 @@
 
 	"spawn:fallen_leaves.foliage": "leaves",
 	"spawn:magmtic_splatter.foliage": "organic,magma",
-	"spawn:item_in_a_bottle": "amethyst",
+	"spawn:item_in_a_bottle": "chimes",
+	"spawn:item_in_a_bottle.foliage": "chimes",
 
 	"spawn:blasted_sandstone": "sandstone",
 	"spawn:blasted_sandstone_stairs": "sandstone",

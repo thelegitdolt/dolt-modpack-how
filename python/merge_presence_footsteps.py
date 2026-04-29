@@ -37,8 +37,6 @@ def run():
       write_to_real(type, merge_files(collect_files(root_paths, type)))
 
    
-
-
 if __name__ == '__main__':
     run()
   
