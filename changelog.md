@@ -105,11 +105,13 @@
 	- Booby Egg Shards crafts teal dye instead of blue dye
 	- Made fruit jam craftable with dates, and made environmental deers eat dates
 	- Allowed sea cows to be milked with golden buckets
+	- Allowed fishing nets to be crafted with FD rope in addition to string
 - Configured Farmer's Delight
 	- Removed basket cutting recipes
 	- Removed chest boat & furnace prying recipes
 	- Removed all furniture salvaging recipes
 	- Removed Creamy Onion Soup from brewin' and chewin' as FD added their own
+- Updated Presence Footstep support for Spawn
 - Made Wilder Flowers wildflowers only drop when mined by shears & replaceable 
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Delight-o-flight cloud islands spawn more often
