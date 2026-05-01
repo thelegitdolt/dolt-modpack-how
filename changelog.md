@@ -82,7 +82,7 @@
     - Updated presence footsteps stuff
     - Made storage ducts easier to craft
     - Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now). 
-    - Removed atoning tables!!!
+    - Removed atoning tables and bejeweled anvils
     - Removed Quark's bricks and stuff because they suck (polished up sweep)
 - Configured Galosphere
     - Removed amethyst lamps (C&C better)
@@ -113,7 +113,9 @@
     - Removed Creamy Onion Soup from brewin' and chewin' as FD added their own
 - Removed Glimmering Wealds from Quark in place of Darker Depth's Glowstone Forests
 - Made red algae & dry moss carpets only drop with silk touch or shears
-- Made tropical wildflowers, yellow petals, stuff from wilder wildflowers replaceable & only drop with shears  
+- Made tropical wildflowers, yellow petals, stuff from wilder wildflowers replaceable & only drop with shears
+- Marine Snow from Alex's Caves can no longer be used to duplicate Sponges (vanilla). As consolation they'll be able to duplicate Ping Pong Sponges (Alex Caves) I hope that goes for something
+- Glow Ink Sacs can no longer be used to resuscitate coral. Marine snow does that
 - Replaced Umvuthana village vanilla oak ladders with woodworks acacia ladders
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Made SoB orange juice not require sugar to craft (it's ORGANIC)
@@ -131,7 +133,7 @@
 - Removed Quark Gunpowder Sacks
 - Removed deep ones
 - Removed soul sandstones
-- Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns.
+- Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns. 
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf
 
 ### Bugfixes
@@ -145,6 +147,7 @@
 - Fixed some mowzies mobs creative-only and removed items not being hidden from emi
 - Fixed Sunrise Seltzer (sob) requiring sob tequila instead of Dolt Mod How tequila
 - Fixed Vallumraptors being able to open chests locked by octopuses
+- Alexscaves Submarine now assumes the majority oxidation level of the copper blocks used to construct it, and drop copper ingots corresponding to their oxidation state when destroyed
 
 # Dolt Modpack How 1.ω.1
 

@@ -16,6 +16,7 @@ val creepers = [
     "creeper", 
     "deeper", 
     "peeper", 
+    "evendeeper", 
     "reefer"
 ];
 
@@ -33,9 +34,9 @@ loot.modifiers.register("creepers_do_charged_and_stuff",
         });
 
         if ("powered" in ctx.thisEntity.data && ctx.thisEntity.data["powered"].asBool()) {
-           stacks.add(<item:${RUtil.getRandomItemInTag("dolt_modpack_how:charged_" + name + "_drop_music_discs", ctx.random)}>);
+            stacks.add(<item:${RUtil.getRandomItemInTag("dolt_modpack_how:charged_" + name + "_drop_music_discs", ctx.random)}>);
         } else {
-          stacks.add(<item:${RUtil.getRandomItemInTag("dolt_modpack_how:" + name + "_drop_music_discs", ctx.random)}>);
+            stacks.add(<item:${RUtil.getRandomItemInTag("dolt_modpack_how:" + name + "_drop_music_discs", ctx.random)}>);
         }
         return stacks; 
     }
