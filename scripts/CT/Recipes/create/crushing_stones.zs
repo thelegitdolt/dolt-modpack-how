@@ -36,7 +36,7 @@ DebugUtil.startScript("recipes/create/crushing_stones");
     <item:alexscaves:galena>, 200);
 
 <recipetype:create:milling>.addRecipe("abyssmarine_crush_good", [
-    <item:alexscaves:muck> % 25, <item:minecraft:prismarine_shard> % 5
+    <item:alexscaves:muck> % 25, <item:alexscaves:sea_glass_shards> % 2, <item:minecraft:prismarine_shard> % 5
 ], <item:alexscaves:abyssmarine>, 200);
 
 <recipetype:create:milling>.addRecipe("guanostone", [
