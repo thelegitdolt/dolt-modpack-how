@@ -1,0 +1,13 @@
+[
+    {
+        "action": "remove",
+        "items": [     
+            "quark:glow_shroom_block",
+            "quark:glow_shroom",
+            "quark:glow_shroom_ring",
+            "quark:glow_lichen_growth",
+            "quark:glow_shroom_stem",
+            "dolt_mod_how:glowshroom_colony"
+        ]
+    }
+]

@@ -17,7 +17,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "wilderflowers:moody_wildflowers",
+                  "block": "windswept:yellow_petals",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "flower_amount": "1"
@@ -31,7 +31,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "wilderflowers:moody_wildflowers",
+                  "block": "windswept:yellow_petals",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "flower_amount": "2"
@@ -45,7 +45,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "wilderflowers:moody_wildflowers",
+                  "block": "windswept:yellow_petals",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "flower_amount": "3"
@@ -59,7 +59,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "wilderflowers:moody_wildflowers",
+                  "block": "windswept:yellow_petals",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "flower_amount": "4"
@@ -70,7 +70,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "wilderflowers:moody_wildflowers",
+          "name": "windswept:yellow_petals",
           "type": "minecraft:item"
         }
       ],
@@ -82,6 +82,6 @@
       "rolls": 1
     }
   ],
-  "random_sequence": "wilderflowers:blocks/moody_wildflowers",
+  "random_sequence": "windswept:blocks/yellow_petals",
   "type": "minecraft:block"
 }

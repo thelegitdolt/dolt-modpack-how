@@ -1,0 +1,10 @@
+{
+  "repaletter": {
+    "type": "blueprint:simple",
+    "replaces_block": "minecraft:ladder",
+    "replaces_with": "woodworks:acacia_ladder"
+  },
+  "structures": [
+    "mowziesmobs:umvuthana_grove"
+  ]
+}

@@ -1,12 +1,8 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        },
         {
           "condition": "minecraft:match_tool",
           "predicate": {
@@ -16,12 +12,76 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "wilderflowers:hopeful_wildflowers"
+          "functions": [
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wilderflowers:hopeful_wildflowers",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "flower_amount": "1"
+                  }
+                }
+              ],
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wilderflowers:hopeful_wildflowers",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "flower_amount": "2"
+                  }
+                }
+              ],
+              "count": 2,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wilderflowers:hopeful_wildflowers",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "flower_amount": "3"
+                  }
+                }
+              ],
+              "count": 3,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wilderflowers:hopeful_wildflowers",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "flower_amount": "4"
+                  }
+                }
+              ],
+              "count": 4,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "wilderflowers:hopeful_wildflowers",
+          "type": "minecraft:item"
         }
       ],
-      "rolls": 1.0
+      "functions": [
+        {
+          "function": "minecraft:explosion_decay"
+        }
+      ],
+      "rolls": 1
     }
   ],
-  "random_sequence": "wilderflowers:blocks/hopeful_wildflowers"
+  "random_sequence": "wilderflowers:blocks/hopeful_wildflowers",
+  "type": "minecraft:block"
 }
