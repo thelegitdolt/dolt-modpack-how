@@ -112,6 +112,13 @@
     - Removed all furniture salvaging recipes
     - Removed Creamy Onion Soup from brewin' and chewin' as FD added their own
 - Removed Glimmering Wealds from Quark in place of Darker Depth's Glowstone Forests
+- Removed deep ones
+- To compensate for the removal of deep ones, some items from the Abyssal Chasms has been given alternate methods of renewability 
+    - Ping Pong Sponge now, like the anemones, can be duplicated by right clicking with Marine Snow like tall flowers and bone meal
+    - Abyssmarine can be crafted with deepslate, muck, and prismarine shard
+    - Sea Glass Shards now have a much higher chance to drop from muck: up to 35% with fortune 3
+    - a mud block placed beneath y = -16 in an abyssal chasms biome with 20 blocks of water above it will slowly transform into muck
+
 - Made red algae & dry moss carpets only drop with silk touch or shears
 - Made tropical wildflowers, yellow petals, stuff from wilder wildflowers replaceable & only drop with shears
 - Marine Snow from Alex's Caves can no longer be used to duplicate Sponges (vanilla). As consolation they'll be able to duplicate Ping Pong Sponges (Alex Caves) I hope that goes for something
@@ -131,7 +138,6 @@
 - Made olivestone crafted with cactus paste instead of green dye
 - Removed the soul, cupric, ender variants of: Jack-o-lanterns, Fairy Lights, Fire Rings, and Pigsteel Lanterns
 - Removed Quark Gunpowder Sacks
-- Removed deep ones
 - Removed soul sandstones
 - Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns. 
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf
