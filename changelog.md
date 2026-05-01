@@ -17,10 +17,10 @@
 - Immersive Enchantments have been completely reconfigured to fit Dolt Modpack's style!
 - The enchanting table menu has been redone. By default weak enchantments such as efficiency and sweeping edge is available. To acquire other enchantments one must find **Ancient Books** with that associated enchantment and place them in a chiseled bookshelf next to the enchanting table. 
 - Ancient Books can be found when exploring. 
-	- "Common" enchantments (enchantments that can be applied to pickaxes axes shovels knives swords axes helmets chestplate leggings boots, and more rarely crossbows and bows) can be found in almost every dungeon chest. 
-	- Some enchantments are delegated to special structures, such as Soul Speed to bastions and Air Hop to end cities. 
-	- If a structure contains a tool or weapon with specialized enchantments, it will also contain books for those enchantments (such as Alex caves). 
-	- A full table of loot is shown below: // write table lol
+    - "Common" enchantments (enchantments that can be applied to pickaxes axes shovels knives swords axes helmets chestplate leggings boots, and more rarely crossbows and bows) can be found in almost every dungeon chest. 
+    - Some enchantments are delegated to special structures, such as Soul Speed to bastions and Air Hop to end cities. 
+    - If a structure contains a tool or weapon with specialized enchantments, it will also contain books for those enchantments (such as Alex caves). 
+    - A full table of loot is shown below: // write table lol
 - Can't find books no matter what you do? Ancient Books of arbitrary enchantments can be **crafted** in the crafting table using 1 book, 7 diamonds, and 1 reagent which dffers depending on the enchantment. The following is a partial table: 
 
 | Enchant | Reagent |
@@ -43,14 +43,14 @@
 - Enchantments like Mending, Soul Speed, and Air Hop do not have reagents; you must find the books in  specialized structures. 
 - Chests from structures has a chance to contain ancient books holding more than one enchantment; these are impossible to get otherwise. 
 - Added a new Fairy Dust material 
-	- Texture (placeholder) stolen from Vitalis from Indexed I NEED TEXTURES
-	- Are quite rare; one diamond & some other semiprecious materials are required to craft 3
+    - Texture (placeholder) stolen from Vitalis from Indexed I NEED TEXTURES
+    - Are quite rare; one diamond & some other semiprecious materials are required to craft 3
 - Once you have an ancient book for an enchantment, you can apply it to your tools using the enchanting table! 
-	- Enchantments are applied one level at a time; each level applied takes (*level*) lapis and (*level - 1*) Fairy dust
-		- Therefore applying Efficiency III on an item with Efficiency II takes 3 lapis and 2 fairy dust. (Might change)
+    - Enchantments are applied one level at a time; each level applied takes (*level*) lapis and (*level - 1*) Fairy dust
+        - Therefore applying Efficiency III on an item with Efficiency II takes 3 lapis and 2 fairy dust. (Might change)
 - Changed efficiency
-	- Changed the base efficiency for each vanilla tool.
-	
+    - Changed the base efficiency for each vanilla tool.
+    
 | Tool | New Efficiency | Vanilla Efficiency | 
 |--------|--------|--------| 
 | Stone | 6 | 4 | 
@@ -61,7 +61,7 @@
 | Netherite | 18 | 9 | 
 | Necromium | 18 | 9 | 
 | Electrum | 18 | 8 |
-	
+    
 - Efficiency is now 3 levels and gives a flat 7 points of efficiency per level. 
 - For reference, vanilla efficiency used to give level^2 + 1 points.
 
@@ -71,48 +71,50 @@
 
 ### Tweaks
 - Hunger has been removed! Food now directly heal hearts after a slow regeneration period, and sprinting is always enabled. 
-	- Looking for feedback for how food feels, since I'm not doing that thing in the mod where they made every food stack to less!
-	- Removed Nourishment and Comfort as they do nothing now
-	- Nerfed strawberries slightly by 2-3 shanks each to balance that nutrition is equivalent to hunger now
+    - Looking for feedback for how food feels, since I'm not doing that thing in the mod where they made every food stack to less!
+    - Removed Nourishment and Comfort as they do nothing now
+    - Nerfed strawberries slightly by 2-3 shanks each to balance that nutrition is equivalent to hunger now
 - Configured Caverns and Chasms update
-	- Packing containers can now contain 800 items and have a new recipe
-	- Rats can now eat Monster Meals and Rotten Tripe
-	- Removed copper tools and armor
-	- Pretend that evendeepers are a deeper variant
-	- Updated presence footsteps stuff
-	- Made storage ducts easier to craft
-	- Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now). 
-	- Removed atoning tables!!!
-	- Removed Quark's bricks and stuff because they suck (polished up sweep)
+    - Packing containers can now contain 800 items and have a new recipe
+    - Rats can now eat Monster Meals and Rotten Tripe
+    - Removed copper tools and armor
+    - Pretend that evendeepers are a deeper variant
+    - Updated presence footsteps stuff
+    - Made storage ducts easier to craft
+    - Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now). 
+    - Removed atoning tables!!!
+    - Removed Quark's bricks and stuff because they suck (polished up sweep)
 - Configured Galosphere
-	- Removed amethyst lamps (C&C better)
-	- Removed the sifting enchantment because it SUCKS
-	- Removed tuff dirt in favor of ROCKY DIRT
-	- Sterling armor gives explosion resistance instead of "ILLAGER RESISTANCE"
-	- Changed Golden Lichen Cordyceps recipe to be in line with vanilla ones (along with golden potatoes and prickly pears from SoB which I forgot about. Skull Emoji)
+    - Removed amethyst lamps (C&C better)
+    - Removed the sifting enchantment because it SUCKS
+    - Removed tuff dirt in favor of ROCKY DIRT
+    - Sterling armor gives explosion resistance instead of "ILLAGER RESISTANCE"
+    - Changed Golden Lichen Cordyceps recipe to be in line with vanilla ones (along with golden potatoes and prickly pears from SoB which I forgot about. Skull Emoji)
 - Configured Darker Depths
-	- Removed DD ropes and replaced them with FD rope in loot and in structures
-	- Glowshroom Cap no longer does Dynamic Lighting
-	- Changed Glowstone lantern recipe
-	- Renamed petrified log to desecrated logs (for sully's mod)
-	- Added new crushing recipe for aridrock, darkslate, grimestone, and duskrock
-	- Added a heated mixer recipe for forsaken bronze 
+    - Removed DD ropes and replaced them with FD rope in loot and in structures
+    - Glowshroom Cap no longer does Dynamic Lighting
+    - Changed Glowstone lantern recipe
+    - Renamed petrified log to desecrated logs (for sully's mod)
+    - Added new crushing recipe for aridrock, darkslate, grimestone, and duskrock
+    - Added a heated mixer recipe for forsaken bronze 
 - Configured Heart Crystals
-	- Heart Crystal now, instead of giving players extra hearts, gives them Health Boost and Regeneration for awhile 
+    - Heart Crystal now, instead of giving players extra hearts, gives them Health Boost and Regeneration for awhile 
 - Configured Spawn
-	- Made feasts stack to 100, made date cookie recipe shapeless
-	- Coastal crabs and spider crabs now drop Quark's Crab Legs, which are used to craft the crab boil
-	- Booby Egg Shards crafts teal dye instead of blue dye
-	- Made fruit jam craftable with dates, and made environmental deers eat dates
-	- Allowed sea cows to be milked with golden buckets
-	- Allowed fishing nets to be crafted with FD rope in addition to string
+    - Made feasts stack to 100, made date cookie recipe shapeless
+    - Coastal crabs and spider crabs now drop Quark's Crab Legs, which are used to craft the crab boil
+    - Booby Egg Shards crafts teal dye instead of blue dye
+    - Made fruit jam craftable with dates, and made environmental deers eat dates
+    - Allowed sea cows to be milked with golden buckets
+    - Allowed fishing nets to be crafted with FD rope in addition to string
 - Configured Farmer's Delight
-	- Removed basket cutting recipes
-	- Removed chest boat & furnace prying recipes
-	- Removed all furniture salvaging recipes
-	- Removed Creamy Onion Soup from brewin' and chewin' as FD added their own
-- Updated Presence Footstep support for Spawn
-- Made Wilder Flowers wildflowers only drop when mined by shears & replaceable 
+    - Removed basket cutting recipes
+    - Removed chest boat & furnace prying recipes
+    - Removed all furniture salvaging recipes
+    - Removed Creamy Onion Soup from brewin' and chewin' as FD added their own
+- Removed Glimmering Wealds from Quark in place of Darker Depth's Glowstone Forests
+- Made red algae & dry moss carpets only drop with silk touch or shears
+- Made tropical wildflowers, yellow petals, stuff from wilder wildflowers replaceable & only drop with shears  
+- Replaced Umvuthana village vanilla oak ladders with woodworks acacia ladders
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Delight-o-flight cloud islands spawn more often
 - Fixed inconsistent awning and candle holder recipes
@@ -154,13 +156,13 @@
 
 ### Tweaks
 - Configured SOB
-	- Removed Sculk Tendril, changed blotted broth and tendroll recipes accordingly
-	- Echo rock candy is made in a monster cooking pot
-	- Made all foods give nourishment/comfort in increments of 1, 3, 5 minutes
-	- Removed jams, counters, and the skeleton red rum drink (john ossobuco)
+    - Removed Sculk Tendril, changed blotted broth and tendroll recipes accordingly
+    - Echo rock candy is made in a monster cooking pot
+    - Made all foods give nourishment/comfort in increments of 1, 3, 5 minutes
+    - Removed jams, counters, and the skeleton red rum drink (john ossobuco)
 - Lead ores now drop 1-3 raw lead without fortune
 - Copper plating recipe now output 4 for 2x2
-	- Cut Lead has been renamed Lead Plating and outputs 4 for 2x2 lead
+    - Cut Lead has been renamed Lead Plating and outputs 4 for 2x2 lead
 - Copper, lead doors & trapdoors are now crafted with copper & lead plating, respectively 
 - Allowed JNE shroomnights to be used in shroomlight recipes, such as Bloody Mary & stone lamps from Supp
 - Made Supp flutes not have durability
@@ -194,18 +196,16 @@ ADDITIONS
 
 CHANGES
 - Buffed rotbulb and wormroot rates. 1 monster yam = 2.5 rotbulbs = 5 gunk = 10 wormroots = 2.25 wormroot blocks = 10 wormroot planks
-- Made red algae & dry moss carpets only drop with silk touch or shears
-- Made tropical wildflowers and other wildflowers replaceable & only drop with shears  
 - Added vanilla 1.21.6 lead recipe cuz I was bored
 - Made crafting cut copper consistent with stonecutting it
 - Changed some health values around
-	- Skeletons have 5 health, sniffers have 14, chickens have 4, striders have 7, and monster yams have 10
+    - Skeletons have 5 health, sniffers have 14, chickens have 4, striders have 7, and monster yams have 10
 - made large pumpkins cut to pumpkin slices; added autumnity pumpkins to mineable knifes
 - Made new species heads mineable pickaxe; 
 - Made barrel cactus and all cactus batches mineable knife;
 - Made honey able to craft sticky pistons
 - Removed Jade
-	- Jade flinger totems are still there, they use the texture of splurters
+    - Jade flinger totems are still there, they use the texture of splurters
 - Made bouldering zombies have the normal zombie loot table, instead of dropping fawking normal deepslate
 - Changed the gearbox recipe
 - Made stained scrap a valid trim material (Thank you very much lucy)
@@ -227,3 +227,4 @@ FIXES
 - Fixed being unable to mine nylium with hands
 - Fixed glass panes and glass trapdoors not dropping themselves when mined without silk touch
 - Fixed tin ore outputting crushed tin instead of raw tin
+
