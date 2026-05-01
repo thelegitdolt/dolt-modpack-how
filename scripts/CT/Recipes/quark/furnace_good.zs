@@ -34,4 +34,4 @@ craftingTable.addShaped("kiln_based", <item:clayworks:kiln>, [
 ]);
 
 
-DebugUtil.endScript("recipes/quark/furnace_good.zs"); 
+DebugUtil.endScript("recipes/quark/furnace_good"); 

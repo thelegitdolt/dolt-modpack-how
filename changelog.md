@@ -105,15 +105,14 @@
 	- Booby Egg Shards crafts teal dye instead of blue dye
 	- Made fruit jam craftable with dates, and made environmental deers eat dates
 	- Allowed sea cows to be milked with golden buckets
+	- Allowed fishing nets to be crafted with FD rope in addition to string
 - Configured Farmer's Delight
 	- Removed basket cutting recipes
 	- Removed chest boat & furnace prying recipes
 	- Removed all furniture salvaging recipes
 	- Removed Creamy Onion Soup from brewin' and chewin' as FD added their own
-- Removed Glimmering Wealds from Quark in place of Darker Depth's Glowstone Forests
-- Made red algae & dry moss carpets only drop with silk touch or shears
-- Made tropical wildflowers, yellow petals, stuff from wilder wildflowers replaceable & only drop with shears  
-- Replaced Umvuthana village vanilla oak ladders with woodworks acacia ladders
+- Updated Presence Footstep support for Spawn
+- Made Wilder Flowers wildflowers only drop when mined by shears & replaceable 
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Delight-o-flight cloud islands spawn more often
 - Fixed inconsistent awning and candle holder recipes
@@ -195,6 +194,8 @@ ADDITIONS
 
 CHANGES
 - Buffed rotbulb and wormroot rates. 1 monster yam = 2.5 rotbulbs = 5 gunk = 10 wormroots = 2.25 wormroot blocks = 10 wormroot planks
+- Made red algae & dry moss carpets only drop with silk touch or shears
+- Made tropical wildflowers and other wildflowers replaceable & only drop with shears  
 - Added vanilla 1.21.6 lead recipe cuz I was bored
 - Made crafting cut copper consistent with stonecutting it
 - Changed some health values around
