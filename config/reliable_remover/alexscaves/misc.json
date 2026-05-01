@@ -2,7 +2,10 @@
     {
         "action": "remove",
         "items": [
-            "alexscaves:abyssal_altar"
+            "alexscaves:abyssal_altar",
+            "alexscaves:glow_ink_bomb",
+            "alexscaves:ink_bomb",
+            "alexscaves:gazing_pearl"
         ]
     }
 ]

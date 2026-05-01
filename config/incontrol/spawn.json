@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "mob": [
+            "alexscaves:deep_one",
+            "alexscaves:deep_one_knight",
+            "alexscaves:deep_one_mage"
+        ],
+        "result": "deny"
+    }
+]

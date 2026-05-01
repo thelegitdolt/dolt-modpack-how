@@ -144,6 +144,7 @@
 - Fixed every compat SoB counters not being removed
 - Fixed some mowzies mobs creative-only and removed items not being hidden from emi
 - Fixed Sunrise Seltzer (sob) requiring sob tequila instead of Dolt Mod How tequila
+- Fixed Vallumraptors being able to open chests locked by octopuses
 
 # Dolt Modpack How 1.ω.1
 
