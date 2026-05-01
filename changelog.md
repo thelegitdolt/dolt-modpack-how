@@ -116,6 +116,7 @@
 - Made tropical wildflowers, yellow petals, stuff from wilder wildflowers replaceable & only drop with shears  
 - Replaced Umvuthana village vanilla oak ladders with woodworks acacia ladders
 - Made every tnt variant cheaper in line with polished up new TNT recipe
+- Made SoB orange juice not require sugar to craft (it's ORGANIC)
 - Delight-o-flight cloud islands spawn more often
 - Fixed inconsistent awning and candle holder recipes
 - The gobthumper (gummy worm summing block) crafts 1 at a time
@@ -142,6 +143,7 @@
 - Fixed new darker depths stones & sandstones not being mineable by hand
 - Fixed every compat SoB counters not being removed
 - Fixed some mowzies mobs creative-only and removed items not being hidden from emi
+- Fixed Sunrise Seltzer (sob) requiring sob tequila instead of Dolt Mod How tequila
 
 # Dolt Modpack How 1.ω.1
 
