@@ -121,7 +121,7 @@
     - Sea Glass Shards now have a much higher chance to drop from muck: up to 35% with fortune 3
     - a mud block placed beneath y = -16 in an abyssal chasms biome with 20 blocks of water above it will slowly transform into muck
 - Also, Marine Snow from Alex's Caves can no longer be used to duplicate Sponges (vanilla). They can also resuscitate any Upgrade Aquatic or Spawn coral in addition to vanilla ones
-- Thrashers and Great Thrashers can now rarely spawn in Abyssal Chasms
+- Thrashers can now rarely spawn in Abyssal Chasms
 - Glow Ink Sacs can no longer be used to resuscitate coral (Upgrade Aquatic feature)
 - Made red algae & dry moss carpets only drop with silk touch or shears
 - Made tropical wildflowers, yellow petals, stuff from wilder wildflowers replaceable & only drop with shears
