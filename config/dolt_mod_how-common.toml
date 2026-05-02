@@ -184,3 +184,15 @@
 		#Range: 0 ~ 100
 		"Spore rocket possibilities" = 100
 
+["Darker Depths"]
+
+	["Darker Depths".Biomes]
+		#If Darker Depths Glowstone Forests should be STOPPED from spawning
+		"Glowstone Forest" = false
+
+[heart_crystals]
+
+	[heart_crystals.heart_crystal]
+		#If heart crystals from the heart crystals mod should give the Health Boost effect and regen for awhile instead of giving you permanent hearts
+		impermanentHearts = true
+
