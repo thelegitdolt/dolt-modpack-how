@@ -82,8 +82,10 @@
     - Updated presence footsteps stuff
     - Made storage ducts easier to craft
     - Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now). 
+    - Removed blindness potions from cavefish cuz they SUCK. 
     - Removed atoning tables and bejeweled anvils
     - Removed Quark's bricks and stuff because they suck (polished up sweep)
+    - Removed Quark Gunpowder Sacks
 - Configured Galosphere
     - Removed amethyst lamps (C&C better)
     - Removed the sifting enchantment because it SUCKS
@@ -118,11 +120,10 @@
     - Abyssmarine can be crafted with deepslate, muck, and prismarine shard
     - Sea Glass Shards now have a much higher chance to drop from muck: up to 35% with fortune 3
     - a mud block placed beneath y = -16 in an abyssal chasms biome with 20 blocks of water above it will slowly transform into muck
-
+- Also, Marine Snow from Alex's Caves can no longer be used to duplicate Sponges (vanilla). They can also resuscitate any Upgrade Aquatic or Spawn coral in addition to vanilla ones
+- Glow Ink Sacs can no longer be used to resuscitate coral (Upgrade Aquatic feature)
 - Made red algae & dry moss carpets only drop with silk touch or shears
 - Made tropical wildflowers, yellow petals, stuff from wilder wildflowers replaceable & only drop with shears
-- Marine Snow from Alex's Caves can no longer be used to duplicate Sponges (vanilla). As consolation they'll be able to duplicate Ping Pong Sponges (Alex Caves) I hope that goes for something
-- Glow Ink Sacs can no longer be used to resuscitate coral. Marine snow does that
 - Replaced Umvuthana village vanilla oak ladders with woodworks acacia ladders
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Made SoB orange juice not require sugar to craft (it's ORGANIC)
@@ -137,7 +138,6 @@
 - Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
 - Made olivestone crafted with cactus paste instead of green dye
 - Removed the soul, cupric, ender variants of: Jack-o-lanterns, Fairy Lights, Fire Rings, and Pigsteel Lanterns
-- Removed Quark Gunpowder Sacks
 - Removed soul sandstones
 - Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns. 
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf

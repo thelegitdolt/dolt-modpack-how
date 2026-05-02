@@ -32,6 +32,14 @@
 			},
 			{
 				"namespace": "caverns_and_chasms",
+				"path": "advancements/bejeweled_anvil_repair"
+			},
+			{
+				"namespace": "caverns_and_chasms",
+				"path": "advancements/adventure/repair_with_zirconia"
+			},
+			{
+				"namespace": "caverns_and_chasms",
 				"path": "advancements/adventure/break_item_atoning"
 			},
 			{
