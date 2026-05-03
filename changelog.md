@@ -9,7 +9,7 @@
 - Added [Heart Crystals](https://modrinth.com/mod/heart_crystals)
 - Added [Galosphere](https://modrinth.com/mod/galosphere) because I am bored
 - Added [Darker Depths](http://modrinth.com/mod/darker-depths/)
-- Added [Vista - All the tapes](https://modrinth.com/mod/vista-all-the-cassettes/versions)
+- Added [Vista - All the Cassettes](https://modrinth.com/mod/vista-all-the-cassettes/versions)
 - Added [Create: Interactive](https://modrinth.com/mod/interactive)
 - Updated Dolt Mod
 
@@ -17,11 +17,36 @@
 - Immersive Enchantments have been completely reconfigured to fit Dolt Modpack's style!
 - The enchanting table menu has been redone. By default weak enchantments such as efficiency and sweeping edge is available. To acquire other enchantments one must find **Ancient Books** with that associated enchantment and place them in a chiseled bookshelf next to the enchanting table. 
 - Ancient Books can be found when exploring. 
-    - "Common" enchantments (enchantments that can be applied to pickaxes axes shovels knives swords axes helmets chestplate leggings boots, and more rarely crossbows and bows) can be found in almost every dungeon chest. 
     - Some enchantments are delegated to special structures, such as Soul Speed to bastions and Air Hop to end cities. 
     - If a structure contains a tool or weapon with specialized enchantments, it will also contain books for those enchantments (such as Alex caves). 
-    - A full table of loot is shown below: // write table lol
-- Can't find books no matter what you do? Ancient Books of arbitrary enchantments can be **crafted** in the crafting table using 1 book, 7 diamonds, and 1 reagent which dffers depending on the enchantment. The following is a partial table: 
+    - The following is a description of where certain enchanted books can appear: 
+        - A COMMON enchantment is one is any enchantment that can be applied to a diamond pickaxe, axe, shovel, hoe, knife, sword, helmet, chestplate, leggings, bow, or crossbow. 
+            - Chests from the following structures have a 80% chance to have an extra common ancient book added to it: 
+                - Stronghold (not library), Monster Box, Fortress, Jungle Temple, Shipwreck, Ruined Portals, Catacombs (DD), Vault (C&C), Desert Pyramid, Ancient City, End City, Grove Weathered House (Windswept), Arid Garden, Kousa Sanctum (Atmospheric)
+            - Chests from the following structures have a 60% chance to have an extra common ancient book added to it: 
+                - Underwater Ruin, Sanctums (JNE), Mineshaft, Bastion, Log Cabin (Environmental), Underground Cabin (Alex Caves), Immersive Gateways, mansions, Maple Witch Hut (Autumnity), Pink Salt Shrine
+            - Chests from the following structures will have an average of 1.5 ancient books injected to it: 
+                - Stronghold Library, Pink Salt Shrine libraries, Pillager Outposts
+        - The follow structures will have more specific enchantments. This does not affect the above distributions and is a bonus item in addition to any added books with a common enchantment. The "Item" column means that the books found in the table will contain a random enchantment applicable to an item in the list
+| Item | Enchantment | Locations | Rarity | 
+|--------|--------|--------|--------|
+| - | Swift Sneak | Ancient City | 12% |
+| - | Soul Speed | Bastion | 9% |
+| - | Fortune, Looting | Mineshaft | 15% |
+| Fishing Rod, Trident| - | Underwater Ruins, Buried Treasure | 30% |
+| - | Herd Phalanx, Plummeting Flight, Chomping Spirit | Caveman House | 100 % | 
+| - |Impending Stab, Sated Blade, Precise Volley, Relentless Darkness, Double Stab, Twilight Perfection | Forlorn Ruins | 100 % | 
+| - |Triple Split, Explosive Flavor, Sharp Cane, Far Flung, Straight Hook, Seekcandy, Peppermint Punting, Bouncy Ball | Licowitch Tower, Gingerbread Town |60 % | 
+| - | Obedience | Bastions | 15% | 
+| Buckler | - | Bastions | 15% | 
+| Shotgun Fist, Pump-Charge Shotgun | - | Sanctum Brazier Chests| 25% | 
+| - | Phantasm Hull | Sanctum Brazier Chests| 25% | 
+| - | Air Hop | End City | 20% | 
+| Stiletto | - | Catacombs | 15% | 
+| Saltbound Tablet | - | Pink Salt Shrine | 20% | 
+
+    
+- Can't find books no matter what you do? Ancient Books of arbitrary enchantments can be **crafted** in the crafting table using 1 book, 7 diamonds, and 1 reagent which differs depending on the enchantment. The following is a partial table of enchantments and their reagents: 
 
 | Enchant | Reagent |
 |--------|--------|
@@ -48,23 +73,6 @@
 - Once you have an ancient book for an enchantment, you can apply it to your tools using the enchanting table! 
     - Enchantments are applied one level at a time; each level applied takes (*level*) lapis and (*level - 1*) Fairy dust
         - Therefore applying Efficiency III on an item with Efficiency II takes 3 lapis and 2 fairy dust. (Might change)
-- Changed efficiency
-    - Changed the base efficiency for each vanilla tool.
-    
-| Tool | New Efficiency | Vanilla Efficiency | 
-|--------|--------|--------| 
-| Stone | 6 | 4 | 
-| Iron | 8 | 6 | 
-| Gold | 20 | 12 | 
-| Silver | 8 | 9 | 
-| Diamond | 16 | 8 | 
-| Netherite | 18 | 9 | 
-| Necromium | 18 | 9 | 
-| Electrum | 18 | 8 |
-    
-- Efficiency is now 3 levels and gives a flat 7 points of efficiency per level. 
-- For reference, vanilla efficiency used to give level^2 + 1 points.
-
 - A video showcasing the enchanting process: https://www.youtube.com/watch?v=aXoBq7fJoBI
 - Allurement level scaling is always constant, instead of rising up to 35 xp per level
 - Removed ancient tomes from quark
@@ -82,7 +90,7 @@
     - Updated presence footsteps stuff
     - Made storage ducts easier to craft
     - Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now). 
-    - Removed blindness potions from cavefish cuz they SUCK. 
+    - Removed blindness potions from cavefish.
     - Removed atoning tables and bejeweled anvils
     - Removed Quark's bricks and stuff because they suck (polished up sweep)
     - Removed Quark Gunpowder Sacks

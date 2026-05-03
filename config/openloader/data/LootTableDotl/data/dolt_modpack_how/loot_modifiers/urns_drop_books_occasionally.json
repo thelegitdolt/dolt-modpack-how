@@ -1,0 +1,30 @@
+{
+  "type": "doltastic_enchantments:ancient_book",
+  "conditions": [],
+  "injections": [
+    {
+      "weightedBookCount": 0.025,
+      "commonEnchants": true,
+      "tables": [
+        "supplementaries:blocks/urn_loot/rare"
+      ]
+    },
+    {
+      "weightedBookCount": 0.01,
+      "items": [
+          "minecraft:bow",
+          "minecraft:crossbow"
+      ],
+      "tables": [
+        "supplementaries:blocks/urn_loot/rare"
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+

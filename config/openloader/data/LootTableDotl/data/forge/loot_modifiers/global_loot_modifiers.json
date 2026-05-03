@@ -10,6 +10,8 @@
     "dolt_modpack_how:drop_self/glass_drop_self",
     "dolt_modpack_how:drop_self/coralstone_drop_self",
     "dolt_modpack_how:other/do_luck",
-    "dolt_modpack_how:drop_self/others"
+    "dolt_modpack_how:drop_self/others",
+    "dolt_modpack_how:replace_rope",
+    "dolt_modpack_how:urns_drop_books_occasionally"
   ]
 }
