@@ -28,22 +28,23 @@
             - Chests from the following structures will have an average of 1.5 ancient books injected to it: 
                 - Stronghold Library, Pink Salt Shrine libraries, Pillager Outposts
         - The follow structures will have more specific enchantments. This does not affect the above distributions and is a bonus item in addition to any added books with a common enchantment. The "Item" column means that the books found in the table will contain a random enchantment applicable to an item in the list
+
 | Item | Enchantment | Locations | Rarity | 
 |--------|--------|--------|--------|
 | - | Swift Sneak | Ancient City | 12% |
 | - | Soul Speed | Bastion | 9% |
 | - | Fortune, Looting | Mineshaft | 15% |
 | Fishing Rod, Trident| - | Underwater Ruins, Buried Treasure | 30% |
-| - | Herd Phalanx, Plummeting Flight, Chomping Spirit | Caveman House | 100 % | 
-| - |Impending Stab, Sated Blade, Precise Volley, Relentless Darkness, Double Stab, Twilight Perfection | Forlorn Ruins | 100 % | 
-| - |Triple Split, Explosive Flavor, Sharp Cane, Far Flung, Straight Hook, Seekcandy, Peppermint Punting, Bouncy Ball | Licowitch Tower, Gingerbread Town |60 % | 
+| - | Herd Phalanx, Plummeting Flight, Chomping Spirit | Caveman House | 100% | 
+| - |Impending Stab, Sated Blade, Precise Volley, Relentless Darkness, Double Stab, Twilight Perfection | Forlorn Ruins | 100% | 
+| - |Triple Split, Explosive Flavor, Sharp Cane, Far Flung, Straight Hook, Seekcandy, Peppermint Punting, Bouncy Ball | Licowitch Tower, Gingerbread Town |60% | 
 | - | Obedience | Bastions | 15% | 
 | Buckler | - | Bastions | 15% | 
 | Shotgun Fist, Pump-Charge Shotgun | - | Sanctum Brazier Chests| 25% | 
 | - | Phantasm Hull | Sanctum Brazier Chests| 25% | 
 | - | Air Hop | End City | 20% | 
 | Stiletto | - | Catacombs | 15% | 
-| Saltbound Tablet | - | Pink Salt Shrine | 20% | 
+| Saltbound Tablet | - | Pink Salt Shrine | 20% |
 
     
 - Can't find books no matter what you do? Ancient Books of arbitrary enchantments can be **crafted** in the crafting table using 1 book, 7 diamonds, and 1 reagent which differs depending on the enchantment. The following is a partial table of enchantments and their reagents: 
