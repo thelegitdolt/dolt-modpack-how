@@ -149,7 +149,8 @@
 - Made olivestone crafted with cactus paste instead of green dye
 - Removed Luck and Bad Luck tether potions
 - Removed the soul, cupric, ender variants of: Jack-o-lanterns, Fairy Lights, Fire Rings, and Pigsteel Lanterns
-- Removed soul sandstones
+- Removed soul sandstones (quark)
+- Removed mutton pie (windswept)
 - Removed some alex's caves stuff: Sea Staff, Ortholances, Magic Conch, Galena Gauntlet, and Ray Guns. 
 - Removed the 7x7 paintings in Twilight Resonance. Because like wtf
 
