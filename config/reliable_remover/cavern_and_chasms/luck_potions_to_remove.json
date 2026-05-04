@@ -1,0 +1,19 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "caverns_and_chasms:tether_potion",
+            "caverns_and_chasms:trail_potion",
+            "caverns_and_chasms:impact_potion",
+            "nirvana:potion_bong"
+        ],
+        "nbt": [
+            "/.*\"minecraft:luck\".*/",
+            "/.*\"buzzier_bees:strong_luck\".*/",
+            "/.*\"buzzier_bees:long_luck\".*/",
+            "/.*\"buzzier_bees:unluck\".*/",
+            "/.*\"buzzier_bees:strong_unluck\".*/",
+            "/.*\"buzzier_bees:long_unluck\".*/"
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove_potion",
+        "items": [
+            "sullysmod:luck",
+            "sullysmod:unluck"
+        ]
+    }
+]

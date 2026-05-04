@@ -2,7 +2,8 @@
     {
         "action": "remove_potion",
         "items": [
-            "caverns_and_chasms:blindness"
+            "caverns_and_chasms:blindness",
+            "caverns_and_chasms:long_blindness"
         ]
     }
 ]
