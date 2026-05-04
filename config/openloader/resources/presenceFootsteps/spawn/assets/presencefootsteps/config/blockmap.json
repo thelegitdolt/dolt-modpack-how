@@ -16,14 +16,14 @@
 
 	"spawn:zombified_flower": "straw,organic",
 
-	"spawn:red_clam_case.foliage": "sandstone,ore",
-	"spawn:red_clam_case": "sandstone,ore",
-	"spawn:yellow_clam_case.foliage": "sandstone,ore",
-	"spawn:yellow_clam_case": "sandstone,ore",
-	"spawn:white_clam_case.foliage": "sandstone,ore",
-	"spawn:white_clam_case": "sandstone,ore",
-	"spawn:purple_clam_case.foliage": "sandstone,ore",
-	"spawn:purple_clam_case": "sandstone,ore",
+	"spawn:clam_case_red.foliage": "sandstone,ore",
+	"spawn:clam_case_red": "sandstone,ore",
+	"spawn:clam_case_yellow.foliage": "sandstone,ore",
+	"spawn:clam_case_yellow": "sandstone,ore",
+	"spawn:clam_case_white.foliage": "sandstone,ore",
+	"spawn:clam_case_white": "sandstone,ore",
+	"spawn:clam_case_purple.foliage": "sandstone,ore",
+	"spawn:clam_case_purple": "sandstone,ore",
 
 	"spawn:fallen_leaves.foliage": "leaves",
 	"spawn:magmtic_splatter.foliage": "organic,magma",
