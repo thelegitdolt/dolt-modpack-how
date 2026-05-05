@@ -10,7 +10,10 @@
             "sob:strawberry_jam",
             "sob:builder_smoothie",
             "sob:tequila",
-            "sob:counter"
+            "sob:counter",
+            "item:sob:cinder_bread",
+            "item:sob:cinder_dough",
+            "sob:glittering_gloop"
         ]
     },
     {

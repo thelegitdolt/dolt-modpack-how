@@ -147,6 +147,7 @@
 - Allowed subterranodon and pet cemetery parrots to use Delighto Flight bird seeds
 - Changed the following emi tag icons to be more fitting: `#forge:berries` and `#minecraft:fishes`
 - Made olivestone crafted with cactus paste instead of green dye
+- Removed asparagus, peanuts, and prickly pears from smidgeon o' bliss
 - Removed Luck and Bad Luck tether potions
 - Removed the soul, cupric, ender variants of: Jack-o-lanterns, Fairy Lights, Fire Rings, and Pigsteel Lanterns
 - Removed soul sandstones (quark)

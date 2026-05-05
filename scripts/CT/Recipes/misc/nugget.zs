@@ -150,6 +150,5 @@ cheapen_gold_food("minecraft:melon_slice", "minecraft:glistering_melon_slice");
 cheapen_gold_food("atmospheric:passion_fruit", "atmospheric:shimmering_passion_fruit"); 
 cheapen_gold_food("galosphere:lichen_cordyceps", "galosphere:golden_lichen_cordyceps"); 
 cheapen_cringe_gold_food("minecraft:potato", "sob:golden_potato", "sob:crafting/golden_potato"); 
-cheapen_cringe_gold_food("minecraft:potato", "sob:golden_prickly_pear", "sob:crafting/golden_prickly_pear"); 
 
 DebugUtil.endScript("recipes/misc/nugget"); 

@@ -12,6 +12,18 @@
       {
         "namespace": "sullysmod",
         "path": "forge/biome_modifier/jade_ore"            
+      },
+      {
+        "namespace": "sob",
+        "path": "forge/biome_modifier/nopal_crop"            
+      },
+      {
+        "namespace": "sob",
+        "path": "forge/biome_modifier/wild_asparagus"            
+      }, 
+      {
+        "namespace": "sob",
+        "path": "forge/biome_modifier/wild_peanuts"            
       } 
     ]    
   }         
