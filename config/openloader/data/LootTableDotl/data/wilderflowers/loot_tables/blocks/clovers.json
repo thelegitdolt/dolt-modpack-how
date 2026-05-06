@@ -1,128 +1,128 @@
 {
   "type": "minecraft:block",
   "pools": [
-	{
-	  "bonus_rolls": 0,
-	  "entries": [
-		{
-		  "type": "minecraft:alternatives",
-		  "children": [
-      {
-          "type": "item",
-          "conditions": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "tag": "forge:shears"
-              }
+              "type": "item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "forge:shears"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "wilderflowers:clovers",
+                  "properties": {
+                    "flower_amount": "4"
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.005
+                }
+              ],
+              "name": "buzzier_bees:four_leaf_clover"
             },
             {
-              "condition": "minecraft:block_state_property",
-              "block": "wilderflowers:clovers",
-              "properties": {
-              "flower_amount": "4"
-              }
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "wilderflowers:clovers",
+                      "properties": {
+                        "flower_amount": "1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "wilderflowers:clovers",
+                      "properties": {
+                        "flower_amount": "2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 3,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "wilderflowers:clovers",
+                      "properties": {
+                        "flower_amount": "3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "wilderflowers:clovers",
+                      "properties": {
+                        "flower_amount": "4"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "forge:shears"
+                  }
+                }
+              ],
+              "name": "wilderflowers:clovers"
             },
             {
-              "condition": "minecraft:random_chance",
-              "chance": 0.005
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "chance": 0.125,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "functions": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": {
+                    "bonusMultiplier": 2
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:wheat_seeds"
             }
-			    ],
-          "name": "buzzier_bees:four_leaf_clover"
-      },
-			{
-			  "type": "minecraft:item",
-			  "functions": [
-				{
-				  "function": "minecraft:set_count",
-				  "count": 1,
-				  "conditions": [
-            {
-              "condition": "minecraft:block_state_property",
-              "block": "wilderflowers:clovers",
-              "properties": {
-              "flower_amount": "1"
-              }
-            }
-				  ]
-				},
-				{
-				  "function": "minecraft:set_count",
-				  "count": 2,
-				  "conditions": [
-					{
-					  "condition": "minecraft:block_state_property",
-					  "block": "wilderflowers:clovers",
-					  "properties": {
-						"flower_amount": "2"
-					  }
-					}
-				  ]
-				},
-				{
-				  "function": "minecraft:set_count",
-				  "count": 3,
-				  "conditions": [
-					{
-					  "condition": "minecraft:block_state_property",
-					  "block": "wilderflowers:clovers",
-					  "properties": {
-						"flower_amount": "3"
-					  }
-					}
-				  ]
-				},
-				{
-				  "function": "minecraft:set_count",
-				  "count": 4,
-				  "conditions": [
-            {
-              "condition": "minecraft:block_state_property",
-              "block": "wilderflowers:clovers",
-              "properties": {
-              "flower_amount": "4"
-              }
-            }
-				  ]
-				}
-			  ],
-			  "conditions": [
-				{
-				  "condition": "minecraft:match_tool",
-				  "predicate": {
-            "tag": "forge:shears"
-          }
-				}
-			  ],
-			  "name": "wilderflowers:clovers"
-			},
-			{
-			  "type": "minecraft:item",
-			  "conditions": [
-				{
-				  "chance": 0.125,
-				  "condition": "minecraft:random_chance"
-				}
-			  ],
-			  "functions": [
-				{
-				  "enchantment": "minecraft:fortune",
-				  "formula": "minecraft:uniform_bonus_count",
-				  "function": "minecraft:apply_bonus",
-				  "parameters": {
-					"bonusMultiplier": 2
-				  }
-				},
-				{
-				  "function": "minecraft:explosion_decay"
-				}
-			  ],
-			  "name": "minecraft:wheat_seeds"
-			}
-		  ]
-		}
-	  ],
-	  "rolls": 1
-	}
+          ]
+        }
+      ],
+      "rolls": 1
+    }
   ]
 }

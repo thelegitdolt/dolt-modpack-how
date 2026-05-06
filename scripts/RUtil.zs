@@ -80,11 +80,14 @@ as string[];
         craftingTable.addShapeless(name, output * count, [input]); 
     }
     
-    public static newBrewingRecipe(rea as IIngredient, potion as string) as void {
+    public static newPotionMix(rea as IIngredient, potion as string) as void {
         brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: potion}), rea, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward"}));
         brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: potion}), rea, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}));
         brewing.addRecipe(<item:minecraft:lingering_potion>.withTag({Potion: potion}), rea, <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}));
         brewing.addRecipe(<item:caverns_and_chasms:tether_potion>.withTag({Potion: potion}), rea, <item:caverns_and_chasms:tether_potion>.withTag({Potion: "minecraft:awkward"}));
+        brewing.addRecipe(<item:caverns_and_chasms:impact_potion>.withTag({Potion: potion}), rea, <item:caverns_and_chasms:impact_potion>.withTag({Potion: "minecraft:awkward"}));
+        brewing.addRecipe(<item:caverns_and_chasms:trail_potion>.withTag({Potion: potion}), rea, <item:caverns_and_chasms:trail_potion>.withTag({Potion: "minecraft:awkward"}));
+        brewing.addRecipe(<item:nirvana:potion_bong>.withTag({Potion: potion}), rea, <item:nirvana:potion_bong>.withTag({Potion: "minecraft:awkward"}));   
     }
 
     public static isAir(a as IIngredient) as bool {

@@ -138,6 +138,7 @@
 - Made every tnt variant cheaper in line with polished up new TNT recipe
 - Made SoB orange juice not require sugar to craft (it's ORGANIC)
 - Delight-o-flight cloud islands spawn more often
+- Wilder Flower Clovers now have a 1 in 200 chance to drop four leaf clovers when broken with shears
 - Fixed inconsistent awning and candle holder recipes
 - The gobthumper (gummy worm summing block) crafts 1 at a time
 - Capes no longer render if players are wearing a quark backpack

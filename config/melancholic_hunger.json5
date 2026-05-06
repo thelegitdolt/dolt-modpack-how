@@ -15,7 +15,7 @@
 		hunger_effect: "REPLACED_WITH_POISON",
 		gradual_health_regeneration: true,
 		gradual_health_regeneration_speed: 0.8,
-		regeneration_at_full_health: "CONTINUED",
+		regeneration_at_full_health: "STORED",
 		use_custom_food_stack_sizes: false,
 		custom_food_stack_sizes: {
 			"minecraft:beetroot": 64,
