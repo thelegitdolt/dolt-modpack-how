@@ -1,8 +1,9 @@
-# Dolt Modpack How 1.ω.3
+# Dolt Modpack How 1.ω.3 - 
 
 ### Mod Changes
 
 ### Tweaks
+- Made Anglerfish and Nautilus spawn in Abyssal Chasms
 - Quark Posts now connect to Quark Hedges if they are placed above
 - Limpet rebalance 
     - Coal limpets no longer spawn below y = 16
@@ -10,6 +11,7 @@
     - Spinel limpets are more common in lush caves
 - Made clovers Wilderflowers also only drop seeds when broken with a hoe 
 
+---
 
 # Dolt Modpack How 1.ω.2
 
@@ -184,6 +186,8 @@
 - Fixed Vallumraptors being able to open chests locked by octopuses
 - Alexscaves Submarine now assumes the majority oxidation level of the copper blocks used to construct it, and drop copper ingots corresponding to their oxidation state when destroyed
 
+---
+
 # Dolt Modpack How 1.ω.1
 
 ### Mod changes
@@ -224,48 +228,9 @@
 ### Fixes
 - Fixed Mimeful Epilogue advancement triggering on every entity
 
+---
+
 # Hotfix 1.0.0a
 
 - Update dolt mod to fix some unintentional miming behavior
 - Fixed null pointer with creeper disc loot modifier
-
-# Really Old Version
-
-ADDITIONS
-- Added natural temperature modification
-- Updated species
-
-CHANGES
-- Buffed rotbulb and wormroot rates. 1 monster yam = 2.5 rotbulbs = 5 gunk = 10 wormroots = 2.25 wormroot blocks = 10 wormroot planks
-- Added vanilla 1.21.6 lead recipe cuz I was bored
-- Made crafting cut copper consistent with stonecutting it
-- Changed some health values around
-    - Skeletons have 5 health, sniffers have 14, chickens have 4, striders have 7, and monster yams have 10
-- made large pumpkins cut to pumpkin slices; added autumnity pumpkins to mineable knifes
-- Made new species heads mineable pickaxe; 
-- Made barrel cactus and all cactus batches mineable knife;
-- Made honey able to craft sticky pistons
-- Removed Jade
-    - Jade flinger totems are still there, they use the texture of splurters
-- Made bouldering zombies have the normal zombie loot table, instead of dropping fawking normal deepslate
-- Changed the gearbox recipe
-- Made stained scrap a valid trim material (Thank you very much lucy)
-- Mobs spawning from monster boxes now drop stained scraps dungeonsdelight
-- Allow foliaath mowziesmobs to spawn in primordial caves alexscaves, also they can't spawn in jungles anymore
-- Made zirconia discs unable to smelt into blank discs
-- Made large pumpkin slices bake to ginger dye. Also added a kiln recipe for pumpkin -> ginger dye
-- Made leather armor cut to leather scraps. Added a recipe to combine leather scraps back into leather
-- Streamline horse armor crushing wheel recipes
-- Made the chain recipe only take two iron/zinc nuggets
-- Made the hanging signs recipe require planks instead of logs
-- Add coffee berries to bastion_other chests 
-- Remove gold and netherite doors supplementaries
-- Removed Alloyed
-- Removed twisted wood and railings
-- Removed splurters and scatterers
-
-FIXES
-- Fixed being unable to mine nylium with hands
-- Fixed glass panes and glass trapdoors not dropping themselves when mined without silk touch
-- Fixed tin ore outputting crushed tin instead of raw tin
-
