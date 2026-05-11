@@ -1,7 +1,13 @@
-# Dolt Modpack How 1.ω.2
+# Dolt Modpack How 1.ω.3
 
+### Mod Changes
 
 ### Tweaks
+- Quark Posts now connect to Quark Hedges if they are placed above
+- Limpet rebalance 
+    - Coal limpets no longer spawn below y = 16
+    - Diamonds limpets are much rarer
+    - Spinel limpets are more common in lush caves
 - Made clovers Wilderflowers also only drop seeds when broken with a hoe 
 
 

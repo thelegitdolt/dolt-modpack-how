@@ -154,7 +154,7 @@
 [TOOL] incontrol-1.20-9.4.6.jar
 [TOOL] polytone-1.20-3.5.26.jar
 [TOOL] propertymodifier-1.20.1-0.1-all.jar
-[TOOL] reliable_remover-forge-1.20.1-2.3.0.jar
+[TOOL] reliable_remover-forge-1.20.1-2.3.1.jar
 {LIB} ElysiumAPI-1.20.1-1.1.3.jar
 {LIB} MRU-1.0.4+1.20.1+forge.jar
 {LIB} PuzzlesLib-v8.1.33-1.20.1-Forge.jar
