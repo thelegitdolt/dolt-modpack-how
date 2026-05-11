@@ -1,4 +1,4 @@
-# Dolt Modpack How 1.ω.3 - 
+# Dolt Modpack How 1.ω.3 
 
 ### Mod Changes
 
@@ -10,8 +10,6 @@
     - Diamonds limpets are much rarer
     - Spinel limpets are more common in lush caves
 - Made clovers Wilderflowers also only drop seeds when broken with a hoe 
-
----
 
 # Dolt Modpack How 1.ω.2
 
@@ -186,8 +184,6 @@
 - Fixed Vallumraptors being able to open chests locked by octopuses
 - Alexscaves Submarine now assumes the majority oxidation level of the copper blocks used to construct it, and drop copper ingots corresponding to their oxidation state when destroyed
 
----
-
 # Dolt Modpack How 1.ω.1
 
 ### Mod changes
@@ -227,8 +223,6 @@
 
 ### Fixes
 - Fixed Mimeful Epilogue advancement triggering on every entity
-
----
 
 # Hotfix 1.0.0a
 
