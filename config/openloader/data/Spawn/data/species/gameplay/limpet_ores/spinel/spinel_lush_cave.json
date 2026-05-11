@@ -1,0 +1,10 @@
+{
+  "id": "species:spinel",
+  "item": "caverns_and_chasms:spinel",
+  "block": "caverns_and_chasms:spinel_ore",
+  "maxCount": 12,
+  "location": "minecraft:lush_cave",
+  "spawnWeight": 40,
+  "maxSpawnHeight": 48,
+  "minSpawnHeight": -16
+}

@@ -1,5 +1,12 @@
 # Dolt Modpack How 1.ω.2
 
+
+### Tweaks
+- Made clovers Wilderflowers also only drop seeds when broken with a hoe 
+
+
+# Dolt Modpack How 1.ω.2
+
 ### Mod Changes
 - Updated [Caverns and Chasms](https://modrinth.com/mod/caverns-and-chasms), polished up YAY!
 - Updated [Spawn](https://modrinth.com/mod/spawn-mod), hell yeah
