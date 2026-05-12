@@ -13,7 +13,6 @@
 [ADDON] abnormals_delight-1.20.1-5.0.0.jar
 [ADDON] cc_compat-1.2.1.jar
 [ADDON] create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar
-[ADDON] create_interactive-1.2.1_1.20.1-forge.jar
 [ADDON] doom_and_gloom-forge-2.0.0.jar
 [ADDON] dye_the_world-1.6.1.jar
 [ADDON] emi_loot-0.7.9+1.20.1+forge.jar
@@ -171,5 +170,4 @@
 {LIB} geckolib-forge-1.20.1-4.8.3.jar
 {LIB} kotlinforforge-4.12.0-all.jar
 {LIB} moonlight-1.20-2.16.31-forge.jar
-{LIB} valkyrienskies-120-2.4.11.jar
 {LIB} yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar
