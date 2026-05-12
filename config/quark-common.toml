@@ -779,7 +779,7 @@
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
 	"No More Lava Pockets" = true
-	Permafrost = true
+	Permafrost = false
 	"Spiral Spires" = true
 
 	[world.ancient_wood]
