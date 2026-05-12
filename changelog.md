@@ -3,6 +3,8 @@
 ### Mod Changes
 
 ### Tweaks
+- MORE HUNGER TWEAKS
+    - Removed Intoxication Brewinchewin because there is no longer any saturation for it to stop you from gaining
 - Made Anglerfish and Nautilus spawn in Abyssal Chasms
 - Quark Posts now connect to Quark Hedges if they are placed above
 - Limpet rebalance 
