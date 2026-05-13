@@ -3,7 +3,7 @@
 		"pack_format": 12,
 		"description": [
       {
-        "text":"Dolt Worldgen","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"
+        "text":"Dolt Worldgen","color":"gold"},{"text":"sex","color":"yellow"
       }
     ]
 	},    
@@ -24,6 +24,10 @@
       {
         "namespace": "sob",
         "path": "forge/biome_modifier/wild_peanuts"            
+      },
+      {
+        "namespace": "immersiveenchanting",
+        "path": "worldgen/structure"            
       } 
     ]    
   }         

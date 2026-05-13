@@ -1,6 +1,0 @@
-{
-  "disable": true,
-  "filters": [
-    "/.*spawn_egg.*/"
-  ]
-}

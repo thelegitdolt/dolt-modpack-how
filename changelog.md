@@ -6,6 +6,8 @@
 - MORE HUNGER TWEAKS
     - Removed Intoxication Brewinchewin because there is no longer any saturation for it to stop you from gaining
 - Made Anglerfish and Nautilus spawn in Abyssal Chasms
+- Readded spawn eggs to EMI; gave the spawn eggs the new 1.21.5 textures
+- Made minecraft levers craftable with any stone
 - Quark Posts now connect to Quark Hedges if they are placed above
 - Limpet rebalance 
     - Coal limpets no longer spawn below y = 16

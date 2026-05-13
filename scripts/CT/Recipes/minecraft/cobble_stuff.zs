@@ -40,6 +40,7 @@ DebugUtil.startScript("/Reciperminecraft/cobble_stuff/");
   craftingTable.removeByName("minecraft:dispenser");
 
   craftingTable.removeByName("minecraft:dropper");
+  craftingTable.removeByName("minecraft:lever");
 
   craftingTable.removeByName("minecraft:observer");
   craftingTable.removeByName("quark:building/crafting/furnaces/cobblestone_furnace");
@@ -66,6 +67,10 @@ DebugUtil.startScript("/Reciperminecraft/cobble_stuff/");
     [<tag:items:minecraft:furnace_crafting_materials>, <item:minecraft:air>, <tag:items:minecraft:furnace_crafting_materials>], 
     [<tag:items:minecraft:furnace_crafting_materials>, <tag:items:minecraft:furnace_crafting_materials>, <tag:items:minecraft:furnace_crafting_materials>]]);
 
+craftingTable.addShaped("lever_based", <item:minecraft:lever>, [
+  [<tag:items:forge:rods/wooden>],
+  [<tag:items:minecraft:stone_crafting_materials>]
+]);
 
 craftingTable.removeByName("ftgu:displacer");
 
