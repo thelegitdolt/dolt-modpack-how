@@ -2,6 +2,8 @@
 [misc]
 	#If interacting with blocks like Flower Pots and Amendment Placeable Books should put the item they contain into your inventory, thus merging with existing stacks, instead of adding it to your hand, which is EXTREMELY ANNOYING
 	"Less Annoying Item Reclaim" = true
+	#Set this to true if you have, say, used Melancholic Hunger to remove hunger from your modpack and made food directly restore health
+	"You are literally dolt" = true
 
 [Vanilla]
 

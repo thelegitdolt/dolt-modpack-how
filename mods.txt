@@ -1,5 +1,5 @@
 [ADDON-DAVIJ] nest_egg-1.20.1-1.0.2.jar
-[ADDON-DOLT] dolt_mod_how-1.20.1-2.6.6-all.jar
+[ADDON-DOLT] dolt_mod_how-1.20.1-2.6.7-all.jar
 [ADDON-DOLT] doltastic_enchantments-1.20.1-1.0.0.jar
 [ADDON-KYS] MyNethersDelight-1.20.1-0.1.8.jar
 [ADDON-KYS] forge-dungeonsdelight-1.20.1-1.2.10-all.jar
@@ -40,6 +40,7 @@
 [CLIENT] NekosEnchantedBooks-1.19.3-2.0.3.jar
 [CLIENT] PresenceFootsteps-1.20.1-1.9.1-beta.1.jar
 [CLIENT] Pretty Rain-1.20.1-Forge-1.1.3.jar
+[CLIENT] emi-1.1.22+1.20.1+forge.jar
 [CLIENT] item-descriptions-2.5.4+1.20.1-forge.jar
 [CLIENT] jei-1.20.1-forge-15.20.0.129.jar
 [CLIENT] music_tweaks-forge-1.20.1-1.0.2.jar
@@ -61,7 +62,6 @@
 [CONTENT] caverns_and_chasms-1.20.1-2.1.3.jar
 [CONTENT] create-1.20.1-6.0.8.jar
 [CONTENT] dye_depot-1.2.3-forge.jar
-[CONTENT] emi-1.1.24+1.20.1+forge.jar
 [CONTENT] endergetic-1.20.1-5.0.1.jar
 [CONTENT] environmental-1.20.1-4.1.2.jar
 [CONTENT] etched-3.0.4.jar
