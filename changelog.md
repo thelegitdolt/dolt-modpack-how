@@ -7,6 +7,7 @@
     - Quark's food tooltip has been changed! They will render hearts instead of chicken shanks since hunger doesn't exist and food directly heals you
     - Removed Intoxication Brewinchewin because there is no longer any saturation for it to stop you from gaining
 - Quark's enchanting tooltip, which renders after an enchantment all the items it can be applied to, now works on Immersive Enchanting ancient books
+- Swapped the names of Ashen Sand Blastedbarrens and Blasted Sand Spawn
 - Made Spawn Anglerfish and Upgrade Aquatic Nautilus spawn in Alex Caves Abyssal Chasms
 - Species Wickeds can no longer possess Caverns and Chasms Rats
 - Readded spawn eggs to EMI; gave the spawn eggs the new 1.21.5 textures using [Modded Omelette](https://modrinth.com/resourcepack/modded-omelet) and [Spawn Eggs Backport](https://modrinth.com/resourcepack/spawn-egg-backport)

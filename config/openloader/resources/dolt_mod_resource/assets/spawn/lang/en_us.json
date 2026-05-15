@@ -1,0 +1,18 @@
+{
+  "block.spawn.blasted_sand": "Ashen Sand",
+  "lore.spawn.blasted_sand": "A black colored sand that can be found in volcanic areas, and smelted into Glass. It is affected by gravity.",
+  "block.spawn.blasted_sandstone": "Ashen Sandstone",
+  "lore.spawn.blasted_sandstone": "A block that makes an excellent building material, as it is not affected by gravity.",
+  "block.spawn.chiseled_blasted_sandstone": "Chiseled Ashen Sandstone",
+  "lore.spawn.chiseled_blasted_sandstone": "A block of Ashen Sandstone with a chiseled pattern.",
+  "block.spawn.blasted_sandstone_wall": "Ashen Sandstone Wall",
+  "block.spawn.blasted_sandstone_slab": "Ashen Sandstone Slab",
+  "block.spawn.blasted_sandstone_stairs": "Ashen Sandstone Stairs",
+  "block.spawn.cut_blasted_sandstone": "Cut Ashen Sandstone",
+  "lore.spawn.cut_blasted_sandstone": "A block of Ashen Sandstone that has been cut. Unlike Ashen Sand, it isn't affected by gravity.",
+  "block.spawn.cut_blasted_sandstone_slab": "Cut Ashen Sandstone Slab",
+  "block.spawn.smooth_blasted_sandstone": "Smooth Ashen Sandstone",
+  "lore.spawn.smooth_blasted_sandstone": "A block of Ashen Sandstone that has been perfectly smelted to a point where it has become perfectly smooth.",
+  "block.spawn.smooth_blasted_sandstone_slab": "Smooth Ashen Sandstone Slab",
+  "block.spawn.smooth_blasted_sandstone_stairs": "Smooth Ashen Sandstone Stairs"
+}
