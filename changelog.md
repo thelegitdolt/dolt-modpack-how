@@ -22,6 +22,7 @@
 
 ### Bugs
 - Fixed tether potions not clearing monsterized versions of effects
+- Fixed tuna egg bucket caviar recipe being incongruent
 
 # Dolt Modpack How 1.ω.2
 
