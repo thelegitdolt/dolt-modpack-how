@@ -1,10 +1,9 @@
 DebugUtil.startScript("recipes/caverns_and_chasms/caviar"); 
     
-craftingTable.addShapeless("caviar_with_tuna_egg", <item:caverns_and_chasms:caviar>, 
-[
-[<item:caverns_and_chasms:turquoise>, <item:caverns_and_chasms:turquoise>, <item:caverns_and_chasms:turquoise>],
-[<item:caverns_and_chasms:turquoise>, <item:spawn:tuna_egg_bucket>, <item:caverns_and_chasms:turquoise>],
-[<item:caverns_and_chasms:turquoise>, <item:caverns_and_chasms:turquoise>, <item:caverns_and_chasms:turquoise>]
+craftingTable.addShaped("caviar_with_tuna_egg", <item:caverns_and_chasms:caviar>, [
+    [<item:caverns_and_chasms:turquoise>, <item:caverns_and_chasms:turquoise>, <item:caverns_and_chasms:turquoise>],
+    [<item:caverns_and_chasms:turquoise>, <item:spawn:tuna_egg_bucket>, <item:caverns_and_chasms:turquoise>],
+    [<item:caverns_and_chasms:turquoise>, <item:caverns_and_chasms:turquoise>, <item:caverns_and_chasms:turquoise>]
 ]);
 
 DebugUtil.endScript("recipes/caverns_and_chasms/caviar"); 

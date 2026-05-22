@@ -1,9 +1,6 @@
 #loader tags
 
 TLUtil.startScript("tags/minecraft/blocks/mineable/pickaxe"); 
-    
-
-<tag:blocks:minecraft:mineable/pickaxe>.removeId(<resource:minecraft:budding_amethyst>);
 
 <tag:blocks:forge:glass>.add(<tag:blocks:oreganized:crystal_glass_panes>);
 <tag:blocks:forge:glass>.addId(<resource:netherexp:soul_glass>);

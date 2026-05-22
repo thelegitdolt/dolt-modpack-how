@@ -25,7 +25,7 @@
 #Vanilla item overrides
 [overrides]
 	#If enabled, soups and stews from Minecraft will grant Nourishment when eaten, similar to meals from this mod.
-	enableVanillaSoupExtraEffects = true
+	enableVanillaSoupExtraEffects = false
 	#If enabled, Rabbit Stew will grant users the jumping prowess of a rabbit when eaten.
 	enableRabbitStewJumpBoost = true
 	#If enabled, Pumpkin Pie will require the user to sneak to place it down as a block.
@@ -36,7 +36,7 @@
 	#Stack size overrides
 	[overrides.stack_size]
 		#If enabled, any BowlFoodItem in the following list become stackable to 16, much like Farmer's Delight's meals.
-		enableStackableSoupItems = true
+		enableStackableSoupItems = false
 		#List of targeted food items. They must extend the BowlFoodItem class in code to be affected. Defaults to vanilla soups and stews.
 		soupItemList = []
 

@@ -32,4 +32,6 @@ def deepFind(path: str, pred: Callable[[str], bool]):
             yield absolute_path
 
 if __name__ == '__main__':
-    pass
+    def a(path, content):
+        return True
+    deepFindWithContent("/Users/andrewyin/Desktop/Jadens-Nether-Expansion-1.20.1", a)
