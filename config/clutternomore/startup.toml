@@ -1,0 +1,9 @@
+# If vertical slabs should be added to all existing slabs
+# default: true
+vertical_slabs = true
+# If steps should be added to all existing stairs
+# default: true
+steps = true
+# Whether to generate a copy of the runtime datapack.
+# default: true
+runtime_data_generation = true
