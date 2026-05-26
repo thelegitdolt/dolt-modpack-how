@@ -138,6 +138,14 @@
 		[types.leaves_type.spawn]
 			date = true
 
+		[types.leaves_type.opposing_force]
+			apple = true
+			flowering_apple = true
+			fruitful_apple = true
+			infested_apple = true
+			flowering_infested_apple = true
+			fruitful_infested_apple = true
+
 	[types.cut_block_type]
 
 		[types.cut_block_type.mowziesmobs]
@@ -746,6 +754,15 @@
 			blasted_sandstone = true
 			cut_blasted_sandstone = true
 			smooth_blasted_sandstone = true
+
+		[types.cut_block_type.opposing_force]
+			guzzler_scale_brick = true
+			trembling_guzzler_scale_brick = true
+			trembling_guzzler_scale_shingle = true
+			vile_stone = true
+			vile_cobblestone = true
+			vile_stone_brick = true
+			trembling_shingle = true
 
 	[types.cake]
 
