@@ -9,7 +9,7 @@
         - Bowled food items no longer turn into bowls after you eat them. 
         - The container slot in FD cooking pots and Dungeons Delight Monster Pots has been removed!
         - _Bowls are still craftable, not hidden in EMI, and Shaped recipes are still made with bowls. I want to this do some testing before I commit to completely removing bowls from the game._
-        - _Because of the removal of the container slot, bottled foods (such as Hot Cocoa) prepared in the cooking pot will no longer require a glass bottle item but will still give you one when consumed. I plan on eventually removing glass bottles as well, so this bug will not matter._
+        - _Because of the removal of the container slot, bottled foods (such as Hot Cocoa) will no longer give you a glass bottle when consumed. I plan on eventually removing glass bottles as well, so this bug will not matter._
     - Quark's food tooltip has been changed! They will render hearts instead of chicken shanks since hunger doesn't exist and food directly heals you.
     - Added a new *Rapacity* potion, brewed with Rotten Flesh; you will always be able to eat when this effect is applied, even when you hunger is full. 
     - Removed Intoxication Brewinchewin because there is no longer any saturation for it to stop you from gaining
@@ -20,6 +20,7 @@
 - Revert packing container recipe
 - Species Wickeds can no longer possess Caverns and Chasms Rats
 - Readded spawn eggs to EMI; gave the spawn eggs the new 1.21.5 textures using [Modded Omelette](https://modrinth.com/resourcepack/modded-omelet) and [Spawn Eggs Backport](https://modrinth.com/resourcepack/spawn-egg-backport).
+- Thrown guano can now makes chimps dirty; they'll make rats dirty to when we port to 1.21.1 in 2028
 - Made minecraft levers craftable with any stone
 - Quark Posts now connect to Quark Hedges if they are placed above
 - Species Limpet rebalance 
@@ -31,6 +32,7 @@
 ### Bugs
 - Fixed tether potions not clearing monsterized versions of effects
 - Fixed tuna egg bucket caviar recipe being incongruent
+- Fixed alex caves guano, guano layer, and wallpaper wallpapers not being presence footstepped
 
 # Dolt Modpack How 1.ω.2
 
@@ -125,7 +127,7 @@
     - Updated presence footsteps stuff
     - Made storage ducts easier to craft
     - Added crushing recipes for cylindrite (also why did the old cassiterite one give you BLACKSTONE??? they give you granite now). 
-    - Removed blindness potions from cavefish.
+    - Removed blindness potions.
     - Removed atoning tables and bejeweled anvils
     - Removed Quark's bricks and stuff because they suck (polished up sweep)
     - Removed Quark Gunpowder Sacks
