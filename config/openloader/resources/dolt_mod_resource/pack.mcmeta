@@ -1,6 +1,14 @@
 {
- "pack": {
-   "pack_format": 15,
-   "description": "Dolt Modpack How Textures (Builtin)"
- }
+	"pack": {
+	"pack_format": 15,
+	"description": "Dolt Modpack How Textures (Builtin)",
+		"filter": {
+			"block": [
+				{
+					"namespace": "minecraft",
+					"path": "texts/splashes"            
+				}
+			]    
+		}
+	}     
 }

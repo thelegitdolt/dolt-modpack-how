@@ -1,0 +1,25 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "opposing_force:stone_helmet",
+            "opposing_force:stone_chestplate",
+            "opposing_force:stone_leggings",
+            "opposing_force:stone_boots",
+            "opposing_force:lapis_sword",
+            "opposing_force:lapis_shovel",
+            "opposing_force:lapis_pickaxe",
+            "opposing_force:lapis_axe",
+            "opposing_force:lapis_hoe",
+            "opposing_force:emerald_sword",
+            "opposing_force:emerald_shovel",
+            "opposing_force:emerald_pickaxe",
+            "opposing_force:emerald_axe",
+            "opposing_force:emerald_hoe",
+            "opposing_force:wooden_boots",
+            "opposing_force:wooden_mask",
+            "opposing_force:wooden_chestplate",
+            "opposing_force:wooden_cover"
+        ]
+    }
+]
