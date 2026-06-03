@@ -1,9 +1,29 @@
 # Dolt Modpack How 1.ω.3 
 
 ### Mod Changes
+- Added [Opposing Forces](https://modrinth.com/mod/opposing-force)
+- Updated [Sully's Mod](https://modrinth.com/mod/sullysmod)! 
+- Removed bowls with [Bowling Bulb](https://modrinth.com/mod/bowling-bulb)
 
 ### Tweaks
 - MORE HUNGER TWEAKS
+    - FOOD REBALANCE
+        - The new food stats given depends on how the stats they had before. Here's a fucking table. God I love tables so FUCKING MUCH. 
+
+| Old Restore Amount | New Restore Amount |
+|--------|--------|
+| 1, 2, 3 | 1 |
+| 4 | 2 |
+| 5 | 3 |
+| 6 | 4 |
+| 7 | 5 |
+| 8 | 6 |
+| 9 | 8 |
+| 10 | 10 |
+| 12 | 12 |
+| 14 | 14 |
+
+        And everything else is the same. 
     - BOWLS have been removed!
         - (Shapeless) Crafting recipes that required bowls before no longer do!
         - Bowled food items no longer turn into bowls after you eat them. 
@@ -13,6 +33,8 @@
     - Quark's food tooltip has been changed! They will render hearts instead of chicken shanks since hunger doesn't exist and food directly heals you.
     - Added a new *Rapacity* potion, brewed with Rotten Flesh; you will always be able to eat when this effect is applied, even when you hunger is full. 
     - Removed Intoxication Brewinchewin because there is no longer any saturation for it to stop you from gaining
+- Configured Opposing Force: 
+    - Removed the stone armor and wooden armor and the lapis and emerald tools 
 - Made budding amethyst efficiently mined by pickaxes again
 - Quark's enchanting tooltip, which renders after an enchantment all the items it can be applied to, now works on Immersive Enchanting ancient books
 - Swapped the names of Ashen Sand Blastedbarrens and Blasted Sand Spawn
@@ -20,6 +42,7 @@
 - Revert packing container recipe
 - Species Wickeds can no longer possess Caverns and Chasms Rats
 - Readded spawn eggs to EMI; gave the spawn eggs the new 1.21.5 textures using [Modded Omelette](https://modrinth.com/resourcepack/modded-omelet) and [Spawn Eggs Backport](https://modrinth.com/resourcepack/spawn-egg-backport).
+- Piglins trade pigsteel chunks instead of iron nuggets
 - Thrown guano can now makes chimps dirty; they'll make rats dirty to when we port to 1.21.1 in 2028
 - Made minecraft levers craftable with any stone
 - Quark Posts now connect to Quark Hedges if they are placed above
@@ -32,6 +55,8 @@
 ### Bugs
 - Fixed tether potions not clearing monsterized versions of effects
 - Fixed tuna egg bucket caviar recipe being incongruent
+- Fixed seeds not being properly removed from wilder flowers clovers
+- Fixed darker depths ropes not properly being replaced by FD ropes in loot tables
 - Fixed alex caves guano, guano layer, and wallpaper wallpapers not being presence footstepped
 
 # Dolt Modpack How 1.ω.2

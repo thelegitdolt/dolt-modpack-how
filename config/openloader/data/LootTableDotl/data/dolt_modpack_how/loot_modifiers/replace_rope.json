@@ -2,5 +2,5 @@
   "type": "netherexp:replace_item",
   "conditions": [],
   "target_item": "darkerdepths:rope",
-  "replace_with": "farmersdelight:rope"
+  "replacement_item": "farmersdelight:rope"
 }

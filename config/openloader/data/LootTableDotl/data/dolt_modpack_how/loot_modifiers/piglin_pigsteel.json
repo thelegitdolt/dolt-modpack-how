@@ -1,0 +1,11 @@
+{
+  "type": "netherexp:replace_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:gameplay/piglin_bartering"
+    }
+  ],
+  "target_item": "minecraft:iron_nugget",
+  "replacement_item": "pigsteel:pigsteel_chunk"
+}

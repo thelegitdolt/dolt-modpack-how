@@ -1,3 +1,5 @@
 #Enables the 'Polishable' tooltip on polishable items
 "Enable Polishable Tooltip" = false
+#When enabled, all mod items except for artifacts are added to a custom sully's mod creative tab
+use_custom_tab = true
 
