@@ -23,7 +23,7 @@
 | 12 | 12 |
 | 14 | 14 |
 
-        And everything else is the same. 
+And everything else is the same. 
     - BOWLS have been removed!
         - (Shapeless) Crafting recipes that required bowls before no longer do!
         - Bowled food items no longer turn into bowls after you eat them. 
