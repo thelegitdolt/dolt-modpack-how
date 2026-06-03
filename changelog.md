@@ -10,20 +10,20 @@
     - FOOD REBALANCE
         - The new food stats given depends on how the stats they had before. Here's a fucking table. God I love tables so FUCKING MUCH. 
 
-| Old Restore Amount | New Restore Amount |
-|--------|--------|
-| 1, 2, 3 | 1 |
-| 4 | 2 |
-| 5 | 3 |
-| 6 | 4 |
-| 7 | 5 |
-| 8 | 6 |
-| 9 | 8 |
-| 10 | 10 |
-| 12 | 12 |
-| 14 | 14 |
+        | Old Restore Amount | New Restore Amount |
+        |--------|--------|
+        | 1, 2, 3 | 1 |
+        | 4 | 2 |
+        | 5 | 3 |
+        | 6 | 4 |
+        | 7 | 5 |
+        | 8 | 6 |
+        | 9 | 8 |
+        | 10 | 10 |
+        | 12 | 12 |
+        | 14 | 14 |
 
-And everything else is the same. 
+        And everything else is the same. 
     - BOWLS have been removed!
         - (Shapeless) Crafting recipes that required bowls before no longer do!
         - Bowled food items no longer turn into bowls after you eat them. 
