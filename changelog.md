@@ -31,12 +31,16 @@
         - _Bowls are still craftable, not hidden in EMI, and Shaped recipes are still made with bowls. I want to this do some testing before I commit to completely removing bowls from the game._
         - _Because of the removal of the container slot, bottled foods (such as Hot Cocoa) will no longer give you a glass bottle when consumed. I plan on eventually removing glass bottles as well, so this bug will not matter._
     - Quark's food tooltip has been changed! They will render hearts instead of chicken shanks since hunger doesn't exist and food directly heals you.
+    - The Hunger effect is back! It stops you from sprinting. 
     - Added a new *Rapacity* potion, brewed with Rotten Flesh; you will always be able to eat when this effect is applied, even when you hunger is full. 
     - Removed Intoxication Brewinchewin because there is no longer any saturation for it to stop you from gaining
+    - Passive sources of regeneration, such as those from Heart Lanterns from the Heart Crystal mod, has been removed. 
 - Configured Opposing Force: 
     - Removed the stone armor and wooden armor and the lapis and emerald tools 
 - Made budding amethyst efficiently mined by pickaxes again
+- If Coaster Brewin Chewin will handle items renamed on an anvil as item frames do; a nameplate will be rendered above them when you look at them
 - Quark's enchanting tooltip, which renders after an enchantment all the items it can be applied to, now works on Immersive Enchanting ancient books
+- Skeletons have 20 health again
 - Swapped the names of Ashen Sand Blastedbarrens and Blasted Sand Spawn
 - Made Spawn Anglerfish and Upgrade Aquatic Nautilus spawn in Alex Caves Abyssal Chasms
 - Revert packing container recipe
@@ -51,6 +55,7 @@
     - Diamonds limpets are much rarer
     - Spinel limpets are more common in lush caves
 - Made clovers Wilderflowers also only drop seeds when broken with a hoe 
+- Removed bug meat & lanterns from new sully's mod update
 
 ### Bugs
 - Fixed tether potions not clearing monsterized versions of effects

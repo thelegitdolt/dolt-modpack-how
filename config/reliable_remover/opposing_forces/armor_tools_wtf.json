@@ -19,7 +19,16 @@
             "opposing_force:wooden_boots",
             "opposing_force:wooden_mask",
             "opposing_force:wooden_chestplate",
-            "opposing_force:wooden_cover"
+            "opposing_force:wooden_cover",
+            "opposing_force:bone_axe",
+            "opposing_force:bone_hoe",
+            "opposing_force:bone_sword",
+            "opposing_force:bone_shovel",
+            "opposing_force:bone_pickaxe",
+            "opposing_force:bone_helmet",
+            "opposing_force:bone_leggings",
+            "opposing_force:bone_chestplate",
+            "opposing_force:bone_boots"
         ]
     }
 ]

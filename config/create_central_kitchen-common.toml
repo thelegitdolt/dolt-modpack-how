@@ -17,7 +17,7 @@
 	#.
 	#Whether replacing vanilla and modded pies into Farmer's Delight style
 	#[@cui:RequiresReload:both]
-	enablePieOverhaul = true
+	enablePieOverhaul = false
 	#.
 	#Pie items in this list will not be included in pie overhaul
 	#[@cui:RequiresReload:both]

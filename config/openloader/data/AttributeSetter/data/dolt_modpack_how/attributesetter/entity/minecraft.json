@@ -1,11 +1,4 @@
 {
-    "skeleton": [
-        {
-            "attribute": "minecraft:generic.max_health",
-            "value": 10,
-            "operation": "BASE"
-        }
-    ],
     "sniffer": [
         {
             "attribute": "minecraft:generic.max_health",
