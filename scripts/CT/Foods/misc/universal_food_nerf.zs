@@ -12,7 +12,6 @@ for item in game.items {
     if item.food != null {
         val nut = item.food.getNutrition();
         if (nut > 0 && nut < 14) {
-            println(nut as string + "homeomorphism" + item.registryName.toString());
             val newNutValue = numbers[nut - 1];
             item.food = item.food.setNutrition(newNutValue);
         }
