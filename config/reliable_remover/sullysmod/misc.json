@@ -3,7 +3,15 @@
         "action": "remove",
         "items": [
             "sullysmod:item_stand",
-            "sullysmod:glass_vial"
+            "sullysmod:glass_vial",
+            "sullysmod:cooked_bug_meat",
+            "sullysmod:bug_meat",
+            "sullysmod:diamond_lantern",
+            "sullysmod:emerald_lantern",
+            "sullysmod:lapis_lantern",
+            "sullysmod:amethyst_lantern",
+            "sullysmod:amber_lantern",
+            "sullysmod:quartz_lantern"
         ]
     },
     {
