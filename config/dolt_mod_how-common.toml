@@ -198,3 +198,9 @@
 		#If heart crystals from the heart crystals mod should give the Health Boost effect and regen for awhile instead of giving you permanent hearts
 		impermanentHearts = true
 
+[OpposingForces]
+
+	[OpposingForces.Sawblades]
+		#If the terror sawblades from the opposing forces modification should be banned from doing the tree chop thing, which is VANILLA MINUS and should not be encouraged.
+		"Vanilla Plus Modpack" = false
+

@@ -3,7 +3,9 @@
         "action": "remove",
         "items": [
             "minecraft:netherite_upgrade_smithing_template",
-            "oreganized:electrum_upgrade_smithing_template"
+            "oreganized:electrum_upgrade_smithing_template",
+            "create_central_kitchen:pumpkin_pie_slice",
+            "create_central_kitchen:mulberry_pie_slice"
         ]
     }
 ]

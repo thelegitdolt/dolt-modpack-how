@@ -28,7 +28,11 @@
             "opposing_force:bone_helmet",
             "opposing_force:bone_leggings",
             "opposing_force:bone_chestplate",
-            "opposing_force:bone_boots"
+            "opposing_force:bone_boots",
+            "opposing_force:deepwoven_hat",
+            "opposing_force:deepwoven_tunic",
+            "opposing_force:deepwoven_pants",
+            "opposing_force:deepwoven_boots"
         ]
     }
 ]

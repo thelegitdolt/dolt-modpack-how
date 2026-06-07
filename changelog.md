@@ -18,11 +18,13 @@
         | 6 | 4 |
         | 7 | 5 |
         | 8 | 6 |
-        | 9 | 8 |
-        | 10 | 10 |
-        | 12 | 12 |
-        | 14 | 14 |
-
+        | 9 | 7 |
+        | 10 | 8 |
+        | 11 | 9 |
+        | 12 | 10 |
+        | 13 | 11 |
+        | 14 | 12 |
+        
         And everything else is the same. 
     - BOWLS have been removed!
         - (Shapeless) Crafting recipes that required bowls before no longer do!
@@ -37,6 +39,7 @@
     - Passive sources of regeneration, such as those from Heart Lanterns from the Heart Crystal mod, has been removed. 
 - Configured Opposing Force: 
     - Removed the stone armor and wooden armor and the lapis and emerald tools 
+    - Terror Sawblades no longer has the tree chop ability
 - Made budding amethyst efficiently mined by pickaxes again
 - If Coaster Brewin Chewin will handle items renamed on an anvil as item frames do; a nameplate will be rendered above them when you look at them
 - Quark's enchanting tooltip, which renders after an enchantment all the items it can be applied to, now works on Immersive Enchanting ancient books
