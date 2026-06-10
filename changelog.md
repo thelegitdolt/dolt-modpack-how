@@ -1,4 +1,14 @@
-# Dolt Modpack How 1.ω.3 
+# Dolt Modpack How 1.ω.4
+
+### Tweaks
+- Changed darker depths glow ink sac crafting ratio
+
+### Bugfix
+
+- Fixed wooden hoes still being craftable
+- Fixed C&C Rhyolite not being mineable with your bare hands
+
+# Dolt Modpack How 1.ω.3
 
 ### Mod Changes
 - Added [Opposing Forces](https://modrinth.com/mod/opposing-force)

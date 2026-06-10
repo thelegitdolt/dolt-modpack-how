@@ -3,7 +3,7 @@
 equatorial_distance = 5000.0
 #Set to true if you want the biomes' distribution pattern to loop until world border after the very cold regions
 looping_world = true
-#0: DEFAULT, 1: SIMPLIFIED, 2: LINEAR, 3: CUSTOM CIRCULAR, 4: CIRCULAR. You can see examples on the official modrinth page: https://modrinth.com/mod/natural-temperature/gallery
+#0: DEFAULT, 1: SIMPLIFIED, 2: LINEAR, 3: CUSTOM CIRCULAR, 4: CIRCULAR, 5: CUSTOM BANDED, 6: BANDED. You can see examples on the official modrinth page: https://modrinth.com/mod/natural-temperature/gallery
 #Range: 0 ~ 105
 generation_mode = 0
 #Positive values will move the equator to the north, if you want the equator to be at 0 set this value the same as your equatorial_distance
@@ -84,4 +84,9 @@ custom_mode_id_3 = "default"
 custom_mode_id_4 = "default"
 #ID of the custom mode to use when generation_mode = 105
 custom_mode_id_5 = "default"
+#Positive values will move the humidity bands to the west, negative ones to the east
+#Range: -6.0E12 ~ 6.0E12
+info_humidity_offset = 0.0
+#This will enable or disable the gui button on main menu
+show_gui_button = true
 

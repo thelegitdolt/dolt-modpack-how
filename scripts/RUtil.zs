@@ -124,6 +124,16 @@ as string[];
         recipeManager.remove(new IIngredientList(alls.map<IIngredient>(item => <item:${item}>)));
     }
 
+    public static overwrite(recipeString as string, recipe as function() as void) as void {
+        craftingTable.removeByName(recipeString);
+        recipe(); 
+    }
+
+    public static overwrite(recipeString as string, recipe as function(name as string) as void) as void {
+        craftingTable.removeByName(recipeString);
+        recipe(SUtil.tryParseRL(recipeString).getPath() + "_based"); 
+    }
+
     public static addFurnaceAndSmokerRecipe(name as string, input as IItemStack, output as IItemStack, xp as float) as void {
         furnace.addRecipe(name + "_from_smelting", output, input, xp, 200); 
         campfire.addRecipe(name + "_from_campfire", output, input, xp, 600); 

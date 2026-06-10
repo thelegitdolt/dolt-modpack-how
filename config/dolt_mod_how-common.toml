@@ -202,5 +202,5 @@
 
 	[OpposingForces.Sawblades]
 		#If the terror sawblades from the opposing forces modification should be banned from doing the tree chop thing, which is VANILLA MINUS and should not be encouraged.
-		"Vanilla Plus Modpack" = false
+		"Vanilla Plus Modpack" = true
 

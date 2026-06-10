@@ -31,15 +31,9 @@
 			kousa = true
 			grimwood = true
 
-		[types.wood_type.dungeonsdelight]
-			wormwood = true
-
 		[types.wood_type.netherexp]
 			claret = true
 			smokestalk = true
-
-		[types.wood_type.mynethersdelight]
-			powdery = true
 
 		[types.wood_type.quark]
 			azalea = true
@@ -74,6 +68,12 @@
 		[types.wood_type.spawn]
 			rotten = true
 			date = true
+
+		[types.wood_type.dungeonsdelight]
+			wormwood = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
 
 	[types.leaves_type]
 
@@ -405,10 +405,6 @@
 			stacked_wither_bone = true
 			yellow_nether_brick = true
 
-		[types.cut_block_type.mynethersdelight]
-			powdery = true
-			powdery_mosaic = true
-
 		[types.cut_block_type.windswept]
 			holly = true
 			chestnut = true
@@ -450,85 +446,6 @@
 			dry_mossy_stone_brick = true
 			dry_mossy_cobblestone_brick = true
 			dry_mossy_cobblestone_tile = true
-
-		[types.cut_block_type.dungeonsdelight]
-			cut_stained_scrap = true
-			wormwood = true
-			wormwood_mosaic = true
-
-		[types.cut_block_type.create]
-			copper_shingle = true
-			exposed_copper_shingle = true
-			weathered_copper_shingle = true
-			oxidized_copper_shingle = true
-			waxed_copper_shingle = true
-			waxed_exposed_copper_shingle = true
-			waxed_weathered_copper_shingle = true
-			waxed_oxidized_copper_shingle = true
-			copper_tile = true
-			exposed_copper_tile = true
-			weathered_copper_tile = true
-			oxidized_copper_tile = true
-			waxed_copper_tile = true
-			waxed_exposed_copper_tile = true
-			waxed_weathered_copper_tile = true
-			waxed_oxidized_copper_tile = true
-			cut_granite = true
-			polished_cut_granite = true
-			cut_granite_brick = true
-			small_granite_brick = true
-			cut_diorite = true
-			polished_cut_diorite = true
-			cut_diorite_brick = true
-			small_diorite_brick = true
-			cut_andesite = true
-			polished_cut_andesite = true
-			cut_andesite_brick = true
-			small_andesite_brick = true
-			cut_calcite = true
-			polished_cut_calcite = true
-			cut_calcite_brick = true
-			small_calcite_brick = true
-			cut_dripstone = true
-			polished_cut_dripstone = true
-			cut_dripstone_brick = true
-			small_dripstone_brick = true
-			cut_deepslate = true
-			polished_cut_deepslate = true
-			cut_deepslate_brick = true
-			small_deepslate_brick = true
-			cut_tuff = true
-			polished_cut_tuff = true
-			cut_tuff_brick = true
-			small_tuff_brick = true
-			cut_asurine = true
-			polished_cut_asurine = true
-			cut_asurine_brick = true
-			small_asurine_brick = true
-			cut_crimsite = true
-			polished_cut_crimsite = true
-			cut_crimsite_brick = true
-			small_crimsite_brick = true
-			cut_limestone = true
-			polished_cut_limestone = true
-			cut_limestone_brick = true
-			small_limestone_brick = true
-			cut_ochrum = true
-			polished_cut_ochrum = true
-			cut_ochrum_brick = true
-			small_ochrum_brick = true
-			cut_scoria = true
-			polished_cut_scoria = true
-			cut_scoria_brick = true
-			small_scoria_brick = true
-			cut_scorchia = true
-			polished_cut_scorchia = true
-			cut_scorchia_brick = true
-			small_scorchia_brick = true
-			cut_veridium = true
-			polished_cut_veridium = true
-			cut_veridium_brick = true
-			small_veridium_brick = true
 
 		[types.cut_block_type.pigsteel]
 			cut_pigsteel = true
@@ -684,6 +601,131 @@
 			snail_shell_tile = true
 			maple = true
 
+		[types.cut_block_type.buzzier_bees]
+			honeycomb_brick = true
+			honeycomb_tile = true
+
+		[types.cut_block_type.darkerdepths]
+			petrified = true
+			aridrock = true
+			polished_aridrock = true
+			aridrock_bricks = true
+			duskrock = true
+			polished_duskrock = true
+			duskrock_bricks = true
+			darkslate = true
+			polished_darkslate = true
+			darkslate_bricks = true
+			grimestone = true
+			polished_grimestone = true
+			grimestone_bricks = true
+
+		[types.cut_block_type.etcetera]
+			leveled_stone = true
+
+		[types.cut_block_type.spawn]
+			snail_shell_tile = true
+			rotten = true
+			reefstone = true
+			algal_reefstone = true
+			reefstone_tile = true
+			date = true
+			heliostone = true
+			blasted_sandstone = true
+			cut_blasted_sandstone = true
+			smooth_blasted_sandstone = true
+
+		[types.cut_block_type.opposing_force]
+			guzzler_scale_brick = true
+			trembling_guzzler_scale_brick = true
+			trembling_guzzler_scale_shingle = true
+			vile_stone = true
+			vile_cobblestone = true
+			vile_stone_brick = true
+			trembling_shingle = true
+
+		[types.cut_block_type.dolt_mod_how]
+			zinc_brick = true
+
+		[types.cut_block_type.dungeonsdelight]
+			cut_stained_scrap = true
+			wormwood = true
+			wormwood_mosaic = true
+
+		[types.cut_block_type.create]
+			copper_shingle = true
+			exposed_copper_shingle = true
+			weathered_copper_shingle = true
+			oxidized_copper_shingle = true
+			waxed_copper_shingle = true
+			waxed_exposed_copper_shingle = true
+			waxed_weathered_copper_shingle = true
+			waxed_oxidized_copper_shingle = true
+			copper_tile = true
+			exposed_copper_tile = true
+			weathered_copper_tile = true
+			oxidized_copper_tile = true
+			waxed_copper_tile = true
+			waxed_exposed_copper_tile = true
+			waxed_weathered_copper_tile = true
+			waxed_oxidized_copper_tile = true
+			cut_granite = true
+			polished_cut_granite = true
+			cut_granite_brick = true
+			small_granite_brick = true
+			cut_diorite = true
+			polished_cut_diorite = true
+			cut_diorite_brick = true
+			small_diorite_brick = true
+			cut_andesite = true
+			polished_cut_andesite = true
+			cut_andesite_brick = true
+			small_andesite_brick = true
+			cut_calcite = true
+			polished_cut_calcite = true
+			cut_calcite_brick = true
+			small_calcite_brick = true
+			cut_dripstone = true
+			polished_cut_dripstone = true
+			cut_dripstone_brick = true
+			small_dripstone_brick = true
+			cut_deepslate = true
+			polished_cut_deepslate = true
+			cut_deepslate_brick = true
+			small_deepslate_brick = true
+			cut_tuff = true
+			polished_cut_tuff = true
+			cut_tuff_brick = true
+			small_tuff_brick = true
+			cut_asurine = true
+			polished_cut_asurine = true
+			cut_asurine_brick = true
+			small_asurine_brick = true
+			cut_crimsite = true
+			polished_cut_crimsite = true
+			cut_crimsite_brick = true
+			small_crimsite_brick = true
+			cut_limestone = true
+			polished_cut_limestone = true
+			cut_limestone_brick = true
+			small_limestone_brick = true
+			cut_ochrum = true
+			polished_cut_ochrum = true
+			cut_ochrum_brick = true
+			small_ochrum_brick = true
+			cut_scoria = true
+			polished_cut_scoria = true
+			cut_scoria_brick = true
+			small_scoria_brick = true
+			cut_scorchia = true
+			polished_cut_scorchia = true
+			cut_scorchia_brick = true
+			small_scorchia_brick = true
+			cut_veridium = true
+			polished_cut_veridium = true
+			cut_veridium_brick = true
+			small_veridium_brick = true
+
 		[types.cut_block_type.dye_the_world]
 			amber_shingles = true
 			aqua_shingles = true
@@ -718,51 +760,9 @@
 			teal_terracotta_brick = true
 			verdant_terracotta_brick = true
 
-		[types.cut_block_type.buzzier_bees]
-			honeycomb_brick = true
-			honeycomb_tile = true
-
-		[types.cut_block_type.darkerdepths]
-			petrified = true
-			aridrock = true
-			polished_aridrock = true
-			aridrock_bricks = true
-			duskrock = true
-			polished_duskrock = true
-			duskrock_bricks = true
-			darkslate = true
-			polished_darkslate = true
-			darkslate_bricks = true
-			grimestone = true
-			polished_grimestone = true
-			grimestone_bricks = true
-
-		[types.cut_block_type.etcetera]
-			leveled_stone = true
-
-		[types.cut_block_type.dolt_mod_how]
-			zinc_brick = true
-
-		[types.cut_block_type.spawn]
-			snail_shell_tile = true
-			rotten = true
-			reefstone = true
-			algal_reefstone = true
-			reefstone_tile = true
-			date = true
-			heliostone = true
-			blasted_sandstone = true
-			cut_blasted_sandstone = true
-			smooth_blasted_sandstone = true
-
-		[types.cut_block_type.opposing_force]
-			guzzler_scale_brick = true
-			trembling_guzzler_scale_brick = true
-			trembling_guzzler_scale_shingle = true
-			vile_stone = true
-			vile_cobblestone = true
-			vile_stone_brick = true
-			trembling_shingle = true
+		[types.cut_block_type.mynethersdelight]
+			powdery = true
+			powdery_mosaic = true
 
 	[types.cake]
 
@@ -774,14 +774,14 @@
 			mint_cake = true
 			adzuki_cake = true
 
-		[types.cake.mynethersdelight]
-			magma_cake = true
-
 		[types.cake.farmersrespite]
 			coffee_cake = true
 
 		[types.cake.dungeonsdelight]
 			monster_cake = true
+
+		[types.cake.mynethersdelight]
+			magma_cake = true
 
 #Disables specific entries
 [entries]
@@ -817,10 +817,6 @@
 			drawer = true
 			chair = true
 
-		[entries.wood_type.create]
-			window = true
-			window_pane = true
-
 		[entries.wood_type.farmersdelight]
 			cabinet = true
 
@@ -834,6 +830,10 @@
 			stripped_post = true
 			ladder = true
 			vertical_slab = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
 
 		[entries.wood_type.sob]
 			counter = true
