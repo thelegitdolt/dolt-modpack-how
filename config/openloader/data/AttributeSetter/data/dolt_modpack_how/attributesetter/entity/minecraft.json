@@ -6,6 +6,13 @@
             "operation": "BASE"
         }
     ],
+    "skeleton": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 10,
+            "operation": "BASE"
+        }
+    ],
     "chicken": [
         {
             "attribute": "minecraft:generic.max_health",

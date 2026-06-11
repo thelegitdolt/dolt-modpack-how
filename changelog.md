@@ -1,6 +1,8 @@
 # Dolt Modpack How 1.ω.4
 
 ### Tweaks
+- Bundles can now be crafted with a rope instead of a string
+- Added a leather scavenging recipe for Quark Forgotten Hat
 - Changed darker depths glow ink sac crafting ratio
 
 ### Bugfix
