@@ -89,4 +89,7 @@ custom_mode_id_5 = "default"
 info_humidity_offset = 0.0
 #This will enable or disable the gui button on main menu
 show_gui_button = true
+#How much natural temperature influences the generation of the world in percentage. Works best in mode 5 if you are willing to adjust the values a little. I suggest not lowering it below 80%
+#Range: 0.0 ~ 100.0
+natural_temperature_influence = 100.0
 

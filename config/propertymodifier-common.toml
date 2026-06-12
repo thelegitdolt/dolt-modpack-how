@@ -159,9 +159,15 @@
 		"alexscaves:limestone" = 3
 		"alexscaves:guanostone" = 3
 		"caverns_and_chasms:sugilite" = 3
+		"caverns_and_chasms:rhyolite" = 3
 		"caverns_and_chasms:cassiterite" = 3
-		"atmospheric:dolomite" = 3
+		"atmospheric:dolerite" = 3
+		"darkerdepths:aridrock" = 3
+		"darkerdepths:duskrock" = 3
+		"darkerdepths:darkslate" = 3
 		"alexscaves:galena" = 4
+		"darkerdepths:grimestone" = 3
+		"caverns_and_chasms:cylindrite" = 4
 		"minecraft:deepslate" = 4
 
 	#Set the friction for a block. 0.6 for most blocks, 0.8 for slime blocks, 0.98 for ice, packed ice and frosted ice, and 0.989 for blue ice. Example (without the leading #):

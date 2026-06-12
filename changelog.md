@@ -1,14 +1,19 @@
 # Dolt Modpack How 1.ω.4
 
 ### Tweaks
+
 - Bundles can now be crafted with a rope instead of a string
+- C&C Tin stuff no longer requires a diamond pickaxe to be broken
 - Added a leather scavenging recipe for Quark Forgotten Hat
 - Changed darker depths glow ink sac crafting ratio
+- Dates from Spawn now eat fast; Apples no longer eat fast
 
 ### Bugfix
 
 - Fixed wooden hoes still being craftable
 - Fixed C&C Rhyolite not being mineable with your bare hands
+- Lowered blast resistance of darker depths stones in congruence with nerfs to other stones
+- Fixed not being able to craft some stone items with Darker Depths stuff
 
 # Dolt Modpack How 1.ω.3
 

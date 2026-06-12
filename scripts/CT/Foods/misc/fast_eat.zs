@@ -1,6 +1,5 @@
 DebugUtil.startScript("/Foods/misc/fast_eat.zs/"); 
     
-
 import crafttweaker.api.food.FoodProperties;
 import crafttweaker.api.entity.effect.MobEffectInstance;
 
@@ -30,9 +29,9 @@ var fastEats = [
 
     "neapolitan:banana",
     "neapolitan:strawberries",
-    "minecraft:apple",
     "atmospheric:orange",
     "atmospheric:dragon_fruit",
+    "spawn:dates",
     "minecraft:melon_slice",
     "minecraft:glow_berries",
     "minecraft:sweet_berries",
