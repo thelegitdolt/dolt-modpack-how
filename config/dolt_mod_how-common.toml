@@ -71,6 +71,10 @@
 		#An inverse multiplier to how often thunderstorms should happen. If you put 1/3 here thunderstorms happen 3 times more often.
 		"Thunderstorm Multiplier" = 0.75
 
+	[Vanilla.music_discs]
+		#If music discs stack to 64
+		"Stacking Discs" = true
+
 ["jaden nether expansion"]
 
 	["jaden nether expansion"."Bone Rods"]

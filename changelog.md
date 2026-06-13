@@ -2,6 +2,9 @@
 
 ### Tweaks
 
+- Galosphere Stuff
+    - Removed burrow anchors
+- All music discs stack to 100
 - Bundles can now be crafted with a rope instead of a string
 - C&C Tin stuff no longer requires a diamond pickaxe to be broken
 - Added a leather scavenging recipe for Quark Forgotten Hat

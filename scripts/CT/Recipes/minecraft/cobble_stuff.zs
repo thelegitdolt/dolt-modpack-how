@@ -21,6 +21,7 @@ DebugUtil.startScript("/Reciperminecraft/cobble_stuff/");
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:minecraft:tuff>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:caverns_and_chasms:sugilite>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:caverns_and_chasms:cylindrite>);
+<tag:items:minecraft:furnace_crafting_materials>.add(<item:caverns_and_chasms:rhyolite>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:darkerdepths:grimestone>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:darkerdepths:aridrock>);
 <tag:items:minecraft:furnace_crafting_materials>.add(<item:darkerdepths:duskrock>);

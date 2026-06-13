@@ -2,7 +2,8 @@
     {
         "action": "remove",
         "items": [
-            "galosphere:sterling_horse_armor"
+            "galosphere:sterling_horse_armor",
+            "galosphere:burrow_anchor"
         ]
     },
     {
