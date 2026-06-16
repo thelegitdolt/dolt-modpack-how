@@ -71,6 +71,14 @@
 		#An inverse multiplier to how often thunderstorms should happen. If you put 1/3 here thunderstorms happen 3 times more often.
 		"Thunderstorm Multiplier" = 0.75
 
+	[Vanilla.brewing]
+		#If brewing stands should no longer require fuel.
+		#If true, you need to retexture the brewing stand UI yourself to get rid of the fuel slot.
+		"Brewing Unbloating" = true
+		#If uses of awkward potions in brewing stands should be replaced with water.
+		# Also removes the water bottle + nether wart -> awkward potion recipe
+		"No More Awkward Potions" = true
+
 	[Vanilla.music_discs]
 		#If music discs stack to 64
 		"Stacking Discs" = true
@@ -163,6 +171,12 @@
 	["Dungeon's Delight"."Brewing and Chewing Wardenzola"]
 		#If Wardenzola Dungeons Delight Should be Brewing and Chewingified; this means that they are placeable and have a keg recipe, as well as wedges.
 		"Wardenzola Wheel" = true
+
+	["Dungeon's Delight".Pouncing]
+		#Pouncing effect from Dungeon's Delight also allows you to cling to ceilings, to differentiate it from Neapolitan Agility.
+		#This works identical to the Alex's Mobs clinging effect.
+		#In fact, the code is taken verbatim from Alex's mobs under its GNU license. Thanks alex!
+		"Ceiling Cling Pouncing" = false
 
 ["John Species"]
 

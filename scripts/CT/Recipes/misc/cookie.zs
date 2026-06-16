@@ -1,21 +1,34 @@
-DebugUtil.startScript("/Recipes/misc/cookie.zs/"); 
+DebugUtil.startScript("recipes/misc/cookie"); 
     
 
-cookie.addCookie("minecraft:cookie", "minecraft:cocoa_beans", "");
-cookie.addCookie("spawn:date_cookie", "spawn:dates", "date_");
-cookie.addCookie("farmersrespite:green_tea_cookie", "farmersrespite:green_tea_leaves", "green_tea_");
+addCookie("minecraft:cookie", "minecraft:cocoa_beans", "");
+addCookie("spawn:date_cookie", "spawn:dates", "date_");
+addCookie("farmersrespite:green_tea_cookie", "farmersrespite:green_tea_leaves", "green_tea_");
+
+val a = [
+    "cavedelight:star_cookie",
+    "windswept:gingerbread_cookie",
+    "farmersdelight:sweet_berry_cookie",
+    "abnormals_delight:environmental/cherry_cookie",
+    "abnormals_delight:upgrade_aquatic/mulberry_cookie",
+    "farmersdelight:honey_cookie",
+    "abnormals_delight:autumnity/maple_cookie"
+];
+
+for i in a {
+    RUtil.changeCount(i, 4);
+}
 
 
-
-public class cookie {
-    public static addCookie(result as string, ing as string, cookieType as string) as void {
-        craftingTable.remove(<item:${result}>);
-        craftingTable.addShapeless(cookieType + "cookie_based", <item:${result}> * 8, [
-            <item:${ing}>, <item:minecraft:wheat>, <item:minecraft:wheat>
-        ]);
-    }
+function addCookie(result as string, ing as string, cookieType as string) as void {
+    craftingTable.remove(<item:${result}>);
+    craftingTable.addShapeless(cookieType + "cookie_based", <item:${result}> * 4, [
+        <item:${ing}>, <item:minecraft:wheat>, <item:minecraft:wheat>
+    ]);
 }
 
 
 
-DebugUtil.endScript("/Recipes/misc/cookie.zs"); 
+
+
+DebugUtil.endScript("recipes/misc/cookie"); 
