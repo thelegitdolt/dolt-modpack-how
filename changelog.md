@@ -2,6 +2,7 @@
 
 ### Mods
 - Added [Reconnectible Chains](https://modrinth.com/mod/reconnectible-chains)
+- Added [Pack2Reload](https://modrinth.com/mod/0pack2reload)
 
 ### Tweaks
 
@@ -16,8 +17,10 @@
     - Bundles can now be crafted with a rope as well as a string
 - Food
     - Dates from Spawn now eat fast; Apples no longer eat fast
+    - All cookies recipes output 4 cookies instead of 8
 - Caverns and Chasms
-    - C&C Tin stuff no longer requires a diamond pickaxe to be broken
+    - Tin stuff no longer requires a diamond pickaxe to be broken
+    - Quartz Lamps now uses the quartz soundtype created by JNE
 - Darker Depths
     - Changed darker depths glow ink sac crafting ratio
 - Galosphere Stuff

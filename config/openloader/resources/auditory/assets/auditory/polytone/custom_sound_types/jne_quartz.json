@@ -1,0 +1,8 @@
+{
+   "place_sound": "netherexp:block.quartz_block.place",
+   "break_sound": "netherexp:block.quartz_block.break",
+   "hit_sound": "block.nether_gold_ore.hit",
+   "step_sound": "block.nether_gold_ore.step",
+   "fall_sound": "block.nether_gold_ore.fall"
+}
+
