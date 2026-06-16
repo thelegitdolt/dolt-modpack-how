@@ -2,14 +2,21 @@
 
 ### Tweaks
 
+- Vanilla
+    - All music discs stack to 100
+    - Bundles can now be crafted with a rope as well as a string
+- Food
+    - Dates from Spawn now eat fast; Apples no longer eat fast
+- Caverns and Chasms
+    - C&C Tin stuff no longer requires a diamond pickaxe to be broken
+- Darker Depths
+    - Changed darker depths glow ink sac crafting ratio
 - Galosphere Stuff
     - Removed burrow anchors
-- All music discs stack to 100
-- Bundles can now be crafted with a rope instead of a string
-- C&C Tin stuff no longer requires a diamond pickaxe to be broken
-- Added a leather scavenging recipe for Quark Forgotten Hat
-- Changed darker depths glow ink sac crafting ratio
-- Dates from Spawn now eat fast; Apples no longer eat fast
+- Quark
+    - Added a leather scavenging recipe for Quark Forgotten Hat
+- Immersive Enchanting
+    - Removed library strucutures
 
 ### Bugfix
 
