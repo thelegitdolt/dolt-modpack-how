@@ -18,6 +18,7 @@
 - Food
     - Dates from Spawn now eat fast; Apples no longer eat fast
     - All cookies recipes output 4 cookies instead of 8
+    - Strawberries have a gimmick again! They heal their queued hearts instantly instead of having to wait for awhile
 - Caverns and Chasms
     - Tin stuff no longer requires a diamond pickaxe to be broken
     - Quartz Lamps now uses the quartz soundtype created by JNE
@@ -28,12 +29,13 @@
 - Quark
     - Added a leather scavenging recipe for Quark Forgotten Hat
 - Immersive Enchanting
-    - Removed library strucutures
+    - Removed library structures
 
 ### Bugfix
 
 - Fixed wooden hoes still being craftable
 - Fixed C&C Rhyolite not being mineable with your bare hands
+- Fixed Fiery Fondue Pots requiring bowls to take servings 
 - Lowered blast resistance of darker depths stones in congruence with nerfs to other stones
 - Fixed not being able to craft some stone items with Darker Depths stuff
 
