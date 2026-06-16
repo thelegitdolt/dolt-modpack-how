@@ -26,10 +26,12 @@
     - Changed darker depths glow ink sac crafting ratio
 - Galosphere Stuff
     - Removed burrow anchors
-- Quark
-    - Added a leather scavenging recipe for Quark Forgotten Hat
+- Incubation
+    - Removed Scrambled Eggs
 - Immersive Enchanting
     - Removed library structures
+- Quark
+    - Added a leather scavenging recipe for Quark Forgotten Hat
 
 ### Bugfix
 
