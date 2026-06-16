@@ -136,7 +136,7 @@
 			"farmersdelight:vegetable_noodles": 4
 		},
 		sprinting: "LIMITED_BY_HEALTH",
-		sprinting_health_limit: 6,
+		sprinting_health_limit: 4,
 		instant_eating: false,
 		show_food_item_tooltips: false,
 		nourishment_health_boost_hearts_count: 3,

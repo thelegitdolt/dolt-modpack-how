@@ -8,7 +8,7 @@ craftingTable.removeByName("mynethersdelight:crafting/ghasta_with_cream");
 craftingTable.addShaped("ghasta_with_cream", <item:mynethersdelight:ghasta_with_cream>, [
     [gh, veg, gh],
     [<item:minecraft:magma_cream>, <item:minecraft:ghast_tear>, <item:minecraft:magma_cream>],
-    [gh, <item:minecraft:bowl>, gh]
+    [gh, veg, gh]
 ]);
 
 RUtil.cook.removeByName("mynethersdelight:cooking/giant_tentacles");

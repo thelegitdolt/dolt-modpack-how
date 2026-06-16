@@ -1,0 +1,13 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "cavedelight:plate_of_roasted_dino_chop",
+            "cavedelight:roasted_dino_chop",
+            "cavedelight:bottle_of_green_soylent",
+            "cavedelight:slam_burger",
+            "cavedelight:slam_breakfast",
+            "cavedelight:volcanic_chop"
+        ]
+    }
+]

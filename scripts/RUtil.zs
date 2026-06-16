@@ -129,9 +129,10 @@ as string[];
         recipe(); 
     }
 
-    public static overwrite(recipeString as string, recipe as function(name as string) as void) as void {
+    public static overwrite(recipeString as string, recipe as function(name as string, item as IItemStack) as void) as void {
+        val item = (craftingTable.getRecipeByName(recipeString) as Recipe<Container>).resultItem;
         craftingTable.removeByName(recipeString);
-        recipe(SUtil.tryParseRL(recipeString).getPath() + "_based"); 
+        recipe(SUtil.tryParseRL(recipeString).getPath() + "_based", item); 
     }
 
     public static addFurnaceAndSmokerRecipe(name as string, input as IItemStack, output as IItemStack, xp as float) as void {
