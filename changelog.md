@@ -4,6 +4,8 @@
 
 - Vanilla
     - All music discs stack to 100
+    - Ender Eyes are now crafted with an ender pearl and a diamond
+    - Brewing stands are crafted with gold ingots instead of blaze rods
     - Bundles can now be crafted with a rope as well as a string
 - Food
     - Dates from Spawn now eat fast; Apples no longer eat fast

@@ -1,6 +1,6 @@
 [ADDON-DAVIJ] nest_egg-1.20.1-1.0.3.jar
-[ADDON-DOLT] bowling_bulb-1.20.1-1.0.0.jar
-[ADDON-DOLT] dolt_mod_how-1.20.1-2.6.8.jar
+[ADDON-DOLT] bowling_bulb-1.20.1-1.0.1.jar
+[ADDON-DOLT] dolt_mod_how-1.20.1-2.6.9-all.jar
 [ADDON-DOLT] doltastic_enchantments-1.20.1-1.0.1.jar
 [ADDON-KYS] MyNethersDelight-1.20.1-0.1.8.jar
 [ADDON-PERFORMANCE] create_lt-1.0.1-forge-mc1.20.1.jar
@@ -12,7 +12,7 @@
 [ADDON] QuarkOddities-1.20.1.jar
 [ADDON] abnormals_delight-1.20.1-5.0.0.jar
 [ADDON] cc_compat-1.2.1.jar
-[ADDON] create_central_kitchen-1.20.1-for-create-6.0.8-1.5.0.jar
+[ADDON] create_repair-forge-1.20.1-1.2.1-all.jar
 [ADDON] doom_and_gloom-forge-2.0.0.jar
 [ADDON] dye_the_world-1.7.1.jar
 [ADDON] emi_loot-0.7.9+1.20.1+forge.jar
@@ -29,6 +29,7 @@
 [CLIENT-RMS] BetterF3-7.0.2-Forge-1.20.1.jar
 [CLIENT-RMS] MouseTweaks-forge-mc1.20.1-2.25.1.jar
 [CLIENT-RMS] MyServerIsCompatible-1.20-1.0.jar
+[CLIENT-RMS] Pack2Reload-Forge-1.20.1-1.0.1.jar
 [CLIENT-RMS] entityculling-forge-1.10.2-mc1.20.1.jar
 [CLIENT-RMS] fusion-1.2.12-forge-mc1.20.1.jar
 [CLIENT-RMS] immersiveoverlays-1.7.2+1.20.1-forge.jar
@@ -49,7 +50,7 @@
 [CONTENT] Architects-Palette-1.20.1-1.3.6.1.jar
 [CONTENT] Darker Depths-1.20.1-2.1.4.jar
 [CONTENT] FarmersDelight-1.20.1-1.3.2.jar
-[CONTENT] Galosphere-1.20.1-1.5.1-Forge.jar
+[CONTENT] Galosphere-1.20.1-1.5.2-Forge.jar
 [CONTENT] Geophilic v3.5.mod.jar
 [CONTENT] Jadens-Nether-Expansion-2.3.5.jar
 [CONTENT] Opposing-Force-1.20.1-2.0.3.jar
@@ -70,8 +71,7 @@
 [CONTENT] immersiveenchanting-4.0.3-forge-1.20.1.jar
 [CONTENT] melancholic_hunger-1.8.5-1.20.1-forge.jar
 [CONTENT] mowziesmobs-1.7.3.jar
-[CONTENT] naturaltemperature-1.1.1-FORGE-MC-1.20.1.jar
-[CONTENT] naturaltemperature-1.1.4-FORGE-MC-1.20.1.jar
+[CONTENT] naturaltemperature-1.1.6-FORGE-MC-1.20.1.jar
 [CONTENT] neapolitan-1.20.1-5.1.0.jar
 [CONTENT] savage_and_ravage-1.20.1-6.0.1.jar
 [CONTENT] spawn-4.0-1.20.1.jar
@@ -106,11 +106,12 @@
 [MINOR] carryon-forge-1.20.1-2.1.2.7.jar
 [MINOR] clash-1.20.1-0.3.3.jar
 [MINOR] clayworks-1.20.1-3.0.4.jar
+[MINOR] connectiblechains-forge-1.20.1-2.1.0.jar
 [MINOR] ditr-1.20.1-1.1.1.jar
 [MINOR] enhanced_mushrooms-5.0.0.jar
 [MINOR] everycomp-1.20-2.9.23-forge.jar
 [MINOR] exposure-forge-1.20.1-1.9.20.jar
-[MINOR] fieldguide-forge-1.20.1-1.8.0.jar
+[MINOR] fieldguide-forge-1.20.1-1.8.2.jar
 [MINOR] fishingreal-forge-1.20.1-1.9.1-backport.jar
 [MINOR] fishnostuck-mc1.20.1-v1.0.3-forge.jar
 [MINOR] forgery-3.6.5+1.20.jar
@@ -119,7 +120,7 @@
 [MINOR] heart_crystals-1.20.1-2.1.1.jar
 [MINOR] horseman-1.20.1-1.3.15-forge.jar
 [MINOR] hourglass-1.20-1.2.1.1.jar
-[MINOR] immersive_gateways-forge-0.0.5+1.20.1.jar
+[MINOR] immersive_gateways-forge-0.0.6+1.20.1.jar
 [MINOR] incubation-1.20.1-4.0.4.jar
 [MINOR] jumpboat-1.20.0-1.0.5.jar
 [MINOR] map_atlases-1.20-6.0.20.jar
@@ -129,7 +130,7 @@
 [MINOR] pet_cemetery-1.20.1-2.0.0.jar
 [MINOR] piglinproliferation-1.20.1-1.2.8.jar
 [MINOR] pigsteel-1.20.1-5.1.0.jar
-[MINOR] scholar-1.20.1-1.1.10-forge.jar
+[MINOR] scholar-1.20.1-1.2.0-forge.jar
 [MINOR] secondchanceforge-1.20-1.5.1.jar
 [MINOR] separatedleaves-2.6.0-forge-1.20.4.jar
 [MINOR] slimes-gallery-1.0.6-1.20.1-forge.jar
@@ -150,6 +151,7 @@
 [SERVER-PERF] dimthread-FORGE-mc1.20.1-v1.2.1.jar
 [SERVER] dcintegration-forge-3.0.7.1-1.20.1.jar
 [SERVER] logprot-1.20.1-3.5.jar
+[SERVER] voicechat-forge-1.20.1-2.6.18.jar
 [TOOL] CraftTweaker-forge-1.20.1-14.0.60.jar
 [TOOL] OpenLoader-Forge-1.20.1-19.0.5.jar
 [TOOL] attributesetter-2.1.1-forge.jar
@@ -157,6 +159,7 @@
 [TOOL] polytone-1.20-3.5.26.jar
 [TOOL] propertymodifier-1.20.1-0.1-all.jar
 [TOOL] reliable_remover-forge-1.20.1-2.3.1.jar
+binsearch_addons
 {LIB} ElysiumAPI-1.20.1-1.1.3.jar
 {LIB} MRU-1.0.4+1.20.1+forge.jar
 {LIB} PuzzlesLib-v8.1.33-1.20.1-Forge.jar
