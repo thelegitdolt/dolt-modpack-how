@@ -42,9 +42,9 @@
 	#whether Creeper explosions cause the screen to shake.
 	creper_explosion_screen_shake = true
 	#whether Creeper sprint if their target is sprinting.
-	can_creepers_sprint = true
+	can_creepers_sprint = false
 	#whether Creeper sneak up quietly until discovered.
-	do_creepers_sneak_up_on_target = true
+	do_creepers_sneak_up_on_target = false
 	#whether Creeper explode when on fire.
 	creepers_explode_when_on_fire = false
 	#whether Charged Creepers are immune fire.
