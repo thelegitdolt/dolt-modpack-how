@@ -35,6 +35,8 @@ var fastEats = [
     "minecraft:melon_slice",
     "minecraft:glow_berries",
     "minecraft:sweet_berries",
+
+    "spawn:date_cookie",
     "atmospheric:currant"
  ] as string[];
 

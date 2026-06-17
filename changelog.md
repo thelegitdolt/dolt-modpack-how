@@ -3,6 +3,7 @@
 ### Mods
 - Added [Reconnectible Chains](https://modrinth.com/mod/reconnectible-chains)
 - Added [Pack2Reload](https://modrinth.com/mod/0pack2reload)
+- Updated [Sully's Mod](https://modrinth.com/mod/sullysmod/version/3.3.1-beta)
 
 ### Tweaks
 
