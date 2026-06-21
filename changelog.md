@@ -20,6 +20,8 @@
     - Dates from Spawn now eat fast; Apples no longer eat fast
     - All cookies recipes output 4 cookies instead of 8
     - Strawberries have a gimmick again! They heal their queued hearts instantly instead of having to wait for awhile
+- Blasted Barrens
+    - Recipe for Blasted sand using sand and gunpowder
 - Caverns and Chasms
     - Tin stuff no longer requires a diamond pickaxe to be broken
     - Quartz Lamps now uses the quartz soundtype created by JNE
@@ -31,12 +33,15 @@
     - Removed Scrambled Eggs
 - Immersive Enchanting
     - Removed library structures
+- Opposing Forces
+    - Made apple leaves yield 1 apple instead of 1-2 apples randomly
 - Quark
     - Added a leather scavenging recipe for Quark Forgotten Hat
 
 ### Bugfix
 
 - Fixed wooden hoes still being craftable
+- Fixed supplementaries ash not being removed
 - Fixed C&C Rhyolite not being mineable with your bare hands
 - Fixed Fiery Fondue Pots requiring bowls to take servings 
 - Lowered blast resistance of darker depths stones in congruence with nerfs to other stones

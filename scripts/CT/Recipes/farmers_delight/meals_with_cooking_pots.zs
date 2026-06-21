@@ -21,7 +21,6 @@ val all_weird_things = [
     "minecraft:rabbit_stew_from_red_mushroom",
     "minecraft:mushroom_stew",
     "minecraft:beetroot_soup",
-    "incubation:scrambled_eggs"
 ];
 
 for thing in all_weird_things {
