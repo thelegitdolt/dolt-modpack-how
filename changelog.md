@@ -8,6 +8,7 @@
 ### Tweaks
 
 - Vanilla
+    - EXPERIMENTAL: FALL DAMAGE HAS BEEN DECREASED! New fall damage will be old damage times zero point six seven, then floored. Numbers: 1 -> 0, 2 -> 1, 3 -> 2, 4 -> 2, 5 -> 3, et cetera. I also nerf feather falling a little bit to compensate.
     - All music discs stack to 100
     - Brewing stands changes!
         - Brewing stands are crafted with gold ingots instead of blaze rods
@@ -29,6 +30,9 @@
     - Changed darker depths glow ink sac crafting ratio
 - Galosphere Stuff
     - Removed burrow anchors
+    - Moles now burrow in rocky dirt instead of tuff dirt
+    - Mole Burrows now make the rocky dirt sound from C&C
+    - You can no longer put banners on sterling helmets and sterling horse armor 
 - Incubation
     - Removed Scrambled Eggs
 - Immersive Enchanting

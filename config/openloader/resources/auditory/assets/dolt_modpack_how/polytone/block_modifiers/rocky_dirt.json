@@ -1,0 +1,6 @@
+{
+   "sound_type": "copy(caverns_and_chasms:rocky_dirt)",
+   "targets": [
+      "galosphere:mole_burrow"
+   ]
+}

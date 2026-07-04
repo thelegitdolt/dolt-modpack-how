@@ -32,4 +32,5 @@ def deepFind(path: str, pred: Callable[[str], bool]):
             yield absolute_path
 
 if __name__ == '__main__':
-    print(list(deepFindWithContent(f"{paths.test_modpack}", lambda name, content: "minecraft:bread" in content)))
+    a = "/Users/andrewyin/Desktop/code/galosphere-unzipped/data"
+    print(list(deepFindWithContent(a, lambda name, content: "galosphere:faith_armor_trim_smithing_template" in content)))
