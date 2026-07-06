@@ -1,4 +1,6 @@
-"pack": {
+{
+  "pack": {
     "description": "Removes John Upgrade Templates",
     "pack_format": 15
   }
+}

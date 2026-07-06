@@ -2,7 +2,7 @@
 	"pack": {
     "description": "Overcomplicated loot tables changes :(",
     "pack_format": 15
-  }
+  },
 	"filter": {
     "block": [
       {

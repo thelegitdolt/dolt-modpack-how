@@ -2,7 +2,7 @@
 	"pack": {
 		"description": "Some john recipes",
 		"pack_format": 15
-  	}
+  	},
 	"filter": {
 		"block": [
 			{
