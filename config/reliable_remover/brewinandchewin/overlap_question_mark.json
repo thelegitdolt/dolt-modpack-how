@@ -2,7 +2,8 @@
     {
         "action": "remove",
         "items": [
-            "brewinandchewin:creamy_onion_soup"
+            "brewinandchewin:creamy_onion_soup",
+            "brewinandchewin:glow_berry_marmalade"
         ]
     }
 ]

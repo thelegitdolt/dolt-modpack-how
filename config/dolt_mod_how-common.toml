@@ -83,6 +83,11 @@
 		#If music discs stack to 64
 		"Stacking Discs" = true
 
+	[Vanilla."fall damage"]
+		#If all fall damage should be multiplied by 0.67 and then floored.
+		#1 damage -> 0, 2 -> 1, 3 -> 2, 4 -> 2, 5 -> 3, et cetera
+		"Make Fall Damage Less" = true
+
 ["jaden nether expansion"]
 
 	["jaden nether expansion"."Bone Rods"]
@@ -171,12 +176,6 @@
 	["Dungeon's Delight"."Brewing and Chewing Wardenzola"]
 		#If Wardenzola Dungeons Delight Should be Brewing and Chewingified; this means that they are placeable and have a keg recipe, as well as wedges.
 		"Wardenzola Wheel" = true
-
-	["Dungeon's Delight".Pouncing]
-		#Pouncing effect from Dungeon's Delight also allows you to cling to ceilings, to differentiate it from Neapolitan Agility.
-		#This works identical to the Alex's Mobs clinging effect.
-		#In fact, the code is taken verbatim from Alex's mobs under its GNU license. Thanks alex!
-		"Ceiling Cling Pouncing" = false
 
 ["John Species"]
 

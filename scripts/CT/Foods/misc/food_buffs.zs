@@ -13,6 +13,10 @@ function makeOneBuff(item as string) as void {
     <item:${item}>.food = <item:${item}>.food.setNutrition(2);
 }
 
+function changeFoodBuffs(item as string, b as int) as void {
+    <item:${item}>.food = <item:${item}>.food.setNutrition(b);
+}
+
 val a = [
     "spawn:cooked_clam",
 
@@ -26,5 +30,12 @@ val a = [
     "spawn:cooked_herring_slice",
     "alexscaves:cooked_lanternfish"
 ];
+for i in a {
+    makeOneBuff(i);
+}
+
+changeFoodBuffs("brewinandchewin:sweet_berry_jam", 3);
+changeFoodBuffs("brewinandchewin:glow_berry_marmalade", 3);
+changeFoodBuffs("brewinandchewin:apple_jelly", 4);
 
 DebugUtil.endScript("foods/dungeonsdelight/food_buffs"); 

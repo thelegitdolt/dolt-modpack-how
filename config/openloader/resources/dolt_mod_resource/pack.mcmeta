@@ -1,14 +1,18 @@
 {
 	"pack": {
-	"pack_format": 15,
-	"description": "Dolt Modpack How Textures (Builtin)",
-		"filter": {
-			"block": [
-				{
-					"namespace": "minecraft",
-					"path": "texts/splashes"            
-				}
-			]    
-		}
-	}     
+		"pack_format": 15,
+		"description": "Dolt Modpack How Textures (Builtin)"
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "minecraft",
+				"path": "texts/splashes"            
+			},
+			{
+				"namespace": "dungeonsdelight",
+				"path": "texts/splashes"            
+			}
+		]    
+	}
 }

@@ -19,6 +19,8 @@
     - Bundles can now be crafted with a rope as well as a string
 - Food
     - Dates from Spawn now eat fast; Apples no longer eat fast
+    - Various cooked foods had their nutrition buffed so cooking them actually does something
+    - Nerfed Berry Jam and Fruit Marmalade
     - All cookies recipes output 4 cookies instead of 8
     - Strawberries have a gimmick again! They heal their queued hearts instantly instead of having to wait for awhile
 - Blasted Barrens
