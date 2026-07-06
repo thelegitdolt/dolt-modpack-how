@@ -1,7 +1,6 @@
 {
-	"pack": {
-		"pack_format": 12,
-		"description": [{
-"text":"Setting those attributtessss","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
-	}
+  "pack": {
+    "description": "Setting those Attributes",
+    "pack_format": 15
+  }
 }

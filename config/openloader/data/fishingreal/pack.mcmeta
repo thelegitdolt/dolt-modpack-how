@@ -1,7 +1,6 @@
 {
-	"pack": {
-		"pack_format": 12,
-		"description": [{
-"text":"Dolt Worldgen","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
-	}
+  "pack": {
+    "description": "Fishing (Real), as opposed to complex",
+    "pack_format": 15
+  }
 }

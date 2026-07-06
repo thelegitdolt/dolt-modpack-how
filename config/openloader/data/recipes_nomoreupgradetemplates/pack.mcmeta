@@ -1,7 +1,4 @@
-{
-	"pack": {
-		"pack_format": 12,
-		"description": [{
-"text":"NO MORE UPGRADE TEMPLAETS","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
-	}
-}
+"pack": {
+    "description": "Removes John Upgrade Templates",
+    "pack_format": 15
+  }

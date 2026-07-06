@@ -1,10 +1,8 @@
 {
 	"pack": {
-		"pack_format": 12,
-		"description": [{
-				"text":"Just recipes ig ty","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}
-		]
-	},
+		"description": "Some john recipes",
+		"pack_format": 15
+  	}
 	"filter": {
 		"block": [
 			{

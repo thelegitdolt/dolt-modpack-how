@@ -1,9 +1,8 @@
 {
 	"pack": {
-		"pack_format": 12,
-		"description": [{
-"text":"Dolt Loot Table Change For Entity","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
-	},
+    "description": "Overcomplicated loot tables changes :(",
+    "pack_format": 15
+  }
 	"filter": {
     "block": [
       {

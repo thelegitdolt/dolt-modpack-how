@@ -1,12 +1,8 @@
 {
 	"pack": {
-		"pack_format": 12,
-		"description": [
-      {
-        "text":"Dolt Worldgen","color":"gold"},{"text":"sex","color":"yellow"
-      }
-    ]
-	},    
+    "description": "Yeah worldgen",
+    "pack_format": 15
+  },
 	"filter": {
     "block": [
       {
