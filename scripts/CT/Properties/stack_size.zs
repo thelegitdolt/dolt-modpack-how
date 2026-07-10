@@ -64,11 +64,6 @@ for i in <tag:items:farmersdelight:feasts> {
 <item:spawn:crab_boil_block>.setMaxStackSize(100);
 <item:brewinandchewin:pizza>.setMaxStackSize(100);
 
-<item:delighto_flight:thunder_fruit_stew_block>.setMaxStackSize(100);
-<item:delighto_flight:mushroom_hotpot_block>.setMaxStackSize(100);
-<item:delighto_flight:cloud_berry_pancake_tower>.setMaxStackSize(100);
-<item:delighto_flight:lotus_leaf_rice_block>.setMaxStackSize(100);
-
 <item:sob:big_soup_block>.setMaxStackSize(100);
 <item:sob:roast_turkey_block>.setMaxStackSize(100);
 
