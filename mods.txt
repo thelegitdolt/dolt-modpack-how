@@ -154,6 +154,7 @@
 [TOOL] OpenLoader-Forge-1.20.1-19.0.5.jar
 [TOOL] attributesetter-2.1.1-forge.jar
 [TOOL] biggerstacks-1.20.1-2026.06.17-all.jar
+[TOOL] fancymenu_forge_3.9.8_MC_1.20.1.jar
 [TOOL] incontrol-1.20-9.4.6.jar
 [TOOL] polytone-1.20-3.5.26.jar
 [TOOL] propertymodifier-1.20.1-0.1-all.jar
@@ -172,7 +173,9 @@
 {LIB} forge-runiclib-1.20.1-4.3.11.jar
 {LIB} fzzy_config-0.7.6+1.20.1+forge.jar
 {LIB} geckolib-forge-1.20.1-4.8.3.jar
+{LIB} konkrete_forge_1.8.0_MC_1.20-1.20.1.jar
 {LIB} kotlinforforge-4.12.0-all.jar
+{LIB} melody_forge_1.0.3_MC_1.20.1-1.20.4.jar
 {LIB} moonlight-1.20-2.16.34-forge.jar
 {LIB} reliable_recipes-forge-1.20.1-1.13.2.jar
 {LIB} yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar

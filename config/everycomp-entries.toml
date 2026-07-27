@@ -72,6 +72,9 @@
 		[types.wood_type.mynethersdelight]
 			powdery = true
 
+		[types.wood_type.sniffed_out]
+			vessel = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.architects_palette]
@@ -757,6 +760,9 @@
 		[types.cut_block_type.mynethersdelight]
 			powdery = true
 			powdery_mosaic = true
+
+		[types.cut_block_type.sniffed_out]
+			vessel = true
 
 	[types.cake]
 
