@@ -185,26 +185,10 @@ public class WoodListTwo {
         return create([nameFunc], blacklist);
     }
 
-    public static isRemoved(a as ResourceLocation) as bool {
-        if ("everycomp" == a.getNamespace()) {
-            if !("spawn" in a.getPath()) {
-                if ("abnww" in a.getPath() && ("boards" in a.getPath() || "bookshelf" in a.getPath() || "beehive" in a.getPath() || "chest" in a.getPath() || "ladder" in a.getPath())) {
-                    return true; 
-                }
-            }
-        }
-        if ("quark" in a.getNamespace() || a.getPath().startsWith("q/")) {
-            // removes all quark compat bookshelves, chests, and ladders
-            if ("bookshelf" in a.getPath()|| "chest" in a.getPath() || "ladder" in a.getPath()) {
-                return true; 
-            }
-        } return false; 
-    }
-
     public static create(nameFuncs as string[], blacklist... as string[]) as WoodListTwo {
         var newMap = {} as WoodResourcePair[string];
         for name, instance in TEMPLATE_MAP {
-            if !(name in blacklist) {
+            if this.canBuildKey(name, blacklist, instance) {
                 var mainPred = (rl) => {
 
                     var path = rl.getPath(); 
@@ -295,6 +279,11 @@ public class WoodListTwo {
         this.map[name].type.nameOverride = overrider;
         return this;
     }
+
+    private static canBuildKey(name as string, blacklist as string[], instance as WoodResourcePair) as bool {
+        var modLoaded = loadedMods.isModLoaded(instance.location.getNamespace()); 
+        return (!(name in blacklist)) && modLoaded;
+    }
 }
 
 public class WoodGroup {
@@ -343,8 +332,8 @@ public class WoodGroup {
             largeList[name] = new stdlib.List<ResourceLocation>();
         }
 
-        for key in WoodListTwo.TEMPLATE_MAP.keys {
-            if !(key in this.blacklist) {
+        for key, instance in WoodListTwo.TEMPLATE_MAP {
+            if canBuildKey(key, instance) {
                 for listName, woodList in this.woodLists {
                     largeList[listName].add(WoodListTwo.buildOne(key, woodList.map[key])); 
                 }
@@ -352,5 +341,10 @@ public class WoodGroup {
         }
 
         return largeList; 
-    }    
+    } 
+
+    private canBuildKey(name as string, instance as WoodResourcePair) as bool {
+        var modLoaded = loadedMods.isModLoaded(instance.location.getNamespace()); 
+        return (!(name in this.blacklist)) && modLoaded;
+    }
 }

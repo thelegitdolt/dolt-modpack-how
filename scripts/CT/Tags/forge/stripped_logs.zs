@@ -4,7 +4,7 @@ TLUtil.startScript("Tags/forge/stripped_logs");
     
 val stripped_logs = [
     "atmospheric:stripped_laurel_log",
-    "sniffed_out:stripped_vessel_stem",
+    # "sniffed_out:stripped_vessel_stem",
     "upgrade_aquatic:stripped_driftwood_log",
     "upgrade_aquatic:stripped_river_log",
     "endergetic:stripped_poise_stem",
@@ -21,7 +21,7 @@ for log in stripped_logs {
 
 val stripped_woods = [
     "atmospheric:stripped_laurel_wood",
-    "sniffed_out:stripped_vessel_cuticle",
+    # "sniffed_out:stripped_vessel_cuticle",
     "upgrade_aquatic:stripped_driftwood",
     "upgrade_aquatic:stripped_river_wood",
     "endergetic:stripped_poise_wood",

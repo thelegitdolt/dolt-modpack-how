@@ -13,9 +13,6 @@
 		[types.wood_type.architects_palette]
 			twisted = false
 
-		[types.wood_type.sniffed_out]
-			vessel = true
-
 		[types.wood_type.sullysmod]
 			petrified = true
 
@@ -330,9 +327,6 @@
 
 		[types.cut_block_type.savage_and_ravage]
 			gloomy_tile = true
-
-		[types.cut_block_type.sniffed_out]
-			vessel = true
 
 		[types.cut_block_type.endergetic]
 			poise = true
