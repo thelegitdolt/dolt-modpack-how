@@ -11,8 +11,8 @@ craftingTable.addShaped("ghasta_with_cream", <item:mynethersdelight:ghasta_with_
     [gh, veg, gh]
 ]);
 
-RUtil.cook.removeByName("mynethersdelight:cooking/giant_tentacles");
-RUtil.cook.addRecipe("sex_balls", <item:mynethersdelight:giant_takoyaki>,
+RUtil.cook.removeByName("mynethersdelight:cooking/giant_takoyaki");
+RUtil.cook.addRecipe("ghast_balls_make", <item:mynethersdelight:giant_takoyaki>,
     [gh, gh, <tag:items:forge:salad_ingredients>, <tag:items:forge:dough>, <tag:items:mynethersdelight:hot_spice>], 
     <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>,
     0.35, 200);

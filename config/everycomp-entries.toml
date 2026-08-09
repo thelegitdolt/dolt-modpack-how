@@ -756,6 +756,22 @@
 			tan_terracotta_brick = true
 			teal_terracotta_brick = true
 			verdant_terracotta_brick = true
+			amber_pinecone_shingle = true
+			aqua_pinecone_shingle = true
+			beige_pinecone_shingle = true
+			coral_pinecone_shingle = true
+			forest_pinecone_shingle = true
+			ginger_pinecone_shingle = true
+			indigo_pinecone_shingle = true
+			maroon_pinecone_shingle = true
+			mint_pinecone_shingle = true
+			navy_pinecone_shingle = true
+			olive_pinecone_shingle = true
+			rose_pinecone_shingle = true
+			slate_pinecone_shingle = true
+			tan_pinecone_shingle = true
+			teal_pinecone_shingle = true
+			verdant_pinecone_shingle = true
 
 		[types.cut_block_type.mynethersdelight]
 			powdery = true

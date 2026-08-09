@@ -1,6 +1,6 @@
 DebugUtil.startScript("recipes/nethers_delight/minor_recipe_changes"); 
 
-craftingTable.removeByName("mypersonaldelight:crafting/tear_popsicle"); 
+craftingTable.removeByName("mynethersdelight:crafting/tear_popsicle"); 
 craftingTable.addShaped("tear_poppers_good", <item:mynethersdelight:tear_popsicle> * 4, 
 [[<item:minecraft:ghast_tear>], 
 [<tag:items:forge:rods/wooden>]]);
@@ -8,6 +8,7 @@ craftingTable.addShaped("tear_poppers_good", <item:mynethersdelight:tear_popsicl
 
 craftingTable.removeByName("mynethersdelight:crafting/hotcream_bucket");
 RUtil.cook.removeByName("mynethersdelight:cooking/chilidog");
+RUtil.cut.removeByName("mynethersdelight:cutting/blaze_rod"); 
 
 craftingTable.removeByName("mynethersdelight:crafting/breakfast_sampler");
 craftingTable.addShapeless("crafting/breakfast_sampler_good_sex", <item:mynethersdelight:breakfast_sampler>, 
