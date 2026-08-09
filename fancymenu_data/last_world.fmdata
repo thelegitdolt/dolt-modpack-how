@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = /Users/andrewyin/Desktop/Minecraft/Dolt Modpack How/saves/testing
-}
-
