@@ -128,7 +128,7 @@
 [MINOR] pet_cemetery-1.20.1-2.0.0.jar
 [MINOR] piglinproliferation-1.20.1-1.2.8.jar
 [MINOR] pigsteel-1.20.1-5.1.0.jar
-[MINOR] scholar-1.20.1-1.2.3-forge.jar
+[MINOR] scholar-1.20.1-1.2.5.1-forge.jar
 [MINOR] secondchanceforge-1.20-1.5.1.jar
 [MINOR] separatedleaves-2.6.0-forge-1.20.4.jar
 [MINOR] slimes-gallery-1.1-1.20.1-forge-indev.jar
@@ -143,7 +143,7 @@
 [PERF] ferritecore-6.0.1-forge.jar
 [PERF] memoryleakfix-forge-1.17+-1.1.5.jar
 [PERF] mobtimizations-forge-1.20.1-1.0.0.jar
-[PERF] modernfix-forge-5.27.66+mc1.20.1.jar
+[PERF] modernfix-forge-5.27.72+mc1.20.1.jar
 [PERF] noisium-forge-2.3.0+mc1.20-1.20.1.jar
 [PERF] packetfixer-3.3.2-1.18-1.20.4-merged.jar
 [SERVER-PERF] dimthread-FORGE-mc1.20.1-v1.2.1.jar

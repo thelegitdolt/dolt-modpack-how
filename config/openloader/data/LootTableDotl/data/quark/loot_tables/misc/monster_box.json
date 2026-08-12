@@ -25,6 +25,10 @@
 			}]
 		}, {
 			"type": "item",
+			"name": "minecraft:ender_eye",
+			"weight": 10
+		},{
+			"type": "item",
 			"name": "minecraft:raw_copper",
 			"weight": 40,
 			"functions": [{

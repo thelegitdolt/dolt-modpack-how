@@ -113,6 +113,22 @@
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3,
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:name_tag",
           "weight": 30
         },

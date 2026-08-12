@@ -88,6 +88,10 @@
 		#1 damage -> 0, 2 -> 1, 3 -> 2, 4 -> 2, 5 -> 3, et cetera
 		"Make Fall Damage Less" = true
 
+	[Vanilla."End City"]
+		#Replaces the item found in the item frame in the end ship with this item.
+		"End City Frame Replace To" = "minecraft:shulker_box"
+
 ["jaden nether expansion"]
 
 	["jaden nether expansion"."Bone Rods"]
