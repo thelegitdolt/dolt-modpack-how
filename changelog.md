@@ -11,6 +11,8 @@
     - Shulker boxes now require 8 shulker boxes and 1 chest to craft. All shulkers drop 1 shulker shell 100%, unaffected by looting. You can no longer scavenge extra shells with a knife. 
     - End Ship item frame now contain 1 Shulker Box instead of an elytra.
 
+- Opposing Forces
+    - Removed some intrusive loot modifiers
 ### Bugfix
     - Fix ancient tomes still being in dungeons loot
 
