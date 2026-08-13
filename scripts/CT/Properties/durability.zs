@@ -149,4 +149,21 @@ DebugUtil.startScript("properties/durability");
 <item:mowziesmobs:umvuthana_mask_rage>.maxDamage = 512;
 <item:mowziesmobs:umvuthana_mask_bliss>.maxDamage = 512;
 
+
+
+# armor
+
+for i in CUtil.coppers {
+	<item:caverns_and_chasms:${i}copper_sword>.maxDamage = 544;
+	<item:caverns_and_chasms:${i}copper_shovel>.maxDamage = 544;
+	<item:caverns_and_chasms:${i}copper_pickaxe>.maxDamage = 544;
+	<item:caverns_and_chasms:${i}copper_hoe>.maxDamage = 544;
+	<item:caverns_and_chasms:${i}copper_axe>.maxDamage = 544;
+
+	<item:caverns_and_chasms:${i}copper_chestplate>.maxDamage = 640; 
+	<item:caverns_and_chasms:${i}copper_helmet>.maxDamage = 640; 
+	<item:caverns_and_chasms:${i}copper_boots>.maxDamage = 640; 
+	<item:caverns_and_chasms:${i}copper_leggings>.maxDamage = 640; 
+}
+
 DebugUtil.endScript("properties/durability"); 

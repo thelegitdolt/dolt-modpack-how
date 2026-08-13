@@ -7,14 +7,16 @@ RUtil.mix.removeByName("oreganized:mixing/electrum_ingot");
 RUtil.mix.addRecipe("electrum_good", 
                                    <constant:create:heat_condition:superheated>,
                                    [<item:oreganized:electrum_ingot>], 
-                                   [<item:minecraft:gold_ingot> * 5, <item:caverns_and_chasms:silver_ingot> * 5, <item:create:brass_ingot>, <item:etcetera:bismuth_ingot>],
-                                   [<fluid:create:potion>.withTag({Bottle: "REGULAR", Potion: "minecraft:swiftness"}) * 250],
+                                   [<item:minecraft:gold_ingot> * 5, <item:caverns_and_chasms:silver_ingot> * 5],
+                                   [
+                                    <fluid:minecraft:lava> * 250
+                                   ],
                                    500);
 RUtil.mix.addRecipe("electrum_bad", 
                                    <constant:create:heat_condition:heated>,
                                    [<item:oreganized:electrum_ingot>], 
-                                   [<item:minecraft:gold_ingot> * 6, <item:caverns_and_chasms:silver_ingot> * 6, <item:create:brass_ingot>, <item:etcetera:bismuth_ingot>],
-                                   [<fluid:create:potion>.withTag({Bottle: "REGULAR", Potion: "minecraft:swiftness"}) * 250],
+                                   [<item:minecraft:gold_ingot> * 6, <item:caverns_and_chasms:silver_ingot> * 6],
+                                   [<fluid:minecraft:lava> * 250],
                                    2500);
 
 RUtil.mix.addRecipe("netherite_good", 

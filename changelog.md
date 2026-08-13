@@ -10,6 +10,10 @@
     - Nerfed End City loot; only diamond leggings and diamond swords can spawn instead of the entire diamond set. Added slow falling potions, popped chorus fruit, and turquoise to end city chests. 
     - Shulker boxes now require 8 shulker boxes and 1 chest to craft. All shulkers drop 1 shulker shell 100%, unaffected by looting. You can no longer scavenge extra shells with a knife. 
     - End Ship item frame now contain 1 Shulker Box instead of an elytra.
+    - Gold armor has been buffed so that wearing the full set gives you the equivalent of Speed 2.5. Electrum has been buffed to give the same amount. 
+
+- Caverns and Chasms
+    - COPPER TOOLS ARE BACK. They are crafted with less copper than before. They have the exact same stats as iron. 
 
 - Opposing Forces
     - Removed some intrusive loot modifiers

@@ -412,7 +412,9 @@
 		#Set the efficiency value of a tool. May not work on modded tools, please file an issue if that's the case. Also doesn't work on shears, due to internal problems with that. Example (without the leading #):
 		#"minecraft:iron_pickaxe" = 16
 		[items.tools.efficiency]
-			test = 0.0
+			"caverns_and_chasms:.*copper_pickaxe" = 6
+			"caverns_and_chasms:.*copper_hoe" = 6
+			"caverns_and_chasms:.*copper_axe" = 6
 
 		#Set the attack damage of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_sword" = 12
