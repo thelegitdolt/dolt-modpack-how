@@ -17,6 +17,9 @@
 
 - Opposing Forces
     - Removed some intrusive loot modifiers
+
+- Supplementaries
+    - Removed Lunch Basket
 ### Bugfix
     - Fix ancient tomes still being in dungeons loot
 

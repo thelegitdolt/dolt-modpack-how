@@ -62,7 +62,6 @@ for i in CUtil.coppers {
 
     copper_replaceArmor(<item:caverns_and_chasms:${i}copper_helmet>, 2, <constant:minecraft:equipmentslot:head>);
     copper_replaceArmor(<item:caverns_and_chasms:${i}copper_boots>, 2, <constant:minecraft:equipmentslot:feet>);
-    print("SEX PLEASE NOTICE ME HI SEX");
 }
 
 
