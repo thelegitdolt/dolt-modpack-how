@@ -2,6 +2,7 @@
 
 ### Mods
 - Updated Spawn idk what else
+- Added [Painter's Inc](https://modrinth.com/mod/paintersinc)
 
 ### Tweaks
 
