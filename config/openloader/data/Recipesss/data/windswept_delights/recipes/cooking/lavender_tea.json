@@ -1,0 +1,21 @@
+{
+  "type": "farmersrespite:brewing",
+  "base": {
+    "count": 1000,
+    "fluid": "minecraft:water"
+  },
+  "cookingtime": 300,
+  "experience": 0.7,
+  "ingredients": [
+    {
+      "tag": "c:crops/black_tea_leaves"
+    },
+    {
+      "tag": "c:crops/black_tea_leaves"
+    }
+  ],
+  "result": {
+    "count": 1000,
+    "fluid": "farmersrespite:black_tea"
+  }
+}

@@ -491,7 +491,7 @@
 			"Can Act As Axe" = true
 
 	[tools.seed_pouch]
-		"Max Items" = 640
+		"Max Items" = 800
 		"Show All Variants In Creative" = true
 		"Shift Range" = 3
 		#Allow putting bone meal into the Seed Pouch (or anything else in the tag 'quark:seed_pouch_fertilizers')

@@ -17,7 +17,8 @@
             "architects_palette:chiseled_packed_ice",
             "architects_palette:packed_ice_pillar",
             "architects_palette:rotten_flesh_block",
-            "architects_palette:withered_bone_block"
+            "architects_palette:withered_bone_block",
+            "architects_palette:ender_pearl_block"
         ]
     }
 ]
