@@ -1,8 +1,9 @@
 # Dolt Modpack How 1.ω.5
 
 ### Mods
-- Updated Spawn idk what else
+- Updated a lot of modifications
 - Added [Painter's Inc](https://modrinth.com/mod/paintersinc)
+- Added [Fireworks Table Port](https://www.curseforge.com/minecraft/mc-mods/firework-table-port)
 
 ### Tweaks
 
@@ -13,16 +14,23 @@
     - End Ship item frame now contain 1 Shulker Box instead of an elytra.
     - Gold armor has been buffed so that wearing the full set gives you the equivalent of Speed 2.5. Electrum has been buffed to give the same amount. 
 
+- Architect's Palette
+    - Removed Ender Pearl Block
+
 - Caverns and Chasms
-    - COPPER TOOLS ARE BACK. They are crafted with less copper than before. They have the exact same stats as iron. 
+    - COPPER TOOLS ARE BACK. They are crafted with COPPER SHEETS not copper ingots. They have the exact same stats as iron. 
 
 - Opposing Forces
     - Removed some intrusive loot modifiers
 
 - Supplementaries
     - Removed Lunch Basket
+    - Made rats spawn in supplementaries urns
+
 ### Bugfix
     - Fix ancient tomes still being in dungeons loot
+
+
 
 # Dolt Modpack How 1.ω.4
 
