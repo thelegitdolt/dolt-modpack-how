@@ -72,7 +72,7 @@ percentage_coverage_zone_3 = 13.0
 percentage_coverage_zone_4 = 10.0
 #Range: 1.0 ~ 100.0
 percentage_coverage_zone_5 = 22.0
-#Range: 1.0 ~ 100.0
+#Range: -100.0 ~ 100.0
 percentage_coverage_zone_6 = 14.0
 #ID of the custom mode to use when generation_mode = 101
 custom_mode_id_1 = "default"

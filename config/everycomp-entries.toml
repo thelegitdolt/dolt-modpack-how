@@ -819,6 +819,8 @@
 			bookshelf = true
 			chiseled_bookshelf = true
 			ladder = true
+			closet = true
+			trapped_closet = true
 
 		[entries.wood_type.boatload]
 			large_boat = true
