@@ -1,9 +1,5 @@
 DebugUtil.startScript("recipes/create/crushing_ores_use_raw_ores"); 
 
-<recipetype:create:crushing>.removeByName("create:crushing/raw_tin_block");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_tin"); 
-
-
 <recipetype:create:crushing>.addRecipe("crushing/glance", [<item:oreganized:raw_lead> % 80.0, <item:oreganized:lead_nugget> % 80.0], <item:oreganized:glance>, 250);
 <recipetype:create:crushing>.addRecipe("crushing/glance_recycling", [<item:oreganized:raw_lead> % 80.0, <item:oreganized:lead_nugget> % 80.0], <tag:items:oreganized:stone_types/glance>, 250);
 
@@ -33,33 +29,6 @@ DebugUtil.startScript("recipes/create/crushing_ores_use_raw_ores");
 [<item:caverns_and_chasms:raw_silver> % 100.0, <item:caverns_and_chasms:raw_silver> % 75.0, <item:create:experience_nugget> % 75.0], <item:caverns_and_chasms:silver_ore>, 400);
 <recipetype:create:crushing>.addRecipe("crushing_with_raw_ores/silver_ore_dep", 
 [<item:caverns_and_chasms:raw_silver> % 100.0, <item:caverns_and_chasms:raw_silver> % 75.0, <item:create:experience_nugget> % 75.0], <item:caverns_and_chasms:deepslate_silver_ore>, 400);
-
-
-<recipetype:create:crushing>.removeByName("oreganized:crushing/glance");
-<recipetype:create:crushing>.removeByName("oreganized:crushing/glance_recycling");
-<recipetype:create:crushing>.removeByName("create:crushing/lead_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_lead");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_lead_block");
-<recipetype:create:crushing>.removeByName("create:crushing/deepslate_iron_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/iron_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_iron");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_iron_block");
-<recipetype:create:crushing>.removeByName("create:crushing/deepslate_gold_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/gold_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_gold");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_gold_block");
-<recipetype:create:crushing>.removeByName("create:crushing/copper_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/deepslate_copper_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_copper");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_copper_block");
-<recipetype:create:crushing>.removeByName("create:crushing/deepslate_zinc_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_zinc");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_zinc_block");
-<recipetype:create:crushing>.removeByName("create:crushing/zinc_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_silver");
-<recipetype:create:crushing>.removeByName("create:crushing/raw_silver_block");
-<recipetype:create:crushing>.removeByName("create:crushing/silver_ore");
-<recipetype:create:crushing>.removeByName("create:crushing/tin_ore");
 
 
 DebugUtil.endScript("recipes/create/crushing_ores_use_raw_ores"); 

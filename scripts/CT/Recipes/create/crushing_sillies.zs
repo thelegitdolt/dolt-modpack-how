@@ -1,24 +1,4 @@
 DebugUtil.startScript("recipes/create/crushing_sillies"); 
-    
-
-var list = [
-    "create:crushing/compat/quark/moss_block",
-    "create:crushing/veridium_recycling",
-    "create:crushing/ochrum_recycling",
-    "create:crushing/crimsite",
-    "create:crushing/tuff_recycling",
-    "create:crushing/crimsite_recycling",
-    "create:crushing/raw_uranium",
-    "create:crushing/asurine_recycling",
-    "create:crushing/asurine",
-    "create:crushing/ochrum",
-    "create:crushing/veridium"
-];
-
-
-for i in list {
-    <recipetype:create:crushing>.removeByName(i);
-}
 
 <recipetype:create:crushing>.addRecipe("tuff_cc_copper", 
 [<item:minecraft:flint> % 25, <item:create:zinc_nugget> % 2, <item:caverns_and_chasms:copper_nugget> % 2, <item:minecraft:iron_nugget> % 5], 
