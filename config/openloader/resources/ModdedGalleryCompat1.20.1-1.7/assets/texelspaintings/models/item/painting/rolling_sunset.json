@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "texelspaintings:item/painting/rolling_sunset"
-  }
-}

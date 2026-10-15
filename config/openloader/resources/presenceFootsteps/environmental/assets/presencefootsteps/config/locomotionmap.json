@@ -1,9 +1,0 @@
-{
-	"environmental:deer": "QUADRUPED",
-	"environmental:duck": "BIPED",
-	"environmental:koi": "NONE",
-	"environmental:slabfish": "BIPED",
-	"environmental:yak": "QUADRUPED",
-	"environmental:tapir": "QUADRUPED",
-	"environmental:zebra": "QUADRUPED"
-}

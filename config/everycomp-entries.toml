@@ -641,9 +641,6 @@
 			vile_stone_brick = true
 			trembling_shingle = true
 
-		[types.cut_block_type.dolt_mod_how]
-			zinc_brick = true
-
 		[types.cut_block_type.dungeonsdelight]
 			cut_stained_scrap = true
 			wormwood = true
@@ -779,6 +776,9 @@
 
 		[types.cut_block_type.sniffed_out]
 			vessel = true
+
+		[types.cut_block_type.dolt_mod_how]
+			zinc_brick = true
 
 	[types.cake]
 

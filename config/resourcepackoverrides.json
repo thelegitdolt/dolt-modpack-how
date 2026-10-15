@@ -1,0 +1,107 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+        "file/Authentic Shadows_1.20.zip",
+        "file/doltditory-1.0.0.zip",
+        "file/Banner Pattern Clarity v1.6.zip",
+        "file/Better Create Palettes 1.3 1.20.1.zip",
+        "file/coastercompat.zip",
+        "file/coasty_templates_4.0.0.zip",
+        "file/Farcr's Re-Crafted V2.28.1.zip",
+        "file/Farcr's Re-Create 1.6.zip",
+        "file/Fresh mowzie mobs v. 1.2.1.zip",
+        "file/Create Touch-Ups v1.0.zip",
+        "file/Midnighttiggers-FCT-Default_1.20_V6.zip",
+        "file/mod-descriptions-v10.0.zip",
+        "file/Modded Omelet [120] [162].zip",
+        "file/nomorezfightingironbars-1.13+.zip",
+        "file/Peeves - 1.19.3.zip",
+        "file/presence_footsteps_modded_compat_1.0.3.zip",
+        "file/SPEGG BP [1.20-1.x].zip",
+        "file/VanillaTweaks_r750930_MC1.20.x.zip",
+
+        "file/Better Dirt Compat.zip",
+        "file/Farcr's Better Dirt V1.2.zip",
+
+        "scholar:colored_books",
+        "builtin/spawn/respawned_eggs",
+        "unique_nether_wood",
+        "builtin/ftgu",
+        "builtin/create_repair_asset_overrides",
+        "netherexp:jne_emissive",
+        "netherexp:jne_retextures",
+        "builtin/pink_petal_overrides",
+        "builtin/spawn/respawned"
+  ],
+  "pack_overrides": {
+    "should_be_disappeared_packs": [
+      "builtin/dye_depot",
+      "Forgery",
+      "Forgery grayscale",
+      "Moonlight Mods Dynamic Assets",
+      "programmer_art",
+      "supplementaries:darker_ropes",
+      "classic_icons",
+      "high_contrast",
+      "black_icons",
+      "white_icons",
+      "pigsteel:ore_revert",
+      "sullysmod:mob_retextures",
+      "netherexp:conflicting_retextures",
+      
+      "scholar:chiseled_bookshelf_colored_books",
+      "scholar:chiseled_bookshelf_colored_books_abnww_compat"
+    ],
+
+    "default_enabled_packs": [
+        "file/Authentic Shadows_1.20.zip",
+        "file/doltditory-1.0.0.zip",
+        "file/Banner Pattern Clarity v1.6.zip",
+        "file/Better Create Palettes 1.3 1.20.1.zip",
+        "file/coastercompat.zip",
+        "file/coasty_templates_4.0.0.zip",
+        "file/Create Touch-Ups v1.0.zip",
+        "file/Farcr's Re-Crafted V2.28.1.zip",
+        "file/Farcr's Re-Create 1.6.zip",
+        "file/Fresh mowzie mobs v. 1.2.1.zip",
+        "file/Midnighttiggers-FCT-Default_1.20_V6.zip",
+        "file/mod-descriptions-v10.0.zip",
+        "file/Modded Omelet [120] [162].zip",
+        "file/nomorezfightingironbars-1.13+.zip",
+        "file/Peeves - 1.19.3.zip",
+        "file/presence_footsteps_modded_compat_1.0.3.zip",
+        "file/SPEGG BP [1.20-1.x].zip",
+        "file/VanillaTweaks_r750930_MC1.20.x.zip",
+
+        
+        "resources/dolt_mod_resource",
+        "resources/emi_and_ctab",
+        "resources/lucys_trims_2",
+
+
+        "builtin/spawn/respawned_eggs",
+        "builtin/pink_petal_overrides",
+        "builtin/spawn/respawned",
+
+        "scholar:colored_books",
+        "builtin/create_repair_asset_overrides",
+        "builtin/ftgu",
+        "netherexp:jne_emissive",
+        "netherexp:jne_retextures",
+        "unique_nether_wood"
+    ],
+    "$$default_enabled_packs": {
+      "hidden": true,
+      "required": true
+    },
+    "$$should_be_disappeared_packs": {
+      "hidden": true,
+      "required": false
+    }
+  },
+  "default_overrides": {
+    "force_compatible": true
+  }
+}
+
