@@ -3,7 +3,6 @@
 ### Mods
 - Updated a lot of modifications
 - Added [Painter's Inc](https://modrinth.com/mod/paintersinc)
-- Added [Fireworks Table Port](https://www.curseforge.com/minecraft/mc-mods/firework-table-port)
 
 ### Tweaks
 
