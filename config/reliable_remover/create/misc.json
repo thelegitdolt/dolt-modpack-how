@@ -18,7 +18,9 @@
             "create:chocolate_glazed_berries",
             "create:bar_of_chocolate",
 
-            "create:dough"
+            "create:dough",
+            "create:chocolate_bucket",
+            "create:honey_bucket"
         ]
     }
 ]

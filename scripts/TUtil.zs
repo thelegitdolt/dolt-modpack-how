@@ -1,6 +1,5 @@
 #priority 100
 
-import mods.jeitweaker.Jei;
 import crafttweaker.api.food.FoodProperties;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.entity.effect.MobEffectInstance;

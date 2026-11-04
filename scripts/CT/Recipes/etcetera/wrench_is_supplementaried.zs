@@ -1,7 +1,4 @@
 DebugUtil.startScript("recipes/etcetera/wrench_is_supplementaried"); 
-    
-craftingTable.remove(<item:etcetera:wrench>); 
-HUtil.hide(<item:etcetera:wrench>);
 
 craftingTable.removeByName("supplementaries:wrench");
 

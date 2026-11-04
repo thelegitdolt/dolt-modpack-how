@@ -1,12 +1,4 @@
 DebugUtil.startScript("recipes/nethers_delight/hoglin_good"); 
-    
-
-val all_weird_things = [
-    "mynethersdelight:raw_stuffed_hoglin"
-];
-
-HUtil.hideAll(all_weird_things); 
-RUtil.removeAll(all_weird_things); 
 
 RUtil.cook.removeByName("mynethersdelight:cooking/roast_stuffed_hoglin");
 

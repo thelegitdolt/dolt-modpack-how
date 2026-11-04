@@ -10,6 +10,12 @@
     "item:quark:matrix_enchanter",
 
     "item:moonlight:placeable_item",
-    "item:immersive_gateways:gateway"
+    "item:immersive_gateways:gateway",
+
+    "item:create:creative_crate",
+    "item:create:creative_fluid_tank",
+    "item:create:creative_blaze_cake",
+    "item:create:creative_motor",
+    "item:create:handheld_worldshaper"
   ]
 }

@@ -135,6 +135,161 @@
       "type": "fluid",
       "id": "oreganized:molten_lead",
       "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create:honey",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create:chocolate",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:hot_cocoa",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:melon_juice",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:dandelion_tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:purulent_tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:gamblers_tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:coffee",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:apple_cider",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:honey",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:beer",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:rice_wine",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:strongroot_ale",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:egg_grog",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:mead",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:vodka",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:glittering_grenadine",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:steel_toe_stout",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:dread_nog",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:kombucha",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:saccharine_rum",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:withering_dross",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:red_rum",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:salty_folly",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:bloody_mary",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:pale_jane",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:flaxen_cheese",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:scarlet_cheese",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:green_tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:yellow_tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "farmersrespite:black_tea",
+      "amount": 0
     }
   ]
 }

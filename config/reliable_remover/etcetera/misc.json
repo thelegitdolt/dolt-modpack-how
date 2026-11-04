@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "etcetera:chisel", "etcetera:hammer",
+            "etcetera:wrench"
+        ]
+    }
+]
