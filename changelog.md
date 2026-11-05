@@ -8,7 +8,14 @@
 ### Tweaks
 
 - Vanilla
-    - Added some game information in order to 
+    - Added some game information for the players....
+        - Currently stone pickaxe & wheat seeds change
+    - Added netherite scraps & netherite ingots to nether fortress loot tables 
+
+- Farmer's Delight
+    - Dough changes!
+        - 4 wheats OR Flour Create can be used to craft 2 doughs. 
+        - Flour Create can now be substituted for wheat in all pastry recipes, such as neapolitan cakes and FD pie crusts
 
 # Dolt Modpack How 1.ω.5
 

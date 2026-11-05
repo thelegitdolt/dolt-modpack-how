@@ -1,6 +1,7 @@
 DebugUtil.startScript("recipes/misc/cookie"); 
     
 
+
 addCookie("minecraft:cookie", "minecraft:cocoa_beans", "");
 addCookie("spawn:date_cookie", "spawn:dates", "date_");
 addCookie("farmersrespite:green_tea_cookie", "farmersrespite:green_tea_leaves", "green_tea_");
@@ -21,9 +22,11 @@ for i in a {
 
 
 function addCookie(result as string, ing as string, cookieType as string) as void {
+    val wheat = <item:minecraft:wheat> | <tag:items:forge:flour/wheat>; 
+
     craftingTable.remove(<item:${result}>);
     craftingTable.addShapeless(cookieType + "cookie_based", <item:${result}> * 4, [
-        <item:${ing}>, <item:minecraft:wheat>, <item:minecraft:wheat>
+        <item:${ing}>, wheat, wheat
     ]);
 }
 
