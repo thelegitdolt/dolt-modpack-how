@@ -1,3 +1,15 @@
+# Dolt Modpack How 1.ω.6
+
+### Mods
+- Removed Jeitweaker (deprecated)
+- Removed Neko's Enchanted Books
+- Removed Firework Table cuz it SUCK
+
+### Tweaks
+
+- Vanilla
+    - Added some game information in order to 
+
 # Dolt Modpack How 1.ω.5
 
 ### Mods

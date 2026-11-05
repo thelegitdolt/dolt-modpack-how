@@ -1,0 +1,10 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:minecraft:grass",
+    "item:minecraft:wheat_seeds",
+    "item:upgrade_aquatic:beachgrass",
+    "item:minecraft:beetroot_seeds"
+  ],
+  "text": "info.dolt_modpack_how.wheat_seeds"
+}

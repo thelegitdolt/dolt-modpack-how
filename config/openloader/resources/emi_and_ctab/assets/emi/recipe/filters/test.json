@@ -1,0 +1,16 @@
+{
+  "filters": [
+    {
+      "category": "create:automatic_shaped"
+    },
+    {
+      "category": "sullysmod:grindstone_polishing"
+    },
+    {
+      "category": "create:sawing"
+    },
+    {
+      "category": "create:fan_blasting"
+    }
+  ]
+}
