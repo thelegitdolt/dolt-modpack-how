@@ -2,7 +2,7 @@
   "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
-    "file/Better Dirt Compat.zip",
+    "file/Farcrs Better Dirt - Modded Compat.zip",
     "file/Farcr's Better Dirt V1.2.zip",
     "file/SmootherFont"
   ],
@@ -52,10 +52,10 @@
         "file/Farcr's Re-Crafted V2.28.1.zip",
         "file/Farcr's Re-Create 1.6.zip",
         "file/Fresh mowzie mobs v. 1.2.1.zip",
-        "file/Midnighttiggers-FCT-Default_1.20_V6.zip",
-        "file/mod-descriptions-v10.0.zip",
-        "file/ModdedGalleryCompat1.21.1-1.6.zip",
-        "file/Modded Omelet [120] [162].zip",
+        "file/Midnighttigger's Default Connected Textures.zip",
+        "file/mod-descriptions-v12.0.zip",
+        "file/ModdedGalleryCompat1.20.1-1.9.zip",
+        "file/Modded Omelet [120] [171].zip",
         "file/nomorezfightingironbars-1.13+.zip",
         "file/Peeves - 1.19.3.zip",
         "file/presence_footsteps_modded_compat_1.0.3.zip",

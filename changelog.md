@@ -7,6 +7,9 @@
 
 ### Tweaks
 
+- Misc
+    - The Vanilla Tweaks smoother fonts is now optional and can be turned off in the resource pack menu. 
+
 - Vanilla
     - Added some game information for the players....
         - Currently stone pickaxe & wheat seeds change

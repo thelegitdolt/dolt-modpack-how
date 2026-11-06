@@ -1,4 +1,4 @@
-[ADDON-DAVIJ] nest_egg-1.20.1-1.0.3.jar
+[ADDON-DAVIJ] nest_egg-1.20.1-1.0.4.jar
 [ADDON-DOLT] bowling_bulb-1.20.1-1.0.1.jar
 [ADDON-DOLT] dolt_mod_how-1.20.1-2.6.10-all.jar
 [ADDON-DOLT] doltastic_enchantments-1.20.1-1.0.3.jar
@@ -9,7 +9,7 @@
 [ADDON] MyNethersDelight-1.20.1-1.10.4.jar
 [ADDON] QuarkOddities-1.20.1.jar
 [ADDON] abnormals_delight-1.20.1-5.0.1.jar
-[ADDON] cc_compat-1.2.1.jar
+[ADDON] cc_compat-1.3.0.jar
 [ADDON] create_repair-forge-1.20.1-1.3.0-all.jar
 [ADDON] doom_and_gloom-forge-2.0.0.jar
 [ADDON] dye_the_world-1.7.3.jar
@@ -28,7 +28,7 @@
 [CLIENT-RMS] Pack2Reload-Forge-1.20.1-1.0.1.jar
 [CLIENT-RMS] entityculling-forge-1.11.3-mc1.20.1.jar
 [CLIENT-RMS] fusion-1.3.16-forge-mc1.20.1.jar
-[CLIENT-RMS] immersiveoverlays-1.8.5+1.20.1-forge.jar
+[CLIENT-RMS] immersiveoverlays-1.8.6+1.20.1-forge.jar
 [CLIENT-RMS] reliable_advancements-forge-1.20.1-4.1.0.jar
 [CLIENT-RMS] sound-physics-remastered-forge-1.20.1-1.5.1.jar
 [CLIENT-RM] HeldItemTooltips-v8.0.0-1.20.1-Forge.jar
@@ -36,11 +36,12 @@
 [CLIENT-RM] cherishedworlds-forge-6.1.7+1.20.1.jar
 [CLIENT-RM] foglooksmodernnow-1.2.1.jar
 [CLIENT-RM] modelfix-1.15.jar
+[CLIENT] PresenceFootsteps-1.20.1-1.9.1-beta.1.jar
 [CLIENT] Pretty Rain-1.20.1-Forge-1.1.3.jar
 [CLIENT] emi-1.1.24+1.20.1+forge.jar
 [CLIENT] item-descriptions-2.5.4+1.20.1-forge.jar
-[CLIENT] jei-1.20.1-forge-15.62.0.219.jar
-[CLIENT] music_tweaks-forge-1.20.1-1.7.0.jar
+[CLIENT] jei-1.20.1-forge-15.74.0.234.jar
+[CLIENT] music_tweaks-2.1.1+1.20.1-forge.jar
 [CLIENT] watut-forge-1.20.1-1.2.3.jar
 [CONTENT] Architects-Palette-1.20.1-1.3.6.1.jar
 [CONTENT] Darker Depths-1.20.1-2.1.5.jar
@@ -65,7 +66,7 @@
 [CONTENT] immersiveenchanting-4.0.3-forge-1.20.1.jar
 [CONTENT] melancholic_hunger-2.0.7-1.20.1-forge.jar
 [CONTENT] mowziesmobs-1.8.2.jar
-[CONTENT] naturaltemperature-1.1.10-FORGE-MC-1.20.1.jar
+[CONTENT] naturaltemperature-1.2.2-FORGE-MC-1.20.1.jar
 [CONTENT] neapolitan-1.20.1-5.1.0.jar
 [CONTENT] savage_and_ravage-1.20.1-6.0.1.jar
 [CONTENT] spawn-4.0.8-1.20.1.jar
@@ -104,9 +105,9 @@
 [MINOR] connectiblechains-forge-1.20.1-2.2.5.jar
 [MINOR] ditr-1.20.1-1.1.1.jar
 [MINOR] enhanced_mushrooms-5.0.0.jar
-[MINOR] everycomp-1.20-2.9.27-forge.jar
+[MINOR] everycomp-1.20-2.9.29-forge.jar
 [MINOR] exposure-forge-1.20.1-1.9.22.jar
-[MINOR] fieldguide-1.21.4+1.20.1-forge.jar
+[MINOR] fieldguide-1.23.0+1.20.1-forge.jar
 [MINOR] fishingreal-forge-1.20.1-1.9.1-backport.jar
 [MINOR] fishnostuck-mc1.20.1-v1.0.3-forge.jar
 [MINOR] forgery-3.6.5+1.20.jar
@@ -125,7 +126,7 @@
 [MINOR] pet_cemetery-1.20.1-2.0.0.jar
 [MINOR] piglinproliferation-1.20.1-1.2.8.jar
 [MINOR] pigsteel-1.20.1-5.1.0.jar
-[MINOR] scholar-1.20.1-1.2.9-forge.jar
+[MINOR] scholar-1.20.1-1.2.10-forge.jar
 [MINOR] secondchanceforge-1.20-1.5.1.jar
 [MINOR] separatedleaves-2.6.0-forge-1.20.4.jar
 [MINOR] slimes-gallery-1.1-1.20.1-forge-indev.jar
@@ -140,7 +141,7 @@
 [PERF] ferritecore-6.0.1-forge.jar
 [PERF] memoryleakfix-forge-1.17+-1.1.5.jar
 [PERF] mobtimizations-forge-1.20.1-1.0.0.jar
-[PERF] modernfix-forge-5.27.88+mc1.20.1.jar
+[PERF] modernfix-forge-5.27.91+mc1.20.1.jar
 [PERF] noisium-forge-2.3.0+mc1.20-1.20.1.jar
 [PERF] packetfixer-3.3.2-1.18-1.20.4-merged.jar
 [SERVER-PERF] dimthread-FORGE-mc1.20.1-v1.2.1.jar
@@ -153,10 +154,11 @@
 [TOOL] attributesetter-2.1.1-forge.jar
 [TOOL] biggerstacks-1.20.1-2026.06.17-all.jar
 [TOOL] fancymenu_forge_3.9.14_MC_1.20.1.jar
-[TOOL] incontrol-1.20-9.5.0.jar
+[TOOL] incontrol-1.20-9.5.1.jar
+[TOOL] logfilter-forge-1.20.1-1.1.2.jar
 [TOOL] polytone-1.20-3.5.26.jar
 [TOOL] propertymodifier-1.20.1-0.1-all.jar
-[TOOL] reliable_remover-3.5.3+1.20.1-forge.jar
+[TOOL] reliable_remover-3.8.4+1.20.1-forge.jar
 {LIB} ElysiumAPI-1.20.1-1.1.3.jar
 {LIB} PuzzlesLib-v8.1.36-1.20.1-Forge.jar
 {LIB} Zeta-1.0-31.jar
@@ -173,8 +175,8 @@
 {LIB} konkrete_forge_1.8.0_MC_1.20-1.20.1.jar
 {LIB} kotlinforforge-4.12.0-all.jar
 {LIB} melody_forge_1.0.3_MC_1.20.1-1.20.4.jar
-{LIB} mezz_config-1.20.1-forge-0.6.8.jar
-{LIB} moonlight-1.20-2.16.36-forge.jar
+{LIB} mezz_config-1.20.1-forge-0.6.11.jar
+{LIB} moonlight-1.20-2.16.38B-forge.jar
 {LIB} mru-1.0.41+1.20.1-forge.jar
-{LIB} reliable_recipes-3.5.1+1.20.1-forge.jar
+{LIB} reliable_recipes-3.8.3+1.20.1-forge.jar
 {LIB} yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar

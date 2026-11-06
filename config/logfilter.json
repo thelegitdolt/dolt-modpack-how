@@ -1,0 +1,48 @@
+{
+  "configVersion": 1,
+  "enabled": true,
+  "rules": [
+    {
+      "name": "Blockstate definitions",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Exception loading blockstate definition:",
+      "action": "DENY"
+    },
+    {
+      "name": "unable to load model definitions",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Failed to load model",
+      "action": "DENY"
+    },
+    {
+      "name": "unable to load model definitions",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unable to load model",
+      "action": "DENY"
+    },
+    {
+      "name": "Sound physics Sound config",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unknown sound in sound rate config",
+      "action": "DENY"
+    },
+    {
+      "name": "Missing texture model definitions",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing textures in model",
+      "action": "DENY"
+    },
+    {
+      "name": "DS store",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": ".DS_Store",
+      "action": "DENY"
+    }
+  ]
+}
