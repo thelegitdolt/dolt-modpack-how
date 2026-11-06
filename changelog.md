@@ -11,11 +11,15 @@
     - Added some game information for the players....
         - Currently stone pickaxe & wheat seeds change
     - Added netherite scraps & netherite ingots to nether fortress loot tables 
+    - Added necromium ingots to JNE Sanctum loot tables 
 
 - Farmer's Delight
     - Dough changes!
         - 4 wheats OR Flour Create can be used to craft 2 doughs. 
         - Flour Create can now be substituted for wheat in all pastry recipes, such as neapolitan cakes and FD pie crusts
+
+- Windswept
+    - Fixed christmas pudding not stacking to 100
 
 # Dolt Modpack How 1.ω.5
 

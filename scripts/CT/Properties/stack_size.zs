@@ -66,6 +66,7 @@ for i in <tag:items:farmersdelight:feasts> {
 
 <item:sob:big_soup_block>.setMaxStackSize(100);
 <item:sob:roast_turkey_block>.setMaxStackSize(100);
+<item:windswept:christmas_pudding>.setMaxStackSize(100);
 
 # for col in RUtil.colors {
 #    <item:endergetic:${col}_bolloom_balloon>.setMaxStackSize(100);
